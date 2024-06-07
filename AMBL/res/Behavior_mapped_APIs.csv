@@ -1,0 +1,87 @@
+﻿Initialize intent,IntentService->init,Intent->init
+File read,File->canRead,File->setReadable,FileReader->read,,File->exists,RandomAccessFile->readFully
+Write file,File->canWrite,FileWriter->write,Writer->write,StringWriter->wirte,FileOutputStream->write
+File remove,File->delete,File->deleteOnExit,Files->delete,Files->deleteIfExists
+Add view,ViewPager->addView
+Read SharedPreferences,Context->getSharedPreferences,PreferenceManager;->getDefaultSharedPreferences
+Access network state,NetworkInfo->getState
+Initialize URI,Uri->parse
+Access network,NetworkInfo->isAvailable,NetworkInfo->isConnected,WifiManager->getConnectionInfo
+Set SharedPreferences,SharedPreferences->edit,SharedPreferences.Editor->putLong
+Get device id,Context->getDeviceId
+Read one line from buffer,BufferedReader->readLine
+Register receiver,DataSetObservable;->registerObserver
+Send network data,HttpURLConnection->getResponseCode
+Receive network data,HttpEngineDataSource->read
+Initialize URL,URLConnection->url
+Get connected WIFI,WIFIManager->getConnectionInfo,WIFIManager->getAllowedChannels
+Read system settings,System->getConfiguration
+Create file,File->createNewFile,File->createTempFile,File->mkdir,Files->createFile,Files->createTempFile
+Access URL,URL->getAuthority
+Get user id,UserData->getId
+Send extra information,Intent;->putExtra
+Start service,Service->onStart
+Write external storage,Context->getExternalFilesDir,Context->getExternalFilesDirs
+Load dynamic library,System->loadLibrary
+Execute SQL query,DatabaseView->getValue
+Call setAction of intent,Intent->setAction
+Active Activity,Context->startActivity
+Execute system command,ProcessBuilder->command
+Parse URI,URI->parseServerAuthority
+Access database,Database->getEntities
+Initialize monitor driver file,UsbManager->getAccessoryList
+Run-time error,none
+Window information,Window->getAttributes
+Read external storage,Context->getExternalFilesDir
+Get special property of simulator,TelephonyManager->getCarrierIdFromSimMccMnc,TelephonyManager->getSimCarrierId
+Send broadcast,Context->sendBroadcast
+Write system settings,Settings.System->putInt,Settings.System->putString
+Access location,Location->getLongitude,Location->getAltitude,LocationManager->requestLocationUpdates
+Monitor network data,HttpURLConnection->getRequestMethod
+Get running service,ActivityManager.RunningServiceInfo->getSystemService
+Get last location,LocationManager->getLastKnownLocation
+Get scanned WIFI,WifiServiceImpl->enableNetwork,
+Access shared app data,ActivityCompat->requestPermissions
+Check root access,Root->isReady
+Get installed app,PackageManager->getInstalledApplications
+Change component property,View->setVisibility
+Get running task,ActivityManager->ActivityManager
+Load class,ClassLoader->PathClassLoader,ClassLoader->DexClassLoader
+Make toast,Toast->makeText
+Create new process,ProcessBuilder->start
+Initialize new process,ProcessBuilder->init
+Create database,Database->getEntities
+Get WIFI state,WifiManager->getConnectionInfo,WifiManager->isWifiEnabled
+Set timed task,Handler->postDelayed,AlarmManager->set
+Get phone number,TelephonyManager->getLine1Number,TelephonyManager->getSimState
+Load website in webview,WebView->loadUrl
+Set looped task,Handler->postDelayed
+Detect device id (Anti-simulator),TelephonyManager->getDeviceId
+Detect operator brand (Anti-simulator),TelephonyManager->getNetworkOperatorName,TelephonyManager->getSimOperatorName
+添加App共享数据,ContentProvider->openFile
+Send notification,NotificationManager->notify
+Read URL data,HttpURLConnection->getInputStream
+Install shortcut,ShortcutManagerCompat->addDynamicShortcuts
+Get main intent of APK,IntentFilter->getPriority
+Check available GPS,Geolocation->addGPSListener,MediationAdRequest->getLocation
+Scan WIFI,WifiManager->startScan,WifiManager->getScanResults
+Get stored WIFI,WifiServiceImpl->setWifiApEnabled
+Get standby state,PowerManager->isInteractive
+Detect specific file (Anti-simulator),Files->find,File->find,File->exists
+Add alert window,AlertDialog.Builder->create
+Active ActivityForResult,Activity->startActivityForResult
+Get specific account,AccountManager->getAccounts
+Uninstall shortcut,ShortcutManagerCompat->removeAllDynamicShortcuts
+Get accounts,AccountManager->getAccounts
+Aquire root access,ActivityCompat->requestPermissions
+Read call log,ContentResolver->query
+Detect IMSI id (Anti-simulator),TelephonyManager ->getSubscriberId
+Disable keyguard,KeyguardManager->disableKeyguard
+Detect phone number (Anti-simulator),TelephonyManager->getLine1Number,TelephonyManager->listen,Utils->getPhoneNumber
+Start recording,MediaRecorder->start,AudioRecord->startRecording
+Send sms,PermissionChecker->hasSmsPermission,SMSMMSResultParser->getMassagedText,TorSender->sendInterceptedIncomingSMS,TorSender->sendListenedIncomingSMS,SMSMMSResultParser->parse,SmsMessage->getOriginatingAddress,SMSParsedResult->getSMSURI,PermissionChecker->hasPhonePermission,SmsMessage->createFromPdu,SmsMessage->getMessageBody,SmsManager->sendTextMessage,TorSender->sendListenedOutgoingSMS
+Open bluetooth,BluetoothManager->getSystemService
+Kill background processes,ActivityManager->killBackgroundProcesses
+Install APK via intent,PackageManager->installPackage
+Download file,HttpURLConnection->getInputStream
+Activate device manager,DevicePolicyManager->reboot
