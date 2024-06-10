@@ -6,9 +6,6 @@ import asyncio
 from bs4 import BeautifulSoup
 from pyppeteer.launcher import launch
 
-
-
-
 def screen_size():
     """使用tkinter获取屏幕大小"""
     import tkinter
@@ -18,7 +15,7 @@ def screen_size():
     tk.quit()
     return width, height
 
-async def get_data(sha256_code):
+async def get_data(sha256_code, target_path):
     browser = await launch(
         {'headless': False, 'args': ['--no-sandbox'], },
         userDataDir='./userdata',
@@ -36,7 +33,7 @@ async def get_data(sha256_code):
     await page1.goto(url1,timeout=10000000)
     content = await page1.content()
     # path_write_txt='D:/here/work/2021-knowledge-graph/DB_txt/'+code+'.txt'
-    path_write_txt = 'D:\\lab_related\\malware_spider\\spider_result\\' + sha256_code + '.txt'
+    path_write_txt = target_path + sha256_code + '.txt'
     bs = BeautifulSoup(content, "lxml")
 
     news_contents = bs.find_all('div',class_="enum-container")
@@ -45,31 +42,32 @@ async def get_data(sha256_code):
          file.write(i.get_text())
     await browser.close()
     print(f'{sha256_code} success')
+    return path_write_txt
 
 def collect_behaviors(file_path):
-    base_path = 'D:\\lab_related\\malware_spider\\'  # 以\\结束
+
     txt_file = open(file_path, 'r', encoding='utf-8')
-    csv_file = open(base_path + 'behavior_result.csv', 'a')
+    # csv_file = open(base_path + 'behavior_result.csv', 'a')
 
     file_sh256 = file_path.split('\\')[-1].split('.')[0]
-    csv_file.write(file_sh256)
-    csv_file.write(',')
+    # csv_file.write(file_sh256)
+    # csv_file.write(',')
     flag = False
     behaviour_list = []
     for line in txt_file.readlines():
         if flag:
             if line.strip() not in behaviour_list:
                 behaviour_list.append(line.strip())
-                csv_file.write(line.strip())
-                csv_file.write(',')
+                # csv_file.write(line.strip())
+                # csv_file.write(',')
             flag = False
         if line.strip() == 'Behaviour:':
             flag = True
-    csv_file.write('\n')
-    csv_file.close()
+    # csv_file.write('\n')
+    # csv_file.close()
+    return behaviour_list
 
 if __name__ == '__main__':
-
     sha_file = open('D:\\lab_related\\malware_spider\\sha_result.txt', 'r')
     error_file = open('D:\\lab_related\\malware_spider\\error_sha256.txt', 'w')
     for index, line in enumerate(sha_file.readlines()):
@@ -83,5 +81,4 @@ if __name__ == '__main__':
             error_file.write(sha256_code)
             error_file.write('\n')
         print('\n')
-        # loop.run_until_complete(main(username, pwd, url))
 

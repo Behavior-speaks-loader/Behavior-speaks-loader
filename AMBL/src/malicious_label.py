@@ -2,10 +2,12 @@ import csv
 import glob
 import os
 import pickle
-
-def get_behavior_list():
-    behavior_list = []
+from src.scrapy_behavior import get_data, collect_behaviors
+def get_behavior_list(targt_path, apk_sha256):
+    scrap_path = get_data(apk_sha256,targt_path)
+    behavior_list = collect_behaviors(scrap_path)
     return behavior_list
+
 def behavior_api_match():
     re_dict = {}
     with open("../res/Behavior_mapped_APIs.csv",'r') as f:
@@ -18,12 +20,27 @@ def behavior_api_match():
     fre = open("../res/Behavior_mapped_APIs.data", 'wb')
     pickle.dump(re_dict, fre)
     f.close()
-def label_related_api():
-    re_dict = {}
-    return re_dict
 
-def malicious_subgraph(node_path,edge_path,layer=1):
-    behavior_list = get_behavior_list()
+def label_related_api():
+    label_related_API_path = "../res/label_related_APIs.data"
+    if os.path.exists(label_related_API_path):
+        f = open(label_related_API_path, 'rb')
+        label_related_API = pickle.load(f)
+    else:
+        label_related_API = {}
+        with open("../res/label_related_APIs.csv", 'r') as l2a_f:
+            for line in l2a_f.readlines():
+                api_ = line.strip().split(',')[0]
+                label = line.strip().split(',')[1]
+                if api_ not in label_related_API:
+                    label_related_API[api_] = label
+        f = open(label_related_API_path, 'wb')
+        pickle.dump(label_related_API, f)
+        f.close()
+    return label_related_API
+
+def malicious_subgraph(apk_sha256, node_path, edge_path, targt_path,layer=1):
+    behavior_list = get_behavior_list(targt_path, apk_sha256)
     behavior_api_match = pickle.load(open("../res/Behavior_mapped_APIs.data","rb"))
 
     temp_core_node_list = []
@@ -57,8 +74,6 @@ def malicious_label(node_path,edge_path):
                 if label_now not in label_list:
                     label_list.append(label_now)
     return label_list
-
-
 
 def get_center_list(node_path,edge_path, api_list, layer):
     node_list = []
@@ -101,4 +116,5 @@ def get_center_list(node_path,edge_path, api_list, layer):
     print(f'length of second layer is {len(node_list)}')
     return node_list
 
-behavior_api_match()
+def malware_report(apk_sha256, apk_path):
+    print()

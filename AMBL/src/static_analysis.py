@@ -1,15 +1,14 @@
 import os
 from androguard.core.bytecodes.apk import APK
 
-def adguard_permission(apk_id):
-    base_path = 'I:\\B326_backup\\lab_file\\GooglePlay_Malware\\ICSE22ArtifactsZip\\ICSE22ArtifactsZip\\GPMalware_ICSE22\\malware_samples\\'
-    a = APK(base_path + apk_id + '.apk')
+def adguard_permission(apk_path):
+    a = APK(apk_path)
     permissions = a.get_permissions()
     print(permissions)
     return permissions
-def adguard_intents(apk_id):
-    base_path = 'I:\\B326_backup\\lab_file\\GooglePlay_Malware\\ICSE22ArtifactsZip\\ICSE22ArtifactsZip\\GPMalware_ICSE22\\malware_samples\\'
-    a = APK(base_path + apk_id + '.apk')
+
+def adguard_intents(apk_path):
+    a = APK(apk_path)
     activities = a.get_activities()
     services = a.get_services()
     receives = a.get_receivers()
@@ -25,24 +24,19 @@ def adguard_intents(apk_id):
         d.update(intents_temp)
     return d
 
-def adguard_cg(apk_id):
-    base_path = 'I:\\B326_backup\\lab_file\\GooglePlay_Malware\\ICSE22ArtifactsZip\\ICSE22ArtifactsZip\\GPMalware_ICSE22\\malware_samples\\'
-    target_path = 'D:\\lab_related\\dataset_work\\GooglePlay_Malware_cg\\'
-    command = 'androguard cg ' + base_path + apk_id + '.apk -o ' + target_path + apk_id + '.gml'
+def adguard_cg(apk_id, apk_path, target_path):
+    command = 'androguard cg ' + apk_path + ' -o ' + target_path + apk_id + '.gml'
     print(apk_id)
     os.system(command)
 
-def change_format_gml(apk_id):
-    '''
-    对于androguard生成的call graph的gml文件，改一下格式用于输入deepwalk
-    :param gml_file:
-    :return:
-    '''
-    gml_path = 'D:\\lab_related\\dataset_work\\GooglePlay_Malware_cg\\'
+def change_format_gml(apk_id, target_path):
+    gml_path = target_path
     # apk_name = gml_file.strip().split('/')[-1].split('.')[0]
     print(apk_id)
     # base_path = '/home/fly/fly/dataset_file/virusshare_after_cg'
-    base_path = 'D:\\lab_related\\dataset_work\\GooglePlay_Malware_cg\\'
+    base_path = target_path
+    node_path = base_path + apk_id + '_node.csv'
+    edge_path = base_path + apk_id + '_edgelist.txt'
     with open(gml_path + apk_id + '.gml', 'r', encoding='utf-8') as gml_f:
         node_info = open(base_path + apk_id + '_node.csv', 'w', encoding='utf-8')
         node_info.write('id,label,external,entrypoint\n')  #写列名
@@ -69,3 +63,4 @@ def change_format_gml(apk_id):
                 target = line.strip().split(' ')[1]
                 edge_list.write(source + ' ' + target + '\n')
                 source, target = '', ''
+    return node_path, edge_path
