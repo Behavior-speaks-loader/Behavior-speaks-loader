@@ -41,7 +41,7 @@ optional arguments:
 Here is an example of the command to generate a malware report: 
 
 ```
-python main.py --apk_sha256 4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610 --apk_path ./res/4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610/4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610 --output_path ./res/4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610/ --Malware_report
+python main.py --apk_sha256 4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610 --apk_path ./res/4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610/4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610 --output_path ./res/ --Malware_report
 ```
 
 ## Dataset
