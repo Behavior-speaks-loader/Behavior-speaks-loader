@@ -5,23 +5,23 @@ from src.static_analysis import adguard_cg, change_format_gml, adguard_intents,a
 
 def begin_arg():
     parse = argparse.ArgumentParser()
-    parse.add_argument('--apk_sha256', type=str,required=True,help='SHA256 of the malware')
+    parse.add_argument('--apk_sha256', type=str, required=True,help='SHA256 of the malware')
     parse.add_argument('--apk_path', type=str, required=True, help='The file path of malware')
-    parse.add_argument('--output_path', default='./res', type=str, help='output path')
-    parse.add_argument('--Permission', help='Print permissions used by the malware')
-    parse.add_argument('--API', help='Print APIs used by the malware')
-    parse.add_argument('--Intent',help='Print intents used by the malware')
-    parse.add_argument('--Function_call_graph', help="Generate the function call graph for malware,"
+    parse.add_argument('--output_path', default='./res/', type=str, help='output path')
+    parse.add_argument('--Permission', action='store_true', help='Print permissions used by the malware')
+    parse.add_argument('--API', action='store_true', help='Print APIs used by the malware')
+    parse.add_argument('--Intent', action='store_true', help='Print intents used by the malware')
+    parse.add_argument('--Function_call_graph', action='store_true',help="Generate the function call graph for malware,"
                                                      " with the output file ending in a. gml suffix")
-    parse.add_argument('--Malicious_label', help='Print the malicious labels of the malware')
-    parse.add_argument('--Malware_report', help='Generate the malware report for the malware')
+    parse.add_argument('--Malicious_label', action='store_true',help='Print the malicious labels of the malware')
+    parse.add_argument('--Malware_report', action='store_true',help='Generate the malware report for the malware')
     args = parse.parse_args()
     return args
 
 if __name__ == '__main__':
     args = begin_arg()
     apk_sha256 = args.apk_sha256
-    result_folder = args.output_path + '/' + apk_sha256 + '/'
+    result_folder = args.output_path + apk_sha256 + '/'
     os.mkdir(result_folder)
 
     fcg_flag = False
@@ -58,5 +58,5 @@ if __name__ == '__main__':
         print(intent)
 
     if args.Malware_report:
-        malware_report(apk_sha256, args.apk_path)
+        malware_report(apk_sha256, args.apk_path, args.output_path)
 

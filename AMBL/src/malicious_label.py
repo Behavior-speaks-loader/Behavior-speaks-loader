@@ -1,6 +1,4 @@
-import csv
-import glob
-import os
+import asyncio
 import pickle
 from src.scrapy_behavior import get_data, collect_behaviors
 from src.static_analysis import *
@@ -10,7 +8,8 @@ def get_behavior_list(target_path, apk_sha256):
     if os.path.exists(target_path + apk_sha256 + '_behavior.txt'):
         scrap_path = target_path + apk_sha256 + '_behavior.txt'
     else:
-        scrap_path = get_data(apk_sha256,target_path)
+        scrap_path = asyncio.get_event_loop().run_until_complete(get_data(apk_sha256,target_path))
+        # scrap_path = get_data(apk_sha256,target_path)
     behavior_list = collect_behaviors(scrap_path)
     return behavior_list
 
