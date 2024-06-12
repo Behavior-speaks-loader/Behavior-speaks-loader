@@ -22,7 +22,8 @@ if __name__ == '__main__':
     args = begin_arg()
     apk_sha256 = args.apk_sha256
     result_folder = args.output_path + apk_sha256 + '/'
-    os.mkdir(result_folder)
+    if not os.path.exists(result_folder):
+        os.mkdir(result_folder)
 
     fcg_flag = False
     if args.Function_call_graph:
