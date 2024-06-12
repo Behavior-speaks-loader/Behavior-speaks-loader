@@ -138,7 +138,7 @@ def malware_report(apk_sha256, apk_path, output_path):
 
     intents = adguard_intents(apk_path)
 
-    apis_path = adguard_api(node_path,target_path)
+    apis_path = adguard_api(node_path,output_path)
 
     re_f.write(apk_sha256 + ":")
     re_f.write(str(labels) + '\n')
