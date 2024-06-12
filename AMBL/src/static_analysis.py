@@ -64,3 +64,13 @@ def change_format_gml(apk_id, target_path):
                 edge_list.write(source + ' ' + target + '\n')
                 source, target = '', ''
     return node_path, edge_path
+
+def adguard_api(node_path, target_path):
+    re_f = open(target_path + 'api.txt', 'w')
+    api_ist = []
+    with open(node_path, 'r') as f:
+        line0 = f.readline()
+        for line in f.readlines():
+            api = line.strip().split(',')[1]
+            re_f.write(api+'\n')
+    return target_path + 'api.txt'

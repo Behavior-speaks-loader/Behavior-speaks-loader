@@ -33,7 +33,7 @@ async def get_data(sha256_code, target_path):
     await page1.goto(url1,timeout=10000000)
     content = await page1.content()
     # path_write_txt='D:/here/work/2021-knowledge-graph/DB_txt/'+code+'.txt'
-    path_write_txt = target_path + sha256_code + '.txt'
+    path_write_txt = target_path + sha256_code + '_behavior.txt'
     bs = BeautifulSoup(content, "lxml")
 
     news_contents = bs.find_all('div',class_="enum-container")
