@@ -6,6 +6,10 @@ The AMBL folder contains the code and dependent files (Malicious Behaviors Mappe
 
 To run this code, you first need to follow the dependencies described in *requirement. txt*.
 
+```
+pip install ./res/requirement.txt
+```
+
 Then you can obtain the details of running the code through the *Python main.py -- help* command
 
 ```
@@ -39,8 +43,6 @@ Here is an example of the command to generate a malware report:
 ```
 python main.py --apk_sha256 4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610 --apk_path ./res/4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610/4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610 --output_path ./res/4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610/ --Malware_report
 ```
-
-
 
 ## Dataset
 
