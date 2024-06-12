@@ -15,25 +15,25 @@ def get_behavior_list(target_path, apk_sha256):
 
 def behavior_api_match():
     re_dict = {}
-    with open("../res/Behavior_mapped_APIs.csv",'r') as f:
+    with open("./res/Behavior_mapped_APIs.csv",'r') as f:
         for line in f.readlines():
             e_list = line.strip().split(',')
             behavior = e_list[0]
             api_list = e_list[1:]
             print(behavior + ":  " + str(api_list))
             re_dict[behavior] = api_list
-    fre = open("../res/Behavior_mapped_APIs.data", 'wb')
+    fre = open("./res/Behavior_mapped_APIs.data", 'wb')
     pickle.dump(re_dict, fre)
     f.close()
 
 def label_related_api():
-    label_related_API_path = "../res/label_related_APIs.data"
+    label_related_API_path = "./res/label_related_APIs.data"
     if os.path.exists(label_related_API_path):
         f = open(label_related_API_path, 'rb')
         label_related_API = pickle.load(f)
     else:
         label_related_API = {}
-        with open("../res/label_related_APIs.csv", 'r') as l2a_f:
+        with open("./res/label_related_APIs.csv", 'r') as l2a_f:
             for line in l2a_f.readlines():
                 api_ = line.strip().split(',')[0]
                 label = line.strip().split(',')[1]
@@ -45,9 +45,9 @@ def label_related_api():
     return label_related_API
 
 def malicious_subgraph(apk_sha256, node_path, edge_path, targt_path,layer=1):
-    behavior_api_match = pickle.load(open("../res/Behavior_mapped_APIs.data", "rb"))
+    behavior_api_match = pickle.load(open("./res/Behavior_mapped_APIs.data", "rb"))
     behavior_list = get_behavior_list(targt_path, apk_sha256)
-    # behavior_api_match = pickle.load(open("../res/Behavior_mapped_APIs.data","rb"))
+    # behavior_api_match = pickle.load(open("./res/Behavior_mapped_APIs.data","rb"))
 
     temp_core_node_list = []
     for behavior in behavior_list:
@@ -130,13 +130,9 @@ def malware_report(apk_sha256, apk_path, output_path):
     if not os.path.exists(output_path + apk_sha256):
         os.mkdir(output_path + apk_sha256)
     re_f = open(output_path + 'report.txt', 'w')
-
-    # node_path = r"D:\lab_related\script_project\AMBL\res\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610_node.csv"
-    # edge_path = r"D:\lab_related\script_project\AMBL\res\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610_edgelist.txt"
-
     adguard_cg(apk_sha256, apk_path, output_path)
     node_path, edge_path = change_format_gml(apk_sha256, output_path)
-    labels = malicious_label(apk_sha256,node_path, edge_path,target_path)
+    labels = malicious_label(apk_sha256,node_path, edge_path,output_path)
 
     permission_list = adguard_permission(apk_path)
 
@@ -163,12 +159,3 @@ def malware_report(apk_sha256, apk_path, output_path):
     re_f.write('node path: ' + node_path + '\n')
     re_f.write('edge path: ' + edge_path)
 
-# # node_path = r"D:\lab_related\script_project\AMBL\res\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610_node.csv"
-# # edge_path = r"D:\lab_related\script_project\AMBL\res\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610_edgelist.txt"
-# apk_sha256 = "4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610"
-# target_path = r"D:\lab_related\script_project\AMBL\res\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610\\"
-# apk_path = r"D:\lab_related\script_project\AMBL\res\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610\4fe0bc6ec7c284b92f6e45aca7ea7972d1b60a913f2af884dd79b03cd2add610"
-# # label_list = malicious_label(apk_sha256,node_path, edge_path,target_path)
-# # print(label_list)
-#
-# malware_report(apk_sha256,apk_path,target_path)

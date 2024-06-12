@@ -58,5 +58,5 @@ if __name__ == '__main__':
         print(intent)
 
     if args.Malware_report:
-        malware_report(apk_sha256, args.apk_path, args.output_path)
+        malware_report(apk_sha256, args.apk_path, result_folder)
 
