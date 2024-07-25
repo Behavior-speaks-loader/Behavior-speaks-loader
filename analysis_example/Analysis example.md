@@ -16,7 +16,7 @@ The process of manual analysis is as follows:
    Location getGPSLocation(Context paramContext){
      if (Util.checkPermission(paramContext, "android.permission.ACCESS_FINE_LOCATION")) {
    …
-   return locationManager.getLastKnownLocation("gps");
+     return locationManager.getLastKnownLocation("gps");
    }
    ```
 
