@@ -1,6 +1,6 @@
 # Example of Analysis Process
 
-![case_example](..\image\case_example.png)
+![case_example](../image/case_example.png)
 
 
 
