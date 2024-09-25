@@ -1,0 +1,38 @@
+5107ec63f40099b6aa33b3e6adbf0acf53b2266af4b932d8938ce53daf5e89b8:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.USE_FINGERPRINT
+android.permission.INTERNET
+android.permission.REQUEST_INSTALL_PACKAGES
+com.domobile.mixnote.permission.C2D_MESSAGE
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+android.permission.MEDIA_CONTENT_CONTROL
+------------------------------
+API:
+./res/5107ec63f40099b6aa33b3e6adbf0acf53b2266af4b932d8938ce53daf5e89b8/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+com.google.android.c2dm.intent.REGISTRATION
+com.domobile.mixnote
+------------------------------
+Function call graph:
+gml path: ./res/5107ec63f40099b6aa33b3e6adbf0acf53b2266af4b932d8938ce53daf5e89b8/5107ec63f40099b6aa33b3e6adbf0acf53b2266af4b932d8938ce53daf5e89b8.gml

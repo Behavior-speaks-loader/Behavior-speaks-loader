@@ -1,0 +1,46 @@
+4e4810970453da4204f594ad067ff91712387a0b3dc79d3a89acf06564a7a427:['File', 'Network']
+------------------------------
+Permissions:
+cn.ptaxi.mofen.master.permission.JPUSH_MESSAGE
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.SEND_SMS
+android.permission.CHANGE_CONFIGURATION
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/4e4810970453da4204f594ad067ff91712387a0b3dc79d3a89acf06564a7a427/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.TIME_SET
+android.intent.action.TIMEZONE_CHANGED
+com.tencent.qalsdk.service.TASK_REMOVED
+cn.ptaxi.mofen.master
+------------------------------
+Function call graph:
+gml path: ./res/4e4810970453da4204f594ad067ff91712387a0b3dc79d3a89acf06564a7a427/4e4810970453da4204f594ad067ff91712387a0b3dc79d3a89acf06564a7a427.gml

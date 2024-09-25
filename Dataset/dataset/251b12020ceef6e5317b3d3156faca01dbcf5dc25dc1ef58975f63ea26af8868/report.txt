@@ -1,0 +1,41 @@
+251b12020ceef6e5317b3d3156faca01dbcf5dc25dc1ef58975f63ea26af8868:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+com.android.launcher.permission.INSTALL_SHORTCUT
+com.ikaoshi.english.cet4..permission.ACCESS_DOWNLOAD_MANAGER
+android.permission.ACCESS_FINE_LOCATION
+com.ikaoshi.english.cet4.permission.JPUSH_MESSAGE
+android.permission.INTERNET
+com.ikaoshi.english.cet4..permission.SEND_DOWNLOAD_COMPLETED_INTENTS
+android.permission.ACCESS_MOCK_LOCATION
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECORD_AUDIO
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.ikaoshi.english.cet4..permission.ACCESS_DOWNLOAD_MANAGER_ADVANCED
+------------------------------
+API:
+./res/251b12020ceef6e5317b3d3156faca01dbcf5dc25dc1ef58975f63ea26af8868/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.REGISTRATION
+cn.jpush.android.intent.UNREGISTRATION
+cn.jpush.android.intent.MESSAGE_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_OPENED
+cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+cn.jpush.android.intent.CONNECTION
+com.ikaoshi.english.cet4
+------------------------------
+Function call graph:
+gml path: ./res/251b12020ceef6e5317b3d3156faca01dbcf5dc25dc1ef58975f63ea26af8868/251b12020ceef6e5317b3d3156faca01dbcf5dc25dc1ef58975f63ea26af8868.gml

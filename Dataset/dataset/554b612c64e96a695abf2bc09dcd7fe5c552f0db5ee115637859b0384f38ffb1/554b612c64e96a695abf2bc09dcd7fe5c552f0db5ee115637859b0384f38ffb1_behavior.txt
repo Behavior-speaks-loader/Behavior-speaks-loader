@@ -1,0 +1,812 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+554b612c64e96a695abf2bc09dcd7fe5c552f0db5ee115637859b0384f38ffb1
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.frego.flashlight
+
+
+
+
+Minimum system version:
+Android 2.2.x
+
+
+
+
+Copyright:
+N/A
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.133.40.** port:80 data:data:POST /app_logs HTTP/1.1
+X-Umeng-UTC: 1451530994937
+X-Umeng-Sdk: Android/5.4.2 %E7%B2%BE%E5%93%81%E6%89%8B%E7%94%B5%E7%AD%92%2F3.2.8+Lenovo+A360t%2F4.4.4+EEA29BE67CC354A96BE36BB4865606C1
+Msg-Type: envelope
+Content-Length: 609
+Host: alog.umeng.com
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:1.053296ae96c738f1a26000002@f29ac0d95cb7326f4b6b646de1aad8822b7801d3cfcae840d8ae1ddd70148456���
+�	�x���=K�P�����
+�1CƸ��������`?�,i�k�mb�Z��Q�EWg�Eg���?��"�l,��E�=�p�{���J��iؖ�ۖ�L.tǰpdL�и��cnT�D�E��:�J5X�4%�̀T�N�a�2���`���Aq�2�O�ٜ�ˌ���`��S��zR�v��CE?�Z�R0-܄���\�)q��F+��R���Xur�Ћ��!��:(���m��a�B����y�?~X��Bv����"d��͛H�F �]���<~�8k�<�\��N2C�HΟ�<ޖPq"�?�tw�v֎�':։N�pM���F)��k��]��!����ɾ2�W���'�R/BwH���Ħ��&�o�j/Z,j��;o̵@0000c0d95cb7326f4b6b646de1aad8822b7801d3cfcae840d8ae1ddd70140000 1b33c8eef5ffecb256c0c2f47aee2935
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /app_logs HTTP/1.1
+X-Umeng-UTC: 1451530994967
+X-Umeng-Sdk: Android/5.4.2 %E7%B2%BE%E5%93%81%E6%89%8B%E7%94%B5%E7%AD%92%2F3.2.8+Lenovo+A360t%2F4.4.4+EEA29BE67CC354A96BE36BB4865606C1
+Msg-Type: envelope
+Content-Length: 609
+Host: alog.umeng.co
+Connection: Keep-Alive
+
+
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://**.129.13.**/phpcms/checkjpsdt.php?&pkn=com.frego.flashlight&pknver=3.2.8&cn=qq
+
+
+http://**.129.13.**
+
+
+http://al****om/app_logs
+
+
+http://al****om
+
+
+/app_logs
+
+
+http://al****co/app_logs
+
+
+http://al****co
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.frego.flashlight/shared_prefs/setting.xml.bak
+
+
+/data/data/com.frego.flashlight/shared_prefs/umeng_general_config.xml.bak
+
+
+/data/data/com.frego.flashlight/files/mobclick_agent_header_com.frego.flashlight
+
+
+/data/data/com.frego.flashlight/files/mobclick_agent_cached_com.frego.flashlight68
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/cpuinfo length:69
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.frego.flashlight/shared_prefs/setting.xml length:122
+
+
+path:/data/data/com.frego.flashlight/shared_prefs/umeng_general_config.xml length:261
+
+
+path:/data/data/com.frego.flashlight/files/umeng_it.cache length:68
+
+
+path:/data/data/com.frego.flashlight/files/.um/um_cache_1451530994994.env length:69
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+java/net/URLConnection;->connect
+Connect to URL
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+Camera;->open
+Open camera
+
+
+
+
+
+DefaultHttpClient;->execute
+Send HTTP request
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'session_id', u'1EBAED715C1D104EDDBDF642472FFDD6'
+
+
+u'signature', u'f29ac0d95cb7326f4b6b646de1aad8822b7801d3cfcae840d8ae1ddd70148456'
+
+
+u'activities', u'["com.frego.flashlight.MainActivity",12371]'
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'session_id', u'null'
+
+
+u'invld_id', u'null'
+
+
+u'au_p', u'null'
+
+
+u'au_u', u'null'
+
+
+u'signature', u'null'
+
+
+u'activities', u''
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "摄像头被其他应用占用，请先关闭照相机或者其他手电筒应用!", "class": "android.widget.TextView"}
+
+
+
+{"text": "确定", "class": "android.widget.Button"}
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@2189b7d8', u'font_scale', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@2189a7b8', u'sound_effects_enabled', u'0'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21849e88 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#40020002 pfl=0x8 fmt=-2 wanim=0x1030002}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218af350 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#40010180 pfl=0x8 wanim=0x1030001}'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+res/drawable/back.xml
+0x3fde91df
+
+
+
+
+res/layout/main.xml
+0xb806579a
+
+
+
+
+res/layout/set.xml
+0x1c4c6a4e
+
+
+
+
+AndroidManifest.xml
+0x515b31f4
+
+
+
+
+resources.arsc
+0xf7ddf459
+
+
+
+
+res/drawable-hdpi/a2048.png
+0x17804f8a
+
+
+
+
+res/drawable-hdpi/background1.png
+0x77db08d5
+
+
+
+
+res/drawable-hdpi/btn_settings.png
+0x350da252
+
+
+
+
+res/drawable-hdpi/hzlabel.png
+0x7a66c0c3
+
+
+
+
+res/drawable-hdpi/ic_btn_go.png
+0xe59cfa34
+
+
+
+
+res/drawable-hdpi/ic_btn_set_back_n.png
+0xc9f16a7e
+
+
+
+
+res/drawable-hdpi/ic_btn_set_back_p.png
+0xcc9110e2
+
+
+
+
+res/drawable-hdpi/ic_launcher.png
+0x67fca86c
+
+
+
+
+res/drawable-hdpi/ic_title_bg.png
+0xe11ed0d2
+
+
+
+
+res/drawable-hdpi/ic_togglebtn_no.png
+0xe0ad6ea1
+
+
+
+
+res/drawable-hdpi/ic_togglebtn_yes.png
+0x4812556d
+
+
+
+
+res/drawable-hdpi/launcher_shortcut_delete.png
+0x178cbd6e
+
+
+
+
+res/drawable-hdpi/locked_icon.png
+0x9e394101
+
+
+
+
+res/drawable-hdpi/mainbutton_off1.png
+0x6497c294
+
+
+
+
+res/drawable-hdpi/mainbutton_on1.png
+0x5035d573
+
+
+
+
+res/drawable-hdpi/morselegend.png
+0xe3026c9e
+
+
+
+
+res/drawable-hdpi/qqimage.png
+0xe26c0a6a
+
+
+
+
+res/drawable-hdpi/sliderbackground.png
+0x8a9fac5b
+
+
+
+
+res/drawable-hdpi/sliderhandle.png
+0x62f989cb
+
+
+
+
+res/drawable-hdpi/sosbutton_off.png
+0xd4189243
+
+
+
+
+res/drawable-hdpi/sosbutton_on.png
+0x735f373
+
+
+
+
+res/drawable-hdpi/strobelegend.png
+0xe5ec446c
+
+
+
+
+res/drawable-hdpi/switch_off.png
+0xcb5c64e8
+
+
+
+
+res/drawable-hdpi/switch_on.png
+0xb3c1f409
+
+
+
+
+res/drawable-hdpi/tabbackground.png
+0x95b8ddd6
+
+
+
+
+res/drawable-hdpi/unlocked_icon.png
+0xb92fef93
+
+
+
+
+res/drawable-ldpi/ic_launcher.png
+0x67fca86c
+
+
+
+
+res/drawable-mdpi/ic_launcher.png
+0x67fca86c
+
+
+
+
+res/drawable-xhdpi/ic_launcher.png
+0x67fca86c
+
+
+
+
+classes.dex
+0xdf288915
+
+
+
+
+assets/biduad_plugin/__pasys_remote_banner.jar
+0x6f0428e0
+
+
+
+
+META-INF/MANIFEST.MF
+0x9e957dc7
+
+
+
+
+META-INF/CERT.SF
+0xc626ec49
+
+
+
+
+META-INF/CERT.RSA
+0x80828d56
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.frego.flashlight.MainActivity
+android.intent.action.MAIN
+
+
+
+
+com.frego.flashlight.MainActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.CAMERA
+
+
+
+
+android.permission.FLASHLIGHT
+
+
+
+
+android.permission.DISABLE_KEYGUARD
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+

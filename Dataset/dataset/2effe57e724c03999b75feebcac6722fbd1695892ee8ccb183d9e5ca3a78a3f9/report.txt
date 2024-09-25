@@ -1,0 +1,23 @@
+2effe57e724c03999b75feebcac6722fbd1695892ee8ccb183d9e5ca3a78a3f9:['File', 'Network']
+------------------------------
+Permissions:
+
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+------------------------------
+API:
+./res/2effe57e724c03999b75feebcac6722fbd1695892ee8ccb183d9e5ca3a78a3f9/api.txt
+------------------------------
+Intent:
+safiap.framework.ACTION_CANCEL_NOTIFICATION
+safiap.GET_SHARED_DATA
+safiap.framework.ACTION_SET_TIMER
+android.intent.category.DEFAULT
+android.intent.category.SAFIAP.COMPONENT
+------------------------------
+Function call graph:
+gml path: ./res/2effe57e724c03999b75feebcac6722fbd1695892ee8ccb183d9e5ca3a78a3f9/2effe57e724c03999b75feebcac6722fbd1695892ee8ccb183d9e5ca3a78a3f9.gml

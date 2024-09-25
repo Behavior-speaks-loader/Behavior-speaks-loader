@@ -1,0 +1,19 @@
+08cd8c1825727547ef05427ca34096aa62a99b16eaec3f6e62bc64e6ac563b79:['File']
+------------------------------
+Permissions:
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.INTERNET
+com.android.vending.BILLING
+------------------------------
+API:
+./res/08cd8c1825727547ef05427ca34096aa62a99b16eaec3f6e62bc64e6ac563b79/api.txt
+------------------------------
+Intent:
+com.android.vending.billing.IN_APP_NOTIFY
+com.android.vending.billing.RESPONSE_CODE
+com.android.vending.billing.PURCHASE_STATE_CHANGED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/08cd8c1825727547ef05427ca34096aa62a99b16eaec3f6e62bc64e6ac563b79/08cd8c1825727547ef05427ca34096aa62a99b16eaec3f6e62bc64e6ac563b79.gml

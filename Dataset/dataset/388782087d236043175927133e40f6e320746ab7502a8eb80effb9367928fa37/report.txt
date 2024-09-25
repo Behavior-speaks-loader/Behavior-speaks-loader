@@ -1,0 +1,26 @@
+388782087d236043175927133e40f6e320746ab7502a8eb80effb9367928fa37:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.READ_CALL_LOG
+android.permission.WRITE_CALL_LOG
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_CONTACTS
+android.permission.WRITE_SMS
+com.android.providers.calendar.CalendarProvider2
+android.permission.INTERNET
+android.permission.WRITE_CONTACTS
+com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+android.permission.READ_SMS
+------------------------------
+API:
+./res/388782087d236043175927133e40f6e320746ab7502a8eb80effb9367928fa37/api.txt
+------------------------------
+Intent:
+android.provider.Telephony.WAP_PUSH_DELIVER
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/388782087d236043175927133e40f6e320746ab7502a8eb80effb9367928fa37/388782087d236043175927133e40f6e320746ab7502a8eb80effb9367928fa37.gml

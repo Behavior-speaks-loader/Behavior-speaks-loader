@@ -1,0 +1,45 @@
+35fcd07260ea20d83c7855483bb21e1a9fe862a0aec4be3ceb366d0c2b8b358d:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.GET_TOP_ACTIVITY_INFO
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.USE_CREDENTIALS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.NFC
+android.permission.SEND_SMS
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.READ_SMS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.webkit.permission.PLUGIN
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SMS
+android.permission.WRITE_SETTINGS
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.AUTHENTICATE_ACCOUNTS
+------------------------------
+API:
+./res/35fcd07260ea20d83c7855483bb21e1a9fe862a0aec4be3ceb366d0c2b8b358d/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/35fcd07260ea20d83c7855483bb21e1a9fe862a0aec4be3ceb366d0c2b8b358d/35fcd07260ea20d83c7855483bb21e1a9fe862a0aec4be3ceb366d0c2b8b358d.gml

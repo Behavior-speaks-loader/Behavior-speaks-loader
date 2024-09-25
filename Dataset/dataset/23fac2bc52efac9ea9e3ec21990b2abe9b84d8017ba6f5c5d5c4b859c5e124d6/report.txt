@@ -1,0 +1,37 @@
+23fac2bc52efac9ea9e3ec21990b2abe9b84d8017ba6f5c5d5c4b859c5e124d6:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.intent.action.MEDIA_MOUNTED
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+cn.figo.zhongpin.permission.JPUSH_MESSAGE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/23fac2bc52efac9ea9e3ec21990b2abe9b84d8017ba6f5c5d5c4b859c5e124d6/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+android.intent.action.USER_PRESENT
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+cn.figo.zhongpin
+------------------------------
+Function call graph:
+gml path: ./res/23fac2bc52efac9ea9e3ec21990b2abe9b84d8017ba6f5c5d5c4b859c5e124d6/23fac2bc52efac9ea9e3ec21990b2abe9b84d8017ba6f5c5d5c4b859c5e124d6.gml

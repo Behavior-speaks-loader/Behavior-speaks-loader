@@ -1,0 +1,119 @@
+Lcom/real/real/MainActivity;-><clinit>()V [access_flags=static constructor] @ 0x1bd4
+Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+Lcom/real/real/MainActivity;-><init>()V [access_flags=public constructor] @ 0x1bf8
+Landroid/app/Activity;-><init>()V
+Lcom/real/real/MainActivity;->onActivityResult(I I Landroid/content/Intent;)V [access_flags=public] @ 0x1c90
+Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+Landroid/webkit/ValueCallback;->onReceiveValue(Ljava/lang/Object;)V
+Landroid/app/Activity;->onActivityResult(I I Landroid/content/Intent;)V
+Landroid/content/Intent;->getDataString()Ljava/lang/String;
+Landroid/content/Intent;->getData()Landroid/net/Uri;
+Lcom/real/real/MainActivity;->onBackPressed()V [access_flags=public] @ 0x1d40
+Landroid/webkit/WebView;->canGoBack()Z
+Ljava/lang/System;->exit(I)V
+Landroid/webkit/WebView;->goBack()V
+Lcom/real/real/MainActivity;->findViewById(I)Landroid/view/View;
+Lcom/real/real/MainActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0x1d80
+Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lcom/real/real/MainActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x1d98
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Landroid/webkit/WebSettings;->setSaveFormData(Z)V
+Landroid/webkit/WebSettings;->setGeolocationEnabled(Z)V
+Landroid/webkit/WebSettings;->setAppCacheEnabled(Z)V
+Lcom/real/real/a;-><init>(Lcom/real/real/MainActivity;)V [access_flags=constructor] @ 0x20f8
+Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
+Landroid/widget/ImageView;->setVisibility(I)V
+Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+Landroid/webkit/CookieManager;->getInstance()Landroid/webkit/CookieManager;
+Landroid/webkit/WebSettings;->setAllowFileAccess(Z)V
+Landroid/webkit/WebSettings;->setBuiltInZoomControls(Z)V
+Lcom/real/real/d;-><init>(Lcom/real/real/MainActivity;)V [access_flags=constructor] @ 0x25a4
+Landroid/webkit/WebView;->setScrollBarStyle(I)V
+Landroid/webkit/CookieManager;->acceptCookie()Z
+Lcom/real/real/MainActivity;->setContentView(I)V
+Lcom/real/real/b;-><init>(Lcom/real/real/MainActivity;)V [access_flags=constructor] @ 0x2148
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Landroid/webkit/WebSettings;->setSupportZoom(Z)V
+Ljava/lang/StringBuilder;-><init>()V
+Landroid/webkit/WebView;->restoreState(Landroid/os/Bundle;)Landroid/webkit/WebBackForwardList;
+Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
+Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
+Lcom/real/real/c;-><init>(Lcom/real/real/MainActivity;)V [access_flags=constructor] @ 0x2410
+Landroid/webkit/WebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
+Landroid/webkit/WebSettings;->setAppCachePath(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Landroid/webkit/WebView;->setDownloadListener(Landroid/webkit/DownloadListener;)V
+Landroid/webkit/WebSettings;->setUseWideViewPort(Z)V
+Lcom/real/real/MainActivity;->getPackageName()Ljava/lang/String;
+Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+Landroid/webkit/WebViewClient;-><init>()V
+Landroid/os/Handler;-><init>()V
+Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable; J)Z
+Landroid/webkit/WebSettings;->setDatabaseEnabled(Z)V
+Landroid/webkit/WebView;->setVisibility(I)V
+Lcom/real/real/MainActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z [access_flags=public] @ 0x1fe4
+Lcom/real/real/MainActivity;->getMenuInflater()Landroid/view/MenuInflater;
+Landroid/view/MenuInflater;->inflate(I Landroid/view/Menu;)V
+Lcom/real/real/MainActivity;->onKeyDown(I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x200c
+Landroid/app/Activity;->onKeyDown(I Landroid/view/KeyEvent;)Z
+Lcom/real/real/MainActivity;->finish()V
+Landroid/view/KeyEvent;->getAction()I
+Lcom/real/real/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x2074
+Landroid/view/MenuItem;->getItemId()I
+Landroid/app/AlertDialog;->show()V
+Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
+Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
+Lcom/real/real/MainActivity;->a(Lcom/real/real/MainActivity;)Landroid/webkit/ValueCallback; [access_flags=static synthetic] @ 0x1c18
+Lcom/real/real/MainActivity;->a(Lcom/real/real/MainActivity; Landroid/webkit/ValueCallback;)Landroid/webkit/ValueCallback; [access_flags=static synthetic] @ 0x1c30
+Lcom/real/real/MainActivity;->getApplicationContext()Landroid/content/Context;
+Lcom/real/real/MainActivity;->b(Lcom/real/real/MainActivity;)Ljava/lang/String; [access_flags=static synthetic] @ 0x1c78
+Lcom/real/real/MainActivity;->a(Lcom/real/real/MainActivity; Ljava/lang/String;)Ljava/lang/String; [access_flags=static synthetic] @ 0x1c60
+Lcom/real/real/MainActivity;->startActivityForResult(Landroid/content/Intent; I)V
+Lcom/real/real/MainActivity;->a()Ljava/lang/String; [access_flags=static synthetic] @ 0x1c48
+Lcom/real/real/MainActivity;->startActivity(Landroid/content/Intent;)V
+Ljava/lang/Object;-><init>()V
+Lcom/real/real/a;->run()V [access_flags=public] @ 0x2114
+Landroid/webkit/WebChromeClient;-><init>()V
+Lcom/real/real/b;->a()Ljava/io/File; [access_flags=private] @ 0x2164
+Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+Landroid/os/Environment;->getExternalStoragePublicDirectory(Ljava/lang/String;)Ljava/io/File;
+Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+Ljava/io/File;->createTempFile(Ljava/lang/String; Ljava/lang/String; Ljava/io/File;)Ljava/io/File;
+Ljava/util/Date;-><init>()V
+Lcom/real/real/b;->onGeolocationPermissionsShowPrompt(Ljava/lang/String; Landroid/webkit/GeolocationPermissions$Callback;)V [access_flags=public] @ 0x21e0
+Landroid/webkit/GeolocationPermissions$Callback;->invoke(Ljava/lang/String; Z Z)V
+Lcom/real/real/b;->onProgressChanged(Landroid/webkit/WebView; I)V [access_flags=public] @ 0x21fc
+Landroid/widget/ProgressBar;->setProgress(I)V
+Landroid/widget/ProgressBar;->setVisibility(I)V
+Landroid/widget/ProgressBar;->getVisibility()I
+Lcom/real/real/b;->onShowFileChooser(Landroid/webkit/WebView; Landroid/webkit/ValueCallback; Landroid/webkit/WebChromeClient$FileChooserParams;)Z [access_flags=public] @ 0x2260
+Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
+Landroid/content/Intent;->resolveActivity(Landroid/content/pm/PackageManager;)Landroid/content/ComponentName;
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+Landroid/content/Intent;->putExtra(Ljava/lang/String; [Landroid/os/Parcelable;)Landroid/content/Intent;
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+Lcom/real/real/c;->a(Ljava/lang/String;)Ljava/lang/Boolean; [access_flags=public] @ 0x242c
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Landroid/content/ActivityNotFoundException;->printStackTrace()V
+Landroid/webkit/WebView;->getContext()Landroid/content/Context;
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+Lcom/real/real/c;->onReceivedError(Landroid/webkit/WebView; I Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0x2554
+Lcom/real/real/c;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public] @ 0x2570
+Ljava/lang/Boolean;->booleanValue()Z
+Lcom/real/real/d;->onDownloadStart(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; J)V [access_flags=public] @ 0x25c0
+Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;

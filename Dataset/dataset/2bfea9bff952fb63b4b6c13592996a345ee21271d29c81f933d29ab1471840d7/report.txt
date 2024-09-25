@@ -1,0 +1,29 @@
+2bfea9bff952fb63b4b6c13592996a345ee21271d29c81f933d29ab1471840d7:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.INTERNET
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/2bfea9bff952fb63b4b6c13592996a345ee21271d29c81f933d29ab1471840d7/api.txt
+------------------------------
+Intent:
+io.dcloud.ACTION_PICK
+io.dcloud.ACTION_MULTIPLE_PICK
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/2bfea9bff952fb63b4b6c13592996a345ee21271d29c81f933d29ab1471840d7/2bfea9bff952fb63b4b6c13592996a345ee21271d29c81f933d29ab1471840d7.gml

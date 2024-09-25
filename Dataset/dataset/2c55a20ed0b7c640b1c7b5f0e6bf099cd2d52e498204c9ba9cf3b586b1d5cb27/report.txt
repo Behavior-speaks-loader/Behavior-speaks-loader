@@ -1,0 +1,34 @@
+2c55a20ed0b7c640b1c7b5f0e6bf099cd2d52e498204c9ba9cf3b586b1d5cb27:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.INTERNET
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/2c55a20ed0b7c640b1c7b5f0e6bf099cd2d52e498204c9ba9cf3b586b1d5cb27/api.txt
+------------------------------
+Intent:
+com.swkj.future.intent.action.COMMAND
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/2c55a20ed0b7c640b1c7b5f0e6bf099cd2d52e498204c9ba9cf3b586b1d5cb27/2c55a20ed0b7c640b1c7b5f0e6bf099cd2d52e498204c9ba9cf3b586b1d5cb27.gml

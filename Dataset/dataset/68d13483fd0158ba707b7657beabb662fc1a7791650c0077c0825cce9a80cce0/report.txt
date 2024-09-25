@@ -1,0 +1,23 @@
+68d13483fd0158ba707b7657beabb662fc1a7791650c0077c0825cce9a80cce0:['Network', 'Phone']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.SEND_SMS
+android.permission.INTERNET
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+com.android.launcher.permission.READ_SETTINGS
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/68d13483fd0158ba707b7657beabb662fc1a7791650c0077c0825cce9a80cce0/api.txt
+------------------------------
+Intent:
+action.start.protector
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/68d13483fd0158ba707b7657beabb662fc1a7791650c0077c0825cce9a80cce0/68d13483fd0158ba707b7657beabb662fc1a7791650c0077c0825cce9a80cce0.gml

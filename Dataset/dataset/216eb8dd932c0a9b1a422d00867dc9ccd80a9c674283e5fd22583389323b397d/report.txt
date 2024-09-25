@@ -1,0 +1,26 @@
+216eb8dd932c0a9b1a422d00867dc9ccd80a9c674283e5fd22583389323b397d:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.RECEIVE_SMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.SEND_SMS
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/216eb8dd932c0a9b1a422d00867dc9ccd80a9c674283e5fd22583389323b397d/api.txt
+------------------------------
+Intent:
+cn.play.dservice
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+android.intent.action.PACKAGE_REPLACED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/216eb8dd932c0a9b1a422d00867dc9ccd80a9c674283e5fd22583389323b397d/216eb8dd932c0a9b1a422d00867dc9ccd80a9c674283e5fd22583389323b397d.gml

@@ -1,0 +1,45 @@
+036ee8ca727deacdb910a10b4693a86faa7892ec9938bc0862ed797ffe65ee7c:['File', 'Network', 'Location', 'Phone']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.FLASHLIGHT
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.ACCESS_FINE_LOCATION
+com.huawei.android.launcher.permission.CHANGE_BADGE
+android.permission.INTERNET
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_MOCK_LOCATION
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+com.v384798530.ddn.permission.JPUSH_MESSAGE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/036ee8ca727deacdb910a10b4693a86faa7892ec9938bc0862ed797ffe65ee7c/api.txt
+------------------------------
+Intent:
+io.rong.push.intent.MESSAGE_ARRIVED
+io.rong.push.intent.MI_MESSAGE_ARRIVED
+io.rong.push.intent.MESSAGE_CLICKED
+io.rong.push.intent.MI_MESSAGE_CLICKED
+com.v384798530.ddn
+------------------------------
+Function call graph:
+gml path: ./res/036ee8ca727deacdb910a10b4693a86faa7892ec9938bc0862ed797ffe65ee7c/036ee8ca727deacdb910a10b4693a86faa7892ec9938bc0862ed797ffe65ee7c.gml

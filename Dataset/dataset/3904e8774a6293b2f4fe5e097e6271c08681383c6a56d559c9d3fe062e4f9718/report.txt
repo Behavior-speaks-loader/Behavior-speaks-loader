@@ -1,0 +1,40 @@
+3904e8774a6293b2f4fe5e097e6271c08681383c6a56d559c9d3fe062e4f9718:['File']
+------------------------------
+Permissions:
+com.meizu.c2dm.permission.RECEIVE
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.SYSTEM_OVERLAY_WINDOW
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.REORDER_TASKS
+android.permission.ACCESS_WIFI_STATE
+com.meizu.flyme.push.permission.RECEIVE
+android.permission.CHANGE_WIFI_STATE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.FOREGROUND_SERVICE
+com.anmei.medical.permission.C2D_MESSAGE
+com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+ android.permission.WRITE_SETTINGS
+com.anmei.medical.push.permission.MESSAGE
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+com.anmei.medical.permission.MIPUSH_RECEIVE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/3904e8774a6293b2f4fe5e097e6271c08681383c6a56d559c9d3fe062e4f9718/api.txt
+------------------------------
+Intent:
+com.vivo.pushclient.action.RECEIVE
+com.anmei.medical
+------------------------------
+Function call graph:
+gml path: ./res/3904e8774a6293b2f4fe5e097e6271c08681383c6a56d559c9d3fe062e4f9718/3904e8774a6293b2f4fe5e097e6271c08681383c6a56d559c9d3fe062e4f9718.gml

@@ -1,0 +1,33 @@
+68a1452172636b081873b9f7c1ae3794035c4ff50d5538b656caf07016b74d07:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.QUICKBOOT_POWERON
+android.permission.READ_LOGS
+com.clem.isisnews.permission.C2D_MESSAGE
+android.permission.GET_TASKS
+android.permission.READ_SMS
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.GET_ACCOUNTS
+android.permission.READ_CALL_LOG
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+com.google.android.c2dm.permission.RECEIVE
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/68a1452172636b081873b9f7c1ae3794035c4ff50d5538b656caf07016b74d07/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.action.ACTION_POWER_CONNECTED
+com.clem.isisnews
+------------------------------
+Function call graph:
+gml path: ./res/68a1452172636b081873b9f7c1ae3794035c4ff50d5538b656caf07016b74d07/68a1452172636b081873b9f7c1ae3794035c4ff50d5538b656caf07016b74d07.gml

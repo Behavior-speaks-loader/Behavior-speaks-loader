@@ -1,0 +1,43 @@
+4ad62b7182a148fc436b4f81fce565f64e6ea9a48a36e864d65c11d96538327a:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.SEND_SMS
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.ACCESS_FINE_LOCATION
+android.permission.USE_FINGERPRINT
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.ACCESS_COARSE_UPDATES
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.READ_CALL_LOG
+android.permission.ACCESS_WIFI_STATE
+com.android.launcher.permission.WRITE_SETTINGS
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.android.launcher.permission.READ_SETTINGS
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/4ad62b7182a148fc436b4f81fce565f64e6ea9a48a36e864d65c11d96538327a/api.txt
+------------------------------
+Intent:
+android.intent.action.USER_PRESENT
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/4ad62b7182a148fc436b4f81fce565f64e6ea9a48a36e864d65c11d96538327a/4ad62b7182a148fc436b4f81fce565f64e6ea9a48a36e864d65c11d96538327a.gml

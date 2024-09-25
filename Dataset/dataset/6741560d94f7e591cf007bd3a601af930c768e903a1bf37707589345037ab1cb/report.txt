@@ -1,0 +1,21 @@
+6741560d94f7e591cf007bd3a601af930c768e903a1bf37707589345037ab1cb:['network']
+------------------------------
+Permissions:
+android.permission.READ_INTERNAL_STORAGE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.WRITE_INTERNAL_STORAGE
+android.permission.VIBRATE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WAKE_LOCK
+android.permission.REQUEST_INSTALL_PACKAGES
+------------------------------
+API:
+./res/6741560d94f7e591cf007bd3a601af930c768e903a1bf37707589345037ab1cb/api.txt
+------------------------------
+Intent:
+com.koudai.weishop.main.ui.activity.SettingFeedbackActivity
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/6741560d94f7e591cf007bd3a601af930c768e903a1bf37707589345037ab1cb/6741560d94f7e591cf007bd3a601af930c768e903a1bf37707589345037ab1cb.gml

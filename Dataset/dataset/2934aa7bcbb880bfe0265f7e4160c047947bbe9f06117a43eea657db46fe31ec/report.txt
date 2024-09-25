@@ -1,0 +1,27 @@
+2934aa7bcbb880bfe0265f7e4160c047947bbe9f06117a43eea657db46fe31ec:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.VIBRATE
+com.miniclip.diep.io.permission.C2D_MESSAGE
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+com.android.vending.BILLING
+------------------------------
+API:
+./res/2934aa7bcbb880bfe0265f7e4160c047947bbe9f06117a43eea657db46fe31ec/api.txt
+------------------------------
+Intent:
+miniclip.intent.action.DELETE_NOTIFICATION
+android.intent.category.HOME
+------------------------------
+Function call graph:
+gml path: ./res/2934aa7bcbb880bfe0265f7e4160c047947bbe9f06117a43eea657db46fe31ec/2934aa7bcbb880bfe0265f7e4160c047947bbe9f06117a43eea657db46fe31ec.gml

@@ -1,0 +1,27 @@
+01f0e1e933fc6529ce4ae635f15d2799c3186756eca4a3bddf9e76dbe7753543:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.VIBRATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+cn.flytalk.shudu.permission.MIPUSH_RECEIVE
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+------------------------------
+API:
+./res/01f0e1e933fc6529ce4ae635f15d2799c3186756eca4a3bddf9e76dbe7753543/api.txt
+------------------------------
+Intent:
+com.xiaomi.mipush.RECEIVE_MESSAGE
+com.xiaomi.mipush.ERROR
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/01f0e1e933fc6529ce4ae635f15d2799c3186756eca4a3bddf9e76dbe7753543/01f0e1e933fc6529ce4ae635f15d2799c3186756eca4a3bddf9e76dbe7753543.gml

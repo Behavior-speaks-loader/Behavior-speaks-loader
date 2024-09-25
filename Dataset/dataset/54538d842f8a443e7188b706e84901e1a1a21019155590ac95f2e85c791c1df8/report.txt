@@ -1,0 +1,25 @@
+54538d842f8a443e7188b706e84901e1a1a21019155590ac95f2e85c791c1df8:['Network']
+------------------------------
+Permissions:
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.INSTALL_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+game.sdk.permission.broadcast.com.kuyue.zxqitian
+------------------------------
+API:
+./res/54538d842f8a443e7188b706e84901e1a1a21019155590ac95f2e85c791c1df8/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.action.MEDIA_MOUNTED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/54538d842f8a443e7188b706e84901e1a1a21019155590ac95f2e85c791c1df8/54538d842f8a443e7188b706e84901e1a1a21019155590ac95f2e85c791c1df8.gml

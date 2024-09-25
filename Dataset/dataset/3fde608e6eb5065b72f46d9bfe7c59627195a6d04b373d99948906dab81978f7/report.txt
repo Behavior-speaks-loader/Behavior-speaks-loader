@@ -1,0 +1,34 @@
+3fde608e6eb5065b72f46d9bfe7c59627195a6d04b373d99948906dab81978f7:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.SEND_SMS
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.GET_PACKAGE_SIZE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/3fde608e6eb5065b72f46d9bfe7c59627195a6d04b373d99948906dab81978f7/api.txt
+------------------------------
+Intent:
+cn.play.dservice
+android.intent.category.BROWSABLE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/3fde608e6eb5065b72f46d9bfe7c59627195a6d04b373d99948906dab81978f7/3fde608e6eb5065b72f46d9bfe7c59627195a6d04b373d99948906dab81978f7.gml

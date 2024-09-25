@@ -1,0 +1,31 @@
+610b9093b836fb50c140c66e286b0aa17e1effb44acb97de0c909f4af9f3dd17:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.GET_ACCOUNTS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CAMERA
+android.permission.INTERNET
+android.permission.CHANGE_WIFI_STATE
+android.permission.RECORD_AUDIO
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.MANAGE_ACCOUNTS
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/610b9093b836fb50c140c66e286b0aa17e1effb44acb97de0c909f4af9f3dd17/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/610b9093b836fb50c140c66e286b0aa17e1effb44acb97de0c909f4af9f3dd17/610b9093b836fb50c140c66e286b0aa17e1effb44acb97de0c909f4af9f3dd17.gml

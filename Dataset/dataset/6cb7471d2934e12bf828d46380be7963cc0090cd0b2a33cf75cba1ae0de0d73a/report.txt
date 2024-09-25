@@ -1,0 +1,37 @@
+6cb7471d2934e12bf828d46380be7963cc0090cd0b2a33cf75cba1ae0de0d73a:['network']
+------------------------------
+Permissions:
+android.permission.ACCESS_COARSE_LOCATION
+org.fungo.fungolive.permission.MIPUSH_RECEIVE
+android.permission.CHANGE_NETWORK_STATE
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.REORDER_TASKS
+android.permission.WAKE_LOCK
+android.permission.SYSTEM_ALERT_WINDOW
+org.agoo.android.permission.MESSAGE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.RECORD_AUDIO
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.WRITE_SETTINGS
+android.permission.RESTART_PACKAGES
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.CHANGE_WIFI_STATE
+------------------------------
+API:
+./res/6cb7471d2934e12bf828d46380be7963cc0090cd0b2a33cf75cba1ae0de0d73a/api.txt
+------------------------------
+Intent:
+com.xiaomi.mipush.RECEIVE_MESSAGE
+com.xiaomi.mipush.ERROR
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/6cb7471d2934e12bf828d46380be7963cc0090cd0b2a33cf75cba1ae0de0d73a/6cb7471d2934e12bf828d46380be7963cc0090cd0b2a33cf75cba1ae0de0d73a.gml

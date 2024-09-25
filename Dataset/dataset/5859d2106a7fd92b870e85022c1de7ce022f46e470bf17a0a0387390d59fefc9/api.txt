@@ -1,0 +1,333 @@
+Lcom/example/helloworld/BuildConfig;-><init>()V [access_flags=public constructor] @ 0x380
+Ljava/lang/Object;-><init>()V
+Lcom/example/helloworld/R$attr;-><init>()V [access_flags=public constructor] @ 0x398
+Lcom/example/helloworld/R$dimen;-><init>()V [access_flags=public constructor] @ 0x3b0
+Lcom/example/helloworld/R$drawable;-><init>()V [access_flags=public constructor] @ 0x3c8
+Lcom/example/helloworld/R$id;-><init>()V [access_flags=public constructor] @ 0x3e0
+Lcom/example/helloworld/R$menu;-><init>()V [access_flags=public constructor] @ 0x3f8
+Lcom/example/helloworld/R$string;-><init>()V [access_flags=public constructor] @ 0x410
+Lcom/example/helloworld/R$style;-><init>()V [access_flags=public constructor] @ 0x428
+Lcom/example/helloworld/R;-><init>()V [access_flags=public constructor] @ 0x440
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;-><init>()V [access_flags=public constructor] @ 0x1142c
+Landroid/app/Application;-><init>()V
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;->Fixappname()Z [access_flags=private synchronized] @ 0x11444
+Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Landroid/app/Application;->getPackageName()Ljava/lang/String;
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;->fixAndroid(Landroid/content/Context; Landroid/app/Application;)V [access_flags=public static] @ 0x11510
+Lcom/wrapper/proxyapplication/AndroidNClassLoader;->inject(Ljava/lang/ClassLoader; Landroid/app/Application;)Ljava/lang/ClassLoader; [access_flags=public static] @ 0x86b4
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/Throwable;->printStackTrace()V
+Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->getField(Ljava/lang/Object; Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/Object;
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;->getVersionCode(Landroid/content/Context;)Ljava/lang/String; [access_flags=private static] @ 0x115dc
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x11640
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;->initProxyApplication(Landroid/content/Context;)V [access_flags=protected abstract] @ 0x0
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;->getBaseContext()Landroid/content/Context;
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;->onCreate()V [access_flags=public] @ 0x1167c
+Landroid/app/Application;->onCreate()V
+Lcom/wrapper/proxyapplication/WrapperProxyApplication;->Ooo0ooO0oO()V [access_flags=native] @ 0x0
+Lcom/tanhua/pgd/MyWrapperProxyApplication;-><init>()V [access_flags=public constructor] @ 0x849c
+Lcom/tanhua/pgd/MyWrapperProxyApplication;->initProxyApplication(Landroid/content/Context;)V [access_flags=protected] @ 0x84b4
+Lcom/wrapper/proxyapplication/Util;->PrepareSecurefiles(Landroid/content/Context; Ljava/util/zip/ZipFile;)I [access_flags=public static] @ 0xdc20
+Landroid/os/Process;->myPid()I
+Ljava/util/zip/ZipFile;-><init>(Ljava/lang/String;)V
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Ljava/util/zip/ZipFile;->close()V
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/io/IOException;->printStackTrace()V
+Ljava/lang/System;->exit(I)V
+Landroid/os/Process;->killProcess(I)V
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Lcom/tanhua/pgd/MyWrapperProxyApplication;->onCreate()V [access_flags=public] @ 0x8594
+Lcom/tencent/StubShell/TxAppEntry;-><init>()V [access_flags=public constructor] @ 0x85ac
+Lcom/wrapper/proxyapplication/AndroidNClassLoader;->reflectPackageInfoClassloader(Landroid/app/Application; Ljava/lang/ClassLoader;)V [access_flags=private static] @ 0x8980
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Lcom/wrapper/proxyapplication/AndroidNClassLoader;->createAndroidNClassLoader(Ljava/lang/String; Ljava/lang/ClassLoader; Landroid/app/Application;)Ljava/lang/ClassLoader; [access_flags=private static] @ 0x863c
+Lcom/wrapper/proxyapplication/AndroidNClassLoader;-><init>(Ljava/lang/String; Ljava/lang/ClassLoader; Landroid/app/Application;)V [access_flags=private constructor] @ 0x85e0
+Ldalvik/system/PathClassLoader;-><init>(Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Landroid/app/Application;->getPackageCodePath()Ljava/lang/String;
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0xd394
+Lcom/wrapper/proxyapplication/AndroidNClassLoader;->recreateDexPathList(Ljava/lang/Object; Ljava/lang/ClassLoader; Z)Ljava/lang/Object; [access_flags=private static] @ 0x86f8
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ldalvik/system/DexFile;->getName()Ljava/lang/String;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->findField(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0xd308
+Ljava/util/List;->iterator()Ljava/util/Iterator;
+Ljava/util/Iterator;->hasNext()Z
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->findConstructor(Ljava/lang/Object; [Ljava/lang/Class;)Ljava/lang/reflect/Constructor; [access_flags=public static varargs] @ 0xd268
+Lcom/wrapper/proxyapplication/CustomerClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V [access_flags=public constructor] @ 0x89f0
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=private static] @ 0x8c84
+Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;
+Ldalvik/system/PathClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Ljava/lang/NullPointerException;-><init>()V
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->ensureInit()V [access_flags=private synchronized] @ 0x8a64
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->isAccessible()Z
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
+Ljava/lang/NoSuchFieldException;-><init>(Ljava/lang/String;)V
+Ljava/lang/System;->getProperty(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/util/zip/ZipFile;-><init>(Ljava/io/File;)V
+Ljava/lang/String;->length()I
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Ljava/io/IOException;-><init>(Ljava/lang/String;)V
+Ldalvik/system/DexFile;->loadDex(Ljava/lang/String; Ljava/lang/String; I)Ldalvik/system/DexFile;
+Ljava/io/File;->isFile()Z
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->generateOutputName(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0x8d1c
+Ljava/lang/StringBuilder;->append(Ljava/lang/CharSequence; I I)Ljava/lang/StringBuilder;
+Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Ljava/lang/StringBuilder;-><init>(I)V
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->isInArchive(Ljava/util/zip/ZipFile; Ljava/lang/String;)Z [access_flags=private] @ 0x8db0
+Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->loadFromArchive(Ljava/util/zip/ZipFile; Ljava/lang/String;)[B [access_flags=private] @ 0x8dd4
+Ljava/util/zip/ZipEntry;->getSize()J
+Ljava/io/InputStream;->read([B)I
+Ljava/io/ByteArrayOutputStream;-><init>(I)V
+Ljava/io/InputStream;->close()V
+Ljava/io/ByteArrayOutputStream;->write([B I I)V
+Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->loadFromDirectory(Ljava/lang/String;)[B [access_flags=private] @ 0x8e58
+Ljava/io/RandomAccessFile;->close()V
+Ljava/io/RandomAccessFile;->length()J
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Ljava/io/RandomAccessFile;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/io/RandomAccessFile;->read([B)I
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->findClass(Ljava/lang/String;)Ljava/lang/Class; [access_flags=protected] @ 0x8ee0
+Ljava/lang/String;->replace(C C)Ljava/lang/String;
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->ShowLogs(Ljava/lang/String; I)I [access_flags=private native] @ 0x0
+Ljava/lang/ClassNotFoundException;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->isDirectory()Z
+Ldalvik/system/DexFile;->loadClass(Ljava/lang/String; Ljava/lang/ClassLoader;)Ljava/lang/Class;
+Ldalvik/system/PathClassLoader;->findClass(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->findLibrary(Ljava/lang/String;)Ljava/lang/String; [access_flags=public] @ 0x9064
+Ljava/io/File;->exists()Z
+Ldalvik/system/PathClassLoader;->findLibrary(Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/System;->mapLibraryName(Ljava/lang/String;)Ljava/lang/String;
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->findResource(Ljava/lang/String;)Ljava/net/URL; [access_flags=protected] @ 0x9100
+Ljava/io/File;->toURL()Ljava/net/URL;
+Ljava/net/URL;-><init>(Ljava/lang/String;)V
+Ldalvik/system/PathClassLoader;->findResource(Ljava/lang/String;)Ljava/net/URL;
+Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->getPackage(Ljava/lang/String;)Ljava/lang/Package; [access_flags=protected] @ 0x91c8
+Lcom/wrapper/proxyapplication/CustomerClassLoader;->definePackage(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/net/URL;)Ljava/lang/Package;
+Ldalvik/system/PathClassLoader;->getPackage(Ljava/lang/String;)Ljava/lang/Package;
+Lcom/wrapper/proxyapplication/MultiDex$V19;-><init>()V [access_flags=private constructor] @ 0x9238
+Lcom/wrapper/proxyapplication/MultiDex$V19;->access$0(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; Z Z)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x9250
+Lcom/wrapper/proxyapplication/MultiDex$V19;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; Z Z)Ljava/util/ArrayList; [access_flags=private static] @ 0x9494
+Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+Lcom/wrapper/proxyapplication/MultiDex$V19;->makeDexElements(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=private static] @ 0x96c4
+Ljava/util/ArrayList;->size()I
+Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+Ljava/lang/reflect/Field;->getInt(Ljava/lang/Object;)I
+Ljava/lang/reflect/Field;->setLong(Ljava/lang/Object; J)V
+Ljava/lang/reflect/Field;->getLong(Ljava/lang/Object;)J
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Ljava/util/List;->size()I
+Lcom/wrapper/proxyapplication/MultiDex;->access$0(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=static synthetic] @ 0x9d54
+Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+Ljava/util/ArrayList;-><init>()V
+Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Lcom/wrapper/proxyapplication/MultiDex;->access$1(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=static synthetic] @ 0x9d70
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Lcom/wrapper/proxyapplication/MultiDex$V19;->access$1(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; I Z Z)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x926c
+Lcom/wrapper/proxyapplication/MultiDex$V19;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; I Z Z)Ljava/util/ArrayList; [access_flags=private static] @ 0x9288
+Lcom/wrapper/proxyapplication/MultiDex;->access$2(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object; I)V [access_flags=static synthetic] @ 0x9d88
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/IllegalAccessException;->printStackTrace()V
+Ljava/lang/reflect/InvocationTargetException;->printStackTrace()V
+Ljava/lang/IllegalArgumentException;->printStackTrace()V
+Ljava/lang/RuntimeException;->printStackTrace()V
+Ljava/lang/NoSuchMethodException;->printStackTrace()V
+Lcom/wrapper/proxyapplication/MultiDex;->access$3(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=static synthetic] @ 0x9da0
+Lcom/wrapper/proxyapplication/MultiDex$V4;-><init>()V [access_flags=private constructor] @ 0x9914
+Lcom/wrapper/proxyapplication/MultiDex$V4;->access$0(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x992c
+Lcom/wrapper/proxyapplication/MultiDex$V4;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File;)Ljava/util/ArrayList; [access_flags=private static] @ 0x9964
+Ljava/util/ListIterator;->previousIndex()I
+Lcom/wrapper/proxyapplication/MultiDex;->access$4(Ljava/lang/String;)Ljava/lang/String; [access_flags=static synthetic] @ 0x9dbc
+Ljava/util/List;->listIterator()Ljava/util/ListIterator;
+Ljava/util/ListIterator;->hasNext()Z
+Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+Ljava/util/ListIterator;->next()Ljava/lang/Object;
+Lcom/wrapper/proxyapplication/MultiDex$V4;->access$1(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; I)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x9948
+Lcom/wrapper/proxyapplication/MultiDex$V4;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; I)Ljava/util/ArrayList; [access_flags=private static] @ 0x9b30
+Lcom/wrapper/proxyapplication/MultiDex;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object; I)V [access_flags=private static] @ 0x9e88
+Lcom/wrapper/proxyapplication/MultiDex;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=private static] @ 0x9f50
+Lcom/wrapper/proxyapplication/MultiDex;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=private static] @ 0x9dd8
+Lcom/wrapper/proxyapplication/MultiDex;->findMethod(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0x9fe8
+Lcom/wrapper/proxyapplication/MultiDex;->getprefixname(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0xa2ac
+Lcom/wrapper/proxyapplication/MultiDex;-><init>()V [access_flags=private constructor] @ 0x9d3c
+Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class; I)Ljava/lang/Object;
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+Ljava/lang/reflect/Method;->isAccessible()Z
+Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Lcom/wrapper/proxyapplication/MultiDex;->findMethodinClazz(Ljava/lang/Class; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0xa09c
+Lcom/wrapper/proxyapplication/MultiDex;->finishinstallDexes(Ljava/lang/ClassLoader;)V [access_flags=private static] @ 0xa140
+Lcom/wrapper/proxyapplication/MultiDex;->installDexes(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String; I Z Z)Ljava/util/ArrayList; [access_flags=private static] @ 0xa300
+Lcom/wrapper/proxyapplication/MultiDex;->splitPaths(Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xa8a8
+Lcom/wrapper/proxyapplication/MultiDex;->installDexes(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String; Z Z)Ljava/util/ArrayList; [access_flags=private static] @ 0xa410
+Lcom/wrapper/proxyapplication/MultiDex;->openallDexes(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xa520
+Ljava/lang/NoSuchFieldException;->printStackTrace()V
+Lcom/wrapper/proxyapplication/MultiDex;->prepareexpandFieldArray(Ljava/lang/Object; Ljava/lang/String; I)V [access_flags=private static] @ 0xa698
+Lcom/wrapper/proxyapplication/MultiDex;->preparetoinstallDexes(Ljava/lang/ClassLoader; I)V [access_flags=private static] @ 0xa7ac
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex$V26;-><init>()V [access_flags=private constructor] @ 0xa8f8
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex$V26;->access$0(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; [Ljava/nio/ByteBuffer; Z Z)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0xa910
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex$V26;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; [Ljava/nio/ByteBuffer; Z Z)Ljava/util/ArrayList; [access_flags=private static] @ 0xa92c
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->access$0(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=static synthetic] @ 0xad60
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex$V26;->makeDexElements(Ljava/lang/Object; [Ljava/nio/ByteBuffer; Ljava/util/List;)[Ljava/lang/Object; [access_flags=private static] @ 0xac58
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->access$1(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=static synthetic] @ 0xad7c
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->access$2(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=static synthetic] @ 0xad94
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=private static] @ 0xadb0
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=private static] @ 0xae60
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->findMethod(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0xaef8
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;-><init>()V [access_flags=private constructor] @ 0xad48
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->findMethodinClazz(Ljava/lang/Class; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0xafac
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->getprefixname(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0xb050
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->installDexes(Ljava/lang/ClassLoader; [Ljava/nio/ByteBuffer; Z Z)Ljava/util/ArrayList; [access_flags=private static] @ 0xb0cc
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->openallDexes(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xb160
+Lcom/wrapper/proxyapplication/MultiDexForMemoryDex;->splitPaths(Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xb2d8
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V19;-><init>()V [access_flags=private constructor] @ 0xb328
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V19;->access$0(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0xb340
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V19;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File;)Ljava/util/ArrayList; [access_flags=private static] @ 0xb378
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->access$0(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=static synthetic] @ 0xbe2c
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V19;->makeDexElements(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=private static] @ 0xb780
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->access$1(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=static synthetic] @ 0xbe48
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V19;->access$1(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; I)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0xb35c
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V19;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; I)Ljava/util/ArrayList; [access_flags=private static] @ 0xb578
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->access$2(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object; I)V [access_flags=static synthetic] @ 0xbe60
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->access$3(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=static synthetic] @ 0xbe78
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V4;-><init>()V [access_flags=private constructor] @ 0xb9bc
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V4;->access$0(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0xb9d4
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V4;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File;)Ljava/util/ArrayList; [access_flags=private static] @ 0xba0c
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->access$4(Ljava/lang/String;)Ljava/lang/String; [access_flags=static synthetic] @ 0xbe94
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V4;->access$1(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; I)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0xb9f0
+Lcom/wrapper/proxyapplication/MultiDexForTinker$V4;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; Ljava/util/List; Ljava/io/File; I)Ljava/util/ArrayList; [access_flags=private static] @ 0xbbe4
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=private static] @ 0xbeb0
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=private static] @ 0xc030
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object; I)V [access_flags=private static] @ 0xbf60
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->findMethod(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0xc0c8
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->getprefixname(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0xc380
+Lcom/wrapper/proxyapplication/MultiDexForTinker;-><init>()V [access_flags=private constructor] @ 0xbe14
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->findMethodinClazz(Ljava/lang/Class; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0xc17c
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->finishinstallDexes(Ljava/lang/ClassLoader;)V [access_flags=private static] @ 0xc220
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->installDexes(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xc3d4
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->splitPaths(Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xc99c
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->installDexes(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String; I)Ljava/util/ArrayList; [access_flags=private static] @ 0xc4fc
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->openallDexes(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xc624
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->prepareexpandFieldArray(Ljava/lang/Object; Ljava/lang/String; I)V [access_flags=private static] @ 0xc79c
+Lcom/wrapper/proxyapplication/MultiDexForTinker;->preparetoinstallDexes(Ljava/lang/ClassLoader; I)V [access_flags=private static] @ 0xc8a0
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex$V26;-><init>()V [access_flags=private constructor] @ 0xc9ec
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex$V26;->access$0(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; [Ljava/nio/ByteBuffer;)V [access_flags=static synthetic] @ 0xca04
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex$V26;->install(Ljava/lang/ClassLoader; Ljava/lang/reflect/Field; [Ljava/nio/ByteBuffer;)V [access_flags=private static] @ 0xca1c
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->access$0(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=static synthetic] @ 0xcc10
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex$V26;->makeDexElements(Ljava/lang/Object; [Ljava/nio/ByteBuffer; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=private static] @ 0xcb14
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->access$1(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=static synthetic] @ 0xcc28
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->access$2(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=static synthetic] @ 0xcc44
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=private static] @ 0xcc60
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=private static] @ 0xcd10
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->findMethod(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0xcda8
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;-><init>()V [access_flags=private constructor] @ 0xcbf8
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->findMethodinClazz(Ljava/lang/Class; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0xce5c
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->getprefixname(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0xcf00
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->installDexes(Ljava/lang/ClassLoader; [Ljava/nio/ByteBuffer;)V [access_flags=private static] @ 0xcf7c
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->openallDexes(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xd024
+Lcom/wrapper/proxyapplication/MultiDexForTinkerForMemoryDex;->splitPaths(Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=private static] @ 0xd19c
+Ljava/lang/reflect/Constructor;->isAccessible()Z
+Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Ljava/lang/reflect/Constructor;->setAccessible(Z)V
+Lcom/wrapper/proxyapplication/ShareReflectUtil;-><init>()V [access_flags=public constructor] @ 0xd1ec
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=public static] @ 0xd204
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->findMethod(Ljava/lang/Class; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=public static varargs] @ 0xd42c
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->findMethod(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=public static varargs] @ 0xd4d0
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->getActivityThread(Landroid/content/Context; Ljava/lang/Class;)Ljava/lang/Object; [access_flags=public static] @ 0xd584
+Ljava/lang/Class;->getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->getValueOfStaticIntField(Ljava/lang/Class; Ljava/lang/String; I)I [access_flags=public static] @ 0xd634
+Lcom/wrapper/proxyapplication/ShareReflectUtil;->reduceFieldArray(Ljava/lang/Object; Ljava/lang/String; I)V [access_flags=public static] @ 0xd668
+Ljava/nio/channels/FileChannel;->close()V
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/wrapper/proxyapplication/Util;->CreatenewFileName(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xdb78
+Ljava/nio/channels/FileChannel;->lock()Ljava/nio/channels/FileLock;
+Lcom/wrapper/proxyapplication/Util;->DeleteFile(Ljava/lang/String;)I [access_flags=public static] @ 0xdbe0
+Lcom/wrapper/proxyapplication/Util;->isFileValid(Ljava/lang/String; J)Z [access_flags=private static] @ 0x113c0
+Lcom/wrapper/proxyapplication/Util;->checkCopiedFileCrc(Ljava/util/zip/ZipFile; Ljava/lang/String; Ljava/io/File;)Z [access_flags=private static] @ 0x10fe0
+Lcom/wrapper/proxyapplication/Util;->UnzipFile(Ljava/util/zip/ZipFile; Ljava/lang/String; Ljava/io/File;)Z [access_flags=public static] @ 0x10c18
+Ljava/io/File;->length()J
+Ljava/nio/channels/FileLock;->release()V
+Lcom/wrapper/proxyapplication/Util;->Comparetxtinzip(Ljava/util/zip/ZipFile; Ljava/lang/String; Ljava/io/File;)I [access_flags=public static] @ 0xd7bc
+Ljava/io/File;->mkdir()Z
+Ljava/io/RandomAccessFile;->getChannel()Ljava/nio/channels/FileChannel;
+Ljava/lang/Exception;->printStackTrace()V
+Lcom/wrapper/proxyapplication/Util;-><clinit>()V [access_flags=static constructor] @ 0xd6c8
+Lcom/wrapper/proxyapplication/Util;->getCPUABI()V [access_flags=public static] @ 0x110f0
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Lcom/wrapper/proxyapplication/Util;-><init>()V [access_flags=public constructor] @ 0xd7a4
+Ljava/io/BufferedInputStream;->close()V
+Ljava/lang/String;-><init>([B)V
+Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/io/BufferedInputStream;->read([B)I
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/io/File;->delete()Z
+Ljava/util/zip/ZipEntry;->getCrc()J
+Lcom/wrapper/proxyapplication/Util;->getFileCRC32(Ljava/io/File;)J [access_flags=private static] @ 0x11278
+Ljava/io/BufferedOutputStream;->close()V
+Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedOutputStream;->write([B I I)V
+Lcom/wrapper/proxyapplication/Util;->SafeUnzipFile(Ljava/util/zip/ZipFile; Ljava/lang/String; Ljava/io/File;)Z [access_flags=public static] @ 0x10818
+Lcom/wrapper/proxyapplication/Util;->SafeUnzipFile(Ljava/util/zip/ZipFile; Ljava/lang/String; Ljava/io/File; J)Z [access_flags=public static] @ 0x10838
+Lcom/wrapper/proxyapplication/Util;->UnzipFile(Ljava/util/zip/ZipFile; Ljava/util/zip/ZipEntry;)[B [access_flags=public static] @ 0x10f60
+Ljava/io/BufferedInputStream;->read([B I I)I
+Ljava/util/zip/CRC32;->getValue()J
+Ljava/io/FileNotFoundException;->printStackTrace()V
+Ljava/util/zip/CRC32;-><init>()V
+Ljava/util/zip/CRC32;->update([B)V
+Lcom/wrapper/proxyapplication/Util;->deleteDir(Ljava/io/File;)Z [access_flags=public static] @ 0x11048
+Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+Ljava/io/File;->list()[Ljava/lang/String;
+Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+Lcom/wrapper/proxyapplication/Util;->getCRC32(Ljava/io/File;)J [access_flags=public static] @ 0x111b0
+Ljava/util/zip/CheckedInputStream;-><init>(Ljava/io/InputStream; Ljava/util/zip/Checksum;)V
+Ljava/util/zip/CheckedInputStream;->getChecksum()Ljava/util/zip/Checksum;
+Ljava/util/zip/CheckedInputStream;->close()V
+Ljava/util/zip/CheckedInputStream;->read([B)I
+Ljava/util/zip/Checksum;->getValue()J

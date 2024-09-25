@@ -1,0 +1,23 @@
+67456e315327d52b0efaabd0a798512d44dc49cefc178c5988beff14434c679d:['Network', 'File']
+------------------------------
+Permissions:
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/67456e315327d52b0efaabd0a798512d44dc49cefc178c5988beff14434c679d/api.txt
+------------------------------
+Intent:
+cn.play.dservice
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+android.intent.action.PACKAGE_REPLACED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/67456e315327d52b0efaabd0a798512d44dc49cefc178c5988beff14434c679d/67456e315327d52b0efaabd0a798512d44dc49cefc178c5988beff14434c679d.gml

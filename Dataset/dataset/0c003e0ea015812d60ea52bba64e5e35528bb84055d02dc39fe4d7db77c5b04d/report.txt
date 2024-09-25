@@ -1,0 +1,31 @@
+0c003e0ea015812d60ea52bba64e5e35528bb84055d02dc39fe4d7db77c5b04d:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.BATTERY_STATS
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.SEND_DOWNLOAD_COMPLETED_INTENTS
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.INTERNET
+android.permission.ACCESS_COARSE_UPDATES
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.BLUETOOTH
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/0c003e0ea015812d60ea52bba64e5e35528bb84055d02dc39fe4d7db77c5b04d/api.txt
+------------------------------
+Intent:
+android.intent.action.MAIN
+android.intent.category.LEANBACK_LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/0c003e0ea015812d60ea52bba64e5e35528bb84055d02dc39fe4d7db77c5b04d/0c003e0ea015812d60ea52bba64e5e35528bb84055d02dc39fe4d7db77c5b04d.gml

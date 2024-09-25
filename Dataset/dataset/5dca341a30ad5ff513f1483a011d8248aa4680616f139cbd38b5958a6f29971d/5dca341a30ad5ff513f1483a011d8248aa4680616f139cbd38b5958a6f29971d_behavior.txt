@@ -1,0 +1,1136 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+5dca341a30ad5ff513f1483a011d8248aa4680616f139cbd38b5958a6f29971d
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.crescentmoongames.exiles
+
+
+
+
+Minimum system version:
+Android 2.3.3, 2.3.4
+
+
+
+
+Copyright:
+bj
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:ap****om/**.133.40.** port:80
+
+
+host:ap****om/**.133.40.** port:9090
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://ap****om/tvapi/checkupdates.php?mac=60%3A00%3A01%3A00%3Ab9%3A00&baseVersion=230&currentVersion=230&channel=znds&packagename=com.crescentmoongames.exiles&key=2aedba33b5a27a28f6abe769b0f685e5'
+
+
+u'http://ap****om:9090/serv/check.action?source=7'
+
+
+u'http://ap****om/countapi/sdk_login_count.php'
+
+
+u'http://ap****om/tvapi2/sdk_ad.php?channel=znds&adpid=30&sdkversion=230&packagename=com.crescentmoongames.exiles'
+
+
+u'http://ap****om/tvapi2/sdk_ad.php?channel=znds&adpid=27&sdkversion=230&packagename=com.crescentmoongames.exiles'
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:ap****om/**.133.40.** port:80 data:data:GET /tvapi/checkupdates.php?mac=60%3A00%3A01%3A00%3Ab9%3A00&baseVersion=230&currentVersion=230&channel=znds&packagename=com.crescentmoongames.exiles&key=2aedba33b5a27a28f6abe769b0f685e5 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: api.kuaiyouxi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:ap****om/**.133.40.** port:80 data:data:GET /tvapi2/sdk_ad.php?channel=znds&adpid=27&sdkversion=230&packagename=com.crescentmoongames.exiles HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: api.kuaiyouxi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:ap****om/**.133.40.** port:80 data:data:GET /tvapi2/sdk_ad.php?channel=znds&adpid=30&sdkversion=230&packagename=com.crescentmoongames.exiles HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: api.kuaiyouxi.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://ap****om/tvapi/checkupdates.php?mac=60%3A00%3A01%3A00%3Ab9%3A00&baseVersion=230&currentVersion=230&channel=znds&packagename=com.crescentmoongames.exiles&key=2aedba33b5a27a28f6abe769b0f685e5
+
+
+http://ap****om:9090/serv/check.action?source=7
+
+
+http://ap****om/countapi/sdk_login_count.php
+
+
+http://ap****om/tvapi2/sdk_ad.php?channel=znds&adpid=27&sdkversion=230&packagename=com.crescentmoongames.exiles
+
+
+http://ap****om/tvapi2/sdk_ad.php?channel=znds&adpid=30&sdkversion=230&packagename=com.crescentmoongames.exiles
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://ap****om/tvapi/checkupdates.php
+
+
+http://ap****om/tvapi/checkupdates.php?mac=60%3A00%3A01%3A00%3Ab9%3A00&baseVersion=230&currentVersion=230&channel=znds&packagename=com.crescentmoongames.exiles&key=2aedba33b5a27a28f6abe769b0f685e5
+
+
+http://ap****om:9090/serv/check.action?source=7
+
+
+http://ap****om/countapi/sdk_login_count.php
+
+
+http://ap****om/tvapi2/sdk_ad.php?channel=znds&adpid=27&sdkversion=230&packagename=com.crescentmoongames.exiles
+
+
+http://ap****om/tvapi2/sdk_ad.php?channel=znds&adpid=30&sdkversion=230&packagename=com.crescentmoongames.exiles
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:ap****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create database
+
+
+
+
+
+Detail info:
+
+/data/data/com.crescentmoongames.exiles/databases/kyx_sdk_downloads.db
+
+
+/storage/emulated/0/kuaiyouxi/datas/sdk/downloads/kyx_sdk_downloads.db
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:9
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:65
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:69
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:67
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:57
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:58
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:59
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:66
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:54
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:64
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:62
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:61
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:55
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:68
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:63
+
+
+
+
+
+Behaviour:
+Read external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/znds/230/update
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+tmpfs / tmpfs ro,relatime 0 0
+
+
+tmpfs /cache tmpfs rw,relatime 0 0
+
+
+/dev/block/sda1 /data ext2 rw,relatime,errors=continue 0 0
+
+
+tmpfs /dev tmpfs rw,nosuid,relatime,mode=755 0 0
+
+
+devpts /dev/pts devpts rw,relatime,mode=600 0 0
+
+
+none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+
+
+proc /proc proc rw,relatime 0 0
+
+
+none /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
+
+
+sysfs /sys sysfs rw,relatime 0 0
+
+
+none /sys/fs/cgroup tmpfs rw,relatime,mode=750,gid=1000 0 0
+
+
+pstore /sys/fs/pstore pstore rw,relatime 0 0
+
+
+none /acct cgroup rw,relatime,cpuacct 0 0
+
+
+tmpfs /mnt/asec tmpfs rw,relatime,mode=755,gid=1000 0 0
+
+
+tmpfs /mnt/obb tmpfs rw,relatime,mode=755,gid=1000 0 0
+
+
+/dev/fuse /mnt/shell/emulated fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/znds/230/update
+
+
+path:/storage/emulated/0/.rwtest
+
+
+path:/storage/emulated/0/pf
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.crescentmoongames.exiles/shared_prefs/kyx_prefs.xml.bak
+
+
+/data/data/com.crescentmoongames.exiles/shared_prefs/kyx_build.xml.bak
+
+
+/data/data/com.crescentmoongames.exiles/shared_prefs/sdk_perferences.xml.bak
+
+
+/storage/emulated/0/pf
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:69
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:62
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:67
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:64
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:58
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:57
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:59
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:63
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:54
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:65
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:66
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:60
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:68
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:61
+
+
+path:/storage/emulated/0/kuaiyouxi/datas/res/drawable/launcher/default.png length:56
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+Camera;->open
+Open camera
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'gpu', u''
+
+
+u'ad_bean', u''
+
+
+u'path', u''
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15614): Process: com.crescentmoongames.exiles:except, PID: 15614
+
+
+
+E/AndroidRuntime(15614): java.lang.RuntimeException: Unable to instantiate service com.kuaiyouxi.gamepad.sdk.service.SDKService: java.lang.ClassNotFoundException: Didn't find class "com.kuaiyouxi.gamepad.sdk.service.SDKService" on path: DexPathList[[zip file "/data/app/com.crescentmoongames.exiles-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.crescentmoongames.exiles-1, /system/lib, /system/lib/arm]]
+
+
+
+E/AndroidRuntime(15614): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2543)
+
+
+
+E/AndroidRuntime(15614): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+
+
+
+E/AndroidRuntime(15614): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+
+
+
+E/AndroidRuntime(15614): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/AndroidRuntime(15614): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/AndroidRuntime(15614): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+
+
+
+E/AndroidRuntime(15614): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/AndroidRuntime(15614): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/AndroidRuntime(15614): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+
+
+
+E/AndroidRuntime(15614): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+
+
+
+E/AndroidRuntime(15614): 	at com.tencent.music.v_d20a.core.XposedBridge.main(XposedBridge.java:135)
+
+
+
+E/AndroidRuntime(15614): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+E/AndroidRuntime(15614): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.kuaiyouxi.gamepad.sdk.service.SDKService" on path: DexPathList[[zip file "/data/app/com.crescentmoongames.exiles-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.crescentmoongames.exiles-1, /system/lib, /system/lib/arm]]
+
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.crescentmoongames.exiles/files/kuaiyouxi/datas//res/230/dex.jar
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'gpu', u'Android PixelFlinger 1.4@Android'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218899e0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) ty=1 fl=#1810500 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21daa148 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810500 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2192bc58 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) gr=#11 sim=#120 ty=2 fl=#1810500 pfl=0x8 fmt=-2 wanim=0x7f090007}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+u'android.os.Parcel@2184f360'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.crescentmoongames.exiles\/com.kuaiyouxi.gamepad.sdk.LauncherActivity}"}
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'select * from gameitem limit 1', u'null'
+
+
+u'SELECT * FROM `gameitem` ', u'[]'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+AndroidManifest.xml
+0x81ff4189
+
+
+
+
+assets/armeabi/libinject.so
+0xef0f25b6
+
+
+
+
+assets/armeabi-v7a/libinject.so
+0xe63b5636
+
+
+
+
+assets/bin/Data/mainData
+0xe711b1a
+
+
+
+
+assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll
+0x480e807c
+
+
+
+
+assets/bin/Data/Managed/Assembly-CSharp.dll
+0x87f2d747
+
+
+
+
+assets/bin/Data/Managed/Assembly-UnityScript-firstpass.dll
+0xeabf9096
+
+
+
+
+assets/bin/Data/Managed/Assembly-UnityScript.dll
+0xd58c408d
+
+
+
+
+assets/bin/Data/Managed/Boo.Lang.dll
+0xf6f6e061
+
+
+
+
+assets/bin/Data/Managed/Mono.Security.dll
+0x311ba582
+
+
+
+
+assets/bin/Data/Managed/mscorlib.dll
+0xe26bd1b6
+
+
+
+
+assets/bin/Data/Managed/System.Core.dll
+0x60a549fd
+
+
+
+
+assets/bin/Data/Managed/System.dll
+0x700fad59
+
+
+
+
+assets/bin/Data/Managed/System.Xml.dll
+0xfc25dd91
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.dll
+0x76134f1
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UI.dll
+0x9d5597a3
+
+
+
+
+assets/bin/Data/Managed/UnityScript.Lang.dll
+0xcb0dd8cb
+
+
+
+
+assets/bin/Data/Resources/unity_builtin_extra
+0x80dab06c
+
+
+
+
+assets/bin/Data/settings.xml
+0xa4ba93b4
+
+
+
+
+assets/bin/Data/sharedassets0.assets
+0xf824ab03
+
+
+
+
+assets/bin/Data/splash.png
+0xc82bf757
+
+
+
+
+assets/bin/Data/unity default resources
+0x71a018df
+
+
+
+
+assets/kuaiyouxi/launcher/default.png
+0xf473232d
+
+
+
+
+assets/kyx_ad.png
+0x55b5e5a2
+
+
+
+
+assets/kyx_data
+0x6047a633
+
+
+
+
+assets/kyx_md5
+0x228250
+
+
+
+
+assets/kyx_version
+0x636117c6
+
+
+
+
+assets/x86/libinject.so
+0x9b7f0531
+
+
+
+
+classes.dex
+0xf06e0020
+
+
+
+
+lib/armeabi-v7a/libmain.so
+0xb80b762c
+
+
+
+
+lib/armeabi-v7a/libmono.so
+0x350f2e40
+
+
+
+
+lib/armeabi-v7a/libunity.so
+0x3f1b8f4c
+
+
+
+
+lib/x86/libmain.so
+0xdbf543ec
+
+
+
+
+lib/x86/libmono.so
+0xaf16eef8
+
+
+
+
+lib/x86/libunity.so
+0x7af4afa9
+
+
+
+
+META-INF/CRACK.RSA
+0xb8537cab
+
+
+
+
+META-INF/CRACK.SF
+0x91a16d53
+
+
+
+
+META-INF/MANIFEST.MF
+0x49fd50e4
+
+
+
+
+res/drawable/app_icon.png
+0xebfaa7b8
+
+
+
+
+res/drawable-hdpi/app_icon.png
+0xb38e8d56
+
+
+
+
+res/drawable-ldpi/app_icon.png
+0xdb4ec598
+
+
+
+
+res/drawable-xhdpi/app_banner.png
+0xd73fe397
+
+
+
+
+res/drawable-xhdpi/app_icon.png
+0x53904dde
+
+
+
+
+res/drawable-xxhdpi/app_icon.png
+0x62879b1a
+
+
+
+
+res/drawable-xxxhdpi/app_icon.png
+0x8a834214
+
+
+
+
+resources.arsc
+0x643a5254
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.unity3d.player.UnityPlayerActivity
+android.intent.category.LEANBACK_LAUNCHER
+
+
+
+
+com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity
+android.intent.action.MAIN
+
+
+
+
+com.kuaiyouxi.gamepad.sdk.shell.KyxShellActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+com.android.vending.CHECK_LICENSE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.BLUETOOTH
+
+
+
+
+android.permission.BLUETOOTH_ADMIN
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.KILL_BACKGROUND_PROCESSES
+
+
+
+
+android.permission.RESTART_PACKAGES
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.kuaiyouxi.sdk.service.KyxService
+
+
+
+
+com.kuaiyouxi.gamepad.sdk.service.SDKService
+
+
+

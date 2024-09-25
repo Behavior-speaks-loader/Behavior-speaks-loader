@@ -1,0 +1,36 @@
+5e3c1f250093d3c48f7b0bc66f0c9fb8e98aee8e4b3000c13d3e1203b634633d:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.android.launcher.permission.READ_SETTINGS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+com.luxuryjewelrystore.permission.JPUSH_MESSAGE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/5e3c1f250093d3c48f7b0bc66f0c9fb8e98aee8e4b3000c13d3e1203b634633d/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.RECEIVE_MESSAGE
+com.luxuryjewelrystore
+------------------------------
+Function call graph:
+gml path: ./res/5e3c1f250093d3c48f7b0bc66f0c9fb8e98aee8e4b3000c13d3e1203b634633d/5e3c1f250093d3c48f7b0bc66f0c9fb8e98aee8e4b3000c13d3e1203b634633d.gml

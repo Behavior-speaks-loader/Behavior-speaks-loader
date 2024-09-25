@@ -1,0 +1,525 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+19b87ef40feb2fec509d4c70ff2470621b5d970ba013a759a9489c8e3de4a3f7
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+co.nz.polygame.bogansrunandroid1
+
+
+
+
+Minimum system version:
+Android 2.0.1
+
+
+
+
+Copyright:
+N/A
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+processor	: 0
+
+
+BogoMIPS	: 38.40
+
+
+N/A
+
+
+processor	: 1
+
+
+processor	: 2
+
+
+processor	: 3
+
+
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt 
+
+
+CPU implementer	: 0x51
+
+
+CPU architecture: 7
+
+
+CPU variant	: 0x2
+
+
+CPU part	: 0x06f
+
+
+CPU revision	: 0
+
+
+Hardware	: Qualcomm MSM 8974 HAMMERHEAD (Flattened Device Tree)
+
+
+Revision	: 000b
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/proc/cpuinfo length:69
+
+
+path:/proc/cpuinfo length:5
+
+
+path:/proc/meminfo length:69
+
+
+path:/proc/meminfo length:5
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+TelephonyManager;->getSimSerialNumber
+Get SIM serial number
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+Camera;->open
+Open camera
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.unity3d.player.UnityPlayer$18@218a5578', u'{"action":"android.hardware.usb.action.USB_DEVICE_DETACHED"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15527): FATAL EXCEPTION: GLThread 162
+
+
+
+E/AndroidRuntime(15527): Process: co.nz.polygame.bogansrunandroid1, PID: 15527
+
+
+
+E/AndroidRuntime(15527): java.lang.IllegalArgumentException: No configs match configSpec
+
+
+
+E/AndroidRuntime(15527): 	at com.unity3d.player.z$a.chooseConfig(Unknown Source)
+
+
+
+E/AndroidRuntime(15527): 	at android.opengl.GLSurfaceView$EglHelper.start(GLSurfaceView.java:1024)
+
+
+
+E/AndroidRuntime(15527): 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1401)
+
+
+
+E/AndroidRuntime(15527): 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1240)
+
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":65536,"COMPONENT_NAME":"ComponentInfo{co.nz.polygame.bogansrunandroid1\/com.unity3d.player.UnityPlayerNativeActivity}"}
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2188d1e0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#10 ty=1 fl=#810500 pfl=0x8 fmt=4 wanim=0x10302f5}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.unity3d.player.UnityPlayerProxyActivity@218b5c00', u'class com.unity3d.player.UnityPlayerNativeActivity'
+
+
+u'android.os.Parcel@2184f530'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0x12fb26d0
+
+
+
+
+META-INF/CERT.SF
+0xf699ebc9
+
+
+
+
+META-INF/CERT.RSA
+0x2fd9000
+
+
+
+
+AndroidManifest.xml
+0x416febe1
+
+
+
+
+assets/bin/Data/Managed/Assembly-CSharp-firstpass.dll
+0xc5e52101
+
+
+
+
+assets/bin/Data/Managed/Assembly-UnityScript.dll
+0x8591f85d
+
+
+
+
+assets/bin/Data/Managed/Boo.Lang.dll
+0x38e78042
+
+
+
+
+assets/bin/Data/Managed/Mono.Security.dll
+0x1417c052
+
+
+
+
+assets/bin/Data/Managed/System.dll
+0xf6d36174
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.dll
+0xb268dcb3
+
+
+
+
+assets/bin/Data/Managed/mscorlib.dll
+0x6885a103
+
+
+
+
+assets/bin/Data/PlayerConnectionConfigFile
+0xeecfa42a
+
+
+
+
+assets/bin/Data/level0
+0x46587730
+
+
+
+
+assets/bin/Data/mainData
+0x14e4f31
+
+
+
+
+assets/bin/Data/settings.xml
+0x559e5179
+
+
+
+
+assets/bin/Data/sharedassets0.assets
+0xe57543a3
+
+
+
+
+assets/bin/Data/sharedassets0.assets.resS
+0x96749b3a
+
+
+
+
+assets/bin/Data/sharedassets1.assets
+0xb5189724
+
+
+
+
+assets/bin/Data/sharedassets1.assets.resS
+0xbf2dbcfb
+
+
+
+
+assets/bin/Data/splash.png
+0x80991dcb
+
+
+
+
+assets/bin/Data/unity default resources
+0x8a392391
+
+
+
+
+assets/libs/armeabi-v7a/libmono.so
+0xf764ef61
+
+
+
+
+assets/libs/armeabi-v7a/libunity.so
+0xc0ef766b
+
+
+
+
+classes.dex
+0xfe7a040d
+
+
+
+
+lib/armeabi-v7a/libmono.so
+0x4e57d7c2
+
+
+
+
+lib/armeabi-v7a/libunity.so
+0x4688c800
+
+
+
+
+res/drawable-hdpi/app_icon.png
+0xbe18d855
+
+
+
+
+res/drawable/app_icon.png
+0x5c06da7a
+
+
+
+
+resources.arsc
+0x43cf22d2
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.unity3d.player.UnityPlayerProxyActivity
+android.intent.action.MAIN
+
+
+
+
+com.unity3d.player.UnityPlayerProxyActivity
+android.intent.category.LAUNCHER
+
+
+

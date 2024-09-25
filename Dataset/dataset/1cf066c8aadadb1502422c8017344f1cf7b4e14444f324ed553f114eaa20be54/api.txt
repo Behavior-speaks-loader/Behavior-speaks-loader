@@ -1,0 +1,878 @@
+Lcom/wordcam/pro/ApplicationModel;-><init>()V [access_flags=public constructor] @ 0x6418
+Ljava/lang/StringBuilder;-><init>()V
+Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Landroid/app/Application;-><init>()V
+Lcom/wordcam/pro/ApplicationModel;->init()V [access_flags=public] @ 0x6468
+Ljava/util/ArrayList;-><init>()V
+Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+Lcom/wordcam/pro/ApplicationModel;->reset()V [access_flags=public] @ 0x649c
+Lcom/wordcam/pro/DirectoryPicker$1;-><init>(Lcom/wordcam/pro/DirectoryPicker;)V [access_flags=constructor] @ 0x64d8
+Ljava/lang/Object;-><init>()V
+Lcom/wordcam/pro/DirectoryPicker$1;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x64f4
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Lcom/wordcam/pro/DirectoryPicker;->access$0(Lcom/wordcam/pro/DirectoryPicker;)Ljava/io/File; [access_flags=static synthetic] @ 0x65f4
+Lcom/wordcam/pro/DirectoryPicker;->access$1(Lcom/wordcam/pro/DirectoryPicker; Ljava/lang/String;)V [access_flags=static synthetic] @ 0x660c
+Lcom/wordcam/pro/DirectoryPicker$2;-><init>(Lcom/wordcam/pro/DirectoryPicker; Ljava/util/ArrayList; Z Z)V [access_flags=constructor] @ 0x6524
+Lcom/wordcam/pro/DirectoryPicker$2;->onItemClick(Landroid/widget/AdapterView; Landroid/view/View; I J)V [access_flags=public] @ 0x654c
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Z)Landroid/content/Intent;
+Lcom/wordcam/pro/DirectoryPicker;->startActivityForResult(Landroid/content/Intent; I)V
+Ljava/io/File;->isDirectory()Z
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+Lcom/wordcam/pro/DirectoryPicker;->returnDir(Ljava/lang/String;)V [access_flags=private] @ 0x6624
+Lcom/wordcam/pro/DirectoryPicker;-><init>()V [access_flags=public constructor] @ 0x65dc
+Landroid/app/ListActivity;-><init>()V
+Lcom/wordcam/pro/DirectoryPicker;->setResult(I Landroid/content/Intent;)V
+Landroid/content/Intent;-><init>()V
+Lcom/wordcam/pro/DirectoryPicker;->finish()V
+Lcom/wordcam/pro/DirectoryPicker;->filter([Ljava/io/File; Z Z)Ljava/util/ArrayList; [access_flags=public] @ 0x6658
+Ljava/util/Collections;->sort(Ljava/util/List;)V
+Ljava/io/File;->isHidden()Z
+Lcom/wordcam/pro/DirectoryPicker;->names(Ljava/util/ArrayList;)[Ljava/lang/String; [access_flags=public] @ 0x66b4
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/Iterator;->hasNext()Z
+Ljava/io/File;->getName()Ljava/lang/String;
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Ljava/util/ArrayList;->size()I
+Lcom/wordcam/pro/DirectoryPicker;->onActivityResult(I I Landroid/content/Intent;)V [access_flags=protected] @ 0x6708
+Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/wordcam/pro/DirectoryPicker;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x6748
+Lcom/wordcam/pro/DirectoryPicker;->findViewById(I)Landroid/view/View;
+Landroid/os/Bundle;->getBoolean(Ljava/lang/String; Z)Z
+Landroid/widget/ListView;->setTextFilterEnabled(Z)V
+Lcom/wordcam/pro/DirectoryPicker;->setContentView(I)V
+Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context; I [Ljava/lang/Object;)V
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Lcom/wordcam/pro/DirectoryPicker;->getListView()Landroid/widget/ListView;
+Landroid/app/ListActivity;->onCreate(Landroid/os/Bundle;)V
+Lcom/wordcam/pro/DirectoryPicker;->setListAdapter(Landroid/widget/ListAdapter;)V
+Lcom/wordcam/pro/DirectoryPicker;->getApplicationContext()Landroid/content/Context;
+Lcom/wordcam/pro/DirectoryPicker;->getIntent()Landroid/content/Intent;
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+Landroid/widget/Toast;->show()V
+Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+Landroid/widget/Button;->setText(Ljava/lang/CharSequence;)V
+Lcom/wordcam/pro/DirectoryPicker;->setTitle(Ljava/lang/CharSequence;)V
+Landroid/widget/Toast;->makeText(Landroid/content/Context; Ljava/lang/CharSequence; I)Landroid/widget/Toast;
+Ljava/lang/String;->length()I
+Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+Ljava/io/File;->canRead()Z
+Lcom/wordcam/pro/FontSelector$FontAdapter$1;-><init>(Lcom/wordcam/pro/FontSelector$FontAdapter;)V [access_flags=constructor] @ 0x68cc
+Lcom/wordcam/pro/FontSelector$FontAdapter$1;->onCheckedChanged(Landroid/widget/CompoundButton; Z)V [access_flags=public] @ 0x68e8
+Lcom/wordcam/pro/FontSelector;->access$0(Lcom/wordcam/pro/FontSelector;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x6bf0
+Lcom/wordcam/pro/FontSelector$FontAdapter;->access$0(Lcom/wordcam/pro/FontSelector$FontAdapter;)Lcom/wordcam/pro/FontSelector; [access_flags=static synthetic] @ 0x6a40
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Landroid/widget/CompoundButton;->getText()Ljava/lang/CharSequence;
+Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+Landroid/widget/CompoundButton;->setSelected(Z)V
+Lcom/wordcam/pro/FontSelector;->access$1(Lcom/wordcam/pro/FontSelector; Ljava/util/ArrayList;)V [access_flags=static synthetic] @ 0x6c08
+Lcom/wordcam/pro/FontSelector$FontAdapter;-><init>(Lcom/wordcam/pro/FontSelector; Landroid/content/Context; I Ljava/util/List;)V [access_flags=public constructor] @ 0x6a18
+Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context; I Ljava/util/List;)V
+Lcom/wordcam/pro/FontSelector$FontAdapter;->getView(I Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View; [access_flags=public] @ 0x6a58
+Ljava/lang/String;->toString()Ljava/lang/String;
+Landroid/widget/CheckBox;->setHeight(I)V
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Landroid/graphics/Typeface;->createFromAsset(Landroid/content/res/AssetManager; Ljava/lang/String;)Landroid/graphics/Typeface;
+Landroid/widget/TextView;->setTextColor(I)V
+Landroid/widget/CheckBox;->setChecked(Z)V
+Landroid/widget/TextView;->setBackgroundColor(I)V
+Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface;)V
+Ljava/util/List;->get(I)Ljava/lang/Object;
+Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup;)Landroid/view/View;
+Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+Landroid/view/View;->findViewById(I)Landroid/view/View;
+Landroid/widget/CheckBox;->setWidth(I)V
+Landroid/widget/CheckBox;->setText(Ljava/lang/CharSequence;)V
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Lcom/wordcam/pro/FontSelector;->finish()V
+Lcom/wordcam/pro/FontSelector;-><init>()V [access_flags=public constructor] @ 0x6bd8
+Landroid/app/Activity;-><init>()V
+Lcom/wordcam/pro/FontSelector;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x6c20
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Lcom/wordcam/pro/FontSelector;->getApplication()Landroid/app/Application;
+Lcom/wordcam/pro/FontSelector;->setContentView(I)V
+Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+Lcom/wordcam/pro/FontSelector;->findViewById(I)Landroid/view/View;
+Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
+Landroid/widget/ArrayAdapter;->notifyDataSetChanged()V
+Lcom/wordcam/pro/FontSelector;->onDestroy()V [access_flags=public] @ 0x6d64
+Landroid/app/Activity;->onDestroy()V
+Lcom/wordcam/pro/ImageEditor$1;-><init>(Lcom/wordcam/pro/ImageEditor;)V [access_flags=constructor] @ 0x6d90
+Lcom/wordcam/pro/ImageEditor$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x6dac
+Lcom/wordcam/pro/ImageEditor;->getApplication()Landroid/app/Application;
+Lcom/wordcam/pro/ImageEditor;->getApplicationContext()Landroid/content/Context;
+Lcom/wordcam/pro/ImageEditor;->access$0(Lcom/wordcam/pro/ImageEditor;)V [access_flags=static synthetic] @ 0x7174
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+Landroid/content/DialogInterface;->dismiss()V
+Lcom/wordcam/pro/ImageEditor$2;-><init>(Lcom/wordcam/pro/ImageEditor; Landroid/widget/TextView;)V [access_flags=constructor] @ 0x6ef4
+Lcom/wordcam/pro/ImageEditor$2;->onProgressChanged(Landroid/widget/SeekBar; I Z)V [access_flags=public] @ 0x6f14
+Lcom/wordcam/pro/ImageEditor;->access$1(Lcom/wordcam/pro/ImageEditor;)V [access_flags=static synthetic] @ 0x718c
+Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+Lcom/wordcam/pro/ImageEditor$2;->onStopTrackingTouch(Landroid/widget/SeekBar;)V [access_flags=public] @ 0x6f70
+Lcom/wordcam/pro/ImageEditor$3;-><init>(Lcom/wordcam/pro/ImageEditor; Landroid/widget/TextView;)V [access_flags=constructor] @ 0x6f8c
+Lcom/wordcam/pro/ImageEditor$3;->onProgressChanged(Landroid/widget/SeekBar; I Z)V [access_flags=public] @ 0x6fac
+Lcom/wordcam/pro/ImageEditor$3;->onStopTrackingTouch(Landroid/widget/SeekBar;)V [access_flags=public] @ 0x7010
+Lcom/wordcam/pro/ImageEditor$4;-><init>(Lcom/wordcam/pro/ImageEditor;)V [access_flags=constructor] @ 0x702c
+Lcom/wordcam/pro/ImageEditor$4;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x7048
+Lcom/wordcam/pro/ImageEditor;->access$2(Lcom/wordcam/pro/ImageEditor;)V [access_flags=static synthetic] @ 0x71a4
+Lcom/wordcam/pro/ImageEditor$5;-><init>(Lcom/wordcam/pro/ImageEditor;)V [access_flags=constructor] @ 0x7064
+Lcom/wordcam/pro/ImageEditor$5;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x7080
+Lcom/wordcam/pro/ImageEditor;->access$3(Lcom/wordcam/pro/ImageEditor;)V [access_flags=static synthetic] @ 0x71bc
+Lcom/wordcam/pro/ImageEditor$6;-><init>(Lcom/wordcam/pro/ImageEditor;)V [access_flags=constructor] @ 0x709c
+Lcom/wordcam/pro/ImageEditor$6;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x70b8
+Lcom/wordcam/pro/ImageEditor;->access$4(Lcom/wordcam/pro/ImageEditor;)V [access_flags=static synthetic] @ 0x71d4
+Lcom/wordcam/pro/ImageEditor$7;-><init>(Lcom/wordcam/pro/ImageEditor;)V [access_flags=constructor] @ 0x70d4
+Lcom/wordcam/pro/ImageEditor$7;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x70f0
+Landroid/content/DialogInterface;->cancel()V
+Lcom/wordcam/pro/ImageEditor;->access$5(Lcom/wordcam/pro/ImageEditor;)Ljava/lang/String; [access_flags=static synthetic] @ 0x71ec
+Lcom/wordcam/pro/ImageEditor$8;-><init>(Lcom/wordcam/pro/ImageEditor;)V [access_flags=constructor] @ 0x7114
+Lcom/wordcam/pro/ImageEditor$8;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x7130
+Lcom/wordcam/pro/ImageEditor;->access$6(Lcom/wordcam/pro/ImageEditor;)V [access_flags=static synthetic] @ 0x7208
+Lcom/wordcam/pro/ImageEditor;->processImageInBackground()V [access_flags=private] @ 0x72a4
+Lcom/wordcam/pro/ImageEditor;->setThreshold()V [access_flags=private] @ 0x7738
+Lcom/wordcam/pro/ImageEditor;->rotateImage()V [access_flags=private] @ 0x73e4
+Lcom/wordcam/pro/ImageEditor;->promptForSaveLocation()V [access_flags=private] @ 0x7344
+Lcom/wordcam/pro/ImageEditor;->shareImage()V [access_flags=private] @ 0x7874
+Lcom/wordcam/pro/ImageEditor;->saveToSDCard()Ljava/lang/String; [access_flags=private] @ 0x74a0
+Lcom/wordcam/pro/ImageEditor;->selectSaveToLocation()V [access_flags=private] @ 0x76e0
+Lcom/wordcam/pro/ImageEditor;-><init>()V [access_flags=public constructor] @ 0x7154
+Landroid/app/ProgressDialog;->isShowing()Z
+Ljava/util/Date;-><init>()V
+Landroid/app/ProgressDialog;->dismiss()V
+Landroid/os/AsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+Lcom/wordcam/pro/ImageProcessTask;-><init>(Landroid/app/Activity;)V [access_flags=public constructor] @ 0x7aa4
+Landroid/widget/SeekBar;->getProgress()I
+Landroid/app/AlertDialog;->show()V
+Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->toString()Ljava/lang/String;
+Landroid/content/Intent;->createChooser(Landroid/content/Intent; Ljava/lang/CharSequence;)Landroid/content/Intent;
+Lcom/wordcam/pro/ImageEditor;->startActivity(Landroid/content/Intent;)V
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
+Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+Ljava/io/OutputStream;->write([B)V
+Ljava/lang/StringBuffer;-><init>()V
+Landroid/graphics/Bitmap;->compress(Landroid/graphics/Bitmap$CompressFormat; I Ljava/io/OutputStream;)Z
+Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/OutputStream;->close()V
+Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
+Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+Ljava/io/File;->createNewFile()Z
+Ljava/io/PrintStream;->println(Ljava/lang/Object;)V
+Ljava/io/OutputStream;->flush()V
+Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Ljava/io/File;->mkdirs()Z
+Ljava/io/ByteArrayOutputStream;-><init>()V
+Landroid/app/ProgressDialog;->show(Landroid/content/Context; Ljava/lang/CharSequence; Ljava/lang/CharSequence; Z Z)Landroid/app/ProgressDialog;
+Lcom/wordcam/pro/ImageEditor;->startActivityForResult(Landroid/content/Intent; I)V
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/io/Serializable;)Landroid/content/Intent;
+Lcom/wordcam/pro/ImageEditor;->createTargetResolutionDialog()V [access_flags=private] @ 0x7220
+Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setSingleChoiceItems([Ljava/lang/CharSequence; I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Lcom/wordcam/pro/ImageEditor;->setupButtonListeners()V [access_flags=private] @ 0x776c
+Lcom/wordcam/pro/ImageEditor;->findViewById(I)Landroid/view/View;
+Landroid/widget/SeekBar;->setOnSeekBarChangeListener(Landroid/widget/SeekBar$OnSeekBarChangeListener;)V
+Lcom/wordcam/pro/ImageEditor;->onActivityResult(I I Landroid/content/Intent;)V [access_flags=protected] @ 0x793c
+Lcom/wordcam/pro/ImageEditor;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x798c
+Lcom/wordcam/pro/ImageEditor;->setContentView(I)V
+Lcom/wordcam/pro/ImageEditor;->finish()V
+Lcom/wordcam/pro/ImageEditor;->onCreateDialog(I)Landroid/app/Dialog; [access_flags=protected] @ 0x7a10
+Lcom/wordcam/pro/ImageEditor;->onOptionsItemSelected(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x7a6c
+Landroid/view/MenuItem;->getItemId()I
+Landroid/os/AsyncTask;-><init>()V
+Lcom/wordcam/pro/ImageProcessTask;->decodeUri(Landroid/net/Uri;)Landroid/graphics/Bitmap; [access_flags=private] @ 0x7ad0
+Landroid/app/Activity;->getApplication()Landroid/app/Application;
+Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream; Landroid/graphics/Rect; Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+Landroid/graphics/BitmapFactory$Options;-><init>()V
+Ljava/lang/Object;->toString()Ljava/lang/String;
+Landroid/net/Uri;->toString()Ljava/lang/String;
+Landroid/graphics/Bitmap;->getHeight()I
+Landroid/graphics/Bitmap;->getWidth()I
+Landroid/app/Activity;->getContentResolver()Landroid/content/ContentResolver;
+Landroid/graphics/Matrix;-><init>()V
+Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
+Landroid/graphics/Matrix;->preRotate(F)Z
+Landroid/graphics/Bitmap;->createBitmap(Landroid/graphics/Bitmap; I I I I Landroid/graphics/Matrix; Z)Landroid/graphics/Bitmap;
+Lcom/wordcam/pro/ImageProcessTask;->doInBackground([Ljava/lang/String;)Ljava/lang/Boolean; [access_flags=protected varargs] @ 0x7c70
+Landroid/graphics/Bitmap;->getPixels([I I I I I I I)V
+Landroid/graphics/Canvas;->drawText(Ljava/lang/String; F F Landroid/graphics/Paint;)V
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Landroid/app/Activity;->getAssets()Landroid/content/res/AssetManager;
+Landroid/graphics/Paint;->setTextSize(F)V
+Landroid/graphics/Rect;->width()I
+Landroid/graphics/Color;->blue(I)I
+Landroid/graphics/Rect;->height()I
+Landroid/graphics/Paint;->getTextBounds(Ljava/lang/String; I I Landroid/graphics/Rect;)V
+Landroid/graphics/Paint;->setTypeface(Landroid/graphics/Typeface;)Landroid/graphics/Typeface;
+Landroid/graphics/Bitmap;->getConfig()Landroid/graphics/Bitmap$Config;
+Landroid/graphics/Bitmap;->setPixels([I I I I I I I)V
+Ljava/io/FileNotFoundException;->toString()Ljava/lang/String;
+Landroid/graphics/Bitmap;->createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+Landroid/graphics/Color;->rgb(I I I)I
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Landroid/graphics/Color;->green(I)I
+Landroid/graphics/Canvas;->drawColor(I)V
+Landroid/graphics/Color;->red(I)I
+Landroid/app/ProgressDialog;->setProgress(I)V
+Landroid/graphics/Canvas;-><init>(Landroid/graphics/Bitmap;)V
+Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+Landroid/graphics/Paint;->setColor(I)V
+Ljava/io/FileNotFoundException;->printStackTrace()V
+Landroid/graphics/Paint;-><init>(I)V
+Landroid/graphics/Rect;-><init>()V
+Lcom/wordcam/pro/ImageProcessTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0x86b4
+Lcom/wordcam/pro/ImageProcessTask;->onPostExecute(Ljava/lang/Boolean;)V [access_flags=protected] @ 0x86d4
+Landroid/app/Activity;->getBaseContext()Landroid/content/Context;
+Lcom/wordcam/pro/ImageProcessTask;->cancel(Z)Z
+Ljava/lang/Exception;->printStackTrace()V
+Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
+Landroid/app/Activity;->findViewById(I)Landroid/view/View;
+Lcom/wordcam/pro/ImageProcessTask;->onPostExecute(Ljava/lang/Object;)V [access_flags=protected bridge synthetic] @ 0x8790
+Lcom/wordcam/pro/ImageProcessTask;->onPreExecute()V [access_flags=protected] @ 0x87ac
+Landroid/app/ProgressDialog;-><init>(Landroid/content/Context;)V
+Landroid/app/ProgressDialog;->setMessage(Ljava/lang/CharSequence;)V
+Landroid/app/ProgressDialog;->setProgressStyle(I)V
+Landroid/app/ProgressDialog;->show()V
+Landroid/app/ProgressDialog;->setCancelable(Z)V
+Landroid/os/AsyncTask;->onPreExecute()V
+Lcom/wordcam/pro/MainActivity$1;-><init>(Lcom/wordcam/pro/MainActivity;)V [access_flags=constructor] @ 0x884c
+Lcom/wordcam/pro/MainActivity$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x8868
+Lcom/wordcam/pro/MainActivity;-><init>()V [access_flags=public constructor] @ 0x8880
+Lcom/wordcam/pro/MainActivity;->openGallery()V [access_flags=private] @ 0x8898
+Lcom/wordcam/pro/MainActivity;->startActivityForResult(Landroid/content/Intent; I)V
+Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+Lcom/wordcam/pro/MainActivity;->setFullImagePath()V [access_flags=private] @ 0x88d0
+Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+Lcom/wordcam/pro/MainActivity;->managedQuery(Landroid/net/Uri; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor;
+Lcom/wordcam/pro/MainActivity;->getApplication()Landroid/app/Application;
+Landroid/database/Cursor;->moveToFirst()Z
+Lcom/wordcam/pro/MainActivity;->showHintsDialog()V [access_flags=private] @ 0x896c
+Lcom/wordcam/pro/MainActivity;->startCamera()V [access_flags=private] @ 0x89cc
+Landroid/content/Intent;->putExtra(Ljava/lang/String; I)Landroid/content/Intent;
+Landroid/content/ContentValues;->put(Ljava/lang/String; Ljava/lang/String;)V
+Landroid/content/ContentValues;-><init>()V
+Lcom/wordcam/pro/MainActivity;->getContentResolver()Landroid/content/ContentResolver;
+Landroid/content/ContentResolver;->insert(Landroid/net/Uri; Landroid/content/ContentValues;)Landroid/net/Uri;
+Lcom/wordcam/pro/MainActivity;->getBaseContext()Landroid/content/Context;
+Lcom/wordcam/pro/MainActivity;->startFontSelector()V [access_flags=private] @ 0x8acc
+Lcom/wordcam/pro/MainActivity;->startActivity(Landroid/content/Intent;)V
+Lcom/wordcam/pro/MainActivity;->startWordEditor()V [access_flags=private] @ 0x8af4
+Lcom/wordcam/pro/MainActivity;->onActivityResult(I I Landroid/content/Intent;)V [access_flags=protected] @ 0x8b1c
+Landroid/app/Activity;->onActivityResult(I I Landroid/content/Intent;)V
+Landroid/content/Intent;->getData()Landroid/net/Uri;
+Lcom/wordcam/pro/MainActivity;->onClickCamera(Landroid/view/View;)V [access_flags=public] @ 0x8cc4
+Lcom/wordcam/pro/MainActivity;->onClickFonts(Landroid/view/View;)V [access_flags=public] @ 0x8d24
+Lcom/wordcam/pro/MainActivity;->onClickGallery(Landroid/view/View;)V [access_flags=public] @ 0x8d4c
+Lcom/wordcam/pro/MainActivity;->onClickWords(Landroid/view/View;)V [access_flags=public] @ 0x8dac
+Lcom/wordcam/pro/MainActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x8dd4
+Lnet/pushad/ad/poster/AppPosterManager;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0xa6bc
+Landroid/view/View;->setBackgroundColor(I)V
+Lcom/wordcam/pro/MainActivity;->setContentView(I)V
+Lcom/wordcam/pro/MainActivity;->getWindow()Landroid/view/Window;
+Lcom/wordcam/pro/WordUtil;->readWordsFile(Landroid/app/Activity;)V [access_flags=public static] @ 0x9458
+Landroid/view/Window;->getDecorView()Landroid/view/View;
+Lcom/wordcam/pro/R$attr;-><init>()V [access_flags=public constructor] @ 0x8e3c
+Lcom/wordcam/pro/R$color;-><init>()V [access_flags=public constructor] @ 0x8e54
+Lcom/wordcam/pro/R$drawable;-><init>()V [access_flags=public constructor] @ 0x8e6c
+Lcom/wordcam/pro/R$id;-><init>()V [access_flags=public constructor] @ 0x8e84
+Lcom/wordcam/pro/R$layout;-><init>()V [access_flags=public constructor] @ 0x8e9c
+Lcom/wordcam/pro/R$string;-><init>()V [access_flags=public constructor] @ 0x8eb4
+Lcom/wordcam/pro/R$style;-><init>()V [access_flags=public constructor] @ 0x8ecc
+Lcom/wordcam/pro/R;-><init>()V [access_flags=public constructor] @ 0x8ee4
+Lcom/wordcam/pro/WordEditor$1;-><init>(Lcom/wordcam/pro/WordEditor;)V [access_flags=constructor] @ 0x8efc
+Lcom/wordcam/pro/WordEditor$1;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x8f18
+Lcom/wordcam/pro/WordEditor;->access$0(Lcom/wordcam/pro/WordEditor;)V [access_flags=static synthetic] @ 0x9000
+Lcom/wordcam/pro/WordEditor$2;-><init>(Lcom/wordcam/pro/WordEditor;)V [access_flags=constructor] @ 0x8f34
+Lcom/wordcam/pro/WordEditor$2;->onKey(Landroid/view/View; I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x8f50
+Landroid/view/KeyEvent;->getAction()I
+Landroid/text/Editable;->length()I
+Landroid/widget/EditText;->getText()Landroid/text/Editable;
+Lcom/wordcam/pro/WordEditor;->access$1(Lcom/wordcam/pro/WordEditor;)Landroid/widget/EditText; [access_flags=static synthetic] @ 0x9018
+Lcom/wordcam/pro/WordEditor$3;-><init>(Lcom/wordcam/pro/WordEditor;)V [access_flags=constructor] @ 0x8fa8
+Lcom/wordcam/pro/WordEditor$3;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x8fc4
+Lcom/wordcam/pro/WordEditor;->access$2(Lcom/wordcam/pro/WordEditor;)V [access_flags=static synthetic] @ 0x9030
+Lcom/wordcam/pro/WordEditor;->addWord()V [access_flags=private] @ 0x9048
+Lcom/wordcam/pro/WordEditor;->clearAllWords()V [access_flags=private] @ 0x911c
+Lcom/wordcam/pro/WordEditor;-><init>()V [access_flags=public constructor] @ 0x8fe0
+Landroid/widget/EditText;->setError(Ljava/lang/CharSequence;)V
+Lcom/wordcam/pro/WordUtil;->saveWordsList(Landroid/app/Activity;)V [access_flags=public static] @ 0x95f0
+Landroid/text/Editable;->toString()Ljava/lang/String;
+Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+Lcom/wordcam/pro/WordEditor;->getBaseContext()Landroid/content/Context;
+Lcom/wordcam/pro/WordEditor;->getApplication()Landroid/app/Application;
+Ljava/util/ArrayList;->clear()V
+Lcom/wordcam/pro/WordEditor;->deleteWord(Landroid/view/MenuItem;)V [access_flags=public] @ 0x9170
+Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+Landroid/view/MenuItem;->getMenuInfo()Landroid/view/ContextMenu$ContextMenuInfo;
+Lcom/wordcam/pro/WordEditor;->onContextItemSelected(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x91d0
+Landroid/app/Activity;->onContextItemSelected(Landroid/view/MenuItem;)Z
+Lcom/wordcam/pro/WordEditor;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x9254
+Lcom/wordcam/pro/WordEditor;->setContentView(I)V
+Lcom/wordcam/pro/WordEditor;->findViewById(I)Landroid/view/View;
+Lcom/wordcam/pro/WordEditor;->registerForContextMenu(Landroid/view/View;)V
+Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
+Lcom/wordcam/pro/WordEditor;->onCreateContextMenu(Landroid/view/ContextMenu; Landroid/view/View; Landroid/view/ContextMenu$ContextMenuInfo;)V [access_flags=public] @ 0x935c
+Landroid/view/ContextMenu;->setHeaderTitle(Ljava/lang/CharSequence;)Landroid/view/ContextMenu;
+Landroid/view/ContextMenu;->add(I I I Ljava/lang/CharSequence;)Landroid/view/MenuItem;
+Landroid/app/Activity;->onCreateContextMenu(Landroid/view/ContextMenu; Landroid/view/View; Landroid/view/ContextMenu$ContextMenuInfo;)V
+Lcom/wordcam/pro/WordUtil;->addDefaultWords(Landroid/app/Activity;)V [access_flags=private static] @ 0x93fc
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/io/BufferedReader;->close()V
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/io/IOException;->printStackTrace()V
+Ljava/util/ArrayList;->toString()Ljava/lang/String;
+Ljava/io/File;->exists()Z
+Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
+Ljava/io/BufferedWriter;->write(Ljava/lang/String;)V
+Ljava/io/FileWriter;-><init>(Ljava/io/File;)V
+Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+Ljava/io/BufferedWriter;->close()V
+Ljava/io/IOException;->toString()Ljava/lang/String;
+Ljava/io/File;->mkdir()Z
+Ljava/io/BufferedWriter;->newLine()V
+Lcom/wordcam/pro/WordUtil;-><init>()V [access_flags=public constructor] @ 0x93e4
+Lnet/pushad/ad/model/JmUser;-><init>()V [access_flags=public constructor] @ 0x98b0
+Lnet/pushad/ad/model/JmUser;->getmId()J [access_flags=public] @ 0x98c8
+Lnet/pushad/ad/model/JmUser;->setmJmMoney(D)V [access_flags=public] @ 0x9958
+Lnet/pushad/ad/model/JmUser;->setmPetName(Ljava/lang/String;)V [access_flags=public] @ 0x9988
+Lnet/pushad/ad/model/JmUser;->setmName(Ljava/lang/String;)V [access_flags=public] @ 0x9970
+Lnet/pushad/ad/model/JmUser;->setmId(J)V [access_flags=public] @ 0x9940
+Lnet/pushad/ad/model/JmUser;->setmUserUNI(Ljava/lang/String;)V [access_flags=public] @ 0x99a0
+Lnet/pushad/ad/model/PosterInfo;-><init>()V [access_flags=public constructor] @ 0x99b8
+Lnet/pushad/ad/model/PosterInfo;->getName()Ljava/lang/String; [access_flags=public] @ 0x9af0
+Lnet/pushad/ad/model/PosterInfo;->getDescription()Ljava/lang/String; [access_flags=public] @ 0x9a00
+Lnet/pushad/ad/model/PosterInfo;->getId()Ljava/lang/Long; [access_flags=public] @ 0x9a48
+Lnet/pushad/ad/model/PosterInfo;->getPackagename()Ljava/lang/String; [access_flags=public] @ 0x9b20
+Lnet/pushad/ad/model/PosterInfo;->getType()I [access_flags=public] @ 0x9b68
+Lnet/pushad/ad/model/PosterInfo;->getImg_url()Ljava/lang/String; [access_flags=public] @ 0x9a60
+Lnet/pushad/ad/model/PosterInfo;->getContent()Ljava/lang/String; [access_flags=public] @ 0x99e8
+Lnet/pushad/ad/model/PosterInfo;->getImgs_url1()Ljava/lang/String; [access_flags=public] @ 0x9a78
+Lnet/pushad/ad/model/PosterInfo;->getImgs_url2()Ljava/lang/String; [access_flags=public] @ 0x9a90
+Lnet/pushad/ad/model/PosterInfo;->getImgs_url3()Ljava/lang/String; [access_flags=public] @ 0x9aa8
+Lnet/pushad/ad/model/PosterInfo;->getImgs_url4()Ljava/lang/String; [access_flags=public] @ 0x9ac0
+Lnet/pushad/ad/model/PosterInfo;->getImgs_url5()Ljava/lang/String; [access_flags=public] @ 0x9ad8
+Lnet/pushad/ad/model/PosterInfo;->getCondition()I [access_flags=public] @ 0x99d0
+Lnet/pushad/ad/model/PosterInfo;->getNet_url()Ljava/lang/String; [access_flags=public] @ 0x9b08
+Lnet/pushad/ad/model/PosterInfo;->getFile_url()Ljava/lang/String; [access_flags=public] @ 0x9a30
+Lnet/pushad/ad/model/PosterInfo;->getPlay_url()Ljava/lang/String; [access_flags=public] @ 0x9b38
+Lnet/pushad/ad/model/PosterInfo;->setId(Ljava/lang/Long;)V [access_flags=public] @ 0x9bf8
+Lnet/pushad/ad/model/PosterInfo;->setName(Ljava/lang/String;)V [access_flags=public] @ 0x9ca0
+Lnet/pushad/ad/model/PosterInfo;->setDescription(Ljava/lang/String;)V [access_flags=public] @ 0x9bb0
+Lnet/pushad/ad/model/PosterInfo;->setContent(Ljava/lang/String;)V [access_flags=public] @ 0x9b98
+Lnet/pushad/ad/model/PosterInfo;->setImg_url(Ljava/lang/String;)V [access_flags=public] @ 0x9c10
+Lnet/pushad/ad/model/PosterInfo;->setImgs_url1(Ljava/lang/String;)V [access_flags=public] @ 0x9c28
+Lnet/pushad/ad/model/PosterInfo;->setImgs_url2(Ljava/lang/String;)V [access_flags=public] @ 0x9c40
+Lnet/pushad/ad/model/PosterInfo;->setImgs_url3(Ljava/lang/String;)V [access_flags=public] @ 0x9c58
+Lnet/pushad/ad/model/PosterInfo;->setImgs_url4(Ljava/lang/String;)V [access_flags=public] @ 0x9c70
+Lnet/pushad/ad/model/PosterInfo;->setImgs_url5(Ljava/lang/String;)V [access_flags=public] @ 0x9c88
+Lnet/pushad/ad/model/PosterInfo;->setFile_url(Ljava/lang/String;)V [access_flags=public] @ 0x9be0
+Lnet/pushad/ad/model/PosterInfo;->setPackagename(Ljava/lang/String;)V [access_flags=public] @ 0x9cd0
+Lnet/pushad/ad/model/PosterInfo;->setNet_url(Ljava/lang/String;)V [access_flags=public] @ 0x9cb8
+Lnet/pushad/ad/model/PosterInfo;->setPlay_url(Ljava/lang/String;)V [access_flags=public] @ 0x9ce8
+Lnet/pushad/ad/model/PosterInfo;->setType(I)V [access_flags=public] @ 0x9d18
+Lnet/pushad/ad/model/PosterInfo;->setPoint(I)V [access_flags=public] @ 0x9d00
+Lnet/pushad/ad/model/PosterInfo;->setFile_size(I)V [access_flags=public] @ 0x9bc8
+Lnet/pushad/ad/model/PosterInfo;->setCondition(I)V [access_flags=public] @ 0x9b80
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo$PsSendLog;-><init>(Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;)V [access_flags=public constructor] @ 0x9d30
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo$PsSendLog;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0x9d4c
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo$PsSendLog;->doInBackground([Ljava/lang/Object;)Ljava/lang/String; [access_flags=protected varargs] @ 0x9d6c
+Lorg/apache/http/message/BasicNameValuePair;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/util/List;->add(Ljava/lang/Object;)Z
+Lnet/pushad/ad/poster/AlarmService;->access$2(Lnet/pushad/ad/poster/AlarmService;)Ljava/lang/Long; [access_flags=static synthetic] @ 0xa33c
+Lnet/pushad/ad/util/Println;->I(Ljava/lang/String;)V [access_flags=public static] @ 0xfa84
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;->access$1(Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;)Lnet/pushad/ad/poster/AlarmService; [access_flags=static synthetic] @ 0x9f6c
+Lnet/pushad/ad/util/HttpUtil;->getHttpJsonString(Ljava/lang/String; Ljava/util/List;)Ljava/lang/String; [access_flags=public static] @ 0xdc8c
+Lnet/pushad/ad/poster/AlarmService;->access$1(Lnet/pushad/ad/poster/AlarmService;)Ljava/lang/String; [access_flags=static synthetic] @ 0xa324
+Lnet/pushad/ad/poster/AlarmService;->access$0(Lnet/pushad/ad/poster/AlarmService;)Ljava/lang/Long; [access_flags=static synthetic] @ 0xa30c
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo$PsSendLog;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo$ReturnInfo;-><init>(Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;)V [access_flags=public constructor] @ 0x9e40
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo$ReturnInfo;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0x9e5c
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo$ReturnInfo;->doInBackground([Ljava/lang/Object;)Ljava/lang/String; [access_flags=protected varargs] @ 0x9e7c
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo$ReturnInfo;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;-><init>(Lnet/pushad/ad/poster/AlarmService;)V [access_flags=public constructor] @ 0x9f50
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;->isAvilible(Landroid/content/Context; Ljava/lang/String;)Z [access_flags=private] @ 0x9f84
+Ljava/util/List;->contains(Ljava/lang/Object;)Z
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Ljava/util/List;->size()I
+Landroid/content/pm/PackageManager;->getInstalledPackages(I)Ljava/util/List;
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;->sendIntent(Lnet/pushad/ad/model/PosterInfo; Landroid/content/Intent; I)V [access_flags=private] @ 0x9fe8
+Landroid/app/Notification;->setLatestEventInfo(Landroid/content/Context; Ljava/lang/CharSequence; Ljava/lang/CharSequence; Landroid/app/PendingIntent;)V
+Landroid/app/NotificationManager;->notify(I Landroid/app/Notification;)V
+Landroid/app/PendingIntent;->getActivity(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;->sendNotification(Ljava/util/List;)V [access_flags=private] @ 0xa058
+Lnet/pushad/ad/poster/AlarmService;->access$4(Lnet/pushad/ad/poster/AlarmService; Ljava/lang/String;)V [access_flags=static synthetic] @ 0xa36c
+Lnet/pushad/ad/poster/AlarmService;->access$5(Lnet/pushad/ad/poster/AlarmService;)Ljava/lang/String; [access_flags=static synthetic] @ 0xa384
+Lnet/pushad/ad/poster/AlarmService;->access$3(Lnet/pushad/ad/poster/AlarmService; Ljava/lang/Long;)V [access_flags=static synthetic] @ 0xa354
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0xa1cc
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;->doInBackground([Ljava/lang/Object;)Ljava/lang/String; [access_flags=protected varargs] @ 0xa1ec
+Lnet/pushad/ad/util/Location;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0xe85c
+Lnet/pushad/ad/util/HttpUtil;->getHttpParams(Landroid/content/Context;)Ljava/util/List; [access_flags=public static] @ 0xddd4
+Lnet/pushad/ad/poster/convert/ConvertToObject;->toPosterInfoList(Ljava/lang/String;)Ljava/util/List; [access_flags=public static] @ 0xbcd8
+Lnet/pushad/ad/poster/AlarmService$LoadPosterInfo;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lnet/pushad/ad/poster/AlarmService;-><init>()V [access_flags=public constructor] @ 0xa2f4
+Landroid/app/Service;-><init>()V
+Lnet/pushad/ad/poster/AlarmService;->initNotify()V [access_flags=public] @ 0xa39c
+Landroid/app/Notification;-><init>()V
+Ljava/lang/System;->currentTimeMillis()J
+Lnet/pushad/ad/poster/AlarmService;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Lnet/pushad/ad/poster/AlarmService;->onCreate()V [access_flags=public] @ 0xa424
+Landroid/app/Service;->onCreate()V
+Lnet/pushad/ad/poster/AlarmService;->onStart(Landroid/content/Intent; I)V [access_flags=public] @ 0xa43c
+Landroid/app/Service;->onStart(Landroid/content/Intent; I)V
+Lnet/pushad/ad/util/AppPackageInfo;->getChannel(Landroid/content/Context;)Ljava/lang/Long; [access_flags=public static] @ 0xc80c
+Lnet/pushad/ad/util/Equipment;->getImei(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xd3b0
+Lnet/pushad/ad/poster/AppPosterManager$LoadUserInfo;-><init>(Lnet/pushad/ad/poster/AppPosterManager;)V [access_flags=public constructor] @ 0xa4b8
+Lnet/pushad/ad/poster/AppPosterManager$LoadUserInfo;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0xa4d4
+Lnet/pushad/ad/poster/AppPosterManager$LoadUserInfo;->doInBackground([Ljava/lang/Object;)Ljava/lang/String; [access_flags=protected varargs] @ 0xa4f4
+Lnet/pushad/ad/poster/AppPosterManager;->addPoster()V [access_flags=public] @ 0xa804
+Lnet/pushad/ad/util/Equipment;->getPhoneModel()Ljava/lang/String; [access_flags=public static] @ 0xd7ec
+Lnet/pushad/ad/poster/convert/ConvertToObject;->toJmUser(Ljava/lang/String;)Lnet/pushad/ad/model/JmUser; [access_flags=public static] @ 0xbc30
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Lnet/pushad/ad/util/Equipment;->getImsi(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xd408
+Lnet/pushad/ad/poster/AppPosterManager;->access$0(Lnet/pushad/ad/poster/AppPosterManager;)Ljava/lang/String; [access_flags=static synthetic] @ 0xa720
+Lnet/pushad/ad/util/Equipment;->getLocalIpAddress()Ljava/lang/String; [access_flags=public static] @ 0xd544
+Lnet/pushad/ad/poster/AppPosterManager$LoadUserInfo;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+Lnet/pushad/ad/poster/AppPosterManager;->setPoster(Landroid/content/Context; Z)V [access_flags=private] @ 0xa7ec
+Lnet/pushad/ad/poster/AppPosterManager;->setAlarmManager()V [access_flags=private static] @ 0xa738
+Lnet/pushad/ad/poster/AppPosterManager;->init(Landroid/content/Context; Z)V [access_flags=public] @ 0xa81c
+Lnet/pushad/ad/poster/AppPosterManager;-><init>(Landroid/content/Context; Z)V [access_flags=public constructor] @ 0xa6f0
+Ljava/sql/Date;-><init>(J)V
+Ljava/util/Calendar;->getTimeInMillis()J
+Landroid/app/AlarmManager;->setRepeating(I J J Landroid/app/PendingIntent;)V
+Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+Ljava/util/Calendar;->setTimeInMillis(J)V
+Landroid/app/PendingIntent;->getService(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Landroid/util/DisplayMetrics;-><init>()V
+Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+Lnet/pushad/ad/poster/PosterAdapter$ViewHolder;-><init>(Lnet/pushad/ad/poster/PosterAdapter;)V [access_flags=constructor] @ 0xa91c
+Lnet/pushad/ad/poster/PosterAdapter;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity; Ljava/util/List;)V [access_flags=public constructor] @ 0xa938
+Landroid/widget/BaseAdapter;-><init>()V
+Lnet/pushad/ad/poster/PosterAdapter;->getCount()I [access_flags=public] @ 0xa968
+Lnet/pushad/ad/poster/PosterAdapter;->getItem(I)Ljava/lang/Object; [access_flags=public] @ 0xa988
+Lnet/pushad/ad/poster/PosterAdapter;->getView(I Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View; [access_flags=public] @ 0xa9bc
+Lnet/pushad/ad/util/ImageAsyncTask;-><init>()V [access_flags=public constructor] @ 0xde98
+Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
+Lnet/pushad/ad/util/ImageAsyncTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Landroid/widget/ImageView;->setDrawingCacheEnabled(Z)V
+Ljava/lang/IllegalStateException;->printStackTrace()V
+Lnet/pushad/ad/util/IoUtil;->isLocTempExist(Ljava/lang/String;)Z [access_flags=public static] @ 0xe5cc
+Landroid/widget/ImageView;->setTag(Ljava/lang/Object;)V
+Lnet/pushad/ad/util/IoUtil;->getFromLocTemp(Ljava/lang/String;)Landroid/graphics/Bitmap; [access_flags=public static] @ 0xe25c
+Lnet/pushad/ad/util/Println;->E(Ljava/lang/String;)V [access_flags=public static] @ 0xfa60
+Landroid/widget/ImageView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/Gallery$LayoutParams;-><init>(I I)V
+Lnet/pushad/ad/poster/PosterInfoActivity$1;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity;)V [access_flags=constructor] @ 0xaac4
+Landroid/os/Handler;-><init>()V
+Lnet/pushad/ad/poster/PosterInfoActivity$1;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0xaae0
+Landroid/widget/Button;->setEnabled(Z)V
+Landroid/os/Handler;->handleMessage(Landroid/os/Message;)V
+Lnet/pushad/ad/poster/PosterInfoActivity$2;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity;)V [access_flags=constructor] @ 0xab90
+Lnet/pushad/ad/poster/PosterInfoActivity$2;->onClick(Landroid/view/View;)V [access_flags=public] @ 0xabac
+Lnet/pushad/ad/poster/PosterInfoActivity;->updateNotify()V [access_flags=public] @ 0xb968
+Lnet/pushad/ad/poster/PosterInfoActivity;->finish()V
+Lnet/pushad/ad/poster/PosterInfoActivity$3;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity;)V [access_flags=constructor] @ 0xabd4
+Lnet/pushad/ad/poster/PosterInfoActivity$3;->onClick(Landroid/view/View;)V [access_flags=public] @ 0xabf0
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$5(Lnet/pushad/ad/poster/PosterInfoActivity;)Lnet/pushad/ad/model/PosterInfo; [access_flags=static synthetic] @ 0xb180
+Lnet/pushad/ad/poster/PosterInfoActivity;->downLoad()V [access_flags=public] @ 0xb250
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$9(Lnet/pushad/ad/poster/PosterInfoActivity;)Ljava/io/File; [access_flags=static synthetic] @ 0xb1e0
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$7(Lnet/pushad/ad/poster/PosterInfoActivity;)Ljava/lang/String; [access_flags=static synthetic] @ 0xb1b0
+Lnet/pushad/ad/util/IoUtil;->isExistApk(Ljava/lang/String;)Ljava/io/File; [access_flags=public static] @ 0xe56c
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$8(Lnet/pushad/ad/poster/PosterInfoActivity; Ljava/io/File;)V [access_flags=static synthetic] @ 0xb1c8
+Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$6(Lnet/pushad/ad/poster/PosterInfoActivity;)Ljava/lang/String; [access_flags=static synthetic] @ 0xb198
+Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+Lnet/pushad/ad/poster/PosterInfoActivity;->startActivity(Landroid/content/Intent;)V
+Landroid/content/Intent;->setDataAndType(Landroid/net/Uri; Ljava/lang/String;)Landroid/content/Intent;
+Lnet/pushad/ad/util/IoUtil;->openFile(Landroid/app/Activity; Ljava/io/File;)V [access_flags=public static] @ 0xe66c
+Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+Lnet/pushad/ad/poster/PosterInfoActivity$4;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity;)V [access_flags=constructor] @ 0xada4
+Lnet/pushad/ad/poster/PosterInfoActivity$4;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xadc0
+Lnet/pushad/ad/poster/PosterInfoActivity;->dismissDialog(I)V
+Lnet/pushad/ad/poster/PosterInfoActivity$5;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity;)V [access_flags=constructor] @ 0xade0
+Lnet/pushad/ad/poster/PosterInfoActivity$5;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xadfc
+Lnet/pushad/ad/poster/PosterInfoActivity$PackageReceiver;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity;)V [access_flags=public constructor] @ 0xae18
+Landroid/content/BroadcastReceiver;-><init>()V
+Lnet/pushad/ad/poster/PosterInfoActivity$PackageReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xae34
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$3(Lnet/pushad/ad/poster/PosterInfoActivity;)Landroid/app/NotificationManager; [access_flags=static synthetic] @ 0xb150
+Landroid/content/Intent;->getAction()Ljava/lang/String;
+Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
+Lnet/pushad/ad/poster/PosterInfoActivity$PsInstallLog;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lnet/pushad/ad/poster/PosterInfoActivity$PsInstallLog;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity;)V [access_flags=public constructor] @ 0xaef4
+Landroid/content/Intent;->getDataString()Ljava/lang/String;
+Landroid/app/NotificationManager;->cancel(I)V
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$4(Lnet/pushad/ad/poster/PosterInfoActivity;)Z [access_flags=static synthetic] @ 0xb168
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Lnet/pushad/ad/poster/PosterInfoActivity$PsInstallLog;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0xaf10
+Lnet/pushad/ad/poster/PosterInfoActivity$PsInstallLog;->doInBackground([Ljava/lang/Object;)Ljava/lang/String; [access_flags=protected varargs] @ 0xaf30
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$1(Lnet/pushad/ad/poster/PosterInfoActivity;)Ljava/lang/String; [access_flags=static synthetic] @ 0xb120
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$2(Lnet/pushad/ad/poster/PosterInfoActivity;)Ljava/lang/Long; [access_flags=static synthetic] @ 0xb138
+Lnet/pushad/ad/poster/PosterInfoActivity;->access$0(Lnet/pushad/ad/poster/PosterInfoActivity;)Ljava/lang/Long; [access_flags=static synthetic] @ 0xb108
+Lnet/pushad/ad/poster/PosterInfoActivity$PsLookLog;-><init>(Lnet/pushad/ad/poster/PosterInfoActivity;)V [access_flags=public constructor] @ 0xafec
+Lnet/pushad/ad/poster/PosterInfoActivity$PsLookLog;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0xb008
+Lnet/pushad/ad/poster/PosterInfoActivity$PsLookLog;->doInBackground([Ljava/lang/Object;)Ljava/lang/String; [access_flags=protected varargs] @ 0xb028
+Lnet/pushad/ad/poster/PosterInfoActivity$PsLookLog;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lnet/pushad/ad/poster/PosterInfoActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Lnet/pushad/ad/util/AppDownLoad;-><init>(Landroid/app/Activity; Landroid/os/Handler; Lnet/pushad/ad/model/PosterInfo; Landroid/widget/ProgressBar; Ljava/lang/String; Ljava/lang/Long; Ljava/lang/String; Landroid/widget/Button;)V [access_flags=public constructor] @ 0xc014
+Ljava/lang/Thread;->start()V
+Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+Lnet/pushad/ad/poster/PosterInfoActivity;-><init>()V [access_flags=public constructor] @ 0xb0e4
+Lnet/pushad/ad/poster/PosterInfoActivity;->choiseDown()V [access_flags=public] @ 0xb1f8
+Lnet/pushad/ad/util/Equipment;->checkNetWiFi(Landroid/content/Context;)Z [access_flags=public static] @ 0xd318
+Lnet/pushad/ad/poster/PosterInfoActivity;->getBmp(Ljava/lang/String;)Landroid/graphics/Bitmap; [access_flags=public] @ 0xb2a0
+Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;)Landroid/graphics/Bitmap;
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Lnet/pushad/ad/poster/PosterInfoActivity;->getAssets()Landroid/content/res/AssetManager;
+Lnet/pushad/ad/poster/PosterInfoActivity;->isExist(Ljava/lang/String;)Z [access_flags=public] @ 0xb2e8
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Lnet/pushad/ad/poster/PosterInfoActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0xb328
+Lnet/pushad/ad/poster/PosterInfoActivity;->getIntent()Landroid/content/Intent;
+Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
+Landroid/content/IntentFilter;->addDataScheme(Ljava/lang/String;)V
+Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
+Landroid/os/Bundle;->getLong(Ljava/lang/String;)J
+Landroid/widget/ImageView;->setVisibility(I)V
+Landroid/widget/ProgressBar;-><init>(Landroid/content/Context;)V
+Lnet/pushad/ad/poster/PosterInfoActivity;->showImg(Landroid/widget/ImageView; Ljava/lang/String;)V [access_flags=public] @ 0xb8ec
+Lnet/pushad/ad/poster/PosterInfoActivity;->setContentView(Landroid/view/View;)V
+Lnet/pushad/ad/poster/PosterInfoActivity;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
+Lnet/pushad/ad/util/MyLayout;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V [access_flags=public constructor] @ 0xf154
+Lnet/pushad/ad/poster/PosterInfoActivity;->onCreateDialog(I)Landroid/app/Dialog; [access_flags=protected] @ 0xb850
+Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
+Lnet/pushad/ad/poster/PosterInfoActivity;->onDestroy()V [access_flags=protected] @ 0xb8c8
+Lnet/pushad/ad/poster/PosterInfoActivity;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+Lnet/pushad/ad/poster/PosterInfoActivity;->wifiTs()V [access_flags=public] @ 0xb9f8
+Lnet/pushad/ad/poster/PosterInfoActivity;->showDialog(I)V
+Lnet/pushad/ad/poster/ReceiverAlarm;-><init>()V [access_flags=public constructor] @ 0xba2c
+Lnet/pushad/ad/poster/ReceiverAlarm;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xba44
+Landroid/content/Context;->startService(Landroid/content/Intent;)Landroid/content/ComponentName;
+Lnet/pushad/ad/poster/convert/ConvertToJson;-><init>()V [access_flags=public constructor] @ 0xba6c
+Lnet/pushad/ad/poster/convert/ConvertToJson;->toArray(Ljava/lang/String;)Lorg/json/JSONArray; [access_flags=public static] @ 0xba84
+Lorg/json/JSONException;->printStackTrace()V
+Lorg/json/JSONArray;-><init>(Ljava/lang/String;)V
+Lnet/pushad/ad/poster/convert/ConvertToJson;->toObject(Ljava/lang/String;)Lorg/json/JSONObject; [access_flags=public static] @ 0xbac0
+Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+Lnet/pushad/ad/poster/convert/ConvertToJson;->toObject(Ljava/util/Map;)Lorg/json/JSONObject; [access_flags=public static] @ 0xbb10
+Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
+Lnet/pushad/ad/poster/convert/ConvertToJson;->toObject(Lorg/json/JSONObject; [Ljava/lang/String;)Lorg/json/JSONObject; [access_flags=public static] @ 0xbb30
+Lorg/json/JSONObject;-><init>(Lorg/json/JSONObject; [Ljava/lang/String;)V
+Lnet/pushad/ad/poster/convert/ConvertToJson;->toObject(Lorg/json/JSONTokener;)Lorg/json/JSONObject; [access_flags=public static] @ 0xbb6c
+Lorg/json/JSONObject;-><init>(Lorg/json/JSONTokener;)V
+Lorg/json/JSONObject;->optString(Ljava/lang/String;)Ljava/lang/String;
+Lorg/json/JSONObject;->optInt(Ljava/lang/String;)I
+Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->optLong(Ljava/lang/String;)J
+Lorg/json/JSONArray;->length()I
+Lorg/json/JSONObject;->optDouble(Ljava/lang/String;)D
+Lorg/json/JSONObject;->optJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+Lnet/pushad/ad/poster/convert/ConvertToObject;-><init>()V [access_flags=public constructor] @ 0xbba8
+Lnet/pushad/ad/poster/convert/ConvertToObject;->toDate(Ljava/lang/String;)Ljava/util/Date; [access_flags=public static] @ 0xbbc0
+Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
+Ljava/text/ParseException;->printStackTrace()V
+Lnet/pushad/ad/poster/convert/ConvertToObject;->toDateString(Ljava/util/Date;)Ljava/lang/String; [access_flags=public static] @ 0xbc04
+Lnet/pushad/ad/util/AppDownLoad$1;-><init>(Lnet/pushad/ad/util/AppDownLoad;)V [access_flags=constructor] @ 0xbea8
+Lnet/pushad/ad/util/AppDownLoad$1;->run()V [access_flags=public] @ 0xbec4
+Lnet/pushad/ad/util/AppDownLoad;->access$0(Lnet/pushad/ad/util/AppDownLoad;)Landroid/widget/ProgressBar; [access_flags=static synthetic] @ 0xc19c
+Landroid/widget/ProgressBar;->setVisibility(I)V
+Landroid/widget/ProgressBar;->setProgress(I)V
+Landroid/widget/ProgressBar;->setIndeterminate(Z)V
+Lnet/pushad/ad/util/AppDownLoad$2;-><init>(Lnet/pushad/ad/util/AppDownLoad; Ljava/lang/Integer;)V [access_flags=constructor] @ 0xbf10
+Lnet/pushad/ad/util/AppDownLoad$2;->run()V [access_flags=public] @ 0xbf30
+Ljava/lang/Integer;->intValue()I
+Landroid/widget/ProgressBar;->setMax(I)V
+Lnet/pushad/ad/util/AppDownLoad$3;-><init>(Lnet/pushad/ad/util/AppDownLoad; I)V [access_flags=constructor] @ 0xbf88
+Lnet/pushad/ad/util/AppDownLoad$3;->run()V [access_flags=public] @ 0xbfa8
+Lnet/pushad/ad/util/AppDownLoad$4;-><init>(Lnet/pushad/ad/util/AppDownLoad;)V [access_flags=constructor] @ 0xbfd0
+Lnet/pushad/ad/util/AppDownLoad$4;->run()V [access_flags=public] @ 0xbfec
+Landroid/os/Message;-><init>()V
+Lnet/pushad/ad/util/AppDownLoad;->run()V [access_flags=public] @ 0xc1e8
+Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
+Ljava/net/HttpURLConnection;->disconnect()V
+Lnet/pushad/ad/util/Md5;->getFileMD5String(Ljava/io/File;)Ljava/lang/String; [access_flags=public static] @ 0xf048
+Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+Ljava/io/OutputStream;->write([B I I)V
+Ljava/net/MalformedURLException;->printStackTrace()V
+Ljava/io/InputStream;->close()V
+Ljava/net/URL;-><init>(Ljava/lang/String;)V
+Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable; J)Z
+Lnet/pushad/ad/util/IoUtil;->createApkFile(Ljava/lang/String;)Ljava/io/File; [access_flags=public static] @ 0xe0bc
+Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+Ljava/io/InputStream;->read([B)I
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+Lnet/pushad/ad/util/AppPackageInfo;-><init>()V [access_flags=public constructor] @ 0xc7f4
+Lnet/pushad/ad/util/AppPackageInfo;->getPackageName(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xc8bc
+Lnet/pushad/ad/util/AppPackageInfo;->getVersionCode(Landroid/content/Context; Ljava/lang/String;)I [access_flags=public static] @ 0xc8d8
+Lnet/pushad/ad/util/Println;->W(Ljava/lang/String;)V [access_flags=public static] @ 0xfaa8
+Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lnet/pushad/ad/util/AppPackageInfo;->getVersionName(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xc974
+Lnet/pushad/ad/util/Base64;-><init>()V [access_flags=private constructor] @ 0xcf98
+Lnet/pushad/ad/util/Base64;->decode(Ljava/lang/String;)[B [access_flags=public static] @ 0xcfb0
+Ljava/lang/String;->getBytes()[B
+Lnet/pushad/ad/util/Base64;->decode([B)[B [access_flags=public static] @ 0xcfdc
+Ljava/io/ByteArrayOutputStream;->close()V
+Ljava/io/ByteArrayOutputStream;-><init>(I)V
+Ljava/io/ByteArrayOutputStream;->write(I)V
+Lnet/pushad/ad/util/Base64;->encode([B)Ljava/lang/String; [access_flags=public static] @ 0xd118
+Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
+Lnet/pushad/ad/util/Constant;-><clinit>()V [access_flags=static constructor] @ 0xd270
+Lnet/pushad/ad/util/Constant;-><init>()V [access_flags=public constructor] @ 0xd2c4
+Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
+Landroid/provider/Settings$System;->getString(Landroid/content/ContentResolver; Ljava/lang/String;)Ljava/lang/String;
+Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/util/Enumeration;->hasMoreElements()Z
+Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+Ljava/net/InetAddress;->isLoopbackAddress()Z
+Ljava/net/NetworkInterface;->getNetworkInterfaces()Ljava/util/Enumeration;
+Ljava/net/SocketException;->toString()Ljava/lang/String;
+Ljava/net/InetAddress;->getHostAddress()Ljava/lang/String;
+Ljava/net/NetworkInterface;->getInetAddresses()Ljava/util/Enumeration;
+Landroid/net/NetworkInfo;->isAvailable()Z
+Landroid/net/ConnectivityManager;->getNetworkInfo(I)Landroid/net/NetworkInfo;
+Lnet/pushad/ad/util/Equipment;-><init>()V [access_flags=public constructor] @ 0xd300
+Lnet/pushad/ad/util/Equipment;->getAppIsInstalled(Landroid/content/Context; Ljava/lang/String;)Z [access_flags=public static] @ 0xd354
+Lnet/pushad/ad/util/Equipment;->getLoc(Landroid/content/Context;)[D [access_flags=public static] @ 0xd45c
+Landroid/location/Location;->getLatitude()D
+Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+Landroid/location/Criteria;->setAccuracy(I)V
+Landroid/location/LocationManager;->getBestProvider(Landroid/location/Criteria; Z)Ljava/lang/String;
+Landroid/location/Criteria;->setBearingRequired(Z)V
+Landroid/location/Criteria;-><init>()V
+Landroid/location/Location;->getLongitude()D
+Landroid/location/Criteria;->setPowerRequirement(I)V
+Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
+Landroid/location/Location;->getAltitude()D
+Landroid/location/Criteria;->setAltitudeRequired(Z)V
+Landroid/location/Criteria;->setCostAllowed(Z)V
+Lnet/pushad/ad/util/Equipment;->getNetIpAddress()Ljava/lang/String; [access_flags=public static] @ 0xd634
+Ljava/lang/String;->valueOf(C)Ljava/lang/String;
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream; Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->getResponseCode()I
+Lnet/pushad/ad/util/Equipment;->getNetType(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xd7a0
+Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+Landroid/net/NetworkInfo;->getTypeName()Ljava/lang/String;
+Lnet/pushad/ad/util/Equipment;->getSDCardFreeSpace()J [access_flags=public static] @ 0xd804
+Landroid/os/StatFs;->getBlockSize()I
+Ljava/io/File;->getPath()Ljava/lang/String;
+Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+Landroid/os/StatFs;->getAvailableBlocks()I
+Lnet/pushad/ad/util/Equipment;->getSDCardPath()Ljava/lang/String; [access_flags=public static] @ 0xd848
+Lnet/pushad/ad/util/Equipment;->isSDCardAvailable()Z [access_flags=public static] @ 0xd8d8
+Lnet/pushad/ad/util/Equipment;->isNetWorkAvailable(Landroid/content/Context;)Z [access_flags=public static] @ 0xd894
+Lnet/pushad/ad/util/Equipment;->isSDCardEnough(I)Z [access_flags=public static] @ 0xd908
+Lnet/pushad/ad/util/Equipment;->isSDCardHaveSameFile(Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public static] @ 0xd93c
+Ljava/io/File;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Lnet/pushad/ad/util/GalleryFlow;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0xd96c
+Landroid/graphics/Camera;-><init>()V
+Lnet/pushad/ad/util/GalleryFlow;->setStaticTransformationsEnabled(Z)V
+Landroid/widget/Gallery;-><init>(Landroid/content/Context;)V
+Lnet/pushad/ad/util/GalleryFlow;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V [access_flags=public constructor] @ 0xd9ac
+Landroid/widget/Gallery;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+Lnet/pushad/ad/util/GalleryFlow;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V [access_flags=public constructor] @ 0xd9ec
+Landroid/widget/Gallery;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V
+Lnet/pushad/ad/util/GalleryFlow;->getCenterOfCoverflow()I [access_flags=private] @ 0xda2c
+Lnet/pushad/ad/util/GalleryFlow;->getPaddingLeft()I
+Lnet/pushad/ad/util/GalleryFlow;->getWidth()I
+Lnet/pushad/ad/util/GalleryFlow;->getPaddingRight()I
+Lnet/pushad/ad/util/GalleryFlow;->getCenterOfView(Landroid/view/View;)I [access_flags=private static] @ 0xda68
+Landroid/view/View;->getLeft()I
+Landroid/view/View;->getWidth()I
+Lnet/pushad/ad/util/GalleryFlow;->transformImageBitmap(Landroid/widget/ImageView; Landroid/view/animation/Transformation; I)V [access_flags=private] @ 0xda90
+Landroid/graphics/Camera;->translate(F F F)V
+Landroid/graphics/Matrix;->postTranslate(F F)Z
+Landroid/graphics/Matrix;->preTranslate(F F)Z
+Landroid/view/animation/Transformation;->getMatrix()Landroid/graphics/Matrix;
+Landroid/graphics/Camera;->save()V
+Landroid/graphics/Camera;->rotateY(F)V
+Landroid/graphics/Camera;->getMatrix(Landroid/graphics/Matrix;)V
+Ljava/lang/Math;->abs(I)I
+Landroid/widget/ImageView;->getLayoutParams()Landroid/view/ViewGroup$LayoutParams;
+Landroid/graphics/Camera;->restore()V
+Lnet/pushad/ad/util/GalleryFlow;->getChildStaticTransformation(Landroid/view/View; Landroid/view/animation/Transformation;)Z [access_flags=protected] @ 0xdb50
+Landroid/view/animation/Transformation;->setTransformationType(I)V
+Landroid/view/animation/Transformation;->clear()V
+Lnet/pushad/ad/util/GalleryFlow;->onSizeChanged(I I I I)V [access_flags=protected] @ 0xdc20
+Landroid/widget/Gallery;->onSizeChanged(I I I I)V
+Lorg/apache/http/client/methods/HttpPost;->setEntity(Lorg/apache/http/HttpEntity;)V
+Lorg/apache/http/client/methods/HttpPost;-><init>(Ljava/lang/String;)V
+Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
+Lorg/apache/http/client/ClientProtocolException;->printStackTrace()V
+Lnet/pushad/ad/util/URLBuilder;->getFormalUrl(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xfae4
+Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;
+Lorg/apache/http/impl/client/DefaultHttpClient;->execute(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+Lorg/apache/http/StatusLine;->getStatusCode()I
+Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+Lorg/apache/http/client/entity/UrlEncodedFormEntity;-><init>(Ljava/util/List; Ljava/lang/String;)V
+Lorg/apache/http/util/EntityUtils;->toString(Lorg/apache/http/HttpEntity; Ljava/lang/String;)Ljava/lang/String;
+Lorg/apache/http/impl/client/DefaultHttpClient;-><init>()V
+Lnet/pushad/ad/util/HttpUtil;-><init>()V [access_flags=public constructor] @ 0xdc74
+Lnet/pushad/ad/util/ImageAsyncTask;->doInBackground([Landroid/widget/ImageView;)Landroid/graphics/Bitmap; [access_flags=protected varargs] @ 0xdeb0
+Ljava/net/HttpURLConnection;->connect()V
+Ljava/net/HttpURLConnection;->getContentLength()I
+Landroid/widget/ImageView;->getTag()Ljava/lang/Object;
+Ljava/net/HttpURLConnection;->setDoInput(Z)V
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Lnet/pushad/ad/util/IoUtil;->writeFile(Landroid/graphics/Bitmap; Ljava/lang/String;)Z [access_flags=public static] @ 0xe6dc
+Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+Landroid/graphics/BitmapFactory;->decodeByteArray([B I I)Landroid/graphics/Bitmap;
+Lnet/pushad/ad/util/ImageAsyncTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0xdfdc
+Lnet/pushad/ad/util/ImageAsyncTask;->onPostExecute(Landroid/graphics/Bitmap;)V [access_flags=protected] @ 0xdffc
+Lnet/pushad/ad/util/ImageAsyncTask;->onPostExecute(Ljava/lang/Object;)V [access_flags=protected bridge synthetic] @ 0xe024
+Lnet/pushad/ad/util/ImageAsyncTask;->onProgressUpdate([Ljava/lang/Object;)V [access_flags=protected bridge varargs synthetic] @ 0xe054
+Lnet/pushad/ad/util/ImageAsyncTask;->onProgressUpdate([Ljava/lang/Void;)V [access_flags=protected varargs] @ 0xe070
+Lnet/pushad/ad/util/IoUtil;->putImageToCache(Ljava/lang/String; Landroid/graphics/Bitmap;)V [access_flags=public static] @ 0xe6b4
+Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+Lnet/pushad/ad/util/IoUtil;->getImageFromCache(Ljava/lang/String;)Landroid/graphics/Bitmap; [access_flags=public static] @ 0xe36c
+Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+Lnet/pushad/ad/util/IoUtil;->createFile(Ljava/lang/String;)Ljava/io/File; [access_flags=public static] @ 0xe180
+Ljava/io/File;->createTempFile(Ljava/lang/String; Ljava/lang/String;)Ljava/io/File;
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Ljava/io/BufferedOutputStream;->close()V
+Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/io/BufferedOutputStream;->flush()V
+Lnet/pushad/ad/util/IoUtil;-><clinit>()V [access_flags=static constructor] @ 0xe084
+Ljava/util/HashMap;-><init>()V
+Lnet/pushad/ad/util/IoUtil;-><init>()V [access_flags=public constructor] @ 0xe0a4
+Ljava/io/File;->delete()Z
+Lnet/pushad/ad/util/IoUtil;->deleteFile(Ljava/lang/String;)Z [access_flags=public static] @ 0xe1e4
+Lnet/pushad/ad/util/IoUtil;->getFileName(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xe224
+Ljava/lang/String;->lastIndexOf(Ljava/lang/String;)I
+Ljava/lang/ref/SoftReference;->get()Ljava/lang/Object;
+Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/ref/SoftReference;-><init>(Ljava/lang/Object;)V
+Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Lnet/pushad/ad/util/IoUtil;->getPathFromLoc(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xe3b0
+Lnet/pushad/ad/util/IoUtil;->getStream(Ljava/lang/String; Ljava/lang/String;)Ljava/net/HttpURLConnection; [access_flags=public static] @ 0xe43c
+Ljava/net/HttpURLConnection;->getRequestProperty(Ljava/lang/String;)Ljava/lang/String;
+Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+Lnet/pushad/ad/util/Location$SCell;-><init>(Lnet/pushad/ad/util/Location;)V [access_flags=public constructor] @ 0xe824
+Lnet/pushad/ad/util/Location$SItude;-><init>(Lnet/pushad/ad/util/Location;)V [access_flags=public constructor] @ 0xe840
+Lnet/pushad/ad/util/Location;->getLocation(Lnet/pushad/ad/util/Location$SItude;)Ljava/lang/String; [access_flags=private] @ 0xec9c
+Lnet/pushad/ad/util/Location;->getItude(Lnet/pushad/ad/util/Location$SCell;)Lnet/pushad/ad/util/Location$SItude; [access_flags=private] @ 0xe998
+Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+Lnet/pushad/ad/util/Location;->getCellInfo()Lnet/pushad/ad/util/Location$SCell; [access_flags=private] @ 0xe8fc
+Landroid/telephony/gsm/GsmCellLocation;->getCid()I
+Landroid/telephony/gsm/GsmCellLocation;->getLac()I
+Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;
+Landroid/telephony/TelephonyManager;->getCellLocation()Landroid/telephony/CellLocation;
+Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+Lorg/json/JSONObject;-><init>()V
+Lorg/json/JSONObject;->put(Ljava/lang/String; I)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->toString()Ljava/lang/String;
+Lorg/apache/http/client/methods/HttpPost;->abort()V
+Lorg/json/JSONObject;->put(Ljava/lang/String; Z)Lorg/json/JSONObject;
+Lorg/apache/http/client/HttpClient;->execute(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+Lorg/json/JSONArray;-><init>()V
+Lorg/apache/http/entity/StringEntity;-><init>(Ljava/lang/String;)V
+Lorg/apache/http/HttpEntity;->getContent()Ljava/io/InputStream;
+Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+Lorg/apache/http/client/methods/HttpGet;->abort()V
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Lorg/apache/http/client/methods/HttpGet;-><init>(Ljava/lang/String;)V
+Lorg/json/JSONObject;->get(Ljava/lang/String;)Ljava/lang/Object;
+Lnet/pushad/ad/util/MarqueeTextView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V [access_flags=public constructor] @ 0xee50
+Landroid/widget/TextView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+Lnet/pushad/ad/util/MarqueeTextView;->onFocusChanged(Z I Landroid/graphics/Rect;)V [access_flags=protected] @ 0xee7c
+Landroid/widget/TextView;->onFocusChanged(Z I Landroid/graphics/Rect;)V
+Lnet/pushad/ad/util/MarqueeTextView;->onWindowFocusChanged(Z)V [access_flags=public] @ 0xee98
+Landroid/widget/TextView;->onWindowFocusChanged(Z)V
+Lnet/pushad/ad/util/Md5;->bufferToHex([B)Ljava/lang/String; [access_flags=private static] @ 0xefc0
+Ljava/security/MessageDigest;->digest()[B
+Ljava/security/MessageDigest;->update([B I I)V
+Lnet/pushad/ad/util/Md5;-><clinit>()V [access_flags=static constructor] @ 0xeeb4
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Ljava/security/NoSuchAlgorithmException;->printStackTrace()V
+Lnet/pushad/ad/util/Md5;-><init>()V [access_flags=public constructor] @ 0xef6c
+Lnet/pushad/ad/util/Md5;->appendHexPair(B Ljava/lang/StringBuffer;)V [access_flags=private static] @ 0xef84
+Lnet/pushad/ad/util/Md5;->bufferToHex([B I I)Ljava/lang/String; [access_flags=private static] @ 0xefe0
+Ljava/lang/StringBuffer;-><init>(I)V
+Lnet/pushad/ad/util/Md5;->checkPassword(Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public static] @ 0xf024
+Lnet/pushad/ad/util/Md5;->getMD5String(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xf100
+Lnet/pushad/ad/util/Md5;->getMD5String([B)Ljava/lang/String; [access_flags=public static] @ 0xf124
+Lnet/pushad/ad/util/Md5;->getFileMD5String_old(Ljava/io/File;)Ljava/lang/String; [access_flags=public static] @ 0xf0a4
+Ljava/security/MessageDigest;->update(Ljava/nio/ByteBuffer;)V
+Ljava/io/FileInputStream;->getChannel()Ljava/nio/channels/FileChannel;
+Ljava/io/File;->length()J
+Ljava/nio/channels/FileChannel;->map(Ljava/nio/channels/FileChannel$MapMode; J J)Ljava/nio/MappedByteBuffer;
+Ljava/security/MessageDigest;->update([B)V
+Landroid/widget/RelativeLayout$LayoutParams;-><init>(I I)V
+Landroid/widget/TextView;->setTextSize(F)V
+Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
+Lnet/pushad/ad/util/MyLayout;->addView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/ImageView;->setPadding(I I I I)V
+Landroid/widget/LinearLayout;->addView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/TextView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/RelativeLayout$LayoutParams;->addRule(I I)V
+Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+Landroid/widget/LinearLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/Button;->setTextSize(F)V
+Landroid/widget/LinearLayout;->setOrientation(I)V
+Landroid/widget/RelativeLayout;->addView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/ImageView;->setId(I)V
+Landroid/view/View;-><init>(Landroid/content/Context;)V
+Landroid/widget/LinearLayout;->setId(I)V
+Landroid/view/View;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/Button;->setId(I)V
+Landroid/widget/RelativeLayout$LayoutParams;->setMargins(I I I I)V
+Landroid/widget/ScrollView;->addView(Landroid/view/View;)V
+Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+Landroid/widget/Button;->setTextColor(I)V
+Lnet/pushad/ad/util/MyLayout;->setBackgroundColor(I)V
+Landroid/widget/LinearLayout$LayoutParams;-><init>(Landroid/view/ViewGroup$MarginLayoutParams;)V
+Landroid/widget/TextView;->setLineSpacing(F F)V
+Landroid/widget/Button;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
+Landroid/widget/ScrollView;-><init>(Landroid/content/Context;)V
+Landroid/widget/ScrollView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/TextView;->setVisibility(I)V
+Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
+Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+Landroid/widget/LinearLayout;->setPadding(I I I I)V
+Landroid/widget/Button;-><init>(Landroid/content/Context;)V
+Landroid/widget/ScrollView;->setId(I)V
+Landroid/widget/LinearLayout$LayoutParams;-><init>(I I)V
+Landroid/widget/TextView;->setPadding(I I I I)V
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+Lnet/pushad/ad/util/Println;-><init>()V [access_flags=public constructor] @ 0xfa48
+Ljava/text/MessageFormat;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Lnet/pushad/ad/util/URLBuilder;-><init>()V [access_flags=public constructor] @ 0xfacc

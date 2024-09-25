@@ -1,0 +1,31 @@
+3298fbe1e242e7717898020639465ec115ca89583b2d7d4d0f3896713a0adae2:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.WAKE_LOCK
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+------------------------------
+API:
+./res/3298fbe1e242e7717898020639465ec115ca89583b2d7d4d0f3896713a0adae2/api.txt
+------------------------------
+Intent:
+android.intent.action.USER_PRESENT
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/3298fbe1e242e7717898020639465ec115ca89583b2d7d4d0f3896713a0adae2/3298fbe1e242e7717898020639465ec115ca89583b2d7d4d0f3896713a0adae2.gml

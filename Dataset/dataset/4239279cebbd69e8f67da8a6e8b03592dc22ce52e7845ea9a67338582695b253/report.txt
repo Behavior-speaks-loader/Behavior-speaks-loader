@@ -1,0 +1,36 @@
+4239279cebbd69e8f67da8a6e8b03592dc22ce52e7845ea9a67338582695b253:['File']
+------------------------------
+Permissions:
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_WIFI_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.INTERNET
+android.permission.RECEIVE_USER_PRESENT
+android.permission.NFC
+android.permission.CALL_PHONE
+android.permission.WAKE_LOCK
+org.simalliance.openmobileapi.SMARTCARD
+android.permission.WRITE_EXTERNAL_STORAGE
+com.railpasschina.permission.JPUSH_MESSAGE
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/4239279cebbd69e8f67da8a6e8b03592dc22ce52e7845ea9a67338582695b253/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.REGISTRATION
+cn.jpush.android.intent.UNREGISTRATION
+cn.jpush.android.intent.MESSAGE_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_OPENED
+cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+cn.jpush.android.intent.CONNECTION
+com.railpasschina
+------------------------------
+Function call graph:
+gml path: ./res/4239279cebbd69e8f67da8a6e8b03592dc22ce52e7845ea9a67338582695b253/4239279cebbd69e8f67da8a6e8b03592dc22ce52e7845ea9a67338582695b253.gml

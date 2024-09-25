@@ -1,0 +1,1863 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+16515035cc903264e1d46782fb7350b3059c3c9dc8310ca04573a11326ca76e3
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.JustStezi.UnbendingLand.shiba
+
+
+
+
+Minimum system version:
+Android 4.1, 4.1.1
+
+
+
+
+Copyright:
+bb
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:ap****cn/**.133.40.** port:80
+
+
+host:av****om/**.133.40.** port:443
+
+
+host:/**.133.40.** port:80
+
+
+host:cl****om/**.133.40.** port:443
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:ap****cn/**.133.40.** port:80 data:data:POST /apicenter/content.resource.list/6169abb8d86d3fcc1ab7e6fb302fd0c6 HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-shockwave-flash, application/xaml+xml, application/vnd.ms-xpsdocument, application/x-ms-xbap, application/x-ms-application, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Accept-Language: zh-CN
+Referer: http://api.18hanhua.cn/apicenter/content.resource.list/6169abb8d86d3fcc1ab7e6fb302fd0c6
+Charset: UTF-8
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Connection: Keep-Alive
+X-Client-Event: {"channel_code":"yyh","client_version_code":"7","client_package_name":"com.JustStezi.UnbendingLand.shiba","os_version":"19"}
+Host: api.18hanhua.cn
+Accept-Encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 123
+
+data={"content.resource.list":{"api_sign":"6169abb8d86d3fcc1ab7e6fb302fd0c6","api_key":"26153143339e1bbfa4d124810ec473ec"}}
+
+
+operation:send host:ap****cn/**.133.40.** port:80 data:data:POST /apicenter/content.appTool.getTool/cec79259014921cb39e532845cb0bae2 HTTP/1.1
+Accept: image/gif, image/jpeg, image/pjpeg, image/pjpeg, application/x-shockwave-flash, application/xaml+xml, application/vnd.ms-xpsdocument, application/x-ms-xbap, application/x-ms-application, application/vnd.ms-excel, application/vnd.ms-powerpoint, application/msword, */*
+Accept-Language: zh-CN
+Referer: http://api.18hanhua.cn/apicenter/content.appTool.getTool/cec79259014921cb39e532845cb0bae2
+Charset: UTF-8
+User-Agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.04506.30; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)
+Connection: Keep-Alive
+X-Client-Event: {"channel_code":"yyh","client_version_code":"7","client_package_name":"com.JustStezi.UnbendingLand.shiba","os_version":"19"}
+Host: api.18hanhua.cn
+Accept-Encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 125
+
+data={"content.appTool.getTool":{"api_sign":"cec79259014921cb39e532845cb0bae2","api_key":"26153143339e1bbfa4d124810ec473ec"}}
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /apk/cr.html HTTP/1.1
+User-Agent: Android
+Accept: */*
+cpv: 3
+Content-Length: 1904
+Content-Type: application/x-www-form-urlencoded
+Host: c.appjiagu.com
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:c=EAAAAGpE5C0EjmoMEsD5EHyttKBNb8h9OlTOnCe64CuRxdFTe%2FuvEolj2E2OY0CqLsb85EMw8OZK%0A5trCDlTF6xowGe3XHyDYeB%2BFhdg7YAv0qJDiBEe20gO94zc0SSA178hrMPp3EeSmBS11jbFPKUv5%0A8cOWsDJDoTcseFty7xmmaUdKKS6vtzlixe2yUS2LNXKm247e3gja0VC3D2SnQ0K%2BquLDdOJLJa1c%0AJgV2XufHpOcPpeSHpkuetQ80p0KmANq5y4mi6Iud1q5iB4EOyGCEzep9JgYocUc5RmiqO5Cc06wX%0AG7vx1mHLRjc8FDSJBTm8yJR5yNOV2BCiU17J7iucTcMLqkUeGDW2mwH5EFRQ4sNHJTS%2FcuP4d3Gz%0AZGFk0j1uB6PgoFzcWRvd11S0Op6A0d1VzME%2Fwt2Unr4gBXyx4KM8Oyyadh79LZ7MUfl18i3Gz%2FtJ%0AC%2FthxvLhtEruvl4dcXwmvSpO%2FXEbmpaua4DOy3nM7Bkn%2BKWHPucHb%2BLYkvXFlTSTungfm5UKXeuL%0ARfIxuGE1F4H0kBgE9j8tIWv5cZN95ft5%2BRWHu00NLeztVTLHd9xce8Gmb%2FjCKPfejr0ZhOjtdu8y%0A25V1BdZrTr6AiVbqV2SdLUfW4OwCFH2tfqlEsKHZI0OhbLItefNWF7RGG3jisJQ0EeOyu%2Few0TXZ%0AsOKTtSCmcE9C4CyMOyye1JzQcosMBqPNWUwouxinEcrbIAcGQISgqy83WrdceVOm%2BE3Ivp%2FmlYYT%0A3OXWYo8ixYBF5jfPmQNVMrFmU41Bq%2FUBP0aEBq4sJcpFu8bulH33Fs5NfFd%2F8ubWoxowN0dhwlPY%0ALEEOka0tm%2BhXkSyjhYG9vDOlplmjuoX6f86jrIVu7GX5FicdXRz7y4vSeSf03h2iBDIHg8Y71g3c%0A4s7toT3kK%2FKTilFIXzUM1SaMb0SNxcWetnRu8QivIQZ%2BM8R8%2BZl2vfS7Dy%2BuBIKHvc3YqKlXmlZE%0AokexKtpYAIqvpkTaJgCeIr3nnYsp2Xg6kLc8F%2FnrE8%2Fon44z2opDsKSknPAhcFUh4TFqQ1vTQgT1%0AUjOWV%2BZjuSrlr%2F%2FI9omf%2FAEEl0tbvbBREYP64x7PSmCRbYxdoi1KWSVmzW1OGDFRsnHqBZLs3GkT%0A0jOWLh7qSiK6DAaVv25n2eelOHid%2FKW4xX%2BsVCW34Q5CrlMEoRcs55%2FlyFNU2%2BjmQQCeBjSn%2BExj%0ARSnLoHU%2F9%2BVSMdjsQ1pcqFmu71yRmjbxykkkCMxGVRHwgLilpwZU3KMmc2aGUUfWQJAH7wLlhuZ1%0AMI7FoTw8t0SudADUxdQFk%2Bz4OeZ5M9nBOfmsU3C2y5YPEfMIYo4rusmNeEbMMERQL1EAGGnTX4%2BU%0Aaw
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://ap****cn/apicenter/content.resource.list/6169abb8d86d3fcc1ab7e6fb302fd0c6
+
+
+http://ap****cn/apicenter/content.appTool.getTool/cec79259014921cb39e532845cb0bae2
+
+
+https://av****om/u/a/v1/d2d8582d
+
+
+https://av****om/u/a/v1/2bd3fac4
+
+
+https://av****om/u/a/v1/a49dbed7
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://ap****cn/apicenter/content.resource.list/6169abb8d86d3fcc1ab7e6fb302fd0c6
+
+
+http://ap****cn/apicenter/content.appTool.getTool/cec79259014921cb39e532845cb0bae2
+
+
+https://av****om/u/a/v1/d2d8582d
+
+
+https://av****om/u/a/v1/2bd3fac4
+
+
+http://c.****om/apk/cr.html
+
+
+http://c.****om
+
+
+/apk/cr.html
+
+
+https://av****om/u/a/v1/a49dbed7
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:ap****cn/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://ap****cn/apicenter/content.resource.list/6169abb8d86d3fcc1ab7e6fb302fd0c6'
+
+
+u'http://ap****cn/apicenter/content.appTool.getTool/cec79259014921cb39e532845cb0bae2'
+
+
+u'https://av****om/u/a/v1/d2d8582d'
+
+
+u'https://av****om/u/a/v1/2bd3fac4'
+
+
+u'https://av****om/u/a/v1/a49dbed7'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531000197_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database0SaaS/1451531000525_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531000939_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531001065_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database0SaaS/1451531001174_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531001295_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531001816_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database0SaaS/1451531002077_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531003064_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database0SaaS/1451531003341_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531003527_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531003648_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531003760_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531003877_15530
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/files/__database_reborn_January_one__/td_database2SaaS/1451531003989_15530
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+path:/sys/class/net/sit0/ifindex length:7
+
+
+path:/sys/class/net/sit0/ifindex length:5
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:7
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:5
+
+
+path:/sys/class/net/lo/mtu length:11
+
+
+path:/sys/class/net/lo/mtu length:5
+
+
+path:/proc/cpuinfo length:69
+
+
+path:/proc/cpuinfo length:5
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+{"tc_app_id":"917645C0B8F240B492DA4D1CFE80447E","channel_title":"应用汇","channel":"yyh","game_name":"冷漠的土地","type":0,"game_content":"汉化修改","is_union":false,"archive_all":true}
+
+
+null
+
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+processor	: 0
+
+
+BogoMIPS	: 38.40
+
+
+N/A
+
+
+processor	: 1
+
+
+processor	: 2
+
+
+processor	: 3
+
+
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt 
+
+
+CPU implementer	: 0x51
+
+
+CPU architecture: 7
+
+
+CPU variant	: 0x2
+
+
+CPU part	: 0x06f
+
+
+CPU revision	: 0
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:69
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:66
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:65
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:63
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:68
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:60
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:61
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:64
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:67
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:62
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/.jiagu/libjiagu1945498868.so length:59
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TD_app_pefercen_profile.xml length:149
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TD_app_pefercen_profile.xml length:197
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TDpref_longtime.xml length:140
+
+
+path:/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TDpref_longtime0.xml length:133
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TD_app_pefercen_profile.xml.bak
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TDpref_longtime.xml.bak
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TDpref_longtime0.xml.bak
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/tdid.xml.bak
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/mPBE.xml.bak
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/com.JustStezi.UnbendingLand.shiba_preferences.xml.bak
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TDpref_shorttime.xml.bak
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/TDpref_shorttime0.xml.bak
+
+
+/data/data/com.JustStezi.UnbendingLand.shiba/shared_prefs/qihoo_jiagu_crash_report.xml.bak
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/shibabox/archive/record.data
+
+
+path:/storage/emulated/0/.tcookieid
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get installed app
+
+
+
+
+
+Detail info:
+
+u'4'
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get WIFI state
+
+
+
+
+
+Detail info:
+
+true
+
+
+
+
+
+Behaviour:
+Get running task
+
+
+
+
+
+Detail info:
+
+u'1'
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Start service
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.JustStezi.UnbendingLand.shiba\/com.shibahanhua.activity.CommonService}","EXTRAS":{"START_SERVICE":"HH"}}
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.tendcloud.tenddata.db@218a3f48', u'{"action":"android.net.wifi.SCAN_RESULTS"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+START_SERVICE:HH
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'TDpref_config', u''
+
+
+u'TDadditionalVersionName', u'null'
+
+
+u'content.resource.list', u''
+
+
+u'pref.deviceid.key', u'null'
+
+
+u'salt', u''
+
+
+u'iv', u''
+
+
+u'8bb0f8272e2cbd4b7efb4c00a70419272a1d8e2597caf7df619343755eb805f0', u'null'
+
+
+u'TDpref.session.key', u'null'
+
+
+u'TDpref.lastactivity.key', u''
+
+
+u'TDisAppQuiting', u'-1'
+
+
+u'last_report_me', u''
+
+
+u'last_report_time', u'0000/00/00 00:00:00'
+
+
+u'last_exception_info', u''
+
+
+
+
+
+Behaviour:
+Get special property of simulator
+
+
+
+
+
+Detail info:
+
+u'gsm.version.baseband', u'null'
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15530): Process: com.JustStezi.UnbendingLand.shiba, PID: 15530
+
+
+
+E/AndroidRuntime(15530): java.lang.Error: FATAL EXCEPTION [main]
+
+
+
+E/AndroidRuntime(15530): Unity version     : 2018.2.19f1
+
+
+
+E/AndroidRuntime(15530): Device model      : Lenovo HABOmodel
+
+
+
+E/AndroidRuntime(15530): Device fingerprint: Lenovo/smarttp_open/S898tp:4.2.2/JDQ39/S898t+_S527_140414.:user/release-keys
+
+
+
+E/AndroidRuntime(15530): 
+
+
+
+E/AndroidRuntime(15530): Caused by: java.lang.UnsatisfiedLinkError: Native method not found: com.unity3d.player.UnityPlayer.nativeRestartActivityIndicator:()V
+
+
+
+E/AndroidRuntime(15530): 	at com.unity3d.player.UnityPlayer.nativeRestartActivityIndicator(Native Method)
+
+
+
+E/AndroidRuntime(15530): 	at com.unity3d.player.UnityPlayer.resume(Unknown Source)
+
+
+
+E/AndroidRuntime(15530): 	at com.unity3d.player.UnityPlayerActivity.onResume(Unknown Source)
+
+
+
+E/AndroidRuntime(15530): 	at android.app.Instrumentation.callActivityOnResume(Instrumentation.java:1192)
+
+
+
+E/AndroidRuntime(15530): 	at android.app.Activity.performResume(Activity.java:5310)
+
+
+
+E/AndroidRuntime(15530): 	at android.app.ActivityThread.performResumeActivity(ActivityThread.java:2764)
+
+
+
+E/AndroidRuntime(15530): 	at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:2803)
+
+
+
+E/AndroidRuntime(15530): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2238)
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21861ef8', u'screen_brightness', u'0'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'TD_appId_APP', u'917645C0B8F240B492DA4D1CFE80447E'
+
+
+u'TD_channelIdAPP', u'yyh'
+
+
+u'pref.deviceid.key', u'31debbb1fdcf120e84c52ac9b13002349'
+
+
+u'salt', u'107,-96,-96,-45,31,56,-42,-54,-123,37,78,54,30,-34,-35,-21,-33,77,-48,118,7,102,106,107,24,107,66,-3,-46,127,-106,-28,'
+
+
+u'ceb81817e0e192b0a5f6aafba51631c2c5bcd290a91d9efa2274e5a3094c0e2c', u'127.0.0.1'
+
+
+u'iv', u'-36,90,-53,5,-86,120,25,11,27,-99,11,5,-83,81,59,-20,'
+
+
+u'8bb0f8272e2cbd4b7efb4c00a70419272a1d8e2597caf7df619343755eb805f0', u'127.0.0.1'
+
+
+u'TDpref.session.key', u'5e7e7b07-9b94-4cb6-90ae-a997834d08f2'
+
+
+u'TDpref.session.backup.key', u'5e7e7b07-9b94-4cb6-90ae-a997834d08f2'
+
+
+u'TDpref.lastactivity.key', u''
+
+
+u'TDisAppQuiting', u'1'
+
+
+u'TDpref.lastactivity.key', u'com.shibahanhua.activity.WelcomeActivity'
+
+
+u'TDisAppQuiting', u'0'
+
+
+u'last_report_me', u'02d888c14673dd05179a98716391a767'
+
+
+u'last_report_time', u'2015/12/31 11:03:21'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'getprop'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21860e80 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#820002 pfl=0x8 fmt=-2 wanim=0x10302a2}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.shibahanhua.activity.WelcomeActivity@218c49a0', u'class com.shibahanhua.activity.CommonService'
+
+
+u'android.os.Parcel@2184f330'
+
+
+N/A
+
+
+u'android.os.Parcel@2184f340'
+
+
+u'android.os.Parcel@2184fbd0'
+
+
+u'android.os.Parcel@2184fbe0'
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+Behaviour:
+Get main intent of APK
+
+
+
+
+
+Detail info:
+
+u'com.JustStezi.UnbendingLand.shiba'
+
+
+u'com.cyanogenmod.trebuchet'
+
+
+u'android.process.acore'
+
+
+u'com.thirdparty.superuser'
+
+
+u'com.tencent.music.v_d20a.core.installer'
+
+
+u'com.svox.pico'
+
+
+u'com.android.gallery3d'
+
+
+u'com.google.process.gapps'
+
+
+u'com.google.android.gms'
+
+
+u'com.google.android.apps.docs'
+
+
+u'com.google.android.googlequicksearchbox:search'
+
+
+u'com.android.vending'
+
+
+u'android.process.media'
+
+
+u'com.android.musicfx'
+
+
+u'com.google.android.partnersetup'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":268435456,"COMPONENT_NAME":"ComponentInfo{com.JustStezi.UnbendingLand.shiba\/com.unity3d.player.UnityPlayerActivity}"}
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+AndroidManifest.xml
+0x135b1939
+
+
+
+
+assets/.appkey
+0x6d7f70e
+
+
+
+
+assets/bin/Data/Managed/Assembly-CSharp.dll
+0xb8125520
+
+
+
+
+assets/bin/Data/Managed/Mono.Security.dll
+0xc5bda7e9
+
+
+
+
+assets/bin/Data/Managed/System.Core.dll
+0xe7cb1b4b
+
+
+
+
+assets/bin/Data/Managed/System.dll
+0x906a169f
+
+
+
+
+assets/bin/Data/Managed/Unity.TextMeshPro.dll
+0x7ff15c96
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.AIModule.dll
+0x3fe6d34b
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.ARModule.dll
+0xc90386aa
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.AccessibilityModule.dll
+0x5238ef15
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.AnimationModule.dll
+0xc569a84e
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.AssetBundleModule.dll
+0x825284bb
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.AudioModule.dll
+0xcc9770e6
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.BaselibModule.dll
+0x19929ac1
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.ClothModule.dll
+0x6acc6382
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.CloudWebServicesModule.dll
+0x32f7a20e
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.CoreModule.dll
+0x7d5bfb66
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.CrashReportingModule.dll
+0x1c7ff743
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.DirectorModule.dll
+0x845965fd
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.FacebookModule.dll
+0xe55f10e7
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.FileSystemHttpModule.dll
+0x1908277f
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.GameCenterModule.dll
+0xbadbff0d
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.GridModule.dll
+0xdd391004
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.HotReloadModule.dll
+0x3e0046fd
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll
+0x103ac0fa
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.ImageConversionModule.dll
+0xaff517c9
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.InputModule.dll
+0x1de63d97
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.JSONSerializeModule.dll
+0xc9d0a1b7
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.LocalizationModule.dll
+0x5be855e6
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.Networking.dll
+0x690bb89c
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.ParticleSystemModule.dll
+0x3fec7c7b
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.ParticlesLegacyModule.dll
+0x1d58b875
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.PerformanceReportingModule.dll
+0x58097a3c
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll
+0x7794b2ea
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll
+0x65c8545
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.ProfilerModule.dll
+0xd58f7317
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.ScreenCaptureModule.dll
+0x42952ba5
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll
+0x830a926
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.SpatialTracking.dll
+0x1f389830
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.SpatialTrackingModule.dll
+0xcede47b9
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.SpriteMaskModule.dll
+0x9e88227
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll
+0xfd2bef87
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.StreamingModule.dll
+0x1deed0dc
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.StyleSheetsModule.dll
+0xca3e4d2f
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.SubstanceModule.dll
+0x48098bc9
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.TLSModule.dll
+0xbf1b745d
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.TerrainModule.dll
+0xf014eaf6
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.TerrainPhysicsModule.dll
+0xdf37e892
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll
+0x23dfc97f
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.TilemapModule.dll
+0xa8e25f4c
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.Timeline.dll
+0x4e34938a
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.TimelineModule.dll
+0x9bb5da7e
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UI.dll
+0x8359f5b
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UIElementsModule.dll
+0x8532f6db
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UIModule.dll
+0xcd28561d
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UNETModule.dll
+0x287a7a09
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UmbraModule.dll
+0xab37e0d
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
+0xab86e4c3
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UnityConnectModule.dll
+0xc66634a
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+0xe06879bd
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll
+0xdaa4f188
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UnityWebRequestModule.dll
+0x9c014cb0
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll
+0x5e364854
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll
+0x4abcff
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.VRModule.dll
+0x6cca1aa2
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.VehiclesModule.dll
+0x75cf659b
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.VideoModule.dll
+0xd7987c9d
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.WindModule.dll
+0xcda3649d
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.XRModule.dll
+0x7e883fa8
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.dll
+0x296ea5b6
+
+
+
+
+assets/bin/Data/Managed/mscorlib.dll
+0x5f78892a
+
+
+
+
+assets/bin/Data/Resources/unity_builtin_extra
+0x71453364
+
+
+
+
+assets/bin/Data/boot.config
+0x62e11fe8
+
+
+
+
+assets/bin/Data/globalgamemanagers
+0xfbf12702
+
+
+
+
+assets/bin/Data/globalgamemanagers.assets
+0x7107213b
+
+
+
+
+assets/bin/Data/level0
+0xfe6d289b
+
+
+
+
+assets/bin/Data/sharedassets0.assets
+0x6317c1b8
+
+
+
+
+assets/bin/Data/unity default resources
+0xe4da02e7
+
+
+
+
+assets/libjiagu.so
+0x8eb8b72f
+
+
+
+
+assets/libjiagu_psn.a
+0xacb39330
+
+
+
+
+assets/libjiagu_x86.so
+0xcc2a1276
+
+
+
+
+assets/shiba/channel.png
+0xdadb7354
+
+
+
+
+assets/shiba/data.json
+0xd945e845
+
+
+
+
+assets/shiba/logo.png
+0xdadb7354
+
+
+
+
+classes.dex
+0x29595fe6
+
+
+
+
+lib/armeabi-v7a/libmain.so
+0xb63fb629
+
+
+
+
+lib/armeabi-v7a/libmono.so
+0xcde23015
+
+
+
+
+lib/armeabi-v7a/libunity.so
+0x3cb2efcc
+
+
+
+
+lib/x86/libmain.so
+0xa55b53ef
+
+
+
+
+lib/x86/libmono.so
+0xfffa3cee
+
+
+
+
+lib/x86/libunity.so
+0x5316666b
+
+
+
+
+res/drawable-xhdpi-v4/app_banner.png
+0x9e8080a7
+
+
+
+
+res/mipmap-hdpi-v4/app_icon.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-hdpi-v4/app_icon_round.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-ldpi-v4/app_icon.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-ldpi-v4/app_icon_round.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-mdpi-v4/app_icon.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-mdpi-v4/app_icon_round.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-xhdpi-v4/app_icon.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-xhdpi-v4/app_icon_round.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-xxhdpi-v4/app_icon.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-xxhdpi-v4/app_icon_round.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-xxxhdpi-v4/app_icon.png
+0xe2aa8d32
+
+
+
+
+res/mipmap-xxxhdpi-v4/app_icon_round.png
+0xe2aa8d32
+
+
+
+
+resources.arsc
+0xca42bd9a
+
+
+
+
+META-INF/SHIBA.SF
+0x4e750728
+
+
+
+
+META-INF/SHIBA.RSA
+0x2dcbab9a
+
+
+
+
+META-INF/MANIFEST.MF
+0xa2479fee
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.shibahanhua.activity.WelcomeActivity
+android.intent.action.MAIN
+
+
+
+
+com.shibahanhua.activity.WelcomeActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.shibahanhua.activity.CommonService
+
+
+
+
+com.shibahanhua.activity.CacheService
+
+
+

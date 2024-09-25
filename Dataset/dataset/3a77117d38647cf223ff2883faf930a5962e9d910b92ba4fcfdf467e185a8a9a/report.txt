@@ -1,0 +1,36 @@
+3a77117d38647cf223ff2883faf930a5962e9d910b92ba4fcfdf467e185a8a9a:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.VIBRATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+android.permission.RECEIVE_USER_PRESENT
+android.permission.CHANGE_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.WAKE_LOCK
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE
+com.csliyu.primary.permission.JPUSH_MESSAGE
+------------------------------
+API:
+./res/3a77117d38647cf223ff2883faf930a5962e9d910b92ba4fcfdf467e185a8a9a/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.REGISTRATION
+cn.jpush.android.intent.MESSAGE_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_OPENED
+cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+cn.jpush.android.intent.CONNECTION
+com.csliyu.primary
+------------------------------
+Function call graph:
+gml path: ./res/3a77117d38647cf223ff2883faf930a5962e9d910b92ba4fcfdf467e185a8a9a/3a77117d38647cf223ff2883faf930a5962e9d910b92ba4fcfdf467e185a8a9a.gml

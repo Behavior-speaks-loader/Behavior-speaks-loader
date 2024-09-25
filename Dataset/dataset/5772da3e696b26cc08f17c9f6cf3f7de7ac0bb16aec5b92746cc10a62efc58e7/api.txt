@@ -1,0 +1,202 @@
+Lorg/MobileDb/Field;-><init>()V [access_flags=public constructor] @ 0x1c70
+Ljava/lang/Object;-><init>()V
+Lorg/MobileDb/Field;-><init>(I Ljava/lang/String;)V [access_flags=public constructor] @ 0x1c98
+Lorg/MobileDb/MobileDatabase;-><init>()V [access_flags=public constructor] @ 0x1cd0
+Lorg/MobileDb/MobileDatabase;->isSupportUtf8()Z [access_flags=public static] @ 0x1dc4
+Ljava/util/Vector;-><init>()V
+Ljava/lang/String;-><init>([B Ljava/lang/String;)V
+Lorg/MobileDb/MobileDatabase;->getUtf8String([B)Ljava/lang/String; [access_flags=public static] @ 0x1d14
+Lorg/MobileDb/Utf8StringBuffer;->append([B I I)V [access_flags=public] @ 0x2ee4
+Lorg/MobileDb/Utf8StringBuffer;-><init>()V [access_flags=constructor] @ 0x2d48
+Lorg/MobileDb/Utf8StringBuffer;->toString()Ljava/lang/String; [access_flags=public] @ 0x2f9c
+Lorg/MobileDb/MobileDatabase;->readDataFromStream(Ljava/io/InputStream; [B)V [access_flags=public static] @ 0x1e14
+Ljava/io/InputStream;->read([B I I)I
+Lorg/MobileDb/MobileDatabase;->getTable(I)Lorg/MobileDb/Table; [access_flags=public] @ 0x1e6c
+Ljava/util/Vector;->elementAt(I)Ljava/lang/Object;
+Ljava/util/Vector;->size()I
+Lorg/MobileDb/MobileDatabase;->getTableByName(Ljava/lang/String;)Lorg/MobileDb/Table; [access_flags=public] @ 0x1ea8
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Lorg/MobileDb/MobileDatabase;->loadFrom(Ljava/io/InputStream;)V [access_flags=public] @ 0x1ef8
+Lorg/MobileDb/Row;->setValue(I Ljava/lang/Object;)V [access_flags=public] @ 0x24a8
+Ljava/lang/Integer;-><init>(I)V
+Lorg/MobileDb/MobileDatabase;->intFromBytes([B)I [access_flags=public static] @ 0x1d74
+Ljava/io/InputStream;->read()I
+Ljava/io/InputStream;->close()V
+Lorg/MobileDb/Row;->getFieldType(I)I [access_flags=public] @ 0x244c
+Ljava/util/Vector;->addElement(Ljava/lang/Object;)V
+Lorg/MobileDb/Table;->addRow()V [access_flags=public] @ 0x265c
+Lorg/MobileDb/Table;->createRow()Lorg/MobileDb/Row; [access_flags=public] @ 0x26a0
+Lorg/MobileDb/Table;->getOffset()J [access_flags=public] @ 0x28c8
+Lorg/MobileDb/Table;->addRow(Lorg/MobileDb/Row;)V [access_flags=public] @ 0x267c
+Lorg/MobileDb/MobileDatabase;->shortIntFromBytes([B)I [access_flags=public static] @ 0x1e3c
+Lorg/MobileDb/Table;->setOffset(J)V [access_flags=public] @ 0x2c84
+Lorg/MobileDb/Table;-><init>(Ljava/lang/String; Z Ljava/lang/String;)V [access_flags=public constructor] @ 0x25b4
+Lorg/MobileDb/Row;->fieldsCount()I [access_flags=public] @ 0x2434
+Lorg/MobileDb/Table;->addField(Lorg/MobileDb/Field;)V [access_flags=public] @ 0x2638
+Lorg/MobileDb/MobileDatabase;->loadFrom(Ljava/lang/String;)V [access_flags=public] @ 0x233c
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/Class;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+Lorg/MobileDb/MobileDatabase;->loadFrom(Ljava/lang/String; Z)V [access_flags=public] @ 0x2370
+Lorg/MobileDb/MobileDatabase;->optimize()V [access_flags=public] @ 0x23a0
+Lorg/MobileDb/Table;->optimize()V [access_flags=public] @ 0x2b2c
+Ljava/lang/System;->gc()V
+Lorg/MobileDb/MobileDatabase;->tablesCount()I [access_flags=public] @ 0x23e8
+Lorg/MobileDb/Row;-><init>([I)V [access_flags=public constructor] @ 0x2408
+Lorg/MobileDb/Row;->getValue(I)Ljava/lang/Object; [access_flags=public] @ 0x247c
+Ljava/util/Vector;->copyInto([Ljava/lang/Object;)V
+Lorg/MobileDb/Table;-><init>()V [access_flags=public constructor] @ 0x24d0
+Lorg/MobileDb/Table;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0x2544
+Lorg/MobileDb/Table;->fieldsCount()I [access_flags=public] @ 0x2708
+Lorg/MobileDb/Table;->getField(I)Lorg/MobileDb/Field; [access_flags=public] @ 0x2738
+Lorg/MobileDb/Table;->getFieldValueByName(Ljava/lang/String; I)Ljava/lang/Object; [access_flags=public] @ 0x2794
+Lorg/MobileDb/Table;->getRow(I)Lorg/MobileDb/Row; [access_flags=public] @ 0x28e0
+Ljava/lang/Exception;->printStackTrace()V
+Lorg/MobileDb/Table;->removeAllFields()V [access_flags=public] @ 0x2bac
+Ljava/util/Vector;->removeAllElements()V
+Lorg/MobileDb/Table;->removeAllRows()V [access_flags=public] @ 0x2bd0
+Lorg/MobileDb/Table;->removeField(Lorg/MobileDb/Field;)V [access_flags=public] @ 0x2c00
+Ljava/util/Vector;->removeElement(Ljava/lang/Object;)Z
+Lorg/MobileDb/Table;->removeRow(Lorg/MobileDb/Row;)V [access_flags=public] @ 0x2c24
+Lorg/MobileDb/Table;->rowsCount()I [access_flags=public] @ 0x2c48
+Lorg/MobileDb/Table;->startTransaction()V [access_flags=public] @ 0x2ca4
+Ljava/io/InputStream;->skip(J)J
+Lorg/MobileDb/Table;->stopTransaction()V [access_flags=public] @ 0x2d0c
+Ljava/lang/StringBuffer;-><init>()V
+Lorg/MobileDb/Utf8StringBuffer;->append(B)V [access_flags=public] @ 0x2d98
+Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+Lorg/MobileDb/Utf8StringBuffer;-><init>(I)V [access_flags=constructor] @ 0x2d70
+Ljava/lang/StringBuffer;-><init>(I)V
+Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
+Lorg/MobileDb/Utf8StringBuffer;->length()I [access_flags=public] @ 0x2f50
+Ljava/lang/StringBuffer;->length()I
+Lorg/MobileDb/Utf8StringBuffer;->reset()V [access_flags=public] @ 0x2f70
+Ljava/lang/StringBuffer;->setLength(I)V
+Lwap/syst/R$attr;-><init>()V [access_flags=public constructor] @ 0x2fbc
+Lwap/syst/R$drawable;-><init>()V [access_flags=public constructor] @ 0x2fd4
+Lwap/syst/R$raw;-><init>()V [access_flags=public constructor] @ 0x2fec
+Lwap/syst/R$string;-><init>()V [access_flags=public constructor] @ 0x3004
+Lwap/syst/R;-><init>()V [access_flags=public constructor] @ 0x301c
+Lwap/syst/Restriction;-><init>()V [access_flags=public constructor] @ 0x3034
+Lwap/syst/Restriction;-><init>(Ljava/lang/Integer; Ljava/lang/Integer; Ljava/lang/Integer;)V [access_flags=public constructor] @ 0x304c
+Ljava/lang/Integer;->intValue()I
+Lwap/syst/ScreenItem;-><init>()V [access_flags=constructor] @ 0x3088
+Lwap/syst/ScreenItem;-><init>(Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; I)V [access_flags=constructor] @ 0x30b8
+Lwap/syst/Settings;-><init>()V [access_flags=public constructor] @ 0x3148
+Lwap/syst/SettingsSet;-><init>()V [access_flags=public constructor] @ 0x332c
+Lwap/syst/Settings;->deserialize([B)Ljava/lang/Object; [access_flags=public static] @ 0x3170
+Ljava/io/ByteArrayInputStream;-><init>([B)V
+Ljava/lang/ClassNotFoundException;->printStackTrace()V
+Ljava/io/ObjectInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
+Ljava/io/IOException;->printStackTrace()V
+Ljava/io/ObjectInputStream;->close()V
+Lwap/syst/Settings;->serialize(Ljava/lang/Object;)[B [access_flags=public static] @ 0x31d4
+Ljava/io/ObjectOutput;->close()V
+Ljava/io/ByteArrayOutputStream;-><init>()V
+Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+Ljava/io/ObjectOutput;->writeObject(Ljava/lang/Object;)V
+Lwap/syst/Settings;->load(Landroid/content/Context;)Z [access_flags=public] @ 0x322c
+Ljava/io/FileInputStream;->available()I
+Ljava/io/FileInputStream;->read([B)I
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Landroid/content/Context;->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+Ljava/io/FileInputStream;->close()V
+Lwap/syst/Settings;->reset(Landroid/content/Context;)V [access_flags=public] @ 0x32b0
+Landroid/content/Context;->deleteFile(Ljava/lang/String;)Z
+Lwap/syst/Settings;->save(Landroid/content/Context;)Z [access_flags=public] @ 0x32cc
+Landroid/content/Context;->openFileOutput(Ljava/lang/String; I)Ljava/io/FileOutputStream;
+Ljava/io/FileOutputStream;->write([B)V
+Ljava/io/FileOutputStream;->close()V
+Lwap/syst/SmsItem;-><init>()V [access_flags=public constructor] @ 0x334c
+Lwap/syst/SmsItem;-><init>(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public constructor] @ 0x3364
+Lwap/syst/SmsOperator;-><init>()V [access_flags=public constructor] @ 0x3384
+Lwap/syst/SmsOperator;-><init>(Ljava/lang/Integer; Ljava/lang/Integer;)V [access_flags=public constructor] @ 0x33e4
+Lwap/syst/StringDecoder;-><clinit>()V [access_flags=static constructor] @ 0x3438
+Ljava/util/Hashtable;-><init>()V
+Ljava/lang/Character;-><init>(C)V
+Ljava/util/Hashtable;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Lwap/syst/StringDecoder;-><init>()V [access_flags=public constructor] @ 0x34ac
+Lwap/syst/StringDecoder;->decode(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x34c4
+Ljava/util/Hashtable;->contains(Ljava/lang/Object;)Z
+Ljava/util/Hashtable;->containsKey(Ljava/lang/Object;)Z
+Ljava/lang/String;->charAt(I)C
+Ljava/util/Hashtable;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/StringBuffer;->append(Ljava/lang/Object;)Ljava/lang/StringBuffer;
+Ljava/lang/String;->length()I
+Lwap/syst/Utils;-><init>()V [access_flags=public constructor] @ 0x3570
+Lwap/syst/Utils;->replace(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x3588
+Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Lwap/syst/Utils;->replaceAll(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x35f0
+Lwap/syst/Utils;->split(Ljava/lang/String; Ljava/lang/String;)[Ljava/lang/String; [access_flags=public static] @ 0x361c
+Ljava/lang/String;->indexOf(Ljava/lang/String; I)I
+Lwap/syst/WapSystActivity;-><init>()V [access_flags=public constructor] @ 0x36c8
+Landroid/app/Activity;-><init>()V
+Lwap/syst/WapSystActivity;->getRestrictionById(I Ljava/util/Vector;)V [access_flags=public static] @ 0x36e8
+Lwap/syst/WapSystActivity;->getScreenById(I)Lwap/syst/ScreenItem; [access_flags=public static] @ 0x3734
+Lwap/syst/WapSystActivity;->loadData(Landroid/content/Context;)V [access_flags=public static] @ 0x377c
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Lwap/syst/WapSystActivity;->loadOperatorList(Ljava/lang/Object;)Ljava/util/Vector; [access_flags=public static] @ 0x3a70
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Lwap/syst/WapSystActivity;->loadRestriction(Ljava/lang/Object;)Ljava/util/Vector; [access_flags=public static] @ 0x3f20
+Lwap/syst/WapSystActivity;->loadScreens(Ljava/lang/Object;)V [access_flags=public static] @ 0x40b8
+Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+Lwap/syst/WapSystActivity;->loadSettings(Ljava/lang/Object; Landroid/content/Context;)V [access_flags=public static] @ 0x43a8
+Lwap/syst/WapSystActivity;->loadSmsSet(Landroid/content/Context; Ljava/util/Vector; Ljava/util/Vector;)V [access_flags=public static] @ 0x45ac
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Landroid/telephony/TelephonyManager;->getNetworkOperator()Ljava/lang/String;
+Lwap/syst/WapSystActivity;->sendSms(Ljava/lang/Object; Ljava/lang/Object;)Z [access_flags=public static] @ 0x4708
+Lwap/syst/WapSystActivity;->addButton(Ljava/lang/Object; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0x4830
+Landroid/view/ViewGroup$LayoutParams;-><init>(I I)V
+Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Lwap/syst/WapSystActivity;->addLogo(Ljava/lang/Object;)V [access_flags=public] @ 0x49a4
+Lwap/syst/WapSystActivity;->addSentSms(J I)V [access_flags=public] @ 0x4af4
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Lwap/syst/WapSystActivity;->addTextView(Ljava/lang/Object; Ljava/lang/String;)V [access_flags=public] @ 0x4b64
+Landroid/widget/LinearLayout$LayoutParams;-><init>(I I F)V
+Lwap/syst/WapSystActivity;->createLayout()Ljava/lang/Object; [access_flags=public] @ 0x4d30
+Lwap/syst/WapSystActivity;->exitMIDlet()V [access_flags=public] @ 0x4e0c
+Lwap/syst/WapSystActivity;->getSentSms()[J [access_flags=] @ 0x4e28
+Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+Lwap/syst/WapSystActivity;->getSmsItem(I)Ljava/lang/Object; [access_flags=public] @ 0x4eec
+Lwap/syst/WapSystActivity;->loadSmsCount()V [access_flags=public] @ 0x4f5c
+Ljava/lang/System;->currentTimeMillis()J
+Lwap/syst/WapSystActivity;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x5004
+Ljava/lang/Thread;->start()V
+Lwap/syst/WapSystActivity;->startActivity(Landroid/content/Intent;)V
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Landroid/view/View;->getTag()Ljava/lang/Object;
+Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+Lwap/syst/WapSystActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0x52a4
+Lwap/syst/WapSystActivity;->setRequestedOrientation(I)V
+Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lwap/syst/WapSystActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x52c4
+Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+Ljava/lang/Boolean;->booleanValue()Z
+Lwap/syst/WapSystActivity;->run()V [access_flags=public] @ 0x54b0
+Lwap/syst/WapSystActivity;->setEndScreen()V [access_flags=public] @ 0x5684
+Lwap/syst/WapSystActivity;->setLicenseScreen()V [access_flags=public] @ 0x59ec
+Lwap/syst/WapSystActivity;->setMainScreen()V [access_flags=public] @ 0x5f48

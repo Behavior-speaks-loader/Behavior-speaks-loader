@@ -1,0 +1,29 @@
+2c57d3d9db45f16ba8fd1ef333d4aa5a15c1ae92c1e4569203e501b475384b74:['Network', 'File', 'Phone']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+android.permission.RESTART_PACKAGES
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/2c57d3d9db45f16ba8fd1ef333d4aa5a15c1ae92c1e4569203e501b475384b74/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.USER_PRESENT
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/2c57d3d9db45f16ba8fd1ef333d4aa5a15c1ae92c1e4569203e501b475384b74/2c57d3d9db45f16ba8fd1ef333d4aa5a15c1ae92c1e4569203e501b475384b74.gml

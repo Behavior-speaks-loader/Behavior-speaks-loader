@@ -1,0 +1,155 @@
+Lcom/baidu/protect/A;-><init>()V [access_flags=public constructor] @ 0x34ec
+Ljava/lang/Object;-><init>()V
+Lcom/baidu/protect/A;->n003()V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/A;->n001(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; I Z)V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/A;->n002(Landroid/content/Context;)V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/B;-><init>()V [access_flags=public constructor] @ 0x3504
+Lcom/baidu/protect/B;->addBasicItem(Lorg/json/JSONObject;)Lorg/json/JSONObject; [access_flags=public static] @ 0x351c
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->put(Ljava/lang/String; I)Lorg/json/JSONObject;
+Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+Lcom/baidu/protect/B;->freeMemory()J [access_flags=public static] @ 0x370c
+Lcom/baidu/protect/B;->totalMemory()J [access_flags=public static] @ 0x3820
+Landroid/os/StatFs;->getBlockSize()I
+Landroid/os/StatFs;->getBlockCount()I
+Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+Landroid/os/Environment;->getRootDirectory()Ljava/io/File;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Landroid/os/StatFs;->getAvailableBlocks()I
+Lcom/baidu/protect/B;->addItem(Lorg/json/JSONObject; Ljava/lang/String; I)Lorg/json/JSONObject; [access_flags=public static] @ 0x3634
+Lorg/json/JSONObject;-><init>()V
+Lcom/baidu/protect/B;->addItem(Lorg/json/JSONObject; Ljava/lang/String; Ljava/lang/String;)Lorg/json/JSONObject; [access_flags=public static] @ 0x3678
+Lcom/baidu/protect/B;->buildUUID()Ljava/lang/String; [access_flags=public static] @ 0x36bc
+Ljava/util/UUID;->toString()Ljava/lang/String;
+Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+Lcom/baidu/protect/B;->dumpJSONObject(Lorg/json/JSONObject;)Ljava/lang/String; [access_flags=public static] @ 0x36e0
+Lorg/json/JSONObject;->toString()Ljava/lang/String;
+Lcom/baidu/protect/B;->postJson(Ljava/lang/String; Lorg/json/JSONObject;)I [access_flags=public static] @ 0x3750
+Ljava/net/HttpURLConnection;->getResponseCode()I
+Ljava/io/DataOutputStream;->flush()V
+Ljava/net/HttpURLConnection;->connect()V
+Ljava/net/URL;-><init>(Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+Ljava/net/HttpURLConnection;->setDoInput(Z)V
+Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/io/DataOutputStream;->writeBytes(Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+Ljava/net/HttpURLConnection;->disconnect()V
+Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+Ljava/io/DataOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/io/DataOutputStream;->close()V
+Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+Lcom/baidu/protect/CrashHandler$1;-><init>()V [access_flags=constructor] @ 0x3864
+Lcom/baidu/protect/CrashHandler$1;->run()V [access_flags=public] @ 0x387c
+Lcom/baidu/protect/CrashHandler;->a()V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/CrashHandler;-><init>()V [access_flags=public constructor] @ 0x38a4
+Lcom/baidu/protect/CrashHandler;->asynRun()V [access_flags=public static] @ 0x38bc
+Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+Ljava/lang/Thread;->start()V
+Lcom/baidu/protect/CrashHandler;->convertCallStackToString(Ljava/lang/Throwable;)Ljava/lang/String; [access_flags=public static] @ 0x38f8
+Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
+Ljava/io/StringWriter;->toString()Ljava/lang/String;
+Ljava/io/StringWriter;-><init>()V
+Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
+Lcom/baidu/protect/CrashHandler;->init()V [access_flags=public static] @ 0x392c
+Ljava/lang/Thread;->setDefaultUncaughtExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)V
+Ljava/lang/Thread;->getDefaultUncaughtExceptionHandler()Ljava/lang/Thread$UncaughtExceptionHandler;
+Lcom/baidu/protect/CrashHandler;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V [access_flags=public] @ 0x395c
+Lcom/baidu/protect/CrashHandler;->b(Ljava/lang/String;)V [access_flags=public static native] @ 0x0
+Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V
+Ljava/lang/System;->exit(I)V
+Lcom/baidu/protect/MonkeyPatcher;-><init>()V [access_flags=public constructor] @ 0x39a0
+Lcom/baidu/protect/MonkeyPatcher;->attachBaseContext(Landroid/content/Context; Landroid/app/Application;)V [access_flags=protected static] @ 0x39b8
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/lang/IllegalStateException;-><init>(Ljava/lang/Throwable;)V
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/baidu/protect/MonkeyPatcher;->createRealApplication(Ljava/lang/String;)Landroid/app/Application; [access_flags=public static] @ 0x3a20
+Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Ljava/lang/String;->length()I
+Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/baidu/protect/MonkeyPatcher;->getActivityThread(Landroid/content/Context; Ljava/lang/Class;)Ljava/lang/Object; [access_flags=public static] @ 0x3a8c
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/Class;->getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/Throwable;->printStackTrace()V
+Lcom/baidu/protect/MonkeyPatcher;->monkeyPatchApplication(Landroid/content/Context; Landroid/app/Application; Landroid/app/Application;)V [access_flags=public static] @ 0x3b4c
+Ljava/util/List;->size()I
+Ljava/lang/NoSuchFieldException;->printStackTrace()V
+Ljava/util/List;->set(I Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/List;->get(I)Ljava/lang/Object;
+Ljava/util/Map;->entrySet()Ljava/util/Set;
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+Ljava/util/Iterator;->hasNext()Z
+Lcom/baidu/protect/StubApplication;-><init>()V [access_flags=public constructor] @ 0x3dd0
+Landroid/app/Application;-><init>()V
+Lcom/baidu/protect/StubApplication;->getDataFolder(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0x3e08
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Lcom/baidu/protect/StubApplication;->is64BitEnv()Z [access_flags=private static] @ 0x3e98
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Ljava/io/BufferedReader;->close()V
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Lcom/baidu/protect/StubApplication;->isX86ABI()Z [access_flags=private static] @ 0x3f10
+Ljava/io/FileInputStream;->read([B I I)I
+Ljava/io/FileInputStream;->close()V
+Lcom/baidu/protect/StubApplication;->loadLibrary()V [access_flags=private static] @ 0x3f70
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Lcom/baidu/protect/StubApplication;->loadX86Library()V [access_flags=private static] @ 0x3fbc
+Ljava/io/File;->lastModified()J
+Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/util/zip/ZipInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/Exception;->printStackTrace()V
+Ljava/io/FileOutputStream;->flush()V
+Ljava/io/File;->exists()Z
+Ljava/util/zip/ZipInputStream;->closeEntry()V
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/util/zip/ZipInputStream;->read([B)I
+Ljava/util/zip/ZipInputStream;->close()V
+Ljava/util/zip/ZipEntry;->getTime()J
+Ljava/util/zip/ZipInputStream;->getNextEntry()Ljava/util/zip/ZipEntry;
+Ljava/io/File;->setLastModified(J)Z
+Ljava/io/FileOutputStream;->close()V
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/io/File;->delete()Z
+Ljava/io/File;->mkdirs()Z
+Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
+Lcom/baidu/protect/StubApplication;->patchApplication()V [access_flags=public static] @ 0x4200
+Lcom/baidu/protect/StubApplication;->reloadSP()V [access_flags=private] @ 0x423c
+Ljava/io/File;->getName()Ljava/lang/String;
+Ljava/lang/String;->replace(Ljava/lang/CharSequence; Ljava/lang/CharSequence;)Ljava/lang/String;
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/lang/reflect/Field;->getBoolean(Ljava/lang/Object;)Z
+Ljava/io/File;->isDirectory()Z
+Lcom/baidu/protect/StubApplication;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Lcom/baidu/protect/StubApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x43e8
+Landroid/os/Debug;->isDebuggerConnected()Z
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Lcom/baidu/protect/StubApplication;->getPackageName()Ljava/lang/String; [access_flags=public] @ 0x449c
+Landroid/app/Application;->getPackageName()Ljava/lang/String;
+Lcom/baidu/protect/StubApplication;->onCreate()V [access_flags=public] @ 0x44e8
+Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+Landroid/app/Application;->onCreate()V
+Lcom/baidu/protect/StubProvider;-><clinit>()V [access_flags=static constructor] @ 0x4568
+Lcom/baidu/protect/StubProvider;-><init>()V [access_flags=public constructor] @ 0x4580
+Landroid/content/ContentProvider;-><init>()V

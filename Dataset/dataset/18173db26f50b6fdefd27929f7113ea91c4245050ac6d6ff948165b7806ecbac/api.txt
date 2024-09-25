@@ -1,0 +1,48 @@
+Lcom/neotv/application/NeotvPlayerApplication;-><init>()V [access_flags=public constructor] @ 0xb50
+Landroid/app/Application;-><init>()V
+Lcom/neotv/application/NeotvPlayerApplication;->copyLib(Ljava/util/zip/ZipFile; Ljava/util/zip/ZipEntry; Ljava/io/File;)V [access_flags=private] @ 0xb68
+Ljava/io/InputStream;->close()V
+Ljava/io/IOException;->printStackTrace()V
+Ljava/io/File;->exists()Z
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/InputStream;->read([B)I
+Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/io/File;->mkdirs()Z
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/FileOutputStream;->write([B I I)V
+Lcom/neotv/application/NeotvPlayerApplication;->getCRC32(Ljava/io/File;)J [access_flags=public static] @ 0xbf0
+Ljava/util/zip/CRC32;->getValue()J
+Ljava/util/zip/CheckedInputStream;-><init>(Ljava/io/InputStream; Ljava/util/zip/Checksum;)V
+Ljava/util/zip/CheckedInputStream;->close()V
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/util/zip/CheckedInputStream;->read([B)I
+Ljava/util/zip/CRC32;-><init>()V
+Lcom/neotv/application/NeotvPlayerApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0xd34
+Lcom/neotv/application/NeotvPlayerApplication;->loadLibs(Landroid/content/Context;)V [access_flags=protected] @ 0xe18
+Lcom/shell/NativeApplication;->load(Landroid/app/Application; Ljava/lang/String;)Z [access_flags=public static native] @ 0x0
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Lcom/neotv/application/NeotvPlayerApplication;->copyLib(Ljava/lang/String;)V [access_flags=protected] @ 0xd5c
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/util/zip/ZipEntry;->getCrc()J
+Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Lcom/neotv/application/NeotvPlayerApplication;->getPackageCodePath()Ljava/lang/String;
+Ljava/util/zip/ZipFile;->close()V
+Ljava/util/zip/ZipFile;-><init>(Ljava/lang/String;)V
+Lcom/neotv/application/NeotvPlayerApplication;->onCreate()V [access_flags=public] @ 0xec4
+Landroid/app/Application;->onCreate()V
+Lcom/shell/NativeApplication;->run(Landroid/app/Application; Ljava/lang/String;)Z [access_flags=public static native] @ 0x0
+Lcom/shell/NativeApplication;-><clinit>()V [access_flags=static constructor] @ 0xee8
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Lcom/shell/NativeApplication;-><init>()V [access_flags=public constructor] @ 0xf10
+Ljava/lang/Object;-><init>()V

@@ -1,0 +1,29 @@
+53a97ed602f12a4bf0dd1c7eef125a4e340b02bfde6f1348d30f61828a1c8214:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.STORAGE
+android.permission.VIBRATE
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.FOREGROUND_SERVICE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.ACCESS_ALL_DOWNLOADS
+com.android.launcher.permission.INSTALL_SHORTCUT
+com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/53a97ed602f12a4bf0dd1c7eef125a4e340b02bfde6f1348d30f61828a1c8214/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/53a97ed602f12a4bf0dd1c7eef125a4e340b02bfde6f1348d30f61828a1c8214/53a97ed602f12a4bf0dd1c7eef125a4e340b02bfde6f1348d30f61828a1c8214.gml

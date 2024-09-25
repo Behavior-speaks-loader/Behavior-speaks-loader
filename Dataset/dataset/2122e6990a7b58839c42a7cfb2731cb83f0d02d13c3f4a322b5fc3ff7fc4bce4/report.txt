@@ -1,0 +1,23 @@
+2122e6990a7b58839c42a7cfb2731cb83f0d02d13c3f4a322b5fc3ff7fc4bce4:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/2122e6990a7b58839c42a7cfb2731cb83f0d02d13c3f4a322b5fc3ff7fc4bce4/api.txt
+------------------------------
+Intent:
+com.android.vending.billing.IN_APP_NOTIFY
+com.android.vending.billing.RESPONSE_CODE
+com.android.vending.billing.PURCHASE_STATE_CHANGED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/2122e6990a7b58839c42a7cfb2731cb83f0d02d13c3f4a322b5fc3ff7fc4bce4/2122e6990a7b58839c42a7cfb2731cb83f0d02d13c3f4a322b5fc3ff7fc4bce4.gml

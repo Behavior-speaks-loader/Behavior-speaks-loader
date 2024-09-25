@@ -1,0 +1,135 @@
+Lcom/secneo/apkwrapper/ApplicationWrapper;-><clinit>()V [access_flags=static constructor] @ 0x3004
+Lcom/secneo/apkwrapper/FilesFileObserver;->miui_notify()V [access_flags=public static] @ 0x3b98
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Lcom/secneo/apkwrapper/ApplicationWrapper;-><init>()V [access_flags=public constructor] @ 0x3040
+Landroid/app/Application;-><init>()V
+Lcom/secneo/apkwrapper/ApplicationWrapper;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x3058
+Lcom/secneo/apkwrapper/Helper;->attach(Landroid/app/Application; Landroid/content/Context;)V [access_flags=public static native] @ 0x0
+Lcom/secneo/apkwrapper/ApplicationWrapper;->getClassLoader()Ljava/lang/ClassLoader;
+Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Lcom/secneo/apkwrapper/ApplicationWrapper;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0x30b4
+Landroid/app/Application;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lcom/secneo/apkwrapper/ApplicationWrapper;->onCreate()V [access_flags=public] @ 0x30e0
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Landroid/app/Application;->onCreate()V
+Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+Lcom/secneo/apkwrapper/Helper;->h()V [access_flags=public static native] @ 0x0
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Lcom/secneo/apkwrapper/ApplicationWrapper;->getApplicationContext()Landroid/content/Context;
+Lcom/secneo/apkwrapper/ApplicationWrapper;->onLowMemory()V [access_flags=public] @ 0x3170
+Landroid/app/Application;->onLowMemory()V
+Lcom/secneo/apkwrapper/ApplicationWrapper;->onTerminate()V [access_flags=public] @ 0x319c
+Landroid/app/Application;->onTerminate()V
+Lcom/secneo/apkwrapper/ApplicationWrapper;->onTrimMemory(I)V [access_flags=public] @ 0x31c8
+Landroid/app/Application;->onTrimMemory(I)V
+Lcom/secneo/apkwrapper/BuildConfig;-><init>()V [access_flags=public constructor] @ 0x3204
+Ljava/lang/Object;-><init>()V
+Lcom/secneo/apkwrapper/DexInstall$V14;-><init>()V [access_flags=private constructor] @ 0x321c
+Lcom/secneo/apkwrapper/DexInstall$V14;->access$200(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=static synthetic] @ 0x3234
+Lcom/secneo/apkwrapper/DexInstall$V14;->install(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=private static] @ 0x324c
+Lcom/secneo/apkwrapper/DexInstall;->access$500(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=static synthetic] @ 0x376c
+Lcom/secneo/apkwrapper/DexInstall$V14;->makeDexElements(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File;)[Ljava/lang/Object; [access_flags=private static] @ 0x3290
+Lcom/secneo/apkwrapper/DexInstall;->access$400(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=static synthetic] @ 0x3750
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+Lcom/secneo/apkwrapper/DexInstall;->access$600(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=static synthetic] @ 0x3784
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/secneo/apkwrapper/DexInstall$V19;-><init>()V [access_flags=private constructor] @ 0x32e4
+Lcom/secneo/apkwrapper/DexInstall$V19;->access$000(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=static synthetic] @ 0x32fc
+Lcom/secneo/apkwrapper/DexInstall$V19;->makeDexElements(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=private static] @ 0x3418
+Lcom/secneo/apkwrapper/DexInstall$V19;->access$100(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=static synthetic] @ 0x3318
+Lcom/secneo/apkwrapper/DexInstall$V19;->install(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=private static] @ 0x3330
+Ljava/util/Iterator;->hasNext()Z
+Ljava/util/ArrayList;->size()I
+Ljava/util/ArrayList;-><init>()V
+Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Lcom/secneo/apkwrapper/DexInstall$V26;-><init>()V [access_flags=private constructor] @ 0x34d8
+Lcom/secneo/apkwrapper/DexInstall$V26;->install(Ljava/lang/ClassLoader; Ljava/lang/String;)V [access_flags=private static] @ 0x34f0
+Lcom/secneo/apkwrapper/DexInstall;->access$700(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object; Z)V [access_flags=static synthetic] @ 0x37a0
+Lcom/secneo/apkwrapper/Helper;->makeInMemoryDexElements(Ljava/lang/Object; Ljava/util/List; Ljava/lang/String;)[Ljava/lang/Object; [access_flags=public static native] @ 0x0
+Ljava/io/IOException;->printStackTrace(Ljava/io/PrintStream;)V
+Lcom/secneo/apkwrapper/DexInstall$V4;-><init>()V [access_flags=private constructor] @ 0x35d8
+Lcom/secneo/apkwrapper/DexInstall$V4;->access$300(Ljava/lang/ClassLoader; Ljava/util/List;)V [access_flags=static synthetic] @ 0x35f0
+Lcom/secneo/apkwrapper/DexInstall$V4;->install(Ljava/lang/ClassLoader; Ljava/util/List;)V [access_flags=private static] @ 0x3608
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/util/zip/ZipFile;-><init>(Ljava/io/File;)V
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Ljava/util/ListIterator;->next()Ljava/lang/Object;
+Ljava/util/ListIterator;->previousIndex()I
+Ljava/util/List;->size()I
+Ldalvik/system/DexFile;->loadDex(Ljava/lang/String; Ljava/lang/String; I)Ldalvik/system/DexFile;
+Ljava/util/List;->listIterator()Ljava/util/ListIterator;
+Ljava/util/ListIterator;->hasNext()Z
+Lcom/secneo/apkwrapper/DexInstall;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=private static] @ 0x385c
+Lcom/secneo/apkwrapper/DexInstall;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=private static] @ 0x37b8
+Lcom/secneo/apkwrapper/DexInstall;->findMethod(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0x38fc
+Lcom/secneo/apkwrapper/DexInstall;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object; Z)V [access_flags=private static] @ 0x37d4
+Lcom/secneo/apkwrapper/DexInstall;-><clinit>()V [access_flags=static constructor] @ 0x3718
+Lcom/secneo/apkwrapper/DexInstall;-><init>()V [access_flags=public constructor] @ 0x3738
+Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/reflect/Field;->isAccessible()Z
+Ljava/lang/NoSuchFieldException;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/lang/reflect/Method;->isAccessible()Z
+Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class; I)Ljava/lang/Object;
+Lcom/secneo/apkwrapper/DexInstall;->install(Ljava/lang/ClassLoader; Ljava/lang/String;)V [access_flags=public static] @ 0x39b8
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Lcom/secneo/apkwrapper/DexInstall;->installSecondaryDexes(Ljava/lang/ClassLoader; Ljava/io/File; Ljava/util/List;)V [access_flags=private static] @ 0x3b0c
+Ljava/util/List;->isEmpty()Z
+Lcom/secneo/apkwrapper/DexInstall;->install(Ljava/lang/ClassLoader; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x3a00
+Lcom/secneo/apkwrapper/DexInstall;->install(Ljava/lang/Object;)V [access_flags=public static] @ 0x3a50
+Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+Ldalvik/system/DexFile;->getName()Ljava/lang/String;
+Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Ljava/lang/Object;->wait(J)V
+Ljava/io/File;->delete()Z
+Ljava/lang/ThreadGroup;->enumerate([Ljava/lang/Thread;)I
+Ljava/io/File;->createNewFile()Z
+Ljava/lang/Thread;->getName()Ljava/lang/String;
+Lcom/secneo/apkwrapper/FilesFileObserver;->startWatching()V
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Landroid/os/Process;->myPid()I
+Lcom/secneo/apkwrapper/FilesFileObserver;-><init>(Ljava/lang/String; I)V [access_flags=public constructor] @ 0x3b80
+Ljava/lang/Thread;->getThreadGroup()Ljava/lang/ThreadGroup;
+Lcom/secneo/apkwrapper/FilesFileObserver;-><clinit>()V [access_flags=static constructor] @ 0x3b58
+Landroid/os/FileObserver;-><init>(Ljava/lang/String; I)V
+Lcom/secneo/apkwrapper/FilesFileObserver;->onEvent(I Ljava/lang/String;)V [access_flags=public] @ 0x3da4
+Ljava/lang/Thread;->sleep(J)V
+Lcom/secneo/apkwrapper/FilesFileObserver;->stopWatching()V
+Ljava/lang/Object;->notify()V
+Lcom/secneo/apkwrapper/Helper;-><init>()V [access_flags=public constructor] @ 0x3e34
+Lcom/secneo/apkwrapper/Helper;->InvokeObject([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public static varargs] @ 0x3e4c
+Lcom/secneo/apkwrapper/R$attr;-><init>()V [access_flags=public constructor] @ 0x3eb4
+Lcom/secneo/apkwrapper/R$dimen;-><init>()V [access_flags=public constructor] @ 0x3ecc
+Lcom/secneo/apkwrapper/R$drawable;-><init>()V [access_flags=public constructor] @ 0x3ee4
+Lcom/secneo/apkwrapper/R$id;-><init>()V [access_flags=public constructor] @ 0x3efc
+Lcom/secneo/apkwrapper/R$layout;-><init>()V [access_flags=public constructor] @ 0x3f14
+Lcom/secneo/apkwrapper/R$menu;-><init>()V [access_flags=public constructor] @ 0x3f2c
+Lcom/secneo/apkwrapper/R$string;-><init>()V [access_flags=public constructor] @ 0x3f44
+Lcom/secneo/apkwrapper/R$style;-><init>()V [access_flags=public constructor] @ 0x3f5c
+Lcom/secneo/apkwrapper/R;-><init>()V [access_flags=public constructor] @ 0x3f74
+Lcom/secneo/apkwrapper/SecPathClassLoader;-><init>(Ljava/lang/String; Ldalvik/system/PathClassLoader;)V [access_flags=public constructor] @ 0x3f8c
+Ldalvik/system/PathClassLoader;->getParent()Ljava/lang/ClassLoader;
+Ldalvik/system/PathClassLoader;-><init>(Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Lcom/secneo/apkwrapper/SecPathClassLoader;->findClass(Ljava/lang/String;)Ljava/lang/Class; [access_flags=public] @ 0x3fb0
+Ldalvik/system/PathClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Ldalvik/system/PathClassLoader;->findClass(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/Class;->getName()Ljava/lang/String;

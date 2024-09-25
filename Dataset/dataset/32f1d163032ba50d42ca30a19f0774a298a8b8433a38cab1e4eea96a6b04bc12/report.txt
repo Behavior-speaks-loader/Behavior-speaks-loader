@@ -1,0 +1,27 @@
+32f1d163032ba50d42ca30a19f0774a298a8b8433a38cab1e4eea96a6b04bc12:['File']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.INTERNET
+com.android.vending.CHECK_LICENSE
+com.ratrodstudio.snowparty.permission.C2D_MESSAGE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+com.android.vending.BILLING
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/32f1d163032ba50d42ca30a19f0774a298a8b8433a38cab1e4eea96a6b04bc12/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+com.google.android.c2dm.intent.REGISTRATION
+com.ratrodstudio.snowparty
+------------------------------
+Function call graph:
+gml path: ./res/32f1d163032ba50d42ca30a19f0774a298a8b8433a38cab1e4eea96a6b04bc12/32f1d163032ba50d42ca30a19f0774a298a8b8433a38cab1e4eea96a6b04bc12.gml

@@ -1,0 +1,26 @@
+6286bfd65ca9f404527f988933643a134b3cd838b57653778e569b5756427f8c:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+com.fluik.PlumberCrack.permission.C2D_MESSAGE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/6286bfd65ca9f404527f988933643a134b3cd838b57653778e569b5756427f8c/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+com.google.android.c2dm.intent.REGISTRATION
+com.fluik.PlumberCrack
+------------------------------
+Function call graph:
+gml path: ./res/6286bfd65ca9f404527f988933643a134b3cd838b57653778e569b5756427f8c/6286bfd65ca9f404527f988933643a134b3cd838b57653778e569b5756427f8c.gml

@@ -1,0 +1,21 @@
+10717461af354da4e8ca66ed9442a6c0f94567088f3ded068c4f8b7639a2a763:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/10717461af354da4e8ca66ed9442a6c0f94567088f3ded068c4f8b7639a2a763/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.action.QUICKBOOT_POWERON
+android.intent.category.LAUNCHER
+android.intent.category.LEANBACK_LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/10717461af354da4e8ca66ed9442a6c0f94567088f3ded068c4f8b7639a2a763/10717461af354da4e8ca66ed9442a6c0f94567088f3ded068c4f8b7639a2a763.gml

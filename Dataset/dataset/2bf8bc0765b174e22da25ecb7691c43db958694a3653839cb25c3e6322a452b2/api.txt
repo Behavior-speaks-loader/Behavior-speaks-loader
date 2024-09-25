@@ -1,0 +1,1275 @@
+Lcom/curvefish/apps/appmanager/About;-><init>()V [access_flags=public constructor] @ 0x9e70
+Landroid/app/Activity;-><init>()V
+Lcom/curvefish/apps/appmanager/About;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x9e88
+Lcom/curvefish/apps/appmanager/About;->finish()V
+Lcom/curvefish/apps/appmanager/About;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x9ea0
+Lcom/curvefish/apps/appmanager/About;->findViewById(I)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/About;->setContentView(I)V
+Lcom/curvefish/apps/appmanager/About;->getPackageName()Ljava/lang/String;
+Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/curvefish/apps/appmanager/About;->getString(I)Ljava/lang/String;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Landroid/widget/LinearLayout;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+Lcom/curvefish/apps/appmanager/About;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/curvefish/apps/appmanager/AdapterData$sortOrder;-><init>(Lcom/curvefish/apps/appmanager/AdapterData; Ljava/lang/Boolean; I)V [access_flags=public constructor] @ 0x9f60
+Ljava/lang/Object;-><init>()V
+Ljava/lang/Boolean;->booleanValue()Z
+Lcom/curvefish/apps/appmanager/AdapterData$sortOrder;->reverseOrder()V [access_flags=public] @ 0x9f8c
+Lcom/curvefish/apps/appmanager/AdapterData;-><clinit>()V [access_flags=static constructor] @ 0x9fd0
+Ljava/lang/String;->toString()Ljava/lang/String;
+Ljava/lang/Class;->getSimpleName()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/AdapterData;-><init>(Landroid/content/Context;)V [access_flags=constructor] @ 0x9ffc
+Ljava/util/HashMap;-><init>()V
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Lcom/curvefish/apps/appmanager/AdapterData;->addMappingHelper(Ljava/util/Map; Lcom/curvefish/apps/appmanager/EntryInfo; Ljava/lang/String;)V [access_flags=private] @ 0xa0ac
+Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+Ljava/util/ArrayList;-><init>()V
+Ljava/util/List;->add(Ljava/lang/Object;)Z
+Lcom/curvefish/apps/appmanager/AdapterData;->isApp(Ljava/lang/String;)Z [access_flags=public static] @ 0xa0ec
+Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+Ljava/util/List;->get(I)Ljava/lang/Object;
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent; I)Ljava/util/List;
+Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
+Ljava/util/List;->size()I
+Lcom/curvefish/apps/appmanager/AdapterData;->p(Ljava/lang/String;)V [access_flags=public static] @ 0xa160
+Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/curvefish/apps/appmanager/AdapterData;->removeFromList(Ljava/util/HashMap; Ljava/lang/String; Ljava/lang/String; I)V [access_flags=private] @ 0xa184
+Ljava/util/Iterator;->hasNext()Z
+Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/ArrayList;->size()I
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Ljava/util/HashMap;->entrySet()Ljava/util/Set;
+Ljava/util/List;->remove(I)Ljava/lang/Object;
+Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/AdapterData;->addToList(Ljava/lang/String;)V [access_flags=public] @ 0xa240
+Ljava/lang/CharSequence;->toString()Ljava/lang/String;
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Landroid/content/pm/PackageManager;->getApplicationLabel(Landroid/content/pm/ApplicationInfo;)Ljava/lang/CharSequence;
+Ljava/lang/String;->toUpperCase()Ljava/lang/String;
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/io/File;->lastModified()J
+Lcom/curvefish/apps/appmanager/Utilities;->convertDateShort(J)Ljava/lang/String; [access_flags=public static] @ 0x18778
+Lcom/curvefish/apps/appmanager/EntryInfo;-><init>()V [access_flags=public constructor] @ 0x11c20
+Ljava/lang/String;->trim()Ljava/lang/String;
+Landroid/os/Bundle;->containsKey(Ljava/lang/String;)Z
+Lcom/curvefish/apps/appmanager/Utilities;->convertToHumanSize(J)Ljava/lang/String; [access_flags=public static] @ 0x187c8
+Ljava/io/File;->length()J
+Lcom/curvefish/apps/appmanager/AdapterData;->clear()V [access_flags=public] @ 0xa430
+Ljava/util/HashMap;->clear()V
+Lcom/curvefish/apps/appmanager/AdapterData;->getCurrentHashMap()Ljava/util/HashMap; [access_flags=public] @ 0xa460
+Lcom/curvefish/apps/appmanager/AdapterData;->getHashMap(I)Ljava/util/HashMap; [access_flags=public] @ 0xa4d8
+Lcom/curvefish/apps/appmanager/AdapterData;->getSize()I [access_flags=public] @ 0xa51c
+Ljava/util/HashMap;->values()Ljava/util/Collection;
+Ljava/util/HashMap;->isEmpty()Z
+Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+Lcom/curvefish/apps/appmanager/AdapterData;->reverseOrder(I)V [access_flags=public] @ 0xa588
+Lcom/curvefish/apps/appmanager/AdapterData;->updateAll(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0xa628
+Lcom/curvefish/apps/appmanager/AdapterData;->getCurrentSortOrder()I [access_flags=public] @ 0xa480
+Lcom/curvefish/apps/appmanager/AdapterData;->setCurrentSortOrder(I)V [access_flags=public] @ 0xa5d8
+Lcom/curvefish/apps/appmanager/ApkData;-><init>()V [access_flags=public constructor] @ 0xa6c0
+Lcom/curvefish/apps/appmanager/AppControl$1;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xa6e8
+Lcom/curvefish/apps/appmanager/AppControl$1;->onSharedPreferenceChanged(Landroid/content/SharedPreferences; Ljava/lang/String;)V [access_flags=public] @ 0xa704
+Lcom/curvefish/apps/appmanager/AppControl;->access$1(Lcom/curvefish/apps/appmanager/AppControl;)Landroid/widget/ExpandableListView; [access_flags=static synthetic] @ 0xc568
+Landroid/widget/ExpandableListView;->invalidateViews()V
+Lcom/curvefish/apps/appmanager/AppControl;->p(Ljava/lang/String;)V [access_flags=public static] @ 0xd000
+Lcom/curvefish/apps/appmanager/AppControl;->access$2(Lcom/curvefish/apps/appmanager/AppControl;)I [access_flags=static synthetic] @ 0xc670
+Landroid/widget/ExpandableListView;->getExpandableListAdapter()Landroid/widget/ExpandableListAdapter;
+Lcom/curvefish/apps/appmanager/Utilities;->showInNotification(Landroid/content/Context; I)V [access_flags=static] @ 0x18f54
+Lcom/curvefish/apps/appmanager/AppControl;->getApplicationContext()Landroid/content/Context;
+Lcom/curvefish/apps/appmanager/AppControl;->access$3(Lcom/curvefish/apps/appmanager/AppControl; Ljava/lang/String;)V [access_flags=static synthetic] @ 0xc778
+Lcom/curvefish/apps/appmanager/AppControl;->access$4(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=static synthetic] @ 0xc880
+Lcom/curvefish/apps/appmanager/AppControl;->access$0(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=static synthetic] @ 0xc550
+Lcom/curvefish/apps/appmanager/AppControl$2;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xa7e8
+Lcom/curvefish/apps/appmanager/AppControl$2;->onClick(Landroid/view/View;)V [access_flags=public] @ 0xa804
+Lcom/curvefish/apps/appmanager/AppControl;->access$8(Lcom/curvefish/apps/appmanager/AppControl; Lcom/curvefish/apps/appmanager/GroupAdapter; Ljava/util/Map; I)V [access_flags=static synthetic] @ 0xc9d4
+Landroid/content/Intent;-><init>()V
+Lcom/curvefish/apps/appmanager/AppControl;->access$13(Lcom/curvefish/apps/appmanager/AppControl;)Lcom/curvefish/apps/appmanager/AdapterData; [access_flags=static synthetic] @ 0xc5c8
+Lcom/curvefish/apps/appmanager/AppControl;->access$10(Lcom/curvefish/apps/appmanager/AppControl;)Landroid/widget/ImageButton; [access_flags=static synthetic] @ 0xc580
+Landroid/widget/ImageButton;->setImageResource(I)V
+Lcom/curvefish/apps/appmanager/AppControl;->access$9(Lcom/curvefish/apps/appmanager/AppControl; I)V [access_flags=static synthetic] @ 0xc9ec
+Lcom/curvefish/apps/appmanager/AppControl;->access$5(Lcom/curvefish/apps/appmanager/AppControl;)Z [access_flags=static synthetic] @ 0xc98c
+Lcom/curvefish/apps/appmanager/AppControl;->access$15(Lcom/curvefish/apps/appmanager/AppControl; Z)V [access_flags=static synthetic] @ 0xc5f8
+Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+Lcom/curvefish/apps/appmanager/AppControl;->access$14(Lcom/curvefish/apps/appmanager/AppControl; I)V [access_flags=static synthetic] @ 0xc5e0
+Lcom/curvefish/apps/appmanager/AppControl;->access$7(Lcom/curvefish/apps/appmanager/AppControl;)Lcom/curvefish/apps/appmanager/AdapterData; [access_flags=static synthetic] @ 0xc9bc
+Landroid/widget/Button;->setBackgroundResource(I)V
+Landroid/content/Intent;->setClass(Landroid/content/Context; Ljava/lang/Class;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/AppControl;->startActivity(Landroid/content/Intent;)V
+Lcom/curvefish/apps/appmanager/AppControl;->access$17(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=static synthetic] @ 0xc628
+Lcom/curvefish/apps/appmanager/AppControl;->access$12(Lcom/curvefish/apps/appmanager/AppControl;)Landroid/widget/Button; [access_flags=static synthetic] @ 0xc5b0
+Lcom/curvefish/apps/appmanager/AppControl;->access$6(Lcom/curvefish/apps/appmanager/AppControl; Z)V [access_flags=static synthetic] @ 0xc9a4
+Landroid/view/View;->getId()I
+Lcom/curvefish/apps/appmanager/AppControl;->access$16(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=static synthetic] @ 0xc610
+Lcom/curvefish/apps/appmanager/AppControl;->access$11(Lcom/curvefish/apps/appmanager/AppControl;)Landroid/widget/Button; [access_flags=static synthetic] @ 0xc598
+Lcom/curvefish/apps/appmanager/AppControl$3;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xae0c
+Landroid/content/BroadcastReceiver;-><init>()V
+Lcom/curvefish/apps/appmanager/AppControl$3;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xae28
+Landroid/content/Intent;->getAction()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/AppControl$4;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xae70
+Lcom/curvefish/apps/appmanager/AppControl$4;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xae8c
+Landroid/net/Uri;->getEncodedSchemeSpecificPart()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/GroupAdapter;->updateData(I)V [access_flags=public] @ 0x12b24
+Landroid/content/Intent;->getData()Landroid/net/Uri;
+Lcom/curvefish/apps/appmanager/Utilities;->setNewAppIsInstalled(Landroid/content/Context;)V [access_flags=public static] @ 0x18f04
+Lcom/curvefish/apps/appmanager/AppControl;->access$18(Lcom/curvefish/apps/appmanager/AppControl; Z)V [access_flags=static synthetic] @ 0xc640
+Lcom/curvefish/apps/appmanager/AppControl$5;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xb030
+Lcom/curvefish/apps/appmanager/AppControl$5;->onFocusChange(Landroid/view/View; Z)V [access_flags=public] @ 0xb04c
+Lcom/curvefish/apps/appmanager/AppControl;->access$20(Lcom/curvefish/apps/appmanager/AppControl;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0xc688
+Lcom/curvefish/apps/appmanager/AppControl;->access$19(Lcom/curvefish/apps/appmanager/AppControl;)Z [access_flags=static synthetic] @ 0xc658
+Landroid/view/View;->getTag()Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/AppControl$6$1;-><init>(Lcom/curvefish/apps/appmanager/AppControl$6; Lcom/curvefish/apps/appmanager/EntryInfo;)V [access_flags=constructor] @ 0xb0c0
+Lcom/curvefish/apps/appmanager/AppControl$6$1;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0xb0e0
+Lcom/curvefish/apps/appmanager/Utilities;->launchApp(Landroid/content/Context; Lcom/curvefish/apps/appmanager/EntryInfo;)V [access_flags=static] @ 0x18e04
+Lcom/curvefish/apps/appmanager/AppControl$6;->access$0(Lcom/curvefish/apps/appmanager/AppControl$6;)Lcom/curvefish/apps/appmanager/AppControl; [access_flags=static synthetic] @ 0xb778
+Lcom/curvefish/apps/appmanager/AppControl$6$2;-><init>(Lcom/curvefish/apps/appmanager/AppControl$6; Ljava/lang/String;)V [access_flags=constructor] @ 0xb10c
+Lcom/curvefish/apps/appmanager/AppControl$6$2;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0xb12c
+Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+Lcom/curvefish/apps/appmanager/AppControl;->getString(I)Ljava/lang/String;
+Landroid/widget/Toast;->show()V
+Landroid/widget/Toast;->makeText(Landroid/content/Context; I I)Landroid/widget/Toast;
+Lcom/curvefish/apps/appmanager/AppControl$6$3$1;-><init>(Lcom/curvefish/apps/appmanager/AppControl$6$3; Ljava/lang/String;)V [access_flags=constructor] @ 0xb1e0
+Lcom/curvefish/apps/appmanager/AppControl$6$3$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xb200
+Lcom/curvefish/apps/appmanager/AppControl;->access$21(Lcom/curvefish/apps/appmanager/AppControl;)Landroid/content/pm/PackageManager; [access_flags=static synthetic] @ 0xc6a0
+Lcom/curvefish/apps/appmanager/AppControl$6$3;->access$0(Lcom/curvefish/apps/appmanager/AppControl$6$3;)Lcom/curvefish/apps/appmanager/AppControl$6; [access_flags=static synthetic] @ 0xb2a8
+Lcom/curvefish/apps/appmanager/Utilities;->backupPackage(Landroid/content/pm/PackageManager; Ljava/lang/String; Z)I [access_flags=public static] @ 0x186d0
+Lcom/curvefish/apps/appmanager/AppControl;->access$22(Lcom/curvefish/apps/appmanager/AppControl; I)V [access_flags=static synthetic] @ 0xc6b8
+Lcom/curvefish/apps/appmanager/AppControl$6$3;-><init>(Lcom/curvefish/apps/appmanager/AppControl$6; Ljava/lang/String;)V [access_flags=constructor] @ 0xb288
+Lcom/curvefish/apps/appmanager/AppControl$6$3;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0xb2c0
+Landroid/app/AlertDialog$Builder;->setPositiveButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+Landroid/app/AlertDialog$Builder;->setNegativeButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
+Landroid/app/AlertDialog;->show()V
+Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
+Lcom/curvefish/apps/appmanager/AppControl$6$4;-><init>(Lcom/curvefish/apps/appmanager/AppControl$6; Lcom/curvefish/apps/appmanager/EntryInfo;)V [access_flags=constructor] @ 0xb3cc
+Lcom/curvefish/apps/appmanager/AppControl$6$4;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0xb3ec
+Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+Lcom/curvefish/apps/appmanager/AppControl;->access$23(Lcom/curvefish/apps/appmanager/AppControl; Lcom/curvefish/apps/appmanager/EntryInfo;)V [access_flags=static synthetic] @ 0xc6d0
+Lcom/curvefish/apps/appmanager/AppControl;->startActivityForResult(Landroid/content/Intent; I)V
+Lcom/curvefish/apps/appmanager/AppControl$6$5;-><init>(Lcom/curvefish/apps/appmanager/AppControl$6; Lcom/curvefish/apps/appmanager/EntryInfo;)V [access_flags=constructor] @ 0xb448
+Lcom/curvefish/apps/appmanager/AppControl$6$5;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0xb468
+Ljava/io/File;->delete()Z
+Ljava/lang/String;->replace(Ljava/lang/CharSequence; Ljava/lang/CharSequence;)Ljava/lang/String;
+Landroid/content/Intent;->createChooser(Landroid/content/Intent; Ljava/lang/CharSequence;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/Utilities;->ensureCache(Ljava/lang/String;)Ljava/io/File; [access_flags=public static] @ 0x18c74
+Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->exists()Z
+Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/Utilities;->copy(Ljava/io/File; Ljava/io/File;)V [access_flags=public static] @ 0x18880
+Ljava/io/IOException;->printStackTrace()V
+Lcom/curvefish/apps/appmanager/AppControl;->access$24(Lcom/curvefish/apps/appmanager/AppControl;)Ljava/lang/String; [access_flags=static synthetic] @ 0xc6e8
+Landroid/content/Intent;->putExtra(Ljava/lang/String; [Ljava/lang/String;)Landroid/content/Intent;
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+Lcom/curvefish/apps/appmanager/AppControl$6;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xb75c
+Lcom/curvefish/apps/appmanager/AppControl$6;->onCreateContextMenu(Landroid/view/ContextMenu; Landroid/view/View; Landroid/view/ContextMenu$ContextMenuInfo;)V [access_flags=public] @ 0xb790
+Landroid/view/ContextMenu;->add(I)Landroid/view/MenuItem;
+Landroid/view/ContextMenu;->setHeaderTitle(Ljava/lang/CharSequence;)Landroid/view/ContextMenu;
+Landroid/view/MenuItem;->setOnMenuItemClickListener(Landroid/view/MenuItem$OnMenuItemClickListener;)Landroid/view/MenuItem;
+Landroid/view/MenuItem;->setIntent(Landroid/content/Intent;)Landroid/view/MenuItem;
+Ljava/lang/String;->length()I
+Landroid/content/Intent;->setClassName(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/AppControl$7;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xb904
+Lcom/curvefish/apps/appmanager/AppControl$8;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xb934
+Lcom/curvefish/apps/appmanager/AppControl$8;->onTouch(Landroid/view/View; Landroid/view/MotionEvent;)Z [access_flags=public] @ 0xb950
+Lcom/curvefish/apps/appmanager/AppControl;->access$48(Lcom/curvefish/apps/appmanager/AppControl;)Z [access_flags=static synthetic] @ 0xc95c
+Lcom/curvefish/apps/appmanager/AppControl;->access$49(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=static synthetic] @ 0xc974
+Lcom/curvefish/apps/appmanager/AppControl$9;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=constructor] @ 0xb980
+Lcom/curvefish/apps/appmanager/AppControl$9;->onItemSelected(Landroid/widget/AdapterView; Landroid/view/View; I J)V [access_flags=public] @ 0xb99c
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;-><init>(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=private constructor] @ 0xb9dc
+Landroid/os/AsyncTask;-><init>()V
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;-><init>(Lcom/curvefish/apps/appmanager/AppControl; Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;)V [access_flags=synthetic constructor] @ 0xb9f8
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->loadHashMap()V [access_flags=private] @ 0xba10
+Lcom/curvefish/apps/appmanager/AppControl;->access$28(Lcom/curvefish/apps/appmanager/AppControl;)Z [access_flags=static synthetic] @ 0xc748
+Lcom/curvefish/apps/appmanager/Utilities;->isSystemApp(Landroid/content/pm/ApplicationInfo;)Z [access_flags=public static] @ 0x18de0
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/curvefish/apps/appmanager/Utilities;->createIconThumbnail(Landroid/graphics/drawable/Drawable; Landroid/content/Context;)Landroid/graphics/drawable/Drawable; [access_flags=static] @ 0x18aa4
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->publishProgress([Ljava/lang/Object;)V
+Lcom/curvefish/apps/appmanager/AppControl;->access$42(Lcom/curvefish/apps/appmanager/AppControl;)Ljava/util/List; [access_flags=static synthetic] @ 0xc8c8
+Lcom/curvefish/apps/appmanager/AppControl;->access$31(Lcom/curvefish/apps/appmanager/AppControl;)Lcom/curvefish/apps/appmanager/EntryContainer; [access_flags=static synthetic] @ 0xc7a8
+Lcom/curvefish/apps/appmanager/AppControl;->access$44(Lcom/curvefish/apps/appmanager/AppControl; Lcom/curvefish/apps/appmanager/EntryInfo;)V [access_flags=static synthetic] @ 0xc8f8
+Landroid/content/pm/PackageManager;->getLaunchIntentForPackage(Ljava/lang/String;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/AppControl;->access$46(Lcom/curvefish/apps/appmanager/AppControl;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0xc92c
+Landroid/content/pm/PackageManager;->getApplicationIcon(Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+Lcom/curvefish/apps/appmanager/AppControl;->access$43(Lcom/curvefish/apps/appmanager/AppControl;)Z [access_flags=static synthetic] @ 0xc8e0
+Ljava/util/ArrayList;->contains(Ljava/lang/Object;)Z
+Landroid/content/pm/PackageManager;->getApplicationIcon(Landroid/content/pm/ApplicationInfo;)Landroid/graphics/drawable/Drawable;
+Lcom/curvefish/apps/appmanager/AppControl;->access$45(Lcom/curvefish/apps/appmanager/AppControl; Landroid/content/pm/PackageInfo;)Lcom/curvefish/apps/appmanager/EntryInfo; [access_flags=static synthetic] @ 0xc910
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->doInBackground([Ljava/lang/Void;)Lcom/curvefish/apps/appmanager/GroupAdapter; [access_flags=public varargs] @ 0xbe8c
+Lcom/curvefish/apps/appmanager/AppControl;->access$37(Lcom/curvefish/apps/appmanager/AppControl;)Landroid/content/SharedPreferences; [access_flags=static synthetic] @ 0xc838
+Landroid/content/SharedPreferences;->getInt(Ljava/lang/String; I)I
+Lcom/curvefish/apps/appmanager/AppControl;->access$41(Lcom/curvefish/apps/appmanager/AppControl;)I [access_flags=static synthetic] @ 0xc8b0
+Lcom/curvefish/apps/appmanager/AppControl;->access$27(Lcom/curvefish/apps/appmanager/AppControl; J)V [access_flags=static synthetic] @ 0xc730
+Ljava/lang/System;->currentTimeMillis()J
+Ljava/util/HashMap;->size()I
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Lcom/curvefish/apps/appmanager/AppControl;->access$39(Lcom/curvefish/apps/appmanager/AppControl; I)V [access_flags=static synthetic] @ 0xc868
+Lcom/curvefish/apps/appmanager/AppControl;->access$34(Lcom/curvefish/apps/appmanager/AppControl;)J [access_flags=static synthetic] @ 0xc7f0
+Lcom/curvefish/apps/appmanager/AppControl;->access$36(Lcom/curvefish/apps/appmanager/AppControl;)I [access_flags=static synthetic] @ 0xc820
+Lcom/curvefish/apps/appmanager/AppControl;->access$30(Lcom/curvefish/apps/appmanager/AppControl;)J [access_flags=static synthetic] @ 0xc790
+Lcom/curvefish/apps/appmanager/AppControl;->access$32(Lcom/curvefish/apps/appmanager/AppControl; Ljava/util/List;)V [access_flags=static synthetic] @ 0xc7c0
+Landroid/content/pm/PackageManager;->getInstalledPackages(I)Ljava/util/List;
+Lcom/curvefish/apps/appmanager/AppControl;->access$26(Lcom/curvefish/apps/appmanager/AppControl; J)V [access_flags=static synthetic] @ 0xc718
+Lcom/curvefish/apps/appmanager/GroupAdapter;-><init>(Landroid/content/Context; Ljava/util/Map; I I Landroid/view/View$OnFocusChangeListener; Landroid/view/View$OnCreateContextMenuListener;)V [access_flags=public constructor] @ 0x124ec
+Lcom/curvefish/apps/appmanager/AppControl;->access$38(Lcom/curvefish/apps/appmanager/AppControl; I)V [access_flags=static synthetic] @ 0xc850
+Lcom/curvefish/apps/appmanager/AppControl;->access$35(Lcom/curvefish/apps/appmanager/AppControl;)I [access_flags=static synthetic] @ 0xc808
+Lcom/curvefish/apps/appmanager/AppControl;->access$40(Lcom/curvefish/apps/appmanager/AppControl;)I [access_flags=static synthetic] @ 0xc898
+Lcom/curvefish/apps/appmanager/AppControl;->access$29(Lcom/curvefish/apps/appmanager/AppControl; Ljava/lang/String;)V [access_flags=static synthetic] @ 0xc760
+Lcom/curvefish/apps/appmanager/AppControl;->access$33(Lcom/curvefish/apps/appmanager/AppControl;)V [access_flags=static synthetic] @ 0xc7d8
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public bridge varargs synthetic] @ 0xc21c
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->onPostExecute(Lcom/curvefish/apps/appmanager/GroupAdapter;)V [access_flags=protected] @ 0xc23c
+Landroid/widget/ExpandableListView;->setAdapter(Landroid/widget/ExpandableListAdapter;)V
+Lcom/curvefish/apps/appmanager/AppControl;->access$25(Lcom/curvefish/apps/appmanager/AppControl;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0xc700
+Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+Landroid/os/AsyncTask;->onPostExecute(Ljava/lang/Object;)V
+Lcom/curvefish/apps/appmanager/AppControl;->access$47(Lcom/curvefish/apps/appmanager/AppControl; Lcom/curvefish/apps/appmanager/GroupAdapter; Landroid/content/res/Configuration;)V [access_flags=static synthetic] @ 0xc944
+Lcom/curvefish/apps/appmanager/GroupAdapter;->notifyDataSetInvalidated()V
+Landroid/widget/TextView;->setVisibility(I)V
+Lcom/curvefish/apps/appmanager/AppControl;->getResources()Landroid/content/res/Resources;
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->onPostExecute(Ljava/lang/Object;)V [access_flags=protected bridge synthetic] @ 0xc3a8
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->onPreExecute()V [access_flags=protected] @ 0xc3c4
+Landroid/widget/ExpandableListView;->invalidate()V
+Landroid/os/AsyncTask;->onPreExecute()V
+Landroid/widget/TextView;->setText(I)V
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->onProgressUpdate([Ljava/lang/Object;)V [access_flags=protected bridge varargs synthetic] @ 0xc440
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->onProgressUpdate([Ljava/lang/String;)V [access_flags=protected varargs] @ 0xc45c
+Lcom/curvefish/apps/appmanager/AppControl$loadAppsFromSerial;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lcom/curvefish/apps/appmanager/AppControl;->loadSettings()V [access_flags=private] @ 0xce90
+Lcom/curvefish/apps/appmanager/AppControl;->updateFreeSpaceInfoAndInstalledCount(Ljava/lang/String;)V [access_flags=private] @ 0xd6a8
+Lcom/curvefish/apps/appmanager/AppControl;->updateStatusPanel()V [access_flags=private] @ 0xdbac
+Lcom/curvefish/apps/appmanager/AppControl;->setNewData(Lcom/curvefish/apps/appmanager/GroupAdapter; Ljava/util/Map; I)V [access_flags=private] @ 0xd10c
+Lcom/curvefish/apps/appmanager/AppControl;->showBy(I)V [access_flags=private] @ 0xd2b8
+Lcom/curvefish/apps/appmanager/AppControl;->sortByButtons(I)V [access_flags=private] @ 0xd3e4
+Lcom/curvefish/apps/appmanager/AppControl;->expandGroup(Z)V [access_flags=private] @ 0xcc04
+Lcom/curvefish/apps/appmanager/AppControl;->switchToSelect()V [access_flags=private] @ 0xd46c
+Lcom/curvefish/apps/appmanager/AppControl;->switchToBackup()V [access_flags=private] @ 0xd434
+Lcom/curvefish/apps/appmanager/AppControl;->showBackupToast(I)V [access_flags=private] @ 0xd178
+Lcom/curvefish/apps/appmanager/AppControl;->showMenubar()V [access_flags=private] @ 0xd300
+Lcom/curvefish/apps/appmanager/AppControl;->addEntryToAdapter(Lcom/curvefish/apps/appmanager/EntryInfo;)V [access_flags=private] @ 0xca04
+Lcom/curvefish/apps/appmanager/AppControl;->createEntry(Landroid/content/pm/PackageInfo;)Lcom/curvefish/apps/appmanager/EntryInfo; [access_flags=private] @ 0xcab8
+Lcom/curvefish/apps/appmanager/AppControl;->loadSerialApps(Ljava/lang/String;)V [access_flags=private] @ 0xcd3c
+Lcom/curvefish/apps/appmanager/AppControl;->loadWidgetsList()V [access_flags=private] @ 0xcf94
+Lcom/curvefish/apps/appmanager/AppControl;->updateColumns(Lcom/curvefish/apps/appmanager/GroupAdapter; Landroid/content/res/Configuration;)V [access_flags=private] @ 0xd67c
+Lcom/curvefish/apps/appmanager/AppControl;-><clinit>()V [access_flags=static constructor] @ 0xc488
+Lcom/curvefish/apps/appmanager/AppControl;-><init>()V [access_flags=public constructor] @ 0xc4b4
+Landroid/content/SharedPreferences;->getBoolean(Ljava/lang/String; Z)Z
+Ljava/lang/Integer;->intValue()I
+Landroid/content/SharedPreferences;->getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/Integer;->valueOf(Ljava/lang/String;)Ljava/lang/Integer;
+Lcom/curvefish/apps/appmanager/AppControl;->sortBy(Lcom/curvefish/apps/appmanager/AdapterData; I)V [access_flags=private] @ 0xd370
+Landroid/widget/ExpandableListAdapter;->getGroupCount()I
+Landroid/widget/ExpandableListView;->expandGroup(I)Z
+Landroid/widget/ExpandableListView;->collapseGroup(I)Z
+Landroid/widget/ViewSwitcher;->showPrevious()V
+Landroid/widget/ViewSwitcher;->setOutAnimation(Landroid/view/animation/Animation;)V
+Landroid/widget/ViewSwitcher;->setInAnimation(Landroid/view/animation/Animation;)V
+Landroid/widget/ViewSwitcher;->showNext()V
+Lcom/curvefish/apps/appmanager/AppControl;->showBackupToast(I Ljava/lang/String;)V [access_flags=private] @ 0xd194
+Ljava/io/ObjectInputStream;->readObject()Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/EntryContainer;-><init>()V [access_flags=public constructor] @ 0x11d20
+Landroid/app/Activity;->openFileInput(Ljava/lang/String;)Ljava/io/FileInputStream;
+Ljava/io/ObjectInputStream;-><init>(Ljava/io/InputStream;)V
+Landroid/os/StatFs;->getBlockCount()I
+Landroid/widget/ProgressBar;->setProgress(I)V
+Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+Ljava/io/File;->getPath()Ljava/lang/String;
+Landroid/os/StatFs;->getBlockSize()I
+Landroid/os/StatFs;->getAvailableBlocks()I
+Lcom/curvefish/apps/appmanager/Utilities;->formatSize(J)Ljava/lang/String; [access_flags=public static] @ 0x18cac
+Landroid/widget/FrameLayout;->setVisibility(I)V
+Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+Lcom/curvefish/apps/appmanager/AppControl;->getInstalledPackages()Ljava/lang/String; [access_flags=private] @ 0xcc78
+Landroid/widget/ProgressBar;->setMax(I)V
+Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
+Ljava/util/List;->iterator()Ljava/util/Iterator;
+Ljava/util/ArrayList;->clear()V
+Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+Landroid/content/pm/PackageManager;->queryBroadcastReceivers(Landroid/content/Intent; I)Ljava/util/List;
+Lcom/curvefish/apps/appmanager/AppControl;->addMappingToAdapter(Lcom/curvefish/apps/appmanager/AdapterData; Lcom/curvefish/apps/appmanager/EntryInfo;)V [access_flags=private] @ 0xca7c
+Ljava/io/File;->getName()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/GroupAdapter;->setColumns(I)V [access_flags=public] @ 0x12a9c
+Landroid/widget/FrameLayout;->startAnimation(Landroid/view/animation/Animation;)V
+Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context; I)Landroid/view/animation/Animation;
+Lcom/curvefish/apps/appmanager/GroupAdapter;->setNewData(Ljava/util/Map;)V [access_flags=public] @ 0x12ab8
+Lcom/curvefish/apps/appmanager/GroupAdapter;->notifyDataSetChanged()V
+Lcom/curvefish/apps/appmanager/AppControl;->sortData(Lcom/curvefish/apps/appmanager/GroupAdapter; I)V [access_flags=private] @ 0xd414
+Lcom/curvefish/apps/appmanager/AppControl;->addMappingHelper(Ljava/util/Map; Lcom/curvefish/apps/appmanager/EntryInfo; Ljava/lang/String;)V [access_flags=private] @ 0xca3c
+Lcom/curvefish/apps/appmanager/AppControl;->isPackageContainWidget([Landroid/content/pm/ActivityInfo;)Z [access_flags=private] @ 0xccec
+Lcom/curvefish/apps/appmanager/AppControl;->registerIntentReceivers()V [access_flags=private] @ 0xd024
+Landroid/content/IntentFilter;->addDataScheme(Ljava/lang/String;)V
+Lcom/curvefish/apps/appmanager/AppControl;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
+Landroid/content/IntentFilter;-><init>(Ljava/lang/String;)V
+Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+Lcom/curvefish/apps/appmanager/AppControl;->saveSerialApps(Lcom/curvefish/apps/appmanager/EntryContainer; Ljava/lang/String;)Z [access_flags=private] @ 0xd098
+Ljava/io/ObjectOutputStream;->flush()V
+Ljava/io/ObjectOutputStream;->close()V
+Landroid/app/Activity;->openFileOutput(Ljava/lang/String; I)Ljava/io/FileOutputStream;
+Ljava/io/ObjectOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/io/ObjectOutputStream;->writeObject(Ljava/lang/Object;)V
+Lcom/curvefish/apps/appmanager/AppControl;->setNewInstalledFlag(Z)V [access_flags=private] @ 0xd130
+Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences$Editor;->putBoolean(Ljava/lang/String; Z)Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences$Editor;->commit()Z
+Landroid/widget/Toast;->makeText(Landroid/content/Context; Ljava/lang/CharSequence; I)Landroid/widget/Toast;
+Lcom/curvefish/apps/appmanager/GroupAdapter;->sortGroupNames(I)V [access_flags=public] @ 0x12afc
+Lcom/curvefish/apps/appmanager/AppControl;->updateAndSaveSerial()V [access_flags=private] @ 0xd4a4
+Landroid/content/SharedPreferences;->getLong(Ljava/lang/String; J)J
+Lcom/curvefish/apps/appmanager/AppControl;->onActivityResult(I I Landroid/content/Intent;)V [access_flags=protected] @ 0xdbe4
+Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Intent;->getExtras()Landroid/os/Bundle;
+Landroid/app/Activity;->onActivityResult(I I Landroid/content/Intent;)V
+Lcom/curvefish/apps/appmanager/Utilities;->backupPackage(Landroid/content/pm/PackageManager; Ljava/lang/String; Ljava/lang/String; Z)I [access_flags=public static] @ 0x18538
+Lcom/curvefish/apps/appmanager/AppControl;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0xdc54
+Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lcom/curvefish/apps/appmanager/AppControl;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0xdc8c
+Landroid/content/SharedPreferences;->registerOnSharedPreferenceChangeListener(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V
+Lcom/curvefish/apps/appmanager/AppControl;->findViewById(I)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/AppControl;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/curvefish/apps/appmanager/AppControl;->setContentView(I)V
+Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+Landroid/widget/ExpandableListView;->setItemsCanFocus(Z)V
+Landroid/widget/ExpandableListView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+Landroid/widget/Button;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->registerExceptionHandler(Landroid/content/Context;)V [access_flags=public static] @ 0x116c4
+Landroid/widget/ExpandableListView;->setDivider(Landroid/graphics/drawable/Drawable;)V
+Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
+Landroid/widget/TextView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
+Landroid/widget/ExpandableListView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
+Lcom/curvefish/apps/appmanager/AppControl;->onDestroy()V [access_flags=protected] @ 0xe058
+Landroid/os/AsyncTask;->cancel(Z)Z
+Landroid/app/Activity;->onDestroy()V
+Lcom/curvefish/apps/appmanager/AppControl;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+Landroid/os/AsyncTask;->getStatus()Landroid/os/AsyncTask$Status;
+Lcom/curvefish/apps/appmanager/AppControl;->onKeyDown(I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0xe0c0
+Landroid/app/Activity;->onKeyDown(I Landroid/view/KeyEvent;)Z
+Lcom/curvefish/apps/appmanager/AppControl;->onPause()V [access_flags=protected] @ 0xe110
+Landroid/content/SharedPreferences$Editor;->putInt(Ljava/lang/String; I)Landroid/content/SharedPreferences$Editor;
+Landroid/app/Activity;->onPause()V
+Lcom/curvefish/apps/appmanager/AppControl;->onResume()V [access_flags=protected] @ 0xe1b0
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->showLastException(Landroid/content/Context;)V [access_flags=public static] @ 0x11788
+Landroid/app/Activity;->onResume()V
+Lcom/curvefish/apps/appmanager/AppSettings$1;-><init>(Lcom/curvefish/apps/appmanager/AppSettings;)V [access_flags=constructor] @ 0xe1d0
+Lcom/curvefish/apps/appmanager/AppSettings$1;->onPreferenceClick(Landroid/preference/Preference;)Z [access_flags=public] @ 0xe1ec
+Lcom/curvefish/apps/appmanager/AppSettings;->access$0(Lcom/curvefish/apps/appmanager/AppSettings;)V [access_flags=static synthetic] @ 0xe3e4
+Lcom/curvefish/apps/appmanager/AppSettings$2$1;-><init>(Lcom/curvefish/apps/appmanager/AppSettings$2;)V [access_flags=constructor] @ 0xe20c
+Lcom/curvefish/apps/appmanager/AppSettings$2$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xe228
+Lcom/curvefish/apps/appmanager/AppSettings;->access$1(Lcom/curvefish/apps/appmanager/AppSettings;)Landroid/preference/CheckBoxPreference; [access_flags=static synthetic] @ 0xe3fc
+Lcom/curvefish/apps/appmanager/AppSettings$2;->access$0(Lcom/curvefish/apps/appmanager/AppSettings$2;)Lcom/curvefish/apps/appmanager/AppSettings; [access_flags=static synthetic] @ 0xe30c
+Landroid/preference/CheckBoxPreference;->setChecked(Z)V
+Lcom/curvefish/apps/appmanager/AppSettings$2$2;-><init>(Lcom/curvefish/apps/appmanager/AppSettings$2;)V [access_flags=constructor] @ 0xe258
+Lcom/curvefish/apps/appmanager/AppSettings$2$2;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xe274
+Lcom/curvefish/apps/appmanager/AppSettings$2$3;-><init>(Lcom/curvefish/apps/appmanager/AppSettings$2;)V [access_flags=constructor] @ 0xe2a4
+Lcom/curvefish/apps/appmanager/AppSettings$2$3;->onCancel(Landroid/content/DialogInterface;)V [access_flags=public] @ 0xe2c0
+Lcom/curvefish/apps/appmanager/AppSettings$2;-><init>(Lcom/curvefish/apps/appmanager/AppSettings;)V [access_flags=constructor] @ 0xe2f0
+Lcom/curvefish/apps/appmanager/AppSettings$2;->onPreferenceClick(Landroid/preference/Preference;)Z [access_flags=public] @ 0xe324
+Landroid/preference/CheckBoxPreference;->isChecked()Z
+Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setOnCancelListener(Landroid/content/DialogInterface$OnCancelListener;)Landroid/app/AlertDialog$Builder;
+Lcom/curvefish/apps/appmanager/AppSettings;->showAbout()V [access_flags=private] @ 0xe414
+Lcom/curvefish/apps/appmanager/AppSettings;-><init>()V [access_flags=public constructor] @ 0xe3cc
+Landroid/preference/PreferenceActivity;-><init>()V
+Lcom/curvefish/apps/appmanager/AppSettings;->startActivity(Landroid/content/Intent;)V
+Lcom/curvefish/apps/appmanager/AppSettings;->updateSummary()V [access_flags=private] @ 0xe444
+Landroid/preference/ListPreference;->getEntry()Ljava/lang/CharSequence;
+Landroid/preference/ListPreference;->setSummary(Ljava/lang/CharSequence;)V
+Lcom/curvefish/apps/appmanager/AppSettings;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0xe484
+Landroid/preference/CheckBoxPreference;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+Landroid/preference/PreferenceScreen;->setOnPreferenceClickListener(Landroid/preference/Preference$OnPreferenceClickListener;)V
+Lcom/curvefish/apps/appmanager/AppSettings;->getPreferenceScreen()Landroid/preference/PreferenceScreen;
+Landroid/preference/PreferenceScreen;->findPreference(Ljava/lang/CharSequence;)Landroid/preference/Preference;
+Lcom/curvefish/apps/appmanager/AppSettings;->addPreferencesFromResource(I)V
+Landroid/preference/PreferenceActivity;->onCreate(Landroid/os/Bundle;)V
+Lcom/curvefish/apps/appmanager/AppSettings;->onPause()V [access_flags=protected] @ 0xe544
+Landroid/preference/PreferenceScreen;->getSharedPreferences()Landroid/content/SharedPreferences;
+Landroid/content/SharedPreferences;->unregisterOnSharedPreferenceChangeListener(Landroid/content/SharedPreferences$OnSharedPreferenceChangeListener;)V
+Landroid/preference/PreferenceActivity;->onPause()V
+Lcom/curvefish/apps/appmanager/AppSettings;->onResume()V [access_flags=protected] @ 0xe574
+Landroid/preference/PreferenceActivity;->onResume()V
+Lcom/curvefish/apps/appmanager/AppSettings;->onSharedPreferenceChanged(Landroid/content/SharedPreferences; Ljava/lang/String;)V [access_flags=public] @ 0xe5a4
+Lcom/curvefish/apps/appmanager/BackupManager$1;-><init>(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=constructor] @ 0xe5bc
+Lcom/curvefish/apps/appmanager/BackupManager$1;->onClick(Landroid/view/View;)V [access_flags=public] @ 0xe5d8
+Lcom/curvefish/apps/appmanager/BackupManager;->access$5(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x104f0
+Lcom/curvefish/apps/appmanager/BackupManager;->access$16(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/ViewSwitcher; [access_flags=static synthetic] @ 0x1018c
+Lcom/curvefish/apps/appmanager/BackupManager;->access$10(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x100fc
+Lcom/curvefish/apps/appmanager/BackupManager;->access$15(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x10174
+Lcom/curvefish/apps/appmanager/BackupManager;->access$24(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x10268
+Lcom/curvefish/apps/appmanager/BackupManager;->access$14(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x1015c
+Lcom/curvefish/apps/appmanager/BackupManager;->access$26(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/LinearLayout; [access_flags=static synthetic] @ 0x10298
+Lcom/curvefish/apps/appmanager/BackupManager;->access$25(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0x10280
+Landroid/widget/LinearLayout;->startAnimation(Landroid/view/animation/Animation;)V
+Lcom/curvefish/apps/appmanager/BackupManager;->access$12(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x1012c
+Lcom/curvefish/apps/appmanager/BackupManager;->access$6(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x10508
+Lcom/curvefish/apps/appmanager/BackupManager;->access$4(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x10400
+Lcom/curvefish/apps/appmanager/BackupManager;->access$8(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x10538
+Lcom/curvefish/apps/appmanager/BackupManager;->access$11(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x10114
+Lcom/curvefish/apps/appmanager/BackupManager;->sortList(I)V [access_flags=public] @ 0x10f34
+Lcom/curvefish/apps/appmanager/BackupManager;->access$7(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x10520
+Lcom/curvefish/apps/appmanager/BackupManager;->access$18(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x101bc
+Lcom/curvefish/apps/appmanager/BackupManager;->access$17(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x101a4
+Lcom/curvefish/apps/appmanager/BackupManager;->access$0(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x100cc
+Lcom/curvefish/apps/appmanager/BackupManager;->access$9(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x10550
+Lcom/curvefish/apps/appmanager/BackupManager;->access$1(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x100e4
+Lcom/curvefish/apps/appmanager/BackupManager;->access$20(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x10204
+Lcom/curvefish/apps/appmanager/BackupManager;->access$23(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x1024c
+Lcom/curvefish/apps/appmanager/BackupManager;->access$3(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x102f8
+Lcom/curvefish/apps/appmanager/BackupManager;->access$21(Lcom/curvefish/apps/appmanager/BackupManager;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x1021c
+Lcom/curvefish/apps/appmanager/BackupManager;->access$22(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=static synthetic] @ 0x10234
+Lcom/curvefish/apps/appmanager/BackupManager;->startActivityForResult(Landroid/content/Intent; I)V
+Lcom/curvefish/apps/appmanager/BackupManager;->access$2(Lcom/curvefish/apps/appmanager/BackupManager; Z)V [access_flags=static synthetic] @ 0x101ec
+Lcom/curvefish/apps/appmanager/BackupManager;->access$13(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x10144
+Lcom/curvefish/apps/appmanager/BackupManager;->access$19(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x101d4
+Landroid/widget/LinearLayout;->setVisibility(I)V
+Lcom/curvefish/apps/appmanager/BackupManager$2;-><init>(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=constructor] @ 0xe9f0
+Lcom/curvefish/apps/appmanager/BackupManager$2;->accept(Ljava/io/File;)Z [access_flags=public] @ 0xea0c
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Lcom/curvefish/apps/appmanager/BackupManager$3;-><init>(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=constructor] @ 0xea34
+Lcom/curvefish/apps/appmanager/BackupManager$3;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xea50
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lcom/curvefish/apps/appmanager/BackupManager;->access$27(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0x102b0
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;)V [access_flags=synthetic constructor] @ 0xfabc
+Ljava/lang/System;->gc()V
+Lcom/curvefish/apps/appmanager/BackupManager$4;-><init>(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=constructor] @ 0xeb18
+Lcom/curvefish/apps/appmanager/BackupManager$5$1;-><init>(Lcom/curvefish/apps/appmanager/BackupManager$5; Lcom/curvefish/apps/appmanager/ApkData; Lcom/curvefish/apps/appmanager/BackupManager$ViewHolder;)V [access_flags=constructor] @ 0xeb48
+Lcom/curvefish/apps/appmanager/BackupManager$5$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xeb6c
+Lcom/curvefish/apps/appmanager/BackupManager$5;->access$0(Lcom/curvefish/apps/appmanager/BackupManager$5;)Lcom/curvefish/apps/appmanager/BackupManager; [access_flags=static synthetic] @ 0xec08
+Lcom/curvefish/apps/appmanager/BackupManager;->access$46(Lcom/curvefish/apps/appmanager/BackupManager; I I)V [access_flags=static synthetic] @ 0x104a8
+Lcom/curvefish/apps/appmanager/BackupManager;->access$45(Lcom/curvefish/apps/appmanager/BackupManager;)I [access_flags=static synthetic] @ 0x10490
+Lcom/curvefish/apps/appmanager/BackupManager;->access$44(Lcom/curvefish/apps/appmanager/BackupManager; I)V [access_flags=static synthetic] @ 0x10478
+Lcom/curvefish/apps/appmanager/BackupManager;->access$35(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/content/pm/PackageManager; [access_flags=static synthetic] @ 0x10388
+Lcom/curvefish/apps/appmanager/BackupManager$5;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; Lcom/curvefish/apps/appmanager/ApkData; Lcom/curvefish/apps/appmanager/BackupManager$ViewHolder;)V [access_flags=constructor] @ 0xebe4
+Lcom/curvefish/apps/appmanager/BackupManager$5;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0xec20
+Lcom/curvefish/apps/appmanager/BackupManager$6$1;-><init>(Lcom/curvefish/apps/appmanager/BackupManager$6; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0xece8
+Lcom/curvefish/apps/appmanager/BackupManager$6$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xed08
+Lcom/curvefish/apps/appmanager/BackupManager$6;->access$0(Lcom/curvefish/apps/appmanager/BackupManager$6;)Lcom/curvefish/apps/appmanager/BackupManager; [access_flags=static synthetic] @ 0xedc8
+Lcom/curvefish/apps/appmanager/BackupManager;->access$48(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/content/Context; [access_flags=static synthetic] @ 0x104d8
+Lcom/curvefish/apps/appmanager/BackupManager;->access$47(Lcom/curvefish/apps/appmanager/BackupManager; Ljava/lang/String;)V [access_flags=static synthetic] @ 0x104c0
+Lcom/curvefish/apps/appmanager/BackupManager$6;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0xeda8
+Lcom/curvefish/apps/appmanager/BackupManager$6;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0xede0
+Lcom/curvefish/apps/appmanager/BackupManager$7;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0xee4c
+Lcom/curvefish/apps/appmanager/BackupManager$7;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0xee6c
+Lcom/curvefish/apps/appmanager/BackupManager;->startActivity(Landroid/content/Intent;)V
+Lcom/curvefish/apps/appmanager/BackupManager$BackupResult;-><init>(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=private constructor] @ 0xeec8
+Lcom/curvefish/apps/appmanager/BackupManager$BackupResult;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; Lcom/curvefish/apps/appmanager/BackupManager$BackupResult;)V [access_flags=synthetic constructor] @ 0xef10
+Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter$1;-><init>(Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter;)V [access_flags=constructor] @ 0xef28
+Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter$1;->onCheckedChanged(Landroid/widget/CompoundButton; Z)V [access_flags=public] @ 0xef44
+Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter;->access$0(Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter;)Lcom/curvefish/apps/appmanager/BackupManager; [access_flags=static synthetic] @ 0xefb8
+Landroid/widget/CompoundButton;->getTag()Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; Landroid/content/Context;)V [access_flags=public constructor] @ 0xef90
+Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+Landroid/widget/BaseAdapter;-><init>()V
+Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter;->getCount()I [access_flags=public] @ 0xefd0
+Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter;->getItem(I)Ljava/lang/Object; [access_flags=public] @ 0xeff8
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter;->getView(I Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View; [access_flags=public] @ 0xf028
+Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+Landroid/widget/CheckBox;->setTag(Ljava/lang/Object;)V
+Landroid/view/View;->setTag(Ljava/lang/Object;)V
+Landroid/view/View;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
+Landroid/view/View;->findViewById(I)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/BackupManager$ViewHolder;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; Lcom/curvefish/apps/appmanager/BackupManager$ViewHolder;)V [access_flags=synthetic constructor] @ 0xf35c
+Landroid/widget/CheckBox;->setChecked(Z)V
+Landroid/view/View;->setOnCreateContextMenuListener(Landroid/view/View$OnCreateContextMenuListener;)V
+Landroid/widget/CheckBox;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup;)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/BackupManager$EfficientAdapter;->notifyDataSetChanged()V
+Lcom/curvefish/apps/appmanager/BackupManager$InternalComparator;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; I)V [access_flags=constructor] @ 0xf1ac
+Lcom/curvefish/apps/appmanager/BackupManager$InternalComparator;->compare(Lcom/curvefish/apps/appmanager/ApkData; Lcom/curvefish/apps/appmanager/ApkData;)I [access_flags=public] @ 0xf1cc
+Ljava/lang/String;->compareToIgnoreCase(Ljava/lang/String;)I
+Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+Ljava/lang/Boolean;->compareTo(Ljava/lang/Boolean;)I
+Ljava/lang/Long;->compareTo(Ljava/lang/Long;)I
+Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+Lcom/curvefish/apps/appmanager/BackupManager$InternalComparator;->compare(Ljava/lang/Object; Ljava/lang/Object;)I [access_flags=public bridge synthetic] @ 0xf31c
+Lcom/curvefish/apps/appmanager/BackupManager$ViewHolder;-><init>(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=private constructor] @ 0xf340
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;-><init>(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=private constructor] @ 0xf374
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;-><init>(Lcom/curvefish/apps/appmanager/BackupManager; Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;)V [access_flags=synthetic constructor] @ 0xf390
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->doInBackground([Ljava/lang/Boolean;)Lcom/curvefish/apps/appmanager/BackupManager$BackupResult; [access_flags=protected varargs] @ 0xf3a8
+Lcom/curvefish/apps/appmanager/BackupManager;->p(Ljava/lang/String;)V [access_flags=public static] @ 0x105fc
+Lcom/curvefish/apps/appmanager/BackupManager;->access$34(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x10370
+Lcom/curvefish/apps/appmanager/BackupManager;->access$36(Lcom/curvefish/apps/appmanager/BackupManager;)Ljava/lang/String; [access_flags=static synthetic] @ 0x103a0
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->publishProgress([Ljava/lang/Object;)V
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0xf568
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->onPostExecute(Lcom/curvefish/apps/appmanager/BackupManager$BackupResult;)V [access_flags=protected] @ 0xf588
+Lcom/curvefish/apps/appmanager/BackupManager;->access$31(Lcom/curvefish/apps/appmanager/BackupManager;)Ljava/lang/String; [access_flags=static synthetic] @ 0x10328
+Lcom/curvefish/apps/appmanager/BackupManager;->access$29(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/Button; [access_flags=static synthetic] @ 0x102e0
+Landroid/widget/Button;->setVisibility(I)V
+Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/BackupManager;->getString(I)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/BackupManager;->access$30(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0x10310
+Lcom/curvefish/apps/appmanager/BackupManager;->access$37(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0x103b8
+Lcom/curvefish/apps/appmanager/BackupManager;->access$28(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/Button; [access_flags=static synthetic] @ 0x102c8
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->onPostExecute(Ljava/lang/Object;)V [access_flags=protected bridge synthetic] @ 0xf7d8
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->onPreExecute()V [access_flags=protected] @ 0xf7f4
+Lcom/curvefish/apps/appmanager/BackupManager;->access$33(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0x10358
+Lcom/curvefish/apps/appmanager/BackupManager;->access$32(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/ProgressBar; [access_flags=static synthetic] @ 0x10340
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->onProgressUpdate([Lcom/curvefish/apps/appmanager/BackupManager$BackupResult;)V [access_flags=protected varargs] @ 0xf964
+Landroid/widget/ProgressBar;->getMax()I
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->onProgressUpdate([Ljava/lang/Object;)V [access_flags=protected bridge varargs synthetic] @ 0xfa84
+Lcom/curvefish/apps/appmanager/BackupManager$backupSelectedAppsTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;-><init>(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=private constructor] @ 0xfaa0
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->loadAppsListFromPM()V [access_flags=private] @ 0xfad4
+Lcom/curvefish/apps/appmanager/BackupManager;->access$43(Lcom/curvefish/apps/appmanager/BackupManager;)Ljava/lang/String; [access_flags=static synthetic] @ 0x10460
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/BackupManager;->access$42(Lcom/curvefish/apps/appmanager/BackupManager;)Ljava/util/List; [access_flags=static synthetic] @ 0x10448
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->publishProgress([Ljava/lang/Object;)V
+Lcom/curvefish/apps/appmanager/utils/SizeFormat;->format(J I)Ljava/lang/String; [access_flags=public static] @ 0x19a90
+Lcom/curvefish/apps/appmanager/BackupManager;->access$39(Lcom/curvefish/apps/appmanager/BackupManager;)Z [access_flags=static synthetic] @ 0x103e8
+Lcom/curvefish/apps/appmanager/BackupManager;->access$41(Lcom/curvefish/apps/appmanager/BackupManager; Ljava/util/List;)V [access_flags=static synthetic] @ 0x10430
+Lcom/curvefish/apps/appmanager/Utilities;->convertDateToText(J Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x18798
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0xfdb0
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; [access_flags=protected varargs] @ 0xfdd0
+Lcom/curvefish/apps/appmanager/BackupManager;->access$38(Lcom/curvefish/apps/appmanager/BackupManager;)V [access_flags=static synthetic] @ 0x103d0
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->onPostExecute(Ljava/lang/Object;)V [access_flags=protected bridge synthetic] @ 0xfe68
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->onPostExecute(Ljava/lang/Void;)V [access_flags=protected] @ 0xfe84
+Lcom/curvefish/apps/appmanager/BackupManager;->access$40(Lcom/curvefish/apps/appmanager/BackupManager;)Landroid/widget/ListView; [access_flags=static synthetic] @ 0x10418
+Landroid/widget/LinearLayout;->getVisibility()I
+Landroid/widget/ListView;->setAdapter(Landroid/widget/ListAdapter;)V
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->onPreExecute()V [access_flags=protected] @ 0xff80
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->onProgressUpdate([Ljava/lang/Object;)V [access_flags=protected bridge varargs synthetic] @ 0xffcc
+Lcom/curvefish/apps/appmanager/BackupManager$loadAppsListTask;->onProgressUpdate([Ljava/lang/String;)V [access_flags=protected varargs] @ 0xffe8
+Lcom/curvefish/apps/appmanager/BackupManager;->notifyDataSetChanged()V [access_flags=private] @ 0x105bc
+Ljava/util/Collections;->sort(Ljava/util/List; Ljava/util/Comparator;)V
+Lcom/curvefish/apps/appmanager/BackupManager;->isListEmpty()Z [access_flags=private] @ 0x10568
+Lcom/curvefish/apps/appmanager/BackupManager;->showBackupToast(I I)V [access_flags=private] @ 0x10750
+Lcom/curvefish/apps/appmanager/BackupManager;->removeApkFromList(Ljava/lang/String;)V [access_flags=private] @ 0x10668
+Lcom/curvefish/apps/appmanager/BackupManager;->updateAppsFromSD()V [access_flags=private] @ 0x10808
+Lcom/curvefish/apps/appmanager/BackupManager;-><clinit>()V [access_flags=static constructor] @ 0x1001c
+Lcom/curvefish/apps/appmanager/BackupManager;-><init>()V [access_flags=public constructor] @ 0x10048
+Landroid/widget/ListView;->getAdapter()Landroid/widget/ListAdapter;
+Ljava/io/File;->listFiles(Ljava/io/FileFilter;)[Ljava/io/File;
+Landroid/content/pm/PackageManager;->getPackageArchiveInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/curvefish/apps/appmanager/BackupManager;->setStateBackupedWithNotify(I)V [access_flags=private] @ 0x10730
+Lcom/curvefish/apps/appmanager/BackupManager;->registerIntentReceivers()V [access_flags=private] @ 0x10620
+Lcom/curvefish/apps/appmanager/BackupManager;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/BackupManager;->setStateBackuped(I)V [access_flags=private] @ 0x106e8
+Lcom/curvefish/apps/appmanager/BackupManager;->onActivityResult(I I Landroid/content/Intent;)V [access_flags=protected] @ 0x10918
+Lcom/curvefish/apps/appmanager/BackupManager;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x109b8
+Landroid/view/View;->showContextMenu()Z
+Lcom/curvefish/apps/appmanager/BackupManager;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x109d0
+Lcom/curvefish/apps/appmanager/BackupManager;->findViewById(I)Landroid/view/View;
+Landroid/widget/ListView;->setItemsCanFocus(Z)V
+Lcom/curvefish/apps/appmanager/BackupManager;->setContentView(I)V
+Landroid/widget/ViewSwitcher;->setDisplayedChild(I)V
+Lcom/curvefish/apps/appmanager/BackupManager;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/curvefish/apps/appmanager/BackupManager;->getApplicationContext()Landroid/content/Context;
+Lcom/curvefish/apps/appmanager/BackupManager;->onCreateContextMenu(Landroid/view/ContextMenu; Landroid/view/View; Landroid/view/ContextMenu$ContextMenuInfo;)V [access_flags=public] @ 0x10d50
+Lcom/curvefish/apps/appmanager/BackupManager;->onDestroy()V [access_flags=protected] @ 0x10e00
+Lcom/curvefish/apps/appmanager/BackupManager;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+Lcom/curvefish/apps/appmanager/BackupManager;->onKey(Landroid/view/View; I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x10e70
+Landroid/view/KeyEvent;->getAction()I
+Lcom/curvefish/apps/appmanager/BackupManager;->onKeyDown(I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x10ef4
+Landroid/widget/Button;->performClick()Z
+Lcom/curvefish/apps/appmanager/BackupManagerDialog$1;-><init>(Lcom/curvefish/apps/appmanager/BackupManagerDialog;)V [access_flags=constructor] @ 0x10fd4
+Lcom/curvefish/apps/appmanager/BackupManagerDialog$1;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x10ff0
+Lcom/curvefish/apps/appmanager/BackupManagerDialog;->getIntent()Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/BackupManagerDialog;->finish()V
+Lcom/curvefish/apps/appmanager/BackupManagerDialog;->setResult(I Landroid/content/Intent;)V
+Lcom/curvefish/apps/appmanager/BackupManagerDialog;-><init>()V [access_flags=public constructor] @ 0x11080
+Lcom/curvefish/apps/appmanager/BackupManagerDialog;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x110a8
+Lcom/curvefish/apps/appmanager/BackupManagerDialog;->setContentView(I)V
+Lcom/curvefish/apps/appmanager/BackupManagerDialog;->findViewById(I)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/Config;-><init>()V [access_flags=public constructor] @ 0x11150
+Lcom/curvefish/apps/appmanager/CrashReportActivity$1;-><init>(Lcom/curvefish/apps/appmanager/CrashReportActivity;)V [access_flags=constructor] @ 0x11168
+Lcom/curvefish/apps/appmanager/CrashReportActivity$1;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x11184
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->getText(I)Ljava/lang/CharSequence;
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->startActivity(Landroid/content/Intent;)V
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->access$0(Lcom/curvefish/apps/appmanager/CrashReportActivity;)Ljava/lang/String; [access_flags=static synthetic] @ 0x11304
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->access$1(Lcom/curvefish/apps/appmanager/CrashReportActivity;)Ljava/lang/String; [access_flags=static synthetic] @ 0x11320
+Lcom/curvefish/apps/appmanager/CrashReportActivity$2;-><init>(Lcom/curvefish/apps/appmanager/CrashReportActivity;)V [access_flags=constructor] @ 0x11240
+Lcom/curvefish/apps/appmanager/CrashReportActivity$2;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x1125c
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->finish()V
+Lcom/curvefish/apps/appmanager/CrashReportActivity$3;-><init>(Landroid/content/Context;)V [access_flags=constructor] @ 0x11278
+Lcom/curvefish/apps/appmanager/CrashReportActivity$3;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V [access_flags=public] @ 0x11294
+Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+Ljava/lang/Throwable;->printStackTrace()V
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->access$2(Landroid/content/Context; Ljava/lang/Throwable;)V [access_flags=static synthetic] @ 0x1133c
+Ljava/lang/Thread;->setDefaultUncaughtExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)V
+Landroid/content/Context;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->startCrashReportActivity(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private static] @ 0x117d0
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->getExceptionString()Ljava/lang/String; [access_flags=private] @ 0x1149c
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->collectExtraInfo()Ljava/lang/String; [access_flags=private] @ 0x11354
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->saveExceptionToPreferences(Landroid/content/Context; Ljava/lang/Throwable;)V [access_flags=private static] @ 0x116e8
+Lcom/curvefish/apps/appmanager/CrashReportActivity;-><clinit>()V [access_flags=static constructor] @ 0x112c0
+Lcom/curvefish/apps/appmanager/CrashReportActivity;-><init>()V [access_flags=public constructor] @ 0x112ec
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->getIntent()Landroid/content/Intent;
+Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->getFormattedKernelVersion()Ljava/lang/String; [access_flags=private] @ 0x11508
+Ljava/lang/StringBuilder;-><init>()V
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->convertToString(Ljava/lang/Throwable;)Ljava/lang/String; [access_flags=private static] @ 0x11468
+Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences$Editor;->remove(Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Ljava/util/regex/Matcher;->groupCount()I
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader; I)V
+Ljava/io/FileReader;-><init>(Ljava/lang/String;)V
+Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+Ljava/util/regex/Matcher;->matches()Z
+Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+Ljava/io/BufferedReader;->close()V
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
+Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
+Ljava/io/StringWriter;->toString()Ljava/lang/String;
+Ljava/io/StringWriter;-><init>()V
+Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x1180c
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->findViewById(I)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/CrashReportActivity;->setContentView(I)V
+Lcom/curvefish/apps/appmanager/DialogMoveList$1;-><init>(Lcom/curvefish/apps/appmanager/DialogMoveList;)V [access_flags=constructor] @ 0x11874
+Lcom/curvefish/apps/appmanager/DialogMoveList$1;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x11890
+Lcom/curvefish/apps/appmanager/DialogMoveList$myArrayAdapter;->sort()V [access_flags=public] @ 0x11a78
+Ljava/io/File;->mkdirs()Z
+Landroid/widget/EditText;->setText(Ljava/lang/CharSequence;)V
+Landroid/text/Editable;->toString()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/DialogMoveList;->access$1(Lcom/curvefish/apps/appmanager/DialogMoveList;)Lcom/curvefish/apps/appmanager/DialogMoveList$myArrayAdapter; [access_flags=static synthetic] @ 0x11ac4
+Landroid/widget/EditText;->getText()Landroid/text/Editable;
+Lcom/curvefish/apps/appmanager/DialogMoveList;->access$0(Lcom/curvefish/apps/appmanager/DialogMoveList;)Landroid/widget/EditText; [access_flags=static synthetic] @ 0x11aac
+Lcom/curvefish/apps/appmanager/DialogMoveList$myArrayAdapter;->add(Ljava/lang/Object;)V
+Ljava/io/File;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Lcom/curvefish/apps/appmanager/DialogMoveList$ViewHolder;-><init>()V [access_flags=constructor] @ 0x11938
+Ljava/util/Collections;->sort(Ljava/util/List;)V
+Lcom/curvefish/apps/appmanager/DialogMoveList$myArrayAdapter;-><init>(Lcom/curvefish/apps/appmanager/DialogMoveList; Landroid/content/Context; I Ljava/util/ArrayList;)V [access_flags=public constructor] @ 0x11950
+Landroid/widget/ArrayAdapter;-><init>(Landroid/content/Context; I Ljava/util/List;)V
+Lcom/curvefish/apps/appmanager/DialogMoveList$myArrayAdapter;->getCount()I [access_flags=public] @ 0x11988
+Lcom/curvefish/apps/appmanager/DialogMoveList$myArrayAdapter;->getItem(I)Ljava/lang/Object; [access_flags=public bridge synthetic] @ 0x119a8
+Lcom/curvefish/apps/appmanager/DialogMoveList$myArrayAdapter;->getItem(I)Ljava/lang/String; [access_flags=public] @ 0x119c4
+Lcom/curvefish/apps/appmanager/DialogMoveList$myArrayAdapter;->getView(I Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View; [access_flags=public] @ 0x119fc
+Lcom/curvefish/apps/appmanager/DialogMoveList;-><init>()V [access_flags=public constructor] @ 0x11a94
+Lcom/curvefish/apps/appmanager/DialogMoveList;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x11adc
+Lcom/curvefish/apps/appmanager/DialogMoveList;->setResult(I Landroid/content/Intent;)V
+Lcom/curvefish/apps/appmanager/DialogMoveList;->finish()V
+Lcom/curvefish/apps/appmanager/DialogMoveList;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x11b58
+Lcom/curvefish/apps/appmanager/DialogMoveList;->findViewById(I)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/Utilities;->createDirList(Ljava/io/File;)Ljava/util/ArrayList; [access_flags=public static] @ 0x189bc
+Landroid/widget/ListView;->setSelection(I)V
+Lcom/curvefish/apps/appmanager/DialogMoveList;->setContentView(I)V
+Lcom/curvefish/apps/appmanager/EntryInfo;->readExternal(Ljava/io/ObjectInput;)V [access_flags=public] @ 0x11c48
+Ljava/io/ObjectInput;->readBoolean()Z
+Ljava/io/ObjectInput;->readUTF()Ljava/lang/String;
+Ljava/io/ObjectInput;->readInt()I
+Lcom/curvefish/apps/appmanager/EntryInfo;->writeExternal(Ljava/io/ObjectOutput;)V [access_flags=public] @ 0x11cbc
+Ljava/io/ObjectOutput;->writeUTF(Ljava/lang/String;)V
+Ljava/io/ObjectOutput;->writeInt(I)V
+Ljava/io/ObjectOutput;->writeBoolean(Z)V
+Ljava/util/LinkedList;-><init>()V
+Lcom/curvefish/apps/appmanager/EntryContainer;->readExternal(Ljava/io/ObjectInput;)V [access_flags=public] @ 0x11d48
+Lcom/curvefish/apps/appmanager/EntryContainer;->writeExternal(Ljava/io/ObjectOutput;)V [access_flags=public] @ 0x11d88
+Ljava/io/Externalizable;->writeExternal(Ljava/io/ObjectOutput;)V
+Lcom/curvefish/apps/appmanager/FastBitmapDrawable;-><init>(Landroid/graphics/Bitmap;)V [access_flags=public constructor] @ 0x11dd8
+Landroid/graphics/drawable/Drawable;-><init>()V
+Lcom/curvefish/apps/appmanager/FastBitmapDrawable;->draw(Landroid/graphics/Canvas;)V [access_flags=public] @ 0x11df4
+Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap; F F Landroid/graphics/Paint;)V
+Lcom/curvefish/apps/appmanager/FastBitmapDrawable;->getIntrinsicHeight()I [access_flags=public] @ 0x11e34
+Landroid/graphics/Bitmap;->getHeight()I
+Lcom/curvefish/apps/appmanager/FastBitmapDrawable;->getIntrinsicWidth()I [access_flags=public] @ 0x11e60
+Landroid/graphics/Bitmap;->getWidth()I
+Lcom/curvefish/apps/appmanager/FastBitmapDrawable;->getMinimumHeight()I [access_flags=public] @ 0x11e8c
+Lcom/curvefish/apps/appmanager/FastBitmapDrawable;->getMinimumWidth()I [access_flags=public] @ 0x11eac
+Lcom/curvefish/apps/appmanager/GroupAdapter$1;-><init>(Lcom/curvefish/apps/appmanager/GroupAdapter;)V [access_flags=constructor] @ 0x11f08
+Lcom/curvefish/apps/appmanager/GroupAdapter$1;->compare(Lcom/curvefish/apps/appmanager/EntryInfo; Lcom/curvefish/apps/appmanager/EntryInfo;)I [access_flags=public final] @ 0x11f24
+Lcom/curvefish/apps/appmanager/GroupAdapter$1;->compare(Ljava/lang/Object; Ljava/lang/Object;)I [access_flags=public bridge synthetic] @ 0x11f48
+Lcom/curvefish/apps/appmanager/UserTask;->$SWITCH_TABLE$com$curvefish$apps$appmanager$UserTask$Status()[I [access_flags=static synthetic] @ 0x11f6c
+Lcom/curvefish/apps/appmanager/UserTask$Status;->values()[Lcom/curvefish/apps/appmanager/UserTask$Status; [access_flags=public static] @ 0x184a4
+Lcom/curvefish/apps/appmanager/UserTask$Status;->ordinal()I
+Lcom/curvefish/apps/appmanager/UserTask;-><clinit>()V [access_flags=static constructor] @ 0x12004
+Lcom/curvefish/apps/appmanager/UserTask$1;-><init>()V [access_flags=constructor] @ 0x18184
+Ljava/util/concurrent/LinkedBlockingQueue;-><init>(I)V
+Ljava/util/concurrent/ThreadPoolExecutor;-><init>(I I J Ljava/util/concurrent/TimeUnit; Ljava/util/concurrent/BlockingQueue; Ljava/util/concurrent/ThreadFactory;)V
+Lcom/curvefish/apps/appmanager/UserTask$InternalHandler;-><init>(Lcom/curvefish/apps/appmanager/UserTask$InternalHandler;)V [access_flags=synthetic constructor] @ 0x18374
+Lcom/curvefish/apps/appmanager/UserTask;-><init>()V [access_flags=public constructor] @ 0x12068
+Lcom/curvefish/apps/appmanager/UserTask$3;-><init>(Lcom/curvefish/apps/appmanager/UserTask; Ljava/util/concurrent/Callable;)V [access_flags=constructor] @ 0x18270
+Lcom/curvefish/apps/appmanager/UserTask$2;-><init>(Lcom/curvefish/apps/appmanager/UserTask;)V [access_flags=constructor] @ 0x18224
+Lcom/curvefish/apps/appmanager/UserTask;->access$0(Lcom/curvefish/apps/appmanager/UserTask; Ljava/lang/Object;)V [access_flags=static synthetic] @ 0x120a8
+Lcom/curvefish/apps/appmanager/UserTask;->finish(Ljava/lang/Object;)V [access_flags=private] @ 0x120d8
+Lcom/curvefish/apps/appmanager/UserTask;->onPostExecute(Ljava/lang/Object;)V [access_flags=public] @ 0x12234
+Lcom/curvefish/apps/appmanager/UserTask;->cancel(Z)Z [access_flags=public final] @ 0x120f8
+Ljava/util/concurrent/FutureTask;->cancel(Z)Z
+Lcom/curvefish/apps/appmanager/UserTask;->execute([Ljava/lang/Object;)Lcom/curvefish/apps/appmanager/UserTask; [access_flags=public final varargs] @ 0x12118
+Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+Lcom/curvefish/apps/appmanager/UserTask;->onPreExecute()V [access_flags=public] @ 0x12248
+Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
+Lcom/curvefish/apps/appmanager/UserTask;->get()Ljava/lang/Object; [access_flags=public final] @ 0x121a8
+Ljava/util/concurrent/FutureTask;->get()Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/UserTask;->get(J Ljava/util/concurrent/TimeUnit;)Ljava/lang/Object; [access_flags=public final] @ 0x121c8
+Ljava/util/concurrent/FutureTask;->get(J Ljava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/UserTask;->isCancelled()Z [access_flags=public final] @ 0x12200
+Ljava/util/concurrent/FutureTask;->isCancelled()Z
+Lcom/curvefish/apps/appmanager/UserTask;->publishProgress([Ljava/lang/Object;)V [access_flags=protected final varargs] @ 0x12270
+Landroid/os/Message;->sendToTarget()V
+Lcom/curvefish/apps/appmanager/UserTask$InternalHandler;->obtainMessage(I Ljava/lang/Object;)Landroid/os/Message;
+Lcom/curvefish/apps/appmanager/UserTask$UserTaskResult;-><init>(Lcom/curvefish/apps/appmanager/UserTask; [Ljava/lang/Object;)V [access_flags=varargs constructor] @ 0x184c8
+Lcom/curvefish/apps/appmanager/UserTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public varargs abstract] @ 0x0
+Lcom/curvefish/apps/appmanager/UserTask;->access$1()Lcom/curvefish/apps/appmanager/UserTask$InternalHandler; [access_flags=static synthetic] @ 0x120c0
+Lcom/curvefish/apps/appmanager/UserTask;->onProgressUpdate([Ljava/lang/Object;)V [access_flags=public varargs] @ 0x1225c
+Lcom/curvefish/apps/appmanager/UserTask;->onCancelled()V [access_flags=public] @ 0x12220
+Lcom/curvefish/apps/appmanager/GroupAdapter$IconTask;-><init>(Lcom/curvefish/apps/appmanager/GroupAdapter;)V [access_flags=private constructor] @ 0x122a0
+Lcom/curvefish/apps/appmanager/GroupAdapter$IconTask;-><init>(Lcom/curvefish/apps/appmanager/GroupAdapter; Lcom/curvefish/apps/appmanager/GroupAdapter$IconTask;)V [access_flags=synthetic constructor] @ 0x122bc
+Lcom/curvefish/apps/appmanager/GroupAdapter$IconTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public bridge varargs synthetic] @ 0x122d4
+Lcom/curvefish/apps/appmanager/GroupAdapter$IconTask;->doInBackground([Ljava/lang/Object;)[Ljava/lang/Object; [access_flags=public varargs] @ 0x122f4
+Lcom/curvefish/apps/appmanager/GroupAdapter;->access$0(Lcom/curvefish/apps/appmanager/GroupAdapter;)Landroid/content/pm/PackageManager; [access_flags=static synthetic] @ 0x125dc
+Lcom/curvefish/apps/appmanager/GroupAdapter;->access$2(Lcom/curvefish/apps/appmanager/GroupAdapter;)Landroid/graphics/drawable/Drawable; [access_flags=static synthetic] @ 0x1260c
+Lcom/curvefish/apps/appmanager/GroupAdapter;->access$1(Lcom/curvefish/apps/appmanager/GroupAdapter;)Landroid/content/Context; [access_flags=static synthetic] @ 0x125f4
+Lcom/curvefish/apps/appmanager/GroupAdapter$IconTask;->onPostExecute(Ljava/lang/Object;)V [access_flags=public bridge synthetic] @ 0x12364
+Lcom/curvefish/apps/appmanager/GroupAdapter$IconTask;->onPostExecute([Ljava/lang/Object;)V [access_flags=public] @ 0x12380
+Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+Landroid/widget/TextView;->setCompoundDrawablesWithIntrinsicBounds(Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable; Landroid/graphics/drawable/Drawable;)V
+Landroid/widget/TextView;->getTag()Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/GroupAdapter$IconTask;->execute([Ljava/lang/Object;)Lcom/curvefish/apps/appmanager/UserTask;
+Lcom/curvefish/apps/appmanager/GroupAdapter$InternalComparator;-><init>(Lcom/curvefish/apps/appmanager/GroupAdapter; I)V [access_flags=constructor] @ 0x123c8
+Lcom/curvefish/apps/appmanager/GroupAdapter$InternalComparator;->compare(Ljava/lang/Object; Ljava/lang/Object;)I [access_flags=public bridge synthetic] @ 0x123e8
+Lcom/curvefish/apps/appmanager/GroupAdapter$InternalComparator;->compare(Ljava/lang/String; Ljava/lang/String;)I [access_flags=public] @ 0x1240c
+Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+Ljava/lang/Long;->longValue()J
+Ljava/lang/Long;->valueOf(Ljava/lang/String;)Ljava/lang/Long;
+Ljava/util/Map;->keySet()Ljava/util/Set;
+Ljava/util/Set;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+Landroid/content/res/Resources;->getDimension(I)F
+Landroid/content/Context;->getString(I)Ljava/lang/String;
+Landroid/widget/BaseExpandableListAdapter;-><init>()V
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Landroid/content/res/Resources;->getDrawable(I)Landroid/graphics/drawable/Drawable;
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/util/Arrays;->sort([Ljava/lang/Object; Ljava/util/Comparator;)V
+Lcom/curvefish/apps/appmanager/GroupAdapter;->getChildView(I I Z Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View; [access_flags=public] @ 0x1264c
+Landroid/widget/TextView;->setTag(Ljava/lang/Object;)V
+Landroid/view/ViewGroup;->removeAllViews()V
+Landroid/view/ViewGroup;->getChildAt(I)Landroid/view/View;
+Landroid/view/View;->setOnFocusChangeListener(Landroid/view/View$OnFocusChangeListener;)V
+Landroid/view/ViewGroup;->getChildCount()I
+Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup; Z)Landroid/view/View;
+Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+Lcom/curvefish/apps/appmanager/GroupAdapter;->getChildrenCount(I)I [access_flags=public] @ 0x12870
+Lcom/curvefish/apps/appmanager/GroupAdapter;->getGroupView(I Z Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View; [access_flags=public] @ 0x12920
+Landroid/widget/TextView;->setHeight(I)V
+Landroid/widget/TextView;->setBackgroundResource(I)V
+Landroid/widget/TextView;->setPadding(I I I I)V
+Lcom/curvefish/apps/appmanager/GroupAdapter;->getGroup(I)Ljava/lang/Object; [access_flags=public] @ 0x128d8
+Lcom/curvefish/apps/appmanager/GroupAdapter;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x129c8
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;-><clinit>()V [access_flags=static constructor] @ 0x12b64
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;-><init>()V [access_flags=public constructor] @ 0x12b90
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->p(Ljava/lang/String;)V [access_flags=public static] @ 0x12bb0
+Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x12bd4
+Lcom/curvefish/apps/appmanager/Utilities;->ensureBackup()Ljava/io/File; [access_flags=public static] @ 0x18c48
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->getIntent()Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->startActivity(Landroid/content/Intent;)V
+Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->finish()V
+Landroid/net/Uri;->getEncodedPath()Ljava/lang/String;
+Landroid/content/Intent;->setDataAndType(Landroid/net/Uri; Ljava/lang/String;)Landroid/content/Intent;
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Lcom/curvefish/apps/appmanager/Utilities;->copy(Ljava/io/FileInputStream; Ljava/io/FileOutputStream;)V [access_flags=public static] @ 0x18910
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->getString(I)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->getPackageManager()Landroid/content/pm/PackageManager;
+Landroid/content/ContentResolver;->openInputStream(Landroid/net/Uri;)Ljava/io/InputStream;
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->getContentResolver()Landroid/content/ContentResolver;
+Lcom/curvefish/apps/appmanager/InstallForwardActivity;->getPackageName()Ljava/lang/String;
+Ljava/io/FileNotFoundException;->printStackTrace()V
+Lcom/curvefish/apps/appmanager/InstallManager$10;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x13144
+Lcom/curvefish/apps/appmanager/InstallManager$10;->onCheckedChanged(Landroid/widget/CompoundButton; Z)V [access_flags=public] @ 0x13160
+Lcom/curvefish/apps/appmanager/InstallManager;->access$42(Lcom/curvefish/apps/appmanager/InstallManager; Z)V [access_flags=static synthetic] @ 0x15538
+Lcom/curvefish/apps/appmanager/InstallManager;->access$41(Lcom/curvefish/apps/appmanager/InstallManager; Ljava/lang/String; Z)V [access_flags=static synthetic] @ 0x15520
+Lcom/curvefish/apps/appmanager/InstallManager$11;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x1318c
+Lcom/curvefish/apps/appmanager/InstallManager$11;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x131a8
+Lcom/curvefish/apps/appmanager/InstallManager;->startActivity(Landroid/content/Intent;)V
+Landroid/content/Intent;->setAction(Ljava/lang/String;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/InstallManager$12;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0x131d8
+Lcom/curvefish/apps/appmanager/InstallManager$12;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x131f8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$43(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=static synthetic] @ 0x15550
+Lcom/curvefish/apps/appmanager/InstallManager;->showDialog(I)V
+Lcom/curvefish/apps/appmanager/InstallManager$13$1;-><init>(Lcom/curvefish/apps/appmanager/InstallManager$13; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0x13224
+Lcom/curvefish/apps/appmanager/InstallManager$13$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x13244
+Lcom/curvefish/apps/appmanager/InstallManager$13;->access$0(Lcom/curvefish/apps/appmanager/InstallManager$13;)Lcom/curvefish/apps/appmanager/InstallManager; [access_flags=static synthetic] @ 0x13290
+Lcom/curvefish/apps/appmanager/InstallManager;->access$44(Lcom/curvefish/apps/appmanager/InstallManager; Ljava/lang/String;)V [access_flags=static synthetic] @ 0x15568
+Lcom/curvefish/apps/appmanager/InstallManager$13;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0x13270
+Lcom/curvefish/apps/appmanager/InstallManager$13;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x132a8
+Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Lcom/curvefish/apps/appmanager/InstallManager$14;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0x13324
+Lcom/curvefish/apps/appmanager/InstallManager$14;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x13344
+Lcom/curvefish/apps/appmanager/InstallManager;->access$45(Lcom/curvefish/apps/appmanager/InstallManager; Ljava/io/File;)V [access_flags=static synthetic] @ 0x15580
+Lcom/curvefish/apps/appmanager/InstallManager$15;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0x1336c
+Lcom/curvefish/apps/appmanager/InstallManager$15;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x1338c
+Lcom/curvefish/apps/appmanager/InstallManager;->startActivityForResult(Landroid/content/Intent; I)V
+Lcom/curvefish/apps/appmanager/InstallManager$16$1;-><init>(Lcom/curvefish/apps/appmanager/InstallManager$16; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0x133d0
+Lcom/curvefish/apps/appmanager/InstallManager$16$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x133f0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$46(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/content/Context; [access_flags=static synthetic] @ 0x15598
+Lcom/curvefish/apps/appmanager/InstallManager$16;->access$0(Lcom/curvefish/apps/appmanager/InstallManager$16;)Lcom/curvefish/apps/appmanager/InstallManager; [access_flags=static synthetic] @ 0x134a4
+Lcom/curvefish/apps/appmanager/InstallManager;->access$47(Lcom/curvefish/apps/appmanager/InstallManager; Ljava/io/File;)V [access_flags=static synthetic] @ 0x155b0
+Lcom/curvefish/apps/appmanager/InstallManager$16;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/ApkData;)V [access_flags=constructor] @ 0x13484
+Lcom/curvefish/apps/appmanager/InstallManager$16;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x134bc
+Lcom/curvefish/apps/appmanager/InstallManager$17;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Landroid/widget/EditText;)V [access_flags=constructor] @ 0x13528
+Lcom/curvefish/apps/appmanager/InstallManager$17;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x13548
+Lcom/curvefish/apps/appmanager/InstallManager;->access$48(Lcom/curvefish/apps/appmanager/InstallManager;)Lcom/curvefish/apps/appmanager/ApkData; [access_flags=static synthetic] @ 0x155c8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$49(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/ApkData; Ljava/lang/String;)Z [access_flags=static synthetic] @ 0x155e0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$32(Lcom/curvefish/apps/appmanager/InstallManager;)Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter; [access_flags=static synthetic] @ 0x15430
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->notifyDataSetChanged()V [access_flags=public] @ 0x144d8
+Lcom/curvefish/apps/appmanager/InstallManager$18;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Landroid/widget/EditText;)V [access_flags=constructor] @ 0x13598
+Lcom/curvefish/apps/appmanager/InstallManager$18;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x135b8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$50(Lcom/curvefish/apps/appmanager/InstallManager; Ljava/lang/String;)V [access_flags=static synthetic] @ 0x15614
+Lcom/curvefish/apps/appmanager/InstallManager$1;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x135e8
+Lcom/curvefish/apps/appmanager/InstallManager$1;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x13604
+Landroid/widget/EditText;->getVisibility()I
+Lcom/curvefish/apps/appmanager/InstallManager;->access$17(Lcom/curvefish/apps/appmanager/InstallManager;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x15298
+Lcom/curvefish/apps/appmanager/InstallManager;->access$12(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/widget/ViewSwitcher; [access_flags=static synthetic] @ 0x15220
+Lcom/curvefish/apps/appmanager/InstallManager;->access$2(Lcom/curvefish/apps/appmanager/InstallManager; Z)V [access_flags=static synthetic] @ 0x152e0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$6(Lcom/curvefish/apps/appmanager/InstallManager;)Z [access_flags=static synthetic] @ 0x1562c
+Lcom/curvefish/apps/appmanager/InstallManager;->sortList(I)V [access_flags=public] @ 0x16a54
+Lcom/curvefish/apps/appmanager/InstallManager;->access$7(Lcom/curvefish/apps/appmanager/InstallManager;)Z [access_flags=static synthetic] @ 0x15644
+Lcom/curvefish/apps/appmanager/InstallManager;->access$20(Lcom/curvefish/apps/appmanager/InstallManager; Z)V [access_flags=static synthetic] @ 0x152f8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$23(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x15340
+Lcom/curvefish/apps/appmanager/InstallManager;->access$22(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/os/AsyncTask; [access_flags=static synthetic] @ 0x15328
+Lcom/curvefish/apps/appmanager/InstallManager;->access$5(Lcom/curvefish/apps/appmanager/InstallManager; Z)V [access_flags=static synthetic] @ 0x155fc
+Lcom/curvefish/apps/appmanager/InstallManager;->access$8(Lcom/curvefish/apps/appmanager/InstallManager; Z)V [access_flags=static synthetic] @ 0x1565c
+Lcom/curvefish/apps/appmanager/InstallManager;->access$15(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x15268
+Lcom/curvefish/apps/appmanager/InstallManager;->access$19(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/widget/EditText; [access_flags=static synthetic] @ 0x152c8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$21(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=static synthetic] @ 0x15310
+Lcom/curvefish/apps/appmanager/InstallManager;->access$3(Lcom/curvefish/apps/appmanager/InstallManager; Z)V [access_flags=static synthetic] @ 0x153e8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$10(Lcom/curvefish/apps/appmanager/InstallManager;)Z [access_flags=static synthetic] @ 0x151f0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$18(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=static synthetic] @ 0x152b0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$4(Lcom/curvefish/apps/appmanager/InstallManager; Z)V [access_flags=static synthetic] @ 0x154f0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$11(Lcom/curvefish/apps/appmanager/InstallManager; Z)V [access_flags=static synthetic] @ 0x15208
+Lcom/curvefish/apps/appmanager/InstallManager;->access$9(Lcom/curvefish/apps/appmanager/InstallManager;)Z [access_flags=static synthetic] @ 0x15674
+Landroid/view/animation/Animation;->setAnimationListener(Landroid/view/animation/Animation$AnimationListener;)V
+Lcom/curvefish/apps/appmanager/InstallManager;->access$13(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x15238
+Lcom/curvefish/apps/appmanager/InstallManager;->access$0(Lcom/curvefish/apps/appmanager/InstallManager;)Z [access_flags=static synthetic] @ 0x151c0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$1(Lcom/curvefish/apps/appmanager/InstallManager;)Z [access_flags=static synthetic] @ 0x151d8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$14(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x15250
+Lcom/curvefish/apps/appmanager/InstallManager;->access$24(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/widget/LinearLayout; [access_flags=static synthetic] @ 0x15358
+Lcom/curvefish/apps/appmanager/InstallManager;->access$16(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/view/animation/Animation; [access_flags=static synthetic] @ 0x15280
+Lcom/curvefish/apps/appmanager/InstallManager$2;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x13990
+Lcom/curvefish/apps/appmanager/InstallManager$2;->accept(Ljava/io/File;)Z [access_flags=public] @ 0x139ac
+Lcom/curvefish/apps/appmanager/InstallManager$3;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x139d4
+Lcom/curvefish/apps/appmanager/InstallManager$3;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x139f0
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lcom/curvefish/apps/appmanager/InstallManager;->access$27(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0x153a0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$25(Lcom/curvefish/apps/appmanager/InstallManager; Landroid/os/AsyncTask;)V [access_flags=static synthetic] @ 0x15370
+Lcom/curvefish/apps/appmanager/InstallManager;->access$26(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/widget/TextView; [access_flags=static synthetic] @ 0x15388
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;)V [access_flags=synthetic constructor] @ 0x148c0
+Lcom/curvefish/apps/appmanager/InstallManager$4;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x13ae0
+Lcom/curvefish/apps/appmanager/InstallManager$4;->onAnimationEnd(Landroid/view/animation/Animation;)V [access_flags=public] @ 0x13afc
+Lcom/curvefish/apps/appmanager/InstallManager$5;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x13b5c
+Lcom/curvefish/apps/appmanager/InstallManager$5;->onAnimationEnd(Landroid/view/animation/Animation;)V [access_flags=public] @ 0x13b78
+Lcom/curvefish/apps/appmanager/InstallManager$6;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x13bc8
+Lcom/curvefish/apps/appmanager/InstallManager$6;->onAnimationEnd(Landroid/view/animation/Animation;)V [access_flags=public] @ 0x13be4
+Lcom/curvefish/apps/appmanager/InstallManager;->access$29(Lcom/curvefish/apps/appmanager/InstallManager; Ljava/io/File;)V [access_flags=static synthetic] @ 0x153d0
+Lcom/curvefish/apps/appmanager/InstallManager;->access$28(Lcom/curvefish/apps/appmanager/InstallManager;)Ljava/io/File; [access_flags=static synthetic] @ 0x153b8
+Lcom/curvefish/apps/appmanager/InstallManager$7;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x13c64
+Lcom/curvefish/apps/appmanager/InstallManager$8;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x13c94
+Lcom/curvefish/apps/appmanager/InstallManager$8;->onTextChanged(Ljava/lang/CharSequence; I I I)V [access_flags=public] @ 0x13cd8
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->getFilter()Landroid/widget/Filter; [access_flags=public] @ 0x141d0
+Landroid/widget/Filter;->filter(Ljava/lang/CharSequence;)V
+Lcom/curvefish/apps/appmanager/InstallManager$9;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x13d04
+Lcom/curvefish/apps/appmanager/InstallManager$9;->onKey(Landroid/view/View; I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x13d20
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter$1;-><init>(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;)V [access_flags=constructor] @ 0x13d64
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter$1;->onCheckedChanged(Landroid/widget/CompoundButton; Z)V [access_flags=public] @ 0x13d80
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->getItem(I)Lcom/curvefish/apps/appmanager/ApkData; [access_flags=public] @ 0x14200
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter$ArrayFilter;-><init>(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;)V [access_flags=private constructor] @ 0x13db8
+Landroid/widget/Filter;-><init>()V
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter$ArrayFilter;-><init>(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter; Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter$ArrayFilter;)V [access_flags=synthetic constructor] @ 0x13dd4
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter$ArrayFilter;->performFiltering(Ljava/lang/CharSequence;)Landroid/widget/Filter$FilterResults; [access_flags=protected] @ 0x13dec
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->access$2(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;)Ljava/lang/Object; [access_flags=static synthetic] @ 0x14138
+Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->access$1(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;)Ljava/util/ArrayList; [access_flags=static synthetic] @ 0x14120
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->access$3(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;)Ljava/util/List; [access_flags=static synthetic] @ 0x14150
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->access$4(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter; Ljava/util/ArrayList;)V [access_flags=static synthetic] @ 0x14168
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/lang/CharSequence;->length()I
+Ljava/util/ArrayList;-><init>(I)V
+Landroid/widget/Filter$FilterResults;-><init>()V
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter$ArrayFilter;->publishResults(Ljava/lang/CharSequence; Landroid/widget/Filter$FilterResults;)V [access_flags=protected] @ 0x13fa0
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->access$6(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;)Lcom/curvefish/apps/appmanager/InstallManager; [access_flags=static synthetic] @ 0x14198
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->notifyDataSetInvalidated()V
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->access$5(Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter; Ljava/util/List;)V [access_flags=static synthetic] @ 0x14180
+Landroid/widget/BaseAdapter;->notifyDataSetChanged()V
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; Landroid/content/Context; Ljava/util/ArrayList;)V [access_flags=public constructor] @ 0x1406c
+Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->getCount()I [access_flags=public] @ 0x141b0
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->getItem(I)Ljava/lang/Object; [access_flags=public bridge synthetic] @ 0x14230
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->getItemId(I)J [access_flags=public] @ 0x1424c
+Ljava/util/List;->indexOf(Ljava/lang/Object;)I
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->getView(I Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View; [access_flags=public] @ 0x14274
+Lcom/curvefish/apps/appmanager/InstallManager$ViewHolder;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=constructor] @ 0x14888
+Landroid/widget/CheckBox;->setVisibility(I)V
+Landroid/view/View;->setBackgroundResource(I)V
+Ljava/io/File;->list()[Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->onItemClick(Landroid/widget/AdapterView; Landroid/view/View; I J)V [access_flags=public] @ 0x144f8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$31(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/widget/ListView; [access_flags=static synthetic] @ 0x15418
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->setNewData(Ljava/util/ArrayList;)V [access_flags=public] @ 0x14634
+Lcom/curvefish/apps/appmanager/InstallManager;->p(Ljava/lang/String;)V [access_flags=public static] @ 0x15ddc
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Landroid/widget/ListView;->setFilterText(Ljava/lang/String;)V
+Ljava/lang/Object;->toString()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/InstallManager;->access$30(Lcom/curvefish/apps/appmanager/InstallManager;)Lcom/curvefish/apps/appmanager/InstallManager$InternalComparator; [access_flags=static synthetic] @ 0x15400
+Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;->sort(Ljava/util/Comparator;)V [access_flags=public] @ 0x14670
+Lcom/curvefish/apps/appmanager/InstallManager$InternalComparator;-><init>(Lcom/curvefish/apps/appmanager/InstallManager; I)V [access_flags=constructor] @ 0x1469c
+Lcom/curvefish/apps/appmanager/InstallManager$InternalComparator;->compare(Lcom/curvefish/apps/appmanager/ApkData; Lcom/curvefish/apps/appmanager/ApkData;)I [access_flags=public] @ 0x146bc
+Lcom/curvefish/apps/appmanager/InstallManager$InternalComparator;->compare(Ljava/lang/Object; Ljava/lang/Object;)I [access_flags=public bridge synthetic] @ 0x14864
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;-><init>(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=private constructor] @ 0x148a4
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->loadAppsList(Ljava/io/File;)V [access_flags=private] @ 0x148d8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$40(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/graphics/drawable/Drawable; [access_flags=static synthetic] @ 0x15508
+Lcom/curvefish/apps/appmanager/InstallManager;->getResources()Landroid/content/res/Resources;
+Lcom/curvefish/apps/appmanager/InstallManager;->access$39(Lcom/curvefish/apps/appmanager/InstallManager;)Landroid/content/pm/PackageManager; [access_flags=static synthetic] @ 0x154d8
+Ljava/lang/String;->valueOf(J)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/InstallManager;->md5(Ljava/lang/String;)Ljava/lang/String; [access_flags=public] @ 0x16148
+Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/InstallManager;->access$34(Lcom/curvefish/apps/appmanager/InstallManager;)Ljava/lang/String; [access_flags=static synthetic] @ 0x15460
+Lcom/curvefish/apps/appmanager/InstallManager;->access$38(Lcom/curvefish/apps/appmanager/InstallManager;)Ljava/util/HashMap; [access_flags=static synthetic] @ 0x154c0
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->publishProgress([Ljava/lang/Object;)V
+Ljava/io/File;->isDirectory()Z
+Lcom/curvefish/apps/appmanager/InstallManager;->access$37(Lcom/curvefish/apps/appmanager/InstallManager; Ljava/io/File;)V [access_flags=static synthetic] @ 0x154a8
+Lcom/curvefish/apps/appmanager/InstallManager;->access$35(Lcom/curvefish/apps/appmanager/InstallManager;)Z [access_flags=static synthetic] @ 0x15478
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0x14d74
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->doInBackground([Ljava/lang/Void;)Ljava/lang/Void; [access_flags=protected varargs] @ 0x14d94
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->onPostExecute(Ljava/lang/Object;)V [access_flags=protected bridge synthetic] @ 0x14de8
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->onPostExecute(Ljava/lang/Void;)V [access_flags=protected] @ 0x14e04
+Landroid/widget/ListView;->setOnItemClickListener(Landroid/widget/AdapterView$OnItemClickListener;)V
+Landroid/widget/ListView;->requestFocus()Z
+Landroid/widget/ListView;->setOnCreateContextMenuListener(Landroid/view/View$OnCreateContextMenuListener;)V
+Lcom/curvefish/apps/appmanager/InstallManager;->access$36(Lcom/curvefish/apps/appmanager/InstallManager; Lcom/curvefish/apps/appmanager/InstallManager$EfficientAdapter;)V [access_flags=static synthetic] @ 0x15490
+Landroid/widget/ListView;->requestFocusFromTouch()Z
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->onPreExecute()V [access_flags=protected] @ 0x14f70
+Lcom/curvefish/apps/appmanager/InstallManager;->access$33(Lcom/curvefish/apps/appmanager/InstallManager;)V [access_flags=static synthetic] @ 0x15448
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->onProgressUpdate([Ljava/lang/Object;)V [access_flags=protected bridge varargs synthetic] @ 0x15034
+Lcom/curvefish/apps/appmanager/InstallManager$loadAppsListTask;->onProgressUpdate([Ljava/lang/String;)V [access_flags=protected varargs] @ 0x15050
+Lcom/curvefish/apps/appmanager/InstallManager;->saveBoolean(Ljava/lang/String; Z)V [access_flags=private] @ 0x15f64
+Lcom/curvefish/apps/appmanager/InstallManager;->deleteFolder(Ljava/lang/String;)V [access_flags=private] @ 0x157c0
+Lcom/curvefish/apps/appmanager/InstallManager;->installAPK(Ljava/io/File;)V [access_flags=private] @ 0x15838
+Lcom/curvefish/apps/appmanager/InstallManager;->removeApkFromList(Ljava/io/File;)V [access_flags=private] @ 0x15e48
+Lcom/curvefish/apps/appmanager/InstallManager;->renameFolder(Lcom/curvefish/apps/appmanager/ApkData; Ljava/lang/String;)Z [access_flags=private] @ 0x15ed8
+Lcom/curvefish/apps/appmanager/InstallManager;->addNewFolder(Ljava/lang/String;)V [access_flags=private] @ 0x1568c
+Lcom/curvefish/apps/appmanager/InstallManager;->notifyDataSetChanged()V [access_flags=private] @ 0x15d9c
+Lcom/curvefish/apps/appmanager/InstallManager;->showSearch(Z)V [access_flags=private] @ 0x15f90
+Lcom/curvefish/apps/appmanager/InstallManager;->installSelectedApps()V [access_flags=private] @ 0x15880
+Lcom/curvefish/apps/appmanager/InstallManager;->loadAppsList(Ljava/io/File;)V [access_flags=private] @ 0x159d8
+Ljava/lang/String;->getBytes()[B
+Ljava/lang/String;-><init>([B)V
+Ljava/security/MessageDigest;->update([B)V
+Ljava/security/MessageDigest;->digest()[B
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Ljava/security/NoSuchAlgorithmException;->printStackTrace()V
+Lcom/curvefish/apps/appmanager/InstallManager;->showSettingsWindow()V [access_flags=private] @ 0x1602c
+Lcom/curvefish/apps/appmanager/InstallManager;-><clinit>()V [access_flags=static constructor] @ 0x150d0
+Lcom/curvefish/apps/appmanager/InstallManager;-><init>()V [access_flags=public constructor] @ 0x150fc
+Landroid/widget/EditText;->setVisibility(I)V
+Landroid/widget/EditText;->getWindowToken()Landroid/os/IBinder;
+Landroid/view/inputmethod/InputMethodManager;->hideSoftInputFromWindow(Landroid/os/IBinder; I)Z
+Landroid/view/inputmethod/InputMethodManager;->showSoftInput(Landroid/view/View; I)Z
+Landroid/widget/EditText;->setAnimation(Landroid/view/animation/Animation;)V
+Landroid/widget/EditText;->requestFocus()Z
+Landroid/provider/Settings$Secure;->getInt(Landroid/content/ContentResolver; Ljava/lang/String; I)I
+Lcom/curvefish/apps/appmanager/InstallManager;->getContentResolver()Landroid/content/ContentResolver;
+Lcom/curvefish/apps/appmanager/InstallManager;->isListEmpty()Z [access_flags=private] @ 0x15984
+Landroid/widget/TextView;->getVisibility()I
+Ljava/util/ArrayList;->remove(I)Ljava/lang/Object;
+Ljava/io/File;->renameTo(Ljava/io/File;)Z
+Ljava/io/File;->getParent()Ljava/lang/String;
+Ljava/io/File;->mkdir()Z
+Lcom/curvefish/apps/appmanager/InstallManager;->createListFor(Ljava/lang/String;)V [access_flags=private] @ 0x15704
+Lcom/curvefish/apps/appmanager/InstallManager;->loadSettings()V [access_flags=private] @ 0x15d20
+Lcom/curvefish/apps/appmanager/InstallManager;->moveFile(Lcom/curvefish/apps/appmanager/ApkData; Ljava/lang/String;)Z [access_flags=private] @ 0x15d54
+Lcom/curvefish/apps/appmanager/InstallManager;->registerIntentReceivers()V [access_flags=private] @ 0x15e00
+Lcom/curvefish/apps/appmanager/InstallManager;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/InstallManager;->findAllApk(Ljava/io/File;)Ljava/util/ArrayList; [access_flags=] @ 0x16088
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Ljava/util/ArrayList;->addAll(Ljava/util/Collection;)Z
+Ljava/io/File;->isFile()Z
+Lcom/curvefish/apps/appmanager/InstallManager;->onActivityResult(I I Landroid/content/Intent;)V [access_flags=protected] @ 0x161a8
+Lcom/curvefish/apps/appmanager/InstallManager;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x16254
+Lcom/curvefish/apps/appmanager/InstallManager;->findViewById(I)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/InstallManager;->getString(I)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/InstallManager;->setContentView(I)V
+Landroid/widget/ListView;->setTextFilterEnabled(Z)V
+Lcom/curvefish/apps/appmanager/InstallManager;->getPackageManager()Landroid/content/pm/PackageManager;
+Landroid/widget/EditText;->setOnKeyListener(Landroid/view/View$OnKeyListener;)V
+Landroid/widget/EditText;->addTextChangedListener(Landroid/text/TextWatcher;)V
+Lcom/curvefish/apps/appmanager/InstallManager;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/InstallManager;->onCreateContextMenu(Landroid/view/ContextMenu; Landroid/view/View; Landroid/view/ContextMenu$ContextMenuInfo;)V [access_flags=public] @ 0x16638
+Landroid/app/Activity;->onCreateContextMenu(Landroid/view/ContextMenu; Landroid/view/View; Landroid/view/ContextMenu$ContextMenuInfo;)V
+Lcom/curvefish/apps/appmanager/InstallManager;->onCreateDialog(I)Landroid/app/Dialog; [access_flags=protected] @ 0x1672c
+Landroid/app/AlertDialog$Builder;->setIcon(I)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
+Lcom/curvefish/apps/appmanager/InstallManager;->onDestroy()V [access_flags=protected] @ 0x16864
+Lcom/curvefish/apps/appmanager/InstallManager;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+Lcom/curvefish/apps/appmanager/InstallManager;->onKey(Landroid/view/View; I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x168a0
+Lcom/curvefish/apps/appmanager/InstallManager;->onKeyDown(I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0x168fc
+Lcom/curvefish/apps/appmanager/InstallManager;->onPrepareDialog(I Landroid/app/Dialog;)V [access_flags=protected] @ 0x169d4
+Landroid/app/Dialog;->findViewById(I)Landroid/view/View;
+Landroid/app/Dialog;->setTitle(I)V
+Landroid/app/Activity;->onPrepareDialog(I Landroid/app/Dialog;)V
+Lcom/curvefish/apps/appmanager/LauncherShortcuts;-><init>()V [access_flags=public constructor] @ 0x16ad4
+Lcom/curvefish/apps/appmanager/LauncherShortcuts;->setupShortcut(Ljava/lang/String;)V [access_flags=private] @ 0x16aec
+Lcom/curvefish/apps/appmanager/LauncherShortcuts;->getString(I)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/LauncherShortcuts;->setResult(I Landroid/content/Intent;)V
+Landroid/content/Intent$ShortcutIconResource;->fromContext(Landroid/content/Context; I)Landroid/content/Intent$ShortcutIconResource;
+Lcom/curvefish/apps/appmanager/LauncherShortcuts;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x16c5c
+Landroid/content/Intent;->getComponent()Landroid/content/ComponentName;
+Lcom/curvefish/apps/appmanager/LauncherShortcuts;->finish()V
+Lcom/curvefish/apps/appmanager/LauncherShortcuts;->getIntent()Landroid/content/Intent;
+Landroid/content/ComponentName;->getShortClassName()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/NotificationOnBootReceiver;-><init>()V [access_flags=public constructor] @ 0x16cb0
+Lcom/curvefish/apps/appmanager/NotificationOnBootReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x16cc8
+Lcom/curvefish/apps/appmanager/ProcessManager$1;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager;)V [access_flags=constructor] @ 0x16d00
+Ljava/text/Collator;->getInstance()Ljava/text/Collator;
+Lcom/curvefish/apps/appmanager/ProcessManager$1;->compare(Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData; Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;)I [access_flags=public final] @ 0x16d28
+Ljava/text/Collator;->compare(Ljava/lang/Object; Ljava/lang/Object;)I
+Lcom/curvefish/apps/appmanager/ProcessManager$1;->compare(Ljava/lang/Object; Ljava/lang/Object;)I [access_flags=public bridge synthetic] @ 0x16d50
+Lcom/curvefish/apps/appmanager/ProcessManager$2;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager;)V [access_flags=constructor] @ 0x16d74
+Lcom/curvefish/apps/appmanager/ProcessManager$2;->onClick(Landroid/view/View;)V [access_flags=public] @ 0x16d90
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$0(Lcom/curvefish/apps/appmanager/ProcessManager;)V [access_flags=static synthetic] @ 0x177ac
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$1(Lcom/curvefish/apps/appmanager/ProcessManager;)V [access_flags=static synthetic] @ 0x177c4
+Lcom/curvefish/apps/appmanager/ProcessManager$3;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;)V [access_flags=constructor] @ 0x16dd8
+Lcom/curvefish/apps/appmanager/ProcessManager$3;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x16df8
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$3(Lcom/curvefish/apps/appmanager/ProcessManager;)Landroid/app/ActivityManager; [access_flags=static synthetic] @ 0x17854
+Landroid/content/Intent;->setFlags(I)Landroid/content/Intent;
+Landroid/content/Intent;->setComponent(Landroid/content/ComponentName;)Landroid/content/Intent;
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$6(Lcom/curvefish/apps/appmanager/ProcessManager;)Landroid/content/pm/PackageManager; [access_flags=static synthetic] @ 0x178a0
+Lcom/curvefish/apps/appmanager/ProcessManager;->startActivity(Landroid/content/Intent;)V
+Landroid/app/ActivityManager;->getRunningTasks(I)Ljava/util/List;
+Landroid/content/ComponentName;->getPackageName()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/ProcessManager$4;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;)V [access_flags=constructor] @ 0x16f28
+Lcom/curvefish/apps/appmanager/ProcessManager$4;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x16f48
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$10(Lcom/curvefish/apps/appmanager/ProcessManager;)Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter; [access_flags=static synthetic] @ 0x177dc
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$11(Lcom/curvefish/apps/appmanager/ProcessManager; Ljava/lang/String;)V [access_flags=static synthetic] @ 0x177f4
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;->setIgnore(Z)V [access_flags=] @ 0x173fc
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;->notifyDataSetChanged()V
+Lcom/curvefish/apps/appmanager/ProcessManager$5;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;)V [access_flags=constructor] @ 0x16f8c
+Lcom/curvefish/apps/appmanager/ProcessManager$5;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x16fac
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$12(Lcom/curvefish/apps/appmanager/ProcessManager; Ljava/lang/String;)V [access_flags=static synthetic] @ 0x1780c
+Lcom/curvefish/apps/appmanager/ProcessManager$6;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;)V [access_flags=constructor] @ 0x16ff0
+Lcom/curvefish/apps/appmanager/ProcessManager$6;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x17010
+Landroid/text/ClipboardManager;->setText(Ljava/lang/CharSequence;)V
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$13(Lcom/curvefish/apps/appmanager/ProcessManager;)Landroid/text/ClipboardManager; [access_flags=static synthetic] @ 0x17824
+Lcom/curvefish/apps/appmanager/ProcessManager$7;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;)V [access_flags=constructor] @ 0x17048
+Lcom/curvefish/apps/appmanager/ProcessManager$7;->onMenuItemClick(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x17068
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Landroid/content/Context; Ljava/util/List;)V [access_flags=public constructor] @ 0x170a0
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;->getCount()I [access_flags=public] @ 0x170f0
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;->getItem(I)Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData; [access_flags=public] @ 0x1711c
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;->getItem(I)Ljava/lang/Object; [access_flags=public bridge synthetic] @ 0x1714c
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;->getView(I Landroid/view/View; Landroid/view/ViewGroup;)Landroid/view/View; [access_flags=public] @ 0x1717c
+Lcom/curvefish/apps/appmanager/ProcessManager$ViewHolder;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Lcom/curvefish/apps/appmanager/ProcessManager$ViewHolder;)V [access_flags=synthetic constructor] @ 0x17430
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;->onItemClick(Landroid/widget/AdapterView; Landroid/view/View; I J)V [access_flags=public] @ 0x17308
+Landroid/app/ActivityManager;->restartPackage(Ljava/lang/String;)V
+Lcom/curvefish/apps/appmanager/ProcessManager;->p(Ljava/lang/String;)V [access_flags=public static] @ 0x17b94
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;->setNewData(Ljava/util/List;)V [access_flags=public] @ 0x17370
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessAdapter;->sort(Ljava/util/Comparator;)V [access_flags=public] @ 0x17398
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$2(Lcom/curvefish/apps/appmanager/ProcessManager;)Ljava/util/Comparator; [access_flags=static synthetic] @ 0x1783c
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager;)V [access_flags=private constructor] @ 0x173bc
+Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Lcom/curvefish/apps/appmanager/ProcessManager$ProcessData;)V [access_flags=synthetic constructor] @ 0x173e4
+Lcom/curvefish/apps/appmanager/ProcessManager$ViewHolder;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager;)V [access_flags=private constructor] @ 0x17414
+Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager;)V [access_flags=private constructor] @ 0x17448
+Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;-><init>(Lcom/curvefish/apps/appmanager/ProcessManager; Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;)V [access_flags=synthetic constructor] @ 0x17464
+Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected bridge varargs synthetic] @ 0x1747c
+Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;->doInBackground([Ljava/lang/Void;)Ljava/util/ArrayList; [access_flags=protected varargs] @ 0x1749c
+Landroid/app/ActivityManager;->getRunningAppProcesses()Ljava/util/List;
+Lcom/curvefish/apps/appmanager/ProcessManager;->getMemoryForPid(I)I [access_flags=public static] @ 0x17a04
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$7(Lcom/curvefish/apps/appmanager/ProcessManager; Ljava/lang/String;)Z [access_flags=static synthetic] @ 0x178b8
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$5(Lcom/curvefish/apps/appmanager/ProcessManager; I)Ljava/lang/String; [access_flags=static synthetic] @ 0x17884
+Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;->onPostExecute(Ljava/lang/Object;)V [access_flags=protected bridge synthetic] @ 0x17690
+Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;->onPostExecute(Ljava/util/ArrayList;)V [access_flags=protected] @ 0x176ac
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$4(Lcom/curvefish/apps/appmanager/ProcessManager;)Landroid/widget/ProgressBar; [access_flags=static synthetic] @ 0x1786c
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$9(Lcom/curvefish/apps/appmanager/ProcessManager;)Landroid/widget/ListView; [access_flags=static synthetic] @ 0x178ec
+Landroid/widget/ProgressBar;->setVisibility(I)V
+Lcom/curvefish/apps/appmanager/ProcessManager;->access$8(Lcom/curvefish/apps/appmanager/ProcessManager;)V [access_flags=static synthetic] @ 0x178d4
+Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;->onPreExecute()V [access_flags=protected] @ 0x17730
+Lcom/curvefish/apps/appmanager/ProcessManager$loadProcListTask;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lcom/curvefish/apps/appmanager/ProcessManager;->reloadProcList()V [access_flags=private] @ 0x17c3c
+Lcom/curvefish/apps/appmanager/ProcessManager;->killAll()V [access_flags=private] @ 0x17ad4
+Lcom/curvefish/apps/appmanager/ProcessManager;->removeFromIgnoreList(Ljava/lang/String;)V [access_flags=private] @ 0x17c88
+Lcom/curvefish/apps/appmanager/ProcessManager;->addToIgnoreList(Ljava/lang/String;)V [access_flags=private] @ 0x17904
+Lcom/curvefish/apps/appmanager/ProcessManager;->getImportance(I)Ljava/lang/String; [access_flags=private] @ 0x1796c
+Lcom/curvefish/apps/appmanager/ProcessManager;->inIgnoreList(Ljava/lang/String;)Z [access_flags=private] @ 0x17ab4
+Lcom/curvefish/apps/appmanager/ProcessManager;->refreshMemory()V [access_flags=private] @ 0x17bc0
+Lcom/curvefish/apps/appmanager/ProcessManager;-><init>()V [access_flags=public constructor] @ 0x1775c
+Landroid/app/ActivityManager$MemoryInfo;-><init>()V
+Lcom/curvefish/apps/appmanager/ProcessManager;->getPackageName()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/ProcessManager;->saveIgnoreList()V [access_flags=private] @ 0x17cac
+Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+Lcom/curvefish/apps/appmanager/ProcessManager;->getString(I)Ljava/lang/String;
+Landroid/app/ActivityManager;->getMemoryInfo(Landroid/app/ActivityManager$MemoryInfo;)V
+Lcom/curvefish/apps/appmanager/ProcessManager;->createIgnoreList(Ljava/lang/String;)V [access_flags=private] @ 0x17928
+Lcom/curvefish/apps/appmanager/ProcessManager;->loadSettings()V [access_flags=private] @ 0x17b5c
+Lcom/curvefish/apps/appmanager/ProcessManager;->onCreate(Landroid/os/Bundle;)V [access_flags=protected] @ 0x17d40
+Lcom/curvefish/apps/appmanager/ProcessManager;->findViewById(I)Landroid/view/View;
+Lcom/curvefish/apps/appmanager/ProcessManager;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/curvefish/apps/appmanager/ProcessManager;->setContentView(I)V
+Lcom/curvefish/apps/appmanager/ProcessManager;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/curvefish/apps/appmanager/ProcessManager;->onCreateContextMenu(Landroid/view/ContextMenu; Landroid/view/View; Landroid/view/ContextMenu$ContextMenuInfo;)V [access_flags=public] @ 0x17e94
+Lcom/curvefish/apps/appmanager/ProcessManager;->onDestroy()V [access_flags=protected] @ 0x17fb4
+Lcom/curvefish/apps/appmanager/ProcessManager;->onResume()V [access_flags=protected] @ 0x17fd8
+Lcom/curvefish/apps/appmanager/ProcessManager;->onSharedPreferenceChanged(Landroid/content/SharedPreferences; Ljava/lang/String;)V [access_flags=public] @ 0x18004
+Lcom/curvefish/apps/appmanager/R$anim;-><init>()V [access_flags=public constructor] @ 0x18034
+Lcom/curvefish/apps/appmanager/R$array;-><init>()V [access_flags=public constructor] @ 0x1804c
+Lcom/curvefish/apps/appmanager/R$attr;-><init>()V [access_flags=public constructor] @ 0x18064
+Lcom/curvefish/apps/appmanager/R$color;-><init>()V [access_flags=public constructor] @ 0x1807c
+Lcom/curvefish/apps/appmanager/R$dimen;-><init>()V [access_flags=public constructor] @ 0x18094
+Lcom/curvefish/apps/appmanager/R$drawable;-><init>()V [access_flags=public constructor] @ 0x180ac
+Lcom/curvefish/apps/appmanager/R$id;-><init>()V [access_flags=public constructor] @ 0x180c4
+Lcom/curvefish/apps/appmanager/R$layout;-><init>()V [access_flags=public constructor] @ 0x180dc
+Lcom/curvefish/apps/appmanager/R$string;-><init>()V [access_flags=public constructor] @ 0x180f4
+Lcom/curvefish/apps/appmanager/R$style;-><init>()V [access_flags=public constructor] @ 0x1810c
+Lcom/curvefish/apps/appmanager/R$xml;-><init>()V [access_flags=public constructor] @ 0x18124
+Lcom/curvefish/apps/appmanager/R;-><init>()V [access_flags=public constructor] @ 0x1813c
+Lcom/curvefish/apps/appmanager/Update;-><init>()V [access_flags=public constructor] @ 0x18154
+Lcom/curvefish/apps/appmanager/Update;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x1816c
+Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+Lcom/curvefish/apps/appmanager/UserTask$1;->newThread(Ljava/lang/Runnable;)Ljava/lang/Thread; [access_flags=public] @ 0x181ac
+Ljava/lang/Thread;-><init>(Ljava/lang/Runnable; Ljava/lang/String;)V
+Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+Lcom/curvefish/apps/appmanager/UserTask$WorkerRunnable;-><init>()V [access_flags=private constructor] @ 0x181f4
+Lcom/curvefish/apps/appmanager/UserTask$WorkerRunnable;-><init>(Lcom/curvefish/apps/appmanager/UserTask$WorkerRunnable;)V [access_flags=synthetic constructor] @ 0x1820c
+Lcom/curvefish/apps/appmanager/UserTask$2;->call()Ljava/lang/Object; [access_flags=public] @ 0x18244
+Landroid/os/Process;->setThreadPriority(I)V
+Ljava/util/concurrent/FutureTask;-><init>(Ljava/util/concurrent/Callable;)V
+Lcom/curvefish/apps/appmanager/UserTask$3;->done()V [access_flags=protected] @ 0x1828c
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/Throwable;)I
+Lcom/curvefish/apps/appmanager/UserTask$3;->get()Ljava/lang/Object;
+Ljava/lang/RuntimeException;-><init>(Ljava/lang/String; Ljava/lang/Throwable;)V
+Ljava/util/concurrent/ExecutionException;->getCause()Ljava/lang/Throwable;
+Lcom/curvefish/apps/appmanager/UserTask$InternalHandler;-><init>()V [access_flags=private constructor] @ 0x1835c
+Landroid/os/Handler;-><init>()V
+Lcom/curvefish/apps/appmanager/UserTask$InternalHandler;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0x1838c
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Lcom/curvefish/apps/appmanager/UserTask$Status;-><clinit>()V [access_flags=static constructor] @ 0x183f8
+Lcom/curvefish/apps/appmanager/UserTask$Status;-><init>(Ljava/lang/String; I)V [access_flags=private constructor] @ 0x18468
+Ljava/lang/Enum;-><init>(Ljava/lang/String; I)V
+Lcom/curvefish/apps/appmanager/UserTask$Status;->valueOf(Ljava/lang/String;)Lcom/curvefish/apps/appmanager/UserTask$Status; [access_flags=public static] @ 0x18480
+Ljava/lang/Enum;->valueOf(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/Enum;
+Landroid/app/PendingIntent;->getActivity(Landroid/content/Context; I Landroid/content/Intent; I)Landroid/app/PendingIntent;
+Landroid/app/Notification;->setLatestEventInfo(Landroid/content/Context; Ljava/lang/CharSequence; Ljava/lang/CharSequence; Landroid/app/PendingIntent;)V
+Landroid/app/Notification;-><init>(I Ljava/lang/CharSequence; J)V
+Landroid/app/NotificationManager;->cancelAll()V
+Landroid/app/NotificationManager;->notify(I Landroid/app/Notification;)V
+Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String; J)Landroid/content/SharedPreferences$Editor;
+Lcom/curvefish/apps/appmanager/Utilities;->p(Ljava/lang/String;)V [access_flags=private static] @ 0x18ed8
+Lcom/curvefish/apps/appmanager/Utilities;->showWidgetAlert(Landroid/content/Context;)V [access_flags=private static] @ 0x19004
+Lcom/curvefish/apps/appmanager/Utilities;->getCacheDirectory()Ljava/io/File; [access_flags=public static] @ 0x18d48
+Ljava/nio/channels/FileChannel;->map(Ljava/nio/channels/FileChannel$MapMode; J J)Ljava/nio/MappedByteBuffer;
+Ljava/nio/channels/FileChannel;->close()V
+Ljava/io/FileOutputStream;->getChannel()Ljava/nio/channels/FileChannel;
+Ljava/nio/channels/FileChannel;->write(Ljava/nio/ByteBuffer;)I
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/nio/channels/FileChannel;->size()J
+Ljava/io/FileInputStream;->getChannel()Ljava/nio/channels/FileChannel;
+Landroid/graphics/Rect;->set(Landroid/graphics/Rect;)V
+Landroid/graphics/drawable/Drawable;->getIntrinsicWidth()I
+Landroid/graphics/drawable/Drawable;->setBounds(Landroid/graphics/Rect;)V
+Landroid/graphics/Bitmap;->createBitmap(I I Landroid/graphics/Bitmap$Config;)Landroid/graphics/Bitmap;
+Landroid/graphics/drawable/Drawable;->getBounds()Landroid/graphics/Rect;
+Landroid/graphics/drawable/Drawable;->getOpacity()I
+Landroid/graphics/drawable/Drawable;->setBounds(I I I I)V
+Landroid/graphics/Canvas;->setBitmap(Landroid/graphics/Bitmap;)V
+Landroid/graphics/drawable/PaintDrawable;->setIntrinsicHeight(I)V
+Landroid/graphics/drawable/Drawable;->draw(Landroid/graphics/Canvas;)V
+Landroid/graphics/drawable/PaintDrawable;->setIntrinsicWidth(I)V
+Landroid/graphics/drawable/Drawable;->getIntrinsicHeight()I
+Ljava/lang/Long;->toString(J)Ljava/lang/String;
+Ljava/lang/StringBuilder;->insert(I C)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->length()I
+Lcom/curvefish/apps/appmanager/Utilities;->checkForAvailableSpaceToBackupFile(J)Z [access_flags=private static] @ 0x186ec
+Lcom/curvefish/apps/appmanager/Utilities;->copyApk(Ljava/io/File; Ljava/io/File;)I [access_flags=private static] @ 0x1898c
+Lcom/curvefish/apps/appmanager/Utilities;->createFileName(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0x18a30
+Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+Ljava/util/Date;-><init>(J)V
+Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/Utilities;->getBackupDirectory()Ljava/io/File; [access_flags=public static] @ 0x18d28
+Lcom/curvefish/apps/appmanager/Utilities;-><clinit>()V [access_flags=static constructor] @ 0x184e8
+Landroid/graphics/Rect;-><init>()V
+Landroid/graphics/Canvas;-><init>()V
+Lcom/curvefish/apps/appmanager/Utilities;-><init>()V [access_flags=public constructor] @ 0x18520
+Ljava/lang/String;->charAt(I)C
+Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+Lcom/curvefish/apps/appmanager/Utilities;->closeStream(Ljava/io/Closeable;)V [access_flags=public static] @ 0x18748
+Ljava/io/Closeable;->close()V
+Lcom/curvefish/apps/appmanager/Utilities;->getExternalFile(Ljava/lang/String;)Ljava/io/File; [access_flags=public static] @ 0x18d68
+Lcom/curvefish/apps/appmanager/Utilities;->isFoldersExists()Z [access_flags=public static] @ 0x18d8c
+Landroid/app/AlertDialog$Builder;->setNeutralButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
+Lcom/curvefish/apps/appmanager/Utilities;->loadIconFromSDCache(Ljava/lang/String;)Landroid/graphics/drawable/Drawable; [access_flags=public static] @ 0x18ea0
+Lcom/curvefish/apps/appmanager/Utilities;->takeImage(Ljava/lang/String;)Landroid/graphics/Bitmap; [access_flags=private static] @ 0x19064
+Landroid/graphics/drawable/BitmapDrawable;-><init>(Landroid/graphics/Bitmap;)V
+Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream; Landroid/graphics/Rect; Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;-><clinit>()V [access_flags=static constructor] @ 0x190f0
+Landroid/content/UriMatcher;->addURI(Ljava/lang/String; Ljava/lang/String; I)V
+Landroid/content/UriMatcher;-><init>(I)V
+Ljava/lang/Class;->toString()Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;-><init>()V [access_flags=public constructor] @ 0x191a0
+Landroid/content/ContentProvider;-><init>()V
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->orderAppsById(Ljava/lang/String;)Ljava/lang/String; [access_flags=private] @ 0x191b8
+Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->orderAppsByName(Ljava/lang/String;)Ljava/lang/String; [access_flags=private] @ 0x191e0
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->delete(Landroid/net/Uri; Ljava/lang/String; [Ljava/lang/String;)I [access_flags=public] @ 0x19208
+Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String;)I
+Landroid/net/Uri;->getPathSegments()Ljava/util/List;
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->getContext()Landroid/content/Context;
+Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+Landroid/content/ContentResolver;->notifyChange(Landroid/net/Uri; Landroid/database/ContentObserver;)V
+Landroid/content/UriMatcher;->match(Landroid/net/Uri;)I
+Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->getType(Landroid/net/Uri;)Ljava/lang/String; [access_flags=public] @ 0x193b4
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->insert(Landroid/net/Uri; Landroid/content/ContentValues;)Landroid/net/Uri; [access_flags=public] @ 0x1941c
+Landroid/database/SQLException;-><init>(Ljava/lang/String;)V
+Landroid/database/sqlite/SQLiteDatabase;->replace(Ljava/lang/String; Ljava/lang/String; Landroid/content/ContentValues;)J
+Landroid/content/ContentUris;->withAppendedId(Landroid/net/Uri; J)Landroid/net/Uri;
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->onCreate()Z [access_flags=public] @ 0x194e0
+Lcom/curvefish/apps/appmanager/db/AppDBHelper;-><init>(Landroid/content/Context; Ljava/lang/String; Landroid/database/sqlite/SQLiteDatabase$CursorFactory; I)V [access_flags=public constructor] @ 0x19900
+Lcom/curvefish/apps/appmanager/db/AppDBHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->query(Landroid/net/Uri; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor; [access_flags=public] @ 0x19528
+Landroid/database/sqlite/SQLiteQueryBuilder;->setTables(Ljava/lang/String;)V
+Landroid/database/Cursor;->setNotificationUri(Landroid/content/ContentResolver; Landroid/net/Uri;)V
+Landroid/database/sqlite/SQLiteQueryBuilder;->appendWhere(Ljava/lang/CharSequence;)V
+Landroid/database/sqlite/SQLiteQueryBuilder;->query(Landroid/database/sqlite/SQLiteDatabase; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor;
+Landroid/database/sqlite/SQLiteQueryBuilder;-><init>()V
+Lcom/curvefish/apps/appmanager/db/AppContentProvider;->update(Landroid/net/Uri; Landroid/content/ContentValues; Ljava/lang/String; [Ljava/lang/String;)I [access_flags=public] @ 0x196f8
+Landroid/database/sqlite/SQLiteDatabase;->update(Ljava/lang/String; Landroid/content/ContentValues; Ljava/lang/String; [Ljava/lang/String;)I
+Lcom/curvefish/apps/appmanager/db/AppDBAdapter;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x1980c
+Lcom/curvefish/apps/appmanager/db/AppDBAdapter;->close()V [access_flags=public] @ 0x19844
+Landroid/database/sqlite/SQLiteDatabase;->close()V
+Lcom/curvefish/apps/appmanager/db/AppDBAdapter;->getAllEntriesCount()J [access_flags=public] @ 0x19860
+Landroid/database/Cursor;->getCount()I
+Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor;
+Landroid/database/Cursor;->moveToFirst()Z
+Lcom/curvefish/apps/appmanager/db/AppDBAdapter;->open()Lcom/curvefish/apps/appmanager/db/AppDBAdapter; [access_flags=public] @ 0x198b8
+Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context; Ljava/lang/String; Landroid/database/sqlite/SQLiteDatabase$CursorFactory; I)V
+Lcom/curvefish/apps/appmanager/db/AppDBHelper;-><clinit>()V [access_flags=static constructor] @ 0x198dc
+Lcom/curvefish/apps/appmanager/db/AppDBHelper;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V [access_flags=public] @ 0x19918
+Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
+Lcom/curvefish/apps/appmanager/db/AppDBHelper;->onUpgrade(Landroid/database/sqlite/SQLiteDatabase; I I)V [access_flags=public] @ 0x19934
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/curvefish/apps/appmanager/db/AppsColumns$Package;-><clinit>()V [access_flags=static constructor] @ 0x199a0
+Lcom/curvefish/apps/appmanager/db/AppsColumns$Package;-><init>()V [access_flags=public constructor] @ 0x199f4
+Lcom/curvefish/apps/appmanager/db/AppsColumns;-><init>()V [access_flags=public constructor] @ 0x19a0c
+Ljava/text/DecimalFormat;->format(J)Ljava/lang/String;
+Lcom/curvefish/apps/appmanager/utils/SizeFormat;-><clinit>()V [access_flags=static constructor] @ 0x19a24
+Ljava/text/DecimalFormatSymbols;->getDecimalSeparator()C
+Ljava/text/NumberFormat;->getInstance()Ljava/text/NumberFormat;
+Ljava/text/DecimalFormat;->getDecimalFormatSymbols()Ljava/text/DecimalFormatSymbols;
+Lcom/curvefish/apps/appmanager/utils/SizeFormat;-><init>()V [access_flags=public constructor] @ 0x19a78

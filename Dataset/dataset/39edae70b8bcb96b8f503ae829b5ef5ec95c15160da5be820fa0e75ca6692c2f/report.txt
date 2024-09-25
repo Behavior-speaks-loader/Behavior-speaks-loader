@@ -1,0 +1,25 @@
+39edae70b8bcb96b8f503ae829b5ef5ec95c15160da5be820fa0e75ca6692c2f:['File', 'Network', 'Phone']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.ACCESS_COARSE_UPDATES
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.MODIFY_AUDIO_SETTINGS
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/39edae70b8bcb96b8f503ae829b5ef5ec95c15160da5be820fa0e75ca6692c2f/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/39edae70b8bcb96b8f503ae829b5ef5ec95c15160da5be820fa0e75ca6692c2f/39edae70b8bcb96b8f503ae829b5ef5ec95c15160da5be820fa0e75ca6692c2f.gml

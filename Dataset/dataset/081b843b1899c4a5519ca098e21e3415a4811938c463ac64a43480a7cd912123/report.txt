@@ -1,0 +1,26 @@
+081b843b1899c4a5519ca098e21e3415a4811938c463ac64a43480a7cd912123:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.VIBRATE
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+com.android.vending.CHECK_LICENSE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+com.ea.game.nfs14_row.permission.C2D_MESSAGE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+com.android.vending.BILLING
+------------------------------
+API:
+./res/081b843b1899c4a5519ca098e21e3415a4811938c463ac64a43480a7cd912123/api.txt
+------------------------------
+Intent:
+com.android.vending.INSTALL_REFERRER
+com.ea.game.nfs14_row
+------------------------------
+Function call graph:
+gml path: ./res/081b843b1899c4a5519ca098e21e3415a4811938c463ac64a43480a7cd912123/081b843b1899c4a5519ca098e21e3415a4811938c463ac64a43480a7cd912123.gml

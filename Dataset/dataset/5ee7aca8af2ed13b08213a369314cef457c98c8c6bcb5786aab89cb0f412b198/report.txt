@@ -1,0 +1,21 @@
+5ee7aca8af2ed13b08213a369314cef457c98c8c6bcb5786aab89cb0f412b198:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+com.android.vending.CHECK_LICENSE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/5ee7aca8af2ed13b08213a369314cef457c98c8c6bcb5786aab89cb0f412b198/api.txt
+------------------------------
+Intent:
+android.appwidget.action.APPWIDGET_UPDATE
+com.edwardkim.android.screenshotit.appwidgetprovider.ScreenShotItAppWidgetProvider.ACTION_WIDGET_RECEIVER
+android.intent.category.HOME
+------------------------------
+Function call graph:
+gml path: ./res/5ee7aca8af2ed13b08213a369314cef457c98c8c6bcb5786aab89cb0f412b198/5ee7aca8af2ed13b08213a369314cef457c98c8c6bcb5786aab89cb0f412b198.gml

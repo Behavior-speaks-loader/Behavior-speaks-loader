@@ -1,0 +1,27 @@
+5dca341a30ad5ff513f1483a011d8248aa4680616f139cbd38b5958a6f29971d:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.RESTART_PACKAGES
+com.android.vending.CHECK_LICENSE
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+------------------------------
+API:
+./res/5dca341a30ad5ff513f1483a011d8248aa4680616f139cbd38b5958a6f29971d/api.txt
+------------------------------
+Intent:
+android.intent.category.DEFAULT
+com.kuaiyouxi.sdk.service.KyxService_com.crescentmoongames.exiles
+------------------------------
+Function call graph:
+gml path: ./res/5dca341a30ad5ff513f1483a011d8248aa4680616f139cbd38b5958a6f29971d/5dca341a30ad5ff513f1483a011d8248aa4680616f139cbd38b5958a6f29971d.gml

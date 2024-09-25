@@ -1,0 +1,34 @@
+2f1fea9f530ebe885277165b539aac0b604ba97ed8deaba5c9ab4468902515ad:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.SEND_SMS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.ACCESS_DOWNLOAD_MANAGER
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/2f1fea9f530ebe885277165b539aac0b604ba97ed8deaba5c9ab4468902515ad/api.txt
+------------------------------
+Intent:
+com.baidu.android.pushservice.action.METHOD
+com.baidu.android.pushservice.action.BIND_SYNC
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/2f1fea9f530ebe885277165b539aac0b604ba97ed8deaba5c9ab4468902515ad/2f1fea9f530ebe885277165b539aac0b604ba97ed8deaba5c9ab4468902515ad.gml

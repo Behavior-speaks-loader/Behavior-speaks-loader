@@ -1,0 +1,28 @@
+30720548d08b9e9dc3aa818f1ee7b2ef911d02361cafe54e8946836dd16bcc68:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+com.hpyshark.train.permission.C2D_MESSAGE
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/30720548d08b9e9dc3aa818f1ee7b2ef911d02361cafe54e8946836dd16bcc68/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+com.google.android.c2dm.intent.REGISTRATION
+com.hpyshark.train
+------------------------------
+Function call graph:
+gml path: ./res/30720548d08b9e9dc3aa818f1ee7b2ef911d02361cafe54e8946836dd16bcc68/30720548d08b9e9dc3aa818f1ee7b2ef911d02361cafe54e8946836dd16bcc68.gml

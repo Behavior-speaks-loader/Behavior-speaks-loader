@@ -1,0 +1,48 @@
+Lcom/ijiami/residconfusion/ConfusionApplication;-><init>()V [access_flags=public constructor] @ 0xb38
+Landroid/app/Application;-><init>()V
+Lcom/ijiami/residconfusion/ConfusionApplication;->copyLib(Ljava/util/zip/ZipFile; Ljava/util/zip/ZipEntry; Ljava/io/File;)V [access_flags=private] @ 0xb50
+Ljava/io/InputStream;->read([B)I
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/IOException;->printStackTrace()V
+Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/io/File;->exists()Z
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Ljava/io/InputStream;->close()V
+Ljava/io/File;->mkdirs()Z
+Lcom/ijiami/residconfusion/ConfusionApplication;->getCRC32(Ljava/io/File;)J [access_flags=public static] @ 0xbd8
+Ljava/util/zip/CheckedInputStream;->close()V
+Ljava/io/FileInputStream;->close()V
+Ljava/util/zip/CheckedInputStream;->read([B)I
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/util/zip/CRC32;->getValue()J
+Ljava/util/zip/CheckedInputStream;-><init>(Ljava/io/InputStream; Ljava/util/zip/Checksum;)V
+Ljava/util/zip/CRC32;-><init>()V
+Lcom/ijiami/residconfusion/ConfusionApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0xd1c
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Lcom/shell/NativeApplication;->load(Landroid/app/Application; Ljava/lang/String;)Z [access_flags=public static native] @ 0x0
+Lcom/ijiami/residconfusion/ConfusionApplication;->loadLibs(Landroid/content/Context;)V [access_flags=protected] @ 0xe00
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Lcom/ijiami/residconfusion/ConfusionApplication;->copyLib(Ljava/lang/String;)V [access_flags=protected] @ 0xd44
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Ljava/util/zip/ZipEntry;->getCrc()J
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/util/zip/ZipFile;->close()V
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Lcom/ijiami/residconfusion/ConfusionApplication;->getPackageCodePath()Ljava/lang/String;
+Ljava/util/zip/ZipFile;-><init>(Ljava/lang/String;)V
+Lcom/ijiami/residconfusion/ConfusionApplication;->onCreate()V [access_flags=public] @ 0xeac
+Lcom/shell/NativeApplication;->run(Landroid/app/Application; Ljava/lang/String;)Z [access_flags=public static native] @ 0x0
+Landroid/app/Application;->onCreate()V
+Lcom/shell/NativeApplication;-><clinit>()V [access_flags=static constructor] @ 0xed0
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Lcom/shell/NativeApplication;-><init>()V [access_flags=public constructor] @ 0xef8
+Ljava/lang/Object;-><init>()V

@@ -1,0 +1,21 @@
+0147c96cfdac3b2580202f9850cac41b09fd19faa784f13055f8ebb337d9dd40:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.INTERNET
+android.permission.RECEIVE_BOOT_COMPLETED
+com.kohanweb.falhafez.permission.C2D_MESSAGE
+android.permission.WAKE_LOCK
+------------------------------
+API:
+./res/0147c96cfdac3b2580202f9850cac41b09fd19faa784f13055f8ebb337d9dd40/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+com.kohanweb.falhafez
+------------------------------
+Function call graph:
+gml path: ./res/0147c96cfdac3b2580202f9850cac41b09fd19faa784f13055f8ebb337d9dd40/0147c96cfdac3b2580202f9850cac41b09fd19faa784f13055f8ebb337d9dd40.gml

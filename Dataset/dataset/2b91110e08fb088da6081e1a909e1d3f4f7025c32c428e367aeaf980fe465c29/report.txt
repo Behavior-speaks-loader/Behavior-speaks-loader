@@ -1,0 +1,27 @@
+2b91110e08fb088da6081e1a909e1d3f4f7025c32c428e367aeaf980fe465c29:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_BLUETOOTH_SHARE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.BLUETOOTH
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+android.permission.BLUETOOTH_ADMIN
+------------------------------
+API:
+./res/2b91110e08fb088da6081e1a909e1d3f4f7025c32c428e367aeaf980fe465c29/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.net.conn.CONNECTIVITY_CHANGE
+android.ad.ACTION_SHOW_TIP
+android.intent.category.default
+------------------------------
+Function call graph:
+gml path: ./res/2b91110e08fb088da6081e1a909e1d3f4f7025c32c428e367aeaf980fe465c29/2b91110e08fb088da6081e1a909e1d3f4f7025c32c428e367aeaf980fe465c29.gml

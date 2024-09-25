@@ -1,0 +1,47 @@
+56fe7ab4a79dc26e6c2fa792bc59c71a53fbf5cc171b379c1e84d8b353561faf:['File', 'Location', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.PACKAGE_USAGE_STATS
+android.permission.GET_TASKS
+android.permission.CLEAR_APP_CACHE
+android.permission.BLUETOOTH_PRIVILEGED
+android.permission.BLUETOOTH
+android.permission.WRITE_SYNC_SETTINGS
+android.permission.BLUETOOTH_ADMIN
+android.permission.ACCESS_FINE_LOCATION
+android.permission.BATTERY_STATS
+android.permission.INTERNET
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.ACCESS_NOTIFICATION_POLICY
+android.permission.DELETE_PACKAGES
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.GET_PACKAGE_SIZE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/56fe7ab4a79dc26e6c2fa792bc59c71a53fbf5cc171b379c1e84d8b353561faf/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_INSTALL
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/56fe7ab4a79dc26e6c2fa792bc59c71a53fbf5cc171b379c1e84d8b353561faf/56fe7ab4a79dc26e6c2fa792bc59c71a53fbf5cc171b379c1e84d8b353561faf.gml

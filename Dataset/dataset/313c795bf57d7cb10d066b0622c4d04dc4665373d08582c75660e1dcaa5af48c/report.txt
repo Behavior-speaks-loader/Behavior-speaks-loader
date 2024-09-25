@@ -1,0 +1,44 @@
+313c795bf57d7cb10d066b0622c4d04dc4665373d08582c75660e1dcaa5af48c:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.SET_ACTIVITY_WATCHER
+android.permission.GET_TASKS
+com.helios.PayPlayer.allow_permission
+droidlogic.permission.SYSTEM_CONTROL
+android.permission.BLUETOOTH
+android.permission.REBOOT
+android.permission.READ_SETTINGS
+android.permission.INTERNET
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_MOCK_LOCATION
+android.permission.REORDER_TASKS
+android.permission.ACCESS_WIFI_STATE
+android.permission.BROADCAST_STICKY
+android.permission.CHANGE_WIFI_STATE
+android.permission.READ_FRAME_BUFFER
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.CHANGE_WIFI_MULTICAST_STATE
+android.permission.FILTER_EVENTS
+android.permission.FORCE_STOP_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/313c795bf57d7cb10d066b0622c4d04dc4665373d08582c75660e1dcaa5af48c/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/313c795bf57d7cb10d066b0622c4d04dc4665373d08582c75660e1dcaa5af48c/313c795bf57d7cb10d066b0622c4d04dc4665373d08582c75660e1dcaa5af48c.gml

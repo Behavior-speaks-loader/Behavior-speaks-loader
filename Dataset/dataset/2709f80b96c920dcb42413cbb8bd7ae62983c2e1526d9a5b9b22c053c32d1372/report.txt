@@ -1,0 +1,29 @@
+2709f80b96c920dcb42413cbb8bd7ae62983c2e1526d9a5b9b22c053c32d1372:['File', 'Network', 'Phone']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.MODE_WORLD_READABLE
+android.permission.READ_PHONE_STATE
+android.permission.SYSTEM_OVERLAY_WINDOW
+android.permission.READ_LOGS
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+android.permission.RECEIVE_SMS
+android.permission.GET_TASKS
+android.permission.ACCESS_CHECKIN_PROPERTIES
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.BLUETOOTH
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/2709f80b96c920dcb42413cbb8bd7ae62983c2e1526d9a5b9b22c053c32d1372/api.txt
+------------------------------
+Intent:
+android.intent.action.RESPOND_VIA_MESSAGE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/2709f80b96c920dcb42413cbb8bd7ae62983c2e1526d9a5b9b22c053c32d1372/2709f80b96c920dcb42413cbb8bd7ae62983c2e1526d9a5b9b22c053c32d1372.gml

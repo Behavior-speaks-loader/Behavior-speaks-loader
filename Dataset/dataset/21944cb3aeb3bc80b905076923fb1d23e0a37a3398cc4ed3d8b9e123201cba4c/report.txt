@@ -1,0 +1,46 @@
+21944cb3aeb3bc80b905076923fb1d23e0a37a3398cc4ed3d8b9e123201cba4c:['File', 'Network', 'Location', 'Phone']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.BLUETOOTH
+android.permission.ACCESS_FINE_LOCATION
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.ACCESS_DOWNLOAD_MANAGER
+android.permission.INTERNET
+android.permission.ACCESS_COARSE_UPDATES
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_MOCK_LOCATION
+android.permission.REORDER_TASKS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.BAIDU_LOCATION_SERVICE
+com.android.launcher.permission.READ_SETTINGS
+android.permission.AUTHENTICATE_ACCOUNTS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/21944cb3aeb3bc80b905076923fb1d23e0a37a3398cc4ed3d8b9e123201cba4c/api.txt
+------------------------------
+Intent:
+com.baidu.android.pushservice.action.METHOD
+com.baidu.android.pushservice.action.BIND_SYNC
+android.intent.action.PACKAGE_REMOVED
+com.morgoo.droidplugin.category.PROXY_STUB
+------------------------------
+Function call graph:
+gml path: ./res/21944cb3aeb3bc80b905076923fb1d23e0a37a3398cc4ed3d8b9e123201cba4c/21944cb3aeb3bc80b905076923fb1d23e0a37a3398cc4ed3d8b9e123201cba4c.gml

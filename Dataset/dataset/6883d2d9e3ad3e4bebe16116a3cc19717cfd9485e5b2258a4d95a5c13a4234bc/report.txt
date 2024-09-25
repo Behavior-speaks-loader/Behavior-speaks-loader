@@ -1,0 +1,32 @@
+6883d2d9e3ad3e4bebe16116a3cc19717cfd9485e5b2258a4d95a5c13a4234bc:['Network', 'File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.INTERNET
+android.permission.RESTART_PACKAGES
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+com.android.alarm.permission.SET_ALARM
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.READ_SETTINGS
+com.android.launcher.permission.INSTALL_SHORTCUT
+------------------------------
+API:
+./res/6883d2d9e3ad3e4bebe16116a3cc19717cfd9485e5b2258a4d95a5c13a4234bc/api.txt
+------------------------------
+Intent:
+com.livewallpaper365.dy20160701.shortcut
+com.livewallpaper365.dy20160701.inform
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/6883d2d9e3ad3e4bebe16116a3cc19717cfd9485e5b2258a4d95a5c13a4234bc/6883d2d9e3ad3e4bebe16116a3cc19717cfd9485e5b2258a4d95a5c13a4234bc.gml

@@ -1,0 +1,17 @@
+146637b1e84b742496e28494803c32be78cf3bb9283ee096cd3c6cd434f31af7:['Network', 'Phone', 'File']
+------------------------------
+Permissions:
+android.permission.WAKE_LOCK
+android.permission.INTERNET
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+------------------------------
+API:
+./res/146637b1e84b742496e28494803c32be78cf3bb9283ee096cd3c6cd434f31af7/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/146637b1e84b742496e28494803c32be78cf3bb9283ee096cd3c6cd434f31af7/146637b1e84b742496e28494803c32be78cf3bb9283ee096cd3c6cd434f31af7.gml

@@ -1,0 +1,26 @@
+35bb9bc59953c0150c2bf25f08bcdb760aa465d4c7aa03919bd1d4d392d2ae54:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+------------------------------
+API:
+./res/35bb9bc59953c0150c2bf25f08bcdb760aa465d4c7aa03919bd1d4d392d2ae54/api.txt
+------------------------------
+Intent:
+com.newminisixliu.autoairplanemode.on
+com.newminisixliu.autoairplanemode.off
+android.intent.action.BOOT_COMPLETED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/35bb9bc59953c0150c2bf25f08bcdb760aa465d4c7aa03919bd1d4d392d2ae54/35bb9bc59953c0150c2bf25f08bcdb760aa465d4c7aa03919bd1d4d392d2ae54.gml

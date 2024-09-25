@@ -1,0 +1,36 @@
+632b0e16414ae82193508f657317b2c88e2901cdeedbc734d24e93e09bf9fe52:['Network', 'File', 'Location']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.CHANGE_CONFIGURATION
+android.permission.GET_TASKS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERACT_ACROSS_USERS_FULL
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+getui.permission.GetuiService.com.goodlawyer.customer
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.WRITE_CONTACTS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/632b0e16414ae82193508f657317b2c88e2901cdeedbc734d24e93e09bf9fe52/api.txt
+------------------------------
+Intent:
+io.rong.push.message
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/632b0e16414ae82193508f657317b2c88e2901cdeedbc734d24e93e09bf9fe52/632b0e16414ae82193508f657317b2c88e2901cdeedbc734d24e93e09bf9fe52.gml

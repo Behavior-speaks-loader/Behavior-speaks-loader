@@ -1,0 +1,98 @@
+Lcom/qihoo/util/Configuration;-><init>()V [access_flags=public constructor] @ 0x80bc
+Ljava/lang/Object;-><init>()V
+Lcom/qihoo/util/DtcLoader;-><clinit>()V [access_flags=static constructor] @ 0x80d4
+Lcom/qihoo/util/DtcLoader;->&#7522;&#715;()Ljava/lang/String; [access_flags=private static] @ 0x813c
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/StringBuilder;-><init>()V
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/qihoo/util/DtcLoader;-><init>()V [access_flags=public constructor] @ 0x8110
+Lcom/qihoo/util/QHDialog;-><init>()V [access_flags=public constructor] @ 0x81ec
+Lcom/qihoo/util/QHDialog;->showDialog(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x8204
+Ljava/lang/Thread;->start()V
+Lcom/qihoo/util/&#7522;&#715;;-><init>(Landroid/content/Context; Ljava/lang/String;)V [access_flags=constructor] @ 0x8284
+Ljava/lang/Thread;->sleep(J)V
+Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+Ljava/lang/Object;->wait()V
+Lcom/qihoo/util/&#7522;&#715;;->run()V [access_flags=public final] @ 0x82a4
+Landroid/os/Looper;->prepare()V
+Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+Landroid/os/Looper;->loop()V
+Landroid/app/AlertDialog;->show()V
+Landroid/view/Window;->setType(I)V
+Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+Lcom/qihoo/util/&#7522;&#718;;-><init>(Lcom/qihoo/util/&#7522;&#715;;)V [access_flags=constructor] @ 0x831c
+Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Lcom/qihoo/util/&#7522;&#718;;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public final] @ 0x8334
+Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+Ljava/lang/Object;->notify()V
+Lcom/qihoo/util/&#7522;&#719;;->&#7522;&#715;(Ljava/io/Closeable;)V [access_flags=private static] @ 0x8378
+Ljava/io/Closeable;->close()V
+Lcom/qihoo/util/&#7522;&#719;;->&#7522;&#715;()Z [access_flags=public static] @ 0x83a4
+Ljava/io/RandomAccessFile;->readLine()Ljava/lang/String;
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/io/FileInputStream;->read([B)I
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Ljava/io/RandomAccessFile;->close()V
+Ljava/io/RandomAccessFile;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Lcom/qihoo/util/&#7522;&#719;;->&#7522;&#715;(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public static] @ 0x87b0
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->mkdir()Z
+Ljava/io/FileOutputStream;->flush()V
+Ljava/io/File;->exists()Z
+Ljava/io/InputStream;->read([B)I
+Ljava/io/BufferedInputStream;->close()V
+Ljava/io/InputStream;->close()V
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Landroid/content/res/Resources;->getAssets()Landroid/content/res/AssetManager;
+Lcom/qihoo/util/&#7522;&#719;;->&#7522;&#715;(Ljava/io/BufferedInputStream; Ljava/io/BufferedInputStream;)Z [access_flags=private static] @ 0x8968
+Ljava/io/BufferedInputStream;->available()I
+Ljava/io/BufferedInputStream;->read([B)I
+Lcom/stub/StubApp;-><clinit>()V [access_flags=static constructor] @ 0x89d8
+Ljava/util/concurrent/ConcurrentHashMap;-><init>()V
+Lcom/stub/StubApp;-><init>()V [access_flags=public constructor] @ 0x8a28
+Landroid/app/Application;-><init>()V
+Lcom/stub/StubApp;->getString2(I)Ljava/lang/String; [access_flags=public static] @ 0x8ab4
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/stub/StubApp;->interface14(I)Ljava/lang/String; [access_flags=public static native] @ 0x0
+Lcom/stub/StubApp;->getString2(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x8afc
+Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+Lcom/stub/StubApp;->&#7522;&#715;(Ljava/lang/String; Z Z)Ljava/lang/String; [access_flags=private static] @ 0x8b30
+Ljava/lang/String;->hashCode()I
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/stub/StubApp;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected final] @ 0x8bd4
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Ljava/lang/Boolean;->booleanValue()Z
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Ljava/lang/reflect/Constructor;->setAccessible(Z)V
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/lang/reflect/Field;->setBoolean(Ljava/lang/Object; Z)V
+Ljava/lang/Exception;->printStackTrace()V
+Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Ljava/io/File;->getCanonicalPath()Ljava/lang/String;
+Lcom/stub/StubApp;->interface5(Landroid/app/Application;)V [access_flags=public static native] @ 0x0
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Lcom/stub/StubApp;->onCreate()V [access_flags=public final] @ 0x90a4
+Landroid/app/Application;->onCreate()V
+Lcom/stub/StubApp;->getApplicationContext()Landroid/content/Context;

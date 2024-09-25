@@ -1,0 +1,112 @@
+Lcom/edog/AppWrapper;-><init>()V [access_flags=public constructor] @ 0x103c
+Landroid/app/Application;-><init>()V
+Lcom/edog/AppWrapper;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x1054
+Lcom/edog/AppWrapper;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/edog/AppWrapper;->getPackageName()Ljava/lang/String;
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Lcom/edog/Utils;->run(Landroid/content/Context;)V [access_flags=public static] @ 0x18ec
+Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Lcom/edog/ELibrary;->y1(Landroid/app/Application; Landroid/content/Context;)Ljava/lang/String; [access_flags=public native] @ 0x0
+Ljava/lang/Exception;->printStackTrace()V
+Lcom/edog/ELibrary;->getLibrary()Lcom/edog/ELibrary; [access_flags=public static] @ 0x1230
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/edog/AppWrapper;->getBaseContext()Landroid/content/Context;
+Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/edog/AppWrapper;->onCreate()V [access_flags=public] @ 0x1110
+Landroid/app/Application;->onCreate()V
+Lcom/edog/ELibrary;->k1(Landroid/app/Application; Landroid/content/Context;)V [access_flags=public native] @ 0x0
+Lcom/edog/BuildConfig;-><init>()V [access_flags=public constructor] @ 0x1154
+Ljava/lang/Object;-><init>()V
+Lcom/edog/Constant;-><init>()V [access_flags=public constructor] @ 0x116c
+Lcom/edog/ELibrary;-><init>()V [access_flags=public constructor] @ 0x1218
+Lcom/edog/ELibrary;-><clinit>()V [access_flags=static constructor] @ 0x1184
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Lcom/edog/Utils;->getAppFiles(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x1514
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Lcom/edog/ELibrary;->init(Ljava/lang/String; Ljava/lang/String; Landroid/content/Context;)V [access_flags=public native] @ 0x0
+Lcom/edog/ELibrary;->e1(Ljava/lang/String; Landroid/content/Context;)I [access_flags=public native] @ 0x0
+Lcom/edog/ELibrary;->l1()V [access_flags=public native] @ 0x0
+Lcom/edog/ELibrary;->isHw()Z [access_flags=public native] @ 0x0
+Lcom/edog/ELibrary;->h1(Ljava/lang/String;)V [access_flags=public native] @ 0x0
+Lcom/edog/ELibrary;->s1(Ljava/lang/ClassLoader; Ljava/lang/ClassLoader;)V [access_flags=public native] @ 0x0
+Lcom/edog/NagaClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V [access_flags=public constructor] @ 0x125c
+Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Lcom/edog/NagaClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/edog/R$attr;-><init>()V [access_flags=public constructor] @ 0x1274
+Lcom/edog/R$dimen;-><init>()V [access_flags=public constructor] @ 0x128c
+Lcom/edog/R$drawable;-><init>()V [access_flags=public constructor] @ 0x12a4
+Lcom/edog/R$id;-><init>()V [access_flags=public constructor] @ 0x12bc
+Lcom/edog/R$layout;-><init>()V [access_flags=public constructor] @ 0x12d4
+Lcom/edog/R$menu;-><init>()V [access_flags=public constructor] @ 0x12ec
+Lcom/edog/R$string;-><init>()V [access_flags=public constructor] @ 0x1304
+Lcom/edog/R$style;-><init>()V [access_flags=public constructor] @ 0x131c
+Lcom/edog/R;-><init>()V [access_flags=public constructor] @ 0x1334
+Lcom/edog/Utils;->copyAssets(Ljava/lang/String; Ljava/lang/String; Landroid/content/Context;)V [access_flags=private static] @ 0x13d8
+Lcom/edog/Utils;->getCachePath(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x15b8
+Lcom/edog/Utils;->getEnvironment()Ljava/lang/String; [access_flags=public static] @ 0x1600
+Ljava/io/File;->mkdir()Z
+Ljava/io/File;->exists()Z
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Lcom/edog/Utils;->getLocalPath(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x16ec
+Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+Lcom/edog/Utils;->isMainProcess(Landroid/content/Context;)Z [access_flags=public static] @ 0x184c
+Lcom/edog/Utils;->createLoader(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)Lcom/edog/NagaClassLoader; [access_flags=public static] @ 0x14f8
+Ljava/util/jar/JarFile;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->delete()Z
+Ljava/util/jar/JarFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/edog/Utils;->checkX86(Landroid/content/Context;)V [access_flags=private static] @ 0x138c
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Lcom/edog/Utils;-><init>()V [access_flags=public constructor] @ 0x1374
+Lcom/edog/Utils;->getCPUABI()Ljava/lang/String; [access_flags=public static] @ 0x1538
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+Lcom/edog/Utils;->logError(Ljava/lang/String;)V [access_flags=public static] @ 0x18d8
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/util/jar/JarFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/io/BufferedOutputStream;->close()V
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Ljava/io/BufferedInputStream;->close()V
+Ljava/io/BufferedOutputStream;->write([B I I)V
+Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/io/BufferedInputStream;->read([B)I
+Ljava/io/BufferedOutputStream;->flush()V
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Lcom/edog/Utils;->getLibPath(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x16a0
+Lcom/edog/Utils;->getPubKeyHashCode(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x1734
+Ljava/security/PublicKey;->getAlgorithm()Ljava/lang/String;
+Ljava/security/KeyFactory;->getKeySpec(Ljava/security/Key; Ljava/lang/Class;)Ljava/security/spec/KeySpec;
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
+Ljava/security/cert/CertificateFactory;->generateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+Ljava/security/spec/DSAPublicKeySpec;->getP()Ljava/math/BigInteger;
+Landroid/content/pm/Signature;->toByteArray()[B
+Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+Ljava/math/BigInteger;->toString()Ljava/lang/String;
+Ljava/security/spec/RSAPublicKeySpec;->getModulus()Ljava/math/BigInteger;
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Ljava/security/cert/X509Certificate;->getPublicKey()Ljava/security/PublicKey;
+Ljava/io/ByteArrayInputStream;-><init>([B)V
+Landroid/os/Process;->myPid()I
+Ljava/util/List;->iterator()Ljava/util/Iterator;
+Ljava/util/Iterator;->hasNext()Z
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/app/ActivityManager;->getRunningAppProcesses()Ljava/util/List;

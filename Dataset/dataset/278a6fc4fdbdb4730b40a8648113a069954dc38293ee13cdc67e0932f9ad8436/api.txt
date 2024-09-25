@@ -1,0 +1,893 @@
+La;-><clinit>()V [access_flags=static constructor] @ 0x63dc
+Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Lo;-><init>()V [access_flags=public constructor] @ 0x108cc
+Lk;-><init>()V [access_flags=public constructor] @ 0x10648
+Ljava/util/HashMap;-><init>()V
+Lp;-><init>()V [access_flags=public constructor] @ 0x1096c
+Lr;-><init>()V [access_flags=public constructor] @ 0x10aac
+Ljava/util/Collections;->unmodifiableMap(Ljava/util/Map;)Ljava/util/Map;
+Ll;-><init>()V [access_flags=public constructor] @ 0x10778
+Ls;-><init>()V [access_flags=public constructor] @ 0x10b30
+Lm;-><init>()V [access_flags=public constructor] @ 0x107c0
+Ln;-><init>()V [access_flags=public constructor] @ 0x10858
+Lt;-><init>()V [access_flags=public constructor] @ 0x10b60
+Lv;-><init>()V [access_flags=public constructor] @ 0x10c20
+Lj;-><init>()V [access_flags=public constructor] @ 0x10564
+Lu;-><init>()V [access_flags=public constructor] @ 0x10bf4
+Lq;-><init>()V [access_flags=public constructor] @ 0x10a14
+La;-><init>()V [access_flags=private constructor] @ 0x6520
+Ljava/lang/Object;-><init>()V
+La;->a(Landroid/webkit/WebView;)V [access_flags=public static] @ 0x6538
+Lcom/google/ads/util/a;->d(Ljava/lang/String;)V [access_flags=public static] @ 0xe7f4
+La;->a(Landroid/webkit/WebView; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private static] @ 0x65a4
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+La;->a(Landroid/webkit/WebView; Ljava/lang/String;)V [access_flags=public static] @ 0x6564
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+La;->a(Landroid/webkit/WebView; Ljava/util/Map;)V [access_flags=public static] @ 0x6654
+Lorg/json/JSONObject;->toString()Ljava/lang/String;
+Lorg/json/JSONObject;-><init>(Ljava/util/Map;)V
+La;->a(Ld; Ljava/util/Map; Landroid/net/Uri; Landroid/webkit/WebView;)V [access_flags=static] @ 0x6684
+Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/google/ads/util/a;->e(Ljava/lang/String;)V [access_flags=public static] @ 0xe824
+Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+La;->c(Landroid/net/Uri;)Z [access_flags=private static] @ 0x68d4
+Li;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public abstract] @ 0x0
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+La;->b(Landroid/net/Uri;)Z [access_flags=private static] @ 0x687c
+Landroid/net/Uri;->getHost()Ljava/lang/String;
+Lcom/google/ads/util/AdUtil;->b(Landroid/net/Uri;)Ljava/util/HashMap; [access_flags=public static] @ 0xde8c
+Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/net/Uri;->getPath()Ljava/lang/String;
+Landroid/net/Uri;->toString()Ljava/lang/String;
+Landroid/net/Uri;->getScheme()Ljava/lang/String;
+Landroid/net/Uri;->getAuthority()Ljava/lang/String;
+La;->a(Landroid/net/Uri;)Z [access_flags=public static] @ 0x680c
+Landroid/net/Uri;->isHierarchical()Z
+La;->b(Landroid/webkit/WebView;)V [access_flags=public static] @ 0x6854
+Lb;-><init>(Lc; Ld; Landroid/content/Context;)V [access_flags=constructor] @ 0x6908
+Landroid/os/AsyncTask;-><init>()V
+Lb;->a([Ljava/lang/String;)Ljava/lang/Void; [access_flags=private varargs] @ 0x692c
+Lc;->a(Lcom/google/ads/AdRequest$ErrorCode;)V [access_flags=public final synchronized] @ 0x7650
+Lcom/google/ads/util/AdUtil;->a(Ljava/net/HttpURLConnection; Landroid/content/Context;)V [access_flags=public static] @ 0xdd08
+Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/String;->length()I
+Lcom/google/ads/util/a;->a(Ljava/lang/String;)V [access_flags=public static] @ 0xe69c
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/lang/String;->trim()Ljava/lang/String;
+Ljava/net/HttpURLConnection;->connect()V
+Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+Ljava/net/URL;-><init>(Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/google/ads/util/a;->c(Ljava/lang/String;)V [access_flags=public static] @ 0xe794
+Ljava/net/HttpURLConnection;->getResponseCode()I
+Lcom/google/ads/util/a;->a(Ljava/lang/String; Ljava/lang/Throwable;)V [access_flags=public static] @ 0xe6cc
+Lb;->a(Ljava/net/HttpURLConnection;)V [access_flags=private] @ 0x6ba4
+Lc;->a(Ljava/lang/String; Ljava/lang/String;)V [access_flags=final synchronized] @ 0x76b8
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader; I)V
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Lcom/google/ads/util/a;->c(Ljava/lang/String; Ljava/lang/Throwable;)V [access_flags=public static] @ 0xe7c4
+Ld;->a(I)V [access_flags=public final synchronized] @ 0xf1f4
+Ljava/util/StringTokenizer;->hasMoreTokens()Z
+Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+Ld;->a(F)V [access_flags=public final synchronized] @ 0xf1c0
+Lb;->b(Ljava/net/HttpURLConnection;)V [access_flags=private] @ 0x6d24
+Ld;->a(J)V [access_flags=public final] @ 0xf220
+Ld;->a(Ljava/lang/String;)V [access_flags=final synchronized] @ 0xf438
+Ljava/util/StringTokenizer;-><init>(Ljava/lang/String;)V
+Ld;->p()Z [access_flags=public final synchronized] @ 0xf7a4
+Ld;->d()V [access_flags=public final synchronized] @ 0xf544
+Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;
+Ld;->b(Ljava/lang/String;)V [access_flags=final synchronized] @ 0xf4ac
+Lb;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected final synthetic] @ 0x6d70
+Lb;->cancel(Z)Z
+Lb;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lc$a;-><init>(Lc; Ljava/lang/String;)V [access_flags=public constructor] @ 0x6d90
+Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+Lc$b;-><init>(Lc; Ljava/lang/String;)V [access_flags=public constructor] @ 0x6dac
+Ljava/lang/Object;->notify()V
+Lc;-><init>(Ld;)V [access_flags=public constructor] @ 0x6dc8
+Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
+Landroid/webkit/WebView;-><init>(Landroid/content/Context;)V
+Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
+Lcom/google/ads/util/AdUtil;->a(Landroid/webkit/WebView;)V [access_flags=public static] @ 0xdcd0
+Landroid/webkit/WebView;->setWillNotDraw(Z)V
+Landroid/webkit/WebView;->setVisibility(I)V
+Lh;-><init>(Ld; Ljava/util/Map; Z Z)V [access_flags=public constructor] @ 0x1031c
+Ld;->e()Landroid/app/Activity; [access_flags=public final] @ 0xf5fc
+Lc;->a([Lcom/google/ads/AdRequest;)Lcom/google/ads/AdRequest$ErrorCode; [access_flags=private varargs] @ 0x6e98
+Landroid/os/SystemClock;->elapsedRealtime()J
+Landroid/webkit/WebView;->loadDataWithBaseURL(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+Ld;->i()Lg; [access_flags=public final synchronized] @ 0xf67c
+Lcom/google/ads/util/a;->b(Ljava/lang/String; Ljava/lang/Throwable;)V [access_flags=public static] @ 0xe764
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Lg;->loadDataWithBaseURL(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V
+Ljava/lang/Object;->wait(J)V
+Lg;->stopLoading()V
+Lc;->a(Lcom/google/ads/AdRequest; Landroid/app/Activity;)Ljava/lang/String; [access_flags=private] @ 0x7210
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Ld;->n()J [access_flags=public final] @ 0xf730
+Lc;->publishProgress([Ljava/lang/Object;)V
+Lh;->a()V [access_flags=public final] @ 0x10350
+Ld;->j()Lh; [access_flags=final synchronized] @ 0xf6a8
+Lf;->h()J [access_flags=final] @ 0x1003c
+Lcom/google/ads/util/AdUtil;->e(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xe22c
+Lcom/google/ads/AdSize;->getHeight()I [access_flags=public] @ 0xcc3c
+Lcom/google/ads/AdSize;->getWidth()I [access_flags=public] @ 0xcc54
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Ld;->l()Lf; [access_flags=public final] @ 0xf6ec
+Lcom/google/ads/util/AdUtil;->a(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xd968
+Lcom/google/ads/util/AdUtil;->f(Landroid/content/Context;)Lcom/google/ads/util/AdUtil$a; [access_flags=public static] @ 0xe34c
+Lf;->j()Ljava/lang/String; [access_flags=final] @ 0x10058
+Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+Lf;->i()J [access_flags=static] @ 0xfd2c
+Lcom/google/ads/util/AdUtil;->d(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xe1cc
+Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+Ld;->h()Ljava/lang/String; [access_flags=final] @ 0xf664
+Lf;->p()Ljava/lang/String; [access_flags=final] @ 0x10120
+Ljava/util/Locale;->getLanguage()Ljava/lang/String;
+Lcom/google/ads/util/AdUtil;->a()Z [access_flags=public static] @ 0xdd44
+Lf;->m()Z [access_flags=final] @ 0x100ac
+Lcom/google/ads/AdRequest;->getRequestMap(Landroid/content/Context;)Ljava/util/Map; [access_flags=public] @ 0xc930
+Lf;->d()V [access_flags=final] @ 0xfe70
+Lcom/google/ads/util/AdUtil$a;->ordinal()I
+Lcom/google/ads/util/AdUtil;->a(Landroid/app/Activity;)Landroid/util/DisplayMetrics; [access_flags=public static] @ 0xd920
+Lcom/google/ads/util/AdUtil;->g(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0xe3ec
+Lf;->f()Ljava/lang/String; [access_flags=final] @ 0xfeec
+Lf;->a()V [access_flags=final] @ 0xfd44
+Lf;->e()J [access_flags=final] @ 0xfea8
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lf;->k()Z [access_flags=final] @ 0x10070
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Lcom/google/ads/util/AdUtil;->a(Ljava/util/Map;)Ljava/lang/String; [access_flags=public static] @ 0xdb40
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Ld;->f()Lcom/google/ads/Ad; [access_flags=final] @ 0xf620
+Lf;->g()Ljava/lang/String; [access_flags=final] @ 0xffac
+Lcom/google/ads/AdSize;->toString()Ljava/lang/String; [access_flags=public] @ 0xcc6c
+Ld;->k()Lcom/google/ads/AdSize; [access_flags=public final] @ 0xf6d4
+Lc;->a()V [access_flags=final synchronized] @ 0x761c
+Lc;->a(Ljava/lang/String;)V [access_flags=public final synchronized] @ 0x7684
+Lc;->doInBackground([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=protected final synthetic] @ 0x76f0
+Lc;->onCancelled()V [access_flags=protected final] @ 0x7710
+Landroid/webkit/WebView;->stopLoading()V
+Landroid/webkit/WebView;->destroy()V
+Lc;->onPostExecute(Ljava/lang/Object;)V [access_flags=protected final synthetic] @ 0x774c
+Lg;->setVisibility(I)V
+Ld;->a(Lcom/google/ads/AdRequest$ErrorCode;)V [access_flags=public final synchronized] @ 0xf2c0
+Ld;->q()V [access_flags=final synchronized] @ 0xf7d0
+Lc;->onProgressUpdate([Ljava/lang/Object;)V [access_flags=protected final synthetic] @ 0x77d0
+Lc;->execute([Ljava/lang/Object;)Landroid/os/AsyncTask;
+Lc;->cancel(Z)Z
+Lcom/adwhirl/AdWhirlLayout$AdWhirlInterface;->adWhirlGeneric()V [access_flags=public abstract] @ 0x0
+Lcom/adwhirl/AdWhirlLayout$HandleAdRunnable;-><init>(Lcom/adwhirl/AdWhirlLayout;)V [access_flags=public constructor] @ 0x7800
+Ljava/lang/ref/WeakReference;-><init>(Ljava/lang/Object;)V
+Lcom/adwhirl/AdWhirlLayout$HandleAdRunnable;->run()V [access_flags=public] @ 0x7828
+Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+Lcom/adwhirl/AdWhirlLayout;->access$3(Lcom/adwhirl/AdWhirlLayout;)V [access_flags=static synthetic] @ 0x7b64
+Lcom/adwhirl/AdWhirlLayout$InitRunnable;-><init>(Lcom/adwhirl/AdWhirlLayout; Ljava/lang/String;)V [access_flags=public constructor] @ 0x7854
+Lcom/adwhirl/AdWhirlLayout$InitRunnable;->run()V [access_flags=public] @ 0x7880
+Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable; J Ljava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+Lcom/adwhirl/AdWhirlManager;->getExtra()Lcom/adwhirl/obj/Extra; [access_flags=public] @ 0x8e30
+Lcom/adwhirl/AdWhirlManager;->fetchConfig()V [access_flags=public] @ 0x89f0
+Lcom/adwhirl/AdWhirlManager;-><init>(Ljava/lang/ref/WeakReference; Ljava/lang/String;)V [access_flags=public constructor] @ 0x8294
+Lcom/adwhirl/AdWhirlLayout;->access$2(Lcom/adwhirl/AdWhirlLayout;)V [access_flags=static synthetic] @ 0x7b4c
+Lcom/adwhirl/AdWhirlLayout;->access$1(Lcom/adwhirl/AdWhirlLayout; Z)V [access_flags=static synthetic] @ 0x7b34
+Lcom/adwhirl/AdWhirlLayout;->access$0(Lcom/adwhirl/AdWhirlLayout;)Z [access_flags=static synthetic] @ 0x7b1c
+Lcom/adwhirl/AdWhirlLayout$PingUrlRunnable;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0x793c
+Lcom/adwhirl/AdWhirlLayout$PingUrlRunnable;->run()V [access_flags=public] @ 0x7958
+Lorg/apache/http/impl/client/DefaultHttpClient;-><init>()V
+Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Lorg/apache/http/client/methods/HttpGet;-><init>(Ljava/lang/String;)V
+Lorg/apache/http/client/HttpClient;->execute(Lorg/apache/http/client/methods/HttpUriRequest;)Lorg/apache/http/HttpResponse;
+Lcom/adwhirl/AdWhirlLayout$RotateAdRunnable;-><init>(Lcom/adwhirl/AdWhirlLayout;)V [access_flags=public constructor] @ 0x79e8
+Lcom/adwhirl/AdWhirlLayout$RotateAdRunnable;->run()V [access_flags=public] @ 0x7a10
+Lcom/adwhirl/AdWhirlLayout$ViewAdRunnable;-><init>(Lcom/adwhirl/AdWhirlLayout; Landroid/view/ViewGroup;)V [access_flags=public constructor] @ 0x7a3c
+Lcom/adwhirl/AdWhirlLayout$ViewAdRunnable;->run()V [access_flags=public] @ 0x7a68
+Lcom/adwhirl/AdWhirlLayout;->pushSubView(Landroid/view/ViewGroup;)V [access_flags=public] @ 0x80f0
+Lcom/adwhirl/AdWhirlLayout;->handleAd()V [access_flags=private] @ 0x7ccc
+Lcom/adwhirl/AdWhirlLayout;->rotateAd()V [access_flags=private] @ 0x7d9c
+Landroid/widget/RelativeLayout$LayoutParams;-><init>(I I)V
+Landroid/widget/RelativeLayout;->addView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Lcom/adwhirl/AdWhirlLayout;->countImpression()V [access_flags=private] @ 0x7c24
+Landroid/widget/RelativeLayout;->removeAllViews()V
+Landroid/widget/RelativeLayout$LayoutParams;->addRule(I)V
+Lcom/adwhirl/AdWhirlLayout;-><init>(Landroid/app/Activity; Ljava/lang/String;)V [access_flags=public constructor] @ 0x7a98
+Lcom/adwhirl/AdWhirlLayout;->init(Landroid/app/Activity; Ljava/lang/String;)V [access_flags=protected] @ 0x7ea0
+Landroid/os/Handler;-><init>()V
+Ljava/util/concurrent/Executors;->newScheduledThreadPool(I)Ljava/util/concurrent/ScheduledExecutorService;
+Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;)V
+Lcom/adwhirl/AdWhirlLayout;->setVerticalScrollBarEnabled(Z)V
+Lcom/adwhirl/AdWhirlLayout;->setHorizontalScrollBarEnabled(Z)V
+Lcom/adwhirl/AdWhirlLayout;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V [access_flags=public constructor] @ 0x7ad4
+Lcom/adwhirl/AdWhirlLayout;->getAdWhirlKey(Landroid/content/Context;)Ljava/lang/String; [access_flags=protected] @ 0x7df0
+Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V
+Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Landroid/content/pm/PackageManager;->getActivityInfo(Landroid/content/ComponentName; I)Landroid/content/pm/ActivityInfo;
+Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/ComponentName;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Lcom/adwhirl/AdWhirlManager;->getRation()Lcom/adwhirl/obj/Ration; [access_flags=public] @ 0x8f00
+Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/adwhirl/adapters/AdWhirlAdapter;->handle(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public static] @ 0x9764
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Lcom/adwhirl/AdWhirlLayout;->rollover()V [access_flags=public] @ 0x8158
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/adwhirl/AdWhirlLayout;->rotateThreadedDelayed()V [access_flags=public] @ 0x8190
+Lcom/adwhirl/AdWhirlLayout;->countClick()V [access_flags=private] @ 0x7b7c
+Lcom/adwhirl/AdWhirlManager;->getRollover()Lcom/adwhirl/obj/Ration; [access_flags=public] @ 0x8fb4
+Lcom/adwhirl/AdWhirlLayout;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z [access_flags=public] @ 0x7f10
+Landroid/view/MotionEvent;->getAction()I
+Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+Lcom/adwhirl/AdWhirlLayout;->onMeasure(I I)V [access_flags=protected] @ 0x802c
+Landroid/widget/RelativeLayout;->onMeasure(I I)V
+Landroid/view/View$MeasureSpec;->makeMeasureSpec(I I)I
+Landroid/view/View$MeasureSpec;->getSize(I)I
+Lcom/adwhirl/AdWhirlLayout;->onWindowVisibilityChanged(I)V [access_flags=protected] @ 0x8090
+Lcom/adwhirl/AdWhirlLayout;->rotateThreadedNow()V [access_flags=public] @ 0x8200
+Lcom/adwhirl/AdWhirlLayout;->getContext()Landroid/content/Context;
+Lcom/adwhirl/AdWhirlLayout;->getParent()Landroid/view/ViewParent;
+Lcom/adwhirl/AdWhirlLayout;->addView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Lcom/adwhirl/AdWhirlLayout;->removeView(Landroid/view/View;)V
+Lcom/adwhirl/AdWhirlLayout;->getVisibility()I
+Lcom/adwhirl/AdWhirlLayout;->setVisibility(I)V
+Ljava/util/Locale;->toString()Ljava/lang/String;
+Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Ljava/lang/String;->getBytes()[B
+Lcom/adwhirl/util/AdWhirlUtil;->convertToHex([B)Ljava/lang/String; [access_flags=public static] @ 0xb578
+Ljava/lang/StringBuffer;-><init>(Ljava/lang/String;)V
+Ljava/security/MessageDigest;->digest([B)[B
+Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+Ljava/lang/System;->currentTimeMillis()J
+Landroid/content/SharedPreferences;->getLong(Ljava/lang/String; J)J
+Ljava/lang/Object;->toString()Ljava/lang/String;
+Lorg/apache/http/HttpResponse;->getEntity()Lorg/apache/http/HttpEntity;
+Landroid/content/Context;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Landroid/content/SharedPreferences$Editor;->commit()Z
+Landroid/content/SharedPreferences$Editor;->putString(Ljava/lang/String; Ljava/lang/String;)Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+Lorg/apache/http/HttpResponse;->getStatusLine()Lorg/apache/http/StatusLine;
+Landroid/content/SharedPreferences;->getString(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Lcom/adwhirl/AdWhirlManager;->parseConfigurationString(Ljava/lang/String;)V [access_flags=private] @ 0x8530
+Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String; J)Landroid/content/SharedPreferences$Editor;
+Lcom/adwhirl/AdWhirlManager;->convertStreamToString(Ljava/io/InputStream;)Ljava/lang/String; [access_flags=private] @ 0x83ac
+Lorg/apache/http/HttpEntity;->getContent()Ljava/io/InputStream;
+Ljava/util/List;->iterator()Ljava/util/Iterator;
+Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/Random;-><init>()V
+Ljava/util/Iterator;->hasNext()Z
+Ljava/util/Random;->nextDouble()D
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Ljava/io/InputStream;->close()V
+Lcom/adwhirl/AdWhirlManager;->fetchImage(Ljava/lang/String;)Landroid/graphics/drawable/Drawable; [access_flags=private] @ 0x84d4
+Ljava/net/URL;->getContent()Ljava/lang/Object;
+Landroid/graphics/drawable/Drawable;->createFromStream(Ljava/io/InputStream; Ljava/lang/String;)Landroid/graphics/drawable/Drawable;
+Lorg/json/JSONObject;->getJSONArray(Ljava/lang/String;)Lorg/json/JSONArray;
+Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+Lcom/adwhirl/AdWhirlManager;->parseRationsJson(Lorg/json/JSONArray;)V [access_flags=private] @ 0x8880
+Lcom/adwhirl/obj/Extra;-><init>()V [access_flags=public constructor] @ 0xb458
+Lcom/adwhirl/AdWhirlManager;->parseExtraJson(Lorg/json/JSONObject;)V [access_flags=private] @ 0x876c
+Lorg/json/JSONObject;->getJSONObject(Ljava/lang/String;)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->getInt(Ljava/lang/String;)I
+Ljava/util/ArrayList;-><init>()V
+Lorg/json/JSONArray;->getJSONObject(I)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+Lcom/adwhirl/obj/Ration;-><init>()V [access_flags=public constructor] @ 0xb4a8
+Ljava/util/Collections;->sort(Ljava/util/List;)V
+Ljava/util/List;->add(Ljava/lang/Object;)Z
+Lorg/json/JSONArray;->length()I
+Lcom/adwhirl/AdWhirlManager;->parseCustomJsonString(Ljava/lang/String;)Lcom/adwhirl/obj/Custom; [access_flags=private] @ 0x85ec
+Landroid/view/Display;->getMetrics(Landroid/util/DisplayMetrics;)V
+Landroid/view/WindowManager;->getDefaultDisplay()Landroid/view/Display;
+Landroid/util/DisplayMetrics;-><init>()V
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/adwhirl/obj/Custom;-><init>()V [access_flags=public constructor] @ 0xb440
+Lcom/adwhirl/AdWhirlManager;->getCustom(Ljava/lang/String;)Lcom/adwhirl/obj/Custom; [access_flags=public] @ 0x8ca4
+Landroid/location/Location;->getLongitude()D
+Landroid/location/Location;->getTime()J
+Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+Landroid/location/Location;->getLatitude()D
+Lcom/adwhirl/AdWhirlManager;->getLocation()Landroid/location/Location; [access_flags=public] @ 0x8e68
+Landroid/content/Context;->checkCallingOrSelfPermission(Ljava/lang/String;)I
+Landroid/location/LocationManager;->getLastKnownLocation(Ljava/lang/String;)Landroid/location/Location;
+Lcom/adwhirl/AdWhirlManager;->resetRollover()V [access_flags=public] @ 0x8ff8
+Lcom/adwhirl/AdWhirlTargeting$Gender;-><clinit>()V [access_flags=static constructor] @ 0x901c
+Lcom/adwhirl/AdWhirlTargeting$Gender;-><init>(Ljava/lang/String; I)V [access_flags=private constructor] @ 0x908c
+Ljava/lang/Enum;-><init>(Ljava/lang/String; I)V
+Lcom/adwhirl/AdWhirlTargeting$Gender;->valueOf(Ljava/lang/String;)Lcom/adwhirl/AdWhirlTargeting$Gender; [access_flags=public static] @ 0x90a4
+Ljava/lang/Enum;->valueOf(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/Enum;
+Lcom/adwhirl/AdWhirlTargeting$Gender;->values()[Lcom/adwhirl/AdWhirlTargeting$Gender; [access_flags=public static] @ 0x90c8
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Lcom/adwhirl/AdWhirlTargeting$Gender;->ordinal()I
+Lcom/adwhirl/AdWhirlTargeting;-><clinit>()V [access_flags=static constructor] @ 0x90ec
+Lcom/adwhirl/AdWhirlTargeting;->resetData()V [access_flags=public static] @ 0x9220
+Lcom/adwhirl/AdWhirlTargeting;-><init>()V [access_flags=public constructor] @ 0x9104
+Lcom/adwhirl/AdWhirlTargeting;->addKeyword(Ljava/lang/String;)V [access_flags=public static] @ 0x911c
+Ljava/util/HashSet;-><init>()V
+Ljava/util/Set;->add(Ljava/lang/Object;)Z
+Lcom/adwhirl/AdWhirlTargeting;->getAge()I [access_flags=public static] @ 0x9150
+Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
+Ljava/util/Calendar;->get(I)I
+Ljava/util/GregorianCalendar;->get(I)I
+Lcom/adwhirl/AdWhirlTargeting;->setAge(I)V [access_flags=public static] @ 0x9254
+Ljava/util/GregorianCalendar;-><init>(I I I)V
+Lcom/adwhirl/AdWhirlTargeting;->getTestMode()Z [access_flags=public static] @ 0x9208
+Lcom/adwhirl/AdWhirlTargeting;->getGender()Lcom/adwhirl/AdWhirlTargeting$Gender; [access_flags=public static] @ 0x91a8
+Lcom/adwhirl/AdWhirlTargeting;->getKeywordSet()Ljava/util/Set; [access_flags=public static] @ 0x91c0
+Lcom/adwhirl/AdWhirlTargeting;->getKeywords()Ljava/lang/String; [access_flags=public static] @ 0x91d8
+Lcom/adwhirl/AdWhirlTargeting;->getBirthDate()Ljava/util/GregorianCalendar; [access_flags=public static] @ 0x9190
+Lcom/adwhirl/AdWhirlTargeting;->getPostalCode()Ljava/lang/String; [access_flags=public static] @ 0x91f0
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;-><init>(Lcom/adwhirl/adapters/AdSenseAdapter; Ljava/lang/String;)V [access_flags=public constructor] @ 0x9324
+Lcom/google/ads/AdSenseSpec;-><init>(Ljava/lang/String;)V
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->generateParameters(Landroid/content/Context;)Ljava/util/List; [access_flags=public] @ 0x934c
+Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+Lcom/google/ads/AdSpec$Parameter;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+Lcom/google/ads/AdSenseSpec;->generateParameters(Landroid/content/Context;)Ljava/util/List;
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setCompanyName(Ljava/lang/String;)Lcom/google/ads/AdSenseSpec;
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setAppName(Ljava/lang/String;)Lcom/google/ads/AdSenseSpec;
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setChannel(Ljava/lang/String;)Lcom/google/ads/AdSenseSpec;
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setAdFormat(Lcom/google/ads/AdSenseSpec$AdFormat;)Lcom/google/ads/AdSenseSpec;
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setAdTestEnabled(Z)Lcom/google/ads/AdSenseSpec;
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setColorBackground(Ljava/lang/String;)Lcom/google/ads/AdSenseSpec;
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setGender(Lcom/adwhirl/AdWhirlTargeting$Gender;)V [access_flags=public] @ 0x9458
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setAge(I)V [access_flags=public] @ 0x93c4
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setKeywords(Ljava/lang/String;)Lcom/google/ads/AdSenseSpec;
+Lcom/adwhirl/adapters/AdSenseAdapter$ExtendedAdSenseSpec;->setExpandDirection(Lcom/google/ads/AdSenseSpec$ExpandDirection;)Lcom/google/ads/AdSenseSpec;
+Lcom/adwhirl/adapters/AdWhirlAdapter;->getAdapter(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)Lcom/adwhirl/adapters/AdWhirlAdapter; [access_flags=private static] @ 0x94bc
+Lcom/adwhirl/adapters/AdWhirlAdapter;->handle()V [access_flags=public abstract] @ 0x0
+Lcom/adwhirl/adapters/AdWhirlAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0x9490
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/adwhirl/adapters/AdWhirlAdapter;->getNetworkAdapter(Ljava/lang/String; Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)Lcom/adwhirl/adapters/AdWhirlAdapter; [access_flags=private static] @ 0x96d0
+Lcom/adwhirl/adapters/EventAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xa2d4
+Lcom/adwhirl/adapters/AdWhirlAdapter;->unknownAdNetwork(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)Lcom/adwhirl/adapters/AdWhirlAdapter; [access_flags=private static] @ 0x9808
+Lcom/adwhirl/adapters/GenericAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xa3e4
+Lcom/adwhirl/adapters/CustomAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0x9ce4
+Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Lcom/adwhirl/adapters/AdSenseAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0x9848
+Lcom/adwhirl/adapters/AdSenseAdapter;->channelValueToHex(I)Ljava/lang/String; [access_flags=private] @ 0x9860
+Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+Lcom/adwhirl/adapters/AdSenseAdapter;->rgbToHex(I I I)Ljava/lang/String; [access_flags=private] @ 0x98bc
+Lcom/adwhirl/adapters/AdSenseAdapter;->handle()V [access_flags=public] @ 0x9918
+Landroid/text/TextUtils;->join(Ljava/lang/CharSequence; Ljava/lang/Iterable;)Ljava/lang/String;
+Landroid/view/ViewGroup$LayoutParams;-><init>(I I)V
+Lcom/google/ads/GoogleAdView;-><init>(Landroid/content/Context;)V
+Lcom/google/ads/AdSenseSpec$ExpandDirection;->valueOf(Ljava/lang/String;)Lcom/google/ads/AdSenseSpec$ExpandDirection;
+Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+Lcom/google/ads/GoogleAdView;->setAdViewListener(Lcom/google/ads/AdViewListener;)V
+Lcom/google/ads/GoogleAdView;->showAds(Lcom/google/ads/AdSpec;)V
+Landroid/view/ViewParent;->getParent()Landroid/view/ViewParent;
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Lcom/google/ads/GoogleAdView;->setVisibility(I)V
+Lcom/adwhirl/adapters/AdSenseAdapter;->onAdFetchFailure()V [access_flags=public] @ 0x9b24
+Lcom/adwhirl/adapters/AdSenseAdapter;->onFinishFetchAd()V [access_flags=public] @ 0x9b8c
+Lcom/adwhirl/adapters/CustomAdapter$DisplayCustomRunnable;-><init>(Lcom/adwhirl/adapters/CustomAdapter;)V [access_flags=public constructor] @ 0x9c20
+Lcom/adwhirl/adapters/CustomAdapter$DisplayCustomRunnable;->run()V [access_flags=public] @ 0x9c3c
+Lcom/adwhirl/adapters/CustomAdapter;->displayCustom()V [access_flags=public] @ 0x9cfc
+Lcom/adwhirl/adapters/CustomAdapter$FetchCustomRunnable;-><init>(Lcom/adwhirl/adapters/CustomAdapter;)V [access_flags=public constructor] @ 0x9c58
+Lcom/adwhirl/adapters/CustomAdapter$FetchCustomRunnable;->run()V [access_flags=public] @ 0x9c74
+Landroid/widget/TextView;->setGravity(I)V
+Landroid/widget/ImageView;->setScaleType(Landroid/widget/ImageView$ScaleType;)V
+Landroid/graphics/Color;->rgb(I I I)I
+Landroid/graphics/drawable/GradientDrawable;-><init>(Landroid/graphics/drawable/GradientDrawable$Orientation; [I)V
+Landroid/graphics/drawable/BitmapDrawable;-><init>(Ljava/io/InputStream;)V
+Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+Landroid/widget/ImageView;->getId()I
+Landroid/widget/RelativeLayout$LayoutParams;->addRule(I I)V
+Lcom/adwhirl/util/AdWhirlUtil;->convertToScreenPixels(I D)I [access_flags=public static] @ 0xb624
+Landroid/widget/ImageView;-><init>(Landroid/content/Context;)V
+Ljava/lang/Class;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+Landroid/widget/ImageView;->setPadding(I I I I)V
+Lcom/adwhirl/util/AdWhirlUtil;->getDensity(Landroid/app/Activity;)D [access_flags=public static] @ 0xb644
+Landroid/widget/ImageView;->setId(I)V
+Landroid/widget/TextView;-><init>(Landroid/content/Context;)V
+Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+Landroid/widget/TextView;->setTypeface(Landroid/graphics/Typeface; I)V
+Landroid/widget/RelativeLayout;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/FrameLayout$LayoutParams;-><init>(I I)V
+Landroid/widget/ImageView;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+Landroid/widget/TextView;->setTextColor(I)V
+Lcom/adwhirl/adapters/CustomAdapter;->handle()V [access_flags=public] @ 0xa290
+Lcom/adwhirl/adapters/EventAdapter;->handle()V [access_flags=public] @ 0xa2ec
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Lcom/adwhirl/adapters/GenericAdapter;->handle()V [access_flags=public] @ 0xa3fc
+Lcom/google/ads/AdListener;->onFailedToReceiveAd(Lcom/google/ads/Ad; Lcom/google/ads/AdRequest$ErrorCode;)V [access_flags=public abstract] @ 0x0
+Lcom/google/ads/AdListener;->onReceiveAd(Lcom/google/ads/Ad;)V [access_flags=public abstract] @ 0x0
+Lcom/google/ads/AdListener;->onDismissScreen(Lcom/google/ads/Ad;)V [access_flags=public abstract] @ 0x0
+Lcom/google/ads/AdListener;->onPresentScreen(Lcom/google/ads/Ad;)V [access_flags=public abstract] @ 0x0
+Lcom/google/ads/AdListener;->onLeaveApplication(Lcom/google/ads/Ad;)V [access_flags=public abstract] @ 0x0
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;->$SWITCH_TABLE$com$adwhirl$AdWhirlTargeting$Gender()[I [access_flags=static synthetic] @ 0xa464
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xa4fc
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;->birthdayForAdWhirlTargeting()Ljava/lang/String; [access_flags=protected] @ 0xa514
+Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+Ljava/util/GregorianCalendar;->getTime()Ljava/util/Date;
+Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;->genderForAdWhirlTargeting()Lcom/google/ads/AdRequest$Gender; [access_flags=protected] @ 0xa55c
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;->handle()V [access_flags=public] @ 0xa5b0
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;->requestForAdWhirlLayout(Lcom/adwhirl/AdWhirlLayout;)Lcom/google/ads/AdRequest; [access_flags=protected] @ 0xa76c
+Lcom/google/ads/AdView;->setAdListener(Lcom/google/ads/AdListener;)V [access_flags=public] @ 0xd1f8
+Lcom/google/ads/AdView;->loadAd(Lcom/google/ads/AdRequest;)V [access_flags=public] @ 0xd1a8
+Lcom/google/ads/AdView;-><init>(Landroid/app/Activity; Lcom/google/ads/AdSize; Ljava/lang/String;)V [access_flags=public constructor] @ 0xcc84
+Lcom/google/ads/AdRequest;->setBirthday(Ljava/lang/String;)V [access_flags=public] @ 0xcad8
+Lcom/google/ads/AdRequest;->setKeywords(Ljava/util/Set;)V [access_flags=public] @ 0xcb20
+Lcom/google/ads/AdRequest;-><init>()V [access_flags=public constructor] @ 0xc858
+Lcom/google/ads/AdRequest;->setGender(Lcom/google/ads/AdRequest$Gender;)V [access_flags=public] @ 0xcb08
+Lcom/google/ads/AdRequest;->setLocation(Landroid/location/Location;)V [access_flags=public] @ 0xcb38
+Lcom/google/ads/AdRequest;->setTesting(Z)V [access_flags=public] @ 0xcb68
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;->log(Ljava/lang/String;)V [access_flags=protected] @ 0xa618
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;->onFailedToReceiveAd(Lcom/google/ads/Ad; Lcom/google/ads/AdRequest$ErrorCode;)V [access_flags=public] @ 0xa668
+Lcom/google/ads/Ad;->setAdListener(Lcom/google/ads/AdListener;)V [access_flags=public abstract] @ 0x0
+Lcom/adwhirl/adapters/GoogleAdMobAdsAdapter;->onReceiveAd(Lcom/google/ads/Ad;)V [access_flags=public] @ 0xa6f8
+Lcom/adwhirl/adapters/InMobiAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xa7dc
+Lcom/adwhirl/adapters/InMobiAdapter;->adRequestCompleted(Lcom/inmobi/androidsdk/impl/InMobiAdView;)V [access_flags=public] @ 0xa80c
+Lcom/inmobi/androidsdk/impl/InMobiAdView;->stopReceivingNotifications()V
+Lcom/adwhirl/adapters/InMobiAdapter;->adRequestFailed(Lcom/inmobi/androidsdk/impl/InMobiAdView;)V [access_flags=public] @ 0xa86c
+Lcom/adwhirl/adapters/InMobiAdapter;->age()I [access_flags=public] @ 0xa8b0
+Lcom/adwhirl/adapters/InMobiAdapter;->gender()Lcom/inmobi/androidsdk/GenderType; [access_flags=public] @ 0xa930
+Lcom/adwhirl/adapters/InMobiAdapter;->handle()V [access_flags=public] @ 0xa96c
+Lcom/inmobi/androidsdk/impl/InMobiAdView;->loadNewAd()V
+Lcom/inmobi/androidsdk/impl/InMobiAdView;->requestAdUnitWithDelegate(Landroid/content/Context; Lcom/inmobi/androidsdk/InMobiAdDelegate; Landroid/app/Activity; I)Lcom/inmobi/androidsdk/impl/InMobiAdView;
+Lcom/adwhirl/adapters/InMobiAdapter;->keywords()Ljava/lang/String; [access_flags=public] @ 0xaa28
+Lcom/adwhirl/adapters/InMobiAdapter;->postalCode()Ljava/lang/String; [access_flags=public] @ 0xaa44
+Lcom/adwhirl/adapters/InMobiAdapter;->testMode()Z [access_flags=public] @ 0xaa90
+Lcom/adwhirl/adapters/MdotMAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xaaac
+Lcom/adwhirl/adapters/MdotMAdapter;->adRequestCompletedSuccessfully(Lcom/mdotm/android/ads/MdotMView;)V [access_flags=public] @ 0xaac4
+Lcom/mdotm/android/ads/MdotMView;->setListener(Lcom/mdotm/android/ads/MdotMView$MdotMActionListener;)V
+Lcom/mdotm/android/ads/MdotMView;->setVisibility(I)V
+Lcom/adwhirl/adapters/MdotMAdapter;->adRequestFailed(Lcom/mdotm/android/ads/MdotMView;)V [access_flags=public] @ 0xab30
+Lcom/adwhirl/adapters/MdotMAdapter;->handle()V [access_flags=public] @ 0xab74
+Lcom/mdotm/android/ads/MdotMView;-><init>(Landroid/content/Context; Lcom/mdotm/android/ads/MdotMView$MdotMActionListener;)V
+Lcom/mdotm/android/ads/MdotMView;->setBackgroundColor(I)V
+Lcom/mdotm/android/ads/MdotMManager;->setPublisherId(Ljava/lang/String;)V
+Lcom/mdotm/android/ads/MdotMManager;->setMediationLayerName(Ljava/lang/String;)V
+Lcom/mdotm/android/ads/MdotMManager;->setMediationLayerVersion(I)V
+Lcom/mdotm/android/ads/MdotMView;->setTextColor(I)V
+Lcom/adwhirl/adapters/MillennialAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xac38
+Lcom/adwhirl/adapters/MillennialAdapter;->MMAdClickedToNewBrowser(Lcom/millennialmedia/android/MMAdView;)V [access_flags=public] @ 0xac50
+Lcom/adwhirl/adapters/MillennialAdapter;->MMAdClickedToOverlay(Lcom/millennialmedia/android/MMAdView;)V [access_flags=public] @ 0xac70
+Lcom/adwhirl/adapters/MillennialAdapter;->MMAdFailed(Lcom/millennialmedia/android/MMAdView;)V [access_flags=public] @ 0xac90
+Lcom/millennialmedia/android/MMAdView;->setListener(Lcom/millennialmedia/android/MMAdView$MMAdListener;)V
+Lcom/adwhirl/adapters/MillennialAdapter;->MMAdOverlayLaunched(Lcom/millennialmedia/android/MMAdView;)V [access_flags=public] @ 0xacd4
+Lcom/adwhirl/adapters/MillennialAdapter;->MMAdReturned(Lcom/millennialmedia/android/MMAdView;)V [access_flags=public] @ 0xad08
+Lcom/adwhirl/adapters/MillennialAdapter;->handle()V [access_flags=public] @ 0xad6c
+Lcom/millennialmedia/android/MMAdView;->updateUserLocation(Landroid/location/Location;)V
+Ljava/util/Hashtable;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/millennialmedia/android/MMAdView;->setId(I)V
+Lcom/millennialmedia/android/MMAdView;->setVerticalScrollBarEnabled(Z)V
+Lcom/millennialmedia/android/MMAdView;-><init>(Landroid/app/Activity; Ljava/lang/String; Ljava/lang/String; I Ljava/util/Hashtable;)V
+Lcom/millennialmedia/android/MMAdView;->setHorizontalScrollBarEnabled(Z)V
+Lcom/millennialmedia/android/MMAdView;->callForAd()V
+Ljava/util/Hashtable;-><init>()V
+Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+Lcom/adwhirl/adapters/OneRiotAdapter;-><clinit>()V [access_flags=static constructor] @ 0xaed8
+Lcom/adwhirl/adapters/OneRiotAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xaf00
+Lcom/adwhirl/adapters/OneRiotAdapter;->adRequestCompletedSuccessfully(Lcom/oneriot/OneRiotAd;)V [access_flags=public] @ 0xaf48
+Lcom/adwhirl/adapters/OneRiotAdapter;->adRequestFailed(Lcom/oneriot/OneRiotAd;)V [access_flags=public] @ 0xaf9c
+Lcom/oneriot/OneRiotAd;->setListener(Lcom/oneriot/OneRiotAdActionListener;)V
+Lcom/adwhirl/adapters/OneRiotAdapter;->handle()V [access_flags=public] @ 0xafe0
+Lcom/oneriot/OneRiotAd;->addContextParameters(Ljava/lang/String;)V
+Lcom/oneriot/OneRiotAd;-><init>(Landroid/app/Activity; Ljava/lang/String;)V
+Lcom/oneriot/OneRiotAd;->setRefreshInterval(I)V
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Lcom/oneriot/OneRiotAd;->loadAd(Landroid/app/Activity;)V
+Lcom/oneriot/OneRiotAd;->setReportGPS(Z)V
+Lcom/adwhirl/adapters/QuattroAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xb08c
+Lcom/adwhirl/adapters/QuattroAdapter;->handle()V [access_flags=public] @ 0xb0e0
+Lcom/qwapi/adclient/android/view/QWAdView;->setBackgroundColor(I)V
+Lcom/qwapi/adclient/android/view/QWAdView;->setTextColor(I)V
+Lcom/qwapi/adclient/android/view/QWAdView;-><init>(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Lcom/qwapi/adclient/android/requestparams/MediaType; Lcom/qwapi/adclient/android/requestparams/Placement; Lcom/qwapi/adclient/android/requestparams/DisplayMode; I Lcom/qwapi/adclient/android/requestparams/AnimationType; Lcom/qwapi/adclient/android/view/AdEventsListener; Z)V
+Lcom/adwhirl/adapters/QuattroAdapter;->onAdRequest(Landroid/content/Context; Lcom/qwapi/adclient/android/requestparams/AdRequestParams;)V [access_flags=public] @ 0xb19c
+Lcom/qwapi/adclient/android/requestparams/AdRequestParams;->setZipCode(Ljava/lang/String;)V
+Lcom/qwapi/adclient/android/requestparams/AdRequestParams;->setBirthDate(Ljava/util/Date;)V
+Lcom/qwapi/adclient/android/requestparams/AdRequestParams;->setGender(Lcom/qwapi/adclient/android/requestparams/Gender;)V
+Lcom/qwapi/adclient/android/requestparams/AdRequestParams;->setTestMode(Z)V
+Lcom/adwhirl/adapters/QuattroAdapter;->onAdRequestFailed(Landroid/content/Context; Lcom/qwapi/adclient/android/requestparams/AdRequestParams; Lcom/qwapi/adclient/android/data/Status;)V [access_flags=public] @ 0xb224
+Lcom/qwapi/adclient/android/view/QWAdView;->setAdEventsListener(Lcom/qwapi/adclient/android/view/AdEventsListener; Z)V
+Lcom/adwhirl/adapters/QuattroAdapter;->onAdRequestSuccessful(Landroid/content/Context; Lcom/qwapi/adclient/android/requestparams/AdRequestParams; Lcom/qwapi/adclient/android/data/Ad;)V [access_flags=public] @ 0xb274
+Lcom/adwhirl/adapters/ZestAdzAdapter;-><init>(Lcom/adwhirl/AdWhirlLayout; Lcom/adwhirl/obj/Ration;)V [access_flags=public constructor] @ 0xb2f4
+Lcom/adwhirl/adapters/ZestAdzAdapter;->AdFailed(Lcom/zestadz/android/ZestADZAdView;)V [access_flags=public] @ 0xb30c
+Lcom/zestadz/android/ZestADZAdView;->setListener(Lcom/zestadz/android/ZestADZAdView$ZestADZListener;)V
+Lcom/adwhirl/adapters/ZestAdzAdapter;->AdReturned(Lcom/zestadz/android/ZestADZAdView;)V [access_flags=public] @ 0xb350
+Lcom/adwhirl/adapters/ZestAdzAdapter;->handle()V [access_flags=public] @ 0xb3ac
+Lcom/zestadz/android/AdManager;->setadclientId(Ljava/lang/String;)V
+Lcom/zestadz/android/ZestADZAdView;-><init>(Landroid/app/Activity;)V
+Lcom/zestadz/android/ZestADZAdView;->displayAd()V
+Lcom/adwhirl/obj/Ration;->compareTo(Ljava/lang/Object;)I [access_flags=public bridge synthetic] @ 0xb524
+Lcom/adwhirl/obj/Ration;->compareTo(Lcom/adwhirl/obj/Ration;)I [access_flags=public] @ 0xb4f4
+Ljava/lang/StringBuffer;->append(C)Ljava/lang/StringBuffer;
+Ljava/lang/StringBuffer;-><init>()V
+Landroid/app/Activity;->getWindowManager()Landroid/view/WindowManager;
+Lcom/adwhirl/util/AdWhirlUtil;->convertToScreenPixels(D D)D [access_flags=public static] @ 0xb5fc
+Lcom/adwhirl/util/AdWhirlUtil;-><init>()V [access_flags=public constructor] @ 0xb560
+Lcom/colorme/game/jingxian/FTAADlg$1;-><init>(Landroid/content/Context;)V [access_flags=constructor] @ 0xb694
+Lcom/colorme/game/jingxian/FTAADlg$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xb6b0
+Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+Landroid/content/pm/PackageManager;->resolveActivity(Landroid/content/Intent; I)Landroid/content/pm/ResolveInfo;
+Lcom/colorme/game/jingxian/FTAADlg$2;-><init>(Landroid/content/Context;)V [access_flags=constructor] @ 0xb708
+Lcom/colorme/game/jingxian/FTAADlg$2;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0xb724
+Lcom/colorme/game/jingxian/GameMain;->finish()V
+Lcom/colorme/game/jingxian/FTAADlg;-><init>()V [access_flags=public constructor] @ 0xb750
+Lcom/colorme/game/jingxian/FTAADlg;->DisplayDlg(Landroid/content/Context; I)V [access_flags=public static] @ 0xb768
+Landroid/app/AlertDialog$Builder;->setPositiveButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+Landroid/app/AlertDialog$Builder;->setNegativeButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
+Lcom/colorme/game/jingxian/FTAADlg;->ExitDlg(Landroid/content/Context;)V [access_flags=public static] @ 0xb7c0
+Lcom/colorme/game/jingxian/GameMain$1;-><init>(Lcom/colorme/game/jingxian/GameMain;)V [access_flags=constructor] @ 0xb820
+Ljava/util/TimerTask;-><init>()V
+Lcom/colorme/game/jingxian/GameMain$1;->run()V [access_flags=public] @ 0xb83c
+Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
+Landroid/os/Message;-><init>()V
+Lcom/colorme/game/jingxian/GameMain$2;-><init>(Lcom/colorme/game/jingxian/GameMain;)V [access_flags=constructor] @ 0xb86c
+Lcom/colorme/game/jingxian/GameMain$2;->handleMessage(Landroid/os/Message;)V [access_flags=public] @ 0xb888
+Lcom/colorme/game/jingxian/GameMain;->access$104(Lcom/colorme/game/jingxian/GameMain;)I [access_flags=static synthetic] @ 0xb9d0
+Lcom/colorme/game/jingxian/GameMain;->access$102(Lcom/colorme/game/jingxian/GameMain; I)I [access_flags=static synthetic] @ 0xb9b8
+Lcom/colorme/game/jingxian/GameMain;->access$000(Lcom/colorme/game/jingxian/GameMain;)Lcom/adwhirl/AdWhirlLayout; [access_flags=static synthetic] @ 0xb988
+Lcom/colorme/game/jingxian/GameMain;->access$100(Lcom/colorme/game/jingxian/GameMain;)I [access_flags=static synthetic] @ 0xb9a0
+Lcom/colorme/game/jingxian/GameMain;-><init>()V [access_flags=public constructor] @ 0xb948
+Landroid/app/Activity;-><init>()V
+Lcom/colorme/game/jingxian/GameMain;->CheckFlash()V [access_flags=protected] @ 0xb9f0
+Ljava/util/List;->get(I)Ljava/lang/Object;
+Landroid/content/pm/PackageManager;->getInstalledPackages(I)Ljava/util/List;
+Ljava/util/List;->size()I
+Lcom/colorme/game/jingxian/GameMain;->getPackageManager()Landroid/content/pm/PackageManager;
+Lcom/colorme/game/jingxian/GameMain;->gamePause()V [access_flags=public] @ 0xba78
+Lcom/colorme/game/jingxian/GameMain;->gameResume()V [access_flags=public] @ 0xbaa0
+Lcom/colorme/game/jingxian/GameMain;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0xbad0
+Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lcom/colorme/game/jingxian/GameMain;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0xbae8
+Landroid/webkit/WebSettings;->setPluginState(Landroid/webkit/WebSettings$PluginState;)V
+Lcom/colorme/game/jingxian/GameMain;->setContentView(I)V
+Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+Landroid/widget/LinearLayout;->addView(Landroid/view/View; Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/webkit/WebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
+Landroid/webkit/WebView;->setScrollBarStyle(I)V
+Ljava/util/Timer;->schedule(Ljava/util/TimerTask; J J)V
+Ljava/util/Timer;-><init>(Z)V
+Landroid/webkit/WebView;->clearCache(Z)V
+Lcom/colorme/game/jingxian/GameMain;->findViewById(I)Landroid/view/View;
+Landroid/widget/LinearLayout;->invalidate()V
+Landroid/webkit/WebChromeClient;-><init>()V
+Landroid/webkit/WebSettings;->setPluginsEnabled(Z)V
+Landroid/widget/LinearLayout;->setGravity(I)V
+Lcom/colorme/game/jingxian/GameMain;->onDestroy()V [access_flags=protected] @ 0xbc04
+Landroid/app/Activity;->onDestroy()V
+Landroid/os/Process;->myPid()I
+Landroid/os/Process;->killProcess(I)V
+Landroid/webkit/WebView;->freeMemory()V
+Lcom/colorme/game/jingxian/GameMain;->onKeyDown(I Landroid/view/KeyEvent;)Z [access_flags=public] @ 0xbc34
+Landroid/app/Activity;->onKeyDown(I Landroid/view/KeyEvent;)Z
+Lcom/colorme/game/jingxian/GameMain;->onPause()V [access_flags=public] @ 0xbc60
+Landroid/app/Activity;->onPause()V
+Lcom/colorme/game/jingxian/GameMain;->onResume()V [access_flags=public] @ 0xbc78
+Landroid/app/Activity;->onResume()V
+Lcom/colorme/game/jingxian/R$attr;-><init>()V [access_flags=public constructor] @ 0xbc90
+Lcom/colorme/game/jingxian/R$drawable;-><init>()V [access_flags=public constructor] @ 0xbca8
+Lcom/colorme/game/jingxian/R$id;-><init>()V [access_flags=public constructor] @ 0xbcc0
+Lcom/colorme/game/jingxian/R$layout;-><init>()V [access_flags=public constructor] @ 0xbcd8
+Lcom/colorme/game/jingxian/R$string;-><init>()V [access_flags=public constructor] @ 0xbcf0
+Lcom/colorme/game/jingxian/R;-><init>()V [access_flags=public constructor] @ 0xbd08
+Lcom/google/ads/AdActivity;-><clinit>()V [access_flags=static constructor] @ 0xbd20
+Lcom/google/ads/AdActivity;-><init>()V [access_flags=public constructor] @ 0xbd54
+Lcom/google/ads/AdActivity;->a(Lg; Z I)V [access_flags=private] @ 0xbd74
+Lg;->getParent()Landroid/view/ViewParent;
+Lcom/google/ads/AdActivity;->getApplicationContext()Landroid/content/Context;
+Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+Lg;->a(Lcom/google/ads/AdActivity;)V [access_flags=public final] @ 0x1019c
+Landroid/util/TypedValue;->applyDimension(I F Landroid/util/DisplayMetrics;)F
+Lcom/google/ads/AdActivity;->getWindow()Landroid/view/Window;
+Landroid/widget/ImageButton;->setImageResource(I)V
+Lcom/google/ads/AdActivity;->setContentView(Landroid/view/View;)V
+Landroid/widget/ImageButton;->setBackgroundDrawable(Landroid/graphics/drawable/Drawable;)V
+Landroid/widget/ImageButton;->setPadding(I I I I)V
+Lcom/google/ads/AdActivity;->requestWindowFeature(I)Z
+Lcom/google/ads/AdActivity;->a(Ljava/lang/String;)V [access_flags=private] @ 0xbe64
+Landroid/widget/ImageButton;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+Lcom/google/ads/AdActivity;->setRequestedOrientation(I)V
+Landroid/view/Window;->setFlags(I I)V
+Lg;->b()Lcom/google/ads/AdActivity; [access_flags=public final] @ 0x101b4
+Landroid/widget/ImageButton;-><init>(Landroid/content/Context;)V
+Lcom/google/ads/AdActivity;->getResources()Landroid/content/res/Resources;
+Landroid/widget/RelativeLayout;->addView(Landroid/view/View;)V
+Lcom/google/ads/AdActivity;->finish()V
+Lcom/google/ads/util/a;->b(Ljava/lang/String;)V [access_flags=public static] @ 0xe734
+Lcom/google/ads/AdActivity;->launchAdActivity(Ld; Le;)V [access_flags=public static] @ 0xbe84
+Landroid/content/Intent;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Bundle;)Landroid/content/Intent;
+Le;->a()Landroid/os/Bundle; [access_flags=public final] @ 0xfc64
+Landroid/content/ActivityNotFoundException;->getMessage()Ljava/lang/String;
+Lcom/google/ads/AdActivity;->getOpeningAdWebView()Lg; [access_flags=public] @ 0xbf4c
+Lcom/google/ads/AdActivity;->onClick(Landroid/view/View;)V [access_flags=public] @ 0xbfd8
+Lcom/google/ads/AdActivity;->onCompletion(Landroid/media/MediaPlayer;)V [access_flags=public] @ 0xbff0
+Lg;->loadUrl(Ljava/lang/String;)V
+Landroid/widget/VideoView;->setVisibility(I)V
+Lcom/google/ads/AdActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0xc030
+Le;-><init>(Landroid/os/Bundle;)V [access_flags=public constructor] @ 0xfbe4
+Ld;->m()I [access_flags=public final synchronized] @ 0xf704
+Lh;->b()V [access_flags=public final] @ 0x10368
+Lcom/google/ads/AdActivity;->startActivity(Landroid/content/Intent;)V
+Lg;-><init>(Landroid/content/Context; Lcom/google/ads/AdSize;)V [access_flags=public constructor] @ 0x10138
+Le;->c()Ljava/util/HashMap; [access_flags=public final] @ 0xfcb4
+Le;->b()Ljava/lang/String; [access_flags=public final] @ 0xfc9c
+Ld;->t()V [access_flags=public final synchronized] @ 0xf8f4
+Lg;->setWebViewClient(Landroid/webkit/WebViewClient;)V
+Landroid/content/Intent;->setDataAndType(Landroid/net/Uri; Ljava/lang/String;)Landroid/content/Intent;
+Landroid/content/Intent;->getBundleExtra(Ljava/lang/String;)Landroid/os/Bundle;
+Lcom/google/ads/AdActivity;->getIntent()Landroid/content/Intent;
+Ld;->s()V [access_flags=public final synchronized] @ 0xf8a0
+Lcom/google/ads/AdActivity;->onDestroy()V [access_flags=public] @ 0xc3c0
+Lg;->destroy()V
+Ld;->r()V [access_flags=public final synchronized] @ 0xf84c
+Lcom/google/ads/AdActivity;->isFinishing()Z
+Landroid/widget/VideoView;->stopPlayback()V
+Ld;->a()V [access_flags=public final synchronized] @ 0xf100
+Lcom/google/ads/AdActivity;->onError(Landroid/media/MediaPlayer; I I)Z [access_flags=public] @ 0xc4e0
+Lcom/google/ads/AdActivity;->onPrepared(Landroid/media/MediaPlayer;)V [access_flags=public] @ 0xc548
+Lcom/google/ads/AdActivity;->onWindowFocusChanged(Z)V [access_flags=public] @ 0xc574
+Landroid/app/Activity;->onWindowFocusChanged(Z)V
+Lcom/google/ads/AdActivity;->showVideo(Landroid/widget/VideoView;)V [access_flags=public] @ 0xc5c4
+Landroid/widget/VideoView;->setOnPreparedListener(Landroid/media/MediaPlayer$OnPreparedListener;)V
+Lg;->setBackgroundColor(I)V
+Landroid/widget/RelativeLayout;->addView(Landroid/view/View; I Landroid/view/ViewGroup$LayoutParams;)V
+Landroid/widget/LinearLayout;-><init>(Landroid/content/Context;)V
+Landroid/widget/VideoView;->setOnCompletionListener(Landroid/media/MediaPlayer$OnCompletionListener;)V
+Landroid/widget/VideoView;->setOnErrorListener(Landroid/media/MediaPlayer$OnErrorListener;)V
+Lcom/google/ads/AdActivity;->getVideoView()Landroid/widget/VideoView; [access_flags=public] @ 0xbfc0
+Lcom/google/ads/AdRequest$ErrorCode;-><clinit>()V [access_flags=static constructor] @ 0xc644
+Lcom/google/ads/AdRequest$ErrorCode;-><init>(Ljava/lang/String; I Ljava/lang/String;)V [access_flags=private constructor] @ 0xc6e0
+Lcom/google/ads/AdRequest$ErrorCode;->valueOf(Ljava/lang/String;)Lcom/google/ads/AdRequest$ErrorCode; [access_flags=public static] @ 0xc6fc
+Lcom/google/ads/AdRequest$ErrorCode;->values()[Lcom/google/ads/AdRequest$ErrorCode; [access_flags=public static] @ 0xc720
+[Lcom/google/ads/AdRequest$ErrorCode;->clone()Ljava/lang/Object;
+Lcom/google/ads/AdRequest$Gender;-><clinit>()V [access_flags=static constructor] @ 0xc75c
+Lcom/google/ads/AdRequest$Gender;-><init>(Ljava/lang/String; I Ljava/lang/String;)V [access_flags=private constructor] @ 0xc7b8
+Lcom/google/ads/AdRequest$Gender;->valueOf(Ljava/lang/String;)Lcom/google/ads/AdRequest$Gender; [access_flags=public static] @ 0xc7d4
+Lcom/google/ads/AdRequest$Gender;->values()[Lcom/google/ads/AdRequest$Gender; [access_flags=public static] @ 0xc7f8
+[Lcom/google/ads/AdRequest$Gender;->clone()Ljava/lang/Object;
+Lcom/google/ads/AdRequest$Gender;->toString()Ljava/lang/String; [access_flags=public final] @ 0xc81c
+Lcom/google/ads/AdRequest;->isTestDevice(Landroid/content/Context;)Z [access_flags=public] @ 0xca94
+Lcom/google/ads/util/AdUtil;->a(Landroid/location/Location;)Ljava/lang/String; [access_flags=public static] @ 0xd9d4
+Lcom/google/ads/AdRequest;-><clinit>()V [access_flags=static constructor] @ 0xc834
+Lcom/google/ads/util/AdUtil;->a(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0xdaa8
+Lcom/google/ads/AdRequest;->addExtra(Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public] @ 0xc894
+Lcom/google/ads/AdRequest;->addKeyword(Ljava/lang/String;)V [access_flags=public] @ 0xc8c8
+Lcom/google/ads/AdRequest;->addTestDevice(Ljava/lang/String;)V [access_flags=public] @ 0xc8fc
+Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+Lcom/google/ads/AdSize;-><clinit>()V [access_flags=static constructor] @ 0xcb80
+Lcom/google/ads/AdSize;-><init>(I I Ljava/lang/String;)V [access_flags=private constructor] @ 0xcc18
+Lcom/google/ads/AdSize;-><init>(I I)V [access_flags=public constructor] @ 0xcbfc
+Lcom/google/ads/AdView;->a(Landroid/content/Context; Lcom/google/ads/AdSize;)Z [access_flags=private] @ 0xd110
+Lcom/google/ads/AdView;->a(Landroid/app/Activity; Lcom/google/ads/AdSize; Ljava/lang/String;)V [access_flags=private] @ 0xcf54
+Ld;->a(Lcom/google/ads/AdListener;)V [access_flags=public final synchronized] @ 0xf294
+Ld;->a(Lcom/google/ads/AdRequest;)V [access_flags=public final synchronized] @ 0xf378
+Ld;->c()V [access_flags=public final synchronized] @ 0xf4e0
+Lcom/google/ads/AdView;->isRefreshing()Z [access_flags=public] @ 0xd188
+Lcom/google/ads/util/AdUtil;->b(Landroid/content/Context;)Z [access_flags=public static] @ 0xe09c
+Lcom/google/ads/AdView;->a(Landroid/content/Context; Ljava/lang/String; Lcom/google/ads/AdSize;)V [access_flags=private] @ 0xd0c0
+Lcom/google/ads/AdView;->addView(Landroid/view/View; I I)V
+Lcom/google/ads/AdView;->setLayoutParams(Landroid/view/ViewGroup$LayoutParams;)V
+Ld;-><init>(Landroid/app/Activity; Lcom/google/ads/Ad; Lcom/google/ads/AdSize; Ljava/lang/String;)V [access_flags=public constructor] @ 0xef8c
+Landroid/app/Activity;->getResources()Landroid/content/res/Resources;
+Lcom/google/ads/AdView;->setGravity(I)V
+Lcom/google/ads/AdView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet;)V [access_flags=public constructor] @ 0xccb8
+Landroid/util/AttributeSet;->getAttributeValue(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Lcom/google/ads/AdView;->isInEditMode()Z
+Landroid/util/AttributeSet;->getAttributeBooleanValue(Ljava/lang/String; Ljava/lang/String; Z)Z
+Lcom/google/ads/AdView;->a(Landroid/content/Context; Ljava/lang/String; I Lcom/google/ads/AdSize;)V [access_flags=private] @ 0xcfec
+Landroid/content/res/Resources;->getValue(Ljava/lang/String; Landroid/util/TypedValue; Z)V
+Landroid/util/TypedValue;-><init>()V
+Lcom/google/ads/AdView;->getResources()Landroid/content/res/Resources;
+Landroid/widget/LinearLayout;->addView(Landroid/view/View;)V
+Lcom/google/ads/AdView;->getChildCount()I
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Landroid/widget/TextView;->setBackgroundColor(I)V
+Landroid/widget/LinearLayout;->addView(Landroid/view/View; I I)V
+Landroid/widget/LinearLayout;->setBackgroundColor(I)V
+Lcom/google/ads/AdView;-><init>(Landroid/content/Context; Landroid/util/AttributeSet; I)V [access_flags=public constructor] @ 0xcf3c
+Lcom/google/ads/AdView;->destroy()V [access_flags=public] @ 0xd140
+Ld;->b()V [access_flags=public final synchronized] @ 0xf46c
+Lcom/google/ads/AdView;->isReady()Z [access_flags=public] @ 0xd15c
+Ld;->o()Z [access_flags=public final synchronized] @ 0xf778
+Lcom/google/ads/AdView;->stopLoading()V [access_flags=public] @ 0xd214
+Ld;->y()V [access_flags=public final synchronized] @ 0xfb98
+Lcom/google/ads/AdView;->isShown()Z
+Lcom/google/ads/InstallReceiver;-><init>()V [access_flags=public constructor] @ 0xd230
+Landroid/content/BroadcastReceiver;-><init>()V
+Lcom/google/ads/InstallReceiver;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0xd248
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Ljava/net/URLEncoder;->encode(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/StringBuilder;-><init>(I)V
+Lcom/google/ads/InstallReceiver;->forwardIntent(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xd3d4
+Landroid/os/Bundle;->keySet()Ljava/util/Set;
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Landroid/content/pm/PackageManager;->getReceiverInfo(Landroid/content/ComponentName; I)Landroid/content/pm/ActivityInfo;
+Landroid/content/ComponentName;-><init>(Landroid/content/Context; Ljava/lang/Class;)V
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Landroid/content/BroadcastReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V
+Lcom/google/ads/InstallReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xd588
+Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
+Lcom/google/ads/InterstitialAd;-><init>(Landroid/app/Activity; Ljava/lang/String;)V [access_flags=public constructor] @ 0xd654
+Lcom/google/ads/InterstitialAd;->isReady()Z [access_flags=public] @ 0xd67c
+Lcom/google/ads/InterstitialAd;->loadAd(Lcom/google/ads/AdRequest;)V [access_flags=public] @ 0xd69c
+Lcom/google/ads/InterstitialAd;->setAdListener(Lcom/google/ads/AdListener;)V [access_flags=public] @ 0xd6b8
+Lcom/google/ads/InterstitialAd;->show()V [access_flags=public] @ 0xd6d4
+Le;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0xfc2c
+Ld;->x()V [access_flags=public final synchronized] @ 0xfb68
+Ld;->u()V [access_flags=public final synchronized] @ 0xf93c
+Lcom/google/ads/InterstitialAd;->stopLoading()V [access_flags=public] @ 0xd72c
+Lcom/google/ads/util/AdUtil$UserActivityReceiver;-><init>()V [access_flags=public constructor] @ 0xd748
+Lcom/google/ads/util/AdUtil$UserActivityReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0xd760
+Landroid/content/Intent;->getAction()Ljava/lang/String;
+Lcom/google/ads/util/AdUtil;->a(Z)V [access_flags=public static] @ 0xdd2c
+Lcom/google/ads/util/AdUtil$a;-><clinit>()V [access_flags=static constructor] @ 0xd7b4
+Lcom/google/ads/util/AdUtil$a;-><init>(Ljava/lang/String; I)V [access_flags=private constructor] @ 0xd87c
+Lcom/google/ads/util/AdUtil$a;->valueOf(Ljava/lang/String;)Lcom/google/ads/util/AdUtil$a; [access_flags=public static] @ 0xd894
+Lcom/google/ads/util/AdUtil$a;->values()[Lcom/google/ads/util/AdUtil$a; [access_flags=public static] @ 0xd8b8
+[Lcom/google/ads/util/AdUtil$a;->clone()Ljava/lang/Object;
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/net/URLDecoder;->decode(Ljava/lang/String;)Ljava/lang/String;
+Landroid/net/Uri;->getEncodedQuery()Ljava/lang/String;
+Ljava/lang/String;->indexOf(I)I
+Lcom/google/ads/util/AdUtil;->i(Landroid/content/Context;)Ljava/lang/String; [access_flags=private static] @ 0xe47c
+Landroid/webkit/WebView;->getContext()Landroid/content/Context;
+Landroid/webkit/WebSettings;->setUserAgentString(Ljava/lang/String;)V
+Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver; Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+Ljava/lang/String;->toUpperCase()Ljava/lang/String;
+Landroid/net/NetworkInfo;->getType()I
+Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+Landroid/content/pm/PackageManager;->queryIntentActivities(Landroid/content/Intent; I)Ljava/util/List;
+Ljava/lang/StringBuilder;->length()I
+Landroid/media/AudioManager;->getMode()I
+Landroid/media/AudioManager;->getRingerMode()I
+Landroid/media/AudioManager;->isMusicActive()Z
+Landroid/media/AudioManager;->isSpeakerphoneOn()Z
+Landroid/view/Display;->getOrientation()I
+Lcom/google/ads/util/AdUtil;->b(Ljava/util/Map;)Lorg/json/JSONObject; [access_flags=private static] @ 0xdf1c
+Ljava/security/MessageDigest;->update([B I I)V
+Ljava/math/BigInteger;-><init>(I [B)V
+Ljava/security/MessageDigest;->digest()[B
+Landroid/location/Location;->getAccuracy()F
+Lcom/google/ads/util/AdUtil;->b(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0xddd8
+Landroid/content/pm/PackageManager;->checkPermission(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/google/ads/util/AdUtil;-><init>()V [access_flags=private constructor] @ 0xd908
+Ljavax/crypto/Cipher;->doFinal([B)[B
+Ljavax/crypto/Cipher;->init(I Ljava/security/Key;)V
+Lcom/google/ads/util/b;->a([B)Ljava/lang/String; [access_flags=public static] @ 0xee78
+Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+Ljavax/crypto/spec/SecretKeySpec;-><init>([B Ljava/lang/String;)V
+Ljavax/crypto/Cipher;->getIV()[B
+Ljava/util/Map;->isEmpty()Z
+Ljava/lang/String;->toString()Ljava/lang/String;
+Lcom/google/ads/util/AdUtil;->a(Ljava/util/Set;)Lorg/json/JSONArray; [access_flags=private static] @ 0xdb84
+Lorg/json/JSONObject;-><init>()V
+Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+Ljava/util/Map;->keySet()Ljava/util/Set;
+Ljava/lang/Class;->getCanonicalName()Ljava/lang/String;
+Lorg/json/JSONArray;->put(Ljava/lang/Object;)Lorg/json/JSONArray;
+Lorg/json/JSONArray;-><init>()V
+Ljava/util/Set;->isEmpty()Z
+Ljava/lang/System;->getProperty(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+Ljava/util/Locale;->getCountry()Ljava/lang/String;
+Landroid/webkit/WebSettings;->getUserAgentString()Ljava/lang/String;
+Lcom/google/ads/util/AdUtil;->a(Landroid/net/Uri;)Z [access_flags=public static] @ 0xdd98
+Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+Lcom/google/ads/util/AdUtil;->c(Landroid/content/Context;)Z [access_flags=public static] @ 0xe100
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/lang/Boolean;->booleanValue()Z
+Lcom/google/ads/util/AdUtil;->h(Landroid/content/Context;)V [access_flags=public static] @ 0xe42c
+Landroid/content/IntentFilter;-><init>()V
+Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
+Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+Lcom/google/ads/util/AdUtil;->b()Z [access_flags=public static] @ 0xe084
+Lcom/google/ads/util/a;->a(Ljava/lang/String; I)Z [access_flags=private static] @ 0xe6fc
+Landroid/util/Log;->v(Ljava/lang/String; Ljava/lang/String;)I
+Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Lcom/google/ads/util/a;-><init>()V [access_flags=private constructor] @ 0xe684
+Landroid/util/Log;->isLoggable(Ljava/lang/String; I)Z
+Lcom/google/ads/util/b$a;-><init>()V [access_flags=public constructor] @ 0xe854
+Lcom/google/ads/util/b$b;-><clinit>()V [access_flags=static constructor] @ 0xe86c
+Ljava/lang/Class;->desiredAssertionStatus()Z
+Lcom/google/ads/util/b$b;-><init>()V [access_flags=public constructor] @ 0xe948
+Lcom/google/ads/util/b$b;->a([B I)Z [access_flags=public final] @ 0xe9a0
+Ljava/lang/AssertionError;-><init>()V
+Ljava/lang/AssertionError;-><init>(Ljava/lang/Object;)V
+Ljava/lang/String;-><init>([B Ljava/lang/String;)V
+Lcom/google/ads/util/b;-><clinit>()V [access_flags=static constructor] @ 0xee34
+Lcom/google/ads/util/b;-><init>()V [access_flags=private constructor] @ 0xee60
+Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
+Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable; J)Z
+Lf;->c()V [access_flags=final] @ 0xfe48
+Lf;->l()V [access_flags=final] @ 0x10088
+Lf;->n()V [access_flags=final] @ 0x100c4
+Lf;->b()V [access_flags=final] @ 0xfdcc
+Lf;->o()V [access_flags=public final] @ 0x100e8
+Lf;-><init>()V [access_flags=constructor] @ 0xfce8
+Lx;-><init>(Ld;)V [access_flags=public constructor] @ 0x10f18
+Ljava/util/LinkedList;-><init>()V
+Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+Ld;->z()Z [access_flags=private synchronized] @ 0xf0c8
+Ljava/util/LinkedList;->iterator()Ljava/util/Iterator;
+Ljava/util/LinkedList;->clear()V
+Lw;-><init>(Ljava/lang/String; Landroid/content/Context;)V [access_flags=public constructor] @ 0x10e30
+Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+Ljava/lang/Thread;->start()V
+Ld;-><clinit>()V [access_flags=static constructor] @ 0xef6c
+Ld;->v()Z [access_flags=public final synchronized] @ 0xf9e8
+Ljava/util/LinkedList;->isEmpty()Z
+Ld;->w()V [access_flags=public final synchronized] @ 0xfab0
+Ld;->g()Lc; [access_flags=public final synchronized] @ 0xf638
+Landroid/os/Bundle;->putString(Ljava/lang/String; Ljava/lang/String;)V
+Landroid/os/Bundle;-><init>()V
+Landroid/os/Bundle;->putSerializable(Ljava/lang/String; Ljava/io/Serializable;)V
+Landroid/os/Bundle;->getSerializable(Ljava/lang/String;)Ljava/io/Serializable;
+Le;-><init>(Ljava/lang/String; Ljava/util/HashMap;)V [access_flags=public constructor] @ 0xfc48
+Ljava/util/LinkedList;->get(I)Ljava/lang/Object;
+Ljava/lang/Long;->toString(J)Ljava/lang/String;
+Ljava/util/LinkedList;->size()I
+Ljava/lang/Long;->longValue()J
+Lf;->a(Ljava/lang/String;)V [access_flags=public final] @ 0xfd88
+Lf;->b(Ljava/lang/String;)V [access_flags=public final] @ 0xfe04
+Lg;->getSettings()Landroid/webkit/WebSettings;
+Lg;->setScrollBarStyle(I)V
+Lg;->a()V [access_flags=public final] @ 0x10178
+Lg;->onMeasure(I I)V [access_flags=protected final] @ 0x101cc
+Landroid/webkit/WebView;->onMeasure(I I)V
+Lg;->setMeasuredDimension(I I)V
+Lg;->isInEditMode()Z
+Lg;->getContext()Landroid/content/Context;
+Landroid/view/View$MeasureSpec;->getMode(I)I
+Landroid/webkit/WebViewClient;-><init>()V
+Lh;->onPageFinished(Landroid/webkit/WebView; Ljava/lang/String;)V [access_flags=public final] @ 0x10380
+Lh;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public final] @ 0x103d4
+Landroid/webkit/WebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z
+Lj;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x1057c
+Ljava/lang/String;->split(Ljava/lang/String; I)[Ljava/lang/String;
+Lk;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10660
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Ll;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10790
+Lm;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x107d8
+Ln;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10870
+Lo;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x108e4
+Lp;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10984
+Lq;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10a2c
+Lr;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10ac4
+Ls;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10b48
+Lt;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10b78
+Lv;->a(Ld; Ljava/util/HashMap; Landroid/webkit/WebView;)V [access_flags=public final] @ 0x10c38
+Landroid/widget/VideoView;->pause()V
+Landroid/widget/VideoView;->seekTo(I)V
+Landroid/widget/VideoView;-><init>(Landroid/content/Context;)V
+Landroid/widget/VideoView;->start()V
+Landroid/widget/VideoView;->setVideoPath(Ljava/lang/String;)V
+Ljava/lang/Float;->floatValue()F
+Ljava/lang/Float;->valueOf(Ljava/lang/String;)Ljava/lang/Float;
+Lw;->run()V [access_flags=public final] @ 0x10e50
+Lx;->run()V [access_flags=public final] @ 0x10f40

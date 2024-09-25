@@ -1,0 +1,24 @@
+6147df200fafbe99356335a817bf9fcbb1bb2fd9a6c5e6c9727abafda126acb6:['File']
+------------------------------
+Permissions:
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/6147df200fafbe99356335a817bf9fcbb1bb2fd9a6c5e6c9727abafda126acb6/api.txt
+------------------------------
+Intent:
+com.baidu.action.Xshield.VIEW
+android.intent.action.BOOT_COMPLETED
+com.baidu.category.xshield
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/6147df200fafbe99356335a817bf9fcbb1bb2fd9a6c5e6c9727abafda126acb6/6147df200fafbe99356335a817bf9fcbb1bb2fd9a6c5e6c9727abafda126acb6.gml

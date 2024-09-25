@@ -1,0 +1,22 @@
+663f7826d3136edf07e555c4d01682a35fcf6f47b69a26e74af03d3a344c89b9:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.SET_WALLPAPER
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/663f7826d3136edf07e555c4d01682a35fcf6f47b69a26e74af03d3a344c89b9/api.txt
+------------------------------
+Intent:
+android.appwidget.action.APPWIDGET_UPDATE
+MY_OWN_WIDGET_UPDATE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/663f7826d3136edf07e555c4d01682a35fcf6f47b69a26e74af03d3a344c89b9/663f7826d3136edf07e555c4d01682a35fcf6f47b69a26e74af03d3a344c89b9.gml

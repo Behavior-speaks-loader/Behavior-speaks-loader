@@ -1,0 +1,38 @@
+6748989a8093abd547cfa4c0cd61628d2f2a20255038fb476cf40b97fa67fef0:['File', 'Location', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ com.android.vending.BILLING
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.REORDER_TASKS
+android.permission.ACCESS_WIFI_STATE
+getui.permission.GetuiService.com.bestnovelteam.reader.novel
+android.permission.CHANGE_WIFI_STATE
+com.google.android.c2dm.permission.RECEIVE
+com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/6748989a8093abd547cfa4c0cd61628d2f2a20255038fb476cf40b97fa67fef0/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/6748989a8093abd547cfa4c0cd61628d2f2a20255038fb476cf40b97fa67fef0/6748989a8093abd547cfa4c0cd61628d2f2a20255038fb476cf40b97fa67fef0.gml

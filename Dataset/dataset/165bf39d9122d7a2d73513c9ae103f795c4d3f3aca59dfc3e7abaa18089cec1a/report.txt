@@ -1,0 +1,40 @@
+165bf39d9122d7a2d73513c9ae103f795c4d3f3aca59dfc3e7abaa18089cec1a:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.SEND_SMS
+android.permission.GET_TASKS
+android.permission.CONTROL_LOCATION_UPDATES
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SET_WALLPAPER
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.WRITE_APN_SETTINGS
+android.permission.PROCESS_OUTGOING_CALLS
+android.permission.ACCESS_MOCK_LOCATION
+android.permission.ACCESS_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.MODIFY_PHONE_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/165bf39d9122d7a2d73513c9ae103f795c4d3f3aca59dfc3e7abaa18089cec1a/api.txt
+------------------------------
+Intent:
+android.intent.action.NEW_OUTGOING_CALL
+android.intent.action.PHONE_STATE
+android.intent.action.PHONE_STATE_2
+android.intent.category.HOME
+------------------------------
+Function call graph:
+gml path: ./res/165bf39d9122d7a2d73513c9ae103f795c4d3f3aca59dfc3e7abaa18089cec1a/165bf39d9122d7a2d73513c9ae103f795c4d3f3aca59dfc3e7abaa18089cec1a.gml

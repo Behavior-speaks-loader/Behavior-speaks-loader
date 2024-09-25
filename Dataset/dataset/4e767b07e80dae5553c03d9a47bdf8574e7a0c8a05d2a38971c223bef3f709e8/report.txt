@@ -1,0 +1,43 @@
+4e767b07e80dae5553c03d9a47bdf8574e7a0c8a05d2a38971c223bef3f709e8:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.SEND_SMS
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_SETTINGS
+android.permission.INTERNET
+android.permission.MODIFY_AUDIO_SETTINGS
+com.xiaomi.permission.AUTH_THIRDPAY
+android.permission.READ_EXTERNAL_STORAGE
+com.taobao.statistic.permission.DEVICE_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+com.yunos.tv.payment.permission.PAY_RESULT
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/4e767b07e80dae5553c03d9a47bdf8574e7a0c8a05d2a38971c223bef3f709e8/api.txt
+------------------------------
+Intent:
+com.aliyun.xiaoyunmi.action.AYUN_LOGIN_BROADCAST
+com.aliyun.xiaoyunmi.action.DELETE_ACCOUNT
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/4e767b07e80dae5553c03d9a47bdf8574e7a0c8a05d2a38971c223bef3f709e8/4e767b07e80dae5553c03d9a47bdf8574e7a0c8a05d2a38971c223bef3f709e8.gml

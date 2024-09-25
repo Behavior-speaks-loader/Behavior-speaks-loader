@@ -1,0 +1,37 @@
+3a1d4969b75a141d936ee3ee68c1cf9a834eac644cc66dda2a76ebc76546bf31:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.SEND_SMS
+android.permission.GET_TASKS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.PROCESS_OUTGOING_CALLS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECORD_AUDIO
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/3a1d4969b75a141d936ee3ee68c1cf9a834eac644cc66dda2a76ebc76546bf31/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.DATA_SMS_RECEIVED
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/3a1d4969b75a141d936ee3ee68c1cf9a834eac644cc66dda2a76ebc76546bf31/3a1d4969b75a141d936ee3ee68c1cf9a834eac644cc66dda2a76ebc76546bf31.gml

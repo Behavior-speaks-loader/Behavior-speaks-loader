@@ -1,0 +1,1448 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+3b3f57e26333455e5b099079cdbe406740ba594d7085bb56c56b9467f40b3287
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.ifreyrgames.blackdawn
+
+
+
+
+Minimum system version:
+Android 2.2.x
+
+
+
+
+Copyright:
+N/A
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+Behaviour:
+Send notification
+
+
+
+
+
+Detail info:
+
+u'-908767821', u'Notification(pri=0 contentView=com.ifreyrgames.blackdawn/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null])'
+
+
+u'-908767821', u'Notification(pri=0 contentView=com.ifreyrgames.blackdawn/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x10 kind=[null])'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:ww****om/**.133.40.** port:80
+
+
+host:ws****om/**.133.40.** port:443
+
+
+host:/**.124.72.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.124.72.** port:80 data:data:POST /container/global_config?cid=assi_18164&udid=1d1c5424-0f4e-3e17-b862-433d29a52ca5&cv=1 HTTP/1.1
+Content-Length: 408
+Host: 112.124.72.119
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+
+
+
+operation:send host:/**.124.72.** port:80 data:data:D0bRgcmmpRLD1nRZAL49ZuviOnDr3dnaCI9xdjztkgeOPN1BxwS8/Qb2l6IFztUeoF3xd+yVXk5jseEdct4wtoIxqr2575qUAMsszSwYDyB98/StuEF5+U05o6y4GkGtz0kxEH6ylSj6uR75ndwmwTLyfhQE+ul+9S/+Ja+UkxNoGyV8LrvUFRGmZb4dZw7w8J5pv2o6Xx4+uVJmBdllpwZdtLEEbSDNrSYrbl8jFNc1iTU/RtI7V9UPMF94dpphG0wMq7rhG1KpfKjQA8OConsvLxo1uhwp1zyq5QUssZAm+rvzBKdR6uZlmiiA2Bg2SpHxf6WDizMwDMin3h4LiNEq/5Fhfs1yE0RVR4cqAVQd5wQVWPyaiZItAyVNe2oAJWc0eToa5gfOK286bvqUcQ==
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://ww****om/clients/skins/resource_json_iphone.json
+
+
+https://ws****om/connect?app_id=f36498cf-0622-4e0f-9703-b923cdc5e420&android_id=92841014150fc3fd&udid=35712****123456&sha1_mac_address=812d428f5f1072fa6047b4e1c3c998fe0356c7d2&serial_id=unknown&device_name=Lenovo%20A360t&device_manufacturer=Lenovo&device_type=android&os_version=4.4.4&country_code=CN&language_code=zh&app_version=1.25.01&library_version=9.0.0&platform=android&display_multiplier=1.0&carrier_name=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%204G&mobile_country_code=460&mobile_network_code=00&screen_density=120&screen_layout_size=3&connection_type=wifi&plugin=native&sdk_type=offers×tamp=1451530997&verifier=1aaebd35dd4e337aaf68c282959cbbb7ca4e0811cea2f5c42ba443fcb3d9c874
+
+
+https://ws****om/videos?app_id=f36498cf-0622-4e0f-9703-b923cdc5e420&android_id=92841014150fc3fd&udid=35712****123456&sha1_mac_address=812d428f5f1072fa6047b4e1c3c998fe0356c7d2&serial_id=unknown&device_name=Lenovo%20A360t&device_manufacturer=Lenovo&device_type=android&os_version=4.4.4&country_code=CN&language_code=zh&app_version=1.25.01&library_version=9.0.0&platform=android&display_multiplier=1.0&carrier_name=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%204G&mobile_country_code=460&mobile_network_code=00&screen_density=120&screen_layout_size=3&connection_type=wifi&plugin=native&sdk_type=offers×tamp=1451530997&verifier=1aaebd35dd4e337aaf68c282959cbbb7ca4e0811cea2f5c42ba443fcb3d9c874&publisher_user_id=35712****123456
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://**.124.72.**/container/global_config?cid=assi_18164&udid=1d1c5424-0f4e-3e17-b862-433d29a52ca5&cv=1
+
+
+http://ww****om/clients/skins/resource_json_iphone.json
+
+
+https://ws****om/videos?app_id=f36498cf-0622-4e0f-9703-b923cdc5e420&android_id=92841014150fc3fd&udid=35712****123456&sha1_mac_address=812d428f5f1072fa6047b4e1c3c998fe0356c7d2&serial_id=unknown&device_name=Lenovo%20A360t&device_manufacturer=Lenovo&device_type=android&os_version=4.4.4&country_code=CN&language_code=zh&app_version=1.25.01&library_version=9.0.0&platform=android&display_multiplier=1.0&carrier_name=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%204G&mobile_country_code=460&mobile_network_code=00&screen_density=120&screen_layout_size=3&connection_type=wifi&plugin=native&sdk_type=offers×tamp=1451530997&verifier=1aaebd35dd4e337aaf68c282959cbbb7ca4e0811cea2f5c42ba443fcb3d9c874&publisher_user_id=35712****123456
+
+
+https://ws****om/connect?app_id=f36498cf-0622-4e0f-9703-b923cdc5e420&android_id=92841014150fc3fd&udid=35712****123456&sha1_mac_address=812d428f5f1072fa6047b4e1c3c998fe0356c7d2&serial_id=unknown&device_name=Lenovo%20A360t&device_manufacturer=Lenovo&device_type=android&os_version=4.4.4&country_code=CN&language_code=zh&app_version=1.25.01&library_version=9.0.0&platform=android&display_multiplier=1.0&carrier_name=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%204G&mobile_country_code=460&mobile_network_code=00&screen_density=120&screen_layout_size=3&connection_type=wifi&plugin=native&sdk_type=offers×tamp=1451530997&verifier=1aaebd35dd4e337aaf68c282959cbbb7ca4e0811cea2f5c42ba443fcb3d9c874
+
+
+http://**.124.72.**
+
+
+/container/global_config?cid=assi_18164&udid=1d1c5424-0f4e-3e17-b862-433d29a52ca5&cv=1
+
+
+http://**.124.72.**/collector/static_info?cid=assi_18164&udid=1d1c5424-0f4e-3e17-b862-433d29a52ca5&cv=1
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.124.72.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'https://ws****om/videos?app_id=f36498cf-0622-4e0f-9703-b923cdc5e420&android_id=92841014150fc3fd&udid=35712****123456&sha1_mac_address=812d428f5f1072fa6047b4e1c3c998fe0356c7d2&serial_id=unknown&device_name=Lenovo%20A360t&device_manufacturer=Lenovo&device_type=android&os_version=4.4.4&country_code=CN&language_code=zh&app_version=1.25.01&library_version=9.0.0&platform=android&display_multiplier=1.0&carrier_name=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%204G&mobile_country_code=460&mobile_network_code=00&screen_density=120&screen_layout_size=3&connection_type=wifi&plugin=native&sdk_type=offers×tamp=1451530997&verifier=1aaebd35dd4e337aaf68c282959cbbb7ca4e0811cea2f5c42ba443fcb3d9c874&publisher_user_id=35712****123456'
+
+
+u'http://ww****om/clients/skins/resource_json_iphone.json'
+
+
+u'https://ws****om/connect?app_id=f36498cf-0622-4e0f-9703-b923cdc5e420&android_id=92841014150fc3fd&udid=35712****123456&sha1_mac_address=812d428f5f1072fa6047b4e1c3c998fe0356c7d2&serial_id=unknown&device_name=Lenovo%20A360t&device_manufacturer=Lenovo&device_type=android&os_version=4.4.4&country_code=CN&language_code=zh&app_version=1.25.01&library_version=9.0.0&platform=android&display_multiplier=1.0&carrier_name=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8%204G&mobile_country_code=460&mobile_network_code=00&screen_density=120&screen_layout_size=3&connection_type=wifi&plugin=native&sdk_type=offers×tamp=1451530997&verifier=1aaebd35dd4e337aaf68c282959cbbb7ca4e0811cea2f5c42ba443fcb3d9c874'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.ifreyrgames.blackdawn/.cache
+
+
+/data/data/com.ifreyrgames.blackdawn/shared_prefs/_AreFilesVerified.xml.bak
+
+
+/data/data/com.ifreyrgames.blackdawn/shared_prefs/_AreFilesCopied.xml.bak
+
+
+/data/data/com.ifreyrgames.blackdawn/shared_prefs/com.android.vending.licensing.APKExpansionPolicy.xml.bak
+
+
+/data/data/com.ifreyrgames.blackdawn/shared_prefs/device_id.xml.xml.bak
+
+
+/storage/emulated/0/tapjoy
+
+
+/storage/emulated/0/tjcache/tmp
+
+
+/data/data/com.ifreyrgames.blackdawn/files/.adc
+
+
+/data/data/com.ifreyrgames.blackdawn/shared_prefs/com.ifreyrgames.blackdawn_preferences.xml.bak
+
+
+/data/data/com.ifreyrgames.blackdawn/files/collector_apk_time
+
+
+/data/data/com.ifreyrgames.blackdawn/files/collector_change_app_info
+
+
+/data/data/com.ifreyrgames.blackdawn/files/collector_last_app_info
+
+
+/data/data/com.ifreyrgames.blackdawn/files/collector_static_info
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/dalvik-cache/data@app@com.ifreyrgames.blackdawn-1.apk@classes.dex length:68
+
+
+path:/data/dalvik-cache/data@app@com.ifreyrgames.blackdawn-1.apk@classes.dex length:5
+
+
+path:/data/app/com.ifreyrgames.blackdawn-1.apk length:9
+
+
+path:/data/app/com.ifreyrgames.blackdawn-1.apk length:23
+
+
+path:/data/app/com.ifreyrgames.blackdawn-1.apk length:69
+
+
+path:/data/app/com.ifreyrgames.blackdawn-1.apk length:7
+
+
+path:/data/app/com.ifreyrgames.blackdawn-1.apk length:63
+
+
+path:/data/app/com.ifreyrgames.blackdawn-1.apk length:68
+
+
+path:/data/app/com.ifreyrgames.blackdawn-1.apk length:66
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_bangcleplugin/container.dex length:68
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_bangcleplugin/container.dex length:5
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_data/container.pre_global_config length:7
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_data/container.pre_global_config length:6
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_data/container.pre_global_config length:69
+
+
+path:/data/misc/keychain/pins length:69
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.ifreyrgames.blackdawn/.md5 length:37
+
+
+path:/data/data/com.ifreyrgames.blackdawn/.sec_version length:14
+
+
+path:/data/data/com.ifreyrgames.blackdawn/.cache/com.ifreyrgames.blackdawn length:69
+
+
+path:/data/data/com.ifreyrgames.blackdawn/.cache/libsecexe.x86.so length:69
+
+
+path:/data/data/com.ifreyrgames.blackdawn/.cache/libsecexe.x86.so length:63
+
+
+path:/data/data/com.ifreyrgames.blackdawn/.cache/libsecmain.x86.so length:69
+
+
+path:/data/data/com.ifreyrgames.blackdawn/.cache/libsecmain.x86.so length:68
+
+
+path:/data/data/com.ifreyrgames.blackdawn/.cache/libsecmain.x86.so length:66
+
+
+path:/data/data/com.ifreyrgames.blackdawn/shared_prefs/_AreFilesVerified.xml length:130
+
+
+path:/data/data/com.ifreyrgames.blackdawn/shared_prefs/_AreFilesCopied.xml length:128
+
+
+path:/data/data/com.ifreyrgames.blackdawn/shared_prefs/com.android.vending.licensing.APKExpansionPolicy.xml length:261
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_data/container.pre_global_config length:7
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_data/container.pre_global_config length:69
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_bangcleplugin/container.dex length:68
+
+
+path:/data/data/com.ifreyrgames.blackdawn/shared_prefs/device_id.xml.xml length:150
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+null
+
+
+lrwxrwxrwx root     root              2015-12-22 09:55 su -> ../xbin/su
+
+
+9
+
+
+1.25.01
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Start service
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/com.ifreyrgames.blackdawn.OurDownloaderService}","EXTRAS":{"EPI":"{\"FLAG\":335544320,\"COMPONENT_NAME\":\"ComponentInfo{com.ifreyrgames.blackdawn\\\/com.ifreyrgames.blackdawn.Freyr_BdGpInstallActivity}\"}"}}
+
+
+{"ACTION":"com.secneo.plugin.action.APP_STARTED","FLAG":16,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/neo.proxy.FastService}"}
+
+
+{"ACTION":"android.intent.action.ACTION_POWER_CONNECTED","FLAG":16,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/neo.proxy.FastService}"}
+
+
+{"ACTION":"android.net.conn.CONNECTIVITY_CHANGE","FLAG":16,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/neo.proxy.FastService}"}
+
+
+{"ACTION":"android.intent.action.PACKAGE_REMOVED","FLAG":16,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/neo.proxy.FastService}"}
+
+
+{"ACTION":"android.intent.action.PACKAGE_ADDED","FLAG":16,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/neo.proxy.FastService}"}
+
+
+{"ACTION":"android.intent.action.PACKAGE_REPLACED","FLAG":16,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/neo.proxy.FastService}"}
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send broadcast
+
+
+
+
+
+Detail info:
+
+{"ACTION":"com.secneo.plugin.action.APP_STARTED","FLAG":0}
+
+
+
+
+
+Behaviour:
+Call setAction of intent
+
+
+
+
+
+Detail info:
+
+u'null'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+EPI:{"FLAG":335544320,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/com.ifreyrgames.blackdawn.Freyr_BdGpInstallActivity}"}
+
+
+EMH:android.os.Messenger@21850798
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'lastResponse', u'null'
+
+
+u'validityTimestamp', u'null'
+
+
+u'retryUntil', u'null'
+
+
+u'maxRetries', u'null'
+
+
+u'retryCount', u'null'
+
+
+u'InstallReferral', u'null'
+
+
+u'device_id', u'null'
+
+
+u'container.this_cid_last_communicated_at', u'null'
+
+
+u'container.my_mf_md5', u'null'
+
+
+
+
+
+Behaviour:
+Make toast
+
+
+
+
+
+Detail info:
+
+text:百分网分享更多精彩游戏ByFen.Com duration:1
+
+
+
+
+
+Behaviour:
+Send notification
+
+
+
+
+
+Detail info:
+
+u'-908767821', u'Notification(pri=0 contentView=com.ifreyrgames.blackdawn/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null])'
+
+
+u'-908767821', u'Notification(pri=0 contentView=com.ifreyrgames.blackdawn/0x1090064 vibrate=null sound=null defaults=0x0 flags=0x10 kind=[null])'
+
+
+
+
+
+Behaviour:
+Write system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21885718', u'multiplule_id_flag_date', u'2015-12-31'
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15527): Process: com.ifreyrgames.blackdawn, PID: 15527
+
+
+
+E/AndroidRuntime(15527): java.lang.Error: FATAL EXCEPTION [main]
+
+
+
+E/AndroidRuntime(15527): Unity version     : 4.1.2f1
+
+
+
+E/AndroidRuntime(15527): Device model      : Lenovo HABOmodel
+
+
+
+E/AndroidRuntime(15527): Device fingerprint: Lenovo/smarttp_open/S898tp:4.2.2/JDQ39/S898t+_S527_140414.:user/release-keys
+
+
+
+E/AndroidRuntime(15527): 
+
+
+
+E/AndroidRuntime(15527): Caused by: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.ifreyrgames.blackdawn/com.ifreyrgames.blackdawn.UnityLauncherActivity}: java.lang.RuntimeException: unable to link / 
+
+
+
+E/AndroidRuntime(15527): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+
+
+
+E/AndroidRuntime(15527): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2233)
+
+
+
+E/AndroidRuntime(15527): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+
+
+E/AndroidRuntime(15527): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+
+
+E/AndroidRuntime(15527): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/AndroidRuntime(15527): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/AndroidRuntime(15527): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+
+
+
+E/AndroidRuntime(15527): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21885718', u'multiplule_id_flag_date'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.ifreyrgames.blackdawn/.cache/classes.jar
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_bangcleplugin/container.dex
+
+
+path:/data/data/com.ifreyrgames.blackdawn/app_bangcleplugin/collector.dex
+
+
+
+
+
+Behaviour:
+Access database
+
+
+
+
+
+Detail info:
+
+u'DownloadColumns', u'[FN, URI, ETAG, TOTALBYTES, CURRENTBYTES, LASTMOD, STATUS, CONTROL, FAILCOUNT, RETRYAFTER, REDIRECTCOUNT, FILEIDX]', u'null', u'null', u'null', u'null', u'null'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'lastResponse', u'49eLRWxwhieJP8mIrJ2eydjXlz/lGHybUtgPxMYDYBOKk6dR3vmmBdHu8u+3Np08O3fvqhx9ElggiOki73J//w=='
+
+
+u'retryUntil', u'49eLRWxwhieJP8mIrJ2eydjXlz/lGHybUtgPxMYDYBNsBZxNSrFrocNlqr95/Ka97SwcoX3qLquBcuj7lbo/3A=='
+
+
+u'maxRetries', u'49eLRWxwhieJP8mIrJ2eydjXlz/lGHybUtgPxMYDYBNyLl8wFOXHal4Gri/0k82sa6gLvKBXL4N7jmo9ioB3gQ=='
+
+
+u'retryCount', u'49eLRWxwhieJP8mIrJ2eydjXlz/lGHybUtgPxMYDYBNsBZxNSrFrocNlqr95/Ka9rBGHJdi6tSTIbo5Axx5/5Q=='
+
+
+u'validityTimestamp', u'49eLRWxwhieJP8mIrJ2eydjXlz/lGHybUtgPxMYDYBMwbfbufsr2KYcjrGyHgFoQtQJ//ttQUij3eCNR4gKBAsH61tdnScaTRtzQWMh+6pU='
+
+
+u'device_id', u'1d1c5424-0f4e-3e17-b862-433d29a52ca5'
+
+
+u'container.this_cid_last_communicated_at', u'2015-12-31'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'chmod 755 /data/data/com.ifreyrgames.blackdawn/.cache/com.ifreyrgames.blackdawn'
+
+
+u'chmod 755 /data/data/com.ifreyrgames.blackdawn/.cache/com.ifreyrgames.blackdawn.art'
+
+
+u'ls -l /system/bin/su'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218673e0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) ty=1 fl=#1810100 pfl=0x8 wanim=0x10302f5}'
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'SELECT APKVERSION,_id,DOWNLOADSTATUS,DOWNLOADFLAGS FROM MetadataColumns LIMIT 1', u'null'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":65536,"COMPONENT_NAME":"ComponentInfo{com.ifreyrgames.blackdawn\/com.ifreyrgames.blackdawn.UnityLauncherActivity}"}
+
+
+
+
+
+Behaviour:
+Set looped task
+
+
+
+
+
+Detail info:
+
+u'1', u'1451531057533', u'3600000', u'null'
+
+
+u'0', u'1451527457533', u'86400000', u'null'
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.secneo.plugin.action.APP_STARTED'
+
+
+u'android.os.Parcel@2184f320'
+
+
+u'com.ifreyrgames.blackdawn.Freyr_BdGpInstallActivity@21881730', u'class com.ifreyrgames.blackdawn.Freyr_BdGpInstallActivity'
+
+
+N/A
+
+
+u'com.ifreyrgames.blackdawn.Freyr_BdGpInstallActivity@21881730', u'class com.ifreyrgames.blackdawn.OurDownloaderService'
+
+
+u'android.os.Parcel@2184f310'
+
+
+u'com.bangcle.protect.FirstApplication@218847b8', u'class com.ifreyrgames.blackdawn.UnityLauncherActivity'
+
+
+u'com.android.vending.billing.InAppBillingService.BIND'
+
+
+u'com.secneo.plugin.action.HOURLY'
+
+
+u'com.secneo.plugin.action.DAILY'
+
+
+u'android.os.Parcel@2184fbb0'
+
+
+u'android.os.Parcel@2184fbc0'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0x4e6d570a
+
+
+
+
+META-INF/CERT.SF
+0xb74b2915
+
+
+
+
+META-INF/CERT.RSA
+0xe9c536a7
+
+
+
+
+AndroidManifest.xml
+0x5909bb07
+
+
+
+
+assets/bangcle_classes.jar
+0x178011b1
+
+
+
+
+assets/bangcleplugin/collector.dex
+0x310413d
+
+
+
+
+assets/bangcleplugin/container.dex
+0xe77ba688
+
+
+
+
+assets/bangcleplugin/dgc
+0x22f9033e
+
+
+
+
+assets/bin/Data/Managed/Mono.Security.dll
+0x5caee549
+
+
+
+
+assets/bin/Data/Managed/System.dll
+0xf73f50e7
+
+
+
+
+assets/bin/Data/Managed/UnityEngine.dll
+0xa4cd54b4
+
+
+
+
+assets/bin/Data/Managed/mscorlib.dll
+0x1dee3bec
+
+
+
+
+assets/bin/Data/PlayerConnectionConfigFile
+0x994bf714
+
+
+
+
+assets/bin/Data/mainData
+0x67abed20
+
+
+
+
+assets/bin/Data/settings.xml
+0xf84239bf
+
+
+
+
+assets/bin/Data/sharedassets0.assets
+0x847fd092
+
+
+
+
+assets/bin/Data/splash.png
+0x99da047e
+
+
+
+
+assets/bin/Data/unity default resources
+0xa8d2a6ff
+
+
+
+
+assets/com.ifreyrgames.blackdawn
+0xfdda8cf3
+
+
+
+
+assets/com.ifreyrgames.blackdawn.art
+0x18ee04b
+
+
+
+
+assets/com.ifreyrgames.blackdawn.x86
+0x67936fe2
+
+
+
+
+assets/libs/armeabi-v7a/libmono.so
+0x788d404f
+
+
+
+
+assets/libs/armeabi-v7a/libunity.so
+0x88df8c61
+
+
+
+
+assets/libsecexe.x86.so
+0xd6bb0705
+
+
+
+
+assets/libsecmain.x86.so
+0xbac2a95a
+
+
+
+
+assets/meta-data/manifest.mf
+0x9dd41770
+
+
+
+
+assets/meta-data/rsa.pub
+0xe5a30f07
+
+
+
+
+assets/meta-data/rsa.sig
+0x82351d8
+
+
+
+
+classes.dex
+0xe6c131c6
+
+
+
+
+lib/armeabi-v7a/libmono.so
+0x58745741
+
+
+
+
+lib/armeabi-v7a/libsecexe.so
+0xb260c865
+
+
+
+
+lib/armeabi-v7a/libsecmain.so
+0x381bcded
+
+
+
+
+lib/armeabi-v7a/libunity.so
+0xc0141365
+
+
+
+
+res/drawable-hdpi/icon.png
+0xfc8e3d0b
+
+
+
+
+res/drawable-ldpi/icon.png
+0x7c9f6b08
+
+
+
+
+res/drawable-mdpi/icon.png
+0x88c4fa34
+
+
+
+
+res/drawable-xhdpi/icon.png
+0x3c95ce02
+
+
+
+
+res/drawable/close.png
+0xed6db383
+
+
+
+
+res/drawable/sw.png
+0x357f78b2
+
+
+
+
+res/layout/billing_not_supported.xml
+0x596365f2
+
+
+
+
+res/layout/edit_payload.xml
+0xaf377963
+
+
+
+
+res/layout/freyrgames_dialog.xml
+0xe665faf6
+
+
+
+
+res/layout/item_row.xml
+0x76d98e4c
+
+
+
+
+res/layout/main.xml
+0x599c0a41
+
+
+
+
+res/layout/status_bar_ongoing_event_progress_bar.xml
+0xa2267d42
+
+
+
+
+resources.arsc
+0xf4261f1a
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.ifreyrgames.blackdawn.Freyr_BdGpInstallActivity
+android.intent.action.MAIN
+
+
+
+
+com.ifreyrgames.blackdawn.Freyr_BdGpInstallActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Name
+Detail info
+
+
+
+
+neo.proxy.DistributeReceiver
+N/A
+
+
+
+
+neo.proxy.DistributeReceiver
+N/A
+
+
+
+
+neo.proxy.DistributeReceiver
+N/A
+
+
+
+
+neo.proxy.DistributeReceiver
+N/A
+
+
+
+
+neo.proxy.DistributeReceiver
+Start after network changed
+
+
+
+
+
+neo.proxy.DistributeReceiver
+N/A
+
+
+
+
+neo.proxy.DistributeReceiver
+Start after package removed
+
+
+
+
+
+neo.proxy.DistributeReceiver
+Start after package added
+
+
+
+
+
+neo.proxy.DistributeReceiver
+N/A
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+com.android.vending.BILLING
+
+
+
+
+com.android.vending.CHECK_LICENSE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.WRITE_SETTINGS
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.ifreyrgames.blackdawn.OurDownloaderService
+
+
+
+
+neo.proxy.FastService
+
+
+

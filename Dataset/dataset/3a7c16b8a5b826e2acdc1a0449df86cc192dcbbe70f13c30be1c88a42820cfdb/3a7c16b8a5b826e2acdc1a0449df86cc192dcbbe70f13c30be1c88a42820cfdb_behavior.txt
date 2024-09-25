@@ -1,0 +1,2139 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+3a7c16b8a5b826e2acdc1a0449df86cc192dcbbe70f13c30be1c88a42820cfdb
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.game456.xlsz
+
+
+
+
+Minimum system version:
+Android 2.3, 2.3.1, 2.3.2
+
+
+
+
+Copyright:
+N/A
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:co****et/**.133.40.** port:80
+
+
+host:sd****et/**.133.40.** port:80
+
+
+host:an****om/**.133.40.** port:80
+
+
+host:se****et/**.133.40.** port:80
+
+
+host:/**.133.40.** port:80
+
+
+host:/**.150.191.** port:80
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://co****et/01298431882307229107184054499989/559.html'
+
+
+u'http://sd****et/msg/p?product_code=01298431882307229107184054499989&device_id=FD29FD88BB2AE793AC35F886C3E4592A&channel_code=559&eventCode=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8&eventParams=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8'
+
+
+u'http://an****om/rqd/async?aid=6178a387-e775-422d-bf5c-827d18b05bf2'
+
+
+u'http://se****et/01298431882307229107184054499989-559.html'
+
+
+u'http://sd****et/api/gateway'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3&debug=0'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3&debug=0&gameName=%E4%BB%99%E7%81%B5%E5%9C%A3%E6%88%98'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3&debug=0&gameName=%E4%BB%99%E7%81%B5%E5%9C%A3%E6%88%98&channel_code=559'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3&debug=0&gameName=%E4%BB%99%E7%81%B5%E5%9C%A3%E6%88%98&channel_code=559&sdkVersion=2.6.5'
+
+
+u'http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3&debug=0&gameName=%E4%BB%99%E7%81%B5%E5%9C%A3%E6%88%98&channel_code=559&sdkVersion=2.6.5&device_os=Android'
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:co****et/**.133.40.** port:80 data:data:GET /01298431882307229107184054499989/559.html HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: configcdn.quickapi.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:sd****et/**.133.40.** port:80 data:data:POST /msg/p?product_code=01298431882307229107184054499989&device_id=FD29FD88BB2AE793AC35F886C3E4592A&channel_code=559&eventCode=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8&eventParams=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdkreport.quickapi.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+
+
+
+
+operation:send host:an****om/**.133.40.** port:80 data:data:POST /rqd/async?aid=6178a387-e775-422d-bf5c-827d18b05bf2 HTTP/1.1
+wup_version: 3.0
+cmd: 840
+strategylastUpdateTime: 0
+appVer: 1.0.0
+raKey: XGtUOrq4MRjFdyEb6noXNae8c4cojItme1eBZznOvG6FDoVf%2F6yv3TybE4y%2BigRLsuNEkhV4UXHM%0AhqJmY2RZz1NZAa04aI%2FDPJgWh%2Fl0qJRuhv8zYZCsLvPU%2BIFj4E7LUXR1pKUV6nNGDnJbLhw7TE%2Bi%0APFbJJIOzAzgGd4ROKa8%3D%0A
+prodId: 
+bundleId: com.game456.xlsz
+sdkVer: 2.6.6
+platformId: 1
+A37: WIFI
+A38: WIFI
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: android.bugly.qq.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 944
+
+�����BB&����ï8���1�J1��rw����死��&��|Y��7�L�_J���?�.0mU�+�ݎ,���n�@�I�9'����!��"�gݖ�	�u`e;����WJ��{�J��do�Y)�d�arEt7j�50jЌ�Wz�4��A��t�\|��@��m�Z]k�ٍ�`%�wF��Ϸ�Х�x 0:�C�p0�* p�B2�ڐ�<M"�����	�oV5��k,zL��{`�׋�3��U{�I?P��,���ܛ�*�����	�K',�xd��Y`K,b;j���
+x��)��W��_��]qp��$�
+�Qp`��J�a���y��ƃ�u=���Z��P�����Q���L�kC�_��~#��\(�*�EcH.��(R7K3��s'�QHQ�������wi��W��y�^<9��<`H�(�4��E8��;,n��\(ձ~KX�M�BU�᭠C��^�z��
+m��֫�`�ŷ�pz�+bIMm��I.�δ��`\9��V!q,����֭J��QWT��� m�/��$;��ݰ7 ���ݙza�nn��E �xGUS�
+�~��G�[T�͠ ����Z_��?u?����}
+�w&�=G��G�r�&�Ĳ�������R����~��{��5��q)�
+�E��jЕJ_�/�
+;;�L����*~��k��'!����}��Ӡ�@OA����h2F��h`Q�.Ő�r�l��~)8�����XO�$�T&҅rI57�FS��4��8�xy�~U����J��J�˷K��K�,�Poܼ΅ܑ,���(��
+
+
+operation:send host:se****et/**.133.40.** port:80 data:data:GET /01298431882307229107184054499989-559.html HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: serverip.sdk.quicksdk.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:sd****et/**.133.40.** port:80 data:data:POST /v1/api/init HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1072
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdkapi00.sdk.quicksdk.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+sign=6A5AC2A13EA388AB2C349FFE87EAE70A&json_data=tOBPFkBKLGsbGO1I4F96NL42EbH7aG%2FmYYAiqqr0%2BoPl%2Bt12RkjB0BLCMi1SqyK7i%2F3nOULi6Qr9YfdOywYGw3lL9ZAfTdVZgga%2FahaGRWNRILd9T3BjW1pMqxRggBlTYAWZAs23C7t7ePMqkzJcff6rGf094nGVNoIOlSc5ltat02YMLTFD7RF2rpMPIr7aJJYF0aOVasarkwxUXzCYrZ9GjjZm10TseZrxuHfZn2TSLm5eD9gxfKWzzbi24kP33nS9ObT0a7MpyO8uxKqMNJGn2NV5XkJ0UO4B2vcUffoVujI17Th50pzSbuGNLC51HvaGFi8wNzernF%2FQgzosQBcVMzgV3oNEpyY6sk9B2J4I8alNTY%2FVVg%2FdSkE7UtdJCkI8GSPx8zER430xOu2ArcDfvy%2Foi8vB9kNFF3VPzBbmiUCRqNEoZDiOvb4hIM%2FulYNy4nSmoizCbY60lZKXfBotOEOimmEtlgOEp2asQLOXg6iQ6sIh9mcmj2979DxBMWdp1fkJ%2Bi%2BE1dyzVKZmfHMCRAWLt9uODxIiPjKB%2BCEFmd4R0Q0NL40fLNF7C9%2BOEXaukw8ivtqZnRNgHS8zKbYMe%2FBr2X0ADpCofJA7jd%2F%2Farj98COpPrf57k99khsEyxNPRUAarHi5%2BmR7SybmC7%2Fq%2BaQt90SCDyWNaQl2inGIdK4fhvp037kS%2B4lAMxbmkc4AnqFpdChxeCrP3WAPkVs2GzQ89OKX1TDcgB97MiJ7HxOHJ0Ng5CFCAkK%2FDydufkzULYiQt6VXYQ7HW2UqBjB4%2Bn9njPua63BRSg5NJ6aQl8e9OilunlSKZJ2HILbQdu8%2F9pGsjsToGB9fp5yDetCjf6V536rnv3UDG6YiRTDYzpbzwfW1Fyh%2BHsfH6yQ7q%2BsuqVsTlVujxux%2BBPquuw%3D%3D&product_code=01298431882307229107184054499989
+
+
+operation:send host:sd****et/**.133.40.** port:80 data:data:GET /api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3&debug=0&gameName=%E4%BB%99%E7%81%B5%E5%9C%A3%E6%88%98&channel_code=559&sdkVersion=2.6.5&device_os=Android&time=1451530997394&device_name=Lenovo%20A360t&sign_md5=3d4de77445c532b853d180173b8be1ae&device_os_v=19&action=run&dpi=0.75&deviceId=FD29FD88BB2AE793AC35F886C3E4592A&platform=1&is_jailbroken=false&channelCode=559&productCode=01298431882307229107184054499989&imei=35712****123456&package_name=com.game456.xlsz&screen_width=480&channel_sdk_v=3.4.0&net_type=1&device_id=FD29FD88BB2AE793AC35F886C3E4592A&sdk_v=2.6.5&sign=e6d895798534a139ba9a177966729dda&gameVersion=1&wifimac=60%3A00%3A01%3A00%3Ab9%3A00&os_language=zh&mid=138****5678&imsi=46000****123456&screen_height=764 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdkreport.quickapi.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:/**.150.191.** port:80 data:data:POST /v1/api/init HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1072
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: 180.150.191.127
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+sign=6A5AC2A13EA388AB2C349FFE87EAE70A&json_data=tOBPFkBKLGsbGO1I4F96NL42EbH7aG%2FmYYAiqqr0%2BoPl%2Bt12RkjB0BLCMi1SqyK7i%2F3nOULi6Qr9YfdOywYGw3lL9ZAfTdVZgga%2FahaGRWNRILd9T3BjW1pMqxRggBlTYAWZAs23C7t7ePMqkzJcff6rGf094nGVNoIOlSc5ltat02YMLTFD7RF2rpMPIr7aJJYF0aOVasarkwxUXzCYrZ9GjjZm10TseZrxuHfZn2TSLm5eD9gxfKWzzbi24kP33nS9ObT0a7MpyO8uxKqMNJGn2NV5XkJ0UO4B2vcUffoVujI17Th50pzSbuGNLC51HvaGFi8wNzernF%2FQgzosQBcVMzgV3oNEpyY6sk9B2J4I8alNTY%2FVVg%2FdSkE7UtdJCkI8GSPx8zER430xOu2ArcDfvy%2Foi8vB9kNFF3VPzBbmiUCRqNEoZDiOvb4hIM%2FulYNy4nSmoizCbY60lZKXfBotOEOimmEtlgOEp2asQLOXg6iQ6sIh9mcmj2979DxBMWdp1fkJ%2Bi%2BE1dyzVKZmfHMCRAWLt9uODxIiPjKB%2BCEFmd4R0Q0NL40fLNF7C9%2BOEXaukw8ivtqZnRNgHS8zKbYMe%2FBr2X0ADpCofJA7jd%2F%2Farj98COpPrf57k99khsEyxNPRUAarHi5%2BmR7SybmC7%2Fq%2BaQt90SCDyWNaQl2inGIdK4fhvp037kS%2B4lAMxbmkc4AnqFpdChxeCrP3WAPkVs2GzQ89OKX1TDcgB97MiJ7HxOHJ0Ng5CFCAkK%2FDydufkzULYiQt6VXYQ7HW2UqBjB4%2Bn9njPua63BRSg5NJ6aQl8e9OilunlSKZJ2HILbQdu8%2F9pGsjsToGB9fp5yDetCjf6V536rnv3UDG6YiRTDYzpbzwfW1Fyh%2BHsfH6yQ7q%2BsuqVsTlVujxux%2BBPquuw%3D%3D&product_code=01298431882307229107184054499989
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://sd****et/msg/p?product_code=01298431882307229107184054499989&device_id=FD29FD88BB2AE793AC35F886C3E4592A&channel_code=559&eventCode=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8&eventParams=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8
+
+
+http://co****et/01298431882307229107184054499989/559.html
+
+
+http://an****om/rqd/async?aid=6178a387-e775-422d-bf5c-827d18b05bf2
+
+
+http://se****et/01298431882307229107184054499989-559.html
+
+
+http://sd****et/v1/api/init
+
+
+http://**.150.191.**/v1/api/init
+
+
+http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3&debug=0&gameName=%E4%BB%99%E7%81%B5%E5%9C%A3%E6%88%98&channel_code=559&sdkVersion=2.6.5&device_os=Android&time=1451530997394&device_name=Lenovo%20A360t&sign_md5=3d4de77445c532b853d180173b8be1ae&device_os_v=19&action=run&dpi=0.75&deviceId=FD29FD88BB2AE793AC35F886C3E4592A&platform=1&is_jailbroken=false&channelCode=559&productCode=01298431882307229107184054499989&imei=35712****123456&package_name=com.game456.xlsz&screen_width=480&channel_sdk_v=3.4.0&net_type=1&device_id=FD29FD88BB2AE793AC35F886C3E4592A&sdk_v=2.6.5&sign=e6d895798534a139ba9a177966729dda&gameVersion=1&wifimac=60%3A00%3A01%3A00%3Ab9%3A00&os_language=zh&mid=138****5678&imsi=46000****123456&screen_height=764
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://co****et/01298431882307229107184054499989/559.html
+
+
+http://sd****et/msg/p?product_code=01298431882307229107184054499989&device_id=FD29FD88BB2AE793AC35F886C3E4592A&channel_code=559&eventCode=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8&eventParams=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8
+
+
+http://an****om/rqd/async?aid=6178a387-e775-422d-bf5c-827d18b05bf2
+
+
+http://se****et/01298431882307229107184054499989-559.html
+
+
+http://v3****cn/version
+
+
+http://sd****et/v1/api/init
+
+
+http://v3****cn
+
+
+http://**.150.191.**/v1/api/init
+
+
+http://sd****et/api/gateway?session_id=D2D6CEBBC631019D9F96B50F52E9D809&ismobiledevice=true&channelVersion=3.4.0&product_v=1&sdk_sub_v=3&debug=0&gameName=%E4%BB%99%E7%81%B5%E5%9C%A3%E6%88%98&channel_code=559&sdkVersion=2.6.5&device_os=Android&time=1451530997394&device_name=Lenovo%20A360t&sign_md5=3d4de77445c532b853d180173b8be1ae&device_os_v=19&action=run&dpi=0.75&deviceId=FD29FD88BB2AE793AC35F886C3E4592A&platform=1&is_jailbroken=false&channelCode=559&productCode=01298431882307229107184054499989&imei=35712****123456&package_name=com.game456.xlsz&screen_width=480&channel_sdk_v=3.4.0&net_type=1&device_id=FD29FD88BB2AE793AC35F886C3E4592A&sdk_v=2.6.5&sign=e6d895798534a139ba9a177966729dda&gameVersion=1&wifimac=60%3A00%3A01%3A00%3Ab9%3A00&os_language=zh&mid=138****5678&imsi=46000****123456&screen_height=764
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Load website in webview
+
+
+
+
+
+Detail info:
+
+https://xx****om/qk/login/sdk
+
+
+javascript:CallbackFromAndroid('eyJkYXRhIjp7fSwiYWN0aW9uIjoib25SZXN1bWUifQ==')
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:co****et/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:sd****et/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:an****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:se****et/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.150.191.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/storage/emulated/0/UcQkDir/qk.dvid.txt
+
+
+/data/data/com.game456.xlsz/files/native_record_lock
+
+
+/data/data/com.game456.xlsz/files/security_info
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/app/com.game456.xlsz-1.apk length:9
+
+
+path:/data/app/com.game456.xlsz-1.apk length:69
+
+
+path:/data/app/com.game456.xlsz-1.apk length:23
+
+
+path:/data/app/com.game456.xlsz-1.apk length:25
+
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/15530/cmdline length:69
+
+
+path:/storage/emulated/0/UcQkDir/qk.dvid.txt length:5
+
+
+path:/proc/cpuinfo length:69
+
+
+path:/proc/meminfo length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/app-lib/com.game456.xlsz-1/libqkcheck.so
+
+
+/data/app-lib/com.game456.xlsz-1/libBugly.so
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+Read external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/UcQkDir/qk.dvid.txt
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+null
+
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+MemTotal:        1030096 kB
+
+
+app.setupwizard.disable]: [0
+
+
+bluetooth.start]: [none
+
+
+dalvik.vm.dexopt-flags]: [m=y
+
+
+dalvik.vm.execution-mode]: [int:fast
+
+
+dalvik.vm.heapgrowthlimit]: [192m
+
+
+dalvik.vm.heapmaxfree]: [8m
+
+
+dalvik.vm.heapminfree]: [512k
+
+
+dalvik.vm.heapsize]: [512m
+
+
+dalvik.vm.heapstartsize]: [16m
+
+
+dalvik.vm.heaptargetutilization]: [0.75
+
+
+dalvik.vm.lockprof.threshold]: [500
+
+
+dalvik.vm.stack-trace-file]: [/data/anr/traces.txt
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.game456.xlsz/shared_prefs/multidex.version.xml length:209
+
+
+path:/storage/emulated/0/UcQkDir/qk.dvid.txt length:70
+
+
+path:/data/data/com.game456.xlsz/shared_prefs/com_qk.xml length:146
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:7
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:6
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:26
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:13
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:11
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:9
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:35
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:8
+
+
+path:/data/data/com.game456.xlsz/app_crashrecord/1004 length:24
+
+
+path:/data/data/com.game456.xlsz/shared_prefs/crashrecord.xml length:133
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.game456.xlsz/shared_prefs/multidex.version.xml.bak
+
+
+/data/data/com.game456.xlsz/shared_prefs/com_qk.xml.bak
+
+
+/data/data/com.game456.xlsz/files/native_record_lock
+
+
+/data/data/com.game456.xlsz/shared_prefs/crashrecord.xml.bak
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/UcQkDir/qk.dvid.txt
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+ContentResolver;->delete
+Delete contact or sms
+
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+TelephonyManager;->getLine1Number
+Get phone number
+
+
+
+
+
+TelephonyManager;->getSimSerialNumber
+Get SIM serial number
+
+
+
+
+
+DefaultHttpClient;->execute
+Send HTTP request
+
+
+
+
+
+WifiManager;->setWifiEnabled
+Change WIFI state
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get phone number
+
+
+
+
+
+Detail info:
+
+138****5678
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.tencent.bugly.crashreport.crash.BuglyBroadcastRecevier@21892da0', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+id:2130837515
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'device_id', u''
+
+
+u'G15', u''
+
+
+u'D4', u'0'
+
+
+
+
+
+Behaviour:
+Get special property of simulator
+
+
+
+
+
+Detail info:
+
+u'ro.serialno', u'unknown']unknown
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'device_id', u'FD29FD88BB2AE793AC35F886C3E4592A'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'[/system/bin/sh, -c, getprop]'
+
+
+u'[/system/bin/sh, -c, type su]'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2188e328 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#112 ty=1 fl=#1810500 pfl=0x8 wanim=0x7f040002}'
+
+
+u'android.widget.RelativeLayout{21a71098 G.E..... ......I. 0,0-0,0}', u'WM.LayoutParams{(0,300)(56x56) gr=#33 ty=99 fl=#1000208 fmt=1}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21878318 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#112 ty=1 fl=#1810580 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21a93988 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1800002 pfl=0x8 fmt=-3 wanim=0x1030002}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'android.os.Parcel@2184f600'
+
+
+u'android.os.Parcel@2184f610'
+
+
+u'com.qk.plugin.js.shell.SplashActivity@218bf108', u'class com.qk.plugin.js.shell.MainActivity'
+
+
+u'android.os.Parcel@21856a08'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.game456.xlsz\/com.qk.plugin.js.shell.MainActivity}","EXTRAS":{"id":"2130837515"}}
+
+
+
+
+
+Behaviour:
+Access database
+
+
+
+
+
+Detail info:
+
+u't_pf', u'null', u'_id = 1000', u'null', u'null', u'null', u'null'
+
+
+u't_lr', u'null', u'_tp = 2', u'null', u'null', u'null', u'null'
+
+
+u'false', u't_ui', u'null', u"_pc = 'com.game456.xlsz'", u'null', u'null', u'null', u'null', u'null'
+
+
+u't_pf', u'null', u'_id = 555', u'null', u'null', u'null', u'null'
+
+
+u't_lr', u'null', u'_tp = 3', u'null', u'null', u'null', u'null'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0x661c571b
+
+
+
+
+META-INF/TEST123.SF
+0xbab6bd51
+
+
+
+
+META-INF/TEST123.RSA
+0x503ce9d1
+
+
+
+
+AndroidManifest.xml
+0xe4e2633a
+
+
+
+
+assets/
+0x0
+
+
+
+
+assets/com.qk.plugin.qkfx.Manager
+0x83dcefb7
+
+
+
+
+assets/kprogresshud_spinner.png
+0xf89e7225
+
+
+
+
+assets/libQuickSDKH5_To_Client.js
+0xd39a0276
+
+
+
+
+assets/qk_js_shell_config
+0x83dcefb7
+
+
+
+
+assets/quicksdk.xml
+0xfc7e7805
+
+
+
+
+classes.dex
+0x19ac396f
+
+
+
+
+lib/
+0x0
+
+
+
+
+lib/armeabi/
+0x0
+
+
+
+
+lib/armeabi/libBugly.so
+0x734c0fb0
+
+
+
+
+lib/armeabi/libplugin_phone.so
+0x97db7391
+
+
+
+
+lib/armeabi/libqkcheck.so
+0x2e56aa07
+
+
+
+
+res/
+0x0
+
+
+
+
+resources.arsc
+0x84580381
+
+
+
+
+res/drawable/
+0x0
+
+
+
+
+res/drawable-hdpi-v4/
+0x0
+
+
+
+
+res/drawable-hdpi-v4/icon.png
+0xa5c8636e
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load01.png
+0x2b7fa421
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load02.png
+0x9e6a9dbf
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load03.png
+0xa91ff004
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load04.png
+0x3a9e4dd1
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load05.png
+0xe794a998
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load06.png
+0x1601acd4
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load07.png
+0xa4d8cf3f
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load08.png
+0x2046b614
+
+
+
+
+res/drawable-hdpi-v4/qk_game_loadbg.png
+0xe86ca40
+
+
+
+
+res/drawable-hdpi-v4/splash_img_0.png
+0xd9847a14
+
+
+
+
+res/drawable-xhdpi/
+0x0
+
+
+
+
+res/drawable-xhdpi/icon.png
+0xc583180a
+
+
+
+
+res/drawable-xhdpi/vqs_authentication.png
+0xe6920105
+
+
+
+
+res/drawable-xhdpi/vqs_autologin_bg.png
+0x3b226cab
+
+
+
+
+res/drawable-xhdpi/vqs_autologin_cancel.png
+0x1c77b07b
+
+
+
+
+res/drawable-xhdpi/vqs_autologin_success.png
+0xdc112adc
+
+
+
+
+res/drawable-xhdpi/vqs_changepw.png
+0x797fbf94
+
+
+
+
+res/drawable-xhdpi/vqs_closefloat.png
+0x35dbc5b2
+
+
+
+
+res/drawable-xhdpi/vqs_code_time.png
+0xbef586a4
+
+
+
+
+res/drawable-xhdpi/vqs_consume.png
+0xbe82fea7
+
+
+
+
+res/drawable-xhdpi/vqs_consume_choose_clicked.png
+0x41a77baf
+
+
+
+
+res/drawable-xhdpi/vqs_consume_choose_unclick.png
+0xda46c4f3
+
+
+
+
+res/drawable-xhdpi/vqs_consume_text_bg.9.png
+0xb50b8e66
+
+
+
+
+res/drawable-xhdpi/vqs_dialog_cancel.png
+0xc2358ba6
+
+
+
+
+res/drawable-xhdpi/vqs_getcode_clicked.png
+0xde612b43
+
+
+
+
+res/drawable-xhdpi/vqs_getcode_unclicked.png
+0x4d3062d5
+
+
+
+
+res/drawable-xhdpi/vqs_get_gift.png
+0x1d8924eb
+
+
+
+
+res/drawable-xhdpi/vqs_gift.png
+0x6d679882
+
+
+
+
+res/drawable-xhdpi/vqs_ic_launcher.png
+0xb08d221b
+
+
+
+
+res/drawable-xhdpi/vqs_ic_launcher1.png
+0xb08d221b
+
+
+
+
+res/drawable-xhdpi/vqs_loading.png
+0xea4c54f
+
+
+
+
+res/drawable-xhdpi/vqs_login_body_bg.png
+0xfd15b902
+
+
+
+
+res/drawable-xhdpi/vqs_login_item_cancel.png
+0x460af7aa
+
+
+
+
+res/drawable-xhdpi/vqs_login_moreid.png
+0x47da7cdd
+
+
+
+
+res/drawable-xhdpi/vqs_login_moreid_close.png
+0x62f1beba
+
+
+
+
+res/drawable-xhdpi/vqs_login_title_bg.png
+0xf1ad292c
+
+
+
+
+res/drawable-xhdpi/vqs_logo_float.png
+0x91ccd55e
+
+
+
+
+res/drawable-xhdpi/vqs_look_gift.png
+0x58c88450
+
+
+
+
+res/drawable-xhdpi/vqs_main_back.png
+0x44e1313a
+
+
+
+
+res/drawable-xhdpi/vqs_main_background.png
+0xd4434fa2
+
+
+
+
+res/drawable-xhdpi/vqs_main_cancel.png
+0x2e2794ec
+
+
+
+
+res/drawable-xhdpi/vqs_main_login.png
+0xd7c44759
+
+
+
+
+res/drawable-xhdpi/vqs_main_logo.png
+0x91ccd55e
+
+
+
+
+res/drawable-xhdpi/vqs_main_non.png
+0xcea4df6c
+
+
+
+
+res/drawable-xhdpi/vqs_main_pay.png
+0x27044574
+
+
+
+
+res/drawable-xhdpi/vqs_main_text_bg.png
+0x6a87a8c2
+
+
+
+
+res/drawable-xhdpi/vqs_main_title.png
+0x13eb9ff0
+
+
+
+
+res/drawable-xhdpi/vqs_msg_icon.png
+0x27302529
+
+
+
+
+res/drawable-xhdpi/vqs_mygift.png
+0x9c1e5984
+
+
+
+
+res/drawable-xhdpi/vqs_mymsg.png
+0x8b47aff9
+
+
+
+
+res/drawable-xhdpi/vqs_mymsg_enter.png
+0xbfb635ca
+
+
+
+
+res/drawable-xhdpi/vqs_openmsg.png
+0xc2645474
+
+
+
+
+res/drawable-xhdpi/vqs_openmsg_hot.png
+0x1d047f24
+
+
+
+
+res/drawable-xhdpi/vqs_openmsg_today_click.png
+0x805e382e
+
+
+
+
+res/drawable-xhdpi/vqs_openmsg_today_unclick.png
+0x3d5cf39a
+
+
+
+
+res/drawable-xhdpi/vqs_openmsg_tom_clicked.png
+0x18e86e2d
+
+
+
+
+res/drawable-xhdpi/vqs_openmsg_tom_unclick.png
+0x7877bd54
+
+
+
+
+res/drawable-xhdpi/vqs_password_icon.png
+0xa5a7cc58
+
+
+
+
+res/drawable-xhdpi/vqs_pay_ali.png
+0xbaabcb5d
+
+
+
+
+res/drawable-xhdpi/vqs_pay_get.png
+0x5173cae9
+
+
+
+
+res/drawable-xhdpi/vqs_pay_qq.png
+0xc54aefd4
+
+
+
+
+res/drawable-xhdpi/vqs_pay_wechat.png
+0xdb16f63
+
+
+
+
+res/drawable-xhdpi/vqs_phonenumber_clicked.png
+0x944c226
+
+
+
+
+res/drawable-xhdpi/vqs_phonenumber_unclicked.png
+0x30b2dd86
+
+
+
+
+res/drawable-xhdpi/vqs_phone_icon.png
+0x84c000a3
+
+
+
+
+res/drawable-xhdpi/vqs_pw_invisible.png
+0x64bc0970
+
+
+
+
+res/drawable-xhdpi/vqs_pw_visible.png
+0xbce14471
+
+
+
+
+res/drawable-xhdpi/vqs_safe.png
+0x921b6f36
+
+
+
+
+res/drawable-xhdpi/vqs_sel_check.png
+0x2ab69eeb
+
+
+
+
+res/drawable-xhdpi/vqs_sel_nor.png
+0x20f817d2
+
+
+
+
+res/drawable-xhdpi/vqs_userid_icon.png
+0x86800cc5
+
+
+
+
+res/drawable-xhdpi/vqs_username_clicked.png
+0xe094d5f4
+
+
+
+
+res/drawable-xhdpi/vqs_username_unclicked.png
+0x575ca188
+
+
+
+
+res/drawable-xhdpi/vqs_userserver_back.png
+0x72d3934c
+
+
+
+
+res/drawable-xhdpi/vqs_userserver_phone.png
+0x5c8c8799
+
+
+
+
+res/drawable-xhdpi/vqs_userserver_qq.png
+0x4d084eba
+
+
+
+
+res/drawable-xhdpi/vqs_userservice.png
+0xfa9a5a30
+
+
+
+
+res/drawable-xhdpi/vqs_user_icon.png
+0x2c8bd76a
+
+
+
+
+res/drawable-xhdpi/vqs_user_topay.png
+0xc513e978
+
+
+
+
+res/drawable-xhdpi/vqs_vqspay_item_clicked_bg.png
+0x5106cc83
+
+
+
+
+res/drawable-xhdpi/vqs_vqspay_item_unclick_bg.png
+0x220858a
+
+
+
+
+res/drawable-xxhdpi/
+0x0
+
+
+
+
+res/drawable-xxhdpi/icon.png
+0x24a5c54b
+
+
+
+
+res/drawable-xxxhdpi/
+0x0
+
+
+
+
+res/drawable-xxxhdpi/icon.png
+0x103568f9
+
+
+
+
+res/drawable/icon.png
+0xcf7efb00
+
+
+
+
+res/drawable/qk_game_loading.xml
+0x76ced1ce
+
+
+
+
+res/drawable/vqs_checkbox_style.xml
+0x38fcbd2a
+
+
+
+
+res/drawable/vqs_progressbar.xml
+0x9cab50bd
+
+
+
+
+res/layout/
+0x0
+
+
+
+
+res/layout/activity_main.xml
+0x1abae778
+
+
+
+
+res/layout/qk_game_view_loading.xml
+0x24f0db2a
+
+
+
+
+res/layout/vqs_autologin_layout.xml
+0x5d6dfb00
+
+
+
+
+res/layout/vqs_bindnotice_layout.xml
+0xd2e626d6
+
+
+
+
+res/layout/vqs_bind_activity.xml
+0x7d8dcf1f
+
+
+
+
+res/layout/vqs_bind_layout.xml
+0x5bd92d0b
+
+
+
+
+res/layout/vqs_change_pw_activity.xml
+0x11660094
+
+
+
+
+res/layout/vqs_consume_activity.xml
+0xf720345c
+
+
+
+
+res/layout/vqs_consume_item_layout.xml
+0xf9c3e2e3
+
+
+
+
+res/layout/vqs_float_layout.xml
+0x2f7fb174
+
+
+
+
+res/layout/vqs_forget_pw_activity.xml
+0xff6d3de5
+
+
+
+
+res/layout/vqs_gift_layout.xml
+0xd4f04f45
+
+
+
+
+res/layout/vqs_gift_list_item.xml
+0x55b76cbe
+
+
+
+
+res/layout/vqs_loading_layout.xml
+0x96b1eb06
+
+
+
+
+res/layout/vqs_login_layout.xml
+0x95b288b8
+
+
+
+
+res/layout/vqs_login_list_item.xml
+0x329fd549
+
+
+
+
+res/layout/vqs_mygift_activity.xml
+0xf8393939
+
+
+
+
+res/layout/vqs_mymsg_activity.xml
+0xcd5b784a
+
+
+
+
+res/layout/vqs_mymsg_layout.xml
+0x29aa24d9
+
+
+
+
+res/layout/vqs_notice_layout.xml
+0xc64e79d3
+
+
+
+
+res/layout/vqs_openmsg_activity.xml
+0xe579bee2
+
+
+
+
+res/layout/vqs_openmsg_list_item.xml
+0xed83c1c
+
+
+
+
+res/layout/vqs_payvqs_grid_item.xml
+0x5e3dad71
+
+
+
+
+res/layout/vqs_pay_activity.xml
+0x3a2575e4
+
+
+
+
+res/layout/vqs_register_layout.xml
+0x1dcd0131
+
+
+
+
+res/layout/vqs_unbind2_activity.xml
+0xfddb6537
+
+
+
+
+res/layout/vqs_unbind_activity.xml
+0x1c17e4e0
+
+
+
+
+res/layout/vqs_update_layout.xml
+0x1a334292
+
+
+
+
+res/layout/vqs_userservice_activity.xml
+0xf762aca8
+
+
+
+
+res/layout/vqs_user_activity.xml
+0xa921a798
+
+
+
+
+res/layout/vqs_vqspay_activity.xml
+0xaa89cf6b
+
+
+
+
+res/layout/vqs_webview_activity.xml
+0x3e141cf4
+
+
+
+
+res/layout/vqs_webview_wx_activity.xml
+0xd705a29b
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.action.MAIN
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.action.VIEW
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.category.LAUNCHER
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.category.DEFAULT
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.category.BROWSABLE
+
+
+
+
+com.ipaynow.plugin.inner_plugin.qqpay.activity.QQPayActivity
+android.intent.action.VIEW
+
+
+
+
+com.ipaynow.plugin.inner_plugin.qqpay.activity.QQPayActivity
+android.intent.category.BROWSABLE
+
+
+
+
+com.ipaynow.plugin.inner_plugin.qqpay.activity.QQPayActivity
+android.intent.category.DEFAULT
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+android.permission.ACCESS_CHECKIN_PROPERTIES
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+android.permission.SYSTEM_OVERLAY_WINDOW
+
+
+
+
+android.permission.BLUETOOTH
+
+
+
+
+android.permission.READ_LOGS
+
+
+
+
+android.permission.INTERACT_ACROSS_USERS_FULL
+
+
+
+
+android.permission.CAMERA
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+
+
+
+android.permission.CHANGE_NETWORK_STATE
+
+
+
+
+android.permission.CHANGE_WIFI_STATE
+
+
+
+
+android.permission.CALL_PHONE
+
+
+
+
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.WRITE_SETTINGS
+
+
+
+
+android.permission.READ_SMS
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.webkit.permission.PLUGIN
+
+
+
+
+android.permission.SEND_SMS
+
+
+
+
+android.permission.NFC
+
+
+
+
+android.permission.RECORD_AUDIO
+
+
+
+
+android.permission.MODIFY_AUDIO_SETTINGS
+
+
+
+
+org.simalliance.openmobileapi.SMARTCARD
+
+
+

@@ -1,0 +1,33 @@
+3b3f57e26333455e5b099079cdbe406740ba594d7085bb56c56b9467f40b3287:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.INTERNET
+com.android.vending.CHECK_LICENSE
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/3b3f57e26333455e5b099079cdbe406740ba594d7085bb56c56b9467f40b3287/api.txt
+------------------------------
+Intent:
+android.intent.action.ACTION_POWER_CONNECTED
+com.secneo.plugin.action.HOURLY
+com.secneo.plugin.action.DAILY
+com.secneo.plugin.action.APP_STARTED
+android.net.conn.CONNECTIVITY_CHANGE
+com.secneo.proxy.action.CUSTOM
+android.intent.action.PACKAGE_REMOVED
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REPLACED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/3b3f57e26333455e5b099079cdbe406740ba594d7085bb56c56b9467f40b3287/3b3f57e26333455e5b099079cdbe406740ba594d7085bb56c56b9467f40b3287.gml

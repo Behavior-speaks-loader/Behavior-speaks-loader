@@ -1,0 +1,282 @@
+Lcom/vdog/BuildConfig;-><init>()V [access_flags=public constructor] @ 0x24cc
+Ljava/lang/Object;-><init>()V
+Lcom/vdog/Common;-><init>()V [access_flags=public constructor] @ 0x24e4
+Lcom/vdog/DexInstall$1;-><init>()V [access_flags=constructor] @ 0x24fc
+Lcom/vdog/DexInstall$1;->accept(Ljava/io/File;)Z [access_flags=public] @ 0x2514
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Ljava/io/File;->getName()Ljava/lang/String;
+Lcom/vdog/DexInstall$V14;-><init>()V [access_flags=private constructor] @ 0x253c
+Lcom/vdog/DexInstall$V14;->access$0(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=static synthetic] @ 0x2554
+Lcom/vdog/DexInstall$V14;->install(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=private static] @ 0x256c
+Lcom/vdog/DexInstall$V14;->makeDexElements(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File;)[Ljava/lang/Object; [access_flags=private static] @ 0x25b0
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/ArrayList;-><init>(Ljava/util/Collection;)V
+Lcom/vdog/DexInstall;->access$1(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=static synthetic] @ 0x2d84
+Lcom/vdog/DexInstall;->access$0(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=static synthetic] @ 0x2d68
+Lcom/vdog/DexInstall;->access$2(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=static synthetic] @ 0x2d9c
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/vdog/DexInstall$V19;-><init>()V [access_flags=public constructor] @ 0x2600
+Lcom/vdog/DexInstall$V19;->access$0(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=static synthetic] @ 0x2618
+Lcom/vdog/DexInstall$V19;->install(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=private static] @ 0x2630
+Ljava/util/ArrayList;->size()I
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/ArrayList;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+Lcom/vdog/DexInstall$V19;->makeDexElements(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=private static] @ 0x2720
+Ljava/util/ArrayList;-><init>()V
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Ljava/util/Iterator;->hasNext()Z
+Lcom/vdog/DexInstall$V23;-><init>()V [access_flags=public constructor] @ 0x2780
+Lcom/vdog/DexInstall$V23;->access$0(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=static synthetic] @ 0x2798
+Lcom/vdog/DexInstall$V23;->install(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=private static] @ 0x27b0
+Lcom/vdog/DexInstall$V23;->makePathElements(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList;)[Ljava/lang/Object; [access_flags=private static] @ 0x28a0
+Lcom/vdog/DexInstall$V24;-><init>()V [access_flags=public constructor] @ 0x2900
+Lcom/vdog/DexInstall$V24;->access$0(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=static synthetic] @ 0x2918
+Lcom/vdog/DexInstall$V24;->install(Ljava/lang/ClassLoader; Ljava/util/List; Ljava/io/File;)V [access_flags=private static] @ 0x2930
+Lcom/vdog/DexInstall$V24;->makeDexElements(Ljava/lang/Object; Ljava/util/ArrayList; Ljava/io/File; Ljava/util/ArrayList; Ljava/lang/ClassLoader;)[Ljava/lang/Object; [access_flags=private static] @ 0x2a20
+Lcom/vdog/DexInstall$V25;-><init>()V [access_flags=public constructor] @ 0x2a8c
+Lcom/vdog/DexInstall$V25;->install(Ljava/lang/ClassLoader; [Ljava/nio/ByteBuffer;)V [access_flags=public static] @ 0x2aa4
+Lcom/vdog/DexInstall$V25;->makeInMemoryDexElements(Ljava/lang/Object; [Ljava/nio/ByteBuffer; Ljava/util/List;)[Ljava/lang/Object; [access_flags=public static] @ 0x2b88
+Lcom/vdog/DexInstall$V4;-><init>()V [access_flags=private constructor] @ 0x2bd8
+Lcom/vdog/DexInstall$V4;->access$0(Ljava/lang/ClassLoader; Ljava/util/List;)V [access_flags=static synthetic] @ 0x2bf0
+Lcom/vdog/DexInstall$V4;->install(Ljava/lang/ClassLoader; Ljava/util/List;)V [access_flags=private static] @ 0x2c08
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/util/List;->listIterator()Ljava/util/ListIterator;
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/util/zip/ZipFile;-><init>(Ljava/io/File;)V
+Ljava/util/ListIterator;->previousIndex()I
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Ldalvik/system/DexFile;->loadDex(Ljava/lang/String; Ljava/lang/String; I)Ldalvik/system/DexFile;
+Ljava/util/ListIterator;->next()Ljava/lang/Object;
+Ljava/util/ListIterator;->hasNext()Z
+Ljava/util/List;->size()I
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Lcom/vdog/DexInstall;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=private static] @ 0x2e90
+Lcom/vdog/DexInstall;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=private static] @ 0x2e2c
+Lcom/vdog/DexInstall;->findMethod(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=private static varargs] @ 0x2f28
+Lcom/vdog/DexInstall;-><clinit>()V [access_flags=static constructor] @ 0x2d18
+Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+Lcom/vdog/DexInstall;->isVMMultidexCapable(Ljava/lang/String;)Z [access_flags=private static] @ 0x3128
+Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+Ljava/util/regex/Matcher;->matches()Z
+Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/vdog/DexInstall;-><init>()V [access_flags=public constructor] @ 0x2d50
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/lang/NoSuchFieldException;-><init>(Ljava/lang/String;)V
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/reflect/Field;->isAccessible()Z
+Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class; I)Ljava/lang/Object;
+Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/lang/reflect/Method;->isAccessible()Z
+Lcom/vdog/DexInstall;->addByteBuffer([B)V [access_flags=private static] @ 0x2db8
+Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
+Ljava/util/List;->add(Ljava/lang/Object;)Z
+Lcom/vdog/DexInstall;->appendStringArray([Ljava/lang/String; [Ljava/lang/String;)[Ljava/lang/String; [access_flags=private static] @ 0x2ddc
+Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+Ljava/util/List;->toArray([Ljava/lang/Object;)[Ljava/lang/Object;
+Lcom/vdog/DexInstall;->install(Ljava/lang/ClassLoader; Ljava/lang/String;)V [access_flags=public static] @ 0x2fdc
+Ljava/lang/Exception;->printStackTrace(Ljava/io/PrintStream;)V
+Lcom/vdog/DexInstall;->installSecondaryDexes(Ljava/lang/ClassLoader; Ljava/io/File; Ljava/util/List;)V [access_flags=private static] @ 0x3040
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->listFiles(Ljava/io/FileFilter;)[Ljava/io/File;
+Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+Ljava/util/List;->isEmpty()Z
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Lcom/vdog/ExtraSdk;-><init>()V [access_flags=public constructor] @ 0x3204
+Lcom/vdog/ExtraSdk;->initAopToolSdk(Landroid/content/Context;)V [access_flags=protected static] @ 0x321c
+Ljava/lang/Exception;->printStackTrace()V
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/vdog/ExtraSdk;->initHenAnSdk(Landroid/content/Context;)V [access_flags=protected static] @ 0x3298
+Lcom/vdog/Helper;-><clinit>()V [access_flags=static constructor] @ 0x330c
+Lcom/vdog/Helper;->checkX86()Z [access_flags=private static] @ 0x35ec
+Lcom/vdog/Helper;->CPUABI()Ljava/lang/String; [access_flags=private static] @ 0x3364
+Lcom/vdog/Helper;-><init>()V [access_flags=public constructor] @ 0x334c
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/lang/Throwable;->printStackTrace()V
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Lcom/vdog/Helper;->RUNTIME()Ljava/lang/String; [access_flags=public static] @ 0x33e8
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Lcom/vdog/Helper;->checkAttrs(Ljava/lang/String; Ljava/util/jar/Attributes; Ljava/util/jar/Attributes;)V [access_flags=private static] @ 0x3480
+Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Ljava/util/jar/Attributes;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+Ljava/util/jar/Attributes;->keySet()Ljava/util/Set;
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Lcom/vdog/Helper;->checkKeys(Ljava/util/Map; Ljava/util/Map;)V [access_flags=public static] @ 0x3550
+Ljava/util/Map;->keySet()Ljava/util/Set;
+Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+Lcom/vdog/Helper;->clearOldFolder(Ljava/lang/String;)V [access_flags=public static] @ 0x363c
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Ljava/io/File;->delete()Z
+Lcom/vdog/Helper;->copyAssets(Ljava/lang/String; Ljava/lang/String; Landroid/content/Context;)V [access_flags=private static] @ 0x367c
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/io/BufferedInputStream;->close()V
+Ljava/io/BufferedInputStream;->read([B)I
+Ljava/io/BufferedOutputStream;->flush()V
+Ljava/io/BufferedOutputStream;->write([B I I)V
+Ljava/io/BufferedOutputStream;->close()V
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+Lcom/vdog/Helper;->extract(Landroid/content/Context; Ljava/lang/String;)Ljava/util/List; [access_flags=public static] @ 0x3708
+Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Ljava/util/jar/JarFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Ljava/util/jar/JarFile;->close()V
+Ljava/util/jar/JarFile;-><init>(Ljava/lang/String;)V
+Lcom/vdog/Helper;->getCacheDir(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x3814
+Ljava/lang/StringBuffer;-><init>()V
+Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Lcom/vdog/Helper;->getLibraryDir(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x3858
+Lcom/vdog/Helper;->getLocalDir(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x3878
+Lcom/vdog/Helper;->getMetaInfDir(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x38bc
+Lcom/vdog/Helper;->getPubKeyHashCode(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x3900
+Ljava/security/cert/X509Certificate;->getPublicKey()Ljava/security/PublicKey;
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Ljava/security/cert/CertificateFactory;->generateCertificate(Ljava/io/InputStream;)Ljava/security/cert/Certificate;
+Ljava/security/KeyFactory;->getKeySpec(Ljava/security/Key; Ljava/lang/Class;)Ljava/security/spec/KeySpec;
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Ljava/security/cert/CertificateFactory;->getInstance(Ljava/lang/String;)Ljava/security/cert/CertificateFactory;
+Ljava/security/spec/DSAPublicKeySpec;->getP()Ljava/math/BigInteger;
+Ljava/io/ByteArrayInputStream;-><init>([B)V
+Ljava/security/PublicKey;->getAlgorithm()Ljava/lang/String;
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Ljava/math/BigInteger;->toString()Ljava/lang/String;
+Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
+Ljava/security/spec/RSAPublicKeySpec;->getModulus()Ljava/math/BigInteger;
+Landroid/content/pm/Signature;->toByteArray()[B
+Lcom/vdog/Helper;->getUserDir(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x39ec
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Ljava/io/File;->getParent()Ljava/lang/String;
+Lcom/vdog/Helper;->install(Landroid/content/Context;)V [access_flags=public static] @ 0x3a10
+Ljava/io/File;->exists()Z
+Ljava/io/File;->mkdir()Z
+Lcom/vdog/Helper;->update(Landroid/content/Context;)Z [access_flags=public static] @ 0x3e9c
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Lcom/vdog/Helper;->isMainProcess(Landroid/content/Context;)Z [access_flags=public static] @ 0x3e24
+Lcom/vdog/VLibrary;->init(Landroid/content/Context;)V [access_flags=public static native] @ 0x0
+Lcom/vdog/ZipUtils;->getZipCrc(Ljava/io/File;)J [access_flags=public static] @ 0x4e80
+Landroid/content/SharedPreferences$Editor;->putLong(Ljava/lang/String; J)Landroid/content/SharedPreferences$Editor;
+Landroid/content/SharedPreferences;->getLong(Ljava/lang/String; J)J
+Landroid/content/Context;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Landroid/content/SharedPreferences$Editor;->commit()Z
+Landroid/content/SharedPreferences;->edit()Landroid/content/SharedPreferences$Editor;
+Landroid/app/ActivityManager;->getRunningAppProcesses()Ljava/util/List;
+Landroid/os/Process;->myPid()I
+Ljava/util/List;->iterator()Ljava/util/Iterator;
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/vdog/InnerSdk;-><init>()V [access_flags=public constructor] @ 0x3f2c
+Lcom/vdog/InnerSdk;->initInnerSdk(Landroid/content/Context; Landroid/app/Application;)V [access_flags=protected static] @ 0x3f44
+Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/vdog/R$attr;-><init>()V [access_flags=public constructor] @ 0x40b4
+Lcom/vdog/R$dimen;-><init>()V [access_flags=public constructor] @ 0x40cc
+Lcom/vdog/R$drawable;-><init>()V [access_flags=public constructor] @ 0x40e4
+Lcom/vdog/R$id;-><init>()V [access_flags=public constructor] @ 0x40fc
+Lcom/vdog/R$layout;-><init>()V [access_flags=public constructor] @ 0x4114
+Lcom/vdog/R$menu;-><init>()V [access_flags=public constructor] @ 0x412c
+Lcom/vdog/R$string;-><init>()V [access_flags=public constructor] @ 0x4144
+Lcom/vdog/R$style;-><init>()V [access_flags=public constructor] @ 0x415c
+Lcom/vdog/R;-><init>()V [access_flags=public constructor] @ 0x4174
+Lcom/vdog/RefHelper;-><init>()V [access_flags=public constructor] @ 0x418c
+Lcom/vdog/RefHelper;->doTypeShort(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x41a4
+Ljava/lang/String;->replace(Ljava/lang/CharSequence; Ljava/lang/CharSequence;)Ljava/lang/String;
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Lcom/vdog/RefHelper;->getAllInterfaces(Ljava/lang/Class;)Ljava/util/List; [access_flags=public static] @ 0x42c4
+Ljava/util/LinkedHashSet;-><init>()V
+Lcom/vdog/RefHelper;->getAllInterfaces(Ljava/lang/Class; Ljava/util/HashSet;)V [access_flags=private static] @ 0x42f8
+Ljava/lang/Class;->getInterfaces()[Ljava/lang/Class;
+Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+Lcom/vdog/RefHelper;->getFieldClass(Ljava/lang/String; Ljava/lang/String; Z)Ljava/lang/Class; [access_flags=public static] @ 0x4344
+Ljava/lang/reflect/Modifier;->isPublic(I)Z
+Ljava/lang/reflect/Field;->getModifiers()I
+Ljava/lang/Class;->getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Lcom/vdog/Validate;->isTrue(Z Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=static varargs] @ 0x4c8c
+Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+Lcom/vdog/RefHelper;->getFieldOjbect(Ljava/lang/String; Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/Object; [access_flags=public static] @ 0x4450
+Ljava/lang/IllegalAccessException;->printStackTrace()V
+Ljava/lang/IllegalArgumentException;->printStackTrace()V
+Ljava/lang/ClassNotFoundException;->printStackTrace()V
+Ljava/lang/SecurityException;->printStackTrace()V
+Ljava/lang/NoSuchFieldException;->printStackTrace()V
+Lcom/vdog/RefHelper;->getStaticFieldOjbect(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/Object; [access_flags=public static] @ 0x44cc
+Lcom/vdog/RefHelper;->getStaticFieldStringName(Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x4548
+Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Ljava/lang/Class;->getFields()[Ljava/lang/reflect/Field;
+Ljava/lang/Class;->toString()Ljava/lang/String;
+Ljava/lang/reflect/Field;->setAccessible([Ljava/lang/reflect/AccessibleObject; Z)V
+Ljava/lang/reflect/Field;->getDeclaringClass()Ljava/lang/Class;
+Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
+Lcom/vdog/RefHelper;->invokeMethod(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Object; [Ljava/lang/Class; [Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public static] @ 0x45d8
+Ljava/lang/NoSuchMethodException;->printStackTrace()V
+Ljava/lang/reflect/InvocationTargetException;->printStackTrace()V
+Lcom/vdog/RefHelper;->invokeMethod(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public static] @ 0x46ac
+Lcom/vdog/RefHelper;->invokeStaticMethod(Ljava/lang/String; Ljava/lang/String; [Ljava/lang/Class; [Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public static] @ 0x4758
+Lcom/vdog/RefHelper;->isDeclaredMethodInClass(Ljava/lang/Class; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public static] @ 0x47dc
+Ljava/lang/reflect/Method;->getParameterTypes()[Ljava/lang/Class;
+Ljava/lang/Class;->getDeclaredMethods()[Ljava/lang/reflect/Method;
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+Lcom/vdog/RefHelper;->setFieldOjbect(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Object; Ljava/lang/Object;)V [access_flags=public static] @ 0x48b4
+Lcom/vdog/RefHelper;->setStaticOjbect(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public static] @ 0x492c
+Lcom/vdog/RefHelper;->testClassName(Ljava/lang/Class;)V [access_flags=public static] @ 0x49a4
+Lcom/vdog/VDogApplication;-><init>()V [access_flags=public constructor] @ 0x49d8
+Landroid/app/Application;-><init>()V
+Lcom/vdog/VDogApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x49f0
+Lcom/vdog/VDogApplication;->getPackageManager()Landroid/content/pm/PackageManager;
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Ljava/util/ArrayList;->remove(Ljava/lang/Object;)Z
+Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/vdog/VDogApplication;->getPackageName()Ljava/lang/String;
+Lcom/vdog/VDogApplication;->onCreate()V [access_flags=public] @ 0x4ba4
+Landroid/app/Application;->getBaseContext()Landroid/content/Context;
+Lcom/vdog/VLibrary;->attach(Landroid/app/Application; Landroid/content/Context;)V [access_flags=public static native] @ 0x0
+Landroid/app/Application;->onCreate()V
+Lcom/vdog/VLibrary;-><clinit>()V [access_flags=static constructor] @ 0x4bfc
+Lcom/vdog/VLibrary;-><init>()V [access_flags=public constructor] @ 0x4c5c
+Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+Lcom/vdog/Validate;-><init>()V [access_flags=public constructor] @ 0x4c74
+Lcom/vdog/ZipUtils$CentralDirectory;-><init>()V [access_flags=constructor] @ 0x4cb8
+Ljava/io/RandomAccessFile;->close()V
+Lcom/vdog/ZipUtils;->findCentralDirectory(Ljava/io/RandomAccessFile;)Lcom/vdog/ZipUtils$CentralDirectory; [access_flags=static] @ 0x4d6c
+Lcom/vdog/ZipUtils;->computeCrcOfCentralDir(Ljava/io/RandomAccessFile; Lcom/vdog/ZipUtils$CentralDirectory;)J [access_flags=static] @ 0x4ce8
+Ljava/io/RandomAccessFile;-><init>(Ljava/io/File; Ljava/lang/String;)V
+Lcom/vdog/ZipUtils;-><init>()V [access_flags=public constructor] @ 0x4cd0
+Ljava/lang/Math;->min(J J)J
+Ljava/io/RandomAccessFile;->seek(J)V
+Ljava/io/RandomAccessFile;->read([B I I)I
+Ljava/util/zip/CRC32;-><init>()V
+Ljava/util/zip/CRC32;->getValue()J
+Ljava/util/zip/CRC32;->update([B I I)V
+Ljava/lang/Integer;->reverseBytes(I)I
+Ljava/io/RandomAccessFile;->length()J
+Ljava/io/RandomAccessFile;->skipBytes(I)I
+Ljava/io/RandomAccessFile;->readInt()I
+Ljava/util/zip/ZipException;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;

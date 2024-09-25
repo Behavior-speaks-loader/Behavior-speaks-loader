@@ -1,0 +1,31 @@
+5acb07dcfc1a60524d876dec07a0d663f7540cf33b0fb6abb608565bb7e71b59:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+android.permission.RESTART_PACKAGES
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.BROADCAST_PACKAGE_REPLACED
+------------------------------
+API:
+./res/5acb07dcfc1a60524d876dec07a0d663f7540cf33b0fb6abb608565bb7e71b59/api.txt
+------------------------------
+Intent:
+com.kingkr.kadlakj.intent.action.COMMAND
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/5acb07dcfc1a60524d876dec07a0d663f7540cf33b0fb6abb608565bb7e71b59/5acb07dcfc1a60524d876dec07a0d663f7540cf33b0fb6abb608565bb7e71b59.gml

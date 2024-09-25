@@ -1,0 +1,1401 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+2c03bcabf8294e75986a22237877eb1905ffa74c666a2c3e6cf79058b620d882
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.steps.apps
+
+
+
+
+Minimum system version:
+Android 4.2, 4.2.2
+
+
+
+
+Copyright:
+Sharebase
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:ap****cn/**.133.40.** port:80
+
+
+host:st****cn/**.133.40.** port:80
+
+
+host:/**.133.40.** port:80
+
+
+host:op****om/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:ap****cn/**.133.40.** port:80 data:data:GET /Other/Steps.php?key=0 HTTP/1.1
+Referer: http://appjiekou.dizhan666.cn/Other/Steps.php?key=0
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0; BOIE9;ZHCN)
+Host: appjiekou.dizhan666.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:st****cn/**.133.40.** port:80 data:data:GET /api/web/v1/users/getuserinfo?username=UVIpB2FzzOO28mYa&secret=ea68df916a37fd3c352fb61cc47d132b&id=1106 HTTP/1.1
+Host: storage.dizhan666.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.4.1
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:GET /qqconnectopen/openapi/policy_conf?status_os=4.4.4&status_version=19&status_machine=Lenovo+A360t&sdkp=a&sdkv=3.2.1.lite&appid=1106567792 HTTP/1.1
+Accept-Encoding: gzip
+Host: cgi.connect.qq.com
+Connection: Keep-Alive
+User-Agent: AndroidSDK_19_S898tp_4.4.4
+
+
+
+
+operation:send host:op****om/**.133.40.** port:80 data:data:GET /dsapi/ HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)
+Referer: https://xui.ptlogin2.qq.com/cgi-bin/xlogin?appid=1006102&daid=1&style=23&hide_border=1&proxy_url=https://id.qq.com%2Flogin%2Fproxy.html&s_url=https://id.qq.com/index.html%23info
+Host: open.iciba.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://ap****cn/Other/Steps.php?key=0
+
+
+http://op****om/dsapi/
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://ap****cn/Other/Steps.php?key=0
+
+
+http://st****cn/
+
+
+http://cg****om/qqconnectopen/openapi/policy_conf?status_os=4.4.4&status_version=19&status_machine=Lenovo+A360t&sdkp=a&sdkv=3.2.1.lite&appid=1106567792
+
+
+http://cg****om
+
+
+/qqconnectopen/openapi/policy_conf?status_os=4.4.4&status_version=19&status_machine=Lenovo+A360t&sdkp=a&sdkv=3.2.1.lite&appid=1106567792
+
+
+http://op****om/dsapi/
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:ap****cn/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:st****cn/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:op****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://ap****cn/Other/Steps.php?key=0'
+
+
+u'http://op****om/dsapi/'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/storage/emulated/0/Android/data/com.steps.apps/cache/.nomedia
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.steps.apps/shared_prefs/metaRow.xml.bak
+
+
+/data/data/com.steps.apps/shared_prefs/com.e4a.runtime.android.mainActivity.xml.bak
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+path:/sys/class/net/sit0/ifindex length:7
+
+
+path:/sys/class/net/sit0/ifindex length:5
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:7
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:5
+
+
+path:/data/app/com.steps.apps-1.apk length:9
+
+
+path:/data/app/com.steps.apps-1.apk length:23
+
+
+path:/data/app/com.steps.apps-1.apk length:69
+
+
+path:/data/app/com.steps.apps-1.apk length:7
+
+
+path:/sys/class/net/lo/flags length:9
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:68
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:67
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:64
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:69
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:66
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:65
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:63
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:60
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:62
+
+
+path:/data/data/com.steps.apps/.jiagu/libjiagu122156444.so length:61
+
+
+path:/data/data/com.steps.apps/shared_prefs/metaRow.xml length:112
+
+
+path:/data/data/com.steps.apps/shared_prefs/com.e4a.runtime.android.mainActivity.xml length:112
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+217dn/0/iumkAtMqUQlaY3YzJgyDn6nasjn9NaudlnXeiiEqPfM/0twl6jZU0tjgm2kGhmTImX+jEUuToJ8qf8pDmPkxotey2o+HSYp7Cdq4hdLTFoohu44iegh48QBmHzlogUV/DRcZBUhviVDsiJGOlRgMfFpr6QSfcV6SxKmcMjs
+
+
+null
+
+
+{
+
+
+	"Common_ta_enable": 1,
+
+
+	"Common_frequency": 24
+
+
+}
+
+
+MemTotal:        1030096 kB
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@226abaa8', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@226bed90', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+u'com.e4a.runtime.components.impl.android.n60.\u7cfb\u7edf\u5e7f\u64adImpl$1@223ec738', u'{"action":"test"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+参数:null
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'metaRow', u'null'
+
+
+u'jg_aaid', u''
+
+
+u'jg_vaid', u''
+
+
+u'jg_oaid', u''
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21895c80', u'show_password', u'0'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'metaRow', u''
+
+
+u'appskey', u''
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218c93d0 I.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 fmt=-2 wanim=0x10302f5}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2186a6f8 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#1810100 pfl=0x8 wanim=0x10302a1 sysui=0x1002}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'android.os.Parcel@2184f308'
+
+
+u'android.os.Parcel@2185a288'
+
+
+u'com.e4a.runtime.android.StartActivity@21890890', u'class com.e4a.runtime.android.mainActivity'
+
+
+N/A
+
+
+u'android.os.Parcel@21855ee0'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.steps.apps\/com.e4a.runtime.android.mainActivity}","EXTRAS":{"参数":"null"}}
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+AndroidManifest.xml
+0x71fa068e
+
+
+
+
+assets/.appkey
+0xa3af6222
+
+
+
+
+assets/com.tencent.open.config.json
+0xb3d4a81a
+
+
+
+
+assets/index/bottom1.png
+0xe7325303
+
+
+
+
+assets/index/bottom2.png
+0xcdc2b01c
+
+
+
+
+assets/index/bottom3.png
+0x83f69b6d
+
+
+
+
+assets/index/bottom4.png
+0x7c2f9f33
+
+
+
+
+assets/index/bottom5.png
+0x565aae5a
+
+
+
+
+assets/index/bottom6.png
+0x18f489f1
+
+
+
+
+assets/index/bottom8.png
+0xca2f8f23
+
+
+
+
+assets/index/img_01.png
+0xa7cbc648
+
+
+
+
+assets/index/img_02.png
+0xff828fd9
+
+
+
+
+assets/index/img_03.png
+0x3e00de21
+
+
+
+
+assets/index/img_04.png
+0x236c2a4c
+
+
+
+
+assets/index/img_app_check.png
+0x387a26f5
+
+
+
+
+assets/index/img_app_download.png
+0x3a6ea49b
+
+
+
+
+assets/index/img_drop.jpg
+0x3f53c16d
+
+
+
+
+assets/index/share_notice.png
+0xd565e15b
+
+
+
+
+assets/libjiagu.so
+0xe42333c1
+
+
+
+
+assets/libjiagu_a64.so
+0xa651b13f
+
+
+
+
+assets/libjiagu_x64.so
+0xea4e5af2
+
+
+
+
+assets/libjiagu_x86.so
+0x48d7a063
+
+
+
+
+assets/libwbsafeedit
+0xb05a63a9
+
+
+
+
+assets/libwbsafeedit_64
+0xf8f2144
+
+
+
+
+assets/libwbsafeedit_x86
+0xfc7f4f0b
+
+
+
+
+assets/libwbsafeedit_x86_64
+0xf630540c
+
+
+
+
+classes.dex
+0xdde37fbb
+
+
+
+
+res/anim/dialog_scale_in.xml
+0xd1205a18
+
+
+
+
+res/anim/dialog_scale_out.xml
+0xe4110112
+
+
+
+
+res/anim/error_frame_in.xml
+0x5d1db47a
+
+
+
+
+res/anim/error_x_in.xml
+0x75ae2b72
+
+
+
+
+res/anim/push_bottom_in.xml
+0x56b328b4
+
+
+
+
+res/anim/push_bottom_out.xml
+0x47153c81
+
+
+
+
+res/anim/push_danru_in.xml
+0x68e45b0e
+
+
+
+
+res/anim/push_danru_out.xml
+0x836bcdbf
+
+
+
+
+res/anim/success_bow_roate.xml
+0x868ab202
+
+
+
+
+res/anim/success_mask_layout.xml
+0x803af484
+
+
+
+
+res/anim/svfade_in_center.xml
+0x85dcd999
+
+
+
+
+res/anim/svfade_out_center.xml
+0x414887f5
+
+
+
+
+res/anim/svslide_in_bottom.xml
+0x54c6e279
+
+
+
+
+res/anim/svslide_in_top.xml
+0x1f73025e
+
+
+
+
+res/anim/svslide_out_bottom.xml
+0xcefa2448
+
+
+
+
+res/anim/svslide_out_top.xml
+0x3686fd2
+
+
+
+
+res/drawable-hdpi/custom_img.jpg
+0x5180fa2a
+
+
+
+
+res/drawable-hdpi/icon.png
+0x802f3581
+
+
+
+
+res/drawable-xhdpi/icon.png
+0x802f3581
+
+
+
+
+res/drawable-xxhdpi/ic_svstatus_error.png
+0x297d8f4d
+
+
+
+
+res/drawable-xxhdpi/ic_svstatus_info.png
+0x172fd00d
+
+
+
+
+res/drawable-xxhdpi/ic_svstatus_loading.png
+0xaa1093ba
+
+
+
+
+res/drawable-xxhdpi/ic_svstatus_success.png
+0x943168e5
+
+
+
+
+res/drawable-xxhdpi/icon.png
+0x802f3581
+
+
+
+
+res/drawable/banner.png
+0x300b4c81
+
+
+
+
+res/drawable/bg_overlay_gradient.xml
+0x9a843c0c
+
+
+
+
+res/drawable/bg_svprogresshuddefault.xml
+0x6fc02806
+
+
+
+
+res/drawable/bkg.9.png
+0x6e530870
+
+
+
+
+res/drawable/blue_button_background.xml
+0x47f8b966
+
+
+
+
+res/drawable/dialog_background.xml
+0xdfcfd5b7
+
+
+
+
+res/drawable/e4alistview_new_message.png
+0x1cdc5409
+
+
+
+
+res/drawable/error_center_x.xml
+0x885a0806
+
+
+
+
+res/drawable/error_circle.xml
+0x4fe3f2ff
+
+
+
+
+res/drawable/gray_button_background.xml
+0x69a8ef98
+
+
+
+
+res/drawable/icon.png
+0x802f3581
+
+
+
+
+res/drawable/img_app_apk_icon.png
+0xf85d8b69
+
+
+
+
+res/drawable/img_app_edit.xml
+0x8dff86f7
+
+
+
+
+res/drawable/img_app_logo.png
+0x444cbf21
+
+
+
+
+res/drawable/img_btn_1.xml
+0x9452614f
+
+
+
+
+res/drawable/img_index_1.xml
+0x5c69447e
+
+
+
+
+res/drawable/img_us_edit_drop.xml
+0xfc9f9a2c
+
+
+
+
+res/drawable/img_whtie.xml
+0xbe3b75ac
+
+
+
+
+res/drawable/img_zuixin.png
+0xee010ed5
+
+
+
+
+res/drawable/red_button_background.xml
+0xb79d34e1
+
+
+
+
+res/drawable/share_author.png
+0x6f4834fe
+
+
+
+
+res/drawable/share_dot.png
+0x1361e86a
+
+
+
+
+res/drawable/share_enter.png
+0x358e38c0
+
+
+
+
+res/drawable/share_group.png
+0xcfaba1f8
+
+
+
+
+res/drawable/share_notice.png
+0xd565e15b
+
+
+
+
+res/drawable/share_splash.png
+0xbcda5c2
+
+
+
+
+res/drawable/success_bow.xml
+0x52cce9c7
+
+
+
+
+res/drawable/success_circle.xml
+0xdc8e58f9
+
+
+
+
+res/drawable/warning_circle.xml
+0x95388dfa
+
+
+
+
+res/drawable/warning_sigh.xml
+0x92aa59e7
+
+
+
+
+res/layout-land/ssofia_host_layout.xml
+0x6ac55748
+
+
+
+
+res/layout/alert_dialog.xml
+0xe500c017
+
+
+
+
+res/layout/layout_svprogresshud.xml
+0x87e15547
+
+
+
+
+res/layout/ok_ios_tanchucandanxml_d.xml
+0xd5bd6db2
+
+
+
+
+res/layout/ok_ios_tanchucandanxml_d_anniu.xml
+0xfa9f0e0e
+
+
+
+
+res/layout/qq_bottom_controls.xml
+0xa52bb97b
+
+
+
+
+res/layout/qq_bottom_item.xml
+0xd2cdf1ba
+
+
+
+
+res/layout/ssofia_host_layout.xml
+0x3db9e20e
+
+
+
+
+res/layout/view_svprogressdefault.xml
+0xc0b02e4b
+
+
+
+
+res/xml/file_paths_android.xml
+0xae6e59a8
+
+
+
+
+resources.arsc
+0x32c255e3
+
+
+
+
+META-INF/APPGS.SF
+0x1608989a
+
+
+
+
+META-INF/APPGS.RSA
+0x33657918
+
+
+
+
+META-INF/MANIFEST.MF
+0xf3b02792
+
+
+
+
+META-INF/RAS.RES
+0xaa619fc0
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.e4a.runtime.android.StartActivity
+android.intent.action.MAIN
+
+
+
+
+com.e4a.runtime.android.StartActivity
+android.intent.category.DEFAULT
+
+
+
+
+com.e4a.runtime.android.StartActivity
+android.intent.category.LAUNCHER
+
+
+
+
+com.e4a.runtime.android.mainActivity
+android.intent.action.MAIN
+
+
+
+
+com.e4a.runtime.android.mainActivity
+android.intent.category.DEFAULT
+
+
+
+
+com.tencent.tauth.AuthActivity
+android.intent.action.VIEW
+
+
+
+
+com.tencent.tauth.AuthActivity
+android.intent.category.DEFAULT
+
+
+
+
+com.tencent.tauth.AuthActivity
+android.intent.category.BROWSABLE
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+com.android.launcher.permission.INSTALL_SHORTCUT
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.REQUEST_INSTALL_PACKAGES
+
+
+
+
+ACCESS_WIFI_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.SYSTEM_OVERLAY_WINDOW
+
+
+
+
+android.permission.CHANGE_WIFI_STATE
+
+
+
+
+android.permission.FOREGROUND_SERVICE
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+com.android.launcher.permission.READ_SETTINGS
+
+
+
+
+android.permission.CHANGE_NETWORK_STATE
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.CHANGE_CONFIGURATION
+
+
+

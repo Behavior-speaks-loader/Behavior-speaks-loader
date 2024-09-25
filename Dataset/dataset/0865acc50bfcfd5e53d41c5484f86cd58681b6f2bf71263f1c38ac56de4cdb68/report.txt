@@ -1,0 +1,36 @@
+0865acc50bfcfd5e53d41c5484f86cd58681b6f2bf71263f1c38ac56de4cdb68:['File']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+androhid.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.INTERNET
+com.android.vending.CHECK_LICENSE
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.RESTART_PACKAGES
+com.nkm.kp.hh.permission.JPUSH_MESSAGE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.VIBRATE
+android.permission.WRITE_SETTINGS
+android.permission.RECEIVE_USER_PRESENT
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/0865acc50bfcfd5e53d41c5484f86cd58681b6f2bf71263f1c38ac56de4cdb68/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+android.intent.action.USER_PRESENT
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+com.nkm.kp.hh
+------------------------------
+Function call graph:
+gml path: ./res/0865acc50bfcfd5e53d41c5484f86cd58681b6f2bf71263f1c38ac56de4cdb68/0865acc50bfcfd5e53d41c5484f86cd58681b6f2bf71263f1c38ac56de4cdb68.gml

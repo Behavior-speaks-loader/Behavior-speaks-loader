@@ -1,0 +1,25 @@
+313b5db284e966484adb8414e903362846a66abc7ecd9e77fdd433d75309e43a:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+com.android.launcher.permission.INSTALL_SHORTCUT
+------------------------------
+API:
+./res/313b5db284e966484adb8414e903362846a66abc7ecd9e77fdd433d75309e43a/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.intent.action.USER_PRESENT
+android.intent.action.BOOT_COMPLETED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/313b5db284e966484adb8414e903362846a66abc7ecd9e77fdd433d75309e43a/313b5db284e966484adb8414e903362846a66abc7ecd9e77fdd433d75309e43a.gml

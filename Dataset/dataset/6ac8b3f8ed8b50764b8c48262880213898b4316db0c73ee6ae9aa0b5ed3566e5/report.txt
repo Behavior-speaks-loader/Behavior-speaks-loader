@@ -1,0 +1,46 @@
+6ac8b3f8ed8b50764b8c48262880213898b4316db0c73ee6ae9aa0b5ed3566e5:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.READ_LOGS
+android.permission.SEND_SMS
+android.permission.GET_TASKS
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.READ_SMS
+android.permission.READ_SETTINGS
+android.permission.INTERACT_ACROSS_USERS_FULL
+android.permission.INTERNET
+android.permission.BROADCAST_PACKAGE_ADDED
+com.qizhu.rili.permission.MIPUSH_RECEIVE
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/6ac8b3f8ed8b50764b8c48262880213898b4316db0c73ee6ae9aa0b5ed3566e5/api.txt
+------------------------------
+Intent:
+com.huawei.android.push.intent.REGISTRATION
+com.huawei.android.push.intent.RECEIVE
+com.huawei.intent.action.PUSH
+com.huawei.intent.action.PUSH_STATE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/6ac8b3f8ed8b50764b8c48262880213898b4316db0c73ee6ae9aa0b5ed3566e5/6ac8b3f8ed8b50764b8c48262880213898b4316db0c73ee6ae9aa0b5ed3566e5.gml

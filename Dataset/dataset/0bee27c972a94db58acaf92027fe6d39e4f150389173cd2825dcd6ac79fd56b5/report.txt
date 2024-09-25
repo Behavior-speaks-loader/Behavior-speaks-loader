@@ -1,0 +1,18 @@
+0bee27c972a94db58acaf92027fe6d39e4f150389173cd2825dcd6ac79fd56b5:['network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+com.android.vending.BILLING
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/0bee27c972a94db58acaf92027fe6d39e4f150389173cd2825dcd6ac79fd56b5/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_INSTALL
+android.intent.action.PACKAGE_ADDED
+com.google.intent.category.DAYDREAM
+------------------------------
+Function call graph:
+gml path: ./res/0bee27c972a94db58acaf92027fe6d39e4f150389173cd2825dcd6ac79fd56b5/0bee27c972a94db58acaf92027fe6d39e4f150389173cd2825dcd6ac79fd56b5.gml

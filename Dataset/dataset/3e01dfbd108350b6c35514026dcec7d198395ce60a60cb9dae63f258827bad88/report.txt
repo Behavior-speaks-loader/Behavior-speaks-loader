@@ -1,0 +1,36 @@
+3e01dfbd108350b6c35514026dcec7d198395ce60a60cb9dae63f258827bad88:['File']
+------------------------------
+Permissions:
+android.permission.PACKAGE_USAGE_STATS
+android.permission.READ_LOGS
+android.permission.MOUNT_FORMAT_FILESYSTEMS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.INTERACT_ACROSS_USERS_FULL
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.EXPAND_STATUS_BAR
+android.permission.PROCESS_OUTGOING_CALLS
+android.permission.GET_ACCOUNTS
+android.permission.RESTART_PACKAGES
+android.permission.WRITE_CONTACTS
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+android.permission.CHANGE_WIFI_MULTICAST_STATE
+android.permission.DISABLE_KEYGUARD
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/3e01dfbd108350b6c35514026dcec7d198395ce60a60cb9dae63f258827bad88/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+umeng
+------------------------------
+Function call graph:
+gml path: ./res/3e01dfbd108350b6c35514026dcec7d198395ce60a60cb9dae63f258827bad88/3e01dfbd108350b6c35514026dcec7d198395ce60a60cb9dae63f258827bad88.gml

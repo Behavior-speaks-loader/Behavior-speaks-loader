@@ -1,0 +1,1429 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+5eb343940c34a1bcc0a64bf70ae324f7b7af401cc9a75c025861eca4fd64b001
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+org.tts.yugi_oh
+
+
+
+
+Minimum system version:
+Android 2.2.x
+
+
+
+
+Copyright:
+N/A
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get specific account
+
+
+
+
+
+Detail info:
+
+u'com.google'
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80
+
+
+host:sd****om/**.133.40.** port:80
+
+
+host:/**.133.40.** port:443
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.133.40.** port:80 data:data:GET /data/Yugi/dataNew.txt HTTP/1.1
+Host: 2ts.vn
+Connection: Keep-Alive
+
+
+
+
+operation:send host:sd****om/**.133.40.** port:80 data:data:PUT /sdk/v1/updateConf HTTP/1.1
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdk.adbuddiz.com
+Connection: Keep-Alive
+Content-Length: 202
+
+{"w":"60:00:01:00:B9:00","v":19,"tm":true,"cp":"x86","mo":"HABOmodel","s":7.518939018249512,"c":"CN","ma":"Lenovo","a":"92841014150fc3fd","sv":"1.4.0","i":"35712****123456","pk":"TEST_PUBLISHER_KEY"}
+
+
+operation:send host:/**.133.40.** port:80 data:data:GET /api/v1/start?a=airpush%3A1368235993148103854&ab=x86&av=1.0.0&br=Lenovo&c=wwan&de=S898tp&i=org.tts.yugi_oh&ma=Lenovo&mo=Lenovo+A360t&n=Yugi-Oh%21&p=Android&pr=smarttp_open&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&u=92841014150fc3fd&v=4.4.4&lag=0.006&h=cc9b57c8eb3a3040215b64843af8ae346815571c HTTP/1.1
+Host: e.apsalar.com
+Connection: Keep-Alive
+User-Agent: SDK/4.0.1
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:GET /api/v1/event?a=airpush%3A1368235993148103854&av=1.0.0&e=%7B%7D&i=org.tts.yugi_oh&n=end_session&p=Android&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&t=0.014&u=92841014150fc3fd&lag=0.021&h=24cad59bf1ea623df79391fe0727d2c1f6b6eef0 HTTP/1.1
+Host: e.apsalar.com
+Connection: Keep-Alive
+User-Agent: SDK/4.0.1
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:GET /api/v1/event?a=airpush%3A1368235993148103854&av=1.0.0&e=%7B%7D&i=org.tts.yugi_oh&n=end_session&p=Android&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&t=0.0&u=92841014150fc3fd&lag=0.011&h=b4d581652b5d1a21f51725b6d647cf3fce73b802 HTTP/1.1
+Host: e.apsalar.com
+Connection: Keep-Alive
+User-Agent: SDK/4.0.1
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://sd****om/sdk/v1/updateConf'
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://2****n/data/Yugi/dataNew.txt
+
+
+http://2****n
+
+
+/data/Yugi/dataNew.txt
+
+
+http://sd****om/sdk/v1/updateConf
+
+
+https://ap****om/optin/
+
+
+https://ap****om
+
+
+https://ap****om/lp/getinterstitialads.php
+
+
+https://ap****om/v2/api.php
+
+
+http://e.****om/api/v1/start?a=airpush%3A1368235993148103854&ab=x86&av=1.0.0&br=Lenovo&c=wwan&de=S898tp&i=org.tts.yugi_oh&ma=Lenovo&mo=Lenovo+A360t&n=Yugi-Oh%21&p=Android&pr=smarttp_open&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&u=92841014150fc3fd&v=4.4.4&lag=0.006&h=cc9b57c8eb3a3040215b64843af8ae346815571c
+
+
+http://e.****om
+
+
+/api/v1/start?a=airpush%3A1368235993148103854&ab=x86&av=1.0.0&br=Lenovo&c=wwan&de=S898tp&i=org.tts.yugi_oh&ma=Lenovo&mo=Lenovo+A360t&n=Yugi-Oh%21&p=Android&pr=smarttp_open&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&u=92841014150fc3fd&v=4.4.4&lag=0.006&h=cc9b57c8eb3a3040215b64843af8ae346815571c
+
+
+http://e.****om/api/v1/event?a=airpush%3A1368235993148103854&av=1.0.0&e=%7B%7D&i=org.tts.yugi_oh&n=end_session&p=Android&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&t=0.014&u=92841014150fc3fd&lag=0.021&h=24cad59bf1ea623df79391fe0727d2c1f6b6eef0
+
+
+/api/v1/event?a=airpush%3A1368235993148103854&av=1.0.0&e=%7B%7D&i=org.tts.yugi_oh&n=end_session&p=Android&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&t=0.014&u=92841014150fc3fd&lag=0.021&h=24cad59bf1ea623df79391fe0727d2c1f6b6eef0
+
+
+http://e.****om/api/v1/event?a=airpush%3A1368235993148103854&av=1.0.0&e=%7B%7D&i=org.tts.yugi_oh&n=end_session&p=Android&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&t=0.0&u=92841014150fc3fd&lag=0.011&h=b4d581652b5d1a21f51725b6d647cf3fce73b802
+
+
+/api/v1/event?a=airpush%3A1368235993148103854&av=1.0.0&e=%7B%7D&i=org.tts.yugi_oh&n=end_session&p=Android&rt=json&s=42302faf-3bd9-46fd-b0a0-8c76c8f8cb17&sdk=4.0.1&t=0.0&u=92841014150fc3fd&lag=0.011&h=b4d581652b5d1a21f51725b6d647cf3fce73b802
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:sd****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://sd****om/sdk/v1/updateConf
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/data/data/org.tts.yugi_oh/cache/ads-1573713886.jar
+
+
+/data/data/org.tts.yugi_oh/cache/history.txt
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+MemTotal:        1030096 kB
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/data/app/org.tts.yugi_oh-1.apk length:9
+
+
+path:/data/app/org.tts.yugi_oh-1.apk length:23
+
+
+path:/data/app/org.tts.yugi_oh-1.apk length:68
+
+
+path:/proc/meminfo length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+path:/sys/class/net/sit0/ifindex length:7
+
+
+path:/data/data/org.tts.yugi_oh/cache/history.txt length:5
+
+
+path:/sys/class/net/sit0/ifindex length:5
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:7
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/org.tts.yugi_oh/shared_prefs/ABZ-stats.xml.bak
+
+
+/data/data/org.tts.yugi_oh/shared_prefs/org.tts.yugi_oh_preferences.xml.bak
+
+
+/data/data/org.tts.yugi_oh/shared_prefs/dataPrefs.xml.bak
+
+
+/data/data/org.tts.yugi_oh/shared_prefs/sdkPrefs.xml.bak
+
+
+/data/data/org.tts.yugi_oh/shared_prefs/enableAdPref.xml.bak
+
+
+/data/data/org.tts.yugi_oh/cache/ads-1573713886.jar
+
+
+/data/data/org.tts.yugi_oh/cache/ads-1573713886.dex
+
+
+/data/data/org.tts.yugi_oh/shared_prefs/firstTime.xml.bak
+
+
+/data/data/org.tts.yugi_oh/shared_prefs/next_ad_call.xml.bak
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/ABZ-stats.xml length:114
+
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/org.tts.yugi_oh_preferences.xml length:145
+
+
+path:/data/data/org.tts.yugi_oh/cache/ads-1573713886.jar length:69
+
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/dataPrefs.xml length:261
+
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/sdkPrefs.xml length:122
+
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/enableAdPref.xml length:127
+
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/enableAdPref.xml length:168
+
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/enableAdPref.xml length:257
+
+
+path:/storage/emulated/0/.bugsense length:38
+
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/firstTime.xml length:123
+
+
+path:/data/data/org.tts.yugi_oh/shared_prefs/next_ad_call.xml length:127
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/.bugsense
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+DefaultHttpClient;->execute
+Send HTTP request
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+java/net/URLConnection;->connect
+Connect to URL
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get specific account
+
+
+
+
+
+Detail info:
+
+u'com.google'
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+u'gps', u'0', u'0.0', u'com.vsutijuaou.wdwmtmmacq148103.UserDetails$1@21957b40', u'Looper (main, tid 1) {21854600}'
+
+
+
+
+
+Behaviour:
+Get last location
+
+
+
+
+
+Detail info:
+
+u'gps'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Start service
+
+
+
+
+
+Detail info:
+
+{"ACTION":"SetMessageReceiverorg.tts.yugi_oh","FLAG":0,"COMPONENT_NAME":"ComponentInfo{org.tts.yugi_oh\/com.vsutijuaou.wdwmtmmacq148103.PushService}"}
+
+
+{"ACTION":"bootReceiver","FLAG":0,"COMPONENT_NAME":"ComponentInfo{org.tts.yugi_oh\/com.vsutijuaou.wdwmtmmacq148103.PushService}"}
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.google.ads.util.AdUtil$UserActivityReceiver@2186e5d8', u'{"action":"android.intent.action.USER_PRESENT|android.intent.action.SCREEN_OFF"}'
+
+
+
+
+
+Behaviour:
+Call setAction of intent
+
+
+
+
+
+Detail info:
+
+u'SetMessageReceiverorg.tts.yugi_oh'
+
+
+u'bootReceiver'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'appId', u'invalid'
+
+
+u'APIKEY', u'airpush'
+
+
+u'imei', u''
+
+
+u'imei_sha', u''
+
+
+u'token', u'invalid'
+
+
+u'longitude', u'0'
+
+
+u'latitude', u'0'
+
+
+u'useragent', u'Default'
+
+
+u'deviceUniqueness', u'invalid'
+
+
+
+
+
+Behaviour:
+Access shared app data
+
+
+
+
+
+Detail info:
+
+u'content://com.google.plus.platform/token', u'[drt]', u'null', u'null', u'null'
+
+
+u'content://com.facebook.katana.provider.AttributionIdProvider', u'null', u'null', u'null', u'null'
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+content://com.google.plus.platform/token
+
+
+market://details?id=com.google.ads
+
+
+geo:0,0?q=donuts
+
+
+market://search?q=pname:com.google
+
+
+content://com.facebook.katana.provider.AttributionIdProvider
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218a79a8', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21875b18', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21875b18', u'sound_effects_enabled', u'0'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/org.tts.yugi_oh/cache/ads-1573713886.jar
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'drt', u''
+
+
+u'APIKEY', u'1368235993148103854'
+
+
+u'appId', u'149815'
+
+
+u'imei', u'aeb0d4e5f4f579854f8b772d8977fdf6'
+
+
+u'imei_sha', u'7a7513c86dae363fd58d5f4b787b6b348689f8e5'
+
+
+u'token', u'9bc343e2f7e74671ca4bd573f6789bc2'
+
+
+u'request_timestamp', u'2015-12-31 11:03:15_\u4e2d\u56fd\u6807\u51c6\u65f6\u95f4_Asia/Shanghai_GMT+08:00'
+
+
+u'packageName', u'org.tts.yugi_oh'
+
+
+u'version', u'19'
+
+
+u'carrier', u'CMCC'
+
+
+u'networkOperator', u'\u4e2d\u56fd\u79fb\u52a8 4G'
+
+
+u'phoneModel', u'HABOmodel'
+
+
+u'manufacturer', u'Lenovo'
+
+
+u'longitude', u'0'
+
+
+u'latitude', u'0'
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "Privacy Policy & Advertising Terms", "class": "android.widget.TextView"}
+
+
+
+{"text": "Cancel", "class": "android.widget.TextView"}
+
+
+
+{"text": "Ok", "class": "android.widget.Button"}
+
+
+
+{"text": "Tất cả", "class": "android.widget.TextView"}
+
+
+
+{"text": "Đã đọc", "class": "android.widget.TextView"}
+
+
+
+{"text": "Đã down", "class": "android.widget.TextView"}
+
+
+
+{"text": "Giới thiệu", "class": "android.widget.TextView"}
+
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218a8c68 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218c30a0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218630a0 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1820002 pfl=0x8 fmt=-2 wanim=0x1030002}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218740b8 I.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 fmt=-2 wanim=0x1030000}'
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'SELECT serial, session_json, event_json FROM backlog ORDER BY serial', u'null'
+
+
+u'SELECT count(serial) FROM backlog', u'null'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{org.tts.yugi_oh\/org.tts.yugi_oh.MainActivity}"}
+
+
+{"FLAG":813694976,"COMPONENT_NAME":"ComponentInfo{org.tts.yugi_oh\/com.vsutijuaou.wdwmtmmacq148103.SmartWallActivity}"}
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'android.app.Application@218a79c8', u'class org.tts.yugi_oh.MainActivity'
+
+
+u'android.os.Parcel@2184f318'
+
+
+u'android.app.Application@218a79c8', u'class com.vsutijuaou.wdwmtmmacq148103.SmartWallActivity'
+
+
+u'android.intent.action.VIEW', u'market://details?id=com.google.ads'
+
+
+u'android.intent.action.VIEW', u'geo:0,0?q=donuts'
+
+
+u'android.intent.action.VIEW', u'market://search?q=pname:com.google'
+
+
+u'android.app.Application@218a79c8', u'class com.vsutijuaou.wdwmtmmacq148103.BrowserActivity'
+
+
+u'android.os.Parcel@2184f308'
+
+
+u'android.app.Application@218a79c8', u'class com.vsutijuaou.wdwmtmmacq148103.PushService'
+
+
+u'android.app.Application@218a79c8', u'class com.vsutijuaou.wdwmtmmacq148103.BootReceiver'
+
+
+u'android.app.ReceiverRestrictedContext@21b123f0', u'class com.vsutijuaou.wdwmtmmacq148103.PushService'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+assets/font/BodoniPosterC.otf
+0x86da3fa2
+
+
+
+
+assets/font/UTMAlbertaHeavy.ttf
+0x89c273aa
+
+
+
+
+res/drawable/chapter_download.png
+0xb94fbadd
+
+
+
+
+res/drawable/chapter_downloaded.png
+0x9c41130b
+
+
+
+
+res/drawable/chapter_readed.png
+0x57f95359
+
+
+
+
+res/drawable/chapter_unreaded.png
+0x93aacc98
+
+
+
+
+res/drawable/divider.png
+0xd7d23a38
+
+
+
+
+res/drawable/img_tab0_b.png
+0x4fd93a91
+
+
+
+
+res/drawable/img_tab0_w.png
+0xc5bb9518
+
+
+
+
+res/drawable/img_tab1_b.png
+0x905b3aa9
+
+
+
+
+res/drawable/img_tab1_w.png
+0x3df9925c
+
+
+
+
+res/drawable/img_tab2_b.png
+0x1e198965
+
+
+
+
+res/drawable/img_tab2_w.png
+0x637836c1
+
+
+
+
+res/drawable/img_tab3_b.png
+0x917cf802
+
+
+
+
+res/drawable/img_tab3_w.png
+0xd310f7e8
+
+
+
+
+res/drawable/mark.png
+0x4d7f7f59
+
+
+
+
+res/drawable/pic.jpg
+0x2995de5d
+
+
+
+
+res/drawable/reader_layout_bg.png
+0x5a927c80
+
+
+
+
+res/drawable/star_bg01.jpg
+0x374320f6
+
+
+
+
+res/drawable/star_bg04.jpg
+0x5ea19db2
+
+
+
+
+res/drawable/star_bg05.jpg
+0x9bd5c5aa
+
+
+
+
+res/layout/airpush_notify.xml
+0x5f899b0b
+
+
+
+
+res/layout/chapter_adapter.xml
+0x896933f1
+
+
+
+
+res/layout/main_activity.xml
+0x566eebe4
+
+
+
+
+res/layout/reader_activity.xml
+0x92a4a337
+
+
+
+
+res/layout/start_activity.xml
+0xb0f32591
+
+
+
+
+res/menu/main.xml
+0x4da4015d
+
+
+
+
+AndroidManifest.xml
+0xf8423875
+
+
+
+
+resources.arsc
+0xb017f775
+
+
+
+
+res/drawable-hdpi/ic_launcher.png
+0xfb5655f8
+
+
+
+
+res/drawable-mdpi/ic_launcher.png
+0x1bf1c5a3
+
+
+
+
+res/drawable-xhdpi/ic_launcher.png
+0x74425c5f
+
+
+
+
+res/drawable-xxhdpi/ic_launcher.png
+0xf8aa7a1b
+
+
+
+
+classes.dex
+0xb621fb07
+
+
+
+
+jsr305_annotations/Jsr305_annotations.gwt.xml
+0x8d4f3e59
+
+
+
+
+jsr305_annotations/v0_r47/V0_r47.gwt.xml
+0x8b4479b0
+
+
+
+
+META-INF/MANIFEST.MF
+0xfa2275c8
+
+
+
+
+META-INF/CERT.SF
+0x25bd4d33
+
+
+
+
+META-INF/CERT.RSA
+0x2c50046c
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+org.tts.yugi_oh.StartActivity
+android.intent.action.MAIN
+
+
+
+
+org.tts.yugi_oh.StartActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Name
+Detail info
+
+
+
+
+com.vsutijuaou.wdwmtmmacq148103.BootReceiver
+Start after boot completed
+
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.GET_ACCOUNTS
+
+
+
+
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+
+
+
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+
+
+
+com.android.launcher.permission.INSTALL_SHORTCUT
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.vsutijuaou.wdwmtmmacq148103.PushService
+
+
+

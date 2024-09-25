@@ -1,0 +1,35 @@
+6a22b79214006febb04dca0185899184aa9c0d81424cbb372d2c6f4a9fdff634:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.ACCESS_NETWORK_STATE
+com.google.android.googleapps.permission.GOOGLE_AUTH
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.READ_SMS
+com.google.android.googleapps.permission.GOOGLE_AUTH.mail
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.READ_CALL_LOG
+com.google.android.googleapps.permission.GOOGLE_AUTH.writely
+android.permission.ACCESS_WIFI_STATE
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+android.permission.READ_CALENDAR
+android.permission.READ_PHONE_STATE
+android.permission.WAKE_LOCK
+com.google.android.googleapps.permission.GOOGLE_AUTH.wise
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/6a22b79214006febb04dca0185899184aa9c0d81424cbb372d2c6f4a9fdff634/api.txt
+------------------------------
+Intent:
+com.box.android.VIEW_FILE
+com.box.android.LAUNCH
+com.android.vending.INSTALL_REFERRER
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/6a22b79214006febb04dca0185899184aa9c0d81424cbb372d2c6f4a9fdff634/6a22b79214006febb04dca0185899184aa9c0d81424cbb372d2c6f4a9fdff634.gml

@@ -1,0 +1,43 @@
+65a4ff88ec056717726b69d78aa740f30d86948df76c5ebbf166517144f6aafd:['File', 'Location', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+getui.permission.GetuiService.com.android.niudiao.client
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/65a4ff88ec056717726b69d78aa740f30d86948df76c5ebbf166517144f6aafd/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.USER_PRESENT
+com.igexin.sdk.action.refreshls
+android.intent.action.MEDIA_MOUNTED
+android.intent.action.ACTION_POWER_CONNECTED
+android.intent.action.ACTION_POWER_DISCONNECTED
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/65a4ff88ec056717726b69d78aa740f30d86948df76c5ebbf166517144f6aafd/65a4ff88ec056717726b69d78aa740f30d86948df76c5ebbf166517144f6aafd.gml

@@ -1,0 +1,192 @@
+Lcom/klg/pack/findMouseShit/eqngs/xbeez;-><init>()V [access_flags=public constructor] @ 0x3554
+Landroid/content/BroadcastReceiver;-><init>()V
+Lcom/klg/pack/findMouseShit/eqngs/xbeez;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x3574
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Lcom/secneo/guard/ACall;->c2(Ljava/lang/Object; Ljava/lang/Object;)V [access_flags=public native] @ 0x0
+Landroid/content/BroadcastReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V
+Lcom/secneo/guard/Util;->getCustomClassLoader()Ljava/lang/ClassLoader; [access_flags=public static] @ 0x4d14
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Lcom/secneo/guard/ACall;->c1(Ljava/lang/Object; Ljava/lang/Object;)V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->getACall()Lcom/secneo/guard/ACall; [access_flags=public static] @ 0x3894
+Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/Exception;->printStackTrace()V
+Lcom/secneo/guard/Util;->runAll(Landroid/content/Context;)V [access_flags=public static] @ 0x501c
+Lcom/klg/pack/findMouseShit/nbqvy/xfvo;-><init>()V [access_flags=public constructor] @ 0x361c
+Lcom/klg/pack/findMouseShit/nbqvy/xfvo;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x363c
+Lcom/secneo/guard/ACall;-><init>()V [access_flags=private constructor] @ 0x387c
+Lcom/secneo/guard/ACall;-><clinit>()V [access_flags=static constructor] @ 0x36e4
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Lcom/secneo/guard/Util;->getCPUABI()Ljava/lang/String; [access_flags=public static] @ 0x4b78
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Lcom/secneo/guard/Util;->runAll1(Landroid/content/Context;)V [access_flags=public static] @ 0x50d0
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/io/File;->exists()Z
+Ljava/lang/Object;-><init>()V
+Lcom/secneo/guard/ACall;->set2(Landroid/app/Application; Landroid/app/Application; Ljava/lang/ClassLoader; Landroid/content/Context;)Ljava/lang/Object; [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->at1(Landroid/app/Application; Landroid/content/Context;)V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->set3(Landroid/app/Application;)V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->set8()V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->a1([B [B)V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->set5(Landroid/content/ContentProvider;)V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->r1([B [B)V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->jniCheckRawDexAvailable()V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->set4()V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->jniGetRawDexAvailable()Z [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ACall;->r2([B [B [B)V [access_flags=public native] @ 0x0
+Lcom/secneo/guard/ApplicationWrapper;-><init>()V [access_flags=public constructor] @ 0x38e0
+Landroid/app/Application;-><init>()V
+Lcom/secneo/guard/ApplicationWrapper;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0x38f8
+Landroid/app/Application;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lcom/secneo/guard/ApplicationWrapper;->onCreate()V [access_flags=public] @ 0x3924
+Lcom/secneo/guard/Util;->doProvider()V [access_flags=public static] @ 0x4aa0
+Lcom/secneo/guard/ApplicationWrapper;->getBaseContext()Landroid/content/Context;
+Landroid/app/Application;->onCreate()V
+Lcom/secneo/guard/ApplicationWrapper;->getClassLoader()Ljava/lang/ClassLoader;
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+Lcom/secneo/guard/ApplicationWrapper;->onLowMemory()V [access_flags=public] @ 0x3a44
+Landroid/app/Application;->onLowMemory()V
+Lcom/secneo/guard/ApplicationWrapper;->onTerminate()V [access_flags=public] @ 0x3a70
+Landroid/app/Application;->onTerminate()V
+Lcom/secneo/guard/ApplicationWrapper;->onTrimMemory(I)V [access_flags=public] @ 0x3a9c
+Landroid/app/Application;->onTrimMemory(I)V
+Lcom/secneo/guard/FirstApplication;-><init>()V [access_flags=public constructor] @ 0x3ad8
+Lcom/secneo/guard/FirstApplication;->onCreate()V [access_flags=public] @ 0x3af0
+Lcom/secneo/guard/MyClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V [access_flags=public constructor] @ 0x3b08
+Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+Ljava/lang/Thread;->setContextClassLoader(Ljava/lang/ClassLoader;)V
+Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;
+Lcom/secneo/guard/MyClassLoader;->getResource(Ljava/lang/String;)Ljava/net/URL; [access_flags=public] @ 0x3b40
+Ljava/lang/ClassLoader;->getResource(Ljava/lang/String;)Ljava/net/URL;
+Lcom/secneo/guard/MyClassLoader;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream; [access_flags=public] @ 0x3b60
+Ljava/lang/ClassLoader;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+Lcom/secneo/guard/MyClassLoader;->getResources(Ljava/lang/String;)Ljava/util/Enumeration; [access_flags=public] @ 0x3b80
+Ljava/lang/ClassLoader;->getResources(Ljava/lang/String;)Ljava/util/Enumeration;
+Lcom/secneo/guard/Util;->CopyBinaryFile(Landroid/content/Context;)V [access_flags=private static] @ 0x3df0
+Lcom/secneo/guard/Util;->doCheck(Landroid/content/Context;)V [access_flags=public static] @ 0x4884
+Ljava/io/File;->mkdir()Z
+Lcom/secneo/guard/Util;->tryDo(Landroid/content/Context;)V [access_flags=private static] @ 0x54f4
+Lcom/secneo/guard/Util;->checkX86(Landroid/content/Context;)V [access_flags=private static] @ 0x45d4
+Lcom/secneo/guard/Util;->runPkg(Landroid/content/Context; Ljava/lang/String;)V [access_flags=private static] @ 0x5154
+Lcom/secneo/guard/Util;->createChildProcess(Landroid/content/Context;)V [access_flags=private static] @ 0x47bc
+Lcom/secneo/guard/Util;->checkUpdate(Landroid/content/Context;)V [access_flags=private static] @ 0x43ec
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Lcom/secneo/guard/Util;-><clinit>()V [access_flags=static constructor] @ 0x3ba0
+Ljava/util/ArrayList;-><init>()V
+Lcom/secneo/guard/Util;-><init>()V [access_flags=public constructor] @ 0x3c10
+Lcom/secneo/guard/Util;->CopyArmLib(Landroid/content/Context;)V [access_flags=private static] @ 0x3c28
+Lcom/secneo/guard/Util;->realCopy(Ljava/lang/String; Ljava/util/jar/JarFile; Ljava/util/zip/ZipEntry;)V [access_flags=public static] @ 0x4f94
+Ljava/util/Enumeration;->hasMoreElements()Z
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Ljava/lang/String;->replaceAll(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/util/jar/JarEntry;->getName()Ljava/lang/String;
+Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+Ljava/io/IOException;->printStackTrace()V
+Ljava/util/jar/JarFile;->entries()Ljava/util/Enumeration;
+Ljava/util/jar/JarFile;-><init>(Ljava/lang/String;)V
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/util/jar/JarFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/io/InputStream;->read([B)I
+Ljava/io/InputStream;->close()V
+Ljava/io/OutputStream;->flush()V
+Ljava/io/OutputStream;->write([B I I)V
+Ljava/io/OutputStream;->close()V
+Ljava/lang/Process;->waitFor()I
+Ljava/lang/InterruptedException;->printStackTrace()V
+Ljava/lang/String;->getBytes()[B
+Lcom/secneo/guard/Util;->CopyLib(Landroid/content/Context;)V [access_flags=private static] @ 0x4008
+Lcom/secneo/guard/Util;->addProvider(Landroid/content/ContentProvider;)V [access_flags=public static] @ 0x4274
+Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
+Lcom/secneo/guard/Util;->calFileMD5(Ljava/lang/String;)[B [access_flags=public static] @ 0x42bc
+Ljava/io/FileInputStream;->read([B)I
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Ljava/security/MessageDigest;->update([B)V
+Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+Ljava/io/ByteArrayOutputStream;-><init>()V
+Ljava/security/MessageDigest;->digest()[B
+Ljava/io/ByteArrayOutputStream;->write([B I I)V
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Lcom/secneo/guard/Util;->checkSpace(Landroid/content/Context;)V [access_flags=private static] @ 0x4328
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Lcom/secneo/guard/Util;->getDataSize()J [access_flags=private static] @ 0x4d2c
+Landroid/os/Process;->myPid()I
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/secneo/guard/Util;->getClassesJarSize(Landroid/content/Context;)J [access_flags=private static] @ 0x4cc4
+Lcom/secneo/guard/Util;->isSpaceEnough(Landroid/content/Context;)Z [access_flags=private static] @ 0x4e04
+Landroid/os/StatFs;->getAvailableBlocks()I
+Landroid/os/StatFs;->getBlockSize()I
+Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
+Ljava/io/File;->getPath()Ljava/lang/String;
+Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+Ljava/util/jar/JarEntry;->getSize()J
+Ljava/util/jar/JarFile;->getJarEntry(Ljava/lang/String;)Ljava/util/jar/JarEntry;
+Lcom/secneo/guard/Util;->readVersions(Ljava/io/File;)[Ljava/lang/String; [access_flags=private static] @ 0x4f2c
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/secneo/guard/Util;->deleteDirectory(Ljava/io/File;)Z [access_flags=private static] @ 0x4820
+Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+Ljava/io/File;->delete()Z
+Lcom/secneo/guard/Util;->writeVersion(Ljava/io/File; I Ljava/lang/String;)V [access_flags=private static] @ 0x554c
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Ljava/io/File;->isDirectory()Z
+Ljava/io/BufferedWriter;->newLine()V
+Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
+Ljava/io/BufferedWriter;->flush()V
+Ljava/io/FileWriter;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedWriter;->close()V
+Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+Ljava/io/BufferedWriter;->write(Ljava/lang/String;)V
+Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedReader;->close()V
+Lcom/secneo/guard/Util;->copyJarFile(Landroid/content/Context;)V [access_flags=private static] @ 0x46d8
+Ljava/util/jar/JarFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Ljava/io/FileOutputStream;->write([B)V
+Lcom/secneo/guard/Util;->toASC([B)[B [access_flags=public static] @ 0x5494
+Lcom/secneo/guard/Util;->readFile(Ljava/io/File;)[B [access_flags=public static] @ 0x4edc
+Ljava/io/FileOutputStream;->close()V
+Ljava/util/StringTokenizer;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/io/PrintStream;->println()V
+Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;
+Ljava/lang/Exception;->printStackTrace(Ljava/io/PrintStream;)V
+Ljava/io/File;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/util/StringTokenizer;->hasMoreTokens()Z
+Ljava/lang/String;-><init>(Ljava/lang/String;)V
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Lcom/secneo/guard/Util;->getAssetFile(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private static] @ 0x4adc
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/io/File;->createNewFile()Z
+Lcom/secneo/guard/Util;->getCPUinfo()Ljava/lang/String; [access_flags=public static] @ 0x4c18
+Ljava/lang/ProcessBuilder;-><init>([Ljava/lang/String;)V
+Ljava/lang/String;-><init>([B)V
+Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
+Lcom/secneo/guard/Util;->getField(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0x4d70
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
+Ljava/lang/reflect/Field;->isAccessible()Z
+Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
+Lcom/secneo/guard/Util;->getFieldValue(Ljava/lang/Class; Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/Object; [access_flags=public static] @ 0x4dc8
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+Lcom/secneo/guard/Util;->setFieldValue(Ljava/lang/Class; Ljava/lang/Object; Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public static] @ 0x5408
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Lneo/proxy/DistributeReceiver;-><init>()V [access_flags=public constructor] @ 0x55b0
+Lneo/proxy/DistributeReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x55d0

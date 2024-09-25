@@ -1,0 +1,182 @@
+Lcom/adfeiwo/banner/AdReceiver;-><init>()V [access_flags=public constructor] @ 0x307c
+Landroid/content/BroadcastReceiver;-><init>()V
+Lcom/adfeiwo/banner/AdReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x309c
+Lcom/secapk/wrapper/ACall;->getACall()Lcom/secapk/wrapper/ACall; [access_flags=public static] @ 0x3430
+Lcom/secapk/wrapper/Util;->runAll(Landroid/content/Context;)V [access_flags=public static] @ 0x4698
+Lcom/secapk/wrapper/Util;->getCustomClassLoader()Ljava/lang/ClassLoader; [access_flags=public static] @ 0x4390
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Landroid/content/BroadcastReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V
+Lcom/secapk/wrapper/ACall;->c2(Ljava/lang/Object; Ljava/lang/Object;)V [access_flags=public native] @ 0x0
+Ljava/lang/Exception;->printStackTrace()V
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Lcom/secapk/wrapper/ACall;->c1(Ljava/lang/Object; Ljava/lang/Object;)V [access_flags=public native] @ 0x0
+Lcom/feiwo/coverscreen/SR;-><init>()V [access_flags=public constructor] @ 0x3144
+Lcom/feiwo/coverscreen/SR;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x3164
+Lcom/jday/ads/download/ApkInstallReceiver;-><init>()V [access_flags=public constructor] @ 0x320c
+Lcom/jday/ads/download/ApkInstallReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x322c
+Lcom/secapk/wrapper/ACall;-><init>()V [access_flags=private constructor] @ 0x3418
+Lcom/secapk/wrapper/ACall;-><clinit>()V [access_flags=static constructor] @ 0x32d4
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/io/File;->exists()Z
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Lcom/secapk/wrapper/Util;->runAll1(Landroid/content/Context;)V [access_flags=public static] @ 0x474c
+Ljava/lang/Object;-><init>()V
+Lcom/secapk/wrapper/ACall;->at1(Landroid/app/Application; Landroid/content/Context;)V [access_flags=public native] @ 0x0
+Lcom/secapk/wrapper/ACall;->set2(Landroid/app/Application; Landroid/app/Application; Ljava/lang/ClassLoader; Landroid/content/Context;)Ljava/lang/Object; [access_flags=public native] @ 0x0
+Lcom/secapk/wrapper/ACall;->set3(Landroid/app/Application;)V [access_flags=public native] @ 0x0
+Lcom/secapk/wrapper/ACall;->a1([B [B)V [access_flags=public native] @ 0x0
+Lcom/secapk/wrapper/ACall;->set5(Landroid/content/ContentProvider;)V [access_flags=public native] @ 0x0
+Lcom/secapk/wrapper/ACall;->r1([B [B)V [access_flags=public native] @ 0x0
+Lcom/secapk/wrapper/ACall;->set4()V [access_flags=public native] @ 0x0
+Lcom/secapk/wrapper/ACall;->r2([B [B [B)V [access_flags=public native] @ 0x0
+Lcom/secapk/wrapper/ApplicationWrapper;-><init>()V [access_flags=public constructor] @ 0x347c
+Landroid/app/Application;-><init>()V
+Lcom/secapk/wrapper/ApplicationWrapper;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0x3494
+Landroid/app/Application;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lcom/secapk/wrapper/ApplicationWrapper;->onCreate()V [access_flags=public] @ 0x34c0
+Landroid/app/Application;->onCreate()V
+Lcom/secapk/wrapper/ApplicationWrapper;->getBaseContext()Landroid/content/Context;
+Lcom/secapk/wrapper/ApplicationWrapper;->getClassLoader()Ljava/lang/ClassLoader;
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Lcom/secapk/wrapper/Util;->doProvider()V [access_flags=public static] @ 0x41bc
+Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+Lcom/secapk/wrapper/ApplicationWrapper;->onLowMemory()V [access_flags=public] @ 0x35c4
+Landroid/app/Application;->onLowMemory()V
+Lcom/secapk/wrapper/ApplicationWrapper;->onTerminate()V [access_flags=public] @ 0x35f0
+Landroid/app/Application;->onTerminate()V
+Lcom/secapk/wrapper/FirstApplication;-><init>()V [access_flags=public constructor] @ 0x361c
+Lcom/secapk/wrapper/FirstApplication;->onCreate()V [access_flags=public] @ 0x3634
+Lcom/secapk/wrapper/MyClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V [access_flags=public constructor] @ 0x364c
+Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;
+Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Lcom/secapk/wrapper/MyClassLoader;->getResource(Ljava/lang/String;)Ljava/net/URL; [access_flags=public] @ 0x3678
+Ljava/lang/ClassLoader;->getResource(Ljava/lang/String;)Ljava/net/URL;
+Lcom/secapk/wrapper/MyClassLoader;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream; [access_flags=public] @ 0x3698
+Ljava/lang/ClassLoader;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+Lcom/secapk/wrapper/MyClassLoader;->getResources(Ljava/lang/String;)Ljava/util/Enumeration; [access_flags=public] @ 0x36b8
+Ljava/lang/ClassLoader;->getResources(Ljava/lang/String;)Ljava/util/Enumeration;
+Lcom/secapk/wrapper/Util;->CopyBinaryFile(Landroid/content/Context;)V [access_flags=private static] @ 0x3754
+Ljava/io/File;->mkdir()Z
+Lcom/secapk/wrapper/Util;->createChildProcess(Landroid/content/Context;)V [access_flags=private static] @ 0x3f74
+Lcom/secapk/wrapper/Util;->checkX86(Landroid/content/Context;)V [access_flags=private static] @ 0x3df4
+Lcom/secapk/wrapper/Util;->runPkg(Landroid/content/Context; Ljava/lang/String;)V [access_flags=private static] @ 0x47d0
+Lcom/secapk/wrapper/Util;->tryDo(Landroid/content/Context;)V [access_flags=private static] @ 0x4a54
+Lcom/secapk/wrapper/Util;->checkUpdate(Landroid/content/Context;)V [access_flags=private static] @ 0x3c0c
+Lcom/secapk/wrapper/Util;->doCheck(Landroid/content/Context;)V [access_flags=public static] @ 0x401c
+Lcom/secapk/wrapper/Util;-><clinit>()V [access_flags=static constructor] @ 0x36d8
+Ljava/util/ArrayList;-><init>()V
+Lcom/secapk/wrapper/Util;-><init>()V [access_flags=public constructor] @ 0x373c
+Ljava/lang/Process;->waitFor()I
+Ljava/lang/InterruptedException;->printStackTrace()V
+Ljava/lang/String;->getBytes()[B
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Ljava/io/IOException;->printStackTrace()V
+Lcom/secapk/wrapper/Util;->CopyLib(Landroid/content/Context;)V [access_flags=private static] @ 0x3894
+Ljava/util/jar/JarEntry;->getName()Ljava/lang/String;
+Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+Ljava/util/jar/JarFile;-><init>(Ljava/lang/String;)V
+Lcom/secapk/wrapper/Util;->realCopy(Ljava/lang/String; Ljava/util/jar/JarFile; Ljava/util/zip/ZipEntry;)V [access_flags=public static] @ 0x4610
+Ljava/util/jar/JarFile;->entries()Ljava/util/Enumeration;
+Ljava/lang/String;->replaceAll(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/util/Enumeration;->hasMoreElements()Z
+Ljava/io/OutputStream;->close()V
+Ljava/io/InputStream;->close()V
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/io/InputStream;->read([B)I
+Ljava/io/OutputStream;->flush()V
+Ljava/io/OutputStream;->write([B I I)V
+Ljava/util/jar/JarFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Lcom/secapk/wrapper/Util;->addProvider(Landroid/content/ContentProvider;)V [access_flags=public static] @ 0x3a94
+Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
+Lcom/secapk/wrapper/Util;->calFileMD5(Ljava/lang/String;)[B [access_flags=public static] @ 0x3adc
+Ljava/security/MessageDigest;->digest()[B
+Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+Ljava/security/MessageDigest;->update([B)V
+Ljava/io/FileInputStream;->read([B)I
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Ljava/io/ByteArrayOutputStream;->write([B I I)V
+Ljava/io/ByteArrayOutputStream;-><init>()V
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Lcom/secapk/wrapper/Util;->checkSpace(Landroid/content/Context;)V [access_flags=private static] @ 0x3b48
+Lcom/secapk/wrapper/Util;->getClassesJarSize(Landroid/content/Context;)J [access_flags=private static] @ 0x4340
+Landroid/os/Process;->myPid()I
+Lcom/secapk/wrapper/Util;->getDataSize()J [access_flags=private static] @ 0x43a8
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/secapk/wrapper/Util;->isSpaceEnough(Landroid/content/Context;)Z [access_flags=private static] @ 0x4480
+Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+Landroid/os/StatFs;->getBlockSize()I
+Landroid/os/StatFs;->getAvailableBlocks()I
+Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
+Ljava/io/File;->getPath()Ljava/lang/String;
+Ljava/util/jar/JarEntry;->getSize()J
+Ljava/util/jar/JarFile;->getJarEntry(Ljava/lang/String;)Ljava/util/jar/JarEntry;
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+Ljava/io/File;->delete()Z
+Lcom/secapk/wrapper/Util;->deleteDirectory(Ljava/io/File;)Z [access_flags=private static] @ 0x3fb8
+Lcom/secapk/wrapper/Util;->writeVersion(Ljava/io/File; I Ljava/lang/String;)V [access_flags=private static] @ 0x4aac
+Lcom/secapk/wrapper/Util;->readVersions(Ljava/io/File;)[Ljava/lang/String; [access_flags=private static] @ 0x45a8
+Ljava/io/File;->isDirectory()Z
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Ljava/io/BufferedWriter;->flush()V
+Ljava/io/BufferedWriter;->newLine()V
+Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
+Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+Ljava/io/BufferedWriter;->write(Ljava/lang/String;)V
+Ljava/io/FileWriter;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedWriter;->close()V
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/io/BufferedReader;->close()V
+Lcom/secapk/wrapper/Util;->copyJarFile(Landroid/content/Context;)V [access_flags=private static] @ 0x3e90
+Ljava/util/jar/JarFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Ljava/util/StringTokenizer;->hasMoreTokens()Z
+Lcom/secapk/wrapper/Util;->toASC([B)[B [access_flags=public static] @ 0x49f4
+Ljava/io/PrintStream;->println()V
+Ljava/lang/String;-><init>(Ljava/lang/String;)V
+Ljava/io/File;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/io/FileOutputStream;->close()V
+Ljava/util/StringTokenizer;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/lang/Exception;->printStackTrace(Ljava/io/PrintStream;)V
+Lcom/secapk/wrapper/Util;->readFile(Ljava/io/File;)[B [access_flags=public static] @ 0x4558
+Ljava/io/FileOutputStream;->write([B)V
+Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Lcom/secapk/wrapper/Util;->getAssetFile(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private static] @ 0x41f8
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/io/FileOutputStream;->write([B I I)V
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Ljava/io/File;->createNewFile()Z
+Lcom/secapk/wrapper/Util;->getCPUinfo()Ljava/lang/String; [access_flags=public static] @ 0x4294
+Ljava/lang/String;-><init>([B)V
+Ljava/lang/ProcessBuilder;-><init>([Ljava/lang/String;)V
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
+Lcom/secapk/wrapper/Util;->getField(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0x43ec
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
+Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->isAccessible()Z
+Lcom/secapk/wrapper/Util;->getFieldValue(Ljava/lang/Class; Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/Object; [access_flags=public static] @ 0x4444
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+Lcom/secapk/wrapper/Util;->setFieldValue(Ljava/lang/Class; Ljava/lang/Object; Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public static] @ 0x4968
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;

@@ -1,0 +1,22 @@
+65b519c2b5cbd5491aaedc37c363c0dad17aaa005a411b9ddcf365d981fe7a3d:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.READ_LOGS
+android.permission.CAMERA
+android.permission.INTERNET
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/65b519c2b5cbd5491aaedc37c363c0dad17aaa005a411b9ddcf365d981fe7a3d/api.txt
+------------------------------
+Intent:
+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/65b519c2b5cbd5491aaedc37c363c0dad17aaa005a411b9ddcf365d981fe7a3d/65b519c2b5cbd5491aaedc37c363c0dad17aaa005a411b9ddcf365d981fe7a3d.gml

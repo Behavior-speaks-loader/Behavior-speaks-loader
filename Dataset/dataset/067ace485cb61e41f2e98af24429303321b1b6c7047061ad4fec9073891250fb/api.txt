@@ -1,0 +1,308 @@
+Lcom/goyal/website2apk/MainActivity$10;-><init>(Lcom/goyal/website2apk/MainActivity;)V [access_flags=constructor] @ 0x4534
+Ljava/lang/Object;-><init>()V
+Lcom/goyal/website2apk/MainActivity$10;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x4550
+Landroid/content/Context;->startActivity(Landroid/content/Intent;)V
+Landroid/content/Intent;-><init>(Ljava/lang/String;)V
+Lcom/goyal/website2apk/MainActivity$1;-><init>(Lcom/goyal/website2apk/MainActivity; Ljava/lang/String;)V [access_flags=constructor] @ 0x4580
+Lcom/goyal/website2apk/MainActivity$1;->run()V [access_flags=public] @ 0x45a0
+Landroid/widget/ImageView;->setVisibility(I)V
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Landroid/webkit/WebView;->setVisibility(I)V
+Lcom/goyal/website2apk/MainActivity;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0x5a60
+Ljava/lang/String;->toUpperCase()Ljava/lang/String;
+Lcom/goyal/website2apk/MainActivity;->a(Lcom/goyal/website2apk/MainActivity;)Ljava/lang/String; [access_flags=static synthetic] @ 0x53a0
+Lcom/goyal/website2apk/MainActivity$2;-><init>(Lcom/goyal/website2apk/MainActivity;)V [access_flags=constructor] @ 0x4610
+Lcom/goyal/website2apk/MainActivity$2;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x462c
+Landroid/content/DialogInterface;->cancel()V
+Lcom/goyal/website2apk/MainActivity$3;-><init>(Lcom/goyal/website2apk/MainActivity;)V [access_flags=constructor] @ 0x4644
+Lcom/goyal/website2apk/MainActivity$3;->onLongClick(Landroid/view/View;)Z [access_flags=public] @ 0x4660
+Lcom/goyal/website2apk/MainActivity;->getResources()Landroid/content/res/Resources;
+Landroid/content/res/Resources;->getBoolean(I)Z
+Lcom/goyal/website2apk/MainActivity$4;-><init>(Lcom/goyal/website2apk/MainActivity;)V [access_flags=constructor] @ 0x468c
+Lcom/goyal/website2apk/MainActivity$4;->onGlobalLayout()V [access_flags=public] @ 0x46a8
+Lcom/goyal/website2apk/MainActivity;->a()V [access_flags=public] @ 0x5904
+Landroid/webkit/WebView;->getHeight()I
+Landroid/view/View;->getHeight()I
+Landroid/webkit/WebView;->getRootView()Landroid/view/View;
+Lcom/goyal/website2apk/MainActivity$5$1;-><init>(Lcom/goyal/website2apk/MainActivity$5; Landroid/webkit/JsResult;)V [access_flags=constructor] @ 0x46f8
+Lcom/goyal/website2apk/MainActivity$5$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x4718
+Landroid/webkit/JsResult;->confirm()V
+Lcom/goyal/website2apk/MainActivity$5$2;-><init>(Lcom/goyal/website2apk/MainActivity$5; Landroid/webkit/JsResult;)V [access_flags=constructor] @ 0x4734
+Lcom/goyal/website2apk/MainActivity$5$2;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x4754
+Landroid/webkit/JsResult;->cancel()V
+Lcom/goyal/website2apk/MainActivity$5$3;-><init>(Lcom/goyal/website2apk/MainActivity$5; Landroid/webkit/JsResult;)V [access_flags=constructor] @ 0x4770
+Lcom/goyal/website2apk/MainActivity$5$3;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x4790
+Lcom/goyal/website2apk/MainActivity$5;-><init>(Lcom/goyal/website2apk/MainActivity;)V [access_flags=constructor] @ 0x47ac
+Landroid/webkit/WebChromeClient;-><init>()V
+Lcom/goyal/website2apk/MainActivity$5;->getVideoLoadingProgressView()Landroid/view/View; [access_flags=public] @ 0x47c8
+Landroid/view/LayoutInflater;->inflate(I Landroid/view/ViewGroup;)Landroid/view/View;
+Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+Lcom/goyal/website2apk/MainActivity$5;->onConsoleMessage(Landroid/webkit/ConsoleMessage;)Z [access_flags=public] @ 0x4808
+Landroid/webkit/ConsoleMessage;->message()Ljava/lang/String;
+Lcom/goyal/website2apk/MainActivity$5;->onConsoleMessage(Ljava/lang/String; I Ljava/lang/String;)V
+Landroid/webkit/ConsoleMessage;->lineNumber()I
+Landroid/webkit/ConsoleMessage;->sourceId()Ljava/lang/String;
+Lcom/goyal/website2apk/MainActivity$5;->onExceededDatabaseQuota(Ljava/lang/String; Ljava/lang/String; J J J Landroid/webkit/WebStorage$QuotaUpdater;)V [access_flags=public] @ 0x483c
+Landroid/webkit/WebStorage$QuotaUpdater;->updateQuota(J)V
+Lcom/goyal/website2apk/MainActivity$5;->onGeolocationPermissionsShowPrompt(Ljava/lang/String; Landroid/webkit/GeolocationPermissions$Callback;)V [access_flags=public] @ 0x485c
+Landroid/webkit/GeolocationPermissions$Callback;->invoke(Ljava/lang/String; Z Z)V
+Lcom/goyal/website2apk/MainActivity$5;->onHideCustomView()V [access_flags=public] @ 0x4878
+Landroid/webkit/WebChromeClient;->onHideCustomView()V
+Lcom/goyal/website2apk/MainActivity;->c(Lcom/goyal/website2apk/MainActivity;)Landroid/widget/FrameLayout; [access_flags=static synthetic] @ 0x5768
+Lcom/goyal/website2apk/MainActivity;->b(Lcom/goyal/website2apk/MainActivity;)Landroid/view/View; [access_flags=static synthetic] @ 0x5520
+Landroid/widget/FrameLayout;->setVisibility(I)V
+Lcom/goyal/website2apk/MainActivity;->d(Lcom/goyal/website2apk/MainActivity;)Landroid/webkit/WebChromeClient$CustomViewCallback; [access_flags=static synthetic] @ 0x57e4
+Lcom/goyal/website2apk/MainActivity;->a(Lcom/goyal/website2apk/MainActivity; Landroid/view/View;)Landroid/view/View; [access_flags=static synthetic] @ 0x5358
+Landroid/view/View;->setVisibility(I)V
+Landroid/widget/FrameLayout;->removeView(Landroid/view/View;)V
+Landroid/webkit/WebChromeClient$CustomViewCallback;->onCustomViewHidden()V
+Lcom/goyal/website2apk/MainActivity$5;->onJsAlert(Landroid/webkit/WebView; Ljava/lang/String; Ljava/lang/String; Landroid/webkit/JsResult;)Z [access_flags=public] @ 0x4918
+Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
+Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setTitle(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setPositiveButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+Landroid/app/AlertDialog;->show()V
+Lcom/goyal/website2apk/MainActivity$5;->onJsConfirm(Landroid/webkit/WebView; Ljava/lang/String; Ljava/lang/String; Landroid/webkit/JsResult;)Z [access_flags=public] @ 0x4994
+Landroid/app/AlertDialog$Builder;->setNegativeButton(I Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Lcom/goyal/website2apk/MainActivity$5;->onPermissionRequest(Landroid/webkit/PermissionRequest;)V [access_flags=public] @ 0x4a20
+Landroid/webkit/PermissionRequest;->getResources()[Ljava/lang/String;
+Landroid/webkit/PermissionRequest;->grant([Ljava/lang/String;)V
+Lcom/goyal/website2apk/MainActivity$5;->onProgressChanged(Landroid/webkit/WebView; I)V [access_flags=public] @ 0x4a4c
+Landroid/widget/ProgressBar;->getVisibility()I
+Landroid/widget/ProgressBar;->setVisibility(I)V
+Landroid/widget/ProgressBar;->setProgress(I)V
+Lcom/goyal/website2apk/MainActivity$5;->onShowCustomView(Landroid/view/View; I Landroid/webkit/WebChromeClient$CustomViewCallback;)V [access_flags=public] @ 0x4ab0
+Lcom/goyal/website2apk/MainActivity$5;->onShowCustomView(Landroid/view/View; Landroid/webkit/WebChromeClient$CustomViewCallback;)V [access_flags=public] @ 0x4ac8
+Lcom/goyal/website2apk/MainActivity;->a(Lcom/goyal/website2apk/MainActivity; Landroid/webkit/WebChromeClient$CustomViewCallback;)Landroid/webkit/WebChromeClient$CustomViewCallback; [access_flags=static synthetic] @ 0x5388
+Landroid/widget/FrameLayout;->addView(Landroid/view/View;)V
+Lcom/goyal/website2apk/MainActivity$5;->onShowFileChooser(Landroid/webkit/WebView; Landroid/webkit/ValueCallback; Landroid/webkit/WebChromeClient$FileChooserParams;)Z [access_flags=public] @ 0x4b40
+Lcom/goyal/website2apk/MainActivity;->e(Lcom/goyal/website2apk/MainActivity;)Landroid/webkit/ValueCallback; [access_flags=static synthetic] @ 0x57fc
+Lcom/goyal/website2apk/MainActivity;->f(Lcom/goyal/website2apk/MainActivity;)Ljava/io/File; [access_flags=static synthetic] @ 0x5814
+Lcom/goyal/website2apk/MainActivity;->startActivityForResult(Landroid/content/Intent; I)V
+Landroid/content/Intent;->putExtra(Ljava/lang/String; [Landroid/os/Parcelable;)Landroid/content/Intent;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Lcom/goyal/website2apk/MainActivity;->i()Ljava/lang/String; [access_flags=static synthetic] @ 0x5848
+Landroid/content/Intent;->setType(Ljava/lang/String;)Landroid/content/Intent;
+Lcom/goyal/website2apk/MainActivity;->g(Lcom/goyal/website2apk/MainActivity;)Ljava/lang/String; [access_flags=static synthetic] @ 0x5830
+Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+Lcom/goyal/website2apk/MainActivity;->getPackageManager()Landroid/content/pm/PackageManager;
+Landroid/webkit/ValueCallback;->onReceiveValue(Ljava/lang/Object;)V
+Lcom/goyal/website2apk/MainActivity;->a(Lcom/goyal/website2apk/MainActivity; Ljava/lang/String;)Ljava/lang/String; [access_flags=static synthetic] @ 0x53bc
+Ljava/lang/StringBuilder;-><init>()V
+Landroid/content/Intent;->resolveActivity(Landroid/content/pm/PackageManager;)Landroid/content/ComponentName;
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Ljava/lang/String;)Landroid/content/Intent;
+Lcom/goyal/website2apk/MainActivity;->a(Lcom/goyal/website2apk/MainActivity; Landroid/webkit/ValueCallback;)Landroid/webkit/ValueCallback; [access_flags=static synthetic] @ 0x5370
+Landroid/content/Intent;->putExtra(Ljava/lang/String; Landroid/os/Parcelable;)Landroid/content/Intent;
+Landroid/content/Intent;->addCategory(Ljava/lang/String;)Landroid/content/Intent;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Lcom/goyal/website2apk/MainActivity$6;-><init>(Lcom/goyal/website2apk/MainActivity; Ljava/lang/Boolean;)V [access_flags=constructor] @ 0x4cd0
+Landroid/webkit/WebViewClient;-><init>()V
+Lcom/goyal/website2apk/MainActivity$6;->a(Ljava/lang/String;)Ljava/lang/Boolean; [access_flags=] @ 0x4cf0
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Lcom/goyal/website2apk/MainActivity;->b(Lcom/goyal/website2apk/MainActivity; Ljava/lang/String;)Z [access_flags=static synthetic] @ 0x5538
+Ljava/lang/Boolean;->booleanValue()Z
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Landroid/content/Intent;-><init>(Ljava/lang/String; Landroid/net/Uri;)V
+Landroid/net/Uri;->parse(Ljava/lang/String;)Landroid/net/Uri;
+Lcom/goyal/website2apk/MainActivity;->startActivity(Landroid/content/Intent;)V
+Lcom/goyal/website2apk/MainActivity$6;->onPageFinished(Landroid/webkit/WebView; Ljava/lang/String;)V [access_flags=public] @ 0x4d8c
+Landroid/webkit/WebViewClient;->onPageFinished(Landroid/webkit/WebView; Ljava/lang/String;)V
+Landroid/webkit/CookieSyncManager;->getInstance()Landroid/webkit/CookieSyncManager;
+Landroid/webkit/CookieSyncManager;->sync()V
+Lcom/goyal/website2apk/MainActivity$6;->onReceivedError(Landroid/webkit/WebView; I Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0x4db4
+Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+Lcom/goyal/website2apk/MainActivity$6;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z [access_flags=public] @ 0x4dd0
+Landroid/webkit/WebViewClient;->shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z
+Lcom/goyal/website2apk/MainActivity$7;-><init>(Lcom/goyal/website2apk/MainActivity;)V [access_flags=constructor] @ 0x4e08
+Lcom/goyal/website2apk/MainActivity$7;->onDownloadStart(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; J)V [access_flags=public] @ 0x4e24
+Landroid/webkit/URLUtil;->guessFileName(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
+Landroid/webkit/CookieManager;->getInstance()Landroid/webkit/CookieManager;
+Landroid/webkit/CookieManager;->getCookie(Ljava/lang/String;)Ljava/lang/String;
+Landroid/app/DownloadManager$Request;->setNotificationVisibility(I)Landroid/app/DownloadManager$Request;
+Landroid/app/DownloadManager$Request;-><init>(Landroid/net/Uri;)V
+Landroid/app/DownloadManager$Request;->allowScanningByMediaScanner()V
+Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+Landroid/app/DownloadManager$Request;->setDescription(Ljava/lang/CharSequence;)Landroid/app/DownloadManager$Request;
+Lcom/goyal/website2apk/MainActivity;->getApplicationContext()Landroid/content/Context;
+Landroid/widget/Toast;->makeText(Landroid/content/Context; Ljava/lang/CharSequence; I)Landroid/widget/Toast;
+Landroid/widget/Toast;->show()V
+Landroid/app/DownloadManager$Request;->addRequestHeader(Ljava/lang/String; Ljava/lang/String;)Landroid/app/DownloadManager$Request;
+Lcom/goyal/website2apk/MainActivity;->c(Lcom/goyal/website2apk/MainActivity; Ljava/lang/String;)Z [access_flags=static synthetic] @ 0x5780
+Landroid/app/DownloadManager$Request;->setTitle(Ljava/lang/CharSequence;)Landroid/app/DownloadManager$Request;
+Landroid/app/DownloadManager$Request;->setMimeType(Ljava/lang/String;)Landroid/app/DownloadManager$Request;
+Lcom/goyal/website2apk/MainActivity;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/app/DownloadManager$Request;->setDestinationInExternalPublicDir(Ljava/lang/String; Ljava/lang/String;)Landroid/app/DownloadManager$Request;
+Landroid/app/DownloadManager;->enqueue(Landroid/app/DownloadManager$Request;)J
+Lcom/goyal/website2apk/MainActivity$8;-><init>(Lcom/goyal/website2apk/MainActivity;)V [access_flags=constructor] @ 0x4f54
+Lcom/goyal/website2apk/MainActivity$8;->run()V [access_flags=public] @ 0x4f70
+Lcom/goyal/website2apk/MainActivity$9;-><init>(Lcom/goyal/website2apk/MainActivity;)V [access_flags=constructor] @ 0x4f94
+Lcom/goyal/website2apk/MainActivity$9;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x4fb0
+Lcom/goyal/website2apk/MainActivity;->finish()V
+Lcom/goyal/website2apk/MainActivity$a$1;-><init>(Lcom/goyal/website2apk/MainActivity$a;)V [access_flags=constructor] @ 0x4fcc
+Lcom/goyal/website2apk/MainActivity$a$1;->run()V [access_flags=public] @ 0x4fe8
+Landroid/webkit/WebView;->reload()V
+Lcom/goyal/website2apk/MainActivity$a$2;-><init>(Lcom/goyal/website2apk/MainActivity$a;)V [access_flags=constructor] @ 0x500c
+Lcom/goyal/website2apk/MainActivity$a$2;->run()V [access_flags=public] @ 0x5028
+Lcom/goyal/website2apk/MainActivity;->a(Landroid/webkit/WebView;)V [access_flags=public] @ 0x5990
+Lcom/goyal/website2apk/MainActivity$a;-><init>(Lcom/goyal/website2apk/MainActivity; Landroid/content/Context;)V [access_flags=constructor] @ 0x5054
+Lcom/goyal/website2apk/MainActivity$a;->askEnableGPS()V [access_flags=public] @ 0x5074
+Lcom/goyal/website2apk/MainActivity;->f()V [access_flags=public] @ 0x5c04
+Lcom/goyal/website2apk/MainActivity$a;->clickMenuButton()V [access_flags=public] @ 0x5090
+Lcom/goyal/website2apk/MainActivity;->openOptionsMenu()V
+Lcom/goyal/website2apk/MainActivity$a;->exitApp()V [access_flags=public] @ 0x50ac
+Lcom/goyal/website2apk/MainActivity;->d()V [access_flags=public] @ 0x5b2c
+Lcom/goyal/website2apk/MainActivity$a;->getAppVersionCode()I [access_flags=public] @ 0x50c8
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/goyal/website2apk/MainActivity;->getPackageName()Ljava/lang/String;
+Landroid/content/pm/PackageManager$NameNotFoundException;->printStackTrace()V
+Lcom/goyal/website2apk/MainActivity$a;->getAppVersionName()Ljava/lang/String; [access_flags=public] @ 0x5118
+Lcom/goyal/website2apk/MainActivity$a;->getUniqueDeviceID()Ljava/lang/String; [access_flags=public] @ 0x516c
+Lcom/goyal/website2apk/MainActivity;->h()Ljava/lang/String; [access_flags=public] @ 0x5d38
+Lcom/goyal/website2apk/MainActivity$a;->openExternal(Ljava/lang/String;)V [access_flags=public] @ 0x518c
+Lcom/goyal/website2apk/MainActivity$a;->printPage()V [access_flags=public] @ 0x51c0
+Landroid/webkit/WebView;->post(Ljava/lang/Runnable;)Z
+Lcom/goyal/website2apk/MainActivity$a;->rateUs()V [access_flags=public] @ 0x51ec
+Lcom/goyal/website2apk/MainActivity;->g()V [access_flags=public] @ 0x5c78
+Lcom/goyal/website2apk/MainActivity$a;->refreshPage()V [access_flags=public] @ 0x5208
+Lcom/goyal/website2apk/MainActivity$a;->shareIntent()V [access_flags=public] @ 0x5234
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Landroid/content/Intent;->createChooser(Landroid/content/Intent; Ljava/lang/CharSequence;)Landroid/content/Intent;
+Lcom/goyal/website2apk/MainActivity$a;->showAboutDialog()V [access_flags=public] @ 0x52bc
+Lcom/goyal/website2apk/MainActivity;->e()V [access_flags=public] @ 0x5bac
+Lcom/goyal/website2apk/MainActivity$a;->showAboutDialog(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public] @ 0x52d8
+Lcom/goyal/website2apk/MainActivity$a;->showToast(Ljava/lang/String;)V [access_flags=public] @ 0x52f4
+Lcom/goyal/website2apk/MainActivity;->k()Ljava/lang/String; [access_flags=private] @ 0x58d8
+Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Lcom/goyal/website2apk/MainActivity;->getWindow()Landroid/view/Window;
+Landroid/view/Window;->setFlags(I I)V
+Landroid/view/Window;->getDecorView()Landroid/view/View;
+Landroid/view/View;->setSystemUiVisibility(I)V
+Lcom/goyal/website2apk/MainActivity;->j()Ljava/io/File; [access_flags=private] @ 0x5860
+Lcom/goyal/website2apk/MainActivity;->b(Ljava/lang/String;)Z [access_flags=private] @ 0x5554
+Lcom/goyal/website2apk/MainActivity;->c(Ljava/lang/String;)Z [access_flags=private] @ 0x579c
+Lcom/goyal/website2apk/MainActivity;->getString(I)Ljava/lang/String;
+Landroid/print/PrintJob;->isCompleted()Z
+Landroid/print/PrintAttributes$Builder;->setMediaSize(Landroid/print/PrintAttributes$MediaSize;)Landroid/print/PrintAttributes$Builder;
+Landroid/print/PrintAttributes$Builder;-><init>()V
+Landroid/print/PrintAttributes$Builder;->build()Landroid/print/PrintAttributes;
+Landroid/print/PrintManager;->print(Ljava/lang/String; Landroid/print/PrintDocumentAdapter; Landroid/print/PrintAttributes;)Landroid/print/PrintJob;
+Landroid/webkit/WebView;->createPrintDocumentAdapter()Landroid/print/PrintDocumentAdapter;
+Landroid/print/PrintJob;->isFailed()Z
+Landroid/app/AlertDialog$Builder;->show()Landroid/app/AlertDialog;
+Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Lcom/goyal/website2apk/MainActivity;->a(Landroid/content/Context;)Z [access_flags=public static] @ 0x54ac
+Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
+Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver; Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+Landroid/content/Intent;->addFlags(I)Landroid/content/Intent;
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Landroid/app/AlertDialog$Builder;->setMessage(I)Landroid/app/AlertDialog$Builder;
+Lcom/goyal/website2apk/MainActivity;-><init>()V [access_flags=public constructor] @ 0x5330
+Landroid/app/Activity;-><init>()V
+Lcom/goyal/website2apk/MainActivity;->a(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static final] @ 0x53d4
+Ljava/security/MessageDigest;->digest()[B
+Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+Ljava/lang/String;->getBytes()[B
+Ljava/security/NoSuchAlgorithmException;->printStackTrace()V
+Ljava/lang/String;->length()I
+Ljava/security/MessageDigest;->update([B)V
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Landroid/provider/Settings$SettingNotFoundException;->printStackTrace()V
+Landroid/provider/Settings$Secure;->getInt(Landroid/content/ContentResolver; Ljava/lang/String;)I
+Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Landroid/content/ActivityNotFoundException;->printStackTrace()V
+Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+Landroid/webkit/WebView;->getContext()Landroid/content/Context;
+Ljava/util/regex/Matcher;->find()Z
+Landroid/net/Uri;->decode(Ljava/lang/String;)Ljava/lang/String;
+Lcom/goyal/website2apk/MainActivity;->checkCallingOrSelfPermission(Ljava/lang/String;)I
+Ljava/io/File;->createTempFile(Ljava/lang/String; Ljava/lang/String; Ljava/io/File;)Ljava/io/File;
+Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V
+Ljava/util/Date;-><init>()V
+Landroid/os/Environment;->getExternalStoragePublicDirectory(Ljava/lang/String;)Ljava/io/File;
+Lcom/goyal/website2apk/MainActivity;->c()V [access_flags=protected] @ 0x5acc
+Lcom/goyal/website2apk/MainActivity;->requestPermissions([Ljava/lang/String; I)V
+Lcom/goyal/website2apk/MainActivity;->onActivityResult(I I Landroid/content/Intent;)V [access_flags=protected] @ 0x5d64
+Landroid/content/Intent;->getData()Landroid/net/Uri;
+Landroid/app/Activity;->onActivityResult(I I Landroid/content/Intent;)V
+Landroid/content/Intent;->getDataString()Ljava/lang/String;
+Lcom/goyal/website2apk/MainActivity;->onBackPressed()V [access_flags=public] @ 0x5e28
+Landroid/os/Handler;-><init>()V
+Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable; J)Z
+Landroid/webkit/WebView;->canGoBack()Z
+Landroid/webkit/WebView;->goBack()V
+Lcom/goyal/website2apk/MainActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0x5eb4
+Landroid/app/Activity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lcom/goyal/website2apk/MainActivity;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x5ecc
+Landroid/webkit/WebView;->setScrollBarStyle(I)V
+Landroid/webkit/WebSettings;->setDisplayZoomControls(Z)V
+Landroid/webkit/WebSettings;->setDomStorageEnabled(Z)V
+Landroid/webkit/WebView;->setOnLongClickListener(Landroid/view/View$OnLongClickListener;)V
+Landroid/webkit/WebSettings;->setGeolocationEnabled(Z)V
+Landroid/content/res/Resources;->getInteger(I)I
+Landroid/webkit/WebSettings;->setDatabasePath(Ljava/lang/String;)V
+Landroid/webkit/WebSettings;->setCacheMode(I)V
+Landroid/webkit/WebSettings;->setAllowFileAccess(Z)V
+Landroid/webkit/WebSettings;->setLoadWithOverviewMode(Z)V
+Landroid/webkit/WebView;->setVerticalScrollBarEnabled(Z)V
+Landroid/webkit/WebSettings;->setDatabaseEnabled(Z)V
+Lcom/goyal/website2apk/MainActivity;->b()Z [access_flags=protected] @ 0x5aa8
+Landroid/webkit/WebSettings;->setAppCacheEnabled(Z)V
+Landroid/webkit/WebSettings;->setAllowFileAccessFromFileURLs(Z)V
+Landroid/content/Context;->getDir(Ljava/lang/String; I)Ljava/io/File;
+Ljava/io/File;->getPath()Ljava/lang/String;
+Lcom/goyal/website2apk/MainActivity;->findViewById(I)Landroid/view/View;
+Landroid/webkit/CookieManager;->setAcceptThirdPartyCookies(Landroid/webkit/WebView; Z)V
+Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
+Landroid/webkit/WebSettings;->setSupportZoom(Z)V
+Landroid/webkit/WebSettings;->setPluginState(Landroid/webkit/WebSettings$PluginState;)V
+Landroid/webkit/WebView;->restoreState(Landroid/os/Bundle;)Landroid/webkit/WebBackForwardList;
+Landroid/webkit/WebSettings;->setAppCachePath(Ljava/lang/String;)V
+Landroid/webkit/WebView;->setLayerType(I Landroid/graphics/Paint;)V
+Landroid/webkit/WebView;->setWebChromeClient(Landroid/webkit/WebChromeClient;)V
+Landroid/webkit/WebSettings;->setSaveFormData(Z)V
+Landroid/webkit/WebView;->setHapticFeedbackEnabled(Z)V
+Landroid/webkit/CookieSyncManager;->createInstance(Landroid/content/Context;)Landroid/webkit/CookieSyncManager;
+Landroid/webkit/WebView;->setWebViewClient(Landroid/webkit/WebViewClient;)V
+Landroid/webkit/WebView;->setDownloadListener(Landroid/webkit/DownloadListener;)V
+Landroid/view/ViewTreeObserver;->addOnGlobalLayoutListener(Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;)V
+Landroid/webkit/CookieManager;->acceptCookie()Z
+Landroid/webkit/WebView;->setWebContentsDebuggingEnabled(Z)V
+Landroid/webkit/WebView;->setHorizontalScrollBarEnabled(Z)V
+Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object; Ljava/lang/String;)V
+Landroid/webkit/WebView;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
+Landroid/webkit/WebSettings;->setBuiltInZoomControls(Z)V
+Landroid/webkit/WebSettings;->setRenderPriority(Landroid/webkit/WebSettings$RenderPriority;)V
+Landroid/webkit/WebSettings;->setAllowUniversalAccessFromFileURLs(Z)V
+Landroid/webkit/CookieManager;->setAcceptCookie(Z)V
+Ljava/net/URL;-><init>(Ljava/lang/String;)V
+Landroid/webkit/WebSettings;->setUseWideViewPort(Z)V
+Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
+Lcom/goyal/website2apk/MainActivity;->setContentView(I)V
+Ljava/net/URL;->getHost()Ljava/lang/String;
+Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+Landroid/webkit/WebView;->setLongClickable(Z)V
+Lcom/goyal/website2apk/MainActivity;->onCreateOptionsMenu(Landroid/view/Menu;)Z [access_flags=public] @ 0x6400
+Landroid/view/MenuInflater;->inflate(I Landroid/view/Menu;)V
+Lcom/goyal/website2apk/MainActivity;->getMenuInflater()Landroid/view/MenuInflater;
+Lcom/goyal/website2apk/MainActivity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z [access_flags=public] @ 0x6428
+Landroid/app/Activity;->onOptionsItemSelected(Landroid/view/MenuItem;)Z
+Landroid/view/MenuItem;->getItemId()I
+Lcom/goyal/website2apk/MainActivity;->onPause()V [access_flags=public] @ 0x64e4
+Landroid/webkit/WebView;->onPause()V
+Landroid/webkit/CookieSyncManager;->stopSync()V
+Landroid/app/Activity;->onPause()V
+Lcom/goyal/website2apk/MainActivity;->onResume()V [access_flags=public] @ 0x6514
+Landroid/webkit/CookieSyncManager;->startSync()V
+Landroid/app/Activity;->onResume()V
+Landroid/webkit/WebView;->onResume()V

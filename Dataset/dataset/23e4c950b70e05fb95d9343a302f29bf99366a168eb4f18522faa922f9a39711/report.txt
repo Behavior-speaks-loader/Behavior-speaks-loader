@@ -1,0 +1,33 @@
+23e4c950b70e05fb95d9343a302f29bf99366a168eb4f18522faa922f9a39711:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_LOGS
+android.permission.CAMERA
+android.permission.INTERNET
+android.permission.FLASHLIGHT
+com.peptalk.client.shaishufang.permission.MIPUSH_RECEIVE
+android.permission.GET_TASKS
+android.permission.RECEIVE_USER_PRESENT
+android.permission.WAKE_LOCK
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/23e4c950b70e05fb95d9343a302f29bf99366a168eb4f18522faa922f9a39711/api.txt
+------------------------------
+Intent:
+com.xiaomi.mipush.RECEIVE_MESSAGE
+com.xiaomi.mipush.MESSAGE_ARRIVED
+com.xiaomi.mipush.ERROR
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/23e4c950b70e05fb95d9343a302f29bf99366a168eb4f18522faa922f9a39711/23e4c950b70e05fb95d9343a302f29bf99366a168eb4f18522faa922f9a39711.gml

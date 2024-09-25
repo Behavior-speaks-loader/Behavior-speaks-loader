@@ -1,0 +1,2763 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+0715b2045d4b4b780cbe23f5db4597d2a4bb540f53c526a7e0fb00d2968dfa9f
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.xiong.xzgtq
+
+
+
+
+Minimum system version:
+Android 2.2.x
+
+
+
+
+Copyright:
+oosq
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Detect operator brand (Anti-simulator)
+
+
+
+
+
+Detail info:
+
+android
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:lt****om/**.133.40.** port:9820
+
+
+host:/**.133.40.** port:8088
+
+
+host:/**.40.205.** port:8080
+
+
+host:ww****om/**.133.40.** port:80
+
+
+host:/**.133.40.** port:8200
+
+
+host:/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:lt****om/**.133.40.** port:9820 data:data:POST /chnlt/ltpay/pytstart.do HTTP/1.1
+Charset: UTF-8
+Content-type: application/tlv-encoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: ltdt.i51fu.com:9820
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 884
+
+AAKYEwAAAA/nhornhorlhYnlpLTlvLoAApgUAAAAD2NvbS54aW9uZy54emd0cQACmBgAAAI9AAAy5AAAAA8zNTcxNDMwNDA2NTQzMjEAADLIAAAANDM1NzYzNjI1NjYyMjI5NzplN2Y2NjNhNy1iOTRjLTQ3MGUtOWM1Ni01NTBkZGJmMmQ0ZjAAADLJAAAABkxlbm92bwAAMsoAAAAMTGVub3ZvIEEzNjB0AAAyywAAAA80NjAwMDAwNDMxNDA1NzIAADLMAAAADzM1NzE0MzA0MDY1NDMyMQAAMs0AAAAMODk4NjAwODExMjM0AAAyzgAAAAsxMzYwMDAwMTIzNAAAMt8AAACGYS81LjAgKExpbnV4OyBBbmRyb2lkIDQuNC40OyBWaXJ0dWFsQm94IEJ1aWxkL0tUVTg0USkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgQ2hyb21lLzMzLjAuMC4wIFNhZmFyaS81MzcuMzYAADLaAAAAEDkyODQxMDE0MTUwZmMzZmQAADLZAAAADzM1NzYzNjI1NjYyMjI5NwAAMtYAAAAEd2lmaQAAMtUAAAACMTkAADLhAAAABAAAAAAAADLUAAAACAAAAAAAZ3SsAAAy0QAAAAgAAAAAAH3zIAAAMtMAAAAIAAAAAAB98yAAADLSAAAACAAAAAAAZ3SsAAAy2AAAAAQAAAAAAAAy0AAAAAQAAAHgAAAy3QAAAAQAAAABAAAy3gAAAAQAAAAAAAAyzwAAAAQAAAL8AAAy4gAAAAQAAAAAAAAy1wAAAAQAAAAAAAKYFgAAAAQAAAP/AAKYFwAAAAQAAAABAAKYFQAAAAQAAAAF
+
+
+operation:send host:/**.133.40.** port:8088 data:data:POST /sdk_selector/sdkSelect/sdk-get.do HTTP/1.1
+Content-Length: 496
+Content-Type: application/x-www-form-urlencoded
+Host: www.mj525.com:8088
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:8088 data:data:SDK=%7B%22models%22%3A%5B%7B%22modelDescr%22%3A%22mj_pay%22%2C%22modelName%22%3A%22mj%22%7D%2C%7B%22modelDescr%22%3A%22zh_pay+d%22%2C%22modelName%22%3A%22zh%22%7D%2C%7B%22modelDescr%22%3A%22mj_zh_pay%22%2C%22modelName%22%3A%22mj_zh%22%7D%2C%7B%22modelDescr%22%3A%22zh_mj_pay%22%2C%22modelName%22%3A%22zh_mj%22%7D%5D%2C%22appId%22%3A%22048%22%2C%22appType%22%3A%22game_gtq%22%2C%22opt%22%3A%22YD%22%2C%22chType%22%3A%22zq_01%22%2C%22name%22%3A%22%E7%86%8A%E7%86%8A%E5%85%89%E5%A4%B4%E5%BC%BA%22%7D
+
+
+operation:send host:lt****om/**.133.40.** port:9820 data:data:POST /chnlt/ltpay/pytstart.do HTTP/1.1
+Charset: UTF-8
+Content-type: application/tlv-encoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: ltdt.i51fu.com:9820
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 952
+
+AAKYEAAAAAtEWFpRUEFZMTAwMQACmBEAAAAHMzU5MDIyNQACmBIAAAAJemhlbl80NTc3AAKYEwAAAA/nhornhorlhYnlpLTlvLoAApgUAAAAD2NvbS54aW9uZy54emd0cQACmBgAAAI9AAAy5AAAAA8zNTcxNDMwNDA2NTQzMjEAADLIAAAANDM1NzYzNjI1NjYyMjI5NzplN2Y2NjNhNy1iOTRjLTQ3MGUtOWM1Ni01NTBkZGJmMmQ0ZjAAADLJAAAABkxlbm92bwAAMsoAAAAMTGVub3ZvIEEzNjB0AAAyywAAAA80NjAwMDAwNDMxNDA1NzIAADLMAAAADzM1NzE0MzA0MDY1NDMyMQAAMs0AAAAMODk4NjAwODExMjM0AAAyzgAAAAsxMzYwMDAwMTIzNAAAMt8AAACGYS81LjAgKExpbnV4OyBBbmRyb2lkIDQuNC40OyBWaXJ0dWFsQm94IEJ1aWxkL0tUVTg0USkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgQ2hyb21lLzMzLjAuMC4wIFNhZmFyaS81MzcuMzYAADLaAAAAEDkyODQxMDE0MTUwZmMzZmQAADLZAAAADzM1NzYzNjI1NjYyMjI5NwAAMtYAAAAEd2lmaQAAMtUAAAACMTkAADLhAAAABAAAAAAAADLUAAAACAAAAAAAZ3SsAAAy0QAAAAgAAAAAAH3zIAAAMtMAAAAIAAAAAAB98yAAADLSAAAACAAAAAAAZ3SsAAAy2AAAAAQAAAAAAAAy0AAAAAQAAAHgAAAy3QAAAAQAAAABAAAy3gAAAAQAAAAAAAAyzwAAAAQAAAL8AAAy4gAAAAQAAAAAAAAy1wAAAAQAAAAAAAKYFgAAAAQAAAP/AAKYFwAAAAQAAAACAAKYFQAAAAQAAAAF
+
+
+operation:send host:/**.133.40.** port:8200 data:data:POST / HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 516
+Host: data.bigtui.net:8200
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+
+
+
+operation:send host:/**.133.40.** port:8200 data:data:�&:]���PjԺHF.2r}U��	�S�,�#
+'�Iµ,�2匮91�*�*��k���<x_[��7�!y���9o"��nq��� حϤL֗j�_��wq���=�m�Ux�oɮ��Y��o��6��@Ճ�v��=?�6��@Ճ�*�*��k���<x_[��7�!y��[�"W]=�)Qԉ�_���ucl���L2�-��I�A���gh�!�:߼3��/��]�H��ȁ�.��3��@[�s��Az"j�!9�_1���y�w��N�۸�K-�Zx�*j,C��_(`��5����7�"4fr^�
+ŵɝc��/�<�IwՌ��Á����Imm��U���e`01g��5C��䕛�_�c�N��>XI)l�7�`��>z�G"�1�b�^'Pp�*�(�Y�����"2�S����W���T�!��kp���1ЋU����<+����e,r6�qش�
+��\
+,����]p�LT�
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /g/d HTTP/1.1
+Content-Length: 2832
+Host: tdcv3.talkingdata.net
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:��X]l#W�T	�V<��,�C[�3�c�Ҋ�I�8�:N<�]��\{&��;����i
+���m)]�eYXA�mAj�*��<Q`�R$$�J �
+��P��N��x���Mƛ�s�w�����dF4��ib��{�$���#	�yM�RF�������-,-,I%>H�T�d�(�Wo��I�-����~8�!����Ct;�8����V��^p
+�ZFjc1����;�˂��ላ����_}�F\:��BF��b��o��~4�)?�s£YE~⾾�v�_���K����o}�$�����W�6����Z-U߹!+� |�v-��`Ү( �2b&#�E!+�楜,
+�,"��gz�neE9#Ȃ��$�F�AΈ��`B.���ɉ"��{7Pw]f۰u�ʕs�'z���:�&/�T'A@�OFI!��(k?�w�q�r�apv����d.��������ze���|�d�0$.1��dd�$���ȵk���ޭ���}�V�鏒���ޓ�ĻO|���ċ���x?Q�`]l/���p�OF�%W66sr#I ���0�@'+fӢ$�2R2$Axa@&u�g�z]�ȿ�sܯ�s�����W9��H���)�O"Mj)���&��x>9=� =��!�܃��M��u&%eEyL��<iQ�:
+�Yu�R���t�cǳ��.
+�����
+'/t[E�[�x�x4��70��瓝���;y�`�p:�(6=�'�jye�YTΞ�3�K |�d!D�<uQ���Sڟ���C,�
+-l[;���R~ԕ�vu)Ϻ��&VEx�n7.�[��~�$d��
+u�a՛y���9���1���S0�ɀ�ԗ�+�������a���G�
+I�OҖ�ضy�j�8ҥրG�g�M�<��~��O�>E�6+�#R��
+�rk2�:��"�|p�������J�u�#wXٌ���zi��-�4򠎫a�0JH�d�Z)U�ڎ�F�	)
+Mf�n �颎:�����P����#6�(e���ЙI��Јʞ��l��6$!�p�23|��G�Imx��m���kN�uJ�6�!��R4u���#������n�f�L��(�t;�j�W/)+�z�g �bhXLUrW-�suRk
+�UTc[-�g�xI�n�6�F�f,X�jJM��aB$}�BC�>p��^�u����5�y�i/�Y�:s��A���+hXފO�CB��;�Rj4�Ve9�oG	D~�5�@`b����س��%�ԝ�*h�;%��.�)�Bl�:��P�19V[G�k���>����zن�̻�4ۧ�?,%��_G]
+H�˞)a�	��R�<&�p�>�r�4$P5�v[���^?Ԇé���O\��Y6q� ��1	4ɌH3M�Խ��R.mqU�H�]��*�	]��&x�D5ic�LϜ����rӠx���ʥ<CALv�N飲�*��� �,++��\�kT6ph��E 
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /?st=1&sv=1.1.16.33&tm=1451531001022&sv=1.1.16.33&sc=jr&sid=lSkAAJNM%2FfVRAQAACE02MDowMDowMTowMDpiOTowMEkzNTcxNDMwNDA2NTQzMjE%3D&apn=freewifi&ct=wifi&pi=fe80%3A%3Aa00%3A27ff%3Afea3%3Aafc8%25eth0&md=619aed6f07f9a207276cc6e5ac2d8898 HTTP/1.1
+User-Agent: Mozilla/5.0(Android)
+Connection: Close
+Content-Length: 3412
+Content-Type: application/unpack_chinar
+Content-Encoding: UTF-8
+Host: gather.lotuseed.com:80
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:��Z�s�VB1�B'%I�M�N`2l��v0���8XI��t2��+i�ծ���?AR;��
+�u��6�M&	16�F�����{WZi-EF�h�������w�uJ��3|o��3�	灃j�`Gǻ�=��p�㽎��n���҇��>�����=8���{�z�z�:���{�=w����3�b0���ρ(|��>l�aV��	�c;�v/D���2������ey h;�4=�˩@`�{Ju�!ƒ�@ �57�CB�P�
+P�x6pp�@��@���c�Б�&�"�����"
+%3��8��m�-�Q�=}T߉�գkԻ��
+&�q���?�lЈ���Q�ƶFa,q#��?�
+`T��f�����W�I�}$�a�mdaQ���6��g��;m���~�d���%�Ƴ���
+�Ѥ
+cng� �h4�BoG�4|�АW$1x�oB&����}}%w�>3K	�%��/�;G{���K#���\/X'����r����3�e?���^��@&Q���h��>�Q��O���g#|0�<9�`P>Vc��YV���k�k�A1R�����A6�vTJMlx�#�q������/v�x���bI�2ņ#[>�"����GU%D��HdRH���%��];@�ꔤkq%aR)ђ�ū�4��l.�,����P����3F\��
+z�h�N�rgR�Md�9���z^��TDB��v'�#HM�`�%��(,�	��)��NdDCF��;�0?{(c�18�ٷŵ?��Om�4�%��=���K�3��!I��9�합���΍%���	����Ed�1X0a�^��	�7m�#�<�a��$�W��d'�DE#�^��.�/����V���;7?+\����3��Ϟ��.4=8TM�<4,��**OD�-�e�æ^8������K��&A�D� 
+u�S��	C 6�6t\4�DJC��Q�d��$��.�_�-5o�Z���N�	[]Pt��9����;,$��
+��$KI!ES,ET�Q�������b�:
+�a����,��x�#�F���� 73����`OQ�=9�[��{x-����G��&e��1��JU�t�#V����_���6�Ml���*�)�1��~$s�~a Z��{�
+_�0
+�(����P��V��Ey>��iCI;��>|}Ľn�3�X)+i��,����H���L���8�ΐ�U%�UwH�qZ��V�����Oy0��xYx3��^��5�,]��X���n�O_�Ǿ�-}SwEa�e�jx��Z���
+@���i�HL�\�c1n�}eڼ�Ղ��=-��d�U$d��=�d�݁�o޼��AU�N�8O'uU7ӊ!� ��;-��U�]�m����.����f\���w'Z��x!y@�A�kŤ;5n/]�/�/|=�[���x��1e ��.�&�Q�s�gWWV�_W-�My
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /g/d HTTP/1.1
+Content-Length: 3160
+Host: tdcv3.talkingdata.net
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:��X[����6�Ґ�>�д�i�x�H��l,�=3��x���e;$�c���Xґu�س�-�<�!�m��e�6���M[H
+���OM���@�CJI(�BB
+m���"�v��|.��������KG�h�WI���۪����D	XI��'$�4�E����	��	�⊸����l.���L6��^W��������:����V$r���n�x7c���X���ˋ�����kĺ(�d����[�Gzk�D,ڧ�LB�����E��N/~8HI?S��II|N�����O~�֧���/o����~��k�ub���ȏ�b�����q���k���e��B	>���<��BJ�9^��Vm� �����DNBbB���'&x�C0!�NSσ�����7���Zt�:�|��oh����=��/,.�
+�,�2����,.(Բ��ua�s|����X7F���/-(�〓a��b��UX�T��;j{ԁGS�Z`���᳅˰��2
+1���!ml�!�<sy, ���ؾ�,o,/�܋l��Uwm7�INf�yv��W7O&Jp;��-0
+8G$r�ʹ�#�����'��ץN�!�(}��4��TG��cpmF7��T:)F���խ�jf%�h�G,�FWH_WHt�!�k�nF���x�f��gћ��s��*��S����<��E
+xɋ��'|�8�
+]��I��(��R�4��&�d��TB�z��蒡{��~.qK���o6���}���S�<��מf�{lF܅��Q(�,FQK�I��>���b�_���UI�a�
+�� T��1�I�ғR���V��YA-�G���$��.�.Eش
+r��E=bcu1�m��f-�53�ϟ�g+jpF0z1�H�����G��I���]�J��J���ԛ=��Q���I������:�Cig�B��&�-�ӱ�ﳣo	�~S�մ߬fw��õ��z��ul�x�7�x�=�BY���j�*WS&������}�v:cn8= �2�W�3�K��:j�t�a���J�Q8~qH\�\�^.d�P�2��Ė����Pۡ��wt��Z��bCF�V�6�1O�L���=6�����^^1-�nYž�+�
+���z�����քk�n��)!�'T����^�kZ�O<J=
+�VV�h6QC�Y8���]�Pb����&jHy��j�әI�e��=XIچ�
+B�jaf����@�q�Եu_!�̜�Wb��B�m���,�Z��O�+ycؐ�B�?e�������uR�ǔ�ۄ�-�t�2�)�Ẏ�M	�"*�-�g�x֓*T2�bՍ�:,X�KRIH�fB@}�⁀�`�V�4=���M�i�Q_C�D�|��&6.�^~7<T&�4
+�֐�J*-'PO�@�O1~;	 rʵ�\
+;Du!�p�0�����"h�bֺ�A}��YMyMk�dB3ׄ�Y��/�rk߶T�
+
+
+operation:send host:lt****om/**.133.40.** port:9820 data:data:POST /chnlt/ltpay/pytstart.do HTTP/1.1
+Charset: UTF-8
+Content-type: application/tlv-encoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: ltdt.i51fu.com:9820
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 884
+
+AAKYEwAAAA/nhornhorlhYnlpLTlvLoAApgUAAAAD2NvbS54aW9uZy54emd0cQACmBgAAAI9AAAy5AAAAA8zNTcxNDMwNDA2NTQzMjEAADLIAAAANDM1NzYzNjI1NjYyMjI5NzplN2Y2NjNhNy1iOTRjLTQ3MGUtOWM1Ni01NTBkZGJmMmQ0ZjAAADLJAAAABkxlbm92bwAAMsoAAAAMTGVub3ZvIEEzNjB0AAAyywAAAA80NjAwMDAwNDMxNDA1NzIAADLMAAAADzM1NzE0MzA0MDY1NDMyMQAAMs0AAAAMODk4NjAwODExMjM0AAAyzgAAAAsxMzYwMDAwMTIzNAAAMt8AAACGYS81LjAgKExpbnV4OyBBbmRyb2lkIDQuNC40OyBWaXJ0dWFsQm94IEJ1aWxkL0tUVTg0USkgQXBwbGVXZWJLaXQvNTM3LjM2IChLSFRNTCwgbGlrZSBHZWNrbykgVmVyc2lvbi80LjAgQ2hyb21lLzMzLjAuMC4wIFNhZmFyaS81MzcuMzYAADLaAAAAEDkyODQxMDE0MTUwZmMzZmQAADLZAAAADzM1NzYzNjI1NjYyMjI5NwAAMtYAAAAEd2lmaQAAMtUAAAACMTkAADLhAAAABAAAAAAAADLUAAAACAAAAAAAZ3DIAAAy0QAAAAgAAAAAAH3zIAAAMtMAAAAIAAAAAAB98yAAADLSAAAACAAAAAAAZ3DIAAAy2AAAAAQAAAAAAAAy0AAAAAQAAAHgAAAy3QAAAAQAAAABAAAy3gAAAAQAAAAAAAAyzwAAAAQAAAL8AAAy4gAAAAQAAAAAAAAy1wAAAAQAAAAAAAKYFgAAAAQAAAP/AAKYFwAAAAQAAAABAAKYFQAAAAQAAAAF
+
+
+operation:send host:/**.40.205.** port:8080 data:data:POST /makejoyjson/JsonRead HTTP/1.1
+Content-Length: 554
+Content-Type: application/x-www-form-urlencoded
+Host: 121.40.205.28:8080
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.40.205.** port:8080 data:data:appinfo=%7B%22dt%22%3A%22gtq_install%22%2C%22d%22%3A%22480*764%22%2C%22mt%22%3A%22YD%22%2C%22imei%22%3A%2235712****123456%22%2C%22at%22%3A%22game_gtq%22%2C%22l%22%3A%22zh%22%2C%22mac%22%3A%2260%3A00%3A01%3A00%3Ab9%3A00%22%2C%22ct%22%3A%22zq_01%22%2C%22vn%22%3A%221.0.4%22%2C%22co%22%3A%22CPS%22%2C%22pa%22%3A%22SDK%3A19%2CSYSTEM%3A4.4.4%22%2C%22an%22%3A%22%E7%86%8A%E7%86%8A%E5%85%89%E5%A4%B4%E5%BC%BA%22%2C%22pt%22%3A%22zh%22%2C%22pm%22%3A%22Lenovo_A360t%22%2C%22vc%22%3A%225%22%2C%22pn%22%3A%22com.xiong.xzgtq%22%2C%22imsi%22%3A%2246000****123456%22%7D
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://lt****om:9820/chnlt/ltpay/pytstart.do
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://lt****om:9820/chnlt/ltpay/pytstart.do
+
+
+http://ww****om:8088/sdk_selector/sdkSelect/sdk-get.do
+
+
+http://**.40.205.**:8080/makejoyjson/JsonRead
+
+
+http://ww****om:8088
+
+
+/sdk_selector/sdkSelect/sdk-get.do
+
+
+http://**.40.205.**:8080
+
+
+http://da****et:8200
+
+
+/
+
+
+http://**.0.0.**/g/d
+
+
+http://**.0.0.**
+
+
+/g/d
+
+
+http://ga****om:80/?st=1&sv=1.1.16.33&tm=1451531001022&sv=1.1.16.33&sc=jr&sid=lSkAAJNM%2FfVRAQAACE02MDowMDowMTowMDpiOTowMEkzNTcxNDMwNDA2NTQzMjE%3D&apn=freewifi&ct=wifi&pi=fe80%3A%3Aa00%3A27ff%3Afea3%3Aafc8%25eth0&md=619aed6f07f9a207276cc6e5ac2d8898
+
+
+http://ga****om:80
+
+
+/?st=1&sv=1.1.16.33&tm=1451531001022&sv=1.1.16.33&sc=jr&sid=lSkAAJNM%2FfVRAQAACE02MDowMDowMTowMDpiOTowMEkzNTcxNDMwNDA2NTQzMjE%3D&apn=freewifi&ct=wifi&pi=fe80%3A%3Aa00%3A27ff%3Afea3%3Aafc8%25eth0&md=619aed6f07f9a207276cc6e5ac2d8898
+
+
+/makejoyjson/JsonRead
+
+
+
+
+
+Behaviour:
+Read URL data
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:lt****om/**.133.40.** port:9820 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.133.40.** port:8088 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.133.40.** port:8200 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.40.205.** port:8080 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://lt****om:9820/chnlt/ltpay/pytstart.do'
+
+
+u'http://ww****om/billing/config.txt'
+
+
+u'http://td****et/g/d'
+
+
+u'http', u'127.0.0.1', u'-1', u'/g/d'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/storage/emulated/0/Android/data/com.lyhtgh.pay/plugins/com.lyhtgh.pay.ltplugin.apk
+
+
+/data/data/com.xiong.xzgtq/files/td.lock
+
+
+/data/data/com.xiong.xzgtq/files/8cfb40aa17f/b226affe-1df3-49cd-bc4c-d6c5df1f7c8d.zip
+
+
+/data/data/com.xiong.xzgtq/files/8cfb40aa17f/3d5d8912-5101-43cf-8e36-01a642a5fe48.zip
+
+
+
+
+
+Behaviour:
+Create database
+
+
+
+
+
+Detail info:
+
+/data/data/com.xiong.xzgtq/files/ZQAgenttcagent.db
+
+
+/data/data/com.xiong.xzgtq/files/TDtcagent.db
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:unknown length:9
+
+
+path:/data/app/com.xiong.xzgtq-1.apk length:9
+
+
+path:/data/app/com.xiong.xzgtq-1.apk length:23
+
+
+path:/data/app/com.xiong.xzgtq-1.apk length:67
+
+
+path:/data/app/com.xiong.xzgtq-1.apk length:69
+
+
+path:/data/app/com.xiong.xzgtq-1.apk length:68
+
+
+path:/data/app/com.xiong.xzgtq-1.apk length:7
+
+
+path:/storage/emulated/0/Android/data/com.lyhtgh.pay/plugins/com.lyhtgh.pay.ltplugin.apk length:9
+
+
+path:/storage/emulated/0/Android/data/com.lyhtgh.pay/plugins/com.lyhtgh.pay.ltplugin.apk length:23
+
+
+path:/storage/emulated/0/Android/data/com.lyhtgh.pay/plugins/com.lyhtgh.pay.ltplugin.apk length:68
+
+
+path:/storage/emulated/0/Android/data/com.lyhtgh.pay/plugins/com.lyhtgh.pay.ltplugin.apk length:7
+
+
+path:/proc/meminfo length:69
+
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/data/com.xiong.xzgtq/.lib/libexec.so
+
+
+/data/data/com.xiong.xzgtq/.lib/libexecmain.so
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+Read external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/Android/data/com.lyhtgh.pay/plugins/com.lyhtgh.pay.ltplugin.apk
+
+
+path:/storage/emulated/0/.tcookieid
+
+
+path:/storage/emulated/0/com/android/system/uid.sys
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+MemTotal:        1030096 kB
+
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+processor	: 0
+
+
+BogoMIPS	: 38.40
+
+
+N/A
+
+
+processor	: 1
+
+
+processor	: 2
+
+
+processor	: 3
+
+
+Features	: swp half thumb fastmult vfp edsp neon vfpv3 tls vfpv4 idiva idivt 
+
+
+CPU implementer	: 0x51
+
+
+CPU architecture: 7
+
+
+CPU variant	: 0x2
+
+
+CPU part	: 0x06f
+
+
+CPU revision	: 0
+
+
+Hardware	: Qualcomm MSM 8974 HAMMERHEAD (Flattened Device Tree)
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:69
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:68
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:67
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:65
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:66
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:63
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:64
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:61
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:62
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:29
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexec.so length:60
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexecmain.so length:69
+
+
+path:/data/data/com.xiong.xzgtq/.lib/libexecmain.so length:68
+
+
+path:/data/data/com.xiong.xzgtq/shared_prefs/initdata.xml length:124
+
+
+path:/data/data/com.xiong.xzgtq/shared_prefs/initdata.xml length:171
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.xiong.xzgtq/shared_prefs/initdata.xml.bak
+
+
+/storage/emulated/0/com/android/system/uid.sys
+
+
+/data/data/com.xiong.xzgtq/shared_prefs/uuid.xml.bak
+
+
+/data/data/com.xiong.xzgtq/shared_prefs/shared_file.xml.bak
+
+
+/data/data/com.xiong.xzgtq/shared_prefs/lotuseed_global_jr.xml.bak
+
+
+/data/data/com.xiong.xzgtq/shared_prefs/data.xml.bak
+
+
+/data/data/com.xiong.xzgtq/shared_prefs/pref_longtime.xml.bak
+
+
+/data/data/com.xiong.xzgtq/shared_prefs/mjpay.xml.bak
+
+
+/data/data/com.xiong.xzgtq/files/mj.dex
+
+
+/data/data/com.xiong.xzgtq/shared_prefs/pref_shorttime.xml.bak
+
+
+/data/data/com.xiong.xzgtq/shared_prefs/tdid.xml.bak
+
+
+/data/data/com.xiong.xzgtq/app_dex/com.lyhtgh.pay.ltplugin.dex
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/Android/data/com.lyhtgh.pay/plugins/com.lyhtgh.pay.ltplugin.apk
+
+
+path:/storage/emulated/0/com/android/system/uid.sys
+
+
+path:/storage/emulated/0/.system/lotuseed.devid
+
+
+path:/storage/emulated/0/.tcookieid
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+Behaviour:
+Get phone number
+
+
+
+
+
+Detail info:
+
+138****5678
+
+
+
+
+
+Behaviour:
+Get installed app
+
+
+
+
+
+Detail info:
+
+u'0'
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get last location
+
+
+
+
+
+Detail info:
+
+u'network'
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+Behaviour:
+Get stored WIFI
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+Behaviour:
+Get WIFI state
+
+
+
+
+
+Detail info:
+
+true
+
+
+
+
+
+Behaviour:
+Get scanned WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Scan WIFI
+
+
+
+
+
+Detail info:
+
+true
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Start service
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.xiong.xzgtq\/com.nuye.kod.HutyService}","EXTRAS":{"prom_service_id_apk":"0","myAction":"android.intent.action.PACKAGE_ADDED"}}
+
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.xiong.xzgtq\/com.nuye.kod.HutyService}","EXTRAS":{"prom_service_id_apk":"0","myAction":"android.intent.action.PACKAGE_REMOVED"}}
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.lyhtgh.pay.receiver.InSmsReceiver@218eb8a8', u'{"action":"android.provider.Telephony.SMS_RECEIVED"}'
+
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@218e64c8', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@218dbab8', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+u'com.lotuseed.android.jr.o@21963890', u'{"action":"android.net.wifi.SCAN_RESULTS"}'
+
+
+u'com.zqagent.sdk.t@21b6cb78', u'{"action":"android.net.wifi.SCAN_RESULTS"}'
+
+
+u'com.zqagent.sdk.t@21a51ea8', u'{"action":"android.net.wifi.SCAN_RESULTS"}'
+
+
+u'com.lyhtgh.pay.receiver.InSmsReceiver@218d4110', u'{"action":"android.provider.Telephony.SMS_RECEIVED"}'
+
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@2188af28', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@218b33c8', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+u'com.nuye.dun.PrsReceiver@218fde18', u'{"action":"android.intent.action.SCREEN_OFF|android.intent.action.SCREEN_ON"}'
+
+
+u'com.lyhtgh.pay.receiver.InSmsReceiver@218c3618', u'{"action":"android.provider.Telephony.SMS_RECEIVED"}'
+
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@218efd48', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@218ccf38', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+u'com.nuye.dun.PrsReceiver@21891aa0', u'{"action":"android.intent.action.SCREEN_OFF|android.intent.action.SCREEN_ON"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+prom_service_id_host:1
+
+
+myAction:android.intent.action.PACKAGE_ADDED
+
+
+prom_service_id_apk:0
+
+
+myAction:android.intent.action.PACKAGE_REMOVED
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'startkey', u'null'
+
+
+u'imsi', u'null'
+
+
+u'data', u'null'
+
+
+u'devid', u'null'
+
+
+u'TDpref.session.key', u'null'
+
+
+u'ZQAgentpref.session.key', u'null'
+
+
+u'TDpref.lastactivity.key', u''
+
+
+u'pref.deviceid.key', u'null'
+
+
+u'mfupdate', u''
+
+
+u'updatezipname', u''
+
+
+u'mfload', u''
+
+
+u'loadzipname', u''
+
+
+
+
+
+Behaviour:
+Set timed task
+
+
+
+
+
+Detail info:
+
+u'0', u'1451531005724', u'{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.xiong.xzgtq\\/com.nuye.bat.EtaService}","EXTRAS":{"prom_service_id_host":"1"}}'
+
+
+u'0', u'1451531016115', u'{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.xiong.xzgtq\\/com.nuye.bat.EtaService}","EXTRAS":{"prom_service_id_host":"1"}}'
+
+
+u'0', u'1451531041934', u'{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.xiong.xzgtq\\/com.nuye.bat.EtaService}","EXTRAS":{"prom_service_id_host":"1"}}'
+
+
+
+
+
+Behaviour:
+Get special property of simulator
+
+
+
+
+
+Detail info:
+
+u'gsm.version.baseband'
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+content://sms/inbox
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15529): Process: com.xiong.xzgtq, PID: 15529
+
+
+
+E/AndroidRuntime(15529): java.lang.IllegalArgumentException: No configs match configSpec
+
+
+
+E/AndroidRuntime(15529): 	at android.opengl.GLSurfaceView$BaseConfigChooser.chooseConfig(GLSurfaceView.java:863)
+
+
+
+E/AndroidRuntime(15529): 	at android.opengl.GLSurfaceView$EglHelper.start(GLSurfaceView.java:1024)
+
+
+
+E/AndroidRuntime(15529): 	at android.opengl.GLSurfaceView$GLThread.guardedRun(GLSurfaceView.java:1401)
+
+
+
+E/AndroidRuntime(15529): 	at android.opengl.GLSurfaceView$GLThread.run(GLSurfaceView.java:1240)
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@2185fb38', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@2185fb38', u'font_scale', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@2185fb38', u'airplane_mode_on', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21895150', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218b1110', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218d2518', u'show_password', u'0'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/app/com.xiong.xzgtq-1.apk
+
+
+path:/storage/emulated/0/Android/data/com.lyhtgh.pay/plugins/com.lyhtgh.pay.ltplugin.apk
+
+
+path:/data/data/com.xiong.xzgtq/files/mj.apk
+
+
+
+
+
+Behaviour:
+Access shared app data
+
+
+
+
+
+Detail info:
+
+u'content://sms/inbox', u'[_id, service_center, address, date]', u'null', u'null', u'date desc'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'sdk_ver_name', u'2.0.0'
+
+
+u'data', u'357636256622297:e7f663a7-b94c-470e-9c56-550ddbf2d4f0=a31fe4b0f6077f5dfd5b3681cda4c3af'
+
+
+u'devid', u'M01:*:*:*:*:b0I35712****123456'
+
+
+u'TDpref.session.key', u'0744ca3a-790b-4f29-aed6-2acbbdf658ef'
+
+
+u'TDpref.lastactivity.key', u'com.mj.game.GameActivity'
+
+
+u'pref.deviceid.key', u'31debbb1fdcf120e84c52ac9b1302349'
+
+
+u'mfupdate', u'd97eb4036e9'
+
+
+u'mfload', u'8cfb40aa17f'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'[ps]'
+
+
+u'sh'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21868068 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#120 ty=1 fl=#40010580 pfl=0x8 wanim=0x1030001}'
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'SELECT MAX(_id) from error_report', u'null'
+
+
+u'SELECT COUNT(_id), MAX(occurtime), event_id, event_label, paramap from app_event where session_id = ? group by event_id, event_label, paramap', u'[0744ca3a-790b-4f29-aed6-2acbbdf658ef]'
+
+
+u'SELECT MAX(_id) from activity where duration != 0 and session_id =?', u'[0744ca3a-790b-4f29-aed6-2acbbdf658ef]'
+
+
+u'SELECT MAX(_id) from app_event where session_id =?', u'[0744ca3a-790b-4f29-aed6-2acbbdf658ef]'
+
+
+u'SELECT error_time,message,repeat, shorthashcode from error_report where _id<=?', u'[1]'
+
+
+
+
+
+Behaviour:
+Detect operator brand (Anti-simulator)
+
+
+
+
+
+Detail info:
+
+android
+
+
+
+
+
+Behaviour:
+Get main intent of APK
+
+
+
+
+
+Detail info:
+
+u'com.xiong.xzgtq'
+
+
+u'com.cyanogenmod.trebuchet'
+
+
+u'com.thirdparty.superuser'
+
+
+u'com.tencent.music.v_d20a.core.installer'
+
+
+u'com.svox.pico'
+
+
+u'com.android.gallery3d'
+
+
+u'com.google.process.gapps'
+
+
+u'com.google.android.gms'
+
+
+u'com.google.android.apps.docs'
+
+
+u'com.google.android.googlequicksearchbox:search'
+
+
+u'com.android.vending'
+
+
+u'android.process.media'
+
+
+u'com.android.musicfx'
+
+
+u'com.google.android.partnersetup'
+
+
+u'com.google.android.gms.wearable'
+
+
+
+
+
+Behaviour:
+Access database
+
+
+
+
+
+Detail info:
+
+u'true', u'cfg_table', u'[cfg_value]', u"cfg_key='C_CHANNELID'", u'null', u'null', u'null', u'null', u'null'
+
+
+u'true', u'cfg_table', u'[cfg_value]', u"cfg_key='C_APPID'", u'null', u'null', u'null', u'null', u'null'
+
+
+u'true', u'cfg_table', u'[cfg_value]', u"cfg_key='C_PID'", u'null', u'null', u'null', u'null', u'null'
+
+
+u'error_report', u'[_id, error_time, message, repeat, shorthashcode]', u'null', u'null', u'null', u'null', u'_id'
+
+
+u'session', u'[_id, session_id, start_time, duration, is_launch, interval, is_connected]', u'null', u'null', u'null', u'null', u'_id', u'10'
+
+
+u'activity', u'[_id, name, start_time, duration, session_id, refer, realtime]', u'session_id=? AND duration != 0 ', u'[0744ca3a-790b-4f29-aed6-2acbbdf658ef]', u'null', u'null', u'_id'
+
+
+u'activity', u'[_id, name, start_time, duration, session_id, refer, realtime]', u'_id=?', u'[1]', u'null', u'null', u'_id'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+u'android.os.Parcel@2185a200'
+
+
+u'android.os.Parcel@218759d0'
+
+
+u'android.os.Parcel@219d1ae8'
+
+
+u'{"ACTION":"android.intent.action.MAIN","FLAG":270532608,"CATEGORIES":"[android.intent.category.HOME]","COMPONENT_NAME":"ComponentInfo{com.cyanogenmod.trebuchet\\/com.android.launcher3.Launcher}"}'
+
+
+u'{"FLAG":268435456,"COMPONENT_NAME":"ComponentInfo{com.xiong.xzgtq\\/com.mj.game.GameActivity}"}'
+
+
+u'android.os.Parcel@2184fe48'
+
+
+u'android.os.Parcel@218506a8'
+
+
+u'android.os.Parcel@218506b8'
+
+
+u'android.os.Parcel@2184fe38'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0xb6a8f6d9
+
+
+
+
+META-INF/FKJWAXZ_.SF
+0x92ab9e00
+
+
+
+
+META-INF/FKJWAXZ_.RSA
+0x5c866d85
+
+
+
+
+assets/bg/bg1.jpg
+0x93bfdddf
+
+
+
+
+assets/bg/bg2.jpg
+0x474e806b
+
+
+
+
+assets/bg/bg3.jpg
+0xb7a0c6ca
+
+
+
+
+assets/bg/bg4.jpg
+0x3d974275
+
+
+
+
+assets/bg/bg5.jpg
+0xf3c7cb54
+
+
+
+
+assets/bg/bg6.jpg
+0x23d38805
+
+
+
+
+assets/bullet/enemyBulletF.plist
+0xc508138e
+
+
+
+
+assets/bullet/enemyBulletF.png
+0xfc092691
+
+
+
+
+assets/bullet/heroBulletF.plist
+0x1296b753
+
+
+
+
+assets/bullet/heroBulletF.png
+0xaacde5ac
+
+
+
+
+assets/effect/XCM_Effect_hudun_Armature0.plist
+0x6ca602f0
+
+
+
+
+assets/effect/XCM_Effect_hudun_Armature0.png
+0x59d7a3f0
+
+
+
+
+assets/effect/XCM_bullet1Explode_AnimalArmature0.plist
+0x21ee6961
+
+
+
+
+assets/effect/XCM_bullet1Explode_AnimalArmature0.png
+0x4c0e73bf
+
+
+
+
+assets/effect/bazhaF.plist
+0xce4cf23e
+
+
+
+
+assets/effect/bazhaF.png
+0x14195204
+
+
+
+
+assets/enemy/bossF.plist
+0x173b783e
+
+
+
+
+assets/enemy/bossF.png
+0xade3a8e8
+
+
+
+
+assets/enemy/enemyBlood.png
+0xb0278c86
+
+
+
+
+assets/enemy/enemyBloodDown.png
+0xf7c29bee
+
+
+
+
+assets/enemy/enemyF.plist
+0x9b2bbe14
+
+
+
+
+assets/enemy/enemyF.png
+0xa9937a95
+
+
+
+
+assets/enemy/rubyF.plist
+0x41388694
+
+
+
+
+assets/enemy/rubyF.png
+0x7e1ee152
+
+
+
+
+assets/game/bossTalk.png
+0xfe83b969
+
+
+
+
+assets/game/but_backInParse.png
+0x2f14b5fd
+
+
+
+
+assets/game/but_goon.png
+0x9f7d9065
+
+
+
+
+assets/game/but_hudun.png
+0xdd35bb7f
+
+
+
+
+assets/game/but_huojiandan.png
+0xc35fe784
+
+
+
+
+assets/game/but_levUp.png
+0x81651e63
+
+
+
+
+assets/game/but_pause.png
+0x148f8a81
+
+
+
+
+assets/game/life.png
+0xaa416c68
+
+
+
+
+assets/game/lifeBg.png
+0x87d31269
+
+
+
+
+assets/game/numLab_1.png
+0xe55aab32
+
+
+
+
+assets/game/numLab_2.png
+0x27a27bc8
+
+
+
+
+assets/game/rubyBg.png
+0xea86f3a
+
+
+
+
+assets/game/tipsHand.png
+0xead7d57b
+
+
+
+
+assets/guanQia/bg.jpg
+0x50af62f0
+
+
+
+
+assets/guanQia/but_go_1.png
+0xf07bd4f0
+
+
+
+
+assets/guanQia/but_go_2.png
+0x7544a059
+
+
+
+
+assets/guanQia/but_lev_1.png
+0xad2c8f28
+
+
+
+
+assets/guanQia/but_lev_2.png
+0x82db5c52
+
+
+
+
+assets/guanQia/but_lev_3.png
+0x709cf118
+
+
+
+
+assets/guanQia/but_lev_4.png
+0x6cb6048c
+
+
+
+
+assets/guanQia/but_lev_5.png
+0x676b3b01
+
+
+
+
+assets/guanQia/but_lev_6.png
+0x8736f830
+
+
+
+
+assets/guanQia/lev_now.png
+0x15d100d2
+
+
+
+
+assets/hero/heroActF.plist
+0xd522f8bb
+
+
+
+
+assets/hero/heroActF.png
+0xbb0028e2
+
+
+
+
+assets/ijm_lib/armeabi/libexec.so
+0xe3389d66
+
+
+
+
+assets/ijm_lib/armeabi/libexecmain.so
+0xde8917d7
+
+
+
+
+assets/ijm_lib/x86/libexec.so
+0x1fb1aa88
+
+
+
+
+assets/ijm_lib/x86/libexecmain.so
+0xad0db1e8
+
+
+
+
+assets/particle/hero1_weiyan.plist
+0xcf68e94
+
+
+
+
+assets/particle/hero2_weiyan.plist
+0x1b7b396b
+
+
+
+
+assets/particle/hero3_weiyan.plist
+0xcdefc45f
+
+
+
+
+assets/particle/hero4_weiyan.plist
+0x1364dec0
+
+
+
+
+assets/shop/but_close.png
+0x44655f5d
+
+
+
+
+assets/shop/but_ok.png
+0x7d6840c8
+
+
+
+
+assets/shop/item_close.png
+0x8113b416
+
+
+
+
+assets/shop/item_getRuby.png
+0xc1c886e6
+
+
+
+
+assets/shop/item_hero2.png
+0x71b0d8a9
+
+
+
+
+assets/shop/item_hero3.png
+0x78ab686d
+
+
+
+
+assets/shop/item_hero4.png
+0x1a797cbe
+
+
+
+
+assets/shop/item_hudun.png
+0x81f9ec5c
+
+
+
+
+assets/shop/item_huojiandan.png
+0x55bc6df9
+
+
+
+
+assets/shop/item_relife.png
+0xd70a5372
+
+
+
+
+assets/shop/item_rubyInfo.png
+0x89176743
+
+
+
+
+assets/shop/item_xinshou.png
+0x489449c0
+
+
+
+
+assets/shop/shopBg.png
+0x5eb6691a
+
+
+
+
+assets/shop/tel.png
+0xbf474fe3
+
+
+
+
+assets/shop/title_getRuby.png
+0x4d8e9aee
+
+
+
+
+assets/shop/title_hero2.png
+0x340b01c4
+
+
+
+
+assets/shop/title_hero3.png
+0xb3383a6f
+
+
+
+
+assets/shop/title_hero4.png
+0xbbb3dc9d
+
+
+
+
+assets/shop/title_hudun.png
+0x6ff6a7e9
+
+
+
+
+assets/shop/title_huojiandan.png
+0xd53c64e4
+
+
+
+
+assets/shop/title_libaoxinshou.png
+0x8c9d1d1f
+
+
+
+
+assets/shop/title_relife.png
+0xe3a627ed
+
+
+
+
+assets/shop/title_upLev.png
+0x3499db65
+
+
+
+
+assets/sound/attack.mp3
+0x50648720
+
+
+
+
+assets/sound/bg1.mp3
+0x80deebdd
+
+
+
+
+assets/sound/bg2.mp3
+0x359bc967
+
+
+
+
+assets/sound/button.mp3
+0x2a9985fd
+
+
+
+
+assets/sound/dead.mp3
+0xee2c370b
+
+
+
+
+assets/sound/fire_hit.ogg
+0xce427119
+
+
+
+
+assets/sound/getProp.mp3
+0x43474a35
+
+
+
+
+assets/sound/nor_hit.ogg
+0xeafcc2ba
+
+
+
+
+assets/sound/npcDead.mp3
+0x62d57490
+
+
+
+
+assets/sound/warning.mp3
+0xa68636c7
+
+
+
+
+assets/sound/win.mp3
+0xbd6e4e63
+
+
+
+
+assets/startLayer/bg.jpg
+0x50c3202a
+
+
+
+
+assets/startLayer/but_start.png
+0xd86c5ded
+
+
+
+
+assets/startLayer/logo_1.png
+0x50c017dc
+
+
+
+
+assets/startLayer/logo_2.png
+0xef05960d
+
+
+
+
+assets/winlose/loseTxt.png
+0x63add685
+
+
+
+
+assets/winlose/winTxt.png
+0x6c8f3726
+
+
+
+
+assets/zhuangbeiLayer/bg.jpg
+0xc18bd337
+
+
+
+
+assets/zhuangbeiLayer/but_back.png
+0x667cef89
+
+
+
+
+assets/zhuangbeiLayer/gtqF.plist
+0xe5ce869e
+
+
+
+
+assets/zhuangbeiLayer/gtqF.png
+0x2c900c9b
+
+
+
+
+assets/zhuangbeiLayer/heroInfoBg.png
+0xa16a1de0
+
+
+
+
+assets/zhuangbeiLayer/icon1.png
+0x27571f40
+
+
+
+
+assets/zhuangbeiLayer/icon2.png
+0xdaae6c42
+
+
+
+
+assets/zhuangbeiLayer/icon3.png
+0x38d66616
+
+
+
+
+assets/zhuangbeiLayer/icon4.png
+0x1407ad08
+
+
+
+
+assets/zhuangbeiLayer/info_1.png
+0x7a06f31b
+
+
+
+
+assets/zhuangbeiLayer/info_2.png
+0xed95a1d1
+
+
+
+
+assets/zhuangbeiLayer/info_3.png
+0xd21fb6d8
+
+
+
+
+assets/zhuangbeiLayer/info_4.png
+0x299df9c9
+
+
+
+
+assets/zhuangbeiLayer/photo.png
+0x397dac7a
+
+
+
+
+assets/zhuangbeiLayer/zbHeroF.plist
+0x9b36f4e1
+
+
+
+
+assets/zhuangbeiLayer/zbHeroF.png
+0x758856c0
+
+
+
+
+assets/classes.jar
+0x6f11201e
+
+
+
+
+assets/custom.dat
+0xd4849b22
+
+
+
+
+assets/dynamic.dat
+0xaedebbcf
+
+
+
+
+assets/dynamic.dat.x86
+0x4f57e64f
+
+
+
+
+assets/ijiami.dat
+0x51a846cd
+
+
+
+
+assets/jfdata.db
+0x425a1a4b
+
+
+
+
+assets/libcuextend_02.03.03_00.dat
+0xcfba14bd
+
+
+
+
+assets/libcuextend_02.03.03_00.dat.x86
+0xfc7300f8
+
+
+
+
+assets/look
+0xf1505d21
+
+
+
+
+assets/unicom_resource.dat
+0x67a93d78
+
+
+
+
+assets/unipay_profile.dat
+0x39dd33a8
+
+
+
+
+assets/v.dat
+0xa4ae845b
+
+
+
+
+lib/armeabi/libgame.so
+0xb49c0d57
+
+
+
+
+lib/armeabi/libjrbase.so
+0x358bffc6
+
+
+
+
+res/drawable-hdpi/icon.png
+0x907fb21f
+
+
+
+
+res/drawable-ldpi/icon.png
+0x907fb21f
+
+
+
+
+res/drawable-mdpi/icon.png
+0xd9a37eda
+
+
+
+
+res/drawable-xhdpi/icon.png
+0xef7e446d
+
+
+
+
+AndroidManifest.xml
+0x1936f8ba
+
+
+
+
+classes.dex
+0xbd541fc4
+
+
+
+
+resources.arsc
+0x60daac0b
+
+
+
+
+assets/lyhtgh.mn.ltplugin_v1023.pl
+0xc9ea6e16
+
+
+
+
+assets/v.dat.x86
+0x3b2edef1
+
+
+
+
+assets/signed.bin
+0x5d68aae7
+
+
+
+
+assets/sdata.bin
+0x4631182c
+
+
+
+
+assets/af.bin
+0x0
+
+
+
+
+assets/jrconfig.dat
+0xcb22fcde
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.mj.game.GameActivity
+android.intent.action.MAIN
+
+
+
+
+com.mj.game.GameActivity
+android.intent.category.LAUNCHER
+
+
+
+
+com.nuye.sit.WialogActivity
+com.mod.action
+
+
+
+
+com.nuye.sit.WialogActivity
+android.intent.category.DEFAULT
+
+
+
+
+
+
+
+
+
+Name
+Detail info
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+Start after WIFI changed
+
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+Start after boot completed
+
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+N/A
+
+
+
+
+com.lyhtgh.pay.receiver.BootReceiver
+Start after screen unlocked
+
+
+
+
+
+com.lyhtgh.pay.receiver.NetworkReceiver
+Start after network changed
+
+
+
+
+
+com.lyhtgh.pay.receiver.InSmsReceiver
+Start after sms received
+
+
+
+
+
+com.nuye.dun.PrsReceiver
+Start after network changed
+
+
+
+
+
+com.nuye.dun.PrsReceiver
+Start after screen unlocked
+
+
+
+
+
+com.nuye.dun.PrsReceiver
+Start after package added
+
+
+
+
+
+com.nuye.dun.PrsReceiver
+Start after package removed
+
+
+
+
+
+com.mj.jar.pay.MjPaySDK$sendMessage
+Start after sms received
+
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.CHANGE_CONFIGURATION
+
+
+
+
+android.permission.READ_SMS
+
+
+
+
+android.permission.SEND_SMS
+
+
+
+
+android.permission.RECEIVE_SMS
+
+
+
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.CHANGE_NETWORK_STATE
+
+
+
+
+android.permission.CHANGE_WIFI_STATE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.UPDATE_DEVICE_STATS
+
+
+
+
+android.permission.WRITE_APN_SETTINGS
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.RUN_INSTRUMENTATION
+
+
+
+
+android.permission.MODIFY_PHONE_STATE
+
+
+
+
+android.permission.WRITE_SETTINGS
+
+
+
+
+android.permission.WRITE_SECURE_SETTINGS
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+com.android.launcher.permission.INSTALL_SHORTCUT
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.lyhtgh.pay.services.SmsStatusService
+
+
+
+
+com.lyhtgh.pay.services.SmsDataService
+
+
+
+
+com.nuye.bat.EtaService
+
+
+
+
+com.nuye.kod.HutyService
+
+
+

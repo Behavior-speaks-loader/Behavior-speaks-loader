@@ -1,0 +1,23 @@
+272c74b8f3bc04075356d23bd5ab398d2c4f9dd1c7862f420b07a2989025be88:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/272c74b8f3bc04075356d23bd5ab398d2c4f9dd1c7862f420b07a2989025be88/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+android.Net.wifi.WIFI_STATE_CHANGED
+android.net.wifi.STATE_CHANGE
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/272c74b8f3bc04075356d23bd5ab398d2c4f9dd1c7862f420b07a2989025be88/272c74b8f3bc04075356d23bd5ab398d2c4f9dd1c7862f420b07a2989025be88.gml

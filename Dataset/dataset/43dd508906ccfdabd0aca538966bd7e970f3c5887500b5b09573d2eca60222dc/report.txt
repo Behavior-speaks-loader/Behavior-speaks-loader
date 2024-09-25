@@ -1,0 +1,44 @@
+43dd508906ccfdabd0aca538966bd7e970f3c5887500b5b09573d2eca60222dc:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.BLUETOOTH
+android.permission.READ_SMS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.READ_CALL_LOG
+android.permission.ACCESS_WIFI_STATE
+android.permission.PERSISTENT_ACTIVITY
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.MANAGE_LOCATION_POLICY
+------------------------------
+API:
+./res/43dd508906ccfdabd0aca538966bd7e970f3c5887500b5b09573d2eca60222dc/api.txt
+------------------------------
+Intent:
+com.jvbaodai.loan.intent.action.COMMAND
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/43dd508906ccfdabd0aca538966bd7e970f3c5887500b5b09573d2eca60222dc/43dd508906ccfdabd0aca538966bd7e970f3c5887500b5b09573d2eca60222dc.gml

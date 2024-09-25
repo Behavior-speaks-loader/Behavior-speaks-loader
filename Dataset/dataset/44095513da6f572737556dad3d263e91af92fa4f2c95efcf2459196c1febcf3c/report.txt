@@ -1,0 +1,26 @@
+44095513da6f572737556dad3d263e91af92fa4f2c95efcf2459196c1febcf3c:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.READ_CONTACTS
+android.permission.SEND_SMS
+android.permission.INTERNET
+android.permission.WRITE_SMS
+android.permission.GET_TASKS
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.READ_SMS
+------------------------------
+API:
+./res/44095513da6f572737556dad3d263e91af92fa4f2c95efcf2459196c1febcf3c/api.txt
+------------------------------
+Intent:
+com.qihoo.commonreceiver.ARRIVED
+com.qihoo.commonreceiver.CLEARED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/44095513da6f572737556dad3d263e91af92fa4f2c95efcf2459196c1febcf3c/44095513da6f572737556dad3d263e91af92fa4f2c95efcf2459196c1febcf3c.gml

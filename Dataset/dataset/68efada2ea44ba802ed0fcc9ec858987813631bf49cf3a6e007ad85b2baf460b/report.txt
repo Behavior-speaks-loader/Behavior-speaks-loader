@@ -1,0 +1,29 @@
+68efada2ea44ba802ed0fcc9ec858987813631bf49cf3a6e007ad85b2baf460b:['File', 'Network', 'Phone', 'Location']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.UPDATE_DEVICE_STATS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.INTERNET
+com.com2us.superactionhero5.normal.freefull.google.global.android.common.permission.C2D_MESSAGE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.GET_TASKS
+android.permission.INTERACT_ACROSS_USERS_FULL
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+com.android.vending.BILLING
+------------------------------
+API:
+./res/68efada2ea44ba802ed0fcc9ec858987813631bf49cf3a6e007ad85b2baf460b/api.txt
+------------------------------
+Intent:
+com.android.vending.INSTALL_REFERRER
+com.com2us.superactionhero5.normal.freefull.google.global.android.common
+------------------------------
+Function call graph:
+gml path: ./res/68efada2ea44ba802ed0fcc9ec858987813631bf49cf3a6e007ad85b2baf460b/68efada2ea44ba802ed0fcc9ec858987813631bf49cf3a6e007ad85b2baf460b.gml

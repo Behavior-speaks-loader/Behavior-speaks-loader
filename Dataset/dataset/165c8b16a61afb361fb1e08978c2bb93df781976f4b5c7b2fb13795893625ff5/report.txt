@@ -1,0 +1,28 @@
+165c8b16a61afb361fb1e08978c2bb93df781976f4b5c7b2fb13795893625ff5:['File', 'Network']
+------------------------------
+Permissions:
+com.spookyhousestudios.railmaze.permission.UAPUSH_MESSAGE
+com.uapush.android.permission.SEND
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.INTERNET
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.vending.BILLING
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/165c8b16a61afb361fb1e08978c2bb93df781976f4b5c7b2fb13795893625ff5/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.action.USER_PRESENT
+android.intent.category.HOME
+------------------------------
+Function call graph:
+gml path: ./res/165c8b16a61afb361fb1e08978c2bb93df781976f4b5c7b2fb13795893625ff5/165c8b16a61afb361fb1e08978c2bb93df781976f4b5c7b2fb13795893625ff5.gml

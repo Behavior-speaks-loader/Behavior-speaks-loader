@@ -1,0 +1,926 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+3455545c8ea7c8260a5b03aea9e2edefda12bf6c70b8119a18fc552c38d2e7a3
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.jingdongrenxin
+
+
+
+
+Minimum system version:
+Android 2.2.x
+
+
+
+
+Copyright:
+N/A
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.133.40.** port:80 data:data:GET /cf/323/893b82573e8a46908184943051362063/cn/128/0 HTTP/1.1
+Host: cfg.adsmogo.org
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:GET /cf/323/893b82573e8a46908184943051362063/cn/128/0 HTTP/1.1
+Host: cfg.adsmogo.net
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:GET /cf/323/893b82573e8a46908184943051362063/cn/128/0 HTTP/1.1
+Host: cfg.adsmogo.com
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:GET /cf/323/893b82573e8a46908184943051362063/cn/128/0 HTTP/1.1
+Host: cfg.adsmogo.mobi
+Connection: Keep-Alive
+
+
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://cf****rg/cf/323/893b82573e8a46908184943051362063/cn/128/0
+
+
+http://cf****rg
+
+
+/cf/323/893b82573e8a46908184943051362063/cn/128/0
+
+
+http://cf****et/cf/323/893b82573e8a46908184943051362063/cn/128/0
+
+
+http://cf****et
+
+
+http://cf****om/cf/323/893b82573e8a46908184943051362063/cn/128/0
+
+
+http://cf****om
+
+
+http://cf****bi/cf/323/893b82573e8a46908184943051362063/cn/128/0
+
+
+http://cf****bi
+
+
+
+
+
+Behaviour:
+Load website in webview
+
+
+
+
+
+Detail info:
+
+http://ho****om/liangyou/jingdongrenxin.html
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+MemTotal:        1030096 kB
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/proc/meminfo length:69
+
+
+path:/data/misc/keychain/pins length:69
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+TelephonyManager;->getSimSerialNumber
+Get SIM serial number
+
+
+
+
+
+DefaultHttpClient;->execute
+Send HTTP request
+
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+java/net/URLConnection;->connect
+Connect to URL
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get running task
+
+
+
+
+
+Detail info:
+
+u'1'
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'893b82573e8a46908184943051362063128cnconfig', u''
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "Loading, please wait...0%", "class": "android.widget.TextView"}
+
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218a8df0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#40010100 pfl=0x8 wanim=0x1030001}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.jiepengren.Ai9475comActivity@21885888', u'class com.adsmogo.adview.AdsMogoWebView'
+
+
+u'com.jiepengren.Ai9475comActivity@21885888', u'class com.adsmogo.controller.service.UpdateService'
+
+
+u'com.jiepengren.Ai9475comActivity@21885888', u'class com.adsmogo.controller.service.CountService'
+
+
+u'android.os.Parcel@2184fc28'
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15650): FATAL EXCEPTION: Thread-161
+
+
+
+E/AndroidRuntime(15650): Process: com.jingdongrenxin:remote, PID: 15650
+
+
+
+E/AndroidRuntime(15650): java.lang.SecurityException: Permission Denial: getTasks() from pid=15650, uid=10070 requires android.permission.GET_TASKS
+
+
+
+E/AndroidRuntime(15650): 	at android.os.Parcel.readException(Parcel.java:1465)
+
+
+
+E/AndroidRuntime(15650): 	at android.os.Parcel.readException(Parcel.java:1419)
+
+
+
+E/AndroidRuntime(15650): 	at android.app.ActivityManagerProxy.getTasks(ActivityManagerNative.java:2537)
+
+
+
+E/AndroidRuntime(15650): 	at android.app.ActivityManager.getRunningTasks(ActivityManager.java:774)
+
+
+
+E/AndroidRuntime(15650): 	at com.tencent.music.v_d20a.core.XposedBridge.invokeOriginalMethodNative(Native Method)
+
+
+
+E/AndroidRuntime(15650): 	at com.tencent.music.v_d20a.core.XposedBridge.handleHookedMethod(XposedBridge.java:632)
+
+
+
+E/AndroidRuntime(15650): 	at android.app.ActivityManager.getRunningTasks(Native Method)
+
+
+
+E/AndroidRuntime(15650): 	at android.app.ActivityManager.getRunningTasks(ActivityManager.java:810)
+
+
+
+E/AndroidRuntime(15650): 	at com.tencent.music.v_d20a.core.XposedBridge.handleHookedMethod(XposedBridge.java:688)
+
+
+
+E/AndroidRuntime(15650): 	at com.adsmogo.controller.service.a.run(Unknown Source)
+
+
+
+E/AndroidRuntime(15650): 	at java.lang.Thread.run(Thread.java:841)
+
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+res/layout/main.xml
+0x4113a437
+
+
+
+
+AndroidManifest.xml
+0xfd0ac237
+
+
+
+
+resources.arsc
+0x32532e32
+
+
+
+
+res/drawable-hdpi/ic_launcher.png
+0xd93ee5c8
+
+
+
+
+res/drawable-hdpi/logo.png
+0xf8b56a04
+
+
+
+
+res/drawable-ldpi/ic_launcher.png
+0xd93ee5c8
+
+
+
+
+res/drawable-ldpi/logo.png
+0xf8b56a04
+
+
+
+
+res/drawable-mdpi/ic_launcher.png
+0xd93ee5c8
+
+
+
+
+res/drawable-mdpi/logo.png
+0xf8b56a04
+
+
+
+
+res/drawable-xhdpi/ic_launcher.png
+0xd93ee5c8
+
+
+
+
+res/drawable-xhdpi/logo.png
+0xf8b56a04
+
+
+
+
+classes.dex
+0x55057f4c
+
+
+
+
+com/adsmogo/assets/adsmogo_ad_close.png
+0xdbea9bca
+
+
+
+
+com/adsmogo/assets/adsmogo_ad_close_h.png
+0x9d3e34f4
+
+
+
+
+com/adsmogo/assets/adsmogo_btn_bg_left.png
+0xbbd6b472
+
+
+
+
+com/adsmogo/assets/adsmogo_btn_bg_mid.png
+0x32cb7cf4
+
+
+
+
+com/adsmogo/assets/adsmogo_btn_bg_prs_left.png
+0xb14e0610
+
+
+
+
+com/adsmogo/assets/adsmogo_btn_bg_prs_mid.png
+0xdc6ce227
+
+
+
+
+com/adsmogo/assets/adsmogo_btn_bg_prs_right.png
+0x1acdf8f3
+
+
+
+
+com/adsmogo/assets/adsmogo_btn_bg_right.png
+0x61a78748
+
+
+
+
+com/adsmogo/assets/adsmogo_close.png
+0xe2f2c682
+
+
+
+
+com/adsmogo/assets/adsmogo_close_h.png
+0xc40fa8d2
+
+
+
+
+com/adsmogo/assets/adsmogo_dialog_bg.png
+0x443a4554
+
+
+
+
+com/adsmogo/assets/adsmogo_fill_bgb.png
+0x237a3cda
+
+
+
+
+com/adsmogo/assets/adsmogo_fill_bgw.png
+0x6f55d775
+
+
+
+
+com/adsmogo/assets/adsmogo_fullad_close.png
+0x1e327967
+
+
+
+
+com/adsmogo/assets/adsmogo_rm_closeBtn.png
+0x7dddc92e
+
+
+
+
+com/adsmogo/assets/progressbarbg.png
+0xedf6b097
+
+
+
+
+com/adsmogo/assets/tow_click_download_btn_320.gif
+0xf59a0e6
+
+
+
+
+com/adsmogo/assets/tow_click_download_btn_640.gif
+0x2c6151fc
+
+
+
+
+com/adsmogo/assets/tow_click_open_webview_btn_320.gif
+0xb890d4a5
+
+
+
+
+com/adsmogo/assets/tow_click_open_webview_btn_640.gif
+0x1afc41fe
+
+
+
+
+com/adsmogo/assets/webview_ad_bar_bgimg.png
+0x82459a0b
+
+
+
+
+com/adsmogo/assets/webview_bar_back.png
+0x44887ec8
+
+
+
+
+com/adsmogo/assets/webview_bar_back_grey.png
+0x87985fbf
+
+
+
+
+com/adsmogo/assets/webview_bar_bgimg.png
+0x48d22085
+
+
+
+
+com/adsmogo/assets/webview_bar_bgimg_prs.png
+0xd475e645
+
+
+
+
+com/adsmogo/assets/webview_bar_close.png
+0x5e0e1822
+
+
+
+
+com/adsmogo/assets/webview_bar_next.png
+0xe563102c
+
+
+
+
+com/adsmogo/assets/webview_bar_next_grey.png
+0x2667b3d
+
+
+
+
+com/adsmogo/assets/webview_bar_pause.png
+0x2cfb873e
+
+
+
+
+com/adsmogo/assets/webview_bar_refresh.png
+0xbf7363f5
+
+
+
+
+com/adsmogo/assets/webview_bar_share.png
+0xc7dcef0
+
+
+
+
+com/adsmogo/assets/ycm_btnconfirm.png
+0xd2fbd8ea
+
+
+
+
+com/adsmogo/assets/ycm_mraid_close.png
+0xd229d499
+
+
+
+
+extra/__pasys_remote_banner.jar
+0x420d9426
+
+
+
+
+META-INF/MANIFEST.MF
+0x415e1493
+
+
+
+
+META-INF/CERT.SF
+0x4fbf05d9
+
+
+
+
+META-INF/CERT.RSA
+0xe17579ec
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.jiepengren.Ai9475comActivity
+android.intent.action.MAIN
+
+
+
+
+com.jiepengren.Ai9475comActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.READ_LOGS
+
+
+
+
+android.permission.MODIFY_AUDIO_SETTINGS
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+
+
+
+
+android.permission.CALL_PHONE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.CHANGE_WIFI_STATE
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.adsmogo.controller.service.UpdateService
+
+
+
+
+com.adsmogo.controller.service.CountService
+
+
+

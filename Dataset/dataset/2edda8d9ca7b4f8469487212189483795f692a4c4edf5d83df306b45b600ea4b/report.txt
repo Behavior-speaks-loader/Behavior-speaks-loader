@@ -1,0 +1,20 @@
+2edda8d9ca7b4f8469487212189483795f692a4c4edf5d83df306b45b600ea4b:['network']
+------------------------------
+Permissions:
+android.permission.CALL_PHONE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.GET_TASKS
+android.permission.VIBRATE
+android.permission.READ_CONTACTS
+android.permission.EXPAND_STATUS_BAR
+android.permission.SYSTEM_ALERT_WINDOW
+------------------------------
+API:
+./res/2edda8d9ca7b4f8469487212189483795f692a4c4edf5d83df306b45b600ea4b/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/2edda8d9ca7b4f8469487212189483795f692a4c4edf5d83df306b45b600ea4b/2edda8d9ca7b4f8469487212189483795f692a4c4edf5d83df306b45b600ea4b.gml

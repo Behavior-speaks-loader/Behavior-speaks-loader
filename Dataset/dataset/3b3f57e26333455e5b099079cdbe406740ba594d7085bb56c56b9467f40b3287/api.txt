@@ -1,0 +1,183 @@
+Lcom/bangcle/protect/ACall;-><clinit>()V [access_flags=static constructor] @ 0x30a8
+Ljava/io/File;->exists()Z
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Lcom/bangcle/protect/Util;->runAll1(Landroid/content/Context;)V [access_flags=public static] @ 0x4680
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;-><init>()V
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Lcom/bangcle/protect/ACall;-><init>()V [access_flags=private constructor] @ 0x31ec
+Ljava/lang/Object;-><init>()V
+Lcom/bangcle/protect/ACall;->getACall()Lcom/bangcle/protect/ACall; [access_flags=public static] @ 0x3204
+Lcom/bangcle/protect/ACall;->at1(Landroid/app/Application; Landroid/content/Context;)V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->set2(Landroid/app/Application; Landroid/app/Application; Ljava/lang/ClassLoader; Landroid/content/Context;)Ljava/lang/Object; [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->set3(Landroid/app/Application;)V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->set8()V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->a1([B [B)V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->set5(Landroid/content/ContentProvider;)V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->r1([B [B)V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->set4()V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->r2([B [B [B)V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->c1(Ljava/lang/Object; Ljava/lang/Object;)V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ACall;->c2(Ljava/lang/Object; Ljava/lang/Object;)V [access_flags=public native] @ 0x0
+Lcom/bangcle/protect/ApplicationWrapper;-><init>()V [access_flags=public constructor] @ 0x3250
+Landroid/app/Application;-><init>()V
+Lcom/bangcle/protect/ApplicationWrapper;->onConfigurationChanged(Landroid/content/res/Configuration;)V [access_flags=public] @ 0x3268
+Landroid/app/Application;->onConfigurationChanged(Landroid/content/res/Configuration;)V
+Lcom/bangcle/protect/ApplicationWrapper;->onCreate()V [access_flags=public] @ 0x3294
+Ljava/lang/Exception;->printStackTrace()V
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Lcom/bangcle/protect/Util;->getCustomClassLoader()Ljava/lang/ClassLoader; [access_flags=public static] @ 0x42c4
+Ljava/lang/Float;->parseFloat(Ljava/lang/String;)F
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/bangcle/protect/ApplicationWrapper;->getClassLoader()Ljava/lang/ClassLoader;
+Lcom/bangcle/protect/Util;->runAll(Landroid/content/Context;)V [access_flags=public static] @ 0x45cc
+Lcom/bangcle/protect/ApplicationWrapper;->getBaseContext()Landroid/content/Context;
+Landroid/app/Application;->onCreate()V
+Lcom/bangcle/protect/Util;->doProvider()V [access_flags=public static] @ 0x40f0
+Lcom/bangcle/protect/ApplicationWrapper;->onLowMemory()V [access_flags=public] @ 0x33b4
+Landroid/app/Application;->onLowMemory()V
+Lcom/bangcle/protect/ApplicationWrapper;->onTerminate()V [access_flags=public] @ 0x33e0
+Landroid/app/Application;->onTerminate()V
+Lcom/bangcle/protect/ApplicationWrapper;->onTrimMemory(I)V [access_flags=public] @ 0x340c
+Landroid/app/Application;->onTrimMemory(I)V
+Lcom/bangcle/protect/FirstApplication;-><init>()V [access_flags=public constructor] @ 0x3448
+Lcom/bangcle/protect/FirstApplication;->onCreate()V [access_flags=public] @ 0x3460
+Lcom/bangcle/protect/MyClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V [access_flags=public constructor] @ 0x3478
+Ljava/lang/ClassLoader;->getParent()Ljava/lang/ClassLoader;
+Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Lcom/bangcle/protect/MyClassLoader;->getResource(Ljava/lang/String;)Ljava/net/URL; [access_flags=public] @ 0x34a4
+Ljava/lang/ClassLoader;->getResource(Ljava/lang/String;)Ljava/net/URL;
+Lcom/bangcle/protect/MyClassLoader;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream; [access_flags=public] @ 0x34c4
+Ljava/lang/ClassLoader;->getResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;
+Lcom/bangcle/protect/MyClassLoader;->getResources(Ljava/lang/String;)Ljava/util/Enumeration; [access_flags=public] @ 0x34e4
+Ljava/lang/ClassLoader;->getResources(Ljava/lang/String;)Ljava/util/Enumeration;
+Ljava/io/File;->mkdir()Z
+Lcom/bangcle/protect/Util;->checkX86(Landroid/content/Context;)V [access_flags=private static] @ 0x3cb8
+Lcom/bangcle/protect/Util;->CopyBinaryFile(Landroid/content/Context;)V [access_flags=private static] @ 0x3588
+Lcom/bangcle/protect/Util;->tryDo(Landroid/content/Context;)V [access_flags=private static] @ 0x4988
+Lcom/bangcle/protect/Util;->createChildProcess(Landroid/content/Context;)V [access_flags=private static] @ 0x3e38
+Lcom/bangcle/protect/Util;->checkUpdate(Landroid/content/Context;)V [access_flags=private static] @ 0x3ad0
+Lcom/bangcle/protect/Util;->doCheck(Landroid/content/Context;)V [access_flags=public static] @ 0x3ee0
+Lcom/bangcle/protect/Util;->runPkg(Landroid/content/Context; Ljava/lang/String;)V [access_flags=private static] @ 0x4704
+Lcom/bangcle/protect/Util;-><clinit>()V [access_flags=static constructor] @ 0x3504
+Ljava/util/ArrayList;-><init>()V
+Lcom/bangcle/protect/Util;-><init>()V [access_flags=public constructor] @ 0x3570
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/io/IOException;->printStackTrace()V
+Ljava/lang/String;->getBytes()[B
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Ljava/lang/Process;->waitFor()I
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/lang/InterruptedException;->printStackTrace()V
+Lcom/bangcle/protect/Util;->CopyLib(Landroid/content/Context;)V [access_flags=private static] @ 0x3758
+Ljava/lang/String;->replaceAll(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Lcom/bangcle/protect/Util;->realCopy(Ljava/lang/String; Ljava/util/jar/JarFile; Ljava/util/zip/ZipEntry;)V [access_flags=public static] @ 0x4544
+Ljava/util/jar/JarEntry;->getName()Ljava/lang/String;
+Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+Ljava/util/jar/JarFile;->entries()Ljava/util/Enumeration;
+Ljava/util/jar/JarFile;-><init>(Ljava/lang/String;)V
+Ljava/util/Enumeration;->hasMoreElements()Z
+Ljava/io/InputStream;->read([B)I
+Ljava/io/OutputStream;->flush()V
+Ljava/io/OutputStream;->write([B I I)V
+Ljava/io/OutputStream;->close()V
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/util/jar/JarFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/io/InputStream;->close()V
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedOutputStream;-><init>(Ljava/io/OutputStream;)V
+Lcom/bangcle/protect/Util;->addProvider(Landroid/content/ContentProvider;)V [access_flags=public static] @ 0x3958
+Landroid/content/ContentProvider;->getContext()Landroid/content/Context;
+Lcom/bangcle/protect/Util;->calFileMD5(Ljava/lang/String;)[B [access_flags=public static] @ 0x39a0
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Ljava/security/MessageDigest;->digest()[B
+Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+Ljava/io/ByteArrayOutputStream;-><init>()V
+Ljava/io/ByteArrayOutputStream;->write([B I I)V
+Ljava/io/FileInputStream;->read([B)I
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Ljava/security/MessageDigest;->update([B)V
+Lcom/bangcle/protect/Util;->checkSpace(Landroid/content/Context;)V [access_flags=private static] @ 0x3a0c
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Lcom/bangcle/protect/Util;->getClassesJarSize(Landroid/content/Context;)J [access_flags=private static] @ 0x4274
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Landroid/os/Process;->myPid()I
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/bangcle/protect/Util;->getDataSize()J [access_flags=private static] @ 0x42dc
+Lcom/bangcle/protect/Util;->isSpaceEnough(Landroid/content/Context;)Z [access_flags=private static] @ 0x43b4
+Ljava/io/File;->getPath()Ljava/lang/String;
+Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
+Landroid/os/StatFs;->getBlockSize()I
+Landroid/os/StatFs;->getAvailableBlocks()I
+Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+Ljava/util/jar/JarFile;->getJarEntry(Ljava/lang/String;)Ljava/util/jar/JarEntry;
+Ljava/util/jar/JarEntry;->getSize()J
+Ljava/io/File;->delete()Z
+Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/bangcle/protect/Util;->writeVersion(Ljava/io/File; I Ljava/lang/String;)V [access_flags=private static] @ 0x49e0
+Lcom/bangcle/protect/Util;->deleteDirectory(Ljava/io/File;)Z [access_flags=private static] @ 0x3e7c
+Lcom/bangcle/protect/Util;->readVersions(Ljava/io/File;)[Ljava/lang/String; [access_flags=private static] @ 0x44dc
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Ljava/io/File;->isDirectory()Z
+Ljava/io/BufferedWriter;->flush()V
+Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+Ljava/io/BufferedWriter;->close()V
+Ljava/io/FileWriter;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedWriter;->write(Ljava/lang/String;)V
+Ljava/io/BufferedWriter;->newLine()V
+Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+Ljava/io/BufferedReader;->close()V
+Lcom/bangcle/protect/Util;->copyJarFile(Landroid/content/Context;)V [access_flags=private static] @ 0x3d54
+Ljava/util/jar/JarFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Lcom/bangcle/protect/Util;->toASC([B)[B [access_flags=public static] @ 0x4928
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/File;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Lcom/bangcle/protect/Util;->readFile(Ljava/io/File;)[B [access_flags=public static] @ 0x448c
+Ljava/util/StringTokenizer;->nextToken()Ljava/lang/String;
+Ljava/lang/Exception;->printStackTrace(Ljava/io/PrintStream;)V
+Ljava/lang/String;-><init>(Ljava/lang/String;)V
+Ljava/io/FileOutputStream;->write([B)V
+Ljava/util/StringTokenizer;->hasMoreTokens()Z
+Ljava/io/PrintStream;->println()V
+Ljava/util/StringTokenizer;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Lcom/bangcle/protect/Util;->getAssetFile(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private static] @ 0x412c
+Ljava/io/FileOutputStream;->write([B I I)V
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/io/File;->createNewFile()Z
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Lcom/bangcle/protect/Util;->getCPUinfo()Ljava/lang/String; [access_flags=public static] @ 0x41c8
+Ljava/lang/String;-><init>([B)V
+Ljava/lang/ProcessBuilder;-><init>([Ljava/lang/String;)V
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
+Lcom/bangcle/protect/Util;->getField(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0x4320
+Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->isAccessible()Z
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
+Lcom/bangcle/protect/Util;->getFieldValue(Ljava/lang/Class; Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/Object; [access_flags=public static] @ 0x4378
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+Lcom/bangcle/protect/Util;->setFieldValue(Ljava/lang/Class; Ljava/lang/Object; Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public static] @ 0x489c
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Lcom/ifreyrgames/blackdawn/OurAlarmReceiver;-><init>()V [access_flags=public constructor] @ 0x4a44
+Landroid/content/BroadcastReceiver;-><init>()V
+Lcom/ifreyrgames/blackdawn/OurAlarmReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x4a64
+Landroid/content/BroadcastReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Lneo/proxy/DistributeReceiver;-><init>()V [access_flags=public constructor] @ 0x4b0c
+Lneo/proxy/DistributeReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x4b2c

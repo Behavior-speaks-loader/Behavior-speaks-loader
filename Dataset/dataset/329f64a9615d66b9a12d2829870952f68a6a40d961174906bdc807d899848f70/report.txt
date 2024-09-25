@@ -1,0 +1,27 @@
+329f64a9615d66b9a12d2829870952f68a6a40d961174906bdc807d899848f70:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_CONFIGURATION
+android.permission.INTERNET
+android.permission.READ_CONTACTS
+com.cjia.pms.permission.MIPUSH_RECEIVE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/329f64a9615d66b9a12d2829870952f68a6a40d961174906bdc807d899848f70/api.txt
+------------------------------
+Intent:
+com.xiaomi.mipush.RECEIVE_MESSAGE
+com.xiaomi.mipush.ERROR
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/329f64a9615d66b9a12d2829870952f68a6a40d961174906bdc807d899848f70/329f64a9615d66b9a12d2829870952f68a6a40d961174906bdc807d899848f70.gml

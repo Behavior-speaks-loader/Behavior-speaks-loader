@@ -1,0 +1,1050 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+113fd69888cc32a50fbaab52b507a715c727d1ce11f6fb0731748b33bcc26c0b
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+hxsys.ofhks.fjfgkg
+
+
+
+
+Minimum system version:
+Android 2.2.x
+
+
+
+
+Copyright:
+zw
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:pe****op/**.133.40.** port:443
+
+
+host:c.****om/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:c.****om/**.133.40.** port:80 data:data:POST /ad/splash/stats.html HTTP/1.1
+Content-Type: text/plain; charset=utf-8
+sv: 13
+key: 6d1831311660aa7746b3617c41ba1c8a0af74496e5e87d77dab06ae314c0966ef83a91f24880c9411a249b005f440fdd0dc29d03834f24a7c249f7d37341af87e9e5864337d61970b7fbdbf852b7a9f66a6d9ee60d2584b9809504bc12fdf6ce8c23414c995be0a6b5470cd7ad3e3567b22c990eaa489a200af1dc9cbaef9c66
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: c.appjiagu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 472
+
+5e42c8ea3d978060b930fbde985d2d57d751add4777c8f9ce530dfb5b1468ac08e14849c2e5fd72794658fc7897ff66076f89758c2a9c2c1ec5517175155f5fbc443b11a856807963c1ad21538f390be0784e827d2c372a12f46988f06211e8f2370849500d34ef1d490a153d9d0e8b15c4013bbe7af366575f3d89679944a8e2003332358491158c19d1bcf6bdb40b37afb6640926334e3994275baa6211b666c285e7c71144d8c8f110a1d257a13eb50ae7d5eee8ad450c6e31dd7f540ab5c16f278715f9242a640151e7d464c4ceb75fd98844361e86f77ccfafa5e65ef2c2a2a8c0c03d6a7b2137d8e78
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+https://pe****op/shryff/q
+
+
+http://c.****om/ad/splash/stats.html
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://c.****om/ad/splash/stats.html
+
+
+https://pe****op/shryff/q
+
+
+http://mo****om/flashruntime/configs/air/x86/smarttp_open/ktu84q/18.0.0.142/config
+
+
+http://ai****om/air?version=18.0.0.142&appid=thix.sciencesense.chemist&runtimeType=c&os=a&osVer=4.4.4&lang=zh-CN&arch=ARM&model=Lenovo%20A360t
+
+
+http://th****om/CloudLab/DDbRequest.aspx?v=null
+
+
+
+
+
+Behaviour:
+Monitor network data
+
+
+
+
+
+Detail info:
+
+u'com.adobe.air.telephony.AndroidPhoneStateListener@2188c908', u'32'
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:c.****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://c.****om/ad/splash/stats.html'
+
+
+u'https://pe****op/shryff/q'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/hxsys.ofhks.fjfgkg/shared_prefs/ad_show_time.xml.bak
+
+
+/data/data/hxsys.ofhks.fjfgkg/shared_prefs/jg_app_update_settings_random.xml.bak
+
+
+/data/data/hxsys.ofhks.fjfgkg/shared_prefs/vbz.xml.bak
+
+
+/data/data/hxsys.ofhks.fjfgkg/cache/app
+
+
+/data/data/hxsys.ofhks.fjfgkg/shared_prefs/hxsys.ofhks.fjfgkg.AIRSharedPref.xml.bak
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+path:/sys/class/net/sit0/ifindex length:7
+
+
+path:/sys/class/net/sit0/ifindex length:5
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:7
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:5
+
+
+path:/sys/class/net/lo/mtu length:11
+
+
+path:/sys/class/net/lo/mtu length:5
+
+
+path:unknown length:7
+
+
+path:/data/app/hxsys.ofhks.fjfgkg-1.apk length:9
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:69
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:68
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:65
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:62
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:61
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:58
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:66
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:64
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:67
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:60
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so length:63
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/shared_prefs/ad_show_time.xml length:118
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/shared_prefs/jg_app_update_settings_random.xml length:127
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/shared_prefs/jg_app_update_settings_random.xml length:185
+
+
+path:/data/data/hxsys.ofhks.fjfgkg/shared_prefs/vbz.xml length:138
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/app-lib/hxsys.ofhks.fjfgkg-1/libstlport_shared.so
+
+
+/data/app-lib/hxsys.ofhks.fjfgkg-1/libCore.so
+
+
+/data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get standby state
+
+
+
+
+
+Detail info:
+
+false
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.adobe.flashplayer.HDMIUtils$HdmiBroadcastReceiver@218cef68', u'{"action":"com.motorola.intent.action.externaldisplaystate|com.motorola.intent.action.EXTDISP_STATUS_CONNECTION|com.motorola.intent.action.EXTDISP_STATUS_DISPLAY|com.motorola.intent.action.EXTDISP_STATUS_RESOLUTION"}'
+
+
+u'com.adobe.air.ConfigDownloadListener$1@2184b460', u'{"action":"com.adobe.air.DownloadConfigComplete"}'
+
+
+u'com.adobe.air.AndroidIdleState$1@2197a7a0', u'{"action":"android.intent.action.SCREEN_ON|android.intent.action.SCREEN_OFF"}'
+
+
+u'com.stub.stub05.SoReceiver@218c8b18', u'{"action":"android.intent.action.SCREEN_ON|android.intent.action.SCREEN_OFF|android.intent.action.BATTERY_CHANGED|android.intent.action.ACTION_POWER_CONNECTED|android.intent.action.ACTION_POWER_DISCONNECTED"}'
+
+
+u'com.stub.stub05.ar@218bd350', u'{"action":"android.intent.action.PACKAGE_ADDED"}'
+
+
+u'com.stub.stub01.w@21863340', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE"}'
+
+
+u'com.stub.stub01.w@21863340', u'{"action":"android.intent.action.PACKAGE_ADDED|android.intent.action.PACKAGE_REPLACED"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'pksj', u'null'
+
+
+u'k', u''
+
+
+u'AIRSharedPref.ConfigData', u'\n'
+
+
+u'AIRSharedPref.ConfigRequestTime', u'null'
+
+
+
+
+
+Behaviour:
+Initialize new process
+
+
+
+
+
+Detail info:
+
+u'[/system/bin/cat, /sys/devices/system/cpu/present]'
+
+
+u'[/system/bin/cat, /proc/cpuinfo]'
+
+
+u'[/system/bin/cat, /proc/meminfo]'
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+android.resource://hxsys.ofhks.fjfgkg/raw/mms_cfg
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218cdbe0', u'android_id'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'k', u'9138ee18453e414081ce738a3e60c42a'
+
+
+u'AIRSharedPref.ConfigRequestTime', u'1451530998870'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'chmod 755 /data/data/hxsys.ofhks.fjfgkg/.jiagu/libjiagu.so'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2184d610 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#112 ty=1 fl=#810100 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218c2aa0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#112 ty=1 fl=#810100 pfl=0x8 wanim=0x1030001}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'android.os.Parcel@2184f308'
+
+
+u'android.os.Parcel@2184f318'
+
+
+
+
+
+Behaviour:
+Create new process
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":268435456,"COMPONENT_NAME":"ComponentInfo{hxsys.ofhks.fjfgkg\/air.thix.sciencesense.chemist.AppEntry}"}
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0x51127697
+
+
+
+
+META-INF/QQOPNX.SF
+0xf16f3e79
+
+
+
+
+META-INF/QQOPNX.RSA
+0xd3a41ff5
+
+
+
+
+AndroidManifest.xml
+0xd4e853f3
+
+
+
+
+assets/.appkey
+0x6de7095a
+
+
+
+
+assets/Chemist.swf
+0x226dbec8
+
+
+
+
+assets/META-INF/AIR/application.xml
+0xc9338999
+
+
+
+
+assets/adobeair.vch
+0x5068ef3f
+
+
+
+
+assets/icons/Icon36.png
+0xd3145315
+
+
+
+
+assets/icons/Icon48.png
+0x33c0c086
+
+
+
+
+assets/icons/Icon72.png
+0x1c2c3b69
+
+
+
+
+assets/icons/Icon96.png
+0x9f9e6ba2
+
+
+
+
+assets/libjiagu.so
+0x33ed92f2
+
+
+
+
+assets/libjiagu_ls.so
+0xcc92cf74
+
+
+
+
+assets/libjiagu_x86.so
+0xa0bd9b30
+
+
+
+
+classes.dex
+0x4b3010f3
+
+
+
+
+lib/armeabi-v7a/libCore.so
+0xd2cc9e58
+
+
+
+
+lib/armeabi-v7a/libstagefright_froyo.so
+0x369c7e1d
+
+
+
+
+lib/armeabi-v7a/libstagefright_honeycomb.so
+0xa1316ae9
+
+
+
+
+lib/armeabi-v7a/libstlport_shared.so
+0xba79b1d8
+
+
+
+
+lib/armeabi-v7a/libysshared.so
+0x16a80ccf
+
+
+
+
+res/drawable-hdpi-v4/home.png
+0xff510057
+
+
+
+
+res/drawable-hdpi-v4/icon.png
+0x2c8bca23
+
+
+
+
+res/drawable-ldpi-v4/icon.png
+0x2c8bca23
+
+
+
+
+res/drawable-mdpi-v4/icon.png
+0x2c8bca23
+
+
+
+
+res/drawable-xhdpi-v4/icon.png
+0x2c8bca23
+
+
+
+
+res/drawable-xhdpi-v4/ouya_icon.png
+0x6f7309dd
+
+
+
+
+res/drawable-xxhdpi-v4/icon.png
+0x2c8bca23
+
+
+
+
+res/drawable-xxxhdpi-v4/icon.png
+0x2c8bca23
+
+
+
+
+res/drawable/air_72px_mobile_eula.png
+0x858b6248
+
+
+
+
+res/drawable/mp_warning_32x32_n.png
+0xe39ac7e5
+
+
+
+
+res/layout/expandable_chooser_row.xml
+0x1b07cd6f
+
+
+
+
+res/layout/expandable_multiple_chooser_row.xml
+0x3c356c0f
+
+
+
+
+res/layout/main.xml
+0xb40a37cd
+
+
+
+
+res/layout/multiple_file_selection_panel.xml
+0xd41c3ee0
+
+
+
+
+res/layout/ssl_certificate_warning.xml
+0xf8abfe42
+
+
+
+
+res/raw/adobelogo.gif
+0xb9ea8478
+
+
+
+
+res/raw/debuginfo
+0x0
+
+
+
+
+res/raw/icon.jpg
+0xe590515f
+
+
+
+
+res/raw/rgba8888
+0x0
+
+
+
+
+res/raw/startga.html
+0x3c44c7e1
+
+
+
+
+resources.arsc
+0xf97e3636
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+air.thix.sciencesense.chemist.AppEntry
+android.intent.action.MAIN
+
+
+
+
+air.thix.sciencesense.chemist.AppEntry
+android.intent.category.DEFAULT
+
+
+
+
+com.stub.stub01.Stub01
+android.intent.action.MAIN
+
+
+
+
+com.stub.stub01.Stub01
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.stub.stub01.Stub03
+
+
+
+
+com.stub.stub02.Stub02
+
+
+
+
+com.stub.stub02.Stub03
+
+
+
+
+com.stub.stub05.Stub02
+
+
+
+
+hxsys.fogjg.ifhjwk.rqkerd6
+
+
+

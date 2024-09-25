@@ -1,0 +1,27 @@
+37afbc410001f4a4ce280cd8d4c9321e6d7a3883060f0bbdd62f810f136a9c6c:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+------------------------------
+API:
+./res/37afbc410001f4a4ce280cd8d4c9321e6d7a3883060f0bbdd62f810f136a9c6c/api.txt
+------------------------------
+Intent:
+com.volvogroup.transporters.shortcut
+com.volvogroup.transporters.inform
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/37afbc410001f4a4ce280cd8d4c9321e6d7a3883060f0bbdd62f810f136a9c6c/37afbc410001f4a4ce280cd8d4c9321e6d7a3883060f0bbdd62f810f136a9c6c.gml

@@ -1,0 +1,26 @@
+1fdde9b33b9581a5bbcac3536d7b53f15fb9a22a49bd030d1d04ec08e8ad4c78:['Network', 'File']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+com.seventeenbullets.android.island.permission.C2D_MESSAGE
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+com.gameinsight.fzmobile.permission.GETFZUDID
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+com.android.vending.BILLING
+------------------------------
+API:
+./res/1fdde9b33b9581a5bbcac3536d7b53f15fb9a22a49bd030d1d04ec08e8ad4c78/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+com.google.android.c2dm.intent.REGISTRATION
+com.seventeenbullets.android.island
+------------------------------
+Function call graph:
+gml path: ./res/1fdde9b33b9581a5bbcac3536d7b53f15fb9a22a49bd030d1d04ec08e8ad4c78/1fdde9b33b9581a5bbcac3536d7b53f15fb9a22a49bd030d1d04ec08e8ad4c78.gml

@@ -1,0 +1,45 @@
+1d1ce41cfd4b9fff6dc29f4817d7bc7c252b4fc0ec7496602721899b805d5f3a:['File', 'Location', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.BROADCAST_PACKAGE_CHANGED
+com.lemeng.reader.lemengreader.permission.MIPUSH_RECEIVE
+android.permission.ACCESS_FINE_LOCATION
+android.permission.BATTERY_STATS
+android.permission.INTERNET
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/1d1ce41cfd4b9fff6dc29f4817d7bc7c252b4fc0ec7496602721899b805d5f3a/api.txt
+------------------------------
+Intent:
+com.huawei.android.push.intent.REGISTRATION
+com.huawei.android.push.intent.RECEIVE
+com.huawei.intent.action.PUSH
+com.huawei.intent.action.PUSH_STATE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/1d1ce41cfd4b9fff6dc29f4817d7bc7c252b4fc0ec7496602721899b805d5f3a/1d1ce41cfd4b9fff6dc29f4817d7bc7c252b4fc0ec7496602721899b805d5f3a.gml

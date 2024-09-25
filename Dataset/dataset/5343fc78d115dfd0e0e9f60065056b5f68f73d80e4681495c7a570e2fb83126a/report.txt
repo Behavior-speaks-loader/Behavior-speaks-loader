@@ -1,0 +1,44 @@
+5343fc78d115dfd0e0e9f60065056b5f68f73d80e4681495c7a570e2fb83126a:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.SEND_SMS
+android.permission.READ_LOGS
+android.permission.FLASHLIGHT
+android.permission.GET_TASKS
+android.permission.BLUETOOTH
+android.permission.READ_SMS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ0_PHONE_STATE
+android.permission.BATTERY_STATS
+android.permission.READ_CONTACTS
+android.permission.INTERACT_ACROSS_USERS_FULL
+android.permission.INTERNET
+android.permission.ACCESS_COARSE_UPDATES
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.READ_CALL_LOG
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.WRITE_CALL_LOG
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/5343fc78d115dfd0e0e9f60065056b5f68f73d80e4681495c7a570e2fb83126a/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/5343fc78d115dfd0e0e9f60065056b5f68f73d80e4681495c7a570e2fb83126a/5343fc78d115dfd0e0e9f60065056b5f68f73d80e4681495c7a570e2fb83126a.gml

@@ -1,0 +1,47 @@
+437e7a1cb39b2c73bb1797fd9072718596c818be861e480cc48238eb41bfb8fb:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.CHANGE_CONFIGURATION
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.ACCESS_COARSE_UPDATES
+com.refineit.piaowu.permission.JPUSH_MESSAGE
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.BROADCAST_STICKY
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.android.launcher.permission.READ_SETTINGS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.AUTHENTICATE_ACCOUNTS
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/437e7a1cb39b2c73bb1797fd9072718596c818be861e480cc48238eb41bfb8fb/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.action.QUICKBOOT_POWERON
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/437e7a1cb39b2c73bb1797fd9072718596c818be861e480cc48238eb41bfb8fb/437e7a1cb39b2c73bb1797fd9072718596c818be861e480cc48238eb41bfb8fb.gml

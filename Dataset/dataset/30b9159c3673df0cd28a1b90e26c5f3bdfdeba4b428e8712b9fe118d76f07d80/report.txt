@@ -1,0 +1,32 @@
+30b9159c3673df0cd28a1b90e26c5f3bdfdeba4b428e8712b9fe118d76f07d80:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/30b9159c3673df0cd28a1b90e26c5f3bdfdeba4b428e8712b9fe118d76f07d80/api.txt
+------------------------------
+Intent:
+android.intent.action.ACTION_USER_PRESENT
+android.intent.action.MEDIA_MOUNTED
+android.intent.action.MEDIA_UNMOUNTED
+android.net.conn.CONNECTIVITY_CHANGE
+android.net.wifi.WIFI_STATE_CHANGED
+android.net.wifi.STATE_CHANGE
+android.intent.action.ANY_DATA_STATE
+android.intent.action.TIME_SET
+android.intent.action.DATE_CHANGED
+android.intent.action.BOOT_COMPLETED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/30b9159c3673df0cd28a1b90e26c5f3bdfdeba4b428e8712b9fe118d76f07d80/30b9159c3673df0cd28a1b90e26c5f3bdfdeba4b428e8712b9fe118d76f07d80.gml

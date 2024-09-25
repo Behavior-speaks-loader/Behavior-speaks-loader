@@ -1,0 +1,22 @@
+4238cbd305a8730574916a85daa7f359e0103d8925fb732319a53ee79feec1cc:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+android.permission.RECEIVE_BOOT_COMPLETED
+com.wYallahShoot_3868976.permission.C2D_MESSAGE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/4238cbd305a8730574916a85daa7f359e0103d8925fb732319a53ee79feec1cc/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+com.wYallahShoot_3868976
+------------------------------
+Function call graph:
+gml path: ./res/4238cbd305a8730574916a85daa7f359e0103d8925fb732319a53ee79feec1cc/4238cbd305a8730574916a85daa7f359e0103d8925fb732319a53ee79feec1cc.gml

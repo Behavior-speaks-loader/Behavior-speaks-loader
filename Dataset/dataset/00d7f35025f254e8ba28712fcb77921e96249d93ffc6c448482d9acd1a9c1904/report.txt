@@ -1,0 +1,19 @@
+00d7f35025f254e8ba28712fcb77921e96249d93ffc6c448482d9acd1a9c1904:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.INTERNET
+android.permission.WAKE_LOCK
+com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/00d7f35025f254e8ba28712fcb77921e96249d93ffc6c448482d9acd1a9c1904/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+com.google.intent.category.DAYDREAM
+------------------------------
+Function call graph:
+gml path: ./res/00d7f35025f254e8ba28712fcb77921e96249d93ffc6c448482d9acd1a9c1904/00d7f35025f254e8ba28712fcb77921e96249d93ffc6c448482d9acd1a9c1904.gml

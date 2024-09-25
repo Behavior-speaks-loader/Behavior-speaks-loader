@@ -1,0 +1,36 @@
+2c680f63a5677a4717f3945c80246a5dc4cbdf063f1b06213df28e3698977025:['File', 'Network']
+------------------------------
+Permissions:
+com.sonyericsson.home.permission.BROADCAST_BADGE
+android.permission.ACCESS_NETWORK_STATE
+com.htc.launcher.permission.READ_SETTINGS
+com.huawei.android.launcher.permission.CHANGE_BADGE
+android.permission.INTERNET
+com.sec.android.provider.badge.permission.READ
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+com.majeur.launcher.permission.UPDATE_BADGE
+com.oppo.launcher.permission.WRITE_SETTINGS
+android.permission.READ_APP_BADGE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.sec.android.provider.badge.permission.WRITE
+com.huawei.android.launcher.permission.WRITE_SETTINGS
+android.permission.READ_PHONE_STATE
+com.anddoes.launcher.permission.UPDATE_COUNT
+android.permission.CAMERA
+com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+android.permission.WRITE_EXTERNAL_STORAGE
+com.oppo.launcher.permission.READ_SETTINGS
+com.htc.launcher.permission.UPDATE_SHORTCUT
+com.huawei.android.launcher.permission.READ_SETTINGS
+------------------------------
+API:
+./res/2c680f63a5677a4717f3945c80246a5dc4cbdf063f1b06213df28e3698977025/api.txt
+------------------------------
+Intent:
+android.intent.action.MAIN
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/2c680f63a5677a4717f3945c80246a5dc4cbdf063f1b06213df28e3698977025/2c680f63a5677a4717f3945c80246a5dc4cbdf063f1b06213df28e3698977025.gml

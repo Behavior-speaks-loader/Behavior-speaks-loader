@@ -1,0 +1,1680 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+0f647d26bbd989dd5226d308ee1a2ff6b208178aa5c5f85ad68615aedb8002ab
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.veding.buyer
+
+
+
+
+Minimum system version:
+Android 2.3, 2.3.1, 2.3.2
+
+
+
+
+Copyright:
+veding-buyer
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:po****om/**.133.40.** port:80
+
+
+host:ap****om/**.133.40.** port:443
+
+
+host:sd****om/**.133.40.** port:5224
+
+
+host:sd****et/**.133.40.** port:5224
+
+
+host:/**.133.40.** port:5224
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+NetworkInfo: type: mobile[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: true, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: wifi[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_mms[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_supl[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_hipri[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: ETHERNET[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: 08:00:27:a3:af:c8, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_fota[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_ims[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_cbs[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: wifi_p2p[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:po****om/**.133.40.** port:80 data:data:GET /customer/app/version/retrieve.jhtml?id=1558 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: portal.veding.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:/**.133.40.** port:5224 data:data:s�h�? 69d747c4b9f641baf4004be4297e9f3b?����������b����V����`XpvFlb5P8IAJjGgZjdacT4`#��2چA�2T�[_d"t�fI�h��)PF������`b�)�y�U�/���'0-��ox�FZG�e�	�)��]s ;�5�΍
+���t"]>8��+�2S�G�k�9Jʗx��
+
+
+operation:send host:/**.133.40.** port:5224 data:data:s�h�? 69d747c4b9f641baf4004be4297e9f3b+	P��Ё�s��jb� �)�V���`XpvFlb5P8IAJjGgZjdacT4`�>=�۵j���b�f��d�j�c1�A�_����CW�K��b�.��&sY�Z�-
+��6���Zgc��Ќ��M�}!�	)S:rw]9�\��MK΂��<�>�
+
+
+operation:send host:/**.133.40.** port:5224 data:data:s�h�? 69d747c4b9f641baf4004be4297e9f3b�l�6�NG8����v��`�V���`XpvFlb5P8IAJjGgZjdacT4`
+O�e�M��o�=��S�
+���������	�C���k�����:v���H���7}~���FlS,C��ty�lE�6(V���?v\�ȁ�s�g�o
+`E<L��w�iʇ�
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://po****om/customer/app/version/retrieve.jhtml?id=1558
+
+
+https://ap****om/sdkcs/verify
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://po****om/customer/app/version/retrieve.jhtml?id=1558
+
+
+https://ap****om/sdkcs/verify
+
+
+
+
+
+Behaviour:
+Load website in webview
+
+
+
+
+
+Detail info:
+
+http://po****om/app/buyer/index.jhtml?fromAppId=1558
+
+
+file:///android_asset/error/error.html
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:po****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.133.40.** port:5224 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://po****om/customer/app/version/retrieve.jhtml?id=1558'
+
+
+u'https://ap****om/sdkcs/verify'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/data/data/com.veding.buyer/files/run.pid
+
+
+/data/data/com.veding.buyer/files/push.pid
+
+
+/data/data/com.veding.buyer/files/init.pid
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+MemTotal:        1030096 kB
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/proc/meminfo length:69
+
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+path:/sys/class/net/sit0/ifindex length:7
+
+
+path:/sys/class/net/sit0/ifindex length:5
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:7
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:5
+
+
+path:/sys/class/net/lo/mtu length:11
+
+
+path:/sys/class/net/lo/mtu length:5
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/app-lib/com.veding.buyer-1/libBaiduMapSDK_base_v4_0_0.so
+
+
+/data/app-lib/com.veding.buyer-1/libgetuiext2.so
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.veding.buyer/shared_prefs/authStatus_com.veding.buyer.xml.bak
+
+
+/data/data/com.veding.buyer/shared_prefs/mac.xml.bak
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.veding.buyer/files/libcuid.so length:69
+
+
+path:/storage/emulated/0/backups/.SystemConfig/.cuid2 length:69
+
+
+path:/storage/emulated/0/backups/.SystemConfig/.cuid length:69
+
+
+path:/data/data/com.veding.buyer/shared_prefs/authStatus_com.veding.buyer.xml length:135
+
+
+path:/data/data/com.veding.buyer/shared_prefs/mac.xml length:141
+
+
+path:/data/data/com.veding.buyer/files/init_c.pid length:69
+
+
+path:/data/data/com.veding.buyer/shared_prefs/authStatus_com.veding.buyer.xml length:261
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/backups/.SystemConfig/.cuid2
+
+
+path:/storage/emulated/0/backups/.SystemConfig/.cuid
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+ContentResolver;->delete
+Delete contact or sms
+
+
+
+
+
+Camera;->open
+Open camera
+
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Start service
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.veding.buyer\/com.igexin.sdk.PushService}","EXTRAS":{"op_app":"com.veding.buyer","action":"com.igexin.action.initialize"}}
+
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.veding.buyer\/com.igexin.sdk.PushService}"}
+
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.veding.buyer\/com.igexin.sdk.PushService}","EXTRAS":{"action":"android.intent.action.USER_PRESENT"}}
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.igexin.push.core.n@218c3b58', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE|com.igexin.sdk.action.snlrefresh|com.igexin.sdk.action.snlretire|com.igexin.sdk.action.snlresponse.com.veding.buyer|com.igexin.sdk.action.execute|com.igexin.sdk.action.doaction|android.intent.action.TIME_SET|android.intent.action.SCREEN_ON|android.intent.action.SCREEN_OFF|android.net.wifi.WIFI_STATE_CHANGED"}'
+
+
+u'com.igexin.push.core.m@218802c0', u'{"action":"android.intent.action.PACKAGE_ADDED|android.intent.action.PACKAGE_REMOVED"}'
+
+
+u'com.igexin.a.a.b.c@21873240', u'{"action":"AlarmTaskSchedule.com.veding.buyer"}'
+
+
+u'com.igexin.a.a.b.c@21873240', u'{"action":"AlarmTaskScheduleBak.com.veding.buyer"}'
+
+
+u'com.igexin.a.a.b.c@21873240', u'{"action":"android.intent.action.SCREEN_OFF"}'
+
+
+u'com.igexin.a.a.b.c@21873240', u'{"action":"android.intent.action.SCREEN_ON"}'
+
+
+u'com.igexin.a.a.b.c@21873240', u'{"action":"AlarmNioTaskSchedule.com.veding.buyer"}'
+
+
+u'com.veding.buyer.ui.MainAct$PushDataReceiver@2184d108', u'{"action":"push_data_to_activity|wxpay_data_to_activity|wx_login_data_to_activity"}'
+
+
+
+
+
+Behaviour:
+Send broadcast
+
+
+
+
+
+Detail info:
+
+{"ACTION":"permission check error","FLAG":0,"EXTRAS":{"error_code":"-1"}}
+
+
+{"FLAG":0}
+
+
+{"ACTION":"com.igexin.sdk.action.XpvFlb5P8IAJjGgZjdacT4","FLAG":32,"EXTRAS":{"action":"10008","pid":"15561"}}
+
+
+
+
+
+Behaviour:
+Call setAction of intent
+
+
+
+
+
+Detail info:
+
+u'com.igexin.sdk.action.XpvFlb5P8IAJjGgZjdacT4'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+action:com.igexin.action.initialize
+
+
+op_app:com.veding.buyer
+
+
+error_code:-1
+
+
+action:android.intent.action.USER_PRESENT
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'status', u'{"status":601}'
+
+
+u'macaddr', u'null'
+
+
+
+
+
+Behaviour:
+Write system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21884cb0', u'bd_setting_i', u'35712****123456'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21884cb0', u'com.baidu.deviceid.v2', u'xj2KS4tIls2FkpetSBXsVKab0HavOkDtBWzgsBuWqqnZm9vNlOPYNXvkbsdsBABZy4xUSzX7v9W3\n3by8jhAY9tiHOn2KB341tL2IkeG5pPJWBPNo4ZqUZ+6AbHEjJExJ'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21884cb0', u'com.baidu.deviceid', u'3A1645EBC32FD7EF5416E29CFFBB83DA'
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+content://telephony/carriers/preferapn
+
+
+file:///android_asset/error/error.html
+
+
+file:///android_asset/error/error.gif
+
+
+file:///android_asset/error/error-li.gif
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21884cb0', u'com.baidu.deviceid.v2'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21884cb0', u'com.baidu.deviceid'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21884cb0', u'bd_setting_i'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21884cb0', u'B27FB0A7D86B3801C1B5C2BD55E7ECFE'
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'select value from runtime where id=25', u'null'
+
+
+u'select id, value from runtime order by id', u'null'
+
+
+u'select id,data,type,time from ral', u'null'
+
+
+u'select id, value from config order by id', u'null'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'status', u'{"status":602}'
+
+
+u'macaddr', u'NjA6MDA6MDE6MDA6Yjk6MDA=\n'
+
+
+u'status', u'{"current":1451530995683,"message":"httpsPost failed,Exception:https:\\/\\/api.map.baidu.com\\/sdkcs\\/verify","status":-1}'
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "正在加载...", "class": "android.widget.TextView"}
+
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218654b0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 wanim=0x10302f5}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21866990 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#100 ty=2 fl=#1800002 pfl=0x8 fmt=-2 wanim=0x1030002}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2190a7d8 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1820002 pfl=0x8 fmt=-2 wanim=0x10302a2}'
+
+
+
+
+
+Behaviour:
+Access shared app data
+
+
+
+
+
+Detail info:
+
+u'content://downloads.com.veding.buyer/download', u'null', u'null', u'null', u'_id'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.veding.buyer\/com.veding.buyer.ui.MainAct}"}
+
+
+
+
+
+Behaviour:
+Access database
+
+
+
+
+
+Detail info:
+
+u'st', u'null', u'null', u'null', u'null', u'null', u'null'
+
+
+u'message', u'null', u'status= ?', u'[0]', u'null', u'null', u'null'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+u'android.os.Parcel@2184f5a8'
+
+
+u'com.veding.buyer.BuyerApplication@21884e30', u'class com.igexin.sdk.PushService'
+
+
+u'com.baidu.intent.action.GALAXY'
+
+
+u'com.igexin.sdk.PushService@218c1520', u'class com.igexin.sdk.PushServiceUser'
+
+
+u'android.os.Parcel@2184f598'
+
+
+u'android.os.Parcel@2184fe78'
+
+
+u'AlarmTaskSchedule.com.veding.buyer'
+
+
+u'AlarmNioTaskSchedule.com.veding.buyer'
+
+
+u'permission check error'
+
+
+u'android.os.Parcel@2184fe68'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+assets/error/error-li.gif
+0xfe9c91d2
+
+
+
+
+assets/error/error.gif
+0xda888202
+
+
+
+
+assets/error/error.html
+0x712b066b
+
+
+
+
+res/drawable/back_style.xml
+0xb2f46124
+
+
+
+
+res/drawable/btn_style_green.xml
+0xfcbd00de
+
+
+
+
+res/drawable/btn_style_white.xml
+0xc5e99b53
+
+
+
+
+res/drawable/more_style.xml
+0x87e789b5
+
+
+
+
+res/drawable/progress_bar_circle.xml
+0xf7b9f9e
+
+
+
+
+res/drawable/progress_bar_horizontal.xml
+0xaccbe7a3
+
+
+
+
+res/layout/activity_qr_scan.xml
+0x2fa91322
+
+
+
+
+res/layout/app_dialog.xml
+0x25d0c138
+
+
+
+
+res/layout/getui_notification.xml
+0x4daa6e52
+
+
+
+
+res/layout/header.xml
+0xa5c68caa
+
+
+
+
+res/layout/more_option.xml
+0xefca783
+
+
+
+
+res/layout/progress_bar.xml
+0xbcb063d8
+
+
+
+
+res/layout/progress_circle.xml
+0x5bcf5213
+
+
+
+
+res/layout/progress_horizontal.xml
+0xabd6cdab
+
+
+
+
+res/layout/view_main.xml
+0x5fab7fbb
+
+
+
+
+res/layout/view_slidepage.xml
+0xc1dcf220
+
+
+
+
+res/layout/view_start.xml
+0x4245b573
+
+
+
+
+res/raw/beep.ogg
+0xffebc5f7
+
+
+
+
+res/raw/ring.mp3
+0xddafeb7e
+
+
+
+
+AndroidManifest.xml
+0xeee77d89
+
+
+
+
+resources.arsc
+0x931d9019
+
+
+
+
+res/drawable-hdpi/app_logo.png
+0x63bcec63
+
+
+
+
+res/drawable-hdpi/back.png
+0xc93de7a2
+
+
+
+
+res/drawable-hdpi/back_pressed.png
+0x49838c93
+
+
+
+
+res/drawable-hdpi/btn_style_one_disabled.9.png
+0xb5874843
+
+
+
+
+res/drawable-hdpi/btn_style_one_focused.9.png
+0x680596fe
+
+
+
+
+res/drawable-hdpi/btn_style_one_normal.9.png
+0x5c2442fb
+
+
+
+
+res/drawable-hdpi/btn_style_one_pressed.9.png
+0xb773f742
+
+
+
+
+res/drawable-hdpi/btn_style_two_focused.9.png
+0xe8d4b589
+
+
+
+
+res/drawable-hdpi/btn_style_two_normal.9.png
+0x55eed223
+
+
+
+
+res/drawable-hdpi/btn_style_two_pressed.9.png
+0x8c6987d3
+
+
+
+
+res/drawable-hdpi/capture.9.png
+0x696e0a44
+
+
+
+
+res/drawable-hdpi/confirm_dialog_bottom_bg.9.png
+0xb1e0756
+
+
+
+
+res/drawable-hdpi/confirm_dialog_top_bg.9.png
+0x5f5a5d3e
+
+
+
+
+res/drawable-hdpi/exit_dialog_bg.9.png
+0x7c473292
+
+
+
+
+res/drawable-hdpi/loading_ios.png
+0xe6354491
+
+
+
+
+res/drawable-hdpi/more.png
+0xc989804e
+
+
+
+
+res/drawable-hdpi/more_pressed.png
+0xea304a64
+
+
+
+
+res/drawable-hdpi/page_indicator_focused.png
+0xddb75d5b
+
+
+
+
+res/drawable-hdpi/page_indicator_unfocused.png
+0x208da302
+
+
+
+
+res/drawable-hdpi/scan_line.png
+0x13867444
+
+
+
+
+res/drawable-hdpi/scan_mask.png
+0x49b2f762
+
+
+
+
+res/drawable-hdpi/slide1.png
+0x43bab9a
+
+
+
+
+res/drawable-hdpi/slide2.png
+0x43bab9a
+
+
+
+
+res/drawable-hdpi/slide3.png
+0x43bab9a
+
+
+
+
+res/drawable-hdpi/slide4.png
+0x43bab9a
+
+
+
+
+res/drawable-hdpi/start.png
+0x43bab9a
+
+
+
+
+res/drawable-ldpi/app_logo.png
+0x63bcec63
+
+
+
+
+res/drawable-mdpi/app_logo.png
+0x63bcec63
+
+
+
+
+res/drawable-xhdpi/app_logo.png
+0x63bcec63
+
+
+
+
+res/drawable-xxhdpi/app_logo.png
+0x63bcec63
+
+
+
+
+classes.dex
+0xeebcabdf
+
+
+
+
+assets/getui_popup_bg.9.png
+0x595e8a9d
+
+
+
+
+assets/getui_popup_close.png
+0x84082616
+
+
+
+
+com/tencent/mm/sdk/platformtools/rep5402863540997075488.tmp
+0x0
+
+
+
+
+lib/arm64-v8a/libBaiduMapSDK_base_v4_0_0.so
+0x4b5ffbea
+
+
+
+
+lib/arm64-v8a/libBaiduMapSDK_util_v4_0_0.so
+0x52a4eea4
+
+
+
+
+lib/arm64-v8a/libgetuiext2.so
+0x775ab8c2
+
+
+
+
+lib/arm64-v8a/libzbar.so
+0x8df160a7
+
+
+
+
+lib/armeabi/libBaiduMapSDK_base_v4_0_0.so
+0xc6e85c3f
+
+
+
+
+lib/armeabi/libBaiduMapSDK_util_v4_0_0.so
+0xc24d6ff2
+
+
+
+
+lib/armeabi/libgetuiext2.so
+0x93d07e73
+
+
+
+
+lib/armeabi/libzbar.so
+0x8df160a7
+
+
+
+
+lib/armeabi-v7a/libBaiduMapSDK_base_v4_0_0.so
+0x6f895e55
+
+
+
+
+lib/armeabi-v7a/libBaiduMapSDK_util_v4_0_0.so
+0xaa48cfb2
+
+
+
+
+lib/armeabi-v7a/libgetuiext2.so
+0x76a983bd
+
+
+
+
+lib/armeabi-v7a/libzbar.so
+0x8df160a7
+
+
+
+
+lib/mips/libgetuiext2.so
+0xca23bdc6
+
+
+
+
+lib/mips64/libgetuiext2.so
+0xad9873d4
+
+
+
+
+lib/x86/libBaiduMapSDK_base_v4_0_0.so
+0x2be8d55e
+
+
+
+
+lib/x86/libBaiduMapSDK_util_v4_0_0.so
+0xdf4ed1dd
+
+
+
+
+lib/x86/libgetuiext2.so
+0xdfe36bfa
+
+
+
+
+lib/x86/libzbar.so
+0x8df160a7
+
+
+
+
+lib/x86_64/libBaiduMapSDK_base_v4_0_0.so
+0x154a873f
+
+
+
+
+lib/x86_64/libBaiduMapSDK_util_v4_0_0.so
+0xacb9c8c
+
+
+
+
+lib/x86_64/libgetuiext2.so
+0x182c9fa
+
+
+
+
+lib/x86_64/libzbar.so
+0x8df160a7
+
+
+
+
+META-INF/MANIFEST.MF
+0xccfe7f2
+
+
+
+
+META-INF/CERT.SF
+0xb861eb5
+
+
+
+
+META-INF/CERT.RSA
+0x3ba9d47a
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+.ui.StartAct
+android.intent.action.MAIN
+
+
+
+
+.ui.StartAct
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Name
+Detail info
+
+
+
+
+com.veding.buyer.ui.ext.PushReceiver
+N/A
+
+
+
+
+com.igexin.sdk.PushReceiver
+Start after boot completed
+
+
+
+
+
+com.igexin.sdk.PushReceiver
+Start after network changed
+
+
+
+
+
+com.igexin.sdk.PushReceiver
+Start after screen unlocked
+
+
+
+
+
+com.igexin.sdk.PushReceiver
+N/A
+
+
+
+
+com.igexin.sdk.PushReceiver
+N/A
+
+
+
+
+com.igexin.sdk.PushReceiver
+N/A
+
+
+
+
+com.igexin.sdk.PushReceiver
+N/A
+
+
+
+
+com.igexin.sdk.PushManagerReceiver
+N/A
+
+
+
+
+com.igexin.download.DownloadReceiver
+Start after network changed
+
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.CAMERA
+
+
+
+
+android.permission.FLASHLIGHT
+
+
+
+
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+
+
+
+
+android.permission.WRITE_SETTINGS
+
+
+
+
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+
+
+
+
+android.permission.BROADCAST_STICKY
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.CHANGE_WIFI_STATE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.BLUETOOTH
+
+
+
+
+android.permission.BLUETOOTH_ADMIN
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+getui.permission.GetuiService.com.veding.buyer
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.igexin.sdk.PushService
+
+
+
+
+com.igexin.sdk.PushServiceUser
+
+
+
+
+com.igexin.download.DownloadService
+
+
+

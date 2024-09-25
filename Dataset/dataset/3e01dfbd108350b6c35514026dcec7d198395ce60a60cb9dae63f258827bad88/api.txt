@@ -1,0 +1,217 @@
+Lcom/f/c/p/loader/Loader;-><init>()V [access_flags=public constructor] @ 0x16e8
+Landroid/app/Instrumentation;-><init>()V
+Lcom/f/c/p/loader/Loader;->onCreate(Landroid/os/Bundle;)V [access_flags=public] @ 0x1700
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/Exception;->printStackTrace()V
+Ldalvik/system/PathClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Lcom/f/c/p/loader/c;->d(Ljava/lang/String;)V [access_flags=public static] @ 0x23a4
+Landroid/app/Instrumentation;->onCreate(Landroid/os/Bundle;)V
+Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;
+Ljava/lang/Class;->forName(Ljava/lang/String; Z Ljava/lang/ClassLoader;)Ljava/lang/Class;
+Ljava/lang/System;->exit(I)V
+Lcom/f/c/p/loader/LoaderApplication;-><init>()V [access_flags=public constructor] @ 0x180c
+Landroid/app/Application;-><init>()V
+Lcom/f/c/p/loader/LoaderApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x1824
+Lcom/f/c/p/loader/a;->a(Landroid/content/Context; Landroid/content/pm/ApplicationInfo;)V [access_flags=public] @ 0x1f04
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Lcom/f/c/p/loader/a;-><init>(Landroid/app/Application;)V [access_flags=public constructor] @ 0x18f4
+Lcom/f/c/p/loader/LoaderApplication;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Lcom/f/c/p/loader/LoaderApplication;->getPackageName()Ljava/lang/String; [access_flags=public] @ 0x1870
+Lcom/f/c/p/loader/a;->b()V [access_flags=public] @ 0x1f90
+Lcom/f/c/p/loader/LoaderApplication;->onCreate()V [access_flags=public] @ 0x18b0
+Landroid/app/Application;->onCreate()V
+Lcom/f/c/p/loader/a;->a()V [access_flags=public] @ 0x1ed0
+Ljava/lang/Object;-><init>()V
+Lcom/f/c/p/loader/d;->a(Landroid/content/pm/PackageManager; Landroid/content/pm/ApplicationInfo;)V [access_flags=public static] @ 0x2538
+Lcom/f/c/p/loader/d;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x2488
+Lcom/f/c/p/loader/c;->c(Ljava/lang/String;)V [access_flags=public static] @ 0x231c
+Lcom/f/c/p/loader/a;->a(Landroid/content/pm/ApplicationInfo; Landroid/content/Context; Ljava/lang/String;)Landroid/app/Application; [access_flags=private] @ 0x1924
+Lcom/f/c/p/loader/a;->c()Ljava/lang/String; [access_flags=public static] @ 0x1c48
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Lcom/f/c/p/loader/a;->a(Landroid/content/pm/ApplicationInfo;)V [access_flags=private] @ 0x1aa0
+Lcom/f/c/p/loader/a;->d()Z [access_flags=private] @ 0x1d04
+Lcom/f/c/p/loader/a;->e()V [access_flags=private] @ 0x1e88
+Lcom/f/c/p/loader/a;->a(Ljava/lang/ClassLoader; Ljava/lang/String; Landroid/content/Context;)Landroid/app/Application; [access_flags=private] @ 0x1a00
+Ljava/lang/Class;->getClassLoader()Ljava/lang/ClassLoader;
+Lcom/f/c/p/loader/c;->b(Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=public static varargs] @ 0x22fc
+Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+Ljava/lang/String;->trim()Ljava/lang/String;
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/io/BufferedReader;->close()V
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/f/c/p/loader/c;->a(Ljava/lang/Exception; Ljava/lang/String;)V [access_flags=public static] @ 0x21d4
+Lcom/f/c/p/reflection/MethodDef;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public varargs] @ 0x335c
+Lcom/f/c/p/reflection/FieldDef;->set(Ljava/lang/Object; Ljava/lang/Object;)V [access_flags=public] @ 0x31d8
+Lcom/f/c/p/reflection/FieldDef;->get(Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public] @ 0x31a8
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+Ldalvik/system/DexFile;->close()V
+Ldalvik/system/DexFile;->loadDex(Ljava/lang/String; Ljava/lang/String; I)Ldalvik/system/DexFile;
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Ljava/io/File;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Lcom/f/c/p/loader/c;->a(Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=public static varargs] @ 0x2274
+Ljava/io/File;->length()J
+Landroid/app/Application;->getBaseContext()Landroid/content/Context;
+Lcom/f/c/p/loader/c;->b(Ljava/lang/String;)V [access_flags=public static] @ 0x2294
+Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+Ljava/util/List;->add(Ljava/lang/Object;)Z
+Lcom/f/c/p/reflection/StaticMethodDef;->invoke([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public varargs] @ 0x35a8
+Ljava/util/Map;->entrySet()Ljava/util/Set;
+Lcom/f/c/p/loader/c;->a(Ljava/lang/String;)V [access_flags=public static] @ 0x220c
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Ljava/util/List;->remove(Ljava/lang/Object;)Z
+Ljava/util/Iterator;->hasNext()Z
+Lcom/f/c/p/loader/b;-><clinit>()V [access_flags=static constructor] @ 0x1fbc
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Lcom/f/c/p/loader/b;->a(Ljava/io/File; I)I [access_flags=public static] @ 0x2034
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Ljava/lang/Integer;->intValue()I
+Lcom/f/c/p/loader/b;->a(Ljava/lang/String; I)I [access_flags=public static] @ 0x20b8
+Lcom/f/c/p/loader/c;->e(Ljava/lang/String;)V [access_flags=public static] @ 0x240c
+Lcom/f/c/p/loader/c;->a()Ljava/lang/String; [access_flags=public static] @ 0x2134
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Lcom/f/c/p/loader/c;->a(Ljava/lang/Exception;)V [access_flags=public static] @ 0x214c
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/Exception;->getLocalizedMessage()Ljava/lang/String;
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Ljava/io/Writer;->append(Ljava/lang/CharSequence;)Ljava/io/Writer;
+Ljava/io/File;->exists()Z
+Ljava/io/FileWriter;->append(Ljava/lang/CharSequence;)Ljava/io/Writer;
+Ljava/io/Writer;->flush()V
+Ljava/io/FileWriter;-><init>(Ljava/io/File; Z)V
+Lcom/f/c/p/loader/c;->c(Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=public static varargs] @ 0x2384
+Ljava/util/Enumeration;->hasMoreElements()Z
+Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Ljava/util/zip/ZipFile;->close()V
+Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
+Lcom/f/c/p/loader/d;->a(Ljava/io/File; Ljava/io/InputStream;)Z [access_flags=public static] @ 0x2b08
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Ljava/io/File;->delete()Z
+Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+Lcom/f/c/p/loader/d;->b(Ljava/io/File; Ljava/io/File;)V [access_flags=private static] @ 0x2c98
+Ljava/io/File;->getName()Ljava/lang/String;
+Ljava/util/zip/ZipFile;->entries()Ljava/util/Enumeration;
+Lcom/f/c/p/loader/d;->b(Ljava/io/File;)V [access_flags=private static] @ 0x2bf0
+Lcom/f/c/p/loader/d;->a(Landroid/content/pm/PackageManager; Ljava/io/File; Ljava/io/File;)V [access_flags=public static] @ 0x2758
+Lcom/f/c/p/loader/d;->a(Ljava/io/File; Ljava/io/File;)Z [access_flags=private static] @ 0x296c
+Ljava/io/File;->mkdirs()Z
+Ljava/util/zip/ZipEntry;->isDirectory()Z
+Ljava/io/File;->isDirectory()Z
+Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/util/zip/ZipFile;-><init>(Ljava/io/File;)V
+Ljava/io/File;->isFile()Z
+Ljava/util/zip/ZipFile;-><init>(Ljava/lang/String;)V
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Landroid/content/ComponentName;->unflattenFromString(Ljava/lang/String;)Landroid/content/ComponentName;
+Landroid/content/ComponentName;->getClassName()Ljava/lang/String;
+Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/nio/ByteOrder;->nativeOrder()Ljava/nio/ByteOrder;
+Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
+Ljava/io/FileInputStream;->read([B)I
+Ljava/nio/ByteBuffer;->order(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->getLong()J
+Ljava/io/File;->lastModified()J
+Ljava/io/FileOutputStream;->write([B)V
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->array()[B
+Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
+Landroid/content/pm/PackageManager;->getPackageArchiveInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/f/c/p/loader/d;->a(Ljava/lang/String; I)Z [access_flags=private static] @ 0x2b90
+Ljava/io/File;->renameTo(Ljava/io/File;)Z
+Lcom/f/c/p/loader/d;->a(Ljava/io/File; Ljava/io/File; Ljava/io/File;)Z [access_flags=private static] @ 0x29ec
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Lcom/f/c/p/loader/d;->a(Ljava/io/File;)V [access_flags=public static] @ 0x2924
+Lcom/f/c/p/loader/d;->a(Ljava/io/OutputStream; Ljava/io/InputStream;)Z [access_flags=public static] @ 0x2b4c
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Ljava/lang/String;->length()I
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/io/File;->list()[Ljava/lang/String;
+Ljava/io/InputStream;->read([B)I
+Ljava/io/OutputStream;->write([B I I)V
+Lcom/f/c/p/reflection/BooleanFieldDef;-><init>(Ljava/lang/Class; Ljava/lang/reflect/Field;)V [access_flags=public constructor] @ 0x2d08
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/reflect/Field;->getName()Ljava/lang/String;
+Lcom/f/c/p/reflection/BooleanFieldDef;->get(Ljava/lang/Object;)Z [access_flags=public] @ 0x2d40
+Ljava/lang/reflect/Field;->getBoolean(Ljava/lang/Object;)Z
+Lcom/f/c/p/reflection/BooleanFieldDef;->set(Ljava/lang/Object; Z)V [access_flags=public] @ 0x2d70
+Ljava/lang/reflect/Field;->setBoolean(Ljava/lang/Object; Z)V
+Lcom/f/c/p/reflection/ClassDef;-><clinit>()V [access_flags=static constructor] @ 0x2d9c
+Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/HashMap;-><init>()V
+Lcom/f/c/p/reflection/ClassDef;-><init>()V [access_flags=public constructor] @ 0x2f44
+Lcom/f/c/p/reflection/ClassDef;->init(Ljava/lang/Class; Ljava/lang/Class;)Ljava/lang/Class; [access_flags=public static] @ 0x2f5c
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Ljava/lang/reflect/Field;->getType()Ljava/lang/Class;
+Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getDeclaredFields()[Ljava/lang/reflect/Field;
+Ljava/lang/reflect/Field;->getModifiers()I
+Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+Lcom/f/c/p/reflection/CtorDef;-><init>(Ljava/lang/Class; Ljava/lang/reflect/Field;)V [access_flags=public constructor] @ 0x3100
+Ljava/util/HashMap;->entrySet()Ljava/util/Set;
+Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/f/c/p/reflection/ClassDef;->init(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/Class; [access_flags=public static] @ 0x30cc
+Ljava/lang/reflect/Constructor;->setAccessible(Z)V
+Lcom/f/c/p/reflection/CtorDef;->newInstance()Ljava/lang/Object; [access_flags=public] @ 0x3138
+Lcom/f/c/p/reflection/FieldDef;-><init>(Ljava/lang/Class; Ljava/lang/reflect/Field;)V [access_flags=public constructor] @ 0x3170
+Lcom/f/c/p/reflection/IntFieldDef;-><init>(Ljava/lang/Class; Ljava/lang/reflect/Field;)V [access_flags=public constructor] @ 0x3204
+Lcom/f/c/p/reflection/IntFieldDef;->get(Ljava/lang/Object;)I [access_flags=public] @ 0x323c
+Ljava/lang/reflect/Field;->getInt(Ljava/lang/Object;)I
+Lcom/f/c/p/reflection/IntFieldDef;->set(Ljava/lang/Object; I)V [access_flags=public] @ 0x326c
+Ljava/lang/reflect/Field;->setInt(Ljava/lang/Object; I)V
+Lcom/f/c/p/reflection/MethodDef;-><init>(Ljava/lang/Class; Ljava/lang/reflect/Field;)V [access_flags=public constructor] @ 0x3298
+Ljava/lang/Class;->getDeclaredMethods()[Ljava/lang/reflect/Method;
+Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+Lcom/f/c/p/reflection/MethodInfo;->value()[Ljava/lang/Class; [access_flags=public abstract] @ 0x0
+Ljava/lang/reflect/Method;->getName()Ljava/lang/String;
+Ljava/lang/reflect/Field;->isAnnotationPresent(Ljava/lang/Class;)Z
+Ljava/lang/reflect/Field;->getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;
+Lcom/f/c/p/reflection/MethodDef;->invokeWithException(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public varargs] @ 0x338c
+Lcom/f/c/p/reflection/StaticFieldDef;-><init>(Ljava/lang/Class; Ljava/lang/reflect/Field;)V [access_flags=public constructor] @ 0x33ac
+Lcom/f/c/p/reflection/StaticFieldDef;->get()Ljava/lang/Object; [access_flags=public] @ 0x33e4
+Lcom/f/c/p/reflection/StaticFieldDef;->set(Ljava/lang/Object;)V [access_flags=public] @ 0x3418
+Lcom/f/c/p/reflection/StaticIntFieldDef;-><init>(Ljava/lang/Class; Ljava/lang/reflect/Field;)V [access_flags=public constructor] @ 0x3448
+Lcom/f/c/p/reflection/StaticIntFieldDef;->get()I [access_flags=public] @ 0x3480
+Lcom/f/c/p/reflection/StaticIntFieldDef;->set(I)V [access_flags=public] @ 0x34b4
+Lcom/f/c/p/reflection/StaticMethodDef;-><init>(Ljava/lang/Class; Ljava/lang/reflect/Field;)V [access_flags=public constructor] @ 0x34e4
+Lcom/f/c/p/reflection/StaticMethodDef;->invokeWithException([Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public varargs] @ 0x35dc
+Lcom/f/c/p/reflection/android/app/ActivityThread$AppBindData;-><clinit>()V [access_flags=static constructor] @ 0x35fc
+Lcom/f/c/p/reflection/android/app/ActivityThread$AppBindData;-><init>()V [access_flags=public constructor] @ 0x3624
+Lcom/f/c/p/reflection/android/app/ActivityThread$H;-><clinit>()V [access_flags=static constructor] @ 0x363c
+Lcom/f/c/p/reflection/android/app/ActivityThread$H;-><init>()V [access_flags=public constructor] @ 0x3664
+Lcom/f/c/p/reflection/android/app/ActivityThread$ReceiverData;-><clinit>()V [access_flags=static constructor] @ 0x367c
+Lcom/f/c/p/reflection/android/app/ActivityThread$ReceiverData;-><init>()V [access_flags=public constructor] @ 0x36a4
+Lcom/f/c/p/reflection/android/app/ActivityThread;-><clinit>()V [access_flags=static constructor] @ 0x36bc
+Lcom/f/c/p/reflection/android/app/ActivityThread;-><init>()V [access_flags=public constructor] @ 0x36e4
+Lcom/f/c/p/reflection/android/app/Application;-><clinit>()V [access_flags=static constructor] @ 0x36fc
+Lcom/f/c/p/reflection/android/app/Application;-><init>()V [access_flags=public constructor] @ 0x3724
+Lcom/f/c/p/reflection/android/app/ContextImpl;-><clinit>()V [access_flags=static constructor] @ 0x373c
+Lcom/f/c/p/reflection/android/app/ContextImpl;-><init>()V [access_flags=public constructor] @ 0x3764
+Lcom/f/c/p/reflection/android/app/LoadedApk$ReceiverDispatcher;-><clinit>()V [access_flags=static constructor] @ 0x377c
+Lcom/f/c/p/reflection/android/app/LoadedApk$ReceiverDispatcher;-><init>()V [access_flags=public constructor] @ 0x37a4
+Lcom/f/c/p/reflection/android/app/LoadedApk;-><clinit>()V [access_flags=static constructor] @ 0x37bc
+Lcom/f/c/p/reflection/android/app/LoadedApk;-><init>()V [access_flags=public constructor] @ 0x37e4

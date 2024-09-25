@@ -1,0 +1,115 @@
+Lcom/qihoo/util/Configuration;-><init>()V [access_flags=public constructor] @ 0x2588
+Ljava/lang/Object;-><init>()V
+Lcom/qihoo/util/QHDialog$1$1;-><init>(Lcom/qihoo/util/QHDialog$1;)V [access_flags=constructor] @ 0x25a0
+Lcom/qihoo/util/QHDialog$1$1;->onClick(Landroid/content/DialogInterface; I)V [access_flags=public] @ 0x25bc
+Ljava/lang/Object;->notify()V
+Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+Lcom/qihoo/util/QHDialog$1;-><init>(Landroid/content/Context; Ljava/lang/String;)V [access_flags=constructor] @ 0x2600
+Lcom/qihoo/util/QHDialog$1;->run()V [access_flags=public] @ 0x2620
+Landroid/app/AlertDialog$Builder;->setCancelable(Z)Landroid/app/AlertDialog$Builder;
+Landroid/view/Window;->setType(I)V
+Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence; Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
+Landroid/app/AlertDialog;->show()V
+Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+Landroid/os/Looper;->loop()V
+Landroid/app/AlertDialog$Builder;-><init>(Landroid/content/Context;)V
+Landroid/app/AlertDialog;->getWindow()Landroid/view/Window;
+Landroid/app/AlertDialog$Builder;->create()Landroid/app/AlertDialog;
+Landroid/os/Looper;->prepare()V
+Lcom/qihoo/util/QHDialog;-><init>()V [access_flags=public constructor] @ 0x2698
+Lcom/qihoo/util/QHDialog;->showDialog(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x26b0
+Ljava/lang/Object;->wait()V
+Ljava/lang/Thread;->start()V
+Ljava/lang/Thread;->sleep(J)V
+Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+Lcom/qihoo/util/QhJobService$1;-><init>(Lcom/qihoo/util/QhJobService; Ljava/lang/String; Landroid/app/job/JobParameters;)V [access_flags=constructor] @ 0x2730
+Ljava/lang/Thread;-><init>(Ljava/lang/String;)V
+Lcom/qihoo/util/QhJobService$1;->run()V [access_flags=public] @ 0x2750
+Lcom/qihoo/util/QhJobService;->jobFinished(Landroid/app/job/JobParameters; Z)V
+Lcom/qihoo/util/QhJobService;->interface10()V [access_flags=public static native] @ 0x0
+Lcom/qihoo/util/QhJobService$1;->start()V
+Lcom/qihoo/util/QhJobService;-><init>()V [access_flags=public constructor] @ 0x2778
+Landroid/app/job/JobService;-><init>()V
+Lcom/qihoo/util/QhJobService;->schedule(Landroid/content/Context;)V [access_flags=public static] @ 0x2790
+Ljava/util/Iterator;->hasNext()Z
+Landroid/app/job/JobInfo$Builder;->setRequiresCharging(Z)Landroid/app/job/JobInfo$Builder;
+Ljava/util/concurrent/TimeUnit;->toMillis(J)J
+Landroid/app/job/JobScheduler;->getAllPendingJobs()Ljava/util/List;
+Landroid/app/job/JobScheduler;->schedule(Landroid/app/job/JobInfo;)I
+Landroid/app/job/JobInfo$Builder;-><init>(I Landroid/content/ComponentName;)V
+Landroid/app/job/JobInfo$Builder;->setPeriodic(J)Landroid/app/job/JobInfo$Builder;
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Landroid/app/job/JobInfo;->getId()I
+Ljava/util/List;->iterator()Ljava/util/Iterator;
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Landroid/content/ComponentName;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Landroid/app/job/JobInfo$Builder;->setRequiresDeviceIdle(Z)Landroid/app/job/JobInfo$Builder;
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Landroid/app/job/JobInfo$Builder;->build()Landroid/app/job/JobInfo;
+Lcom/qihoo/util/QhJobService;->onStartJob(Landroid/app/job/JobParameters;)Z [access_flags=public] @ 0x2848
+Lcom/qihoo/util/StubApp1563328189;-><init>()V [access_flags=public constructor] @ 0x28b8
+Landroid/app/Application;-><init>()V
+Lcom/qihoo/util/StubApp1563328189;->ChangeTopApplication()V [access_flags=public static] @ 0x28d0
+Ljava/lang/Exception;->printStackTrace()V
+Lcom/qihoo/util/StubApp1563328189;->interface7(Landroid/app/Application; Landroid/content/Context;)Z [access_flags=public static native] @ 0x0
+Landroid/app/Application;->getBaseContext()Landroid/content/Context;
+Lcom/qihoo/util/StubApp1563328189;->copy(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public static] @ 0x2910
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Landroid/content/res/Resources;->getAssets()Landroid/content/res/AssetManager;
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/io/FileOutputStream;->close()V
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Ljava/io/FileOutputStream;->write([B I I)V
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/io/BufferedInputStream;->close()V
+Ljava/io/InputStream;->close()V
+Ljava/io/InputStream;->read([B)I
+Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->mkdir()Z
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Lcom/qihoo/util/StubApp1563328189;->isSameFile(Ljava/io/BufferedInputStream; Ljava/io/BufferedInputStream;)Z [access_flags=public static] @ 0x2be4
+Ljava/io/File;->exists()Z
+Ljava/io/FileNotFoundException;->printStackTrace()V
+Ljava/io/BufferedInputStream;->available()I
+Ljava/io/BufferedInputStream;->read([B)I
+Ljava/io/IOException;->printStackTrace()V
+Lcom/qihoo/util/StubApp1563328189;->getNewAppInstance(Landroid/content/Context;)Landroid/app/Application; [access_flags=public static] @ 0x2abc
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+Lcom/qihoo/util/StubApp1563328189;->initAssetForNative()V [access_flags=private] @ 0x2b1c
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Lcom/qihoo/util/StubApp1563328189;->initCrashReport()V [access_flags=private] @ 0x2b7c
+Lcom/qihoo/util/StubApp1563328189;->getApplicationContext()Landroid/content/Context;
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Lcom/qihoo/util/StubApp1563328189;->isX86Arch()Ljava/lang/Boolean; [access_flags=public static] @ 0x2c60
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/io/RandomAccessFile;->close()V
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/io/RandomAccessFile;->readLine()Ljava/lang/String;
+Ljava/io/RandomAccessFile;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Lcom/qihoo/util/StubApp1563328189;->prepareInitCrashReport()V [access_flags=private] @ 0x2e30
+Lcom/qihoo/util/StubApp1563328189;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x2e80
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/lang/Boolean;->booleanValue()Z
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Lcom/qihoo/util/StubApp1563328189;->interface5(Landroid/app/Application;)V [access_flags=public static native] @ 0x0
+Ljava/lang/System;->exit(I)V
+Lcom/qihoo/util/StubApp1563328189;->interface8(Landroid/app/Application; Landroid/content/Context;)Z [access_flags=public static native] @ 0x0
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Lcom/qihoo/util/StubApp1563328189;->onCreate()V [access_flags=public] @ 0x32a8
+Landroid/app/Application;->onCreate()V
+Lcom/qihoo/util/StubApp1563328189;->interface10(Landroid/content/Context;)V [access_flags=public static native] @ 0x0
+Lcom/qihoo/util/StubApp1563328189;->getAppContext()Landroid/content/Context; [access_flags=public static] @ 0x2aa4

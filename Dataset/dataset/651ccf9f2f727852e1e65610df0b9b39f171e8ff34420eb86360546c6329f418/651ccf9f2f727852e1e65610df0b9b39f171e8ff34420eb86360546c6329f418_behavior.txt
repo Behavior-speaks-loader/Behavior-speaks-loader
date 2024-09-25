@@ -1,0 +1,1573 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+651ccf9f2f727852e1e65610df0b9b39f171e8ff34420eb86360546c6329f418
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.mhsj.bc.guopan
+
+
+
+
+Minimum system version:
+Android 2.3, 2.3.1, 2.3.2
+
+
+
+
+Copyright:
+xx
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:co****et/**.133.40.** port:80
+
+
+host:sd****et/**.133.40.** port:80
+
+
+host:an****om/**.133.40.** port:80
+
+
+host:se****et/**.133.40.** port:80
+
+
+host:/**.150.191.** port:80
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://co****et/33553187629886488816220647470943/52.html'
+
+
+u'http://sd****et/msg/p?product_code=33553187629886488816220647470943&device_id=AC97765A7D9BD59F9A17B2D4979A4833&channel_code=52&eventCode=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8&eventParams=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8'
+
+
+u'http://an****om/rqd/async?aid=6bdec3a1-1c45-460c-87d9-42c940b4ea29'
+
+
+u'http://se****et/33553187629886488816220647470943-52.html'
+
+
+u'http://sd****et/api/gateway'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34&debug=0'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34&debug=0&gameName=%E9%AD%94%E5%B9%BB%E4%B8%96%E7%95%8C'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34&debug=0&gameName=%E9%AD%94%E5%B9%BB%E4%B8%96%E7%95%8C&channel_code=52'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34&debug=0&gameName=%E9%AD%94%E5%B9%BB%E4%B8%96%E7%95%8C&channel_code=52&sdkVersion=2.6.5'
+
+
+u'http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34&debug=0&gameName=%E9%AD%94%E5%B9%BB%E4%B8%96%E7%95%8C&channel_code=52&sdkVersion=2.6.5&device_os=Android'
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:co****et/**.133.40.** port:80 data:data:GET /33553187629886488816220647470943/52.html HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: configcdn.quickapi.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:sd****et/**.133.40.** port:80 data:data:POST /msg/p?product_code=33553187629886488816220647470943&device_id=AC97765A7D9BD59F9A17B2D4979A4833&channel_code=52&eventCode=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8&eventParams=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdkreport.quickapi.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+
+
+
+
+operation:send host:an****om/**.133.40.** port:80 data:data:POST /rqd/async?aid=6bdec3a1-1c45-460c-87d9-42c940b4ea29 HTTP/1.1
+wup_version: 3.0
+cmd: 840
+strategylastUpdateTime: 0
+appVer: 1.0.0
+raKey: o6N4uLxOh7B2TELTg9UxOZvB212scfFb4TQU8pebPeYKZqlNVC1jTnINGzmgJnnenJG8ML7eh90w%0AiRrtgWEniThKNl309o3%2FvAW64Yg6w0PFNEH6BolHG6zmBGp4Ywru3lZFUzXjQKaRI1PN%2FyNAwgfJ%0A%2Bmd%2FI8Rhknp2tZtjXHg%3D%0A
+prodId: 
+bundleId: com.mhsj.bc.guopan
+sdkVer: 2.3.1
+platformId: 1
+A37: WIFI
+A38: WIFI
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: android.bugly.qq.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 907
+
+�e��E�8�ri��t�EӟB�8�{��H�G��BK����aΞ&rkkN;�g�bE)H�2�T4`4�#�x-�:�Q�'K���U"O׹W����#��2�J@��v��3�M~6�ɤ#U>MYp^�}I��rj�삷�(�DzU�>'l�]ao��)>~QϒxK�
+sq(���Aa�,�����{
+�OjIDNpҀe��Л,���_��K�_��,�iU{���Gm>~�I���|��Jrc�î�/)5�uP��G��J#{4��7���|��[[K/"���*M��	"�8p�9�UD��^]d�GOoR\����taK��͏k�9��̽4�`����Y�_�'�bP��\�M/v?���4��ܘ���s�4Óx��z�t�,���Y��B��<>mA�
+e�3I�]Ϧ�����2�=���!o�'hU}ށR�\�%pO��r�g�SJ@L8��o�#2���o�Vܟ+F.���;����"ab"/8�_N!�;:	�ܴ�(O<u{�eY�9!��A�c�:z�h=����pWB50@B�٬�#_��v�
+��7*Pl�z��ΕH�u�Y��5���k
+�b�	����w����x1�0���`�!���VUDJt"�u@j��-�K$�B�\+��a�x!Zf�(j�H�74���rVAe�q�/��&CX���UFz��X�	�����[�/��cce�^1_9��5.�Up�c
+�z�0JQ��N�ہ���X�=C�1���ۼP�R83��K_mk�r��Q����r�}A��^t[���`�M'j��Ϋ���+���)7�4ĖcC'��,QU�
+
+
+operation:send host:se****et/**.133.40.** port:80 data:data:GET /33553187629886488816220647470943-52.html HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: serverip.sdk.quicksdk.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:sd****et/**.133.40.** port:80 data:data:POST /v1/api/init HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1080
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdkapi00.sdk.quicksdk.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+sign=674645CA2ECABDAEA978EB42719B1362&json_data=snTYXNVrjehG7VlRi3bgNL6QgLE8MAk8B71DJtkdu6bbv589r0gQbf4KeicUFzGcNrN9CRNgliZtYTcARD9FwFDJvOPn1DLUTDncpAhedGmFs%2FdR0TJ5WQ5ViES1Qchw8rs9wRXpBV1iYlMd5kIHChYINndSFgGo7uC0f4f9nH%2Fo86muE6v%2B3tuz8BsVD76PBqYWSRwL%2FmCbxLe53060gHcfq7HhGfDPqOo5YhbeA%2BVN6pewid9xJeHvCtet%2Bk3Y%2Fzj7FgpmsjoCaqrnbhH1Sy%2ByN8r%2FThGX3a%2BN4j8FjxqVSvWLO%2FEpq%2Bx57eAbMD6%2F%2Bk0GEqzH9u4VS0DwzwLN76sSkyE6%2B%2Fxcvn7gv6Q%2FVqjVtW%2BjJyCRkKeIDEGBjSmMRS1H5BpNFFkRRgjBADo0dtDeD8ctFvYHuNzbafvHxRbkaGV%2Be%2FKGb%2FkJoXMI5Uri7btQGdNw5szbczIBeWb4hWjkGnflesya0GU3be2FNVFy1NnjS%2FRioCdP9voZjknGbNrYUKlA0xTa1bJ8qp3Uty0mbAyv8Jljus7mhvExXA1C5ZtTdjKoU9TCSMprjTqOO7%2B6Ypx28kPOcje5HErDaPaSexCz2jo%2BmLajGg6jWes3aYRAcmt7tjnUQnzp9VOJA2WDTsOs5YhCMqu2KuHeZxirzsYYhxkQ22MVUDKhG8y4GHtYyvq427w1ouIraSdDiMswgGjPoXghUcDvMu6sACL8s8TjxUA9MchbgwGSASTBGYM%2FiblXqzDjLmCjVaYYfSeLv2oeMn740DC05tnMx%2B2gHMtDyVSE2ER5%2Bkpsn15zhaoxdqVaVx1oVE9J%2FVscaOaInDmb39AJIfjPckahyEoL9A4A8coTLO1gm0u36DSH21vHuvG5M8bBXQIh%2BfqFiqCYFwtDNlANpUwXRQplGST8qHblvhQO&product_code=33553187629886488816220647470943
+
+
+operation:send host:sd****et/**.133.40.** port:80 data:data:GET /api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34&debug=0&gameName=%E9%AD%94%E5%B9%BB%E4%B8%96%E7%95%8C&channel_code=52&sdkVersion=2.6.5&device_os=Android&time=1451530998026&device_name=Lenovo%20A360t&sign_md5=bf2d1c7270f7c004d6eb34fc57bd2ab8&device_os_v=19&action=run&dpi=0.75&deviceId=AC97765A7D9BD59F9A17B2D4979A4833&platform=1&is_jailbroken=false&channelCode=52&productCode=33553187629886488816220647470943&imei=35714304077fdf6&package_name=com.mhsj.bc.guopan&screen_width=480&channel_sdk_v=4.3.1.1&net_type=1&device_id=AC97765A7D9BD59F9A17B2D4979A4833&sdk_v=2.6.5&sign=e45e83573d99ca1536a79af424df164d&gameVersion=1&wifimac=60%3A00%3A01%3A00%3Ab9%3A00&os_language=zh&mid=138****5678&imsi=46000****123456&screen_height=764 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdkreport.quickapi.net
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:/**.150.191.** port:80 data:data:POST /v1/api/init HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 1080
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: 180.150.191.127
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+sign=674645CA2ECABDAEA978EB42719B1362&json_data=snTYXNVrjehG7VlRi3bgNL6QgLE8MAk8B71DJtkdu6bbv589r0gQbf4KeicUFzGcNrN9CRNgliZtYTcARD9FwFDJvOPn1DLUTDncpAhedGmFs%2FdR0TJ5WQ5ViES1Qchw8rs9wRXpBV1iYlMd5kIHChYINndSFgGo7uC0f4f9nH%2Fo86muE6v%2B3tuz8BsVD76PBqYWSRwL%2FmCbxLe53060gHcfq7HhGfDPqOo5YhbeA%2BVN6pewid9xJeHvCtet%2Bk3Y%2Fzj7FgpmsjoCaqrnbhH1Sy%2ByN8r%2FThGX3a%2BN4j8FjxqVSvWLO%2FEpq%2Bx57eAbMD6%2F%2Bk0GEqzH9u4VS0DwzwLN76sSkyE6%2B%2Fxcvn7gv6Q%2FVqjVtW%2BjJyCRkKeIDEGBjSmMRS1H5BpNFFkRRgjBADo0dtDeD8ctFvYHuNzbafvHxRbkaGV%2Be%2FKGb%2FkJoXMI5Uri7btQGdNw5szbczIBeWb4hWjkGnflesya0GU3be2FNVFy1NnjS%2FRioCdP9voZjknGbNrYUKlA0xTa1bJ8qp3Uty0mbAyv8Jljus7mhvExXA1C5ZtTdjKoU9TCSMprjTqOO7%2B6Ypx28kPOcje5HErDaPaSexCz2jo%2BmLajGg6jWes3aYRAcmt7tjnUQnzp9VOJA2WDTsOs5YhCMqu2KuHeZxirzsYYhxkQ22MVUDKhG8y4GHtYyvq427w1ouIraSdDiMswgGjPoXghUcDvMu6sACL8s8TjxUA9MchbgwGSASTBGYM%2FiblXqzDjLmCjVaYYfSeLv2oeMn740DC05tnMx%2B2gHMtDyVSE2ER5%2Bkpsn15zhaoxdqVaVx1oVE9J%2FVscaOaInDmb39AJIfjPckahyEoL9A4A8coTLO1gm0u36DSH21vHuvG5M8bBXQIh%2BfqFiqCYFwtDNlANpUwXRQplGST8qHblvhQO&product_code=33553187629886488816220647470943
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://co****et/33553187629886488816220647470943/52.html
+
+
+http://sd****et/msg/p?product_code=33553187629886488816220647470943&device_id=AC97765A7D9BD59F9A17B2D4979A4833&channel_code=52&eventCode=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8&eventParams=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8
+
+
+http://an****om/rqd/async?aid=6bdec3a1-1c45-460c-87d9-42c940b4ea29
+
+
+http://se****et/33553187629886488816220647470943-52.html
+
+
+http://sd****et/v1/api/init
+
+
+http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34&debug=0&gameName=%E9%AD%94%E5%B9%BB%E4%B8%96%E7%95%8C&channel_code=52&sdkVersion=2.6.5&device_os=Android&time=1451530998026&device_name=Lenovo%20A360t&sign_md5=bf2d1c7270f7c004d6eb34fc57bd2ab8&device_os_v=19&action=run&dpi=0.75&deviceId=AC97765A7D9BD59F9A17B2D4979A4833&platform=1&is_jailbroken=false&channelCode=52&productCode=33553187629886488816220647470943&imei=35714304077fdf6&package_name=com.mhsj.bc.guopan&screen_width=480&channel_sdk_v=4.3.1.1&net_type=1&device_id=AC97765A7D9BD59F9A17B2D4979A4833&sdk_v=2.6.5&sign=e45e83573d99ca1536a79af424df164d&gameVersion=1&wifimac=60%3A00%3A01%3A00%3Ab9%3A00&os_language=zh&mid=138****5678&imsi=46000****123456&screen_height=764
+
+
+http://**.150.191.**/v1/api/init
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://co****et/33553187629886488816220647470943/52.html
+
+
+http://sd****et/msg/p?product_code=33553187629886488816220647470943&device_id=AC97765A7D9BD59F9A17B2D4979A4833&channel_code=52&eventCode=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8&eventParams=%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8
+
+
+http://an****om/rqd/async?aid=6bdec3a1-1c45-460c-87d9-42c940b4ea29
+
+
+http://se****et/33553187629886488816220647470943-52.html
+
+
+http://sd****et/v1/api/init
+
+
+http://**.150.191.**/v1/api/init
+
+
+http://sd****et/api/gateway?session_id=E34A97A6A3F848AD312078112D6E1C1B&ismobiledevice=true&channelVersion=4.3.1.1&product_v=1&sdk_sub_v=34&debug=0&gameName=%E9%AD%94%E5%B9%BB%E4%B8%96%E7%95%8C&channel_code=52&sdkVersion=2.6.5&device_os=Android&time=1451530998026&device_name=Lenovo%20A360t&sign_md5=bf2d1c7270f7c004d6eb34fc57bd2ab8&device_os_v=19&action=run&dpi=0.75&deviceId=AC97765A7D9BD59F9A17B2D4979A4833&platform=1&is_jailbroken=false&channelCode=52&productCode=33553187629886488816220647470943&imei=35714304077fdf6&package_name=com.mhsj.bc.guopan&screen_width=480&channel_sdk_v=4.3.1.1&net_type=1&device_id=AC97765A7D9BD59F9A17B2D4979A4833&sdk_v=2.6.5&sign=e45e83573d99ca1536a79af424df164d&gameVersion=1&wifimac=60%3A00%3A01%3A00%3Ab9%3A00&os_language=zh&mid=138****5678&imsi=46000****123456&screen_height=764
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Load website in webview
+
+
+
+
+
+Detail info:
+
+http://lo****et/zone/yuma.php
+
+
+javascript:CallbackFromAndroid('eyJkYXRhIjp7fSwiYWN0aW9uIjoib25SZXN1bWUifQ==')
+
+
+javascript:CallbackFromAndroid('eyJkYXRhIjp7fSwiYWN0aW9uIjoib25TdG9wIn0=')
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:co****et/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:sd****et/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:an****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:se****et/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.150.191.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/storage/emulated/0/UcQkDir/qk.dvid.txt
+
+
+/data/data/com.mhsj.bc.guopan/files/native_record_lock
+
+
+/data/data/com.mhsj.bc.guopan/files/local_crash_lock
+
+
+/data/data/com.mhsj.bc.guopan/files/security_info
+
+
+/data/data/com.mhsj.bc.guopan/guopan/sdk/plugin/gp_sdk_plugin.apk.temp
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/app/com.mhsj.bc.guopan-1.apk length:9
+
+
+path:/data/app/com.mhsj.bc.guopan-1.apk length:68
+
+
+path:/data/app/com.mhsj.bc.guopan-1.apk length:23
+
+
+path:/data/app/com.mhsj.bc.guopan-1.apk length:37
+
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/15530/cmdline length:69
+
+
+path:/storage/emulated/0/UcQkDir/qk.dvid.txt length:5
+
+
+path:/proc/cpuinfo length:69
+
+
+path:/proc/meminfo length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/app-lib/com.mhsj.bc.guopan-1/libqkcheck.so
+
+
+/data/app-lib/com.mhsj.bc.guopan-1/libBugly.so
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+Read external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/UcQkDir/qk.dvid.txt
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+null
+
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+MemTotal:        1030096 kB
+
+
+android-x86
+
+
+# begin build properties
+
+
+# autogenerated by buildinfo.sh
+
+
+ro.build.id=KTU84Q
+
+
+ro.build.display.id=android_x86-userdebug 4.4.4 KTU84Q eng.cwhuang.20150717.124832 test-keys
+
+
+ro.build.version.incremental=eng.cwhuang.20150717.124832
+
+
+ro.build.version.sdk=19
+
+
+ro.build.version.codename=REL
+
+
+ro.build.version.release=4.4.4
+
+
+ro.build.date=五  7月 17 12:49:36 CST 2015
+
+
+ro.build.date.utc=1437108576
+
+
+ro.build.type=userdebug
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.mhsj.bc.guopan/shared_prefs/multidex.version.xml length:210
+
+
+path:/data/data/com.mhsj.bc.guopan/shared_prefs/crashrecord.xml length:135
+
+
+path:/storage/emulated/0/UcQkDir/qk.dvid.txt length:70
+
+
+path:/data/data/com.mhsj.bc.guopan/shared_prefs/com_qk.xml length:146
+
+
+path:/data/data/com.mhsj.bc.guopan/app_crashrecord/1004 length:7
+
+
+path:/data/data/com.mhsj.bc.guopan/app_crashrecord/1004 length:6
+
+
+path:/data/data/com.mhsj.bc.guopan/app_crashrecord/1004 length:26
+
+
+path:/data/data/com.mhsj.bc.guopan/app_crashrecord/1004 length:13
+
+
+path:/data/data/com.mhsj.bc.guopan/app_crashrecord/1004 length:11
+
+
+path:/data/data/com.mhsj.bc.guopan/app_crashrecord/1004 length:9
+
+
+path:/data/data/com.mhsj.bc.guopan/app_crashrecord/1004 length:35
+
+
+path:/data/data/com.mhsj.bc.guopan/app_crashrecord/1004 length:8
+
+
+path:/data/data/com.mhsj.bc.guopan/guopan/sdk/plugin/gp_sdk_plugin.apk.temp length:68
+
+
+path:/data/data/com.mhsj.bc.guopan/guopan/sdk/plugin/gp_sdk_plugin.apk.temp length:62
+
+
+path:/data/data/com.mhsj.bc.guopan/guopan/sdk/plugin/gp_sdk_plugin.apk.temp length:67
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.mhsj.bc.guopan/shared_prefs/multidex.version.xml.bak
+
+
+/data/data/com.mhsj.bc.guopan/shared_prefs/crashrecord.xml.bak
+
+
+/data/data/com.mhsj.bc.guopan/shared_prefs/com_qk.xml.bak
+
+
+/data/data/com.mhsj.bc.guopan/files/native_record_lock
+
+
+/data/data/com.mhsj.bc.guopan/files/local_crash_lock
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/UcQkDir/qk.dvid.txt
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+TelephonyManager;->getSimSerialNumber
+Get SIM serial number
+
+
+
+
+
+TelephonyManager;->getLine1Number
+Get phone number
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get phone number
+
+
+
+
+
+Detail info:
+
+138****5678
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.tencent.bugly.crashreport.crash.BuglyBroadcastRecevier@218b7738', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+id:2130837515
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'device_id', u''
+
+
+
+
+
+Behaviour:
+Get special property of simulator
+
+
+
+
+
+Detail info:
+
+u'ro.serialno', u'unknown']unknown
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15530): Process: com.mhsj.bc.guopan, PID: 15530
+
+
+
+E/AndroidRuntime(15530): java.lang.IllegalArgumentException: Bad position (limit 3919579): 3919643
+
+
+
+E/AndroidRuntime(15530): 	at java.nio.Buffer.positionImpl(Buffer.java:357)
+
+
+
+E/AndroidRuntime(15530): 	at java.nio.Buffer.position(Buffer.java:351)
+
+
+
+E/AndroidRuntime(15530): 	at java.nio.FileChannelImpl.writeImpl(FileChannelImpl.java:505)
+
+
+
+E/AndroidRuntime(15530): 	at java.nio.FileChannelImpl.write(FileChannelImpl.java:475)
+
+
+
+E/AndroidRuntime(15530): 	at java.nio.FileChannelImpl.transferTo(FileChannelImpl.java:445)
+
+
+
+E/AndroidRuntime(15530): 	at com.flamingo.sdkf.g.a.a(ProGuard:77)
+
+
+
+E/AndroidRuntime(15530): 	at com.flamingo.sdkf.m.c.e(ProGuard:118)
+
+
+
+E/AndroidRuntime(15530): 	at com.flamingo.sdkf.m.c.a(ProGuard:73)
+
+
+
+E/AndroidRuntime(15530): 	at com.flamingo.sdkf.m.b$1.run(ProGuard:74)
+
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'device_id', u'AC97765A7D9BD59F9A17B2D4979A4833'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'[/system/bin/sh, -c, getprop ro.board.platform]'
+
+
+u'[/system/bin/sh, -c, type su]'
+
+
+u'[/system/bin/sh, -c, getprop ro.miui.ui.version.name]'
+
+
+u'[/system/bin/sh, -c, getprop ro.build.version.emui]'
+
+
+u'[/system/bin/sh, -c, getprop ro.lenovo.series]'
+
+
+u'[/system/bin/sh, -c, getprop ro.build.nubia.rom.name]'
+
+
+u'[/system/bin/sh, -c, getprop ro.meizu.product.model]'
+
+
+u'[/system/bin/sh, -c, getprop ro.build.version.opporom]'
+
+
+u'[/system/bin/sh, -c, getprop ro.vivo.os.build.display.id]'
+
+
+u'[/system/bin/sh, -c, getprop ro.aa.romver]'
+
+
+u'[/system/bin/sh, -c, getprop ro.lewa.version]'
+
+
+u'[/system/bin/sh, -c, getprop ro.gn.gnromvernumber]'
+
+
+u'[/system/bin/sh, -c, getprop ro.build.tyd.kbstyle_version]'
+
+
+u'[/system/bin/sh, -c, getprop ro.build.fingerprint]'
+
+
+u'[/system/bin/sh, -c, getprop ro.build.rom.id]'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2184bd90 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#112 ty=1 fl=#1810500 pfl=0x8 wanim=0x7f040002}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21867c90 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#112 ty=1 fl=#1810580 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{219d6138 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1800002 pfl=0x8 fmt=-3 wanim=0x1030002}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'android.os.Parcel@2184f320'
+
+
+u'android.os.Parcel@2184f330'
+
+
+u'com.qk.plugin.js.shell.SplashActivity@21861dd0', u'class com.qk.plugin.js.shell.MainActivity'
+
+
+u'android.os.Parcel@219a6910'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.mhsj.bc.guopan\/com.qk.plugin.js.shell.MainActivity}","EXTRAS":{"id":"2130837515"}}
+
+
+
+
+
+Behaviour:
+Access database
+
+
+
+
+
+Detail info:
+
+u't_pf', u'null', u'_id = 1000', u'null', u'null', u'null', u'null'
+
+
+u't_lr', u'null', u'_tp = 2', u'null', u'null', u'null', u'null'
+
+
+u'false', u't_ui', u'null', u"_pc = 'com.mhsj.bc.guopan'", u'null', u'null', u'null', u'null', u'null'
+
+
+u'false', u't_cr', u'[_id, _tm, _s1, _up, _me, _uc]', u'null', u'null', u'null', u'null', u'null', u'null'
+
+
+u't_pf', u'null', u'_id = 555', u'null', u'null', u'null', u'null'
+
+
+u't_lr', u'null', u'_tp = 3', u'null', u'null', u'null', u'null'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+assets/com.qk.plugin.qkfx.Manager
+0x83dcefb7
+
+
+
+
+assets/gp_sdk_splash_bg_landscape.png
+0xb03a01a7
+
+
+
+
+assets/gp_sdk_splash_bg_portrait.png
+0x995afd90
+
+
+
+
+assets/gp_sdk_splash_icon_bottom.png
+0x5d082726
+
+
+
+
+assets/gp_sdk_splash_icon_landscape.png
+0xc6f07942
+
+
+
+
+assets/gp_sdk_splash_icon_portrait.png
+0xc48501a7
+
+
+
+
+assets/libQuickSDKH5_To_Client.js
+0xd39a0276
+
+
+
+
+assets/qk_js_shell_config
+0x83dcefb7
+
+
+
+
+assets/quicksdk.xml
+0x4fed98f4
+
+
+
+
+AndroidManifest.xml
+0x60d161d6
+
+
+
+
+assets/gp_sdk_dynamic_config.json
+0x20ab7042
+
+
+
+
+assets/gp_sdk_plugin.apk
+0x55333538
+
+
+
+
+classes.dex
+0xeca4dd9f
+
+
+
+
+lib/armeabi/libBugly.so
+0x734c0fb0
+
+
+
+
+lib/armeabi/libonlywechat_plugin.so
+0x4a9c77e3
+
+
+
+
+lib/armeabi/libqkcheck.so
+0x2e56aa07
+
+
+
+
+res/drawable-hdpi-v4/icon.png
+0x3408ee7
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load01.png
+0x2b7fa421
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load02.png
+0x9e6a9dbf
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load03.png
+0xa91ff004
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load04.png
+0x3a9e4dd1
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load05.png
+0xe794a998
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load06.png
+0x1601acd4
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load07.png
+0xa4d8cf3f
+
+
+
+
+res/drawable-hdpi-v4/qk_game_load08.png
+0x2046b614
+
+
+
+
+res/drawable-hdpi-v4/qk_game_loadbg.png
+0xe86ca40
+
+
+
+
+res/drawable-hdpi-v4/splash_img_0.png
+0x869f064b
+
+
+
+
+res/drawable-hdpi/icon.png
+0x3408ee7
+
+
+
+
+res/drawable-hdpi/splash_img_0.png
+0x869f064b
+
+
+
+
+res/drawable-ldpi/icon.png
+0xcb3ef1a2
+
+
+
+
+res/drawable-mdpi/icon.png
+0xcb3ef1a2
+
+
+
+
+res/drawable-xhdpi/icon.png
+0x2de20e8d
+
+
+
+
+res/drawable-xxhdpi/icon.png
+0xc7225bc1
+
+
+
+
+res/drawable-xxxhdpi/icon.png
+0x8e7968c3
+
+
+
+
+res/drawable/icon.png
+0xcb3ef1a2
+
+
+
+
+res/drawable/qk_game_loading.xml
+0x76ced1ce
+
+
+
+
+res/layout/activity_main.xml
+0x1abae778
+
+
+
+
+res/layout/qk_game_view_loading.xml
+0x24f0db2a
+
+
+
+
+resources.arsc
+0xdf541a6
+
+
+
+
+META-INF/XX.SF
+0x7f583332
+
+
+
+
+META-INF/XX.RSA
+0xefd6f446
+
+
+
+
+META-INF/MANIFEST.MF
+0x52430611
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.action.MAIN
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.action.VIEW
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.category.LAUNCHER
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.category.DEFAULT
+
+
+
+
+com.qk.plugin.js.shell.SplashActivity
+android.intent.category.BROWSABLE
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+android.permission.ACCESS_CHECKIN_PROPERTIES
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+android.permission.SYSTEM_OVERLAY_WINDOW
+
+
+
+
+android.permission.BLUETOOTH
+
+
+
+
+android.permission.READ_LOGS
+
+
+
+
+android.permission.CHANGE_WIFI_STATE
+
+
+
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+
+
+
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.webkit.permission.PLUGIN
+
+
+
+
+android.permission.CHANGE_NETWORK_STATE
+
+
+
+
+android.permission.CAMERA
+
+
+
+
+android.permission.READ_CONTACTS
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.RECEIVE_SMS
+
+
+
+
+android.permission.READ_SMS
+
+
+
+
+android.permission.REQUEST_INSTALL_PACKAGES
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.flamingo.sdk.plugin.proxy.ProxyService
+
+
+
+
+com.baidu.location.f
+
+
+

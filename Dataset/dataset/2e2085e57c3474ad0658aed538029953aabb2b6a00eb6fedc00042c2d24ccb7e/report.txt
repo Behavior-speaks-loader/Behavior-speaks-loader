@@ -1,0 +1,33 @@
+2e2085e57c3474ad0658aed538029953aabb2b6a00eb6fedc00042c2d24ccb7e:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.INTERNET
+android.permission.ACCESS_COARSE_UPDATES
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.ACCESS_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECORD_AUDIO
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/2e2085e57c3474ad0658aed538029953aabb2b6a00eb6fedc00042c2d24ccb7e/api.txt
+------------------------------
+Intent:
+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/2e2085e57c3474ad0658aed538029953aabb2b6a00eb6fedc00042c2d24ccb7e/2e2085e57c3474ad0658aed538029953aabb2b6a00eb6fedc00042c2d24ccb7e.gml

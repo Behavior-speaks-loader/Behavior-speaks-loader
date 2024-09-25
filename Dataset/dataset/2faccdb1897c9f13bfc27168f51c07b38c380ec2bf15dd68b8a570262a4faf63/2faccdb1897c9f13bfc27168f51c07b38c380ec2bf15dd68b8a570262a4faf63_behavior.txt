@@ -1,0 +1,2728 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+2faccdb1897c9f13bfc27168f51c07b38c380ec2bf15dd68b8a570262a4faf63
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.geektoy.nfcemulator
+
+
+
+
+Minimum system version:
+Android 4.4
+
+
+
+
+Copyright:
+MS
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80
+
+
+host:op****cn/**.133.40.** port:80
+
+
+host:pa****om/**.133.40.** port:8860
+
+
+host:da****om/**.133.40.** port:443
+
+
+host:re****om/**.133.40.** port:443
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.133.40.** port:80 data:data:GET /qqconnectopen/openapi/policy_conf?status_os=4.4.4&status_version=19&status_machine=Lenovo+A360t&sdkp=a&sdkv=3.1.2&appid=1105397332 HTTP/1.1
+Accept-Encoding: gzip
+Host: cgi.connect.qq.com
+Connection: Keep-Alive
+User-Agent: AndroidSDK_19_S898tp_4.4.4
+
+
+
+
+operation:send host:op****cn/**.133.40.** port:80 data:data:POST /8/secret HTTP/1.1
+Accept-Encoding: gzip,deflate,sdch
+User-Agent: com.geektoy.nfcemulator/4081451530995580Androidv3.5.3
+Content-Type: application/json; charset=UTF-8
+Content-Length: 320
+Host: open.bmob.cn
+Connection: Keep-Alive
+
+G8NOeQpzVGd/UPetbEmr/00LEwSwsj622nBLOvC4H8qWQ7O6vJXMUinNhXSFgNWBmHKG8lcN9LTHO4NnXFKemTpoS68ouQse7b4ZgYJLHwQbM/7JoSfzHEmxGvBIgW6OtK4UMG0ifHyL1yYpZhUr4uMpdMCt+0d4Dt3uiA0e3ySy3IwcKaspCu9RQjw2juTBJRrDzvnXrqY4Rah0NmSB3BSF0YZB8sa2PITNlI/D4YnABghiqTvWB2svqzBEjhzORteiQ3bWUVTo0X0TgKo6u68IX2A8niZZsCRpft+3boz/4Cp/7x+b5BSviONrD+O5
+
+
+operation:send host:pa****om/**.133.40.** port:8860 data:data:POST /pay/update HTTP/1.1
+X-Pay-PackageName: com.geektoy.nfcemulator
+X-Pay-User: 35712****123456
+Content-type: application/octet-stream
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: pay.holaq.com:8860
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 16
+
+�eyǅ�J������o�
+
+
+operation:send host:op****cn/**.133.40.** port:80 data:data:POST /8/secret HTTP/1.1
+Accept-Encoding: gzip,deflate,sdch
+User-Agent: com.geektoy.nfcemulator/4081451530995947Androidv3.5.3
+Content-Type: application/json; charset=UTF-8
+Content-Length: 320
+Host: open.bmob.cn
+Connection: Keep-Alive
+
+GH8Xs7Lv/XBwPibR4pTv4iQ5czUKPKiA6xY800sSbkpb5dTY2jpxuRtKldmhxzBz+vZkQGgqfWLggHCqsWk8wQxJAXDcpwNzO4V8Gu+xVcVrci9KEwcn2RBrCfkrxDpHhY8RfxVTVpQLftGqZ8iIVnFOyqGcUsz6nK57Y8j6k4GnYuv65VqeLA+pUvnnzeMiUZhpRDW5YTdvWZ/0YXg0IsVBRODkkNYwHrOOW/4k9CtYnPVNkOhDpt/EdgHOBgmo7ZrqzxKPNLRuXfmDxGIZbzfv4unCQU1X4oEy1fN/PxJMkaPmmwwg/aMqeCjrzk8v
+
+
+operation:send host:op****cn/**.133.40.** port:80 data:data:POST /8/secret HTTP/1.1
+Accept-Encoding: gzip,deflate,sdch
+User-Agent: com.geektoy.nfcemulator/4081451530995898Androidv3.5.3
+Content-Type: application/json; charset=UTF-8
+Content-Length: 320
+Host: open.bmob.cn
+Connection: Keep-Alive
+
+obCOfxTzk+5OULv3ZqEu8f+nHJZcjX23MtQHFJKXs+PSJh3bdtmwP0sJGg8CSN/QlioqfPSJUJKunM03jdaF8Zj2oqyANVkBkwxEIMf3vBFoEmpCVMFStcosnZeg/cKFUO+R94Z7hZhY7KTY62PBBSEsnA7eE6/0iDpnHJs5oMgWykeKgPyL2ClOjdAqcwFCa/GnYopirZXYsYWO19KwMaeMvZHCx6zppsTNQSrB1Zyo1WaKs1tBb6fbQsKtHgnsVg68iop7UyCsx8pPqQQEEDUQkA0hM1XWmmq+SCJcQJErDu3EHw05/qYkF6LlICbX
+
+
+operation:send host:op****cn/**.133.40.** port:80 data:data:POST /8/secret HTTP/1.1
+Accept-Encoding: gzip,deflate,sdch
+User-Agent: com.geektoy.nfcemulator/4081451531039656Androidv3.5.3
+Content-Type: application/json; charset=UTF-8
+Content-Length: 320
+Host: open.bmob.cn
+Connection: Keep-Alive
+
+gtFvp7cbd/tczEzr53A46TDhuMg+1XyrP1/TntwUBg/2jbNapuJUXsTTG+Qcx5m/6BapmOud0MyvL63+5VreNLKKiOZd3c0hXqivCgOcaPb1eVk3KcXNy0PKgvyLRsou3uALZ8TY/QPksDH6tLqRLgOGDAyuqKaUp99QQuNQadgJTSSlYpu3kGvoVq+w75tqHHh9GXg8hjYu/l7zg5qfsU8RupIn4x6keKNRYSv0zsZN78gh+PxbqZ4f6dHi1iSZT2PN6uBaaiqsq//RfpoBixb8Qt6t0QOGf3oz5TK5LIehGUf9dD+nae5u7hIGZ0qv
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /apk/cr.html HTTP/1.1
+User-Agent: Android
+Accept: */*
+cpv: 3
+Content-Length: 1871
+Content-Type: application/x-www-form-urlencoded
+Host: c.appjiagu.com
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:c=EAAAAEfptl0EnJoooN5p7UmF96p43FEA8KAeVQ7fI2o49A4Cumzij%2BLasuG159vfb9WZs8vtPGTY%0AUkTvEp51rdr%2FGDlVriWY06a6MAEMy2LSr0zr9DejF7%2Bpd%2BNuKGVxnYHWxCvQWT2MbRA7F5PXPc3o%0A2aSs5KiybI2YjjySxIatcz%2Bv0YZ3N%2FgtICXIVZV8atLXhi251XJOk6JjmU%2BXAnXrNGESgKqDvdtU%0A5kPCJN2Ircd%2FxxnQUg5wWqBB37VC79C1FJUlNdGTUvHnuiMPEInv6jdku6%2Fe9hA0zkUpiff6A0Bj%0A7lTpYpYh1r8qA1IJ5khWRkUEDaW0tDDErJ7Qid6ZBYJpzWMMR1cAO9%2FzcjJdRH5JcRd3W72sxYGR%0Ais%2F0n7nrP5N8QLn57BWrJKumcbqVf5CJ2Yf9%2F%2FX9G%2FKP1dOw64MZzFj0FH2wk90WodK0MVIsH%2Bx%2B%0Ae%2FkrW1Hd3lXUqdA6E08uWK1PoFz%2FlC153%2F3OsXFtT0QiPTV%2BfvYN0XSOzQEEy0xjagj%2ByoL40XYL%0AExgEgnGhjicpoUYSCgu7tHZZDuyvLuAdF0cMJd8aViopgzbd%2F4IgQFwd3M%2F04n9F3ht2PuN%2BOHkd%0AixbPVTJgPQl1iv1U8A4NSrwjGZ9WkHRKnSQVoeNZB%2Fq%2BUsJQLSALId5YfHRhV33t8as5Is4SYHgD%0AQkmDbEHMvJyY%2FUwKWJ8f5jWYWz%2BQRPPEHk2alH7nT52KOFGlhqlRws%2BErmQvk%2B5rg2cOAxyBR2Fl%0AxIG0FNfFwiah1mBubZzIbuPu33nzmOrwLois9X9JtPKcKCkn0%2FyEIX3pO6XxFX52fdaX0RJRbAS9%0A3W4d33Y6sUYlAq%2BFgwDak5lP79aHkroCtC1%2BZFD8ezxgZgLfpz07Rje3V4YRgv%2Fhy5niLK7KiY6j%0ARr%2BAVztbj0fYPzfrniteLULFoXokbuBKmkcieWSN9ZU2VUp1SG4fXPwN8WU%2FYUmX91uwUvoBjMo2%0ATt%2FEj%2BifWQy3AeU%2F3ho0nqjIvdiSUDyvo3lhsJKJg8xySRVsOshwt6zcFbztT5zfFzN%2BHSgRyjvP%0AUhHKlCLhOXRfDR5u1hV48Sf%2FzshtOYmFojveIkIXS62ivpChc%2B9U10MGphKj8uuDltOur%2B9TDjcX%0AYqGgBlOWJLcE697%2FPi3ut7Tw7LgrXJbalVDfa28M9OZP%2BnV%2FnzTFHCofmWMeiHhX7O4uAbIm1Pps%0AHBdMFCoTnepcyb%2BJIR%2F78quTe0KVhIXtbIrMvyiN1jLMvSoGf3Cgnp7laEpcbFK74JfkBISBB3Ps%0A54W53w8dJV9HfFvp8cs1pc0QTg5SqmRCO%2Fm6ROtR4gMyhU71zVn%2Bn5h
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'file', u'www.xiaomi.com', u''
+
+
+u'ftp', u'www.xiaomi.com', u''
+
+
+u'http', u'www.xiaomi.com', u''
+
+
+u'https', u'www.xiaomi.com', u''
+
+
+u'jar', u'www.xiaomi.com', u''
+
+
+u'http://pa****om:8860/pay/update'
+
+
+u'https://da****om/mistats'
+
+
+u'https://re****om/pass/register'
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://cg****om/qqconnectopen/openapi/policy_conf?status_os=4.4.4&status_version=19&status_machine=Lenovo+A360t&sdkp=a&sdkv=3.1.2&appid=1105397332
+
+
+http://cg****om
+
+
+/qqconnectopen/openapi/policy_conf?status_os=4.4.4&status_version=19&status_machine=Lenovo+A360t&sdkp=a&sdkv=3.1.2&appid=1105397332
+
+
+http://op****cn/
+
+
+http://pa****om:8860/pay/update
+
+
+https://da****om/mistats
+
+
+https://re****om/pass/register
+
+
+http://c.****om/apk/cr.html
+
+
+http://c.****om
+
+
+/apk/cr.html
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:op****cn/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:pa****om/**.133.40.** port:8860 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://pa****om:8860/pay/update
+
+
+https://da****om/mistats
+
+
+https://re****om/pass/register
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/data/data/com.geektoy.nfcemulator/app_jgls/.log.ls
+
+
+/data/data/com.geektoy.nfcemulator/app_jgls/.log.lock
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+{
+
+
+	"Common_ta_enable": 1,
+
+
+	"Common_frequency": 24
+
+
+}
+
+
+null
+
+
+com.geektoy.nfcemulator
+
+
+Name:	fakename
+
+
+State:	S (sleeping)
+
+
+Tgid:	0
+
+
+Ngid:	0
+
+
+Pid:	0
+
+
+PPid:	0
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/system/build.prop length:69
+
+
+path:/system/build.prop length:5
+
+
+path:/etc/hosts length:30
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+path:/sys/class/net/sit0/ifindex length:7
+
+
+path:/sys/class/net/sit0/ifindex length:5
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:7
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:5
+
+
+path:/sys/class/net/lo/mtu length:11
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so
+
+
+/data/app-lib/com.geektoy.nfcemulator-1/libbmob.so
+
+
+/data/app-lib/com.geektoy.nfcemulator-1/libbmobwpay.so
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.geektoy.nfcemulator/shared_prefs/mistat.xml.bak
+
+
+/data/data/com.geektoy.nfcemulator/shared_prefs/mipush.xml.bak
+
+
+/data/data/com.geektoy.nfcemulator/shared_prefs/mipush_extra.xml.bak
+
+
+/data/data/com.geektoy.nfcemulator/shared_prefs/config.xml.bak
+
+
+/data/data/com.geektoy.nfcemulator/files/.exception
+
+
+/data/data/com.geektoy.nfcemulator/shared_prefs/bmob_sp.xml.bak
+
+
+/data/data/com.geektoy.nfcemulator/app_bwap_1/p.dex
+
+
+/data/data/com.geektoy.nfcemulator/app_bwap_1
+
+
+/data/data/com.geektoy.nfcemulator/app_bwap_2/p.dex
+
+
+/data/data/com.geektoy.nfcemulator/app_bwap_2
+
+
+/data/data/com.geektoy.nfcemulator/shared_prefs/qihoo_jiagu_crash_report.xml.bak
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:69
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:64
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:66
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:62
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:60
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:67
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:65
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:68
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:63
+
+
+path:/data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so length:61
+
+
+path:/data/data/com.geektoy.nfcemulator/shared_prefs/mistat.xml length:154
+
+
+path:/data/data/com.geektoy.nfcemulator/shared_prefs/mistat.xml length:197
+
+
+path:/data/data/com.geektoy.nfcemulator/shared_prefs/mipush.xml length:70
+
+
+path:/data/data/com.geektoy.nfcemulator/shared_prefs/mipush.xml length:112
+
+
+path:/data/data/com.geektoy.nfcemulator/shared_prefs/mipush.xml length:261
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get installed app
+
+
+
+
+
+Detail info:
+
+u'0'
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get scanned WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get running task
+
+
+
+
+
+Detail info:
+
+u'2147483647'
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Start service
+
+
+
+
+
+Detail info:
+
+{"ACTION":"com.xiaomi.mipush.REGISTER_APP","FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.geektoy.nfcemulator\/com.xiaomi.push.service.XMPushService}","EXTRAS":{"mipush_env_type":"1","mipush_app_id":"2882303761517474459","mipush_session":"null","mipush_payload":"\b\u0000\u0001\u0000\u0000\u0000\u0001\u0002\u0000\u0002\u0000\u0002\u0000\u0003\u0001\u000b\u0000\u0004\u0000\u0000\u0001\b\u000b\u0000\u0003\u0000\u0000\u0000\u0011vyoJ1451530995253\u000b\u0000\u0004\u0000\u0000\u0000\u00132882303761517474459\u000b\u0000\u0005\u0000\u0000\u0000\u00054.0.8\u000b\u0000\u0006\u0000\u0000\u0000\u0017com.geektoy.nfcemulator\u000b\u0000\u0007\u0000\u0000\u0000\r5231747477459\u000b\u0000\b\u0000\u0000\u0000\u0006z2fP1K\u000b\u0000\f\u0000\u0000\u0000\u00053_2_2\b\u0000\r\u0000\u0000u�\b\u0000\u000e\u0000\u0000\u0001�\u000b\u0000\u000f\u0000\u0000\u0000\u001092841014150fc3fd\u000b\u0000\u0010\u0000\u0000\u0000\u000f35712****123456\u000b\u0000\u0011\u0000\u0000\u0000\u0007unknown\u000b\u0000\u0012\u0000\u0000\u0000 AEB0D4E5F4F579854F8B772D8977FDF6\b\u0000\u0013\u0000\u0000\u0000\u0000\b\u0000\u0014\u0000\u0000\u0000\u0002\u0000\u000b\u0000\u0005\u0000\u0000\u0000\u00132882303761517474459\u000b\u0000\u0006\u0000\u0000\u0000\u0017com.geektoy.nfcemulator\f\u0000\u0007\n\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u000b\u0000\u0002\u0000\u0000\u0000\u0006fakeid\u000b\u0000\u0003\u0000\u0000\u0000\nxiaomi.com\u000b\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000","mipush_app_package":"com.geektoy.nfcemulator","mipush_env_chanage":"false"}}
+
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.geektoy.nfcemulator\/com.xiaomi.mipush.sdk.MessageHandleService}"}
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.geektoy.nfcemulator.MainActivity$2@218a1298', u'{"action":"android.nfc.action.ADAPTER_STATE_CHANGED"}'
+
+
+u'com.xiaomi.push.service.receivers.NetworkStatusReceiver@2189e578', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE","categorie":"android.intent.category.DEFAULT"}'
+
+
+u'com.qihoo.ls.SoReceiver@21bda0b0', u'{"action":"android.intent.action.SCREEN_ON|android.intent.action.BATTERY_CHANGED|android.intent.action.ACTION_POWER_CONNECTED|android.intent.action.ACTION_POWER_DISCONNECTED"}'
+
+
+u'com.qihoo.ls.ar@218a42b8', u'{"action":"android.intent.action.PACKAGE_ADDED"}'
+
+
+u'com.xiaomi.push.service.XMPushService$e@2187f1f8', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE"}'
+
+
+u'com.xiaomi.push.service.bg@218cf838', u'{"action":"com.xiaomi.metok.geofencing.state_change"}'
+
+
+
+
+
+Behaviour:
+Send broadcast
+
+
+
+
+
+Detail info:
+
+{"ACTION":"com.xiaomi.push.service_started","FLAG":0}
+
+
+{"PACKAGE":"com.geektoy.nfcemulator","ACTION":"com.xiaomi.mipush.ERROR","FLAG":0,"EXTRAS":{"mipush_payload":"\b\u0000\u0001\u0000\u0000\u0000\u0001\u0002\u0000\u0002\u0000\u0002\u0000\u0003\u0001\u000b\u0000\u0004\u0000\u0000\u0001\b\u000b\u0000\u0003\u0000\u0000\u0000\u0011vyoJ1451530995253\u000b\u0000\u0004\u0000\u0000\u0000\u00132882303761517474459\u000b\u0000\u0005\u0000\u0000\u0000\u00054.0.8\u000b\u0000\u0006\u0000\u0000\u0000\u0017com.geektoy.nfcemulator\u000b\u0000\u0007\u0000\u0000\u0000\r5231747477459\u000b\u0000\b\u0000\u0000\u0000\u0006z2fP1K\u000b\u0000\f\u0000\u0000\u0000\u00053_2_2\b\u0000\r\u0000\u0000u�\b\u0000\u000e\u0000\u0000\u0001�\u000b\u0000\u000f\u0000\u0000\u0000\u001092841014150fc3fd\u000b\u0000\u0010\u0000\u0000\u0000\u000f35712****123456\u000b\u0000\u0011\u0000\u0000\u0000\u0007unknown\u000b\u0000\u0012\u0000\u0000\u0000 AEB0D4E5F4F579854F8B772D8977FDF6\b\u0000\u0013\u0000\u0000\u0000\u0000\b\u0000\u0014\u0000\u0000\u0000\u0002\u0000\u000b\u0000\u0005\u0000\u0000\u0000\u00132882303761517474459\u000b\u0000\u0006\u0000\u0000\u0000\u0017com.geektoy.nfcemulator\f\u0000\u0007\n\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u000b\u0000\u0002\u0000\u0000\u0000\u0006fakeid\u000b\u0000\u0003\u0000\u0000\u0000\nxiaomi.com\u000b\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000","mipush_error_msg":"no account.","mipush_error_code":"70000002"}}
+
+
+
+
+
+Behaviour:
+Call setAction of intent
+
+
+
+
+
+Detail info:
+
+u'com.xiaomi.mipush.REGISTER_APP'
+
+
+u'com.xiaomi.push.service_started'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+mipush_app_package:com.geektoy.nfcemulator
+
+
+mipush_app_id:2882303761517474459
+
+
+mipush_session:null
+
+
+mipush_env_chanage:false
+
+
+mipush_env_type:1
+
+
+mipush_error_code:70000002
+
+
+mipush_error_msg:no account.
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'device_id', u''
+
+
+u'appId', u'null'
+
+
+u'appToken', u'null'
+
+
+u'regId', u'null'
+
+
+u'regSec', u'null'
+
+
+u'devId', u'null'
+
+
+u'vName', u'null'
+
+
+u'regResource', u'null'
+
+
+u'enable_disable_sync_status', u''
+
+
+u'ret', u'-1'
+
+
+u'figureurl_qq_2', u''
+
+
+u'notification', u''
+
+
+u'tips', u''
+
+
+u'pv_path', u''
+
+
+u'source_path', u''
+
+
+
+
+
+Behaviour:
+Make toast
+
+
+
+
+
+Detail info:
+
+text:首次使用程序请务必联网登录，登录后可以离线使用.. duration:1
+
+
+text:很抱歉，程序出现异常，正在上传错误报告...
+tips1:左滑程序主界面恢复出厂设置后重试可以解决很多问题，你可以试试...
+tips2:其他任何问题可以去软件QQ群联系群主... duration:1
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(16018): Process: com.geektoy.nfcemulator, PID: 16018
+
+
+
+E/AndroidRuntime(16018): java.lang.RuntimeException: Unable to instantiate service com.qihoo.util.QhJobService: java.lang.ClassNotFoundException: Didn't find class "com.qihoo.util.QhJobService" on path: DexPathList[[dex file "dalvik.system.DexFile@218676d8", dex file "dalvik.system.DexFile@218cb820", zip file "/data/app/com.geektoy.nfcemulator-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.geektoy.nfcemulator-1, /system/lib, /system/lib/arm]]
+
+
+
+E/AndroidRuntime(16018): 	at android.app.ActivityThread.handleCreateService(ActivityThread.java:2543)
+
+
+
+E/AndroidRuntime(16018): 	at android.app.ActivityThread.access$1800(ActivityThread.java:135)
+
+
+
+E/AndroidRuntime(16018): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1278)
+
+
+
+E/AndroidRuntime(16018): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/AndroidRuntime(16018): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/AndroidRuntime(16018): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+
+
+
+E/AndroidRuntime(16018): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/AndroidRuntime(16018): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/AndroidRuntime(16018): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+
+
+
+E/AndroidRuntime(16018): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+
+
+
+E/AndroidRuntime(16018): 	at com.tencent.music.v_d20a.core.XposedBridge.main(XposedBridge.java:135)
+
+
+
+E/AndroidRuntime(16018): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+E/AndroidRuntime(16018): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.qihoo.util.QhJobService" on path: DexPathList[[dex file "dalvik.system.DexFile@218676d8", dex file "dalvik.system.DexFile@218cb820", zip file "/data/app/com.geektoy.nfcemulator-1.apk"],nativeLibraryDirectories=[/data/app-lib/com.geektoy.nfcemulator-1, /system/lib, /system/lib/arm]]
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218a1318', u'sound_effects_enabled', u'0'
+
+
+
+
+
+Behaviour:
+Change component property
+
+
+
+
+
+Detail info:
+
+u'ComponentInfo{com.geektoy.nfcemulator/com.xiaomi.push.service.XMPushService}', u'1', u'1'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.geektoy.nfcemulator/z_ij_d_p/ij.dex
+
+
+path:/data/data/com.geektoy.nfcemulator/app_bwap_1/p.dex
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'device_id', u'38338D86E022B4E59D462441D2B809D7031725F1'
+
+
+u'appId', u'2882303761517474459'
+
+
+u'appToken', u'5231747477459'
+
+
+u'regResource', u'z2fP1K'
+
+
+u'pv_path', u'.MainActivity'
+
+
+u'source_path', u''
+
+
+u'basic_info_version', u'4.0.8'
+
+
+u'appkey', u'27acde0733f1e1b1baf68344ef035efc908d607ccb413ba2c3d13bd72dcb6aefbe5d62fdccc5ec5f'
+
+
+u'last_report_me', u'92b3a1044d942d744557e981edf2e354'
+
+
+u'last_report_time', u'2015/12/31 11:04:03'
+
+
+u'last_exception_info', u'562470968'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'chmod 755 /data/data/com.geektoy.nfcemulator/.jiagu/libjiagu.so'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2184c0d8 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 wanim=0x10302a1}'
+
+
+u'android.widget.LinearLayout{21869920 V.E..... ......I. 0,0-0,0}', u'WM.LayoutParams{(0,48)(wrapxwrap) gr=#51 ty=2005 fl=#98 fmt=-3 wanim=0x1030004}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2189a420 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1800002 pfl=0x8 fmt=-2 wanim=0x1030002}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'android.os.Parcel@2184f310'
+
+
+N/A
+
+
+u'android.app.ContextImpl@2186d348', u'class com.qihoo.ls.SoService'
+
+
+u'android.os.Parcel@2184f320'
+
+
+u'android.os.Parcel@2184fbd0'
+
+
+u'android.app.ContextImpl@218ad210', u'class com.qihoo.ls.SoService'
+
+
+u'com.xiaomi.mipush.ERROR'
+
+
+u'android.app.ReceiverRestrictedContext@218518b8', u'class com.xiaomi.mipush.sdk.MessageHandleService'
+
+
+u'com.xiaomi.mipush.RECEIVE_MESSAGE'
+
+
+u'com.qihoo.util.StubApp3567288091@2189b6a8', u'class com.xiaomi.mipush.sdk.MessageHandleService'
+
+
+u'android.os.Parcel@2184fbc0'
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "NFC Emulator", "class": "android.widget.TextView"}
+
+
+
+{"text": "重启NFC", "class": "android.widget.Button"}
+
+
+
+{"text": "开始模拟", "class": "android.widget.Button"}
+
+
+
+{"text": "开始写入", "class": "android.widget.Button"}
+
+
+
+{"text": "卡片维护", "class": "android.widget.Button"}
+
+
+
+{"text": "一键还原", "class": "android.widget.Button"}
+
+
+
+{"text": "tips:首次运行程序请左右滑动主屏幕并登录", "class": "android.widget.TextView"}
+
+
+
+{"text": " 环境检测 ", "class": "android.widget.TextView"}
+
+
+
+{"text": "Version:4.0.8", "class": "android.widget.TextView"}
+
+
+
+{"text": "一键登录", "class": "android.widget.TextView"}
+
+
+
+{"text": "适配文件", "class": "android.widget.TextView"}
+
+
+
+{"text": "出厂设置", "class": "android.widget.TextView"}
+
+
+
+{"text": "功能设置", "class": "android.widget.TextView"}
+
+
+
+{"text": "用户社区", "class": "android.widget.TextView"}
+
+
+
+{"text": "提示", "class": "android.widget.TextView"}
+
+
+
+
+
+
+Behaviour:
+Access database
+
+
+
+
+
+Detail info:
+
+u'mistat_event', u'null', u'category=? AND key=?', u'[mistat_basic, UEP]', u'null', u'null', u'null'
+
+
+u'mistat_event', u'null', u'category=? AND key=?', u'[mistat_basic, model]', u'null', u'null', u'null'
+
+
+u'mistat_event', u'null', u'category=? AND key=?', u'[mistat_basic, OS]', u'null', u'null', u'null'
+
+
+u'mistat_event', u'null', u'category=? AND key=?', u'[mistat_basic, operator]', u'null', u'null', u'null'
+
+
+u'mistat_event', u'null', u'category=? AND key=?', u'[mistat_basic, imei_md5]', u'null', u'null', u'null'
+
+
+u'mistat_event', u'null', u'category=? AND key=?', u'[mistat_basic, mac_md5]', u'null', u'null', u'null'
+
+
+u'mistat_event', u'null', u'category=? AND key=?', u'[mistat_basic, resolution]', u'null', u'null', u'null'
+
+
+u'mistat_event', u'null', u'category=? AND key=?', u'[mistat_basic, locale]', u'null', u'null', u'null'
+
+
+u'mistat_event', u'null', u'ts<?', u'[9223372036854775807]', u'null', u'null', u'ts DESC', u'200'
+
+
+u'mistat_event', u'null', u'ts<? AND ts>=?', u'[9223372036854775807, 1451530996042]', u'null', u'null', u'ts DESC'
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'SELECT * FROM geoMessage', u'null'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0x2b5b7429
+
+
+
+
+META-INF/NFCEMULA.SF
+0xc9e4b77b
+
+
+
+
+META-INF/NFCEMULA.RSA
+0xd09ec309
+
+
+
+
+AndroidManifest.xml
+0xf994b790
+
+
+
+
+assets/.appkey
+0xf6fbaebe
+
+
+
+
+assets/background.9.png
+0x2b654113
+
+
+
+
+assets/bp.db
+0x237e4c35
+
+
+
+
+assets/buttonNegt.png
+0xbf8691b8
+
+
+
+
+assets/buttonPost.png
+0x6231c3b4
+
+
+
+
+assets/button_green.9.png
+0xab4b0557
+
+
+
+
+assets/button_red.9.png
+0xded221c2
+
+
+
+
+assets/com.tencent.open.config.json
+0xb3d4a81a
+
+
+
+
+assets/com.tencent.plus.bar.png
+0x5fd36d43
+
+
+
+
+assets/com.tencent.plus.blue_disable.png
+0xf0e0db56
+
+
+
+
+assets/com.tencent.plus.blue_down.png
+0xb6bdc1b
+
+
+
+
+assets/com.tencent.plus.blue_normal.png
+0x18382c6e
+
+
+
+
+assets/com.tencent.plus.gray_disable.png
+0x9375206c
+
+
+
+
+assets/com.tencent.plus.gray_down.png
+0xcbe30e37
+
+
+
+
+assets/com.tencent.plus.gray_normal.png
+0xbf8cba3
+
+
+
+
+assets/com.tencent.plus.ic_error.png
+0xed6b2186
+
+
+
+
+assets/com.tencent.plus.ic_success.png
+0x20ea665b
+
+
+
+
+assets/com.tencent.plus.logo.png
+0x91dff5be
+
+
+
+
+assets/err.html
+0x0
+
+
+
+
+assets/libjiagu.so
+0xfda7e5a4
+
+
+
+
+assets/libjiagu_a64.so
+0xa9cd8b82
+
+
+
+
+assets/libjiagu_ls.so
+0xb44e26e8
+
+
+
+
+assets/libjiagu_x64.so
+0xede20b9b
+
+
+
+
+assets/libjiagu_x86.so
+0xb917cce9
+
+
+
+
+assets/libwbsafeedit
+0xb05a63a9
+
+
+
+
+assets/libwbsafeedit_64
+0xf8f2144
+
+
+
+
+assets/libwbsafeedit_x86
+0xfc7f4f0b
+
+
+
+
+assets/libwbsafeedit_x86_64
+0xf630540c
+
+
+
+
+assets/payassets.db
+0x7a41c274
+
+
+
+
+assets/yyb_appdetail_bg_floatingwindow.9.png
+0x2e9abd8b
+
+
+
+
+assets/yyb_appdetail_showmore.png
+0xcfd41321
+
+
+
+
+assets/yyb_friends.png
+0xf969c41e
+
+
+
+
+assets/yyb_icon_back.png
+0x58d07682
+
+
+
+
+assets/yyb_qq.png
+0xa289050d
+
+
+
+
+assets/yyb_qzone.png
+0x20e15be3
+
+
+
+
+assets/yyb_topbar.9.png
+0x410133f6
+
+
+
+
+assets/yyb_weixin.png
+0x3402b818
+
+
+
+
+classes.dex
+0x712f950a
+
+
+
+
+lib/arm64-v8a/libbmob.so
+0xaa9d9e67
+
+
+
+
+lib/arm64-v8a/libbmobwpay.so
+0x6d1bc56a
+
+
+
+
+lib/armeabi-v7a/libbmob.so
+0x811f72d
+
+
+
+
+lib/armeabi-v7a/libbmobwpay.so
+0x1a453f5a
+
+
+
+
+lib/armeabi/libbmob.so
+0x47394370
+
+
+
+
+lib/armeabi/libbmobwpay.so
+0x6aebb0fd
+
+
+
+
+lib/mips/libbmob.so
+0xf660061e
+
+
+
+
+lib/mips/libbmobwpay.so
+0x1c1109df
+
+
+
+
+lib/mips64/libbmob.so
+0xa2307250
+
+
+
+
+lib/mips64/libbmobwpay.so
+0xd5e8d926
+
+
+
+
+lib/x86/libbmob.so
+0xb8deab3d
+
+
+
+
+lib/x86/libbmobwpay.so
+0x93acf52c
+
+
+
+
+lib/x86_64/libbmob.so
+0xe5b2a255
+
+
+
+
+lib/x86_64/libbmobwpay.so
+0x7bb1e9e3
+
+
+
+
+mistats_version
+0xfd6b1212
+
+
+
+
+miui_push_version
+0xfc39a4c1
+
+
+
+
+push_version
+0x8dd8fd06
+
+
+
+
+res/drawable-hdpi-v4/ali.png
+0x99fc350
+
+
+
+
+res/drawable-hdpi-v4/bg_bombbox.9.png
+0x4bd0e541
+
+
+
+
+res/drawable-hdpi-v4/bmob_update_btn_check_off_focused_holo_light.png
+0x63f5fdb0
+
+
+
+
+res/drawable-hdpi-v4/bmob_update_btn_check_off_holo_light.png
+0x9dd19bd9
+
+
+
+
+res/drawable-hdpi-v4/bmob_update_btn_check_off_pressed_holo_light.png
+0x3f0df474
+
+
+
+
+res/drawable-hdpi-v4/bmob_update_btn_check_on_focused_holo_light.png
+0xe2ad9341
+
+
+
+
+res/drawable-hdpi-v4/bmob_update_btn_check_on_holo_light.png
+0xee3bf66f
+
+
+
+
+res/drawable-hdpi-v4/bmob_update_btn_check_on_pressed_holo_light.png
+0xed3b0705
+
+
+
+
+res/drawable-hdpi-v4/bmob_update_close_bg_normal.png
+0x6fde0e83
+
+
+
+
+res/drawable-hdpi-v4/bmob_update_close_bg_tap.png
+0x2258ca94
+
+
+
+
+res/drawable-hdpi-v4/btn_back_nor.9.png
+0x466bc725
+
+
+
+
+res/drawable-hdpi-v4/btn_back_pre.9.png
+0xb098b2ca
+
+
+
+
+res/drawable-hdpi-v4/btn_cancel.9.png
+0xb89939cf
+
+
+
+
+res/drawable-hdpi-v4/btn_cancel_pressed.9.png
+0x7628eb61
+
+
+
+
+res/drawable-hdpi-v4/btn_cancel_selector.xml
+0x71536ef3
+
+
+
+
+res/drawable-hdpi-v4/btn_ok_normal.9.png
+0x54fb3c38
+
+
+
+
+res/drawable-hdpi-v4/btn_ok_pressed.9.png
+0x59b0b8f2
+
+
+
+
+res/drawable-hdpi-v4/btn_ok_selector.xml
+0x97f4dd4
+
+
+
+
+res/drawable-hdpi-v4/btn_toggle_off.png
+0x92bfdba2
+
+
+
+
+res/drawable-hdpi-v4/btn_toggle_on.png
+0x79c33bec
+
+
+
+
+res/drawable-hdpi-v4/callbacktips.png
+0xb9ab7e53
+
+
+
+
+res/drawable-hdpi-v4/checkbox_off.png
+0x9bea83e9
+
+
+
+
+res/drawable-hdpi-v4/checkbox_on.png
+0x8be5f20e
+
+
+
+
+res/drawable-hdpi-v4/dialog_bottom_bg.xml
+0x626fef86
+
+
+
+
+res/drawable-hdpi-v4/hcebanner.png
+0x3dfee0e7
+
+
+
+
+res/drawable-hdpi-v4/ic_launcher.png
+0xfe0c478
+
+
+
+
+res/drawable-hdpi-v4/imgstroke.xml
+0x592fee85
+
+
+
+
+res/drawable-hdpi-v4/info.jpg
+0x86535ec0
+
+
+
+
+res/drawable-hdpi-v4/mm_title_btn_normal.9.png
+0xf223eb2d
+
+
+
+
+res/drawable-hdpi-v4/mm_title_functionframe_line.png
+0x97b1006f
+
+
+
+
+res/drawable-hdpi-v4/qq.jpg
+0x38e2a6fd
+
+
+
+
+res/drawable-hdpi-v4/qq_login_coffee.gif
+0xd4ea7d6c
+
+
+
+
+res/drawable-hdpi-v4/qqlogin.png
+0x9af22134
+
+
+
+
+res/drawable-hdpi-v4/toggle_btn_checked.png
+0x1c66b0c4
+
+
+
+
+res/drawable-hdpi-v4/toggle_btn_unchecked.png
+0x432368a
+
+
+
+
+res/drawable-hdpi-v4/wave.png
+0xfbb937e8
+
+
+
+
+res/drawable-hdpi-v4/wx.png
+0xe8d121ff
+
+
+
+
+res/drawable-mdpi-v4/ic_launcher.png
+0x24a0eae
+
+
+
+
+res/drawable-xhdpi-v4/ic_launcher.png
+0x9c37a25
+
+
+
+
+res/drawable-xxhdpi-v4/ic_launcher.png
+0x2b0312e5
+
+
+
+
+res/drawable/back_page.png
+0xa4af5d6b
+
+
+
+
+res/drawable/bmob_update_button_cancel_bg_focused.xml
+0x3a2a7521
+
+
+
+
+res/drawable/bmob_update_button_cancel_bg_normal.xml
+0xa5123acb
+
+
+
+
+res/drawable/bmob_update_button_cancel_bg_selector.xml
+0xa660a880
+
+
+
+
+res/drawable/bmob_update_button_cancel_bg_tap.xml
+0x9ebb6970
+
+
+
+
+res/drawable/bmob_update_button_check_selector.xml
+0xe4ef6612
+
+
+
+
+res/drawable/bmob_update_button_close_bg_selector.xml
+0x4b01c5fc
+
+
+
+
+res/drawable/bmob_update_button_ok_bg_focused.xml
+0xe9376f5e
+
+
+
+
+res/drawable/bmob_update_button_ok_bg_normal.xml
+0xc191aa60
+
+
+
+
+res/drawable/bmob_update_button_ok_bg_selector.xml
+0xfad74aab
+
+
+
+
+res/drawable/bmob_update_button_ok_bg_tap.xml
+0x868a391e
+
+
+
+
+res/drawable/bmob_update_dialog_bg.xml
+0xcecaeba7
+
+
+
+
+res/drawable/bmob_update_wifi_disable.png
+0x9bddb3ab
+
+
+
+
+res/drawable/btn_holo_light_v1.xml
+0x66edb57e
+
+
+
+
+res/drawable/edit_normal.png
+0x145df40e
+
+
+
+
+res/drawable/ic_menu_add.png
+0xf35bd678
+
+
+
+
+res/drawable/ic_menu_allfriends.png
+0xbdb8d43e
+
+
+
+
+res/drawable/ic_menu_blocked_user.png
+0x900de2c4
+
+
+
+
+res/drawable/ic_menu_compose.png
+0xffcc3467
+
+
+
+
+res/drawable/ic_menu_copy_holo_light.png
+0xd708e34d
+
+
+
+
+res/drawable/ic_menu_delete.png
+0x985581cc
+
+
+
+
+res/drawable/ic_menu_download_you_tube.png
+0x937b7b
+
+
+
+
+res/drawable/ic_menu_emoticons.png
+0xc127e9e9
+
+
+
+
+res/drawable/ic_menu_exit.png
+0xe7ea70a2
+
+
+
+
+res/drawable/ic_menu_find_holo_light.png
+0x5287afc
+
+
+
+
+res/drawable/ic_menu_forward.png
+0x2eb03d43
+
+
+
+
+res/drawable/ic_menu_goto.png
+0xef494dee
+
+
+
+
+res/drawable/ic_menu_help.png
+0x7d387f59
+
+
+
+
+res/drawable/ic_menu_home.png
+0xc35a7472
+
+
+
+
+res/drawable/ic_menu_info_details.png
+0xe1c6b24d
+
+
+
+
+res/drawable/ic_menu_invite.png
+0x1f3f5ef
+
+
+
+
+res/drawable/ic_menu_paste_holo_light.png
+0x56ac9513
+
+
+
+
+res/drawable/ic_menu_preferences.png
+0xfe919169
+
+
+
+
+res/drawable/ic_menu_save.png
+0xec7fd0a1
+
+
+
+
+res/drawable/ic_menu_search_holo_light.png
+0x2f7712
+
+
+
+
+res/drawable/ic_menu_share.png
+0xb6933691
+
+
+
+
+res/drawable/ic_menu_star.png
+0xe3f6e5b0
+
+
+
+
+res/drawable/ic_menu_upload_you_tube.png
+0xa55c6ad7
+
+
+
+
+res/drawable/ic_perm_group_social_info.png
+0xaa3a9fbb
+
+
+
+
+res/drawable/ic_perm_group_sync_settings.png
+0x9a8862c
+
+
+
+
+res/drawable/ic_refresh.png
+0xe2023f31
+
+
+
+
+res/drawable/imgboarder.xml
+0x3d9de7ab
+
+
+
+
+res/drawable/layout_dialog.xml
+0xb82c2b30
+
+
+
+
+res/drawable/layout_v1.xml
+0x76c92453
+
+
+
+
+res/drawable/layout_v2.xml
+0xa38ed756
+
+
+
+
+res/drawable/main_btn.xml
+0xb7ed5b37
+
+
+
+
+res/drawable/shadow.png
+0xd8c785e7
+
+
+
+
+res/drawable/title_list_selector.xml
+0xfc72258
+
+
+
+
+res/drawable/toggle_btn.xml
+0x1701fea3
+
+
+
+
+res/layout/anim_alpha.xml
+0x485ab910
+
+
+
+
+res/layout/bmob_update_dialog.xml
+0xebd6da52
+
+
+
+
+res/layout/config.xml
+0x535f4c3b
+
+
+
+
+res/layout/custom_groupwidget.xml
+0x7704a928
+
+
+
+
+res/layout/dialog_normal_layout.xml
+0xeaea8cff
+
+
+
+
+res/layout/donation.xml
+0xd538f48d
+
+
+
+
+res/layout/environment.xml
+0xf3cb281b
+
+
+
+
+res/layout/exra.xml
+0x9cca4bfb
+
+
+
+
+res/layout/handlechan.xml
+0xbd88eacd
+
+
+
+
+res/layout/info.xml
+0x8452d46a
+
+
+
+
+res/layout/left_anim_alpha.xml
+0x6a9e489f
+
+
+
+
+res/layout/left_anim_login.xml
+0xee985953
+
+
+
+
+res/layout/listact.xml
+0x9ddb8353
+
+
+
+
+res/layout/main.xml
+0x26ec347e
+
+
+
+
+res/layout/message.xml
+0xe571f26e
+
+
+
+
+res/layout/messages.xml
+0xae4a0ffb
+
+
+
+
+res/layout/myweb.xml
+0xb70dd9e7
+
+
+
+
+res/layout/phonetype.xml
+0xbf01366a
+
+
+
+
+res/layout/reg.xml
+0x23e18556
+
+
+
+
+res/layout/residemenu.xml
+0x3a1be1aa
+
+
+
+
+res/layout/residemenu_item.xml
+0x970bbbdc
+
+
+
+
+res/layout/right_anim_alpha.xml
+0x9fdad3a0
+
+
+
+
+res/layout/right_anim_login.xml
+0xd02ae45b
+
+
+
+
+res/layout/vlist2.xml
+0x8c3a211d
+
+
+
+
+res/layout/wheel_view.xml
+0x864753cc
+
+
+
+
+res/menu/main.xml
+0xc4e3d990
+
+
+
+
+res/xml/aid_list.xml
+0x8bb9e6ca
+
+
+
+
+res/xml/nfc_tech_filter.xml
+0xe521a4eb
+
+
+
+
+resources.arsc
+0xa2a79fd2
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.geektoy.nfcemulator.MainActivity
+android.intent.action.MAIN
+
+
+
+
+com.geektoy.nfcemulator.MainActivity
+android.nfc.action.TECH_DISCOVERED
+
+
+
+
+com.geektoy.nfcemulator.MainActivity
+android.intent.category.LAUNCHER
+
+
+
+
+com.geektoy.nfcemulator.editcard
+android.intent.action.editcard
+
+
+
+
+com.geektoy.nfcemulator.editcard
+android.intent.category.DEFAULT
+
+
+
+
+com.geektoy.nfcemulator.messagelist
+android.intent.action.messagelist
+
+
+
+
+com.geektoy.nfcemulator.messagelist
+android.intent.category.DEFAULT
+
+
+
+
+com.geektoy.nfcemulator.phonetype
+android.intent.action.phonetype
+
+
+
+
+com.geektoy.nfcemulator.phonetype
+android.intent.category.DEFAULT
+
+
+
+
+com.geektoy.nfcemulator.shortcut
+android.intent.action.MAIN
+
+
+
+
+com.tencent.tauth.AuthActivity
+android.intent.action.VIEW
+
+
+
+
+com.tencent.tauth.AuthActivity
+android.intent.category.DEFAULT
+
+
+
+
+com.tencent.tauth.AuthActivity
+android.intent.category.BROWSABLE
+
+
+
+
+
+
+
+
+
+Name
+Detail info
+
+
+
+
+com.xiaomi.push.service.receivers.NetworkStatusReceiver
+Start after network changed
+
+
+
+
+
+com.xiaomi.push.service.receivers.PingReceiver
+N/A
+
+
+
+
+com.geektoy.nfcemulator.MessageReceiver
+N/A
+
+
+
+
+com.geektoy.nfcemulator.MessageReceiver
+N/A
+
+
+
+
+com.geektoy.nfcemulator.MessageReceiver
+N/A
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.SET_PREFERRED_APPLICATIONS
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+android.permission.NFC
+
+
+
+
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+
+
+
+
+android.permission.READ_SETTINGS
+
+
+
+
+android.permission.ACCESS_SUPERUSER
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.MODIFY_AUDIO_SETTINGS
+
+
+
+
+com.android.launcher.permission.INSTALL_SHORTCUT
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.RECEIVE_USER_PRESENT
+
+
+
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+
+
+
+android.permission.BROADCAST_STICKY
+
+
+
+
+android.permission.WRITE_SETTINGS
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.KILL_BACKGROUND_PROCESSES
+
+
+
+
+android.permission.READ_LOGS
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.WRITE_SECURE_SETTINGS
+
+
+
+
+com.geektoy.nfcemulator.permission.MIPUSH_RECEIVE
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.qihoo.util.QhJobService
+
+
+
+
+com.qihoo.util.CommonService
+
+
+
+
+com.qihoo.util.CommonService2
+
+
+
+
+com.qihoo.ls.SoService
+
+
+
+
+com.geektoy.nfcemulator.CardService
+
+
+
+
+com.xiaomi.push.service.XMPushService
+
+
+
+
+com.xiaomi.push.service.XMJobService
+
+
+
+
+com.xiaomi.mipush.sdk.PushMessageHandler
+
+
+
+
+com.xiaomi.mipush.sdk.MessageHandleService
+
+
+

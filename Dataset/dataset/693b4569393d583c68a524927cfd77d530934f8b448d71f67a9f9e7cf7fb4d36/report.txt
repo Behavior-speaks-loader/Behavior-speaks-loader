@@ -1,0 +1,45 @@
+693b4569393d583c68a524927cfd77d530934f8b448d71f67a9f9e7cf7fb4d36:['File', 'Location', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.DELETE_CACHE_FILES
+android.permission.FLASHLIGHT
+getui.permission.GetuiService.com.wta.NewCloudApp.jiuwei285761
+android.permission.GET_TASKS
+android.permission.CLEAR_APP_CACHE
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SET_WALLPAPER
+android.permission.INTERNET
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_MOCK_LOCATION
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.REPLACE_EXISTING_PACKAGE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.GET_PACKAGE_SIZE
+android.permission.CHANGE_WIFI_MULTICAST_STATE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/693b4569393d583c68a524927cfd77d530934f8b448d71f67a9f9e7cf7fb4d36/api.txt
+------------------------------
+Intent:
+android.intent.action.DOWNLOAD_COMPLETE
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/693b4569393d583c68a524927cfd77d530934f8b448d71f67a9f9e7cf7fb4d36/693b4569393d583c68a524927cfd77d530934f8b448d71f67a9f9e7cf7fb4d36.gml

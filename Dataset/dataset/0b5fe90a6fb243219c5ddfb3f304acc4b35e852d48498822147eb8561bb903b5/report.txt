@@ -1,0 +1,21 @@
+0b5fe90a6fb243219c5ddfb3f304acc4b35e852d48498822147eb8561bb903b5:['network']
+------------------------------
+Permissions:
+android.permission.INSTALL_PACKAGES
+android.permission.ACCESS_NETWORK_STATE
+android.permission.SEND_SMS
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.INTERNET
+android.permission.DELETE_PACKAGES
+android.permission.RESTART_PACKAGES
+android.permission.READ_PHONE_STATE
+------------------------------
+API:
+./res/0b5fe90a6fb243219c5ddfb3f304acc4b35e852d48498822147eb8561bb903b5/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/0b5fe90a6fb243219c5ddfb3f304acc4b35e852d48498822147eb8561bb903b5/0b5fe90a6fb243219c5ddfb3f304acc4b35e852d48498822147eb8561bb903b5.gml

@@ -1,0 +1,33 @@
+09775153aa9c66b0336dfc3735e655c7050793d7f149964e6b3207eecb99cf2d:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+com.wyfc.txtreader.permission.MIPUSH_RECEIVE
+android.permission.INTERNET
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.REORDER_TASKS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.FOREGROUND_SERVICE
+com.wyfc.txtreader.permission.MIMC_RECEIVE
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/09775153aa9c66b0336dfc3735e655c7050793d7f149964e6b3207eecb99cf2d/api.txt
+------------------------------
+Intent:
+com.xiaomi.push.PING_TIMER
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/09775153aa9c66b0336dfc3735e655c7050793d7f149964e6b3207eecb99cf2d/09775153aa9c66b0336dfc3735e655c7050793d7f149964e6b3207eecb99cf2d.gml

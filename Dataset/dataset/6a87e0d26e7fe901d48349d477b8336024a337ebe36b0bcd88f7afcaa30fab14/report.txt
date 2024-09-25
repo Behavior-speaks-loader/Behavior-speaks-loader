@@ -1,0 +1,22 @@
+6a87e0d26e7fe901d48349d477b8336024a337ebe36b0bcd88f7afcaa30fab14:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.INTERNET
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/6a87e0d26e7fe901d48349d477b8336024a337ebe36b0bcd88f7afcaa30fab14/api.txt
+------------------------------
+Intent:
+android.intent.action.BATTERY_CHANGED_ACTION
+android.intent.action.SIG_STR
+android.intent.action.BOOT_COMPLETED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/6a87e0d26e7fe901d48349d477b8336024a337ebe36b0bcd88f7afcaa30fab14/6a87e0d26e7fe901d48349d477b8336024a337ebe36b0bcd88f7afcaa30fab14.gml

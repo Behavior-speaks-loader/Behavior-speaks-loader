@@ -1,0 +1,42 @@
+50a802b99ac28506dd32b004474604d2969d09325fc7ecfd414f2253c252d078:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.BATTERY_STATS
+android.permission.INTERNET
+com.android.vending.CHECK_LICENSE
+android.permission.ACCESS_WIFI_STATE
+android.permission.BROADCAST_STICKY
+android.permission.RESTART_PACKAGES
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/50a802b99ac28506dd32b004474604d2969d09325fc7ecfd414f2253c252d078/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_CHANGED
+android.intent.action.PACKAGE_DATA_CLEARED
+android.intent.action.PACKAGE_INSTALL
+android.intent.action.PACKAGE_REMOVED
+android.intent.action.PACKAGE_REPLACED
+android.intent.action.PACKAGE_RESTARTED
+android.intent.action.USER_PRESENT
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.BOOT_COMPLETED
+cn.ngds.android.intent.alarm
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/50a802b99ac28506dd32b004474604d2969d09325fc7ecfd414f2253c252d078/50a802b99ac28506dd32b004474604d2969d09325fc7ecfd414f2253c252d078.gml

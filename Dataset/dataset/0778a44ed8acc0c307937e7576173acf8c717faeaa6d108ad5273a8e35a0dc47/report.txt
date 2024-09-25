@@ -1,0 +1,42 @@
+0778a44ed8acc0c307937e7576173acf8c717faeaa6d108ad5273a8e35a0dc47:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.ACCESS_FINE_LOCATION
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.ACCESS_DOWNLOAD_MANAGER
+android.permission.INTERNET
+com.qianbei.permission.JPUSH_MESSAGE
+android.permission.EXPAND_STATUS_BAR
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.GET_ACCOUNTS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.qianbei.permission.RECEIVE_MSG
+android.permission.SET_DEBUG_APP
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/0778a44ed8acc0c307937e7576173acf8c717faeaa6d108ad5273a8e35a0dc47/api.txt
+------------------------------
+Intent:
+android.intent.action.PHONE_STATE
+com.qianbei
+------------------------------
+Function call graph:
+gml path: ./res/0778a44ed8acc0c307937e7576173acf8c717faeaa6d108ad5273a8e35a0dc47/0778a44ed8acc0c307937e7576173acf8c717faeaa6d108ad5273a8e35a0dc47.gml

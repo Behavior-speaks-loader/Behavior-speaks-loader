@@ -1,0 +1,20 @@
+077e8a20f8416b7619e05e2e9c678eb570273652511262d26b1449a74d866448:['Network', 'File']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+------------------------------
+API:
+./res/077e8a20f8416b7619e05e2e9c678eb570273652511262d26b1449a74d866448/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_INSTALL
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/077e8a20f8416b7619e05e2e9c678eb570273652511262d26b1449a74d866448/077e8a20f8416b7619e05e2e9c678eb570273652511262d26b1449a74d866448.gml

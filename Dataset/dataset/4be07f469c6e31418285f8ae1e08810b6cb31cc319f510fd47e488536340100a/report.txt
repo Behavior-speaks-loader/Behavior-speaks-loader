@@ -1,0 +1,35 @@
+4be07f469c6e31418285f8ae1e08810b6cb31cc319f510fd47e488536340100a:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.VIBRATE
+android.permission.SEND_SMS
+android.permission.READ_LOGS
+android.permission.INTERNET
+android.permission.WRITE_SETTINGS
+android.permission.GET_TASKS
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/4be07f469c6e31418285f8ae1e08810b6cb31cc319f510fd47e488536340100a/api.txt
+------------------------------
+Intent:
+android.intent.action.ACTION_POWER_CONNECTED
+com.secneo.plugin.action.HOURLY
+com.secneo.plugin.action.DAILY
+com.secneo.plugin.action.APP_STARTED
+android.net.conn.CONNECTIVITY_CHANGE
+com.secneo.proxy.action.CUSTOM
+android.intent.category.DEFAULT
+android.intent.category.SAFIAP.COMPONENT
+------------------------------
+Function call graph:
+gml path: ./res/4be07f469c6e31418285f8ae1e08810b6cb31cc319f510fd47e488536340100a/4be07f469c6e31418285f8ae1e08810b6cb31cc319f510fd47e488536340100a.gml

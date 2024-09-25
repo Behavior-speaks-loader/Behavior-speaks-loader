@@ -1,0 +1,1349 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+12e17211eb89ce80fb8483936a1b98acf6c91d592017305112b8038a30b9ee82
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.clbpp.conglinbenpaou
+
+
+
+
+Minimum system version:
+Android 2.1.x
+
+
+
+
+Copyright:
+asfd
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Add alert window
+
+
+
+
+
+Detail info:
+
+u'org.wivnp.ieuaw.hwibo.g.o{218a8808 V.E..... ......I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(0x0) ty=2003 fl=#8 fmt=-3}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:a.****om/**.133.40.** port:80
+
+
+host:vi****cn/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:a.****om/**.133.40.** port:80 data:data:POST /ad-service/ad/mark HTTP/1.1
+Cache-Control: no-cache
+Content-Type: text/plain; charset=utf-8
+svc: 9
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: a.appjiagu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 554
+
+6e8552c391ca6001a1207c0090ee29cd364f0deff1c62d35c13bd9d2bd8be555a1204dd945c1ed9704ae02fd00310cbc20fc7f8a2cd8ba89a8922c780313ec0cc03f6e6ded24070dda943c06ac9dc7856dd24339c36520c6cabeb3c72c14001a634af50f467187cee69b90599a911ce65f5ab0e255efc8cc5ea1197fd4757f9621dd60b7b0dca16d4785c7ad3bd4bdb785895e87ef693900e74f81b0eef734d17a0c3c7e39893f1657685005645fdf57cac6040b99ee584f5cb3f58a621f62aeefa1cb37edfee703b2629869a0b8eb3adcef1ff74573bea8558c54b87abcd703fcda556d811019c1323d4a9fef659cbb5c8803769e272d1a66c7e1674decc4771afe925c669cf27c581c5eba3a2c3eb1d87fea35aa
+
+
+operation:send host:vi****cn/**.133.40.** port:80 data:data:POST /uoapnebnilgnoc/6674/qd6 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: plain/text;charset=UTF-8
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: vi.pi.vpvtv.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 108
+
+PfzLhLkwKmR2zwF8E3fX87Ebr/fuB1IKYBjOGl7QcPjp6prCqrTrzazPgA0opp2BXsK92it0i9UsCrhvCTgnZ+3fmv+45v42WkmlYNxcDEc.
+
+
+operation:send host:vi****cn/**.133.40.** port:80 data:data:POST /uoapnebnilgnoc/6674/pd6 HTTP/1.1
+Proxy-Connection: Keep-Alive
+Content-Type: plain/text;charset=UTF-8
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: vi.pi.vpvtv.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 108
+
+PfzLhLkwKmR2zwF8E3fX87Ebr/fuB1IKYBjOGl7QcPjp6prCqrTrzazPgA0opp2BXsK92it0i9UsCrhvCTgnZ+3fmv+45v42WkmlYNxcDEc.
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://a.****om/ad-service/ad/mark
+
+
+http://vi****cn/uoapnebnilgnoc/6674/qd6
+
+
+http://vi****cn/uoapnebnilgnoc/6674/pd6
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://a.****om/ad-service/ad/mark
+
+
+http://vi****cn/uoapnebnilgnoc/6674/qd6
+
+
+http://vi****cn/uoapnebnilgnoc/6674/pd6
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:a.****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:vi****cn/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://a.****om/ad-service/ad/mark'
+
+
+u'http://vi****cn/uoapnebnilgnoc/6674/qd6'
+
+
+u'http://vi****cn/uoapnebnilgnoc/6674/pd6'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+MemTotal:        1030096 kB
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.clbpp.conglinbenpaou/files/com.clk.Pao.dex
+
+
+/data/data/com.clbpp.conglinbenpaou/files/com.clk.Pao.jar
+
+
+/data/data/com.clbpp.conglinbenpaou/shared_prefs/jg_app_update_settings_random.xml.bak
+
+
+/data/data/com.clbpp.conglinbenpaou/shared_prefs/_mscomclbppconglinbenpaou_r.xml.bak
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.clbpp.conglinbenpaou/files/.jiagu.lock length:32
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/.jiagu.lock length:5
+
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+path:/sys/class/net/sit0/ifindex length:7
+
+
+path:/sys/class/net/sit0/ifindex length:5
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:7
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:5
+
+
+path:/sys/class/net/lo/mtu length:11
+
+
+path:/sys/class/net/lo/mtu length:5
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:69
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:66
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:59
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:68
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:63
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:60
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:67
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:64
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:65
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:61
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so length:62
+
+
+path:/data/data/com.clbpp.conglinbenpaou/files/com.clk.Pao.jar length:69
+
+
+path:/data/data/com.clbpp.conglinbenpaou/shared_prefs/jg_app_update_settings_random.xml length:133
+
+
+path:/data/data/com.clbpp.conglinbenpaou/shared_prefs/_mscomclbppconglinbenpaou_r.xml length:173
+
+
+path:/data/data/com.clbpp.conglinbenpaou/shared_prefs/_mscomclbppconglinbenpaou_r.xml length:215
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/data/com.clbpp.conglinbenpaou/files/libjiagu.so
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+Behaviour:
+Get running task
+
+
+
+
+
+Detail info:
+
+u'1'
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@21862e40', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@2187f1e0', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+u'u$b@21a157d0', u'{"action":"android.intent.action.USER_PRESENT|android.intent.action.SCREEN_OFF"}'
+
+
+u'com.runner.game.temple.jungle.TempleActivity$1@21d7faa8', u'{"action":"com.ebrothers.ads"}'
+
+
+u'org.wivnp.ieuaw.hwibo.vhog@2186d3a8', u'{"action":"android.intent.action.PACKAGE_ADDED|android.intent.action.PACKAGE_REMOVED"}'
+
+
+u'org.wivnp.ieuaw.hwibo.vhog@2186d3a8', u'{"action":"android.intent.action.USER_PRESENT|android.net.conn.CONNECTIVITY_CHANGE"}'
+
+
+u'org.wivnp.ieuaw.hwibo.as@21aaeab8', u'{"action":"android.intent.action.SCREEN_ON"}'
+
+
+u'org.wivnp.ieuaw.hwibo.as@21aaeab8', u'{"action":"android.intent.action.SCREEN_OFF"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'cV92Y19pZA==', u''
+
+
+u'dl9zdm9fbg==', u''
+
+
+u'bF92dl9vYw==', u''
+
+
+u'ZnZ0X3Bz', u''
+
+
+u'X2Jfcw==', u''
+
+
+u'cl9ldm5f', u''
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+geo:0,0?q=donuts
+
+
+market://search?q=pname:com.admob
+
+
+tel://6509313940
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21849968', u'android_id'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@2189cc90', u'android_id'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@2189cc90', u'show_password', u'0'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.clbpp.conglinbenpaou/files/com.clk.Pao.jar
+
+
+
+
+
+Behaviour:
+Add alert window
+
+
+
+
+
+Detail info:
+
+u'org.wivnp.ieuaw.hwibo.g.o{218a8808 V.E..... ......I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(0x0) ty=2003 fl=#8 fmt=-3}'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'd192YV9pZA==', u'lXNjNMBgXYHiZtZ6A1II7ECCiiUdirp2WFNYPMtgD4ldWxRvNh6ouA..'
+
+
+u'cV92Y19pZA==', u''
+
+
+u'al92dl93ZA==', u'OpAHp+LISC2utnUWYOxuWojNrAUCGlph'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'chmod 755 /data/data/com.clbpp.conglinbenpaou/files/libjiagu.so'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21881618 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) ty=1 fl=#40010100 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{219b50b8 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) ty=1 fl=#40010500 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2197da00 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#40010580 pfl=0x8 wanim=0x1030001}'
+
+
+u'org.wivnp.ieuaw.hwibo.g.o{218a8808 V.E..... ......I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(0x0) ty=2003 fl=#8 fmt=-3}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'android.os.Parcel@21856cd8'
+
+
+N/A
+
+
+u'android.os.Parcel@2184f438'
+
+
+u'com.clk.Pao.csbyz@2189ff10', u'class com.google.ads.AdActivity'
+
+
+u'android.intent.action.VIEW', u'geo:0,0?q=donuts'
+
+
+u'android.intent.action.VIEW', u'market://search?q=pname:com.admob'
+
+
+u'android.intent.action.VIEW', u'tel://6509313940'
+
+
+u'android.os.Parcel@21856cc8'
+
+
+u'android.intent.action.MAIN'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":268435456,"COMPONENT_NAME":"ComponentInfo{com.clbpp.conglinbenpaou\/com.runner.game.temple.jungle.SplashActivity}"}
+
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.clbpp.conglinbenpaou\/com.runner.game.temple.jungle.TempleActivity}"}
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0xba23bdd8
+
+
+
+
+META-INF/DOMINAT5.SF
+0xe841d658
+
+
+
+
+META-INF/DOMINAT5.RSA
+0xe46cf13a
+
+
+
+
+AndroidManifest.xml
+0xab4cd9b4
+
+
+
+
+assembly-descriptor.xml
+0xd2a3e682
+
+
+
+
+assets/
+0x0
+
+
+
+
+assets/.appkey
+0xc39349bc
+
+
+
+
+assets/Decade.ttf
+0x284fdf2b
+
+
+
+
+assets/background.plist
+0x961fecf
+
+
+
+
+assets/background.png
+0xad621db7
+
+
+
+
+assets/font1.fnt
+0x517b5e7d
+
+
+
+
+assets/font1.png
+0x83d5402b
+
+
+
+
+assets/font2.fnt
+0x400efcb8
+
+
+
+
+assets/font2.png
+0xb020dc76
+
+
+
+
+assets/fps_images.png
+0x112b3776
+
+
+
+
+assets/game_choose.jpg
+0xce611572
+
+
+
+
+assets/level/level1.txt
+0xaa263091
+
+
+
+
+assets/level/level2.txt
+0xc70f4fd2
+
+
+
+
+assets/level/level3.txt
+0x25005976
+
+
+
+
+assets/level/level4.txt
+0xcc475488
+
+
+
+
+assets/level/level5.txt
+0x75048a8f
+
+
+
+
+assets/level/level6.txt
+0xcf3467c5
+
+
+
+
+assets/level/level7.txt
+0xe2efcfbc
+
+
+
+
+assets/level/level8.txt
+0xcb7fed7d
+
+
+
+
+assets/level/level9.txt
+0xcdfeb562
+
+
+
+
+assets/leveltest.txt
+0x7a9f39c
+
+
+
+
+assets/libjiagu.so
+0xe4dd8dbc
+
+
+
+
+assets/libjiagu_x86.so
+0x48ef3709
+
+
+
+
+assets/menu.plist
+0xdc6cfda
+
+
+
+
+assets/menu.png
+0xcb179bf0
+
+
+
+
+assets/runner.plist
+0xfc48cf46
+
+
+
+
+assets/runner.png
+0xeddea7a6
+
+
+
+
+assets/sprites.plist
+0x1f648740
+
+
+
+
+assets/sprites.png
+0xc87bfd8e
+
+
+
+
+classes.dex
+0xa627c2c7
+
+
+
+
+lib/
+0x0
+
+
+
+
+lib/armeabi/
+0x0
+
+
+
+
+lib/armeabi/libjiagu_art.so
+0x0
+
+
+
+
+lib/x86/
+0x0
+
+
+
+
+lib/x86/libjiagu_art.so
+0x0
+
+
+
+
+res/anim/loading.xml
+0xd50aecc
+
+
+
+
+res/drawable/button_normal.png
+0x6216da03
+
+
+
+
+res/drawable/button_pressed.png
+0x6ac074d8
+
+
+
+
+res/drawable/dialog_bg_bottom.9.png
+0x901f44dc
+
+
+
+
+res/drawable/dialog_bg_full.9.png
+0x7c4e686a
+
+
+
+
+res/drawable/dialog_bg_middle.9.png
+0x5764240f
+
+
+
+
+res/drawable/dialog_bg_top.9.png
+0x29d1c47a
+
+
+
+
+res/drawable/dialog_button.xml
+0xf03aa5f1
+
+
+
+
+res/drawable/dialog_middle.9.png
+0x5764240f
+
+
+
+
+res/drawable/icon.png
+0x68a787c7
+
+
+
+
+res/drawable/loading_01.png
+0xe7b442c0
+
+
+
+
+res/drawable/loading_02.png
+0x47ebed29
+
+
+
+
+res/drawable/loading_03.png
+0xcffa2c2
+
+
+
+
+res/drawable/loading_04.png
+0x2feb197e
+
+
+
+
+res/drawable/tupian.png
+0x5c8e1206
+
+
+
+
+res/layout/splash.xml
+0x3e34f37e
+
+
+
+
+res/raw/music_background.mp3
+0x74927b98
+
+
+
+
+res/raw/music_box.mp3
+0x3fa2b20
+
+
+
+
+res/raw/music_button.mp3
+0x10e4ff04
+
+
+
+
+res/raw/music_dinosaur.mp3
+0xcac0b538
+
+
+
+
+res/raw/music_down.mp3
+0x13da95c9
+
+
+
+
+res/raw/music_downslope.mp3
+0xeab49e86
+
+
+
+
+res/raw/music_fail.mp3
+0xceffa810
+
+
+
+
+res/raw/music_fire.mp3
+0xcd70ff44
+
+
+
+
+res/raw/music_flower.mp3
+0xcac0b538
+
+
+
+
+res/raw/music_jump.mp3
+0x37044c0a
+
+
+
+
+res/raw/music_jumpdown.mp3
+0x192d2246
+
+
+
+
+res/raw/music_life.mp3
+0xf463c0ee
+
+
+
+
+res/raw/music_mainmenubackground.mp3
+0x9552dbaf
+
+
+
+
+res/raw/music_mushroom1.mp3
+0x558e942f
+
+
+
+
+res/raw/music_mushroom2.mp3
+0x453e9566
+
+
+
+
+res/raw/music_relive.mp3
+0x7f239d6c
+
+
+
+
+res/raw/music_star1.mp3
+0xef9f9bcd
+
+
+
+
+res/raw/music_star2.mp3
+0x2c42e78d
+
+
+
+
+res/raw/music_start.mp3
+0x7f239d6c
+
+
+
+
+res/raw/music_success.mp3
+0xdefc4378
+
+
+
+
+res/raw/music_trap.mp3
+0x7d0db4fb
+
+
+
+
+res/raw/music_upslope.mp3
+0xc08526c0
+
+
+
+
+resources.arsc
+0xf0ce20ff
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.runner.game.temple.jungle.SplashActivity
+android.intent.action.MAIN
+
+
+
+
+com.runner.game.temple.jungle.SplashActivity
+android.intent.category.DEFAULT
+
+
+
+
+com.qihoo.util.StartActivity
+android.intent.action.MAIN
+
+
+
+
+com.qihoo.util.StartActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+org.wivnp.ieuaw.hwibo.glyzo
+
+
+

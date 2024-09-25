@@ -1,0 +1,28 @@
+6316d594a6d3ceddf2308997443b5826ac81eb75e914880c1870c6a6f30c5b9c:['File', 'Location', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/6316d594a6d3ceddf2308997443b5826ac81eb75e914880c1870c6a6f30c5b9c/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/6316d594a6d3ceddf2308997443b5826ac81eb75e914880c1870c6a6f30c5b9c/6316d594a6d3ceddf2308997443b5826ac81eb75e914880c1870c6a6f30c5b9c.gml

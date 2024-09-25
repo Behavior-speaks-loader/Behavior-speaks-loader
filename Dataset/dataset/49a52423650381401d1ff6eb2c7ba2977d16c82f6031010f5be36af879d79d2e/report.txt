@@ -1,0 +1,42 @@
+49a52423650381401d1ff6eb2c7ba2977d16c82f6031010f5be36af879d79d2e:['File', 'Location', 'Network']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.FLASHLIGHT
+android.permission.GET_TASKS
+com.pobing.crafts.permission.MIPUSH_RECEIVE
+android.permission.BLUETOOTH
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_SETTINGS
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.BROADCAST_STICKY
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.android.launcher.permission.READ_SETTINGS
+android.permission.RECORD_VIDEO
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.AUTHENTICATE_ACCOUNTS
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/49a52423650381401d1ff6eb2c7ba2977d16c82f6031010f5be36af879d79d2e/api.txt
+------------------------------
+Intent:
+com.alibaba.sdk.android.hotpatch.action.HOT_PATCH
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/49a52423650381401d1ff6eb2c7ba2977d16c82f6031010f5be36af879d79d2e/49a52423650381401d1ff6eb2c7ba2977d16c82f6031010f5be36af879d79d2e.gml

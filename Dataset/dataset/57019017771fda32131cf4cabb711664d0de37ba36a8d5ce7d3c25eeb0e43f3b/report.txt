@@ -1,0 +1,47 @@
+57019017771fda32131cf4cabb711664d0de37ba36a8d5ce7d3c25eeb0e43f3b:['File', 'Location', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+com.achievo.vipshop.permission.MIPUSH_RECEIVE
+android.permission.RECEIVE_SMS
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+getui.permission.GetuiService.com.achievo.vipshop
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.READ_SMS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_SETTINGS
+android.permission.BATTERY_STATS
+android.permission.INTERNET
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.android.launcher.permission.READ_SETTINGS
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/57019017771fda32131cf4cabb711664d0de37ba36a8d5ce7d3c25eeb0e43f3b/api.txt
+------------------------------
+Intent:
+com.igexin.sdk.action.pushmanager
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/57019017771fda32131cf4cabb711664d0de37ba36a8d5ce7d3c25eeb0e43f3b/57019017771fda32131cf4cabb711664d0de37ba36a8d5ce7d3c25eeb0e43f3b.gml

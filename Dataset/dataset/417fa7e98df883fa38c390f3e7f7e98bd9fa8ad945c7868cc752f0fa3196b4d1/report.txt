@@ -1,0 +1,25 @@
+417fa7e98df883fa38c390f3e7f7e98bd9fa8ad945c7868cc752f0fa3196b4d1:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.ACTION_PACKAGE_REPLACED
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACTION_PACKAGE_REMOVED
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.ACTION_PACKAGE_ADDED
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.BLUETOOTH
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/417fa7e98df883fa38c390f3e7f7e98bd9fa8ad945c7868cc752f0fa3196b4d1/api.txt
+------------------------------
+Intent:
+com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/417fa7e98df883fa38c390f3e7f7e98bd9fa8ad945c7868cc752f0fa3196b4d1/417fa7e98df883fa38c390f3e7f7e98bd9fa8ad945c7868cc752f0fa3196b4d1.gml

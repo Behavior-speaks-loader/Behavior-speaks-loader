@@ -1,0 +1,1958 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+00ec55b064d212118d4ff2b85bb19ce49314d4548a262146667b9b846ede8afd
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.jday.brokescreen
+
+
+
+
+Minimum system version:
+Android 2.1.x
+
+
+
+
+Copyright:
+N/A
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80
+
+
+host:ap****om/**.133.40.** port:80
+
+
+host:r2****om/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.133.40.** port:80 data:data:POST /check_config_update HTTP/1.1
+Content-Length: 350
+Content-Type: application/x-www-form-urlencoded
+Host: oc.umeng.com
+Connection: Keep-Alive
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:content=%7B%22report_policy%22%3A1%2C%22package%22%3A%22com.jday.brokescreen%22%2C%22appkey%22%3A%224fb9d2ea527015057b000025%22%2C%22last_config_time%22%3A%22%22%2C%22sdk_version%22%3A%224.6.3%22%2C%22type%22%3A%22online_config%22%2C%22channel%22%3A%22hiapk%22%2C%22idmd5%22%3A%22aeb0d4e5f4f579854f8b772d8977fdf6%22%2C%22version_code%22%3A%2256%22%7D
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /app_logs HTTP/1.1
+X-Umeng-Sdk: Android/4.6.3 %E7%A0%B4%E7%A2%8E%E5%B1%8F%E5%B9%95%2F5.32+Lenovo+A360t%2F4.4.4+aeb0d4e5f4f579854f8b772d8977fdf6
+Content-Encoding: deflate
+Content-Length: 516
+Host: alog.umeng.com
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:x�URێ�0��O���N�8��CwW��E�V< T9��	i�ȹ�n���x�	�7��
+�Ii�I�g�gΜiM�M�x�r��(ۡ��,Q�a���4�P�	��p4C�n�ʚU� �2B1�	�1gW�W��8/�e����揄�AH���0�����R���&�����ϻm�צ6��ij
+�-�T�Z����x��	��Y
+�yE@d�(��֮�n�h��|୤U��Sz��^mZ�\;�`Ÿ;h���ɑj����$M�8	�g>��y
+H�\�D~������_w_���ln��6�Ǟ���/��z7&�dAضpZ�,�?C����9j�v���v�;[�V:�}N���֛^9��.pzp�`��~��>�.�EtR3�:b���3��	'�:9�����I���t�O����ĽR�X��bp:ǊjVЂ�4a�Hr�C�����Z�r��̸Q�w�	}
+��07=��m�Ŕq�e%����iY�ON`�yk������:
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /check_config_update HTTP/1.1
+Content-Length: 350
+Content-Type: application/x-www-form-urlencoded
+Host: oc.umeng.co
+Connection: Keep-Alive
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /app_logs HTTP/1.1
+X-Umeng-Sdk: Android/4.6.3 %E7%A0%B4%E7%A2%8E%E5%B1%8F%E5%B9%95%2F5.32+Lenovo+A360t%2F4.4.4+aeb0d4e5f4f579854f8b772d8977fdf6
+Content-Encoding: deflate
+Content-Length: 516
+Host: alog.umeng.co
+Connection: Keep-Alive
+
+
+
+
+operation:send host:r2****om/**.133.40.** port:80 data:data:POST /adweb4 HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 252
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: r2.adwo.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+�@D�b1f126063da44dc99adf58d7555781edI 35712****123456|92841014150fc3fdW60000100b900Q��G@2KS�?MlenovoAlenovo a360tPcom.jday.brokescreenC460_00TVWIFIJLFXHR03622C35C04F75C3BED����Z
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'file', u'', u'-1', u'/data/app/com.jday.brokescreen-1.apk', u'null'
+
+
+u'jar:file:/data/app/com.jday.brokescreen-1.apk!/com/zkmm/adsdk/libzkmm.png'
+
+
+u'http://ap****om/adwo/a2'
+
+
+u'http://r2****om/adweb4'
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://co****cn/agent/agent1_android.php?appid=SDK20121321010521ez1hev0fwozpyxu&appver=56&client=0&simulator=0&location=china&time=1451530995&sdkver=200
+
+
+http://co****cn/agent/adinstl_config.php?appid=SDK20121321010521ez1hev0fwozpyxu&appver=56&client=0&simulator=0&location=china&time=1451530995&sdkver=200
+
+
+http://oc****om/check_config_update
+
+
+http://al****om/app_logs
+
+
+http://co****cn
+
+
+http://oc****om
+
+
+http://al****om
+
+
+/check_config_update
+
+
+http://oc****co/check_config_update
+
+
+http://oc****co
+
+
+/app_logs
+
+
+http://al****co/app_logs
+
+
+http://al****co
+
+
+http://re****cn/agent/appReport.php?keyAdView=SDK20121321010521ez1hev0fwozpyxu&keyDev=35712****123456&typeDev=LenovoA360t&osVer=4.4.4&resolution=480*764&servicePro=46000&netType=Wi-Fi&channel=OTHER&platform=android&time=1451530995&sdkver=200&configVer=0
+
+
+http://re****cn
+
+
+
+
+
+Behaviour:
+Read URL data
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:r2****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://ap****om/adwo/a2
+
+
+http://r2****om/adweb4
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+{"china_cfg":{"rations": [{"weight": 20, "nid": "", "priority": 2, "key": "56OJyJiIuM2dw2Bl6b", "type": 30, "nname": "Domob"}, {"weight": 60, "nid": "", "priority": 3, "key": "F7DB7C24DBF400F3AAEEADEA1A139330", "type": 46, "nname": "DevQQ"}, {"weight": 20, "nid": "", "priority": 4, "key": "b1f126063da44dc99adf58d7555781ed", "type": 33, "nname": "Adwo"}], "extra": {"cycle_time": 30, "loacation_on": 0, "transition": 0, "text_color_rgb": {"blue": 255, "alpha": 1, "green": 255, "red": 255}, "report": "report.adview.cn", "background_color_rgb": {"blue": 0, "alpha": 1, "green": 0, "red": 0}}},"foreign_cfg":{"rations": [], "extra": {"cycle_time": 30, "loacation_on": 0, "transition": 0, "text_color_rgb": {"blue": 255, "alpha": 1, "green": 255, "red": 255}, "report": "report.adview.cn", "background_color_rgb": {"blue": 0, "alpha": 1, "green": 0, "red": 0}}}}
+
+
+null
+
+
+MemTotal:        1030096 kB
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/dalvik-cache/data@app@com.jday.brokescreen-1.apk@classes.dex length:67
+
+
+path:/data/dalvik-cache/data@app@com.jday.brokescreen-1.apk@classes.dex length:5
+
+
+path:/data/app/com.jday.brokescreen-1.apk length:9
+
+
+path:/data/app/com.jday.brokescreen-1.apk length:23
+
+
+path:/data/app/com.jday.brokescreen-1.apk length:69
+
+
+path:/data/app/com.jday.brokescreen-1.apk length:68
+
+
+path:/data/app/com.jday.brokescreen-1.apk length:7
+
+
+path:/data/app/com.jday.brokescreen-1.apk length:64
+
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/cpuinfo length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/data/com.jday.brokescreen/.cache/libsecexe.x86.so
+
+
+/data/data/com.jday.brokescreen/.cache/libsecmain.x86.so
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.jday.brokescreen/.cache
+
+
+/data/data/com.jday.brokescreen/shared_prefs/mobclick_agent_state_com.jday.brokescreen.xml.bak
+
+
+/data/data/com.jday.brokescreen/shared_prefs/mobclick_agent_header_com.jday.brokescreen.xml.bak
+
+
+/data/data/com.jday.brokescreen/shared_prefs/ADWO_STATISTIC.xml.bak
+
+
+/data/data/com.jday.brokescreen/shared_prefs/BrokenScreen.xml.bak
+
+
+/data/data/com.jday.brokescreen/shared_prefs/settings.xml.bak
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.jday.brokescreen/.md5 length:37
+
+
+path:/data/data/com.jday.brokescreen/.sec_version length:12
+
+
+path:/data/data/com.jday.brokescreen/.cache/com.jday.brokescreen length:68
+
+
+path:/data/data/com.jday.brokescreen/.cache/libsecexe.x86.so length:69
+
+
+path:/data/data/com.jday.brokescreen/.cache/libsecmain.x86.so length:69
+
+
+path:/data/data/com.jday.brokescreen/.cache/libsecmain.x86.so length:68
+
+
+path:/data/data/com.jday.brokescreen/.cache/libsecmain.x86.so length:64
+
+
+path:/data/data/com.jday.brokescreen/shared_prefs/mobclick_agent_state_com.jday.brokescreen.xml length:244
+
+
+path:/data/data/com.jday.brokescreen/files/mobclick_agent_cached_com.jday.brokescreen length:69
+
+
+path:/data/data/com.jday.brokescreen/shared_prefs/mobclick_agent_header_com.jday.brokescreen.xml length:115
+
+
+path:/data/data/com.jday.brokescreen/cache/libzkmm40.png length:69
+
+
+path:/data/data/com.jday.brokescreen/shared_prefs/ADWO_STATISTIC.xml length:70
+
+
+path:/data/data/com.jday.brokescreen/shared_prefs/BrokenScreen.xml length:261
+
+
+path:/data/data/com.jday.brokescreen/shared_prefs/mobclick_agent_state_com.jday.brokescreen.xml length:261
+
+
+path:/data/data/com.jday.brokescreen/shared_prefs/settings.xml length:124
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+Behaviour:
+Get last location
+
+
+
+
+
+Detail info:
+
+u'gps'
+
+
+u'network'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'cn.domob.android.ads.d@21873238', u'{"action":"android.intent.action.PACKAGE_ADDED"}'
+
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@21a24230', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@2187e478', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+NOTIFY_SERVICE_ID:1
+
+
+NOTIFY_SERVICE_ID:2
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'config1', u'null'
+
+
+u'gold', u'0'
+
+
+u'isPermissioned', u'false'
+
+
+u'config2', u'null'
+
+
+u'umeng_last_config_time', u''
+
+
+u'session_id', u'null'
+
+
+u'configure_version', u'null'
+
+
+u'version', u'1'
+
+
+u'config', u'{"com.admogo.AdMogoLayout":"1","com.guohead.sdk.GHView":"2","com.adview.AdViewLayout":"3","appfactory.cn.adplatform.AdSageLayout":"4"}'
+
+
+u'cookie_id', u'null'
+
+
+u'activities', u''
+
+
+
+
+
+Behaviour:
+Set timed task
+
+
+
+
+
+Detail info:
+
+u'0', u'1451531030487', u'{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.jday.brokescreen\\/com.jday.brokescreen.DelayService}"}'
+
+
+
+
+
+Behaviour:
+Make toast
+
+
+
+
+
+Detail info:
+
+text:2131034117 duration:0
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15529): FATAL EXCEPTION: main
+
+
+
+E/AndroidRuntime(15529): Process: com.jday.brokescreen, PID: 15529
+
+
+
+E/AndroidRuntime(15529): java.lang.RuntimeException: Unable to start service com.jday.ads.download.DownloadService@218fdd30 with Intent { cmp=com.jday.brokescreen/com.jday.ads.download.DownloadService }: android.content.res.Resources$NotFoundException: String resource ID #0x0
+
+
+
+E/AndroidRuntime(15529): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2705)
+
+
+
+E/AndroidRuntime(15529): 	at android.app.ActivityThread.access$2100(ActivityThread.java:135)
+
+
+
+E/AndroidRuntime(15529): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1293)
+
+
+
+E/AndroidRuntime(15529): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/AndroidRuntime(15529): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/AndroidRuntime(15529): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+
+
+
+E/AndroidRuntime(15529): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/AndroidRuntime(15529): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/AndroidRuntime(15529): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+
+
+
+E/AndroidRuntime(15529): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+
+
+
+E/AndroidRuntime(15529): 	at com.tencent.music.v_d20a.core.XposedBridge.main(XposedBridge.java:135)
+
+
+
+E/AndroidRuntime(15529): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21869918', u'font_scale', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21907c40', u'android_id'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21907c40', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21907c40', u'sound_effects_enabled', u'0'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.jday.brokescreen/.cache/classes.jar
+
+
+
+
+
+Behaviour:
+Vibrate
+
+
+
+
+
+Detail info:
+
+u'300'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'session_id', u'9514040850675BDCD777622B9A391589'
+
+
+u'gold', u'A2C8ECC3FCFEE2D460928A17546F3137'
+
+
+u'isPermissioned', u'5DB073AD6A1170101824DDA4A854150B'
+
+
+u'activities', u'["com.jday.brokescreen.StartActivity",34]'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'chmod 755 /data/data/com.jday.brokescreen/.cache/com.jday.brokescreen'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21867350 I.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#40010500 pfl=0x8 fmt=-2 wanim=0x1030000}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21862a88 I.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#40010500 pfl=0x8 fmt=-2 wanim=0x1030000}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.jday.brokescreen.StartActivity@219070a0', u'class com.jday.brokescreen.DelayService'
+
+
+u'android.os.Parcel@2184f420'
+
+
+u'com.jday.brokescreen.DelayService@2188b938', u'class com.jday.brokescreen.BrokenScreenActivity'
+
+
+u'android.os.Parcel@2184f0a0'
+
+
+u'android.os.Parcel@2184f410'
+
+
+
+
+
+Behaviour:
+Check root access
+
+
+
+
+
+Detail info:
+
+/system/bin/su
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "开始", "class": "android.widget.Button"}
+
+
+
+{"text": "选择图片", "class": "android.widget.Button"}
+
+
+
+{"text": "设置", "class": "android.widget.Button"}
+
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":268435456,"COMPONENT_NAME":"ComponentInfo{com.jday.brokescreen\/com.jday.brokescreen.BrokenScreenActivity}","EXTRAS":{"NOTIFY_SERVICE_ID":"1"}}
+
+
+{"FLAG":268435456,"COMPONENT_NAME":"ComponentInfo{com.jday.brokescreen\/com.jday.brokescreen.BrokenScreenActivity}","EXTRAS":{"NOTIFY_SERVICE_ID":"2"}}
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0xf42b2e89
+
+
+
+
+META-INF/DOUNIU.SF
+0x35c9d5f0
+
+
+
+
+META-INF/DOUNIU.RSA
+0xe0936461
+
+
+
+
+assets/meta-data/manifest.mf
+0x65bf9f14
+
+
+
+
+assets/meta-data/rsa.pub
+0xe17beaf3
+
+
+
+
+assets/meta-data/rsa.sig
+0x7cda6ea7
+
+
+
+
+AndroidManifest.xml
+0xa14f97cb
+
+
+
+
+assets/SDK20121321010521ez1hev0fwozpyxu.txt
+0x8ce346fd
+
+
+
+
+assets/adfeiwo_banner_download.png
+0xe9d6e4c4
+
+
+
+
+assets/adfeiwo_banner_slidingdrawer.png
+0x31b4baf2
+
+
+
+
+assets/bangcle_classes.jar
+0x17dd7ea8
+
+
+
+
+assets/com.jday.brokescreen
+0x384013c9
+
+
+
+
+assets/com.jday.brokescreen.x86
+0x32b71394
+
+
+
+
+assets/domob.js
+0x61d2080e
+
+
+
+
+assets/domob_banner.png
+0x65625e3c
+
+
+
+
+assets/domob_border_black.png
+0x7db8e829
+
+
+
+
+assets/domob_border_white.png
+0xb9b7748b
+
+
+
+
+assets/domob_close.png
+0x45036b9
+
+
+
+
+assets/domob_exit.png
+0x1a493ec5
+
+
+
+
+assets/domob_exit_on.png
+0x8583c522
+
+
+
+
+assets/domob_loading.png
+0xe96fa652
+
+
+
+
+assets/domob_next.png
+0xb4085952
+
+
+
+
+assets/domob_next_off.png
+0x9fa35a0e
+
+
+
+
+assets/domob_next_on.png
+0xd8091c75
+
+
+
+
+assets/domob_out.png
+0x2109366d
+
+
+
+
+assets/domob_out_on.png
+0xe6211b8c
+
+
+
+
+assets/domob_preview.png
+0x9314345c
+
+
+
+
+assets/domob_preview_off.png
+0x2b2ef377
+
+
+
+
+assets/domob_preview_on.png
+0x21da77b4
+
+
+
+
+assets/domob_refresh.png
+0x167df239
+
+
+
+
+assets/domob_refresh_on.png
+0x2addffa3
+
+
+
+
+assets/libsecexe.x86.so
+0x9d313fa3
+
+
+
+
+assets/libsecmain.x86.so
+0x4b953434
+
+
+
+
+assets/mraid.js
+0x13e99079
+
+
+
+
+classes.dex
+0xe4510fcb
+
+
+
+
+com/zkmm/adsdk/libzkmm.png
+0x66c0a8d6
+
+
+
+
+extra/__pasys_remote_banner.jar
+0xf305ee09
+
+
+
+
+lib/armeabi/libsecexe.so
+0x8cef4bac
+
+
+
+
+lib/armeabi/libsecmain.so
+0xc8c74634
+
+
+
+
+res/drawable-hdpi/icon.png
+0x582df0a0
+
+
+
+
+res/drawable-land/app_ad_dialog_bg.png
+0xcfe3eced
+
+
+
+
+res/drawable-land/app_ad_item_bg.png
+0xf053bf65
+
+
+
+
+res/drawable-ldpi/icon.png
+0xdd98a158
+
+
+
+
+res/drawable-mdpi/broken1.png
+0x3c6e1c45
+
+
+
+
+res/drawable-mdpi/broken2.png
+0x5e10b6d7
+
+
+
+
+res/drawable-mdpi/broken3.png
+0x52bcb71
+
+
+
+
+res/drawable-mdpi/broken4.png
+0x485bc3e8
+
+
+
+
+res/drawable-mdpi/broken5.png
+0x9bcf02e4
+
+
+
+
+res/drawable-mdpi/broken6.png
+0xa169b3f3
+
+
+
+
+res/drawable-mdpi/broken7.png
+0x6e1ab71d
+
+
+
+
+res/drawable-mdpi/broken8.png
+0xeaf529d9
+
+
+
+
+res/drawable-mdpi/broken9.png
+0x39c32a8a
+
+
+
+
+res/drawable-mdpi/icon.png
+0xcc11416d
+
+
+
+
+res/drawable-xhdpi/icon.png
+0x9364fe16
+
+
+
+
+res/drawable/a1.jpg
+0x58b0755d
+
+
+
+
+res/drawable/a10.jpg
+0x32a4ff7a
+
+
+
+
+res/drawable/a11.jpg
+0x42ddb2f4
+
+
+
+
+res/drawable/a12.jpg
+0xa43e640c
+
+
+
+
+res/drawable/a13.jpg
+0x75ffbde
+
+
+
+
+res/drawable/a14.jpg
+0xaa996551
+
+
+
+
+res/drawable/a15.jpg
+0xa3f3234f
+
+
+
+
+res/drawable/a16.jpg
+0xaa527186
+
+
+
+
+res/drawable/a17.jpg
+0xcda75249
+
+
+
+
+res/drawable/a18.jpg
+0x57bc272c
+
+
+
+
+res/drawable/a19.jpg
+0xba4a6db6
+
+
+
+
+res/drawable/a2.jpg
+0x3d2c4865
+
+
+
+
+res/drawable/a20.jpg
+0x6621c4fa
+
+
+
+
+res/drawable/a21.jpg
+0xfec4a438
+
+
+
+
+res/drawable/a3.jpg
+0xf66c8115
+
+
+
+
+res/drawable/a4.jpg
+0xdea92c7
+
+
+
+
+res/drawable/a5.jpg
+0xd1b2438f
+
+
+
+
+res/drawable/a6.jpg
+0xfac8a879
+
+
+
+
+res/drawable/a7.jpg
+0xb34074c9
+
+
+
+
+res/drawable/a8.jpg
+0xcc3b6fac
+
+
+
+
+res/drawable/a9.jpg
+0xdb7e1ad6
+
+
+
+
+res/drawable/app_ad_dialog_bg.png
+0x6b349925
+
+
+
+
+res/drawable/app_ad_item_bg.png
+0xec464012
+
+
+
+
+res/drawable/app_blackjack.png
+0xe004e49d
+
+
+
+
+res/drawable/app_blackjackhd.png
+0x96f7abb2
+
+
+
+
+res/drawable/app_brokescreen.png
+0x582df0a0
+
+
+
+
+res/drawable/app_doudizhu.png
+0x6f88770e
+
+
+
+
+res/drawable/app_douniu.png
+0x95c97fb2
+
+
+
+
+res/drawable/app_douniuhd.png
+0xc1a3fcf0
+
+
+
+
+res/drawable/app_kengdieya.png
+0xc7dfe69c
+
+
+
+
+res/drawable/app_paodekuai.png
+0xa45a51fd
+
+
+
+
+res/drawable/app_snake.png
+0xcbc8010f
+
+
+
+
+res/drawable/app_squirrelrun.png
+0x624ea7b9
+
+
+
+
+res/drawable/app_tetris.png
+0xee8bbc48
+
+
+
+
+res/drawable/app_wushik.png
+0x4adab8d1
+
+
+
+
+res/drawable/icon.png
+0xcc11416d
+
+
+
+
+res/drawable/no_permission.png
+0x8facfa0b
+
+
+
+
+res/layout-land/app_exit_dialog.xml
+0xec43235a
+
+
+
+
+res/layout-land/app_exit_list_item.xml
+0x546b3568
+
+
+
+
+res/layout/app_banner.xml
+0x7c2cff2c
+
+
+
+
+res/layout/app_exit_dialog.xml
+0xa46be096
+
+
+
+
+res/layout/app_exit_list_item.xml
+0xf4bec277
+
+
+
+
+res/layout/app_list_item.xml
+0xee5083d8
+
+
+
+
+res/layout/brokenscreen.xml
+0xc6aceb1d
+
+
+
+
+res/layout/image.xml
+0x2062d645
+
+
+
+
+res/layout/notify_content.xml
+0x14385724
+
+
+
+
+res/layout/set.xml
+0x430827d6
+
+
+
+
+res/layout/start.xml
+0xc4668d23
+
+
+
+
+res/raw/s1.mp3
+0x262d340f
+
+
+
+
+res/raw/s10.mp3
+0x90944430
+
+
+
+
+res/raw/s11.mp3
+0x7e7309bb
+
+
+
+
+res/raw/s12.mp3
+0x76099446
+
+
+
+
+res/raw/s13.mp3
+0x7ddc6c89
+
+
+
+
+res/raw/s14.mp3
+0xf7f1ead
+
+
+
+
+res/raw/s15.mp3
+0x96d34f96
+
+
+
+
+res/raw/s16.mp3
+0xca858747
+
+
+
+
+res/raw/s17.mp3
+0x895bf66a
+
+
+
+
+res/raw/s18.mp3
+0x806d1331
+
+
+
+
+res/raw/s19.mp3
+0xd55d178f
+
+
+
+
+res/raw/s2.ogg
+0xf11813ef
+
+
+
+
+res/raw/s20.mp3
+0xcacfde60
+
+
+
+
+res/raw/s21.mp3
+0xd4d72c62
+
+
+
+
+res/raw/s22.mp3
+0xa473f1d0
+
+
+
+
+res/raw/s23.mp3
+0x70c3033d
+
+
+
+
+res/raw/s24.mp3
+0x223fb456
+
+
+
+
+res/raw/s25.mp3
+0x6f6288a8
+
+
+
+
+res/raw/s3.mp3
+0x62345786
+
+
+
+
+res/raw/s4.mp3
+0xc9529e08
+
+
+
+
+res/raw/s5.mp3
+0x828c2b0c
+
+
+
+
+res/raw/s6.mp3
+0x9d45b058
+
+
+
+
+res/raw/s7.mp3
+0x71dfbc08
+
+
+
+
+res/raw/s8.mp3
+0xb2a999e3
+
+
+
+
+res/raw/s9.mp3
+0x1b351a9d
+
+
+
+
+res/raw/sound1.mp3
+0xfc4a2feb
+
+
+
+
+res/raw/sound2.mp3
+0x1f308fb8
+
+
+
+
+res/raw/sound3.mp3
+0xeb77e3d3
+
+
+
+
+res/raw/sound4.mp3
+0x26cd0834
+
+
+
+
+resources.arsc
+0x929937f0
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.jday.brokescreen.StartActivity
+android.intent.action.MAIN
+
+
+
+
+com.jday.brokescreen.StartActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Name
+Detail info
+
+
+
+
+com.jday.ads.download.ApkInstallReceiver
+Start after package added
+
+
+
+
+
+com.adfeiwo.banner.AdReceiver
+Start after package added
+
+
+
+
+
+com.feiwo.coverscreen.SR
+Start after package added
+
+
+
+
+
+com.feiwo.coverscreen.SR
+Start after package removed
+
+
+
+
+
+com.feiwo.coverscreen.SR
+Start after screen unlocked
+
+
+
+
+
+com.feiwo.coverscreen.SR
+N/A
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.CHANGE_WIFI_STATE
+
+
+
+
+android.permission.READ_LOGS
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.jday.brokescreen.DelayService
+
+
+
+
+com.jday.ads.download.DownloadService
+
+
+

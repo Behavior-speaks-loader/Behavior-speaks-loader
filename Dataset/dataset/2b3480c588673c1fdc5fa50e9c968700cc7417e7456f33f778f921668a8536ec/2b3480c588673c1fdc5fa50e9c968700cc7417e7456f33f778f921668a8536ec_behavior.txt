@@ -1,0 +1,978 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+2b3480c588673c1fdc5fa50e9c968700cc7417e7456f33f778f921668a8536ec
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.xxmtangg
+
+
+
+
+Minimum system version:
+Android 2.1.x
+
+
+
+
+Copyright:
+ywyd
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://xx****om/check_config_update
+
+
+http://xx****om/app_logs
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/data/data/com.xxmtangg/cache/ads-1573713886.jar
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/proc/meminfo length:69
+
+
+path:/proc/cpuinfo length:69
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/app-lib/com.xxmtangg-1/libgdx.so
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+MemTotal:        1030096 kB
+
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+N/A
+
+
+menu.png
+
+
+format: RGBA8888
+
+
+filter: Nearest,Nearest
+
+
+repeat: none
+
+
+mainbg
+
+
+  rotate: false
+
+
+  xy: 1, 221
+
+
+  size: 480, 800
+
+
+  orig: 480, 800
+
+
+  offset: 0, 0
+
+
+  index: -1
+
+
+logo
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.xxmtangg/shared_prefs/com.xxmtangg_preferences.xml length:145
+
+
+path:/data/data/com.xxmtangg/shared_prefs/mobclick_agent_state_com.xxmtangg.xml length:261
+
+
+path:/data/data/com.xxmtangg/cache/ads-1573713886.jar length:69
+
+
+path:/data/data/com.xxmtangg/shared_prefs/mobclick_agent_header_com.xxmtangg.xml length:261
+
+
+path:/data/data/com.xxmtangg/shared_prefs/Candy.xml length:255
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.xxmtangg/shared_prefs/com.xxmtangg_preferences.xml.bak
+
+
+/data/data/com.xxmtangg/shared_prefs/mobclick_agent_state_com.xxmtangg.xml.bak
+
+
+/data/data/com.xxmtangg/shared_prefs/mobclick_agent_header_com.xxmtangg.xml.bak
+
+
+/data/data/com.xxmtangg/cache/ads-1573713886.jar
+
+
+/data/data/com.xxmtangg/cache/ads-1573713886.dex
+
+
+/data/data/com.xxmtangg/shared_prefs/Candy.xml.bak
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+Behaviour:
+Get last location
+
+
+
+
+
+Detail info:
+
+u'gps'
+
+
+u'network'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@2187e2c0', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@218aa478', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+u'com.google.ads.util.AdUtil$UserActivityReceiver@218a14a8', u'{"action":"android.intent.action.USER_PRESENT|android.intent.action.SCREEN_OFF"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'umeng_last_config_time', u''
+
+
+u'adkey', u''
+
+
+u'session_id', u'null'
+
+
+u'user_id', u''
+
+
+u'id_source', u''
+
+
+u'iad', u''
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+content://com.google.plus.platform/token
+
+
+market://details?id=com.google.ads
+
+
+geo:0,0?q=donuts
+
+
+market://search?q=pname:com.google
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218afa30', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218c9e10', u'font_scale', u'0'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.xxmtangg/cache/ads-1573713886.jar
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'drt', u''
+
+
+u'appkey', u'527073ee56240b904d05c436'
+
+
+u'session_id', u'9AA48FB20B68CD69AA547D56D3BC2675'
+
+
+u'activities', u''
+
+
+u'header', u'{"os":"Android","package":"com.xxmtangg","cpu":"ARMv7 Processor rev 0 (v7l)","appkey":"527073ee56240b904d05c436","sdk_version":"4.3","app_version":"4.12.4","device_id":"35712****123456","resolution":"480*764","access":"Wi-Fi","country":"CN","os_version":"4.4.4","version_code":"2014120417","idmd5":"aeb0d4e5f4f579854f8b772d8977fdf6","device_model":"HABOmodel","timezone":8,"sdk_type":"Android","mc":"01:*:*:*:*:b0","carrier":"\u4e2d\u56fd\u79fb\u52a8 4G","language":"zh","channel":"google_play"}'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218a1fb0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810500 pfl=0x8 wanim=0x1030001}'
+
+
+
+
+
+Behaviour:
+Access shared app data
+
+
+
+
+
+Detail info:
+
+u'content://com.google.plus.platform/token', u'[drt]', u'null', u'null', u'null'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.mon.game.fruitlegend.FruitActivity@218c46b8', u'class com.google.ads.AdActivity'
+
+
+u'android.intent.action.VIEW', u'market://details?id=com.google.ads'
+
+
+u'android.intent.action.VIEW', u'geo:0,0?q=donuts'
+
+
+u'android.intent.action.VIEW', u'market://search?q=pname:com.google'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0x44077f6b
+
+
+
+
+META-INF/CERT.SF
+0x838779af
+
+
+
+
+META-INF/CERT.RSA
+0x3a3bc380
+
+
+
+
+assets/game.png
+0xfe99d70
+
+
+
+
+assets/sound/wonderful.mp3
+0xa43bfd79
+
+
+
+
+assets/effects/fruit1.png
+0x661e7ae8
+
+
+
+
+assets/sound/selectlevel.mp3
+0xf09b1358
+
+
+
+
+assets/fonts/font.fnt
+0x7302b966
+
+
+
+
+assets/sound/superfruit.mp3
+0x54b73cb9
+
+
+
+
+assets/fonts/big.png
+0x56d771dc
+
+
+
+
+resources.arsc
+0x31993ba4
+
+
+
+
+assets/sound/win.mp3
+0x2d91196a
+
+
+
+
+assets/effects/fruit2.pl
+0x97c34c20
+
+
+
+
+res/drawable/bgmain.jpg
+0xf80f0692
+
+
+
+
+assets/effects/fruit1.pl
+0x11573e8e
+
+
+
+
+assets/sound/select.mp3
+0xcf0cd341
+
+
+
+
+AndroidManifest.xml
+0x47bf1f13
+
+
+
+
+assets/sound/addtime.mp3
+0xec31f964
+
+
+
+
+res/drawable/ic_launcher.png
+0xbdbf3843
+
+
+
+
+assets/effects/fruit2.png
+0x8bbe9156
+
+
+
+
+assets/game.pack
+0x221de60a
+
+
+
+
+assets/sound/unfreeze.mp3
+0xe5d9125c
+
+
+
+
+assets/sound/bomb.mp3
+0xd5e22fdb
+
+
+
+
+assets/fonts/big.fnt
+0x3afbfb5e
+
+
+
+
+assets/effects/fruit4.png
+0x515e444c
+
+
+
+
+assets/fonts/font.png
+0xd8852207
+
+
+
+
+assets/sound/complete.mp3
+0x2d91196a
+
+
+
+
+assets/sound/bg.mp3
+0x4d28e77b
+
+
+
+
+assets/sound/fire.mp3
+0x3834ebc5
+
+
+
+
+res/xml/widget4x1.xml
+0xcd1cf388
+
+
+
+
+assets/sound/fail.mp3
+0x16e4341
+
+
+
+
+assets/menu.png
+0x1641d4bb
+
+
+
+
+assets/effects/fruit5.png
+0xa9ecc087
+
+
+
+
+classes.dex
+0xc2267b67
+
+
+
+
+lib/armeabi/libgdx.so
+0x1c2ab1d5
+
+
+
+
+assets/menu.pack
+0x2fdfc53d
+
+
+
+
+res/xml/wallpaper.xml
+0xd1dbab3a
+
+
+
+
+res/layout/main.xml
+0x6b7ee4cd
+
+
+
+
+assets/effects/fruit3.png
+0x5db4ee92
+
+
+
+
+res/layout/widgetlayout.xml
+0xcd5cbe34
+
+
+
+
+assets/sound/clear.mp3
+0x8aa54fbe
+
+
+
+
+assets/effects/fruit3.pl
+0x5c9f9f85
+
+
+
+
+assets/effects/fruit5.pl
+0x8ac67c98
+
+
+
+
+assets/effects/fruit4.pl
+0x419aaf3d
+
+
+
+
+lib/armeabi-v7a/libgdx.so
+0xa0cff327
+
+
+
+
+assets/sound/click.mp3
+0x785eb1b
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.mon.game.fruitlegend.FruitActivity
+android.intent.action.MAIN
+
+
+
+
+com.mon.game.fruitlegend.FruitActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Name
+Detail info
+
+
+
+
+com.mon.game.fruitlegend.GameWidget
+Start after appwidget updated
+
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.mon.game.fruitlegend.GameLiveWallpaper
+
+
+

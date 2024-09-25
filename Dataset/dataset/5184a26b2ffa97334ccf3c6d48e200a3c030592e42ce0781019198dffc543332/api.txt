@@ -1,0 +1,65 @@
+Lcom/baidu/protect/A;-><init>()V [access_flags=public constructor] @ 0x8fc
+Ljava/lang/Object;-><init>()V
+Lcom/baidu/protect/A;->c()[Ljava/lang/String; [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/A;->d()Ljava/util/Enumeration; [access_flags=public static] @ 0x928
+Lcom/baidu/protect/A;->nextElement()Ljava/lang/Object; [access_flags=public bridge synthetic] @ 0x96c
+Lcom/baidu/protect/A;->nextElement()Ljava/lang/String; [access_flags=public] @ 0x988
+Lcom/baidu/protect/A;->a()V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/A;->b()V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/StubApplication;-><clinit>()V [access_flags=static constructor] @ 0x9b0
+Lcom/baidu/protect/StubApplication;->loadX86Library()V [access_flags=private static] @ 0xba4
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Landroid/os/Debug;->isDebuggerConnected()Z
+Lcom/baidu/protect/StubApplication;->isX86CPU()Z [access_flags=private static] @ 0xb38
+Ljava/io/FileInputStream;->read([B I I)I
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Ljava/lang/Exception;->printStackTrace()V
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Ljava/io/File;->lastModified()J
+Ljava/io/File;->delete()Z
+Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Lcom/baidu/protect/StubApplication;->getDataFolder(Ljava/lang/String;)Ljava/lang/String; [access_flags=private static] @ 0xa0c
+Ljava/util/zip/ZipInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Ljava/io/File;->exists()Z
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/util/zip/ZipEntry;->getTime()J
+Lcom/baidu/protect/StubApplication;->is64BitEnv()Z [access_flags=private static] @ 0xabc
+Ljava/io/File;->setLastModified(J)Z
+Ljava/io/IOException;->printStackTrace()V
+Ljava/io/FileOutputStream;->flush()V
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Ljava/lang/String;->lastIndexOf(I)I
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/util/zip/ZipInputStream;->close()V
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/io/BufferedReader;->close()V
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/util/zip/ZipInputStream;->getNextEntry()Ljava/util/zip/ZipEntry;
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/util/zip/ZipInputStream;->closeEntry()V
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Ljava/util/zip/ZipInputStream;->read([B)I
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/io/File;->mkdir()Z
+Ljava/io/FileOutputStream;->close()V
+Lcom/baidu/protect/StubApplication;-><init>()V [access_flags=public constructor] @ 0x9ec
+Landroid/app/Application;-><init>()V
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Landroid/os/Process;->myUid()I
+Lcom/baidu/protect/StubApplication;->getPackageName()Ljava/lang/String; [access_flags=public] @ 0xfb8
+Landroid/app/Application;->getPackageName()Ljava/lang/String;
+Lcom/baidu/protect/StubApplication;->onCreate()V [access_flags=public] @ 0xfe0
+Landroid/app/Application;->onCreate()V
+Lcom/baidu/protect/StubProvider;-><clinit>()V [access_flags=static constructor] @ 0x1004
+Lcom/baidu/protect/StubProvider;-><init>()V [access_flags=public constructor] @ 0x101c
+Landroid/content/ContentProvider;-><init>()V

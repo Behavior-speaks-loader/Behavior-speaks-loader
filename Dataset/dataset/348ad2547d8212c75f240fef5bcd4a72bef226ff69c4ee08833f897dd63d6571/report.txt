@@ -1,0 +1,26 @@
+348ad2547d8212c75f240fef5bcd4a72bef226ff69c4ee08833f897dd63d6571:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.REORDER_TASKS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.READ_LOGS
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/348ad2547d8212c75f240fef5bcd4a72bef226ff69c4ee08833f897dd63d6571/api.txt
+------------------------------
+Intent:
+org.agoo.android.intent.action.RECEIVE
+com.qiugonglue.qgl_redangisland.intent.action.COMMAND
+org.agoo.android.intent.action.RE_ELECTION_V2
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/348ad2547d8212c75f240fef5bcd4a72bef226ff69c4ee08833f897dd63d6571/348ad2547d8212c75f240fef5bcd4a72bef226ff69c4ee08833f897dd63d6571.gml

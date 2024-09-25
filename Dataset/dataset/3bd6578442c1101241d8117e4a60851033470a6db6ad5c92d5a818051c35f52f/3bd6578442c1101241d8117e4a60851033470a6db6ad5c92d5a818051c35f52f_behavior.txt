@@ -1,0 +1,1490 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+3bd6578442c1101241d8117e4a60851033470a6db6ad5c92d5a818051c35f52f
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.trans.minijump
+
+
+
+
+Minimum system version:
+Android 2.1.x
+
+
+
+
+Copyright:
+transmension.com
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:mj****om/**.133.40.** port:80
+
+
+host:se****om/**.133.40.** port:80
+
+
+host:ga****om/**.133.40.** port:80
+
+
+host:Ur****om/**.133.40.** port:80
+
+
+host:/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:mj****om/**.133.40.** port:80 data:data:POST /index.php/server HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: mjoy.91.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 288
+
+�00000000000000000000000000000000NoNRVlUBIiWuBbsetTk1htfZjQ7ZjA+FoixP4DMgxX+nV6aw3RzrHMEx6YuHdtRMpQIt+OPvP5K7mNNIpOLHFr3uURZiYRKplD77XF3hccAA6B0iIdhBrSvr4obic1tKqLdC0K/1gIUxTpfRuYexwt+9Mxol7b04TKVyto2DoVA1OJPFCThsnAlVYskNM5dQHErSX26X0JyxELfo4gyAGQNb2J47RbS4
+
+
+operation:send host:se****om/**.133.40.** port:80 data:data:POST /usercenter/UP.aspx HTTP/1.1
+CONTENT-TYPE: application/octet-stream
+CONNECTION: Keep-Alive
+ACCEPT: */*
+ACCEPT-CHARSET: UTF-8
+ACCEPT-LANGUAGE: zh-cn
+CONTENT-LENGTH: 154
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: service.sj.91.com
+Accept-Encoding: gzip
+
+2250{"AppVersion":"9","Platform":"8","AppIdentifier":"com.trans.minijump","OsVersion":"4.4.4"}
+
+
+operation:send host:ga****om/**.133.40.** port:80 data:data:GET /payapkwebapp/index.php?m=Index&a=index&version=0 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: gamehall.kalazhu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /aap.do HTTP/1.1
+Content-Length: 254
+Content-Type: application/octet-stream
+Host: data.flurry.com
+Connection: Keep-Alive
+
+yQ��H"7KP1B72H4HHQRHZ69J6D1.0 mele.arm.zh_cn AND92841014150fc3fdQ��HQ��Hdevice.modelHABOmodelbuild.brandLenovobuild.idKTU84Qversion.release4.4.4build.deviceS898tp
+build.productsmarttp_open
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://mj****om/index.php/server
+
+
+http://se****om/usercenter/UP.aspx
+
+
+http://ga****om/payapkwebapp/index.php?m=Index&a=index&version=0
+
+
+http://Ur****om/Update.ashx?PlatformVersion=3.2.1.2
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://mj****om/index.php/server
+
+
+http://se****om/usercenter/UP.aspx
+
+
+http://ga****om/payapkwebapp/index.php?m=Index&a=index&version=0
+
+
+http://up****om/v2/update.php?game=minijump&company=mele&remoter=androidremote&lang=zh_cn&use_auth=noauth&use_network=nonetwork&version=169_1676_448_944&board=android&macaddr=01:*:*:*:*:b0&device=92841014150fc3fd&imei=35712****123456
+
+
+http://da****om/aap.do
+
+
+http://Ur****om/Update.ashx?PlatformVersion=3.2.1.2
+
+
+http://up****om
+
+
+http://mo****om/howmuch.php?game=minijump
+
+
+http://mo****om
+
+
+http://da****om
+
+
+/aap.do
+
+
+http://up****om/v2/update.php?game=minijump&company=mele&remoter=androidremote&lang=zh_cn&use_auth=noauth&use_network=nonetwork&version=169_1676_448_944&board=android&macaddr=01:*:*:*:*:b0&device=92841014150fc3fd&imei=35712****123456&action=exit
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:mj****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:se****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:ga****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:Ur****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://mj****om/index.php/server'
+
+
+u'http://se****om/usercenter/UP.aspx'
+
+
+u'http://ga****om/payapkwebapp/index.php?m=Index&a=index&version=0'
+
+
+u'http://Ur****om/Update.ashx?PlatformVersion=3.2.1.2'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/data/data/com.trans.minijump/cache/.tmp--1573713886.apk
+
+
+/storage/emulated/0/com.trans.minijump/logs/2015-12-31.log
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.trans.minijump/shared_prefs/adsdk_info.xml.bak
+
+
+/data/data/com.trans.minijump/files/tmppostlog.xml
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+path:/sys/class/net/sit0/ifindex length:7
+
+
+path:/sys/class/net/sit0/ifindex length:5
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:7
+
+
+path:/sys/class/net/ip6tnl0/ifindex length:5
+
+
+path:/sys/class/net/lo/mtu length:11
+
+
+path:/sys/class/net/lo/mtu length:5
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.trans.minijump/shared_prefs/adsdk_info.xml length:135
+
+
+path:/data/data/com.trans.minijump/files/.flurryagent.5cf410ce length:7
+
+
+path:/data/data/com.trans.minijump/files/.flurryagent.5cf410ce length:27
+
+
+path:/data/data/com.trans.minijump/files/.flurryagent.5cf410ce length:26
+
+
+path:/data/data/com.trans.minijump/files/.flurryagent.5cf410ce length:6
+
+
+path:/data/data/com.trans.minijump/files/.flurryagent.5cf410ce length:13
+
+
+path:/data/data/com.trans.minijump/files/.flurryagent.5cf410ce length:69
+
+
+path:/data/data/com.trans.minijump/shared_prefs/adsdk_info.xml length:191
+
+
+path:/storage/emulated/0/com.trans.minijump/logs/2015-12-31.log length:134
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/com.trans.minijump/logs/2015-12-31.log
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+DefaultHttpClient;->execute
+Send HTTP request
+
+
+
+
+
+SmsManager;->sendMultipartTextMessage
+Send mms
+
+
+
+
+
+SmsManager;->sendTextMessage
+Send normal sms
+
+
+
+
+
+java/net/URLConnection;->connect
+Connect to URL
+
+
+
+
+
+TelephonyManager;->getLine1Number
+Get phone number
+
+
+
+
+
+ContentResolver;->delete
+Delete contact or sms
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get installed app
+
+
+
+
+
+Detail info:
+
+u'0'
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.trans.TransPackageReceiver@21891690', u'{"action":"android.intent.action.PACKAGE_ADDED|android.intent.action.PACKAGE_REMOVED|android.intent.action.PACKAGE_REPLACED"}'
+
+
+u'com.trans.LenovoBroadcastReceiver@218cbb18', u'{"action":"com.lenovo.dll.nebula.launcher.home|com.lenovo.nebula.settings.action.launch|android.os.RemoteControllerService.Broadcast"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'lastCheckVersion', u''
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+content://telephony/carriers
+
+
+content://telephony/carriers/preferapn
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15531): Process: com.trans.minijump, PID: 15531
+
+
+
+E/AndroidRuntime(15531): java.lang.IllegalArgumentException
+
+
+
+E/AndroidRuntime(15531): 	at com.google.android.gles_jni.EGLImpl._eglCreateContext(Native Method)
+
+
+
+E/AndroidRuntime(15531): 	at com.google.android.gles_jni.EGLImpl.eglCreateContext(EGLImpl.java:54)
+
+
+
+E/AndroidRuntime(15531): 	at com.trans.GameView$ContextFactory.createContext(GameView.java:452)
+
+
+
+E/AndroidRuntime(15531): 	at com.trans.GLView$EglHelper.start(GLView.java:1183)
+
+
+
+E/AndroidRuntime(15531): 	at com.trans.GLView$GLThread.prepare(GLView.java:1545)
+
+
+
+E/AndroidRuntime(15531): 	at com.trans.GLView$GLThread.guardedRun(GLView.java:1678)
+
+
+
+E/AndroidRuntime(15531): 	at com.trans.GLView$GLThread.run(GLView.java:1397)
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@21877df8', u'android_id'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21889b40 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) ty=1 fl=#40010500 pfl=0x8 wanim=0x1030001}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'tv.huan.sdk.pay2.MainServer'
+
+
+u'com.trans.service.PayService'
+
+
+u'com.bestv.ott.aidl.IAidlOttCService'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+resources.arsc
+0x5732cfe9
+
+
+
+
+META-INF/APK_TRAN.SF
+0xe65ab24a
+
+
+
+
+META-INF/ALICERT.PEM
+0x39c58261
+
+
+
+
+META-INF/MANIFEST.MF
+0x6090e537
+
+
+
+
+META-INF/APK_TRAN.RSA
+0x7e285456
+
+
+
+
+assets/alipay_plugin231_0901.apk
+0x35ce7737
+
+
+
+
+assets/files/version
+0xe434eb84
+
+
+
+
+assets/files/myfont0.png
+0x4b89a8e
+
+
+
+
+assets/files/myfont.xml
+0x93d6af7c
+
+
+
+
+assets/files/FontEntry0.tga
+0x1514d078
+
+
+
+
+assets/files/textures/start.jpg
+0x3d9d0ee7
+
+
+
+
+assets/files/textures/boy2.tga
+0xb4449eef
+
+
+
+
+assets/files/textures/side.jpg
+0x4cf66dee
+
+
+
+
+assets/files/textures/spring.jpg
+0x8bbb2574
+
+
+
+
+assets/files/textures/arrow.tga
+0x76ddfeac
+
+
+
+
+assets/files/textures/boy0.tga
+0xee7b2a9d
+
+
+
+
+assets/files/textures/pointer.jpg
+0x5ae47923
+
+
+
+
+assets/files/textures/jumpPanel.tga
+0x7088b0b8
+
+
+
+
+assets/files/textures/boy4.tga
+0x72fbcd41
+
+
+
+
+assets/files/textures/sky.jpg
+0x1fc59c63
+
+
+
+
+assets/files/textures/test.jpg
+0x8fff6d43
+
+
+
+
+assets/files/textures/girl4.tga
+0x823042f0
+
+
+
+
+assets/files/textures/spring.tga
+0x2deda945
+
+
+
+
+assets/files/textures/gold.tga
+0x44e21b88
+
+
+
+
+assets/files/textures/girl1.tga
+0xe8244b99
+
+
+
+
+assets/files/textures/boy1.tga
+0x80277932
+
+
+
+
+assets/files/textures/girl0.tga
+0xb7534400
+
+
+
+
+assets/files/textures/boy3.tga
+0x38088b07
+
+
+
+
+assets/files/textures/girl3.tga
+0x4fa9d8be
+
+
+
+
+assets/files/textures/girl2.tga
+0xe42217b9
+
+
+
+
+assets/files/textures/back.tga
+0x157e3eae
+
+
+
+
+assets/files/textures/ui/trial_word_.png
+0xb01e9d43
+
+
+
+
+assets/files/textures/ui/TitleResource02.png
+0xf3b7f37c
+
+
+
+
+assets/files/textures/ui/Title_Menu_S.png
+0x9ccc8544
+
+
+
+
+assets/files/textures/ui/Title_Back.jpg
+0xb51d4179
+
+
+
+
+assets/files/textures/ui/InGame_Round.png
+0x13524f53
+
+
+
+
+assets/files/textures/ui/connectFailed.png
+0xdee31f76
+
+
+
+
+assets/files/textures/ui/Message.png
+0xa3fce987
+
+
+
+
+assets/files/textures/ui/number.png
+0x82fabb83
+
+
+
+
+assets/files/textures/ui/remoteReconnecting.png
+0xae107206
+
+
+
+
+assets/files/textures/ui/remoteConnecting.png
+0x49711421
+
+
+
+
+assets/files/textures/ui/title_CopyRight.png
+0xc51d9aad
+
+
+
+
+assets/files/textures/ui/InGame_Panel.png
+0x762bc9ee
+
+
+
+
+assets/files/textures/ui/InGameResource.png
+0x94c64511
+
+
+
+
+assets/files/textures/ui/Title.png
+0x618586cb
+
+
+
+
+assets/files/textures/ui/MessagePanel.png
+0x1fa493ce
+
+
+
+
+assets/files/textures/ui/introduce.png
+0x87ddf03e
+
+
+
+
+assets/files/textures/ui/InGame_Score.png
+0xb13a661d
+
+
+
+
+assets/files/textures/ui/TitleResource01.png
+0x8ee88449
+
+
+
+
+assets/files/textures/ui/Title_Menu.png
+0x4d4977fb
+
+
+
+
+assets/files/textures/ui/title_cursor.png
+0x96e82889
+
+
+
+
+assets/files/textures/ui/number_.png
+0x3a43cb9f
+
+
+
+
+assets/files/textures/track.jpg
+0x4c2dcd16
+
+
+
+
+assets/files/textures/grass.jpg
+0xc96729e3
+
+
+
+
+assets/files/sounds/Start.wav
+0xdd7581df
+
+
+
+
+assets/files/sounds/Jump.wav
+0xa5265735
+
+
+
+
+assets/files/sounds/Landing.wav
+0xab6a3a99
+
+
+
+
+assets/files/sounds/Win.wav
+0xa5e0a1ff
+
+
+
+
+assets/files/sounds/Goal.wav
+0x14b45334
+
+
+
+
+assets/files/sounds/Sellect.wav
+0xee7f56db
+
+
+
+
+assets/files/sounds/Spring.wav
+0xa8f08b60
+
+
+
+
+assets/files/sounds/GotGold.wav
+0x3efbeaea
+
+
+
+
+assets/files/models/pointer.md2
+0x7a7e32c4
+
+
+
+
+assets/files/models/boy_stand.md2
+0xe79c8a1a
+
+
+
+
+assets/files/models/boy_jump.md2
+0x88359eea
+
+
+
+
+assets/files/models/girl.md2
+0xf45b3fb7
+
+
+
+
+assets/files/models/girl_stand.md2
+0xcff178da
+
+
+
+
+assets/files/models/girl_jump.md2
+0x796b69f
+
+
+
+
+assets/files/models/girl_landing.md2
+0xd0a91568
+
+
+
+
+assets/files/models/boy.md2
+0x480d75b6
+
+
+
+
+assets/files/models/boy_Landing.md2
+0x60a00ef7
+
+
+
+
+assets/files/models/back_grass.md2
+0xf11688
+
+
+
+
+assets/files/models/boy_jumpReady.md2
+0xa6237735
+
+
+
+
+assets/files/models/girl_jumpReady.md2
+0xd90a5718
+
+
+
+
+assets/files/models/back.md2
+0xaec24ff9
+
+
+
+
+assets/files/metrics.xml
+0xc8f034
+
+
+
+
+assets/files/levels/test.xml
+0x5236a0a4
+
+
+
+
+assets/files/MyFont.bmp
+0x17bae9f2
+
+
+
+
+classes.dex
+0xa6e3d237
+
+
+
+
+res/drawable-ldpi/icon.png
+0x48d5156f
+
+
+
+
+res/drawable/bg_price.png
+0x51b711d1
+
+
+
+
+res/drawable/tips_alipay.png
+0xe5a73473
+
+
+
+
+res/drawable/btn_ok_01.png
+0x5082697
+
+
+
+
+res/drawable/bg.png
+0xbcd32981
+
+
+
+
+res/drawable/btn_ok_02.png
+0x2f16be4e
+
+
+
+
+res/drawable/infoicon.png
+0x56114044
+
+
+
+
+res/drawable/btn_cancel_02.png
+0xe2c8e5f
+
+
+
+
+res/drawable/info.png
+0xb089e3bb
+
+
+
+
+res/drawable/tips_ndpay.png
+0x65417c0f
+
+
+
+
+res/drawable/bg_top.png
+0x3ab223d7
+
+
+
+
+res/drawable/alipay_cancel_button.xml
+0xa5af8870
+
+
+
+
+res/drawable/alipay_ok_button.xml
+0x56f6cfa1
+
+
+
+
+res/drawable/btn_cancel_01.png
+0x60e833de
+
+
+
+
+res/drawable-mdpi/icon.png
+0x48d5156f
+
+
+
+
+res/drawable-hdpi/icon.png
+0x48d5156f
+
+
+
+
+res/layout/main.xml
+0x305aceb2
+
+
+
+
+res/layout/alipaylayout.xml
+0x2c4c0cda
+
+
+
+
+res/layout/ndpaylayout.xml
+0x5c86c455
+
+
+
+
+AndroidManifest.xml
+0x4a41818c
+
+
+
+
+com/version
+0x133b6236
+
+
+
+
+lib/armeabi/libGameMain.so
+0xdf303893
+
+
+
+
+lib/armeabi/libAndroidRemoteA.so
+0x698f0b82
+
+
+
+
+lib/armeabi/libGameLauncher.so
+0x70c668ad
+
+
+
+
+lib/armeabi/libPhoneRemoteA.so
+0x9c317fa7
+
+
+
+
+lib/armeabi/libRemoteInput.so
+0x12ff9a8c
+
+
+
+
+lib/armeabi/libGameRegister.so
+0x5c73a82b
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+.GameLauncher
+android.intent.action.MAIN
+
+
+
+
+.GameLauncher
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+

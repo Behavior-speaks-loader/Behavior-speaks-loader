@@ -1,0 +1,32 @@
+1248a32e8c8358ad416f900bc91d20ae08ea8819a9549cb77217943104af3dba:['Network', 'File', 'Location', 'Phone']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+com.sega.sonic.transformed.permission.C2D_MESSAGE
+android.permission.ACCESS_FINE_LOCATION
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.READ_INTERNAL_STORAGE
+android.permission.WRITE_INTERNAL_STORAGE
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+com.android.vending.CHECK_LICENSE
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.READ_PROFILE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.vending.BILLING
+------------------------------
+API:
+./res/1248a32e8c8358ad416f900bc91d20ae08ea8819a9549cb77217943104af3dba/api.txt
+------------------------------
+Intent:
+com.android.vending.INSTALL_REFERRER
+com.sega.sonic.transformed
+------------------------------
+Function call graph:
+gml path: ./res/1248a32e8c8358ad416f900bc91d20ae08ea8819a9549cb77217943104af3dba/1248a32e8c8358ad416f900bc91d20ae08ea8819a9549cb77217943104af3dba.gml

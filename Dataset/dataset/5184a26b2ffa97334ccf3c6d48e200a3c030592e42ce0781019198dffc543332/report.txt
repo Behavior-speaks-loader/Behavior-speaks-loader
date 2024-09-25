@@ -1,0 +1,37 @@
+5184a26b2ffa97334ccf3c6d48e200a3c030592e42ce0781019198dffc543332:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_WIFI_STATE
+android.permission.VIBRATE
+android.permission.INTERNET
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+com.android.browser.permission.READ_HISTORY_BOOKMARKS
+------------------------------
+API:
+./res/5184a26b2ffa97334ccf3c6d48e200a3c030592e42ce0781019198dffc543332/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+com.qhb.service.QhbReceiver.ACTION_QHB_NOTIFY
+com.qhb.service.QhbReceiver.ACTION_QHB_NOTIFY_CLICK
+com.qhb.service.QhbReceiver.ACTION_QHB_ENABLED
+com.qhb.service.QhbReceiver.ACTION_QHB_DISABLED
+com.qhb.service.QhbReceiver.ACTION_QHB_OPEN
+com.qhb.service.QhbReceiver.ACTION_QHB_CLOSE
+com.qhb.service.QhbReceiver.ACTION_QHB_RECORD
+com.qhb.service.QhbReceiver.ACTION_QHB_UPDATE
+com.qhb.service.QhbReceiver.ACTION_QHB_EXPIRE
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/5184a26b2ffa97334ccf3c6d48e200a3c030592e42ce0781019198dffc543332/5184a26b2ffa97334ccf3c6d48e200a3c030592e42ce0781019198dffc543332.gml

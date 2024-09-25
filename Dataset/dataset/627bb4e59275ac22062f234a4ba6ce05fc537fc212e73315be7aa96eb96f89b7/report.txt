@@ -1,0 +1,23 @@
+627bb4e59275ac22062f234a4ba6ce05fc537fc212e73315be7aa96eb96f89b7:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.READ_LOGS
+android.permission.WRITE_MEDIA_STORAGE
+android.permission.INTERNET
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/627bb4e59275ac22062f234a4ba6ce05fc537fc212e73315be7aa96eb96f89b7/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/627bb4e59275ac22062f234a4ba6ce05fc537fc212e73315be7aa96eb96f89b7/627bb4e59275ac22062f234a4ba6ce05fc537fc212e73315be7aa96eb96f89b7.gml

@@ -1,0 +1,31 @@
+411e55ab19ac4c5229030ceb4f9c1312f06a6edf28c7079eae9f157f29b40114:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.READ_LOGS
+android.permission.CHANGE_CONFIGURATION
+android.permission.INTERNET
+com.android.vending.CHECK_LICENSE
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.FORCE_STOP_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/411e55ab19ac4c5229030ceb4f9c1312f06a6edf28c7079eae9f157f29b40114/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+android.intent.action.BOOT_COMPLETED
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/411e55ab19ac4c5229030ceb4f9c1312f06a6edf28c7079eae9f157f29b40114/411e55ab19ac4c5229030ceb4f9c1312f06a6edf28c7079eae9f157f29b40114.gml

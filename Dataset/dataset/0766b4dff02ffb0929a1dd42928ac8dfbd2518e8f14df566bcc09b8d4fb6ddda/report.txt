@@ -1,0 +1,36 @@
+0766b4dff02ffb0929a1dd42928ac8dfbd2518e8f14df566bcc09b8d4fb6ddda:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.FLASHLIGHT
+android.permission.GET_TASKS
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.INTERNET
+getui.permission.GetuiService.com.oswn.oswn_android
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/0766b4dff02ffb0929a1dd42928ac8dfbd2518e8f14df566bcc09b8d4fb6ddda/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/0766b4dff02ffb0929a1dd42928ac8dfbd2518e8f14df566bcc09b8d4fb6ddda/0766b4dff02ffb0929a1dd42928ac8dfbd2518e8f14df566bcc09b8d4fb6ddda.gml

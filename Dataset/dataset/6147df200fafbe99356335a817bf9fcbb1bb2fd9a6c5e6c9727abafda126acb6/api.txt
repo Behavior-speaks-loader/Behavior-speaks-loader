@@ -1,0 +1,132 @@
+Lcom/baidu/protect/A;-><init>()V [access_flags=private constructor] @ 0x3340
+Lcom/baidu/protect/A;->c()[Ljava/lang/String; [access_flags=public static native] @ 0x0
+Ljava/lang/Object;-><init>()V
+Lcom/baidu/protect/A;->d(Ldalvik/system/DexFile;)Ljava/util/Enumeration; [access_flags=public static] @ 0x336c
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Ljava/util/Enumeration;->nextElement()Ljava/lang/Object;
+Ldalvik/system/DexFile;->entries()Ljava/util/Enumeration;
+Ljava/util/Enumeration;->hasMoreElements()Z
+Lcom/baidu/protect/A;->nextElement()Ljava/lang/Object; [access_flags=public bridge synthetic] @ 0x33ec
+Lcom/baidu/protect/A;->nextElement()Ljava/lang/String; [access_flags=public] @ 0x3408
+Lcom/baidu/protect/A;->d()V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/A;->b(Ljava/lang/String;)V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/A;->a(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static native] @ 0x0
+Lcom/baidu/protect/CrashHandler;-><init>()V [access_flags=private constructor] @ 0x3430
+Lcom/baidu/protect/CrashHandler;->getInstance()Lcom/baidu/protect/CrashHandler; [access_flags=public static] @ 0x3448
+Lcom/baidu/protect/CrashHandler;->init()V [access_flags=public] @ 0x3474
+Ljava/lang/Thread;->getDefaultUncaughtExceptionHandler()Ljava/lang/Thread$UncaughtExceptionHandler;
+Ljava/lang/Thread;->setDefaultUncaughtExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)V
+Lcom/baidu/protect/CrashHandler;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V [access_flags=public] @ 0x3498
+Ljava/lang/System;->exit(I)V
+Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V
+Lcom/baidu/protect/StubApplication;-><init>()V [access_flags=public constructor] @ 0x34e4
+Landroid/app/Application;-><init>()V
+Lcom/baidu/protect/StubApplication;->is64BitEnv()Z [access_flags=private static] @ 0x3504
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Ljava/lang/String;->endsWith(Ljava/lang/String;)Z
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/io/BufferedReader;->close()V
+Lcom/baidu/protect/StubApplication;->isX86ABI()Z [access_flags=private static] @ 0x357c
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;->read([B I I)I
+Lcom/baidu/protect/StubApplication;->loadLibrary()V [access_flags=private static] @ 0x35dc
+Lcom/baidu/protect/StubApplication;->loadX86Library()V [access_flags=private static] @ 0x360c
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/io/File;->exists()Z
+Ljava/util/zip/ZipInputStream;->read([B)I
+Ljava/io/File;->setLastModified(J)Z
+Ljava/util/zip/ZipInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/io/File;->delete()Z
+Ljava/util/zip/ZipInputStream;->close()V
+Ljava/io/File;->mkdir()Z
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Ljava/util/zip/ZipEntry;->getTime()J
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/util/zip/ZipInputStream;->closeEntry()V
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+Ljava/util/zip/ZipInputStream;->getNextEntry()Ljava/util/zip/ZipEntry;
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/File;->lastModified()J
+Ljava/util/zip/ZipEntry;->getName()Ljava/lang/String;
+Ljava/io/FileOutputStream;->flush()V
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Lcom/baidu/protect/StubApplication;->reloadSP()V [access_flags=private] @ 0x3818
+Ljava/lang/reflect/Field;->getBoolean(Ljava/lang/Object;)Z
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/io/File;->getName()Ljava/lang/String;
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/lang/String;->replace(Ljava/lang/CharSequence; Ljava/lang/CharSequence;)Ljava/lang/String;
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/io/File;->isDirectory()Z
+Lcom/baidu/protect/StubApplication;->getSharedPreferences(Ljava/lang/String; I)Landroid/content/SharedPreferences;
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Lcom/baidu/protect/StubApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x39c4
+Landroid/os/Debug;->isDebuggerConnected()Z
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Lcom/baidu/protect/StubApplication;->getPackageName()Ljava/lang/String; [access_flags=public] @ 0x3a20
+Landroid/app/Application;->getPackageName()Ljava/lang/String;
+Ljava/lang/String;->length()I
+Lcom/baidu/protect/StubApplication;->onCreate()V [access_flags=public] @ 0x3a94
+Landroid/app/Application;->onCreate()V
+Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
+Lcom/baidu/protect/patch/ResourceLoader;-><init>()V [access_flags=constructor] @ 0x3b58
+Lcom/baidu/protect/patch/ResourceLoader;->clearPreloadTypedArrayIssue(Landroid/content/res/Resources;)V [access_flags=private static] @ 0x3b70
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Ljava/lang/reflect/Constructor;->setAccessible(Z)V
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/baidu/protect/patch/ShareReflectUtil;->findField(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0x433c
+Lcom/baidu/protect/patch/ShareReflectUtil;->findField(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0x42b0
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/baidu/protect/patch/ResourceLoader;->isResourceCanPatch(Landroid/content/Context;)V [access_flags=public static] @ 0x3c44
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Ljava/util/HashMap;->values()Ljava/util/Collection;
+Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Landroid/support/v4/util/ArrayMap;->values()Ljava/util/Collection;
+Lcom/baidu/protect/patch/ShareReflectUtil;->getActivityThread(Landroid/content/Context; Ljava/lang/Class;)Ljava/lang/Object; [access_flags=public static] @ 0x4484
+Lcom/baidu/protect/patch/ResourceLoader;->loadResource(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x40a0
+Ljava/lang/ref/WeakReference;->get()Ljava/lang/Object;
+Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Ljava/lang/Integer;->intValue()I
+Landroid/content/res/Resources;->updateConfiguration(Landroid/content/res/Configuration; Landroid/util/DisplayMetrics;)V
+Ljava/util/Iterator;->hasNext()Z
+Landroid/content/res/Resources;->getDisplayMetrics()Landroid/util/DisplayMetrics;
+Ljava/util/Map;->entrySet()Ljava/util/Set;
+Landroid/content/res/Resources;->getConfiguration()Landroid/content/res/Configuration;
+Ljava/lang/NoSuchFieldException;-><init>(Ljava/lang/String;)V
+Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
+Ljava/lang/reflect/Field;->isAccessible()Z
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/Class;->getField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Lcom/baidu/protect/patch/ShareReflectUtil;-><init>()V [access_flags=public constructor] @ 0x4234
+Lcom/baidu/protect/patch/ShareReflectUtil;->expandFieldArray(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Object;)V [access_flags=public static] @ 0x424c
+Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class; I)Ljava/lang/Object;
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Lcom/baidu/protect/patch/ShareReflectUtil;->findMethod(Ljava/lang/Object; Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method; [access_flags=public static varargs] @ 0x43d4
+Ljava/lang/reflect/Method;->isAccessible()Z
+Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+Lcom/baidu/protect/patch/ShareReflectUtil;->reduceFieldArray(Ljava/lang/Object; Ljava/lang/String; I)V [access_flags=public static] @ 0x4534

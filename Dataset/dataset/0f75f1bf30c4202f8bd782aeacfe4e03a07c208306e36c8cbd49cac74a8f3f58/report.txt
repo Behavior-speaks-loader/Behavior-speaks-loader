@@ -1,0 +1,36 @@
+0f75f1bf30c4202f8bd782aeacfe4e03a07c208306e36c8cbd49cac74a8f3f58:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.ACCESS_FINE_LOCATION
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION.
+android.permission.INTERNET
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/0f75f1bf30c4202f8bd782aeacfe4e03a07c208306e36c8cbd49cac74a8f3f58/api.txt
+------------------------------
+Intent:
+com.xiaoyu.xiaoxue.intent.action.COMMAND
+android.intent.action.PACKAGE_REMOVED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/0f75f1bf30c4202f8bd782aeacfe4e03a07c208306e36c8cbd49cac74a8f3f58/0f75f1bf30c4202f8bd782aeacfe4e03a07c208306e36c8cbd49cac74a8f3f58.gml

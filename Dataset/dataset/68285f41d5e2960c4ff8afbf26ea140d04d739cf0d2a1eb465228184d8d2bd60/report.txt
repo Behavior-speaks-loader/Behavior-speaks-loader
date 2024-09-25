@@ -1,0 +1,26 @@
+68285f41d5e2960c4ff8afbf26ea140d04d739cf0d2a1eb465228184d8d2bd60:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+com.google.android.gms.permission.ACTIVITY_RECOGNITION
+android.permission.CAMERA
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+android.permission.WAKE_LOCK
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+------------------------------
+API:
+./res/68285f41d5e2960c4ff8afbf26ea140d04d739cf0d2a1eb465228184d8d2bd60/api.txt
+------------------------------
+Intent:
+com.android.vending.INSTALL_REFERRER
+com.fc.debug
+------------------------------
+Function call graph:
+gml path: ./res/68285f41d5e2960c4ff8afbf26ea140d04d739cf0d2a1eb465228184d8d2bd60/68285f41d5e2960c4ff8afbf26ea140d04d739cf0d2a1eb465228184d8d2bd60.gml

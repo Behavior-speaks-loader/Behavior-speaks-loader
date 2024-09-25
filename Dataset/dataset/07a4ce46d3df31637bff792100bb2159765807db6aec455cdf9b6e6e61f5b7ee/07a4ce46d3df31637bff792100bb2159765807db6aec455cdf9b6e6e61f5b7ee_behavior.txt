@@ -1,0 +1,1654 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+07a4ce46d3df31637bff792100bb2159765807db6aec455cdf9b6e6e61f5b7ee
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.mixiaoxiao.ioscompass
+
+
+
+
+Minimum system version:
+Android 4.0, 4.0.1, 4.0.2
+
+
+
+
+Copyright:
+Mixiaoxiao
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80
+
+
+host:/**.0.0.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+NetworkInfo: type: mobile[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: true, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: wifi[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_mms[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_supl[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_hipri[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: ETHERNET[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: 08:00:27:a3:af:c8, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_fota[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_ims[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: mobile_cbs[UNKNOWN], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false, NetworkInfo: type: wifi_p2p[], state: UNKNOWN/IDLE, reason: (unspecified), extra: (none), roaming: false, failover: false, isAvailable: false, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.133.40.** port:80 data:data:POST /app_logs HTTP/1.1
+X-Umeng-UTC: 1451530995242
+X-Umeng-Sdk: Android/5.4.2 Zone%E6%8C%87%E5%8D%97%E9%92%88%2F2.2+Lenovo+A360t%2F4.4.4+D7BAACDC0F3ECB0821734BE29A76446A
+Msg-Type: envelope
+Content-Length: 683
+Host: alog.umeng.com
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:1.0552e03edfd98c56240000328@f39a93d98bb7736f5e6bf46df0aa00825778e4d34ccafe40beae9ddd6f148456���
+��x������@�ǽ�?�N%��"��k�d2�L�&�r*����Z���&sl����BD�*-�E{A�;����eQ�����=��=MA�Fc$�v*2��9��zل�1�rVY�E~7�es�\V�g+�*A���$px7.�ܹ�Ǭɹl3ע6��a�&�q:Ƃ�,�s=�h�ǮK�\7��|��j�ث�ql��r*u�v�6���KSW�2�IZUr�Oҩ�uc��Y��_���th]Ք�G��=�{;��R�Н�R������p������W�;���B���{7�\��_^�����7�_��k�5
+t��[u��:^B�;KB��P�MVkN�������atc�p���An@�TK�����wBg��#�eTӬx�S[�b8K�L��6J����89�i��H�&�>��wrQ��ɨ������)�XX&�?h�E�~�XB?�{��@000093d98bb7736f5e6bf46df0aa00825778e4d34ccafe40beae9ddd6f140000 5cf1ec2b948ce7ade7f851d3126c0368
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /app_logs HTTP/1.1
+X-Umeng-UTC: 1451530995629
+X-Umeng-Sdk: Android/5.4.2 Zone%E6%8C%87%E5%8D%97%E9%92%88%2F2.2+Lenovo+A360t%2F4.4.4+D7BAACDC0F3ECB0821734BE29A76446A
+Msg-Type: envelope
+Content-Length: 683
+Host: alog.umeng.co
+Connection: Keep-Alive
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /api/check_app_update HTTP/1.1
+Content-Length: 411
+Content-Type: application/x-www-form-urlencoded
+Host: au.umeng.com
+Connection: Keep-Alive
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:content=%7B%22delta%22%3Afalse%2C%22package%22%3A%22com.mixiaoxiao.ioscompass%22%2C%22appkey%22%3A%22552e03edfd98c56240000328%22%2C%22sdk_version%22%3A%222.6.0.1.20150312%22%2C%22type%22%3A%22update%22%2C%22channel%22%3A%22wandoujia%22%2C%22old_md5%22%3A%221a9c04060791377578cdba7118a4dc81%22%2C%22proto_ver%22%3A%221.4%22%2C%22idmd5%22%3A%22aeb0d4e5f4f579854f8b772d8977fdf6%22%2C%22version_code%22%3A%229%22%7D
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /api/check_app_update HTTP/1.1
+Content-Length: 411
+Content-Type: application/x-www-form-urlencoded
+Host: au.umeng.co
+Connection: Keep-Alive
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /offline_loc HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Accept-Charset: UTF-8;
+Host: loc.map.baidu.com
+Accept-Encoding: gzip
+Content-Length: 173
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+qt=conf&req=4Oz8vP-ovK20qvOqgvb9gMnm7Lqclb_Ns5bu4sSS48LXiIys1_v4rNKng4-Y0dfRmcrImcvDn52XwsLEh4CByeLnisrJ7_S-u-C4uqrt7Pqk_vGx9vKj56_65PSu_eOn1Ynf3caSx5iPksVhfhlgN_..%7Ctp%3D3
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /sdk.php HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Accept-Charset: UTF-8;
+Host: loc.map.baidu.com
+Accept-Encoding: gzip
+Content-Length: 189
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+qt=conf&req=6ev-7PL7vunmtPCy9Oj19aWQ77Wbnra-tpzC55Luw-7a-PmOq9qKiffTr6ag1aDTwYrIn8rOmpqVy5THwsqXwryhl7vh5K6z9ce-srLyoubp5qSu9vfhoaznrfX546n2wNOSkdzIl5GFx97XhNbWyN2L6qnyjMHck6amQ1T.%7Ctp%3D3
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /offline_loc HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Accept-Charset: UTF-8;
+Host: loc.map.baidu.com
+Accept-Encoding: gzip
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+qt=update&req=trixvO3-4vPh8uDpsPLhreiq5ffM5bXLkOy048bC55DY-dzQ-PnQrdLQ16eH8_amn-zLzdbCn5rAwJDAkZTHwLztsLb_96L58e3mp-jzh8CH_rGl8PCipLr4r-ispfvsxJvKi5SU08rMz9LEgYLWiM6e2sfIic_Ylsje1aJPFv..%7Ctp%3D3
+
+
+operation:send host:/**.133.40.** port:80 data:data:POST /statloc HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Accept-Charset: UTF-8;
+Host: loc.map.baidu.com
+Accept-Encoding: gzip
+Content-Length: 321
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:qt=stat&req=%7B%22locpt%22%3A%5B%227Oim8Kz0rv__pb6np-j69Prp5bXtvOe76PO4pvLn0Pua2azPgJ3ZnYfR9s7WgJmRk5eaiY7LlpfJ28zGhpnRn8zqt5_NsO68zZbgkuDGsLDf2qSLrP2oiKrX39bz3vD61s2dzp2cyp-awMDCxJKclpzew9KLwYzYmdnJidGciYB3UCpzJj9zbw8jJSZhYzsgKTEwMmw9e2UsaBxlOXx0cAVYUm4tIgpBXgpQWVhLBAwCERVABUYcRVEcEgdDFUlSay98Ie6ols2B%7Ctp%3D3%22%5D%7D
+
+
+operation:send host:/**.133.40.** port:80 data:data:GET /tcu.php?&it=vbStpaOu4vr0sqa6qvTp9OT8-6jm-rK89uShu5C37JH_3tvd_f7fr9P32djyoNehx8idv5rs7ezD48CeipDGwO-yv77q6L-_t-O1vvHv5bja_6byuaHvj6PxpLKwsuKuz4mdgMre3MrFn53OmM-JyN_CgdyAloaP38ndicWC295rJjo9H0QOrxj. HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Accept-Charset: UTF-8;
+Host: loc.map.baidu.com
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+
+
+
+operation:send host:/**.0.0.** port:80 data:data:POST http://loc.map.baidu.com/offline_loc HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Accept-Charset: UTF-8;
+Host: loc.map.baidu.com
+Accept-Encoding: gzip
+Content-Length: 173
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+qt=conf&req=4Oz8vP-ovK20qvOqgvb9gMnm7Lqclb_Ns5bu4sSS48LXiIys1_v4rNKng4-Y0dfRmcrImcvDn52XwsLEh4CByeLnisrJ7_S-u-C4uqrt7Pqk_vGx9vKj56_65PSu_eOn1Ynf3caSx5iPksVhfhlgN_..%7Ctp%3D3
+
+
+operation:send host:/**.0.0.** port:80 data:data:POST http://loc.map.baidu.com/sdk.php HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Accept-Charset: UTF-8;
+Host: loc.map.baidu.com
+Accept-Encoding: gzip
+Content-Length: 189
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+qt=conf&req=6ev-7PL7vunmtPCy9Oj19aWQ77Wbnra-tpzC55Luw-7a-PmOq9qKiffTr6ag1aDTwYrIn8rOmpqVy5THwsqXwryhl7vh5K6z9ce-srLyoubp5qSu9vfhoaznrfX546n2wNOSkdzIl5GFx97XhNbWyN2L6qnyjMHck6amQ1T.%7Ctp%3D3
+
+
+operation:send host:/**.0.0.** port:80 data:data:POST http://loc.map.baidu.com/offline_loc HTTP/1.1
+Content-Type: application/x-www-form-urlencoded; charset=utf-8
+Accept-Charset: UTF-8;
+Host: loc.map.baidu.com
+Accept-Encoding: gzip
+Content-Length: 195
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+qt=update&req=trixvO3-4vPh8uDpsPLhreiq5ffM5bXLkOy048bC55DY-dzQ-PnQrdLQ16eH8_amn-zLzdbCn5rAwJDAkZTHwLztsLb_96L58e3mp-jzh8CH_rGl8PCipLr4r-ispfvsxJvKi5SU08rMz9LEgYLWiM6e2sfIic_Ylsje1aJPFv..%7Ctp%3D3
+
+
+
+
+
+Behaviour:
+Monitor network data
+
+
+
+
+
+Detail info:
+
+u'com.baidu.location.h.b$a@2185f1f8', u'272'
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://al****om/app_logs
+
+
+http://al****om
+
+
+/app_logs
+
+
+http://al****co/app_logs
+
+
+http://al****co
+
+
+http://au****om/api/check_app_update
+
+
+http://au****om
+
+
+/api/check_app_update
+
+
+http://au****co/api/check_app_update
+
+
+http://au****co
+
+
+http://lo****om/offline_loc
+
+
+http://lo****om
+
+
+/offline_loc
+
+
+http://lo****om/sdk.php
+
+
+/sdk.php
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.0.0.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/storage/emulated/0/baidu/tempdata/ls.db
+
+
+/data/data/com.mixiaoxiao.ioscompass/files/ofld/ofl_location.db
+
+
+/data/data/com.mixiaoxiao.ioscompass/files/ofld/ofl_statistics.db
+
+
+/storage/emulated/0/test.0
+
+
+/storage/emulated/0/baidu/tempdata/ller.dat
+
+
+
+
+
+Behaviour:
+Create database
+
+
+
+
+
+Detail info:
+
+/storage/emulated/0/baidu/tempdata/ls.db
+
+
+/data/data/com.mixiaoxiao.ioscompass/files/ofld/ofl_location.db
+
+
+/data/data/com.mixiaoxiao.ioscompass/files/ofld/ofl_statistics.db
+
+
+/storage/emulated/0/baidu/tempdata//ls.db
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+Processor	: ARMv7 Processor rev 0 (v7l)
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:66
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:60
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:67
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:65
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:63
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:68
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:64
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:62
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:61
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:59
+
+
+path:/proc/cpuinfo length:69
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:69
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:58
+
+
+path:/data/app/com.mixiaoxiao.ioscompass-1.apk length:57
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:69
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so
+
+
+/data/app-lib/com.mixiaoxiao.ioscompass-1/libbspatch.so
+
+
+/data/app-lib/com.mixiaoxiao.ioscompass-1/liblocSDK6a.so
+
+
+
+
+
+Behaviour:
+Initialize monitor driver file
+
+
+
+
+
+Detail info:
+
+/proc/cpuinfo
+
+
+
+
+
+Behaviour:
+Read external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/baidu/tempdata/ller.dat
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.mixiaoxiao.ioscompass/shared_prefs/umeng_general_config.xml.bak
+
+
+/data/data/com.mixiaoxiao.ioscompass/files/mobclick_agent_header_com.mixiaoxiao.ioscompass
+
+
+/data/data/com.mixiaoxiao.ioscompass/files/mobclick_agent_cached_com.mixiaoxiao.ioscompass9
+
+
+/storage/emulated/0/test.0
+
+
+/data/data/com.mixiaoxiao.ioscompass/shared_prefs/UMENG_RUNTIME_CACHE.xml.bak
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:69
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:67
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:64
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:66
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:65
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:63
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:61
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:68
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:62
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:59
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/libjiagu.so length:60
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/umeng_it.cache length:68
+
+
+path:/storage/emulated/0/baidu/.cuid length:69
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/shared_prefs/umeng_general_config.xml length:261
+
+
+path:/data/data/com.mixiaoxiao.ioscompass/files/.um/um_cache_1451530995662.env length:69
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/baidu/.cuid
+
+
+path:/storage/emulated/0/baidu/tempdata/ller.dat
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get scanned WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+u'passive', u'9000', u'0.0', u'com.baidu.location.h.a$c@21923658'
+
+
+u'gps', u'1000', u'0.0', u'com.baidu.location.h.a$b@21924b60'
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.baidu.location.h.e$a@2186d438', u'{"action":"android.net.wifi.SCAN_RESULTS"}'
+
+
+u'com.baidu.location.e.e$a@218c80a8', u'{"action":"android.intent.action.BATTERY_CHANGED"}'
+
+
+u'com.baidu.location.e.i$a@2191eeb8', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+debug_dev:false
+
+
+cache_exception:false
+
+
+kill_process:true
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'session_id', u'null'
+
+
+u'invld_id', u'null'
+
+
+u'au_p', u'null'
+
+
+u'au_u', u'null'
+
+
+u'signature', u'null'
+
+
+
+
+
+Behaviour:
+Write system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218ca188', u'bd_setting_i', u'35712****123456'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218ca188', u'B27FB0A7D86B3801C1B5C2BD55E7ECFE', u'F68BD923CF3D5C95EB0D125B5BBB3D48'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218ca188', u'com.baidu.deviceid', u'F68BD923CF3D5C95EB0D125B5BBB3D48'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218cc098', u'bd_setting_i', u'35712****123456'
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218ca188', u'bd_setting_i'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218ca188', u'com.baidu.deviceid'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218ca188', u'B27FB0A7D86B3801C1B5C2BD55E7ECFE'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218ca188', u'font_scale', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218cc098', u'bd_setting_i'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218cc098', u'com.baidu.deviceid'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218a3cf0', u'sound_effects_enabled', u'0'
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'session_id', u'8C7F8812404D0DCE19B2E5A798FC34C5'
+
+
+u'signature', u'f39a93d98bb7736f5e6bf46df0aa00825778e4d34ccafe40beae9ddd6f148456'
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "相机错误", "class": "android.widget.TextView"}
+
+
+
+{"text": "您的设备不支持摄像头或未授权使用相机权限或当前相机被其他APP占用，无法启用实景模式。", "class": "android.widget.TextView"}
+
+
+
+{"text": "确定", "class": "android.widget.Button"}
+
+
+
+{"text": "使用小提示", "class": "android.widget.TextView"}
+
+
+
+{"text": "手势操作：左右滑动切换指南针/水平仪，下滑进入校准，上滑进入设置。特别地，Zone风格下点击指南针界面可切换显示经纬度坐标/省市街道地址。
+
+
+
+地理位置：根据相关法律法规，APP中显示的经纬度坐标为国测局GCJ-02坐标，而非GPS或网络定位原始坐标。
+
+
+
+气压与海拔：支持气压计的设备会显示气压，优先显示GPS芯片测量的海拔数据（若芯片支持且GPS定位成功且回调了海拔数据），气压会受天气等多种因素影响，由气压推算的海拔仅供参考。
+
+
+
+Zone/iOS风格：当前为Zone风格，支持竖向持握进入“实景指南针”，体验更优秀。", "class": "android.widget.TextView"}
+
+
+
+{"text": "不再显示，强烈建议您阅读完毕后再勾选，下次您也可以在“设置”中查看“使用小提示”", "class": "android.widget.CheckBox"}
+
+
+
+{"text": "切换风格", "class": "android.widget.Button"}
+
+
+
+{"text": "我知道了", "class": "android.widget.Button"}
+
+
+
+{"text": "警告", "class": "android.widget.TextView"}
+
+
+
+{"text": "您的设备不支持相关传感器，指南针无法使用。", "class": "android.widget.TextView"}
+
+
+
+{"text": "退出", "class": "android.widget.Button"}
+
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21865460 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1800002 pfl=0x8 fmt=-2 wanim=0x7f0a000c}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2186e508 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1800002 pfl=0x8 fmt=-2 wanim=0x7f0a000c}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2186cd38 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#5810100 pfl=0x8 wanim=0x10302a1}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21935a58 V.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(wrapxwrap) gr=#11 sim=#120 ty=2 fl=#1800002 pfl=0x8 fmt=-2 wanim=0x7f0a000c}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.qihoo.util.StubApplication@2189ab50', u'class com.baidu.location.f'
+
+
+u'android.os.Parcel@2184fe10'
+
+
+u'android.os.Parcel@2184fe20'
+
+
+u'android.os.Parcel@2184f580'
+
+
+u'com.qihoo.util.StubApplication@218c7310', u'class com.umeng.update.net.DownloadingService'
+
+
+u'android.os.Parcel@218506e0'
+
+
+
+
+
+Behaviour:
+Set timed task
+
+
+
+
+
+Detail info:
+
+u'3', u'3227371', u'{"PACKAGE":"com.mixiaoxiao.ioscompass","FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.mixiaoxiao.ioscompass\\/com.umeng.update.net.DownloadingService}"}'
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'SELECT COUNT(*) FROM AP;', u'null'
+
+
+u'SELECT COUNT(*) FROM CL', u'null'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0xfc7b86e7
+
+
+
+
+META-INF/MIXIAOXI.SF
+0x8398c712
+
+
+
+
+META-INF/MIXIAOXI.RSA
+0x8f237d1d
+
+
+
+
+AndroidManifest.xml
+0xea46efc9
+
+
+
+
+assets/
+0x0
+
+
+
+
+assets/.appkey
+0xd41f2a80
+
+
+
+
+assets/fonts/ios.ttf
+0x11f047d3
+
+
+
+
+assets/fonts/mixiaoxiao.ttf
+0x5be568e8
+
+
+
+
+assets/gdt_plugin/gdtadv2.jar
+0x78b184
+
+
+
+
+assets/libjiagu.so
+0xfdcb496b
+
+
+
+
+assets/libjiagu_x86.so
+0x84c8ca7f
+
+
+
+
+classes.dex
+0x2d56a943
+
+
+
+
+lib/armeabi/libbspatch.so
+0x6333ecec
+
+
+
+
+lib/armeabi/liblocSDK6a.so
+0xaee383c3
+
+
+
+
+lib/x86/libbspatch.so
+0x651321bc
+
+
+
+
+lib/x86/liblocSDK6a.so
+0xfbeb2555
+
+
+
+
+res/anim/cycle_fade.xml
+0x940e41d2
+
+
+
+
+res/anim/dialog_enter.xml
+0x1ddfe5e4
+
+
+
+
+res/anim/dialog_exit.xml
+0x324df740
+
+
+
+
+res/anim/in_fade.xml
+0x4126ae5a
+
+
+
+
+res/anim/slide_in_from_bottom.xml
+0xa0cf727e
+
+
+
+
+res/anim/slide_in_from_top.xml
+0xa6da6cef
+
+
+
+
+res/anim/slide_out_to_bottom.xml
+0xbe572e43
+
+
+
+
+res/anim/slide_out_to_top.xml
+0x26ecd715
+
+
+
+
+res/anim/splash_enter.xml
+0xb03c5a79
+
+
+
+
+res/anim/splash_exit.xml
+0x5a9fcf1e
+
+
+
+
+res/color/ios_text_clickable.xml
+0xe2088a82
+
+
+
+
+res/drawable-xhdpi-v4/guide0.png
+0x86a7097e
+
+
+
+
+res/drawable-xhdpi-v4/guide1.png
+0xf520edd3
+
+
+
+
+res/drawable-xhdpi-v4/ios_arrow_right.png
+0x75701237
+
+
+
+
+res/drawable-xhdpi-v4/ios_check_off.png
+0x9201d295
+
+
+
+
+res/drawable-xhdpi-v4/ios_check_on.png
+0x292e7cd2
+
+
+
+
+res/drawable-xhdpi-v4/pull_down_arrow.png
+0x1de04415
+
+
+
+
+res/drawable-xxhdpi-v4/icon_200_assistivetouch.png
+0xfa3d373b
+
+
+
+
+res/drawable-xxhdpi-v4/icon_200_compass.png
+0xee22ef86
+
+
+
+
+res/drawable-xxhdpi-v4/icon_200_screenmask.png
+0xfcc14915
+
+
+
+
+res/drawable-xxhdpi-v4/icon_200_translate.png
+0x8bfa851f
+
+
+
+
+res/drawable-xxhdpi-v4/splash_bottom.png
+0xefd92fb5
+
+
+
+
+res/drawable-xxhdpi-v4/zone_icon_200.png
+0xee22ef86
+
+
+
+
+res/drawable-zh-xxhdpi-v4/splash_bottom.png
+0xefeb753
+
+
+
+
+res/drawable/calibration_button.xml
+0x9b12e1d5
+
+
+
+
+res/drawable/dialog_button.xml
+0x7429d04
+
+
+
+
+res/drawable/dialog_frame.xml
+0x877362ae
+
+
+
+
+res/drawable/dialog_frame_exit.xml
+0xc917765f
+
+
+
+
+res/drawable/ios_edittext.xml
+0xa2a87540
+
+
+
+
+res/drawable/ios_tableviewcell.xml
+0x2ad77217
+
+
+
+
+res/drawable/settings_button.xml
+0xa8cbf129
+
+
+
+
+res/drawable/tb_munion_icon.xml
+0x3c4bbb89
+
+
+
+
+res/drawable/tb_munion_item_selector.xml
+0x758e82e6
+
+
+
+
+res/drawable/toast_frame.xml
+0xbe4a04e3
+
+
+
+
+res/drawable/umeng_common_gradient_green.xml
+0x962bb903
+
+
+
+
+res/drawable/umeng_common_gradient_orange.xml
+0xd5106ae2
+
+
+
+
+res/drawable/umeng_common_gradient_red.xml
+0x133ade08
+
+
+
+
+res/drawable/umeng_update_button_check_selector.xml
+0x2633a00e
+
+
+
+
+res/drawable/umeng_update_wifi_disable.png
+0xe635e071
+
+
+
+
+res/drawable/window_backgroud.xml
+0x385df65
+
+
+
+
+res/layout-v9/umeng_common_download_notification.xml
+0x3e16e277
+
+
+
+
+res/layout/activity_crash.xml
+0x6c3f95b1
+
+
+
+
+res/layout/activity_splash.xml
+0x3dc1026e
+
+
+
+
+res/layout/dialog_gradienter_guide.xml
+0x2f1aae7d
+
+
+
+
+res/layout/mxx_dialog_confirm_layout.xml
+0xc8a2bc9
+
+
+
+
+res/layout/mxx_dialog_customview_layout.xml
+0xc40cdb0c
+
+
+
+
+res/layout/mxx_dialog_edittext_layout.xml
+0x228e8683
+
+
+
+
+res/layout/mxx_dialog_exit_layout.xml
+0x531688b6
+
+
+
+
+res/layout/pull_tips_textview.xml
+0x724c83ca
+
+
+
+
+res/layout/pull_to_refresh_header_horizontal.xml
+0x104168f8
+
+
+
+
+res/layout/pull_to_refresh_header_vertical.xml
+0xd923f501
+
+
+
+
+res/layout/settings_layout.xml
+0xde910de4
+
+
+
+
+res/layout/tb_munion_aditem.xml
+0x7d1c9ccc
+
+
+
+
+res/layout/tb_munion_adview.xml
+0x8b052ad0
+
+
+
+
+res/layout/umeng_common_download_notification.xml
+0xf5d0da22
+
+
+
+
+res/layout/umeng_update_dialog.xml
+0x86e9a49b
+
+
+
+
+resources.arsc
+0x5a122e17
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.mixiaoxiao.ioscompass.MainActivity
+android.intent.action.MAIN
+
+
+
+
+com.mixiaoxiao.ioscompass.MainActivity
+android.intent.category.LAUNCHER
+
+
+
+
+com.mixiaoxiao.ioscompass.MainActivity
+android.intent.category.MULTIWINDOW_LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.ACCESS_COARSE_UPDATES
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.CHANGE_WIFI_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+
+
+
+
+android.permission.READ_LOGS
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.WRITE_SETTINGS
+
+
+
+
+com.android.launcher.permission.INSTALL_SHORTCUT
+
+
+
+
+android.permission.KILL_BACKGROUND_PROCESSES
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.CAMERA
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.baidu.location.f
+
+
+
+
+com.umeng.update.net.DownloadingService
+
+
+
+
+com.qq.e.comm.DownloadService
+
+
+

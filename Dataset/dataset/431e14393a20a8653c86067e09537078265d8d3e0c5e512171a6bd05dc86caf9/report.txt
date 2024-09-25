@@ -1,0 +1,27 @@
+431e14393a20a8653c86067e09537078265d8d3e0c5e512171a6bd05dc86caf9:['File', 'Phone', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+glshare.permission.ACCESS_SHARED_DATA
+android.permission.INTERNET
+com.gameloft.android.ANMP.GloftTOHM.permission.C2D_MESSAGE
+com.google.android.c2dm.permission.RECEIVE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+com.android.vending.BILLING
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/431e14393a20a8653c86067e09537078265d8d3e0c5e512171a6bd05dc86caf9/api.txt
+------------------------------
+Intent:
+com.gameloft.android.ApplicationSetUp
+com.gameloft.android.ANMP.GloftTOHM
+------------------------------
+Function call graph:
+gml path: ./res/431e14393a20a8653c86067e09537078265d8d3e0c5e512171a6bd05dc86caf9/431e14393a20a8653c86067e09537078265d8d3e0c5e512171a6bd05dc86caf9.gml

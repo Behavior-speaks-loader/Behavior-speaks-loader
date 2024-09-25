@@ -1,0 +1,18 @@
+2bf8bc0765b174e22da25ecb7691c43db958694a3653839cb25c3e6322a452b2:['network']
+------------------------------
+Permissions:
+android.permission.GET_TASKS
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.RESTART_PACKAGES
+------------------------------
+API:
+./res/2bf8bc0765b174e22da25ecb7691c43db958694a3653839cb25c3e6322a452b2/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/2bf8bc0765b174e22da25ecb7691c43db958694a3653839cb25c3e6322a452b2/2bf8bc0765b174e22da25ecb7691c43db958694a3653839cb25c3e6322a452b2.gml

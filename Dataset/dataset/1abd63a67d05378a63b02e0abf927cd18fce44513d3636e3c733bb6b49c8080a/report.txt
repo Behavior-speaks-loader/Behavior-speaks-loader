@@ -1,0 +1,22 @@
+1abd63a67d05378a63b02e0abf927cd18fce44513d3636e3c733bb6b49c8080a:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.INTERNET
+com.android.vending.CHECK_LICENSE
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+com.android.vending.BILLING
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/1abd63a67d05378a63b02e0abf927cd18fce44513d3636e3c733bb6b49c8080a/api.txt
+------------------------------
+Intent:
+com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/1abd63a67d05378a63b02e0abf927cd18fce44513d3636e3c733bb6b49c8080a/1abd63a67d05378a63b02e0abf927cd18fce44513d3636e3c733bb6b49c8080a.gml

@@ -1,0 +1,33 @@
+4f4c094f24ac65646e1ce763150d918f7569a6f53bc71d8931e7b6f486c12457:['network']
+------------------------------
+Permissions:
+android.permission.READ_LOGS
+android.permission.WRITE_SETTINGS
+android.permission.READ_PHONE_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.CAMERA
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WAKE_LOCK
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.RECEIVE_USER_PRESENT
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_WIFI_STATE
+cn.zeji.tiku.permission.JPUSH_MESSAGE
+android.permission.READ_SMS
+------------------------------
+API:
+./res/4f4c094f24ac65646e1ce763150d918f7569a6f53bc71d8931e7b6f486c12457/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.REGISTRATION
+cn.jpush.android.intent.MESSAGE_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_OPENED
+cn.jpush.android.intent.CONNECTION
+cn.zeji.tiku
+------------------------------
+Function call graph:
+gml path: ./res/4f4c094f24ac65646e1ce763150d918f7569a6f53bc71d8931e7b6f486c12457/4f4c094f24ac65646e1ce763150d918f7569a6f53bc71d8931e7b6f486c12457.gml

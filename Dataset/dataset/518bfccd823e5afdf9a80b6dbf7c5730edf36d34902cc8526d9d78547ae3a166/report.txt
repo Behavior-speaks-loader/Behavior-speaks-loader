@@ -1,0 +1,39 @@
+518bfccd823e5afdf9a80b6dbf7c5730edf36d34902cc8526d9d78547ae3a166:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.FLASHLIGHT
+android.permission.GET_TASKS
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.INTERNET
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/518bfccd823e5afdf9a80b6dbf7c5730edf36d34902cc8526d9d78547ae3a166/api.txt
+------------------------------
+Intent:
+com.huawei.android.push.intent.REGISTRATION
+com.huawei.android.push.intent.RECEIVE
+com.huawei.android.push.intent.CLICK
+com.huawei.intent.action.PUSH_STATE
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/518bfccd823e5afdf9a80b6dbf7c5730edf36d34902cc8526d9d78547ae3a166/518bfccd823e5afdf9a80b6dbf7c5730edf36d34902cc8526d9d78547ae3a166.gml

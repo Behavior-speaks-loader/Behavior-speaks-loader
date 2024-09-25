@@ -1,0 +1,1410 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+12002bac73839bb843805e4b6b5b3d482d19244f912ec82f59e94d1624cb146e
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.naojinsg.sakpgoiwzhsipagiskpqdkywse
+
+
+
+
+Minimum system version:
+Android 2.3.3, 2.3.4
+
+
+
+
+Copyright:
+Unknown
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:/**.76.224.** port:80
+
+
+host:/**.133.40.** port:80
+
+
+host:mo****om/**.133.40.** port:80
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.76.224.** port:80 data:data:POST /strategy/interface.html HTTP/1.1
+User-Agent: ShieldRequester
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+Content-Length: 132
+Connection: Close
+Host: 120.76.224.67
+
+pin=ee504c73aae184330fd9fbfe7716788576466236&content=YWN0aW9uPWdldFNoaWVsZA%3D%3D&uuid=9ed07409b741845113f80ca6f6c8faea1451530996509
+
+
+operation:send host:mo****om/**.133.40.** port:80 data:data:GET /ads/pa/__pasys_remote_banner.php?v=3.7&tp=Lenovo+A360t&os=android&bdr=19 HTTP/1.1
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: mobads.baidu.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+
+
+
+
+operation:send host:/**.76.224.** port:80 data:data:POST /strategy/interface.html HTTP/1.1
+User-Agent: ShieldRequester
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+Content-Length: 132
+Connection: Close
+Host: 120.76.224.67
+
+pin=ee504c73aae184330fd9fbfe7716788576466236&content=YWN0aW9uPWdldFNoaWVsZA%3D%3D&uuid=92d42fc3ffc5913b8a241d20215b99541451531006628
+
+
+operation:send host:/**.76.224.** port:80 data:data:POST /strategy/interface.html HTTP/1.1
+User-Agent: ShieldRequester
+Content-Type: application/x-www-form-urlencoded
+Accept: */*
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+Content-Length: 132
+Connection: Close
+Host: 120.76.224.67
+
+pin=ee504c73aae184330fd9fbfe7716788576466236&content=YWN0aW9uPWdldFNoaWVsZA%3D%3D&uuid=d5cab0df662daca7399d6db28f7e3d341451531016699
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://**.76.224.**/strategy/interface.html
+
+
+jar:file:/data/app/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1.apk!/extra/__pasys_remote_banner.jar
+
+
+http://mo****om/ads/pa/__pasys_remote_banner.php?v=3.7&tp=Lenovo+A360t&os=android&bdr=19
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://**.76.224.**/strategy/interface.html
+
+
+http://co****cn/agent/agent1_android.php?appid=SDK201417280503550z42tkkwio7l8nc&appver=4&client=0&simulator=0&location=china&time=1451530997&sdkver=207
+
+
+http://co****cn
+
+
+http://mo****om/ads/pa/__pasys_remote_banner.php?v=3.7&tp=Lenovo+A360t&os=android&bdr=19
+
+
+
+
+
+Behaviour:
+Load website in webview
+
+
+
+
+
+Detail info:
+
+http://mo****om/ads/index.htm
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.76.224.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:mo****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://**.76.224.**/strategy/interface.html'
+
+
+u'file', u'', u'-1', u'/data/app/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1.apk', u'null'
+
+
+u'jar:file:/data/app/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1.apk!/extra/__pasys_remote_banner.jar'
+
+
+u'http://mo****om/ads/pa/__pasys_remote_banner.php?v=3.7&tp=Lenovo+A360t&os=android&bdr=19'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+MemTotal:        1030096 kB
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/data/app/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1.apk length:9
+
+
+path:/data/app/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1.apk length:23
+
+
+path:/data/app/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1.apk length:69
+
+
+path:/data/app/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1.apk length:67
+
+
+path:/data/app/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1.apk length:7
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/__pasys_remote_banner.tmp.jar length:9
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/__pasys_remote_banner.tmp.jar length:23
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/__pasys_remote_banner.tmp.jar length:69
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/__pasys_remote_banner.tmp.jar length:7
+
+
+path:/proc/meminfo length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/app-lib/com.naojinsg.sakpgoiwzhsipagiskpqdkywse-1/lib_subox.so
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/app_anonymous_files/anonymous_core.so
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/gw.jar
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/shared_prefs/kr.xml.bak
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/shared_prefs/dsi.xml.bak
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/app_anonymous_files
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/app_anonymous_files/anonymous_core.so
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/app_subox_download
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/app_subox_temp
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/__pasys_remote_banner.jar
+
+
+/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/__pasys_remote_banner.dex
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:69
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:27
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:31
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:33
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:53
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:24
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:67
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:8
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:17
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:29
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:37
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:35
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:10
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:12
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/guess.db3 length:23
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/crash/crash-2015-12-31-11-03-30-1451531010917.log
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+java/net/URLConnection;->connect
+Connect to URL
+
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@21a13458', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@218e8db0', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'pkgs', u'{}'
+
+
+u'config', u'null'
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15529): FATAL EXCEPTION: main
+
+
+
+E/AndroidRuntime(15529): Process: com.naojinsg.sakpgoiwzhsipagiskpqdkywse, PID: 15529
+
+
+
+E/AndroidRuntime(15529): java.lang.RuntimeException: Unable to start service com.kyview.DownloadService@21870428 with Intent { cmp=com.naojinsg.sakpgoiwzhsipagiskpqdkywse/com.kyview.DownloadService }: java.lang.NullPointerException
+
+
+
+E/AndroidRuntime(15529): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2705)
+
+
+
+E/AndroidRuntime(15529): 	at android.app.ActivityThread.access$2100(ActivityThread.java:135)
+
+
+
+E/AndroidRuntime(15529): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1293)
+
+
+
+E/AndroidRuntime(15529): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/AndroidRuntime(15529): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/AndroidRuntime(15529): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+
+
+
+E/AndroidRuntime(15529): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/AndroidRuntime(15529): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/AndroidRuntime(15529): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+
+
+
+E/AndroidRuntime(15529): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+
+
+
+E/AndroidRuntime(15529): 	at com.tencent.music.v_d20a.core.XposedBridge.main(XposedBridge.java:135)
+
+
+
+E/AndroidRuntime(15529): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@2184ac40', u'show_password', u'0'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/gw.jar
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/app_518f6fc5-68d1-481c-837b-14319f9645dd/eh.jar
+
+
+path:/data/data/com.naojinsg.sakpgoiwzhsipagiskpqdkywse/files/__pasys_remote_banner.jar
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'dgi', u'0ba5c0208a5744048b86775892f43628'
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "看一看", "class": "android.widget.TextView"}
+
+
+
+{"text": "查一查", "class": "android.widget.TextView"}
+
+
+
+{"text": "考一考", "class": "android.widget.TextView"}
+
+
+
+{"text": "我的收藏", "class": "android.widget.TextView"}
+
+
+
+{"text": "1.", "class": "android.widget.TextView"}
+
+
+
+{"text": "冬瓜、黄瓜、西瓜、南瓜都能吃，什么瓜不能吃？", "class": "android.widget.TextView"}
+
+
+
+{"text": "2.", "class": "android.widget.TextView"}
+
+
+
+{"text": "盆里有6只馒头，6个小朋友每人分到1只，但盆里还留着1只，为什么？", "class": "android.widget.TextView"}
+
+
+
+{"text": "3.", "class": "android.widget.TextView"}
+
+
+
+{"text": "你能以最快速度，把冰变成水吗？", "class": "android.widget.TextView"}
+
+
+
+{"text": "4.", "class": "android.widget.TextView"}
+
+
+
+{"text": "冬天，宝宝怕冷，到了屋里也不肯脱帽。可是他见了一个人乖乖地脱下帽，那人是谁？", "class": "android.widget.TextView"}
+
+
+
+{"text": "5.", "class": "android.widget.TextView"}
+
+
+
+{"text": "老王一天要刮四五十次脸，脸上却仍有胡子。这是什么原因？", "class": "android.widget.TextView"}
+
+
+
+{"text": "6.", "class": "android.widget.TextView"}
+
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{218747b0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 wanim=0x1030001}'
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'select count(*) as ct from guess ', u'null'
+
+
+u'SELECT * from guess limit ?,? ', u'[0, 15]'
+
+
+u'select id,name,value from variable', u'[]'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'cn.dragon2.guess.MainActivity@21850830', u'class cn.dragon2.guess.ActViews'
+
+
+u'cn.dragon2.guess.MainActivity@21850830', u'class cn.dragon2.guess.ActQuery'
+
+
+u'cn.dragon2.guess.MainActivity@21850830', u'class cn.dragon2.guess.ActTest'
+
+
+u'cn.dragon2.guess.MainActivity@21850830', u'class cn.dragon2.guess.ActFav'
+
+
+u'android.os.Parcel@2184f5b0'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0x3a5c3af7
+
+
+
+
+META-INF/CERT.SF
+0x644658ab
+
+
+
+
+META-INF/CERT.RSA
+0x9fad9b3c
+
+
+
+
+AndroidManifest.xml
+0x68de88e1
+
+
+
+
+assets/subox.bin
+0xf4905e25
+
+
+
+
+assets/subox_mips.bin
+0xe6a60dde
+
+
+
+
+assets/subox_x86.bin
+0xd27cc696
+
+
+
+
+assets/x.png
+0x548cf4ee
+
+
+
+
+classes.dex
+0x3d34a8f6
+
+
+
+
+lib/armeabi/lib_subox.so
+0xe84a4130
+
+
+
+
+res/drawable-hdpi-v4/btn_normal.xml
+0xda42a05b
+
+
+
+
+res/drawable-hdpi-v4/btn_pressed.xml
+0xece4c0f9
+
+
+
+
+res/drawable-hdpi-v4/chk_selector.xml
+0xb02edf2
+
+
+
+
+res/drawable-hdpi-v4/ic_launcher.png
+0x1beaf613
+
+
+
+
+res/drawable-hdpi-v4/round_area.xml
+0xd735b1cf
+
+
+
+
+res/drawable-hdpi-v4/round_border_btn.xml
+0xfdb4444c
+
+
+
+
+res/drawable-hdpi-v4/tab_sel.xml
+0xc380c191
+
+
+
+
+res/drawable-mdpi-v4/bg.png
+0x6fe287e8
+
+
+
+
+res/drawable-mdpi-v4/guess.png
+0xe3efa938
+
+
+
+
+res/drawable-mdpi-v4/ic_action_share.png
+0x9c6be6b9
+
+
+
+
+res/drawable-mdpi-v4/ic_chk.png
+0x4a9caf7a
+
+
+
+
+res/drawable-mdpi-v4/ic_chk_selected.png
+0xb5ee5f12
+
+
+
+
+res/drawable-mdpi-v4/ic_launcher.png
+0x1beaf613
+
+
+
+
+res/drawable-mdpi-v4/next.png
+0x20dd0b7b
+
+
+
+
+res/drawable-mdpi-v4/prev.png
+0xc438ea0
+
+
+
+
+res/drawable-mdpi-v4/query.png
+0x5ea92e91
+
+
+
+
+res/drawable-mdpi-v4/search.png
+0xd012d05d
+
+
+
+
+res/drawable-mdpi-v4/test.png
+0xdf282466
+
+
+
+
+res/drawable-xhdpi-v4/ic_launcher.png
+0x1beaf613
+
+
+
+
+res/layout/abs_item_with_fav_view.xml
+0xe3e3d0e4
+
+
+
+
+res/layout/act_guess_main.xml
+0x54a991b4
+
+
+
+
+res/layout/act_guess_test.xml
+0x728d494f
+
+
+
+
+res/layout/activity_list.xml
+0x79d1a8
+
+
+
+
+res/layout/activity_main.xml
+0x97a20e19
+
+
+
+
+res/layout/main.xml
+0x9351b22e
+
+
+
+
+res/layout/sch_activity_list.xml
+0xa998c81f
+
+
+
+
+res/menu/main.xml
+0x6cf50716
+
+
+
+
+resources.arsc
+0xa0563ef4
+
+
+
+
+com/kyview/assets/icon_web.png
+0xaa4721b6
+
+
+
+
+com/kyview/assets/icon_video.png
+0x9971e707
+
+
+
+
+com/kyview/assets/webview_bar_back.png
+0xf1f43cbd
+
+
+
+
+com/kyview/assets/icon_call.png
+0xb6c55a1a
+
+
+
+
+com/kyview/assets/icon_ems.png
+0xb00109f0
+
+
+
+
+com/kyview/assets/webview_bar_next.png
+0x15ffc5b1
+
+
+
+
+com/kyview/assets/dbicon.png
+0x3fc402c9
+
+
+
+
+com/kyview/assets/icon_down.png
+0x83713d30
+
+
+
+
+com/kyview/assets/webview_bar_next_grey.png
+0x1b8ff3a
+
+
+
+
+com/kyview/assets/webview_bar_pause.png
+0xb993aa56
+
+
+
+
+com/kyview/assets/webview_bar_bg.png
+0xb3436574
+
+
+
+
+com/kyview/assets/webview_bar_share_hover.png
+0x5604110e
+
+
+
+
+com/kyview/assets/webview_bar_next_hover.png
+0xf249f3f9
+
+
+
+
+com/kyview/assets/icon_map.png
+0x22fa677a
+
+
+
+
+com/kyview/assets/webview_bar_close_hover.png
+0x232b2f06
+
+
+
+
+com/kyview/assets/webview_bar_close.png
+0xbd23d435
+
+
+
+
+com/kyview/assets/webview_bar_back_grey.png
+0xadb99cd5
+
+
+
+
+com/kyview/assets/close_ad_btn.png
+0x1d598ca9
+
+
+
+
+com/kyview/assets/webview_bar_refresh_hover.png
+0xec3a798e
+
+
+
+
+com/kyview/assets/progressbarbg.png
+0x22da4f0
+
+
+
+
+com/kyview/assets/webview_bar_share.png
+0xa0a6ce92
+
+
+
+
+com/kyview/assets/close_new.png
+0x1d598ca9
+
+
+
+
+com/kyview/assets/webview_bar_pause_hover.png
+0xa7768668
+
+
+
+
+com/kyview/assets/icon_email.png
+0x9742fa2a
+
+
+
+
+com/kyview/assets/webview_bar_back_hover.png
+0xaade227b
+
+
+
+
+com/kyview/assets/webview_bar_refresh.png
+0xd8d6a7ea
+
+
+
+
+com/spreada/utils/chinese/zh2Hans.properties
+0x3f0d30bf
+
+
+
+
+com/spreada/utils/chinese/zh2Hant.properties
+0x127fdd70
+
+
+
+
+jsr305_annotations/Jsr305_annotations.gwt.xml
+0x8d4f3e59
+
+
+
+
+jsr305_annotations/v0_r47/V0_r47.gwt.xml
+0x8b4479b0
+
+
+
+
+extra/__pasys_remote_banner.jar
+0xcb77c815
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+cn.dragon2.guess.MainActivity
+android.intent.action.MAIN
+
+
+
+
+cn.dragon2.guess.MainActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.kyview.DownloadService
+
+
+
+
+lrji.tq.g.r
+
+
+

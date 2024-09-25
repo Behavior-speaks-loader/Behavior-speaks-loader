@@ -1,0 +1,30 @@
+6c8eeb1550190f9553580116d8049c8e16b2e4bb7485269bbb165e93987c2587:['File']
+------------------------------
+Permissions:
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.BATTERY_STATS
+android.permission.BROADCAST_STICKY
+android.permission.CHANGE_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.VIBRATE
+android.permission.INTERNET
+android.permission.RESTART_PACKAGES
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+------------------------------
+API:
+./res/6c8eeb1550190f9553580116d8049c8e16b2e4bb7485269bbb165e93987c2587/api.txt
+------------------------------
+Intent:
+android.intent.action.MAIN
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/6c8eeb1550190f9553580116d8049c8e16b2e4bb7485269bbb165e93987c2587/6c8eeb1550190f9553580116d8049c8e16b2e4bb7485269bbb165e93987c2587.gml

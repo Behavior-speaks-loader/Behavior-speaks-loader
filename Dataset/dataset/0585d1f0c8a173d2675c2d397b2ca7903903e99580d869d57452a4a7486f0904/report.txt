@@ -1,0 +1,31 @@
+0585d1f0c8a173d2675c2d397b2ca7903903e99580d869d57452a4a7486f0904:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.INTERNET
+android.permission.WRITE_SETTINGS
+com.google.android.c2dm.permission.RECEIVE
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+cut.grid.permission.C2D_MESSAGE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/0585d1f0c8a173d2675c2d397b2ca7903903e99580d869d57452a4a7486f0904/api.txt
+------------------------------
+Intent:
+com.google.android.c2dm.intent.RECEIVE
+com.google.android.c2dm.intent.REGISTRATION
+cut.grid
+------------------------------
+Function call graph:
+gml path: ./res/0585d1f0c8a173d2675c2d397b2ca7903903e99580d869d57452a4a7486f0904/0585d1f0c8a173d2675c2d397b2ca7903903e99580d869d57452a4a7486f0904.gml

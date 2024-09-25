@@ -1,0 +1,1845 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+3e8e610b589be4144381f8b794a2f284b1f9299e128d1b1b9983865bd971624d
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.lrsg.aligames
+
+
+
+
+Minimum system version:
+Android 2.2.x
+
+
+
+
+Copyright:
+Android
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:lo****om/**.133.40.** port:80
+
+
+host:ap****om/**.133.40.** port:80
+
+
+host:sd****cn/**.133.40.** port:80
+
+
+host:hy****cn/**.133.40.** port:8080
+
+
+host:hy****cn/**.133.40.** port:443
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'http://lo****om/ajax?c=dl&k=b6523b0571018f2a5363213f0cd4fe87'
+
+
+u'http://ap****om/Api/Common/FusionInit'
+
+
+u'http://sd****cn/ng/client/log.collect.sdklog?os=android&ver=0&df=adat'
+
+
+u'http://hy****cn:8080/v2/m?account_id=9gamesdk'
+
+
+u'https://hy****cn/v2/m?account_id=9gamesdk'
+
+
+u'http://hy****cn:8080/v1/d'
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:lo****om/**.133.40.** port:80 data:data:POST /ajax?c=dl&k=b6523b0571018f2a5363213f0cd4fe87 HTTP/1.1
+Connection: close
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 328
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: log.tbs.qq.com
+Accept-Encoding: gzip
+
+�g�(͏�f#Ďe=�<��@ꠤc�2��ü8�LDw:o��R�Jؘ���x�Ee���g��Q]��Qt����~�"w��^�K��}S�Xc:���o�G��f{yL��a�+��[M>�-�W�^�s�x�"�W�*�2�7��\$_kG�of �w*@����(�-��(�z����c~2�e��K��2�~/�D��x�Ee�/�v��Uz~*`�]�1�h�-\�_"��l�Ex�4�iwK�#n1��e:M�	�K���k��+R�$=�6��7��վh�����b�1�kg���
+�Ĵ(%��H�+W{6�eN����>
+
+
+operation:send host:ap****om/**.133.40.** port:80 data:data:POST /Api/Common/FusionInit HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+Charset: utf-8
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: api.shenyoutx.com
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 352
+
+appid=100065&device=1&idfa=&idfv=&imei=35712****123456&imsi=46000****123456&iscrack=1&mac=0.0.0.0&mobile=138****5678&model=Lenovo%2BA360t&pkversion=1.1&requestid=1451530997517&screen=480*764&sdkversion=3.0&systeminfo=4.4.4%40Lenovo%2BA360t&sysversion=4.4.4&ua=&udid=1d1c5424-0f4e-3e17-b862-433d29a52ca5&ver=uc_mhsg&sign=889d811677cce413437b6f572196c844
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1252
+
+{"v":10,"k":"DxL197LZleNJ8hbhsuFqoIKXhnwEPavlPcL3xGJZxnm\/eEu2AOG5yzsxvDdsM+IbIDQZaLuxpS4VuUU745ETyw==","d":"ps3ASiPzkeUxrsmFN7WaJkePCjOkPoNtDYeyuhjSRNZRS5mYUjKFeJoQeHDgDNeaZlFib0wdLGcxPhjQj4FAW8Fy4GKRY8nNB9cdR9uf9+PJWQYKTItfzTUu7oT61nDVOTMvFku1TDamVL+a0C32BgHI\/hgrZYriTB9wLX65jmtABFrFWusroj\/Kd51dQO0BnnsEYH66KYSyK9GaOqB6E\/iinbjeVek6i+izieRpMGTFr+4Sn+ltKfgrFBD6STc2ppev\/3iUVAgYGHcYcSAqsjDNZhXK8ox0daKPlRCgbVGHdItLaLcthYpTzOUftk\/g\/NaNF7bdOP8f502QhMAfqMJFOy0K2WSfO0oy5lOsTyNgqEAFa7yuBnviVaJj4KfUUHHaZaBcPLL2p3LLgePkw+NKK+crq1hGPWKvzHK3ZvXYgnFH\/X3ZNh+3IVk6BqHAKPLIW9Y4S5kca9n2gLzjM5BujSCpIAvV9QR484q8pr3HvbiklL4pRlN0p4YqPBr3LYRSCcolZutAEJdGJ9sxqitYnNp1k+ch8jsUIz1ev6A\/h+2JvXZW2hpoRuiXkQH1nhjW1HIpIen9d6\/vjhkaseoTy8ER\/LliuN2zCUF1J7TMMO38MYTXEjuK3FJey0e8bG1xr9\/0o6FR1U+oL3QX6kHPD\/JDNa66crAcZhq8fEoETnApNyeSG8nBQPJlCFeLCnBxfu4wI+nrWDFfnGJ6iqAQS10lisaThgsbnpXD2Tts8kSVfPg1uO\/8T0uDREJ7ZbyCES\/cwsbgRf8h1gf7xMZRRdXjt+IiaiGdzEAh4MkuzjYQMAFtMAPHFOdvRzuALYZIpbPmig6Q3WIJlKFl2M4gC\/ffvaVF0hurGtx+eazvhYCxX6e8AXrrqfc1c8yP+0VLyJ1sG4NPVskHqQV4\/EPVN6\/m9jcMxjDf6nGomFCjypKjvMvVNRdIPEzYaiInqao5AQLGdWHna2tyPIW9iLxOOGnNuc8x5Y4mf7RPwDacvrm2eI\/QMTwkE6XJWA5c","i":"OEuoRmmBwv8XL6pgm2+K9XFyZVNl+PV6xDKVaTE2aDtTknfJMaE\
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1245
+
+{"v":10,"k":"WzYbECg3NB0AZ3pwhyGiMqTarRb45aMX19diL0aQq9NN8T\/LCtWaqBUmQyXBFiGEBJsrM9MUampfiOGCdYBs7w==","d":"7wkxM0Hf0dA9J6TmDc6OB1vRkkoyuQySCdMTdkV4MatFkyvbGjy\/rCtJg4zgyyGmcY96+19asq9yo3cnjj0ksJKfUIT2P2jZaUoqNAoj5jj8ESqWXMuZS3MLvtQaQjs86bA3xiJQzX+qeudG\/sqbzy\/1rp6jjJavKGa8Em+RyXYQXE9TTbSUhP0Wx8xn40PbUsNfF2H2n8uPGBRpcMNeod7CL7BNIZfV\/UnS+sy3PetuLDhPbfAevSmoFyDGZ439nJKzFFWhKTsnXVhZvMV2RR6voraGjt+zN+irWtyhjEDxfUjuBHpLVsN+jXP0FF5Q03MDlhHof3k8KIjPRBqOaAtuj6TVQOvNb9nGihr\/LkqUaO\/8Lm8jknBbL1+6I5ORkV4FIc+APEcyvc5pPqI4exFAddLTf43z3lzopdRT7lzoWk47PLqgXXeTLFapVi9HdwkQ\/6OkdSO4Qtyre1Q4L69eTQdq0YcZFv4nGnujKDWkhC0x0B6ImgPr0u\/+SZoVzyi61+eX0tDRyTiDaoY4uBezZScdrZeG2PBn3cRmZCGM\/1Mpl+FMBhmB7Ws6zYOLnUd39yTRI+R07WMO5KQ5x9XGdSoeI5d43zst08kUuvOlZr7jT8ZNSQ3owZrOVxd0vl3\/BG12J1arp3AfigH3+IiOp5+jLxE59sd1T9VDH4oMEyOzrejB0XD+muXMrM\/Lxl5gk\/IS270fpNtPobTGCkDSDR0hsj1Du2PxBti9Xk\/MDENeiZ1MTkEgO9VTzy4cISFeN6fWtc4yHdJv4Smrb2eWyMkMTJmq9kT663nNUpMYiFz2BdbdVV03v3FSSP1W+vu2gEOTYuh8wq3+351exjgBZ96Ox+o0umLNeDwbcRazHPQyWvp+Oi4lOBKAAZLuB9yCOuITJR9Pjf1FbF+1TmeZko6OFJ+DiKubMDPMwXxF1\/EviFj7TUzQA35CZnRlGUMdonxQ9iME4f0V2aatMMgCjOr02cB5n6Vx1s9phl+BJCRFfG8dCN7T6sPLCBtB","i":"JK0jqEc54eS58IRGJfxfjwkqY9pqpLGdEaLxT5SmMN0WdFB6mquUbaq+
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1274
+
+{"v":10,"k":"frdyCHxjlG8rAoqehL9G\/9gBU0vNzTB\/kAaKUXwl8sqFcU++bCa\/vYOwkBoruHdMTgYUXyNLPG0+7QuGys\/0UA==","d":"B4yX5pNGNC0znXVYJKKp5oe5RIr2dYzaws9ZqQyGGxp3sYqes+dMcgNS4yJbdC6gY1sqjId0DUGB1g\/o2UVoGnwwKTbNfrV\/ez\/XpHL71kBvQY23Zp46ycdpLzaS4QlPzV2QbjLbZRyrNEWvEYYh9n7EjesQIBopnYs9JXEg8us4zS\/ypX1W+9kBTlgeouyb99pc\/mLXOCHX7MAG7baG9oi+AslRlmkACnT623zWffcggfwJ\/N870x4UgWGQKCsD\/GgTlmAfYMMjy+TnOmXvYopCRz38YixEg2jUqAUTyrMH2eEk3HX7hHrRdIQiSyKnIM9dX9j9vrXkvBefVhtnrOVdVB63qz61JpND7UTd3OsLblVNumK1aBqHYcGpC\/4bo\/kRSO4eZVb8GFYuW0u3iDQOhrVIZEYk1aL1EwcBPJOQVx\/KBkd4UAU3p7w7iLLgQRAoKapVtu39iEbeMyww6+UcU91uLu1hz20FHKryGLKRJyuD6LSX78CU3QqYLp\/dFz\/zdDaMvL2yF7fklGmx4EDPefjCKU6bom5wHKXxzz4hLSaxLU+HXEOcsf8\/THUe8o9ZnoB4DfxNs7\/QNh0uAwzblQ5WTLn\/w9OwHmxf68XcNyt7l0gaCrFmlWDTyPb1eiJTQuWbrVZ9IPXSVbeejykNNgw5aDvdWmLFrqicFZRVdiK6YkcCFNyBVlt214qQOUaTXzOTt8lzrtcjfPr+r2t3QUrZRHn3t6WlBoeFscTxGIXQ24CE19RvXV8dCpRH\/DIfWojmkUBwwlzaH2VIdddPG0joTUShi1GDwzSKbOOxA7D8bzsU4YcZGQZKbTVwQEiKbuxZ4KPjEE0XroP2zTrxhiSenLAHfiDmiFxzVqxFiGiLhTRItDKtjCba4h7DzHutkBN3pis9jE+MfqofF2HWODQNNqW3bF7ZocW6EhWGES40epEZ66MwXWgDL0o0nZTK6ziP6X4tL3qwGLTSJbZj3XqkKnwdYnRHltNKDAFSjJ3HMNkwXdURv9Zi5trAwJF8AOoTCwTC2UDyMYBZ0Q==","i":"GCQBRwGrMiwIq5DrEYJhN3c7\/P
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1270
+
+{"v":10,"k":"KzyIyP6Hwi5dbc9QWYFFBu0jWUO8vI17uhUfjI2GaoDTQoL5RegF9SQTsSyHh+tjjx\/FtehqfVK4NXvUq9GQdA==","d":"6d6oKuYmsxqvN+Z77pDNVy\/nndMxzkaE8RaNdLG0aSl2xH3zQ737yJ6XmgXbaEOy2PUebZC03PTZXabEwDW2GchmF3zNou\/EgMKcRMDxwZ6CsYxY4KgVSqGhA0\/hCryeHGX72mNCOwQUITSDfPzS8vUYDGNEm7mMPwjbL+upQ3Lt3f4wvOZGRyCt\/\/KTLm0GxzqscC8WbNINgU8fRt7CVbyqGza4xvLH+2G09IwPhRiGLV0vZ6HdiNlw8iHZ7xMrKrtG7fW0XrXmDGTPh494n6hKwS6BdK7Jc4R1MhLlqDYybfkvaHw41sxljdgpyvK5OGcuMwTikbtSjxj4pMWJVpwNUsHzQZo5VLy6BRkhget5Tu0AneJp432QV5QETkSSMTRDTg1CbRoHybGf2Q\/zXrpjxqW0cpG4UvCcNYq9i\/nD6Ep8ceUsdRdREz5MD2y4YEQxYTzZmgrqDFtKoxOBOIlApZma2Gbkr4uOwzZw+oNnnVgxR3oBRBZ\/CfWY0cacNDB8OLttVMx3oT9O8Bw50sD0jBw8Yq86z2D7VXeLZmpj50uAEdPVhZ1aY6uJ8T\/10BhmQxv7E8CH97UVz7STfcIppRATDUhfEKY9Tc\/WP5j8YVn1E1J+k1smD+m9usb0+bAnDQTs5ACPyrn+4wXip7hWDyv7SW0eIXTzOnN6\/jZ8hFLJLgSo4ecgTI49ZiVosrQvGFoy1HKkeuP7UuZfZmXKUOK7AbjIT6JH0KtLdmVGP6ApZQNmAvfqTg7CQm2hMDJIrnl\/SthPBde68qaIzzZ66ztttVAKMGeU4jiFzadUGiiTdqlJKyLIjy2XXPs5wQyAxdhTtx3vojzYZdUK3gy1D0kXLrxV47J12mwzKEbjPKrXB36pDSG+jJ7Tza7rWFHyQk4SVCmABc29sZFriAE1Q\/ifiDL+75+xuwWocseDY6IBFyvqh1bPYP7VcNxt01\/iOBGReaXiiO8OkHBI3Quw0aFEJ4DtzB8TIi95mEVvWfBGlGnz1Gl2+z\/IUTe3v7lz6p899HAVJIjWRJDDHg==","i":"QZgzZnKFyW1ojG8\/yosWVaR1dfE3Bl
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1225
+
+{"v":10,"k":"YyWUpVXBwUukS+AdpguENXpNiNNU7nsFGhhVWtGFXLdXvQnGrcXwikq3SM\/k++BzJGlMqpIiT3vohu45BzGsKw==","d":"qtLgyKKgBGTVrHjW9BVfHjNBSqGv11QLne97X2hWZQa5AQsaIBPiYNVLlPlnuqw1puv5CYAUHqn03AWdx0si+ZkKCP6D3a+ZBJF4XBrKtS0F\/Via8dWoVh4k1gj3XQCVGzKSyO1QleWr4e7FzNyX7g2fslLcq3HvLXHigZ70UNeOtx5MFP\/HcRzYl\/e25qpBnx5mYv7JieIhrf9q7XgqtjonzFbTb9coiWvkpk+nf1+9YJU\/rQKj7FDU863SGmcVq9jVC8UWZoVB8EX9cJzIVMUw8lG42LvmEp\/WUaM\/HlEDWTc3FM3VcD965HH98MVGwAO3muR1X3nNLjTmlVPLKz3O64SCJ4JzFAP9x7OrqMtq0JqVhJ2cMy+1G+cFYgOwfXQ6YfIyA6ymcI98aLBu7Ns1iN\/ZExlRVT8\/hViQarYCeP62f+bD0DGMKB+esrS4LFr99Syzd+yrnyM6WD4gdBdFn04GHDLJHHcrQl6Ve\/B2dX+5VOYrzC6zvlDKQVP3NDrWUKKzBMz74TrZcPf1RxuiPnaZcfbF1buqVje5M4VsdnjhGNNLar0BQEwnb5WJmWRW8ncCJ8qU5ZYDJ4SVxsybBhxnnyCj9F0urYzryWamD4Ic1k6bA0aPSenh792CWIriJuHDBPb5Ljn5Fqbp1EHMsRmvf9ZjSN+ic6M7UrulnyoMfpoZQxvqbnEzqPmbXl5AI\/5tapuTEIoxvq9jQ7XiTF87T16qVs+OF49M5uXQcjCJ4aodyGD1OWFMjbPMIUrDs+LVIyyQ5CeiQ1g0WBSuxKcwdFLDKcXkG\/WXsPGtXBT6PaLjRIK+UAeXHAb8Unkh6pLO14Yc64AcA2908NTVxsuhwyeez0Td1RaaiFfk8PsC7QOrdbnaDz8mnbHsHruP3qj5EkmSVUpEg8yBN4gkYUyklYFJINW3Yo0BtGwV8+oo93VAH6WGNqLmRNZo+a3lmEFGlk37uTOZZyniMC7aJoY8mei3iQ2r\/+5\/j\/c=","i":"VIANZcRwBfe\/ytyoLpK59zlQmT6AqdfbackRXEH02xmQ+Mr3KMU3tkHhexndf0zJqQ7HHExXDqy
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1247
+
+{"v":10,"k":"SjiIdWacF42qGY6HQ2V5grRTLNjJ+wGBAzWKtAtJR+ekD+tm5pnbmDLl0xyUrY1Ae7cJW\/Ee63RYHTOwcfFYjQ==","d":"Om80snXoggyCeGNV11\/bc7SbQ88XH1eNqq3bRwQ\/mF2dXn6yROSAchgFxIymzr\/OwZlC95W83cSnYFZiQdLlkSfw0gBqwutqtZ+bVWJhq3EGISnbGPZqVB2Z8wlb9FnNXp65WCP5UKg1xSLLlrdf\/83GiBntjduVCQdyAYoqiglNK7SFI1SSjuiszMP7a18W\/S1gak4DqS3yv7Eal6+cO1BnWd6sL8ln+QjxAC8Ts\/Tzm+U1l0owaIHDx6+1q5mr43YEc14eEqOTtkQrbFWHNp0spR\/xuckQQqJ4s1ff7PLRsz9juGOpOtqn4jp6be6Py3K7fKo4PvDpV\/izvv+QcNgeNIl913aaR5jAqwDGiYfkDHnGc9TsH9K5sHFEA8jZ7JdeJKDYDkjISoKsS2sm44VBFdadwBWQswRoAyiZooU5oGDUCuFHGpQc\/BsXQMjecfupgZGX\/ma0+UMFX8zfK1wM4d1aKHJx74DKvD+pt1br1zKzQSK55CHK1oycAgxuI3w5H0A14g291DMOmeR6ynxqijW5X1R5aL2yJBOCefJDfcnaivUG4UkCAsgKYPCc9H+0qciA2wMflGx9lNypH4lvQ+SEahABP8CgGteDtQK9w2hAYAlAhXy1bj+0LvfrYJ6xYT9K0z3uz69VEivOrwok2qrlB8lzTibWuIvzNUA\/jwoXSm8LMwoveLzfd2kf8y3PCnCpgxIfOOxUzeJphtxuvMiDUDLQPFQMKhjK6pk3XEgpN\/dY5AAc1NfhIbyoZKBzyjR\/n8auQgHcOytuIsf0szpTAqAh8nXz6ZQ868iL1BB6b6l+JAnavjiVFY+Kv6MUHva0p0ruN7oAGk39kTFCyv0Q7Btbp7MvqYoROv5HAwZ3lnJw+kaB56RE4M9O5U8U4R4K8LFJ9cEYFlAp1b5CnA7Fqx0NBjmVyzgLo2jaQzbAwP9uKH20ltHNAg2jxoKqIMjy0a8oe\/NJFxi1A9vNI3+34anZo3U7YUDyUZZhSBRLetAt4nHx\/6FbYWZg","i":"Eka2UhpNPwONKyse51CDsZSJRXPg6pIp\/dzSsF2EX5HjFZvagW2TsY
+
+
+operation:send host:hy****cn/**.133.40.** port:8080 data:data:POST /v2/m?account_id=9gamesdk HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: hy.9game.cn:8080
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 0
+
+
+
+
+operation:send host:hy****cn/**.133.40.** port:8080 data:data:POST /v1/d HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: hy.9game.cn:8080
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 233
+
+dn=sdk.9game.cn,sdknc.9game.cn,msg.sdkyy.9game.cn,resserver.sdk.9game.cn,collect.sdkyy.9game.cn,updcheckserver.sdk.9game.cn,applog.uc.cn&accountId=9gamesdk&ipSource=&isp=cm&net=WIFI&ldns=0.0.0.0&valid=e87290fcf7086726cab2e77bf56de0f7
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1277
+
+{"v":10,"k":"TePsHSVEutUsgJHopkH+d9rvHQfdZgPrsWch90FqeSWocFGE\/jQSFSHFGpVKxYmrgQ7wMZgBpwMvemWARrSbSg==","d":"MvgHrIVMfJBcqkKGaeEZCcbejv1hDdtvdRloqdATPSUj9Wda2R+JXcX3bSD9dLLmAxCaZE5Y27ZgFAxSHrUmA34EjJ2QQqBD9om46fVp5vMwbKXoFWpRk+mXg\/yz\/OMuTm1VC8xudB2Bwf42r3ozbKjJ\/CtSvlGr9E82xSjV1PsKVaaXJ3xcWc+2sr2k4waifVkxyC4LP47jXkhCu6dVL4l9SypC07ya3qQXlPJX82gh9esjbIV\/WmXWqDp867g4a4NJXwoNBAqyGt1svmkcHybyIlj\/GRuBOo0b5mheZ1shbQoZZmjxlQN6aSNBDZvACSdKuFF1S647AnHI1qF5\/YjleVPmN7nDanrKjVs+f0ES8vfYVzh90YMVgECs9WHW0v0Y\/aWSiPWMTFi5DesJvlpuEhYS\/66fj4mxz2NNj3uYKc6ijm3QheGWDj+oR0sAuP\/RL1D7heHFxI1LvyFpnrmDVeV5wgtY0Tjii8446j+8fBrLnfbmwMk0PJAyju6FFaG6jgOjlqnAvVFlwmt1eQ1chGQGN2eOhRlzE1engmtiQbeGxNIpShNoPYV\/8ha2TaCsQiNELs1dbRBOQkYJhSoeW8cbgW9qScUXQWyFalTd7SiNP2MmnTCNkKLWFzmC5Ds0lDk7glK+DBIRCO2yJX32kkBZtI4fbmAkAmONI0ZxWaModh0pm\/9zHY7FR9Y9ck3typAz8Fc1fOVo7AHG6mRwgBznnb7SEra5x8rz5vXLbF0FlkxZhHOLQJUbqlwXPgb\/UMbWP19evd9QoivcnSAuoOQ\/nQIBc3OHDjLFNkN5TKCFBBHJRklKXMV1zzHsxFlIy+iLF\/RNykxvbmrI5\/ox\/3cFVr\/hAXEcVrreQQZW+Xddw+9HBMFttdygYSaJk\/0qP4qGxbBTOqhm2D5t4aCwOGYcSwu7YOTLJF7apTZAWkWJRv7\/9sprJBaaAQ58nmKoWsRfrXkhxxcuRR1Md4xtCtrB\/iEWAcI0r0koLKczCtEaLxiQ67M59\/fSL2CyUq6mJbnwC0XTs\/TO4rdPiw==","i":"H9V60KtVmJxk1DXeXXI8Ny7k
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1274
+
+{"v":10,"k":"SObR8NAWgbj+GsFcCE3kftSYwEGzMveKBOUrRseRdUAMzd3uz\/KaAUg86Gi3Eibz5LqfGDJWfLJ++5BKv\/vqFA==","d":"W84V\/QfR4B7OCjNsCyAWY8KELCPmmFwl2fp9b8GVd7muk\/R0jywPd+ePOpknZ\/0wLmecBzKhEJiZOHA+6h79pcEq4Alw3F01wnaMdUAtkuKExvrh13TGyZThthJZ2DeekSkgIT6LEdsFdaj70RfQE7dDVANDCCVm1dqAF+Rug7EcIRfaJudb8Pjwf3qykyTr8DQ+coQ+PJW0hlCq\/EZe4KO9Ford3aBUHvt6vKjk4FUCfKZ9filJ9DywujDiXQMqjWNlBaZ2u4EQInqiC7rMFf7PgJqKyYDP8aECtD0NU1wB0Q9eU3\/cDQXJJqQbRNnkY3QyTb8WZwsYJi3\/ONH6gDdUFZb\/7DraKtkCgTg1weD8DZBnTVYh7yYX5MkB3NHwdP1V31e6S8pfYKanfT2vsrIOBBcTx+sYWj4UWrugVWDDTiay0iRmNhthGgPbYUphLsya5Q5baG2yGXyGE4Dr7AnPZIz+Z6ZEFr4aChGaZKmlRylUJy7jJIu7tdBexj4F+yURSIYddW7vt1aqT6r\/AWqW5t\/haB71nPramEh06YLkB9sn+\/8l4He54FlRgymCSTuAYntG5AgIT7x2uiYo69Nt6eQS98iMRTXp2rMGCnBd+Nip2JlNr34GjI4OUMAlcU1UpDUPBnQJeK1gJ9hVJRS4LCFDxNU+sTfBq1qu4DPidZ+dYhQova\/qRq9csQ6Qm24T21+8hNsWr9SYp\/tEQzf559D1ziMldrRWbB4vfdNqm23VLzp5rxE0RhHQYdH1wqdvZr8pFgc3BK0xtDj5sYsh\/G77qU1nEVIVdkhWGy\/W2ueiqh0xmkdcBctOk2iixPWdzif7tEU+H6w1KHTPzvLkDh93rr3uMK57dj7QCn7aFI+oHnkcLt3ZU0MOUk3ysnpiOlHFoumjAvIv3nyVVCBAk0TXKp3Y\/G5Kt+3IAng74qahofrPUGLUhDvg075NjiO9SfxSFBdcHYSD4nmTT\/2crrV0O3vLn7\/WZx4ILE0Yrs1UP4yB2ZHAHD7PchMY0zmOEsIWBCVU72ymp0M9Zg==","i":"gdRVDRmHoTdlA2caxEP+\/eqnFAN
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1272
+
+{"v":10,"k":"KWQ+58U3x+\/Qm12BX0KaSJODpIziv068mvTfOI+ayj+QsRSbH5Or7xhi42wbvVOyPVu7lHS8XX1OVmXb3q7srw==","d":"CPHCWFJm\/mAOfj7b3ZVCcP\/MoGZW86tVl\/rdq1NPbwJ7TYyh\/azhcCWWrnnBabMCWg3CEJgyGCGpPwO\/F5f8ZTIlkfBMOwb81Z41wu4q+mWiitFV1Upq\/o1v\/Coa4zFHJEv1Tp3Bz\/1kBhb4HtJv7niCMomU+rydh2yByPXzffjkFWjp7sCWAvFuaZyehZSV1PRAigFuOeY6ReodzfAffQzxMwX+YUPIkFixsqI2R2mrMT\/MsP38o0hVf\/+5qxTEdLuTFCOxpdINxJu1xMtCzlMFgyPlkRLQ66EyQtl7DkIA3isUzsV82stPwX8+agHpYRxUMOVVlHKASCvmrfmwN+QG\/fSvDQ4nWohKGtWx\/OV3UrhOR9kn4C6WxWHNpr7TZkCftif9iFnM4vgSL7QIsqEiThSXIXbyB1TJmPiEHGNlRzp2lrT3jaGh2cO0a8cKm+Iwn61JSBSxFnK39gsa6mUpIhip18SpqYoXOdAN2wGsq7TXNSkY7JF2JAQMqiYug08lgG9tvGgMXgj6ahloqKj3N1dSQBE4gY0mx4jlj7YdTluU1bO1rm40HQ70H+zHahRVTN8\/x0F3k9GTublJKv8cIHXRFtS121saqZDfdQNpKDbsz7z\/0GEXsmukOnx8UvGpjJdC7ixffYSElk9R1SSq17kwQ7eA4hh\/uVH3F3AHSIB8IBEL2tvYFRfjhPdXkKJKW6RJSN8Y1r9+4K96MKRLiz0I3b9ZzYCAaTjJwBqk1enCKPLSGHUJStswNDXk4U4J10dnwAzL1KPCYBCBUR4arauc7yv12uJ9mp5ksTLMHTRZCQY05nzIeMGWEQ4itiA0d8yKwKmLfodqGfjvDGss7tP9zUWSRSv1bWkf8C+Gc1ejRvvIAqwrEVGym7TGS\/VOcBwF6JSbJhTrVtEuA\/68AFFeeOx7pUqdTfQ6uxFv4EqTW9tCHOc4bMiRP6a58Qw5MsclXFb1j9T3Cv6O\/iv5ArRQfxO+hRePdDVKJDW8bGjNsjVWkBsOhue9GGLRaIAEjHIwipBhEd6OxjpYrQ==","i":"T5FFpiiZQmGbGsDE1NzH1pkaS9ws
+
+
+operation:send host:sd****cn/**.133.40.** port:80 data:data:POST /ng/client/log.collect.sdklog?os=android&ver=0&df=adat HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: sdklog.9game.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 1264
+
+{"v":10,"k":"TTZQ2aicj7JIlMJThKUMqHx07QxoLDB1zU5cBdPlGha2WrcAT5YbPc5t64ueD2LrbAAZjlt9nGKidHhhumIZUQ==","d":"8Pdz1ifpr76Gpl5dRJFbKtwiwPn8\/xKGgro6rc1b08lyWU4v2Yba2n5fQVC3sogPOCg+sgDqyfbutR+vCEj2XCbGNBqDMpzt\/Wr1MXa+UfTQZQ0CHl\/WpbT2bXNbghQKgg4ym68290CCiGI0GNEaYpk+BZN1oXsR4rdzR1A3cdYFMhqsvIm7RdLOs2A41MY1DSSArioxxNiph4sVU+kn\/KmlAIASQvTxjfVtWJS6aBKmeYqisgi8OdF+NLJza5BWnF1ANJxYfZuTJFENVqG+9iRxyKHldchtMwflC+lre9Qhvd+4qftqTqDCJtRaxBgCTyh7vlAGshNx\/FggirDB+DwAj4zv0QmKwgeOFCUGYtP79sy4SQCQ4JWJVFrLL7QmXwwEDaxNm5KEOzYGRLH7aA7Y1YXmKztTtrgOgWPz57x7KVk54GCxpdM5c6VAca9ArlGdW81HWsO3a1pmLnpLnbAsyHNAlcz89hCDZRh+bjKtwR42eZm3VtCdfAceb+aSvJSC56Bs+oZ+nEd4fsJskWXcRhoxTwWS6XlRKjfMfMXsPMalep+HhXYWplAP2Lspcz51nZyGIVZTjKR1juzHSPQR2KQv5rje1ygC4bR4Q8TOyavMxqZ1KbwSCjaQD7ZDbEtY+2peOxxqqzxWe+728cJ+ozdnNrQhHDsR6MtJ6KGWH\/08+KOQrwBAWKe+vSWzEbDNF3lYnYDtVnEv2zwqOHpI3ygZIFjfb+OXZhYedPehFmVID5uQEZ\/IH5vEeeoEoEQ4jkhS9CqD1U5qrY8WsYBvurCW6r9k797x2bzm8TNIKQLPHtKV+yzlv9YQcjBBaEE6IqWbWucDhmOsW5RLDnAp6Rw3jHrEYHZGG840yGx2PVNvAfLHuiV8TonxEZph7wt+MIs3\/N7Vfv3n0LLxYJASJJQLSaKUvEENDtU1oTQ6nLXKY3eXhflCblRXuk2Uh6SV8mh9bfapXpWg\/ygWT0bNB5SoXmydMkiSLml8qWLcUMetA2kBGjI8ikqjUMvjbYmkTzvZsRLycZvHLa4ZTg==","i":"KTFN\/1z07i\/7gzmJk6qjMsYnbPtCR+GeDCRs
+
+
+operation:send host:hy****cn/**.133.40.** port:8080 data:data:POST /v1/d HTTP/1.1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Dalvik/1.6.0 (Linux; U; Android 4.4.4; VirtualBox Build/KTU84Q)
+Host: hy.9game.cn:8080
+Connection: Keep-Alive
+Accept-Encoding: gzip
+Content-Length: 112
+
+dn=sdk.9game.cn&accountId=9gamesdk&ipSource=&isp=cm&net=WIFI&ldns=0.0.0.0&valid=4b639a8393b740f3120ee176134a3a70
+
+
+
+
+
+Behaviour:
+Access URL
+
+
+
+
+
+Detail info:
+
+http://lo****om/ajax?c=dl&k=b6523b0571018f2a5363213f0cd4fe87
+
+
+http://ap****om/Api/Common/FusionInit
+
+
+http://sd****cn/ng/client/log.collect.sdklog?os=android&ver=0&df=adat
+
+
+http://hy****cn:8080/v2/m?account_id=9gamesdk
+
+
+https://hy****cn/v2/m?account_id=9gamesdk
+
+
+http://hy****cn:8080/v1/d
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://lo****om/ajax?c=dl&k=b6523b0571018f2a5363213f0cd4fe87
+
+
+http://ap****om/Api/Common/FusionInit
+
+
+http://sd****cn/ng/client/log.collect.sdklog?os=android&ver=0&df=adat
+
+
+http://hy****cn:8080/v2/m?account_id=9gamesdk
+
+
+https://hy****cn/v2/m?account_id=9gamesdk
+
+
+http://hy****cn:8080/v1/d
+
+
+http://sd****cn/
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:lo****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:ap****om/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:sd****cn/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:hy****cn/**.133.40.** port:8080 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/data/data/com.lrsg.aligames/app_tbs/core_private/download_upload
+
+
+/data/data/com.lrsg.aligames/app_tbs/core_private/tbs_pv_config
+
+
+/data/data/com.lrsg.aligames/app_tbs/core_private/tbslock.txt
+
+
+/data/data/com.lrsg.aligames/app_tbs/share/core_info
+
+
+/data/data/com.lrsg.aligames/gamesdk_modules/lib/lock
+
+
+/data/data/com.lrsg.aligames/gamesdk_modules/cn.uc.gamesdk.init/data/signature
+
+
+/data/data/com.lrsg.aligames/gamesdk_modules/cn.uc.gamesdk.init/9.1.0.8/property
+
+
+/data/data/com.lrsg.aligames/gamesdk_modules/cn.uc.gamesdk.account/data/signature
+
+
+/data/data/com.lrsg.aligames/gamesdk_modules/cn.uc.gamesdk.account/9.1.0.8/property
+
+
+/storage/emulated/0/ucgamesdk/1152686/config
+
+
+/data/data/com.lrsg.aligames/gamesdk_modules/cn.uc.gamesdk.core/data/signature
+
+
+/data/data/com.lrsg.aligames/gamesdk_modules/cn.uc.gamesdk.core/9.1.0.8/property
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+x86
+
+
+MemTotal:        1030096 kB
+
+
+version.ini
+
+
+cn.uc.gamesdk.loader.apk
+
+
+null
+
+
+1|MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKjnX9Dkb4gVT2PbXg9QLPUSmoOQndKra4wfGwub16R/zjdqLJgDo6DisetD4diIw/1gjdSU+6nCEaiK+5a9F/8CAwEAAQ==
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.lrsg.aligames/app_tbs/core_private/tbscoreinstall.txt length:5
+
+
+path:/data/data/com.lrsg.aligames/app_tbs/core_private/download_upload length:5
+
+
+path:/data/data/com.lrsg.aligames/app_tbs/core_private/tbs_pv_config length:5
+
+
+path:/data/data/com.lrsg.aligames/app_tbs/core_private/download_upload length:67
+
+
+path:unknown length:9
+
+
+path:/data/data/com.lrsg.aligames/app_tbs/core_private/debug.conf length:5
+
+
+path:/data/data/com.lrsg.aligames/app_tbs/share/core_info length:5
+
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/data/data/com.lrsg.aligames/app_tbs/core_private/download_upload length:69
+
+
+path:/proc/net/if_inet6 length:69
+
+
+path:/proc/net/if_inet6 length:5
+
+
+path:/sys/class/net/lo/ifindex length:7
+
+
+path:/sys/class/net/lo/ifindex length:5
+
+
+path:/sys/class/net/eth0/ifindex length:7
+
+
+path:/sys/class/net/eth0/ifindex length:5
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/data/com.lrsg.aligames/ucgamesdk/lib/lib_ucsdk_xcrypt.so
+
+
+/data/data/com.lrsg.aligames/ucgamesdk/lib/lib_ucsdk_softlink.so
+
+
+
+
+
+Behaviour:
+Read external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml
+
+
+path:/storage/emulated/0/.DataStorage/ContextData.xml
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.lrsg.aligames/shared_prefs/tbs_download_config.xml.bak
+
+
+/data/data/com.lrsg.aligames/shared_prefs/tbs_download_stat.xml.bak
+
+
+/data/data/com.lrsg.aligames/shared_prefs/sytx_device_id.xml.xml.bak
+
+
+/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml.bak
+
+
+/data/data/com.lrsg.aligames/shared_prefs/Alvin2.xml.bak
+
+
+/storage/emulated/0/.DataStorage/ContextData.xml.bak
+
+
+/data/data/com.lrsg.aligames/shared_prefs/ContextData.xml.bak
+
+
+/data/data/com.lrsg.aligames/shared_prefs/BaseSDK.xml.bak
+
+
+/data/data/com.lrsg.aligames/shared_prefs/cn.uc.gamesdk.pref.xml.bak
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.lrsg.aligames/app_tbs/core_private/download_upload length:67
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:112
+
+
+path:/data/data/com.lrsg.aligames/shared_prefs/tbs_download_config.xml length:205
+
+
+path:/data/data/com.lrsg.aligames/shared_prefs/tbs_download_config.xml length:253
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:121
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:134
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:119
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:225
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:145
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:101
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:123
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:102
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:106
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:141
+
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt length:235
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/Android/data/com.lrsg.aligames/files/tbslog/tbslog.txt
+
+
+path:/storage/emulated/0/.UTSystemConfig/Global/Alvin2.xml
+
+
+path:/storage/emulated/0/.DataStorage/ContextData.xml
+
+
+path:/storage/emulated/0/ucgamesdk/1152686/config
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+TelephonyManager;->getSimSerialNumber
+Get SIM serial number
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+TelephonyManager;->getLine1Number
+Get phone number
+
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get phone number
+
+
+
+
+
+Detail info:
+
+138****5678
+
+
+
+
+
+Behaviour:
+Get connected WIFI
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get WIFI state
+
+
+
+
+
+Detail info:
+
+true
+
+
+
+
+
+Behaviour:
+Get running task
+
+
+
+
+
+Detail info:
+
+u'1'
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@218e4c00', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@218d7dd8', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+u'cn.uc.gamesdk.base.httpdns.ConnectionChangeReceiver@21b63320', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE"}'
+
+
+u'cn.uc.gamesdk.lib.network.ok.ConnectionChangeReceiver@21b626b0', u'{"action":"android.net.conn.CONNECTIVITY_CHANGE"}'
+
+
+u'cn.uc.gamesdk.lib.system.ForeBackgroundState$a@21aa8da8', u'{"action":"android.intent.action.CLOSE_SYSTEM_DIALOGS"}'
+
+
+u'cn.uc.gamesdk.lib.system.ForeBackgroundState$c@21aa73c8', u'{"action":"android.intent.action.SCREEN_OFF|android.intent.action.USER_PRESENT"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+className:cn.uc.gamesdk.bridge.NewBridgeActivity
+
+
+packageName:cn.uc.gamesdk.init
+
+
+targetClassName:cn.uc.gamesdk.init.splash.SplashActivity
+
+
+followTopActivityFullScreen:true
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'device_cpuabi', u'null'
+
+
+u'app_versionname', u'null'
+
+
+u'app_metadata', u'null'
+
+
+u'tbs_download_upload', u'null'
+
+
+u'device_id', u'null'
+
+
+u'UTDID2', u''
+
+
+u'UTDID', u''
+
+
+u'DID', u''
+
+
+u'EI', u''
+
+
+u'SI', u''
+
+
+u'K_1171477665', u''
+
+
+u'cn.gundam.gamesdk.si', u''
+
+
+u'sdk.NetworkConfig_degradation_policy', u''
+
+
+u'cn.uc.gamesdk.log.config', u''
+
+
+u'cn.uc.gamesdk.stat.config', u''
+
+
+
+
+
+Behaviour:
+Write system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218b33b8', u'dxCRMxhQkdGePGnp', u'388209696F85F3359FEA1C4B7D376446A54862596381B7791A597E2BA8EC783A'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218b4368', u'mqBRboGZkQPcAkyk', u'VoSa9c+MUk0DAHrD0A7vwSC0'
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+content://telephony/carriers/preferapn
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15655): Process: com.lrsg.aligames:bgservice, PID: 15655
+
+
+
+E/AndroidRuntime(15655): java.lang.RuntimeException: Unable to start service cn.gundam.sdk.shell.service.ProxyService@21861a40 with Intent { cmp=com.lrsg.aligames/cn.gundam.sdk.shell.service.ProxyService }: java.lang.NullPointerException
+
+
+
+E/AndroidRuntime(15655): 	at android.app.ActivityThread.handleServiceArgs(ActivityThread.java:2705)
+
+
+
+E/AndroidRuntime(15655): 	at android.app.ActivityThread.access$2100(ActivityThread.java:135)
+
+
+
+E/AndroidRuntime(15655): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1293)
+
+
+
+E/AndroidRuntime(15655): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/AndroidRuntime(15655): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/AndroidRuntime(15655): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+
+
+
+E/AndroidRuntime(15655): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/AndroidRuntime(15655): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/AndroidRuntime(15655): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+
+
+
+E/AndroidRuntime(15655): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+
+
+
+E/AndroidRuntime(15655): 	at com.tencent.music.v_d20a.core.XposedBridge.main(XposedBridge.java:135)
+
+
+
+E/AndroidRuntime(15655): 	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+E/AndroidRuntime(15655): Caused by: java.lang.NullPointerException
+
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218c31b8', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218b33b8', u'mqBRboGZkQPcAkyk'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@218b33b8', u'dxCRMxhQkdGePGnp'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.lrsg.aligames/ucgamesdk/lib/ucsdk.apk
+
+
+path:/data/data/com.lrsg.aligames/ucgamesdk/modules/stable/cn.uc.gamesdk.loader.apk
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'device_cpuabi', u'i686'
+
+
+u'app_versionname', u'1.1.0'
+
+
+u'tbs_download_upload', u'["0|35712****123456|QV=3&PL=ADR&PR=TRD&PP=com.lrsg.aligames&PPVN=1.1.0&TBSVC=43697&CO=SYS&COVC=0&PB=GE&VE=GA&DE=PHONE&CHID=0&LCID=9422&MO= LenovoA360t &RL=480*764&OS=4.4.4&API=19|0|HABOmodel|com.lrsg.aligames|2|1970-01-01 08:00:00|||0|0|0|2|unknown|0|2|0|0|0|1|-104||mycpu is i686|0|92841014150fc3fd|4.3.0.1148_43697|false"]'
+
+
+u'last_thirdapp_sendrequest_coreversion', u'[]'
+
+
+u'device_id', u'1d1c5424-0f4e-3e17-b862-433d29a52ca5'
+
+
+u'UTDID2', u'VoSa9c+MUk0DAHrD0A7vwSC0'
+
+
+u'K_1171477665', u'388209696F85F3359FEA1C4B7D376446A54862596381B7791A597E2BA8EC783A'
+
+
+u'cn.uc.gamesdk.ci', u'641a72e958e9d3a4984f91d1f4600a9b'
+
+
+u'last_version_name', u'9.1.0.8'
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'getprop ro.product.cpu.abi'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2189b660 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#112 ty=1 fl=#1810500 pfl=0x8 wanim=0x1030001}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21cf0e30 I.E..... R.....I. 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#110 ty=1 fl=#1810500 pfl=0x8 fmt=-2 wanim=0x1030000}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'android.os.Parcel@2184f668'
+
+
+u'android.os.Parcel@2184f658'
+
+
+N/A
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":268435456,"COMPONENT_NAME":"ComponentInfo{com.lrsg.aligames\/cn.gundam.sdk.shell.activity.ProxyActivity}","EXTRAS":{"packageName":"cn.uc.gamesdk.init","targetClassName":"cn.uc.gamesdk.init.splash.SplashActivity","followTopActivityFullScreen":"true","className":"cn.uc.gamesdk.bridge.NewBridgeActivity"}}
+
+
+
+
+
+Behaviour:
+Access database
+
+
+
+
+
+Detail info:
+
+u'error', u'null', u'insert_time<? AND priority=?', u'[1451531021139, 2]', u'null', u'null', u'_id DESC', u'40'
+
+
+u'stat', u'null', u'insert_time<? AND priority=?', u'[1451531021133, 2]', u'null', u'null', u'_id DESC', u'40'
+
+
+u'stat', u'null', u'insert_time<? AND priority=?', u'[1451531021133, 1]', u'null', u'null', u'_id DESC', u'40'
+
+
+u'error', u'null', u'insert_time<? AND priority=?', u'[1451531021139, 1]', u'null', u'null', u'_id DESC', u'40'
+
+
+
+
+
+Behaviour:
+Execute SQL query
+
+
+
+
+
+Detail info:
+
+u'select count(*) from error', u'null'
+
+
+u'select count(*) from stat', u'null'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0xf1c13447
+
+
+
+
+META-INF/CERT.SF
+0xafba44ad
+
+
+
+
+META-INF/CERT.RSA
+0x256d845f
+
+
+
+
+assets/ucgamesdk/lib/arm64-v8a/list
+0x7810a769
+
+
+
+
+assets/ucgamesdk/lib/x86/lib_ucsdk_xcrypt.so
+0x6b9a27f7
+
+
+
+
+res/drawable/bg_loading_view.xml
+0xa70e5f92
+
+
+
+
+res/layout/test_demo.xml
+0x799c9c90
+
+
+
+
+res/drawable-hdpi-v4/icon.png
+0x1b9e0ca6
+
+
+
+
+assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_xcrypt.so
+0x9d8d0c76
+
+
+
+
+assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_softlink.so
+0xe9eebcc1
+
+
+
+
+assets/sytx_game.properties
+0xd9fd6f72
+
+
+
+
+assets/ucgamesdk/modules/cn.uc.gamesdk.loader.apk
+0x25b9df39
+
+
+
+
+assets/ucgamesdk/lib/armeabi-v7a/list
+0x2f6c4f1
+
+
+
+
+assets/ucgamesdk/lib/x86_64/lib_ucsdk_xcrypt.so
+0xd790e9ba
+
+
+
+
+assets/ucgamesdk/lib/arm64-v8a/lib_ucsdk_patch.so
+0xa212acc1
+
+
+
+
+assets/ucgamesdk/lib/armeabi/lib_ucsdk_patch.so
+0xa488bb7
+
+
+
+
+assets/ucgamesdk/lib/x86_64/lib_ucsdk_softlink.so
+0x22f19774
+
+
+
+
+assets/ucgamesdk/lib/x86/lib_ucsdk_softlink.so
+0x4ed00e1b
+
+
+
+
+res/drawable-hdpi/sytx_loginimg.png
+0x571eb1eb
+
+
+
+
+res/drawable/sdk_init_loading.png
+0x6f6adadf
+
+
+
+
+assets/ucgamesdk/lib/ucsdk.apk
+0x7976cf13
+
+
+
+
+assets/ucgamesdk/config/sdk_info.txt
+0xcdb23109
+
+
+
+
+assets/ucgamesdk/lib/x86_64/list
+0xf3a19449
+
+
+
+
+res/drawable-xhdpi-v4/icon.png
+0x1b9e0ca6
+
+
+
+
+res/drawable-xxxhdpi-v4/icon.png
+0x1b9e0ca6
+
+
+
+
+res/drawable-mdpi/icon.png
+0x1b9e0ca6
+
+
+
+
+res/drawable-ldpi/icon.png
+0x1b9e0ca6
+
+
+
+
+assets/ucgamesdk/modules/version.ini
+0x51dcd249
+
+
+
+
+resources.arsc
+0x7864fd18
+
+
+
+
+assets/ucgamesdk/lib/mips/list
+0x3d160b8f
+
+
+
+
+AndroidManifest.xml
+0xdd15c855
+
+
+
+
+lib/armeabi/liblbs.so
+0xbe8edb00
+
+
+
+
+assets/ucgamesdk/config/game_info
+0xd7714e65
+
+
+
+
+assets/ucgamesdk/lib/armeabi/lib_ucsdk_softlink.so
+0xf98b2264
+
+
+
+
+res/drawable-xxhdpi-v4/icon.png
+0x1b9e0ca6
+
+
+
+
+res/xml/sdk_file_paths.xml
+0x2e76a735
+
+
+
+
+assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_patch.so
+0x2a44dc70
+
+
+
+
+assets/ucgamesdk/lib/mips/lib_ucsdk_xcrypt.so
+0x37c18db5
+
+
+
+
+assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_softlink.so
+0xb7650e75
+
+
+
+
+assets/ucgamesdk/modules/list
+0x41d85076
+
+
+
+
+assets/ucgamesdk/lib/list
+0x7591e999
+
+
+
+
+assets/ucgamesdk/lib/x86_64/lib_ucsdk_patch.so
+0xf6b36926
+
+
+
+
+res/drawable-xhdpi-v4/splash.jpg
+0x13c4dc25
+
+
+
+
+assets/ucgamesdk/lib/mips/lib_ucsdk_patch.so
+0x37d5467d
+
+
+
+
+assets/ucgamesdk/config/route.json
+0xf52649ee
+
+
+
+
+res/layout/activity_main.xml
+0x8e9c097
+
+
+
+
+assets/ucgamesdk/lib/x86/lib_ucsdk_patch.so
+0x464f1b69
+
+
+
+
+assets/ucgamesdk/lib/mips/lib_ucsdk_softlink.so
+0xe345aae9
+
+
+
+
+assets/sytx_permission.txt
+0x12ca5dca
+
+
+
+
+assets/ucgamesdk/lib/armeabi/list
+0x63fb635a
+
+
+
+
+assets/ucgamesdk/lib/armeabi-v7a/lib_ucsdk_xcrypt.so
+0xf60d5cc0
+
+
+
+
+assets/ucgamesdk/lib/x86/list
+0xf53babde
+
+
+
+
+res/layout/sytx_loading_dialog.xml
+0x8c8b3969
+
+
+
+
+classes.dex
+0x33b73d5b
+
+
+
+
+res/layout/loading_view.xml
+0x5bcfc6e5
+
+
+
+
+assets/ucgamesdk/lib/armeabi/lib_ucsdk_xcrypt.so
+0xa8faeafb
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.h5game.mhsg.MainActivity
+android.intent.action.MAIN
+
+
+
+
+com.h5game.mhsg.MainActivity
+android.intent.category.LAUNCHER
+
+
+
+
+cn.uc.gamesdk.activity.PullupActivity
+android.intent.action.VIEW
+
+
+
+
+cn.uc.gamesdk.activity.PullupActivity
+android.intent.category.DEFAULT
+
+
+
+
+cn.uc.gamesdk.activity.PullupActivity
+android.intent.category.BROWSABLE
+
+
+
+
+cn.gundam.sdk.shell.activity.ProxyActivity
+cn.uc.gamesdk.sdkweb
+
+
+
+
+cn.gundam.sdk.shell.activity.ProxyActivity
+android.intent.category.DEFAULT
+
+
+
+
+cn.gundam.sdk.shell.activity.ThemeProxyActivity
+cn.uc.gamesdk.sdkweb
+
+
+
+
+cn.gundam.sdk.shell.activity.ThemeProxyActivity
+android.intent.category.DEFAULT
+
+
+
+
+com.alipay.sdk.app.PayResultActivity
+android.intent.category.DEFAULT
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.READ_SETTINGS
+
+
+
+
+android.permission.WRITE_SETTINGS
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.AUTHENTICATE_ACCOUNTS
+
+
+
+
+android.permission.USE_CREDENTIALS
+
+
+
+
+android.permission.GET_ACCOUNTS
+
+
+
+
+android.permission.RECORD_AUDIO
+
+
+
+
+android.permission.MODIFY_AUDIO_SETTINGS
+
+
+
+
+android.permission.WRITE_CALENDAR
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.REQUEST_INSTALL_PACKAGES
+
+
+
+
+android.permission.MANAGE_ACCOUNTS
+
+
+
+
+com.android.alarm.permission.SET_ALARM
+
+
+
+
+android.permission.READ_EXTERNAL_STORAGE
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+cn.gundam.sdk.shell.service.ProxyService
+
+
+

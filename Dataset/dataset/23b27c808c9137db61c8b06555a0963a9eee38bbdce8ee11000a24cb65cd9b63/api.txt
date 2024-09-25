@@ -1,0 +1,42 @@
+Lcom/shell/NativeApplication;-><clinit>()V [access_flags=static constructor] @ 0xc04
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Lcom/shell/NativeApplication;-><init>()V [access_flags=public constructor] @ 0xc2c
+Ljava/lang/Object;-><init>()V
+Lcom/shell/NativeApplication;->load(Landroid/app/Application; Ljava/lang/String;)Z [access_flags=public static native] @ 0x0
+Lcom/shell/NativeApplication;->run(Landroid/app/Application; Ljava/lang/String;)Z [access_flags=public static native] @ 0x0
+Lcom/spring/app/UILApplication;-><init>()V [access_flags=public constructor] @ 0xc44
+Landroid/app/Application;-><init>()V
+Lcom/spring/app/UILApplication;->copyLib(Ljava/util/zip/ZipFile; Ljava/util/zip/ZipEntry; Ljava/io/File;)V [access_flags=private] @ 0xc5c
+Ljava/io/InputStream;->close()V
+Ljava/io/InputStream;->read([B)I
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/IOException;->printStackTrace()V
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Ljava/io/File;->mkdirs()Z
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/File;->exists()Z
+Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Lcom/spring/app/UILApplication;->getCRC32(Ljava/io/File;)J [access_flags=public static] @ 0xce8
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/util/zip/CRC32;-><init>()V
+Ljava/util/zip/CheckedInputStream;->close()V
+Ljava/util/zip/CheckedInputStream;->read([B)I
+Ljava/util/zip/CheckedInputStream;-><init>(Ljava/io/InputStream; Ljava/util/zip/Checksum;)V
+Ljava/util/zip/CRC32;->getValue()J
+Lcom/spring/app/UILApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0xe40
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Lcom/spring/app/UILApplication;->loadLibs(Landroid/content/Context;)V [access_flags=protected] @ 0xf28
+Ljava/lang/Exception;->printStackTrace()V
+Lcom/spring/app/UILApplication;->copyLib(Ljava/lang/String;)V [access_flags=protected] @ 0xe68
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Lcom/spring/app/UILApplication;->getPackageCodePath()Ljava/lang/String;
+Ljava/util/zip/ZipFile;->close()V
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Ljava/util/zip/ZipEntry;->getCrc()J
+Ljava/util/zip/ZipFile;-><init>(Ljava/lang/String;)V
+Lcom/spring/app/UILApplication;->onCreate()V [access_flags=public] @ 0xf94
+Landroid/app/Application;->onCreate()V

@@ -1,0 +1,1410 @@
+Lcom/tencent/StubShell/SystemClassLoaderInjector;-><init>()V [access_flags=public constructor] @ 0x1cab0
+Ljava/lang/Object;-><init>()V
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->appendArray(Ljava/lang/Object; Ljava/lang/Object; Z)Ljava/lang/Object; [access_flags=private static] @ 0x1cac8
+Ljava/lang/reflect/Array;->newInstance(Ljava/lang/Class; I)Ljava/lang/Object;
+Ljava/lang/Object;->getClass()Ljava/lang/Class;
+Ljava/lang/reflect/Array;->set(Ljava/lang/Object; I Ljava/lang/Object;)V
+Ljava/lang/reflect/Array;->get(Ljava/lang/Object; I)Ljava/lang/Object;
+Ljava/lang/reflect/Array;->getLength(Ljava/lang/Object;)I
+Ljava/lang/Class;->getComponentType()Ljava/lang/Class;
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->combineArray(Ljava/lang/Object; Ljava/lang/Object; Z)Ljava/lang/Object; [access_flags=private static] @ 0x1cb4c
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->fixAndroid(Landroid/content/Context; Landroid/app/Application;)V [access_flags=public static] @ 0x1cbc8
+Lcom/tencent/StubShell/a;->a(Ljava/lang/ClassLoader; Landroid/app/Application;)Ljava/lang/ClassLoader; [access_flags=public static] @ 0x1f99c
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->getPathList(Ljava/lang/Object;)Ljava/lang/Object; [access_flags=private static] @ 0x1cd50
+Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Landroid/content/Context;->getClassLoader()Ljava/lang/ClassLoader;
+Ljava/lang/Throwable;->printStackTrace()V
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->getField(Ljava/lang/Object; Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/Object; [access_flags=private static] @ 0x1cd24
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->getDexElements(Ljava/lang/Object;)Ljava/lang/Object; [access_flags=private static] @ 0x1ccfc
+Ljava/lang/reflect/Field;->setAccessible(Z)V
+Ljava/lang/reflect/Field;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getDeclaredField(Ljava/lang/String;)Ljava/lang/reflect/Field;
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->hasBaseDexClassLoader()Z [access_flags=private static] @ 0x1cd7c
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->inject(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Z)V [access_flags=public static] @ 0x1cdb0
+Ljava/lang/Exception;-><init>(Ljava/lang/Throwable;)V
+Ljava/io/File;->exists()Z
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->isAliyunOs()Z [access_flags=private static] @ 0x1d1e8
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->injectInAliyunOs(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Z)V [access_flags=private static] @ 0x1cfe8
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->injectAboveEqualApiLevel14(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Z)V [access_flags=private static] @ 0x1ce2c
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->injectBelowApiLevel14(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Z)V [access_flags=private static] @ 0x1cebc
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Lcom/tencent/StubShell/SystemClassLoaderInjector;->setField(Ljava/lang/Object; Ljava/lang/Class; Ljava/lang/String; Ljava/lang/Object;)V [access_flags=private static] @ 0x1d21c
+Landroid/content/Context;->getDir(Ljava/lang/String; I)Ljava/io/File;
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Ljava/lang/String;->replaceAll(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/lang/reflect/Constructor;->newInstance([Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/io/File;->getName()Ljava/lang/String;
+Ldalvik/system/DexClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Ldalvik/system/PathClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/IllegalArgumentException;->printStackTrace()V
+Ljava/lang/IllegalAccessException;->printStackTrace()V
+Ljava/lang/reflect/Field;->set(Ljava/lang/Object; Ljava/lang/Object;)V
+Ljava/lang/NoSuchFieldException;->printStackTrace()V
+Lcom/tencent/StubShell/SystemInfoException;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0x1d278
+Ljava/lang/Throwable;-><init>()V
+Lcom/tencent/bugly/legu/crashreport/BuglyLog;->i(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x214c0
+Lcom/tencent/StubShell/SystemInfoException;-><init>(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public constructor] @ 0x1d2b8
+Lcom/tencent/StubShell/b;->a(Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x1fdcc
+Lorg/json/JSONObject;->put(Ljava/lang/String; Ljava/lang/Object;)Lorg/json/JSONObject;
+Lorg/json/JSONObject;->toString()Ljava/lang/String;
+Lorg/json/JSONObject;-><init>()V
+Lcom/tencent/StubShell/TxAppEntry;-><clinit>()V [access_flags=static constructor] @ 0x1d408
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/Throwable;)I
+Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+Lcom/tencent/StubShell/TxAppEntry;-><init>()V [access_flags=public constructor] @ 0x1d478
+Landroid/app/Application;-><init>()V
+Lcom/tencent/StubShell/TxAppEntry;->a(Landroid/content/Intent;)V [access_flags=public static] @ 0x1d4b0
+Lcom/tencent/StubShell/TxAppEntry;->reciver(Landroid/content/Intent;)V [access_flags=private static native] @ 0x0
+Lcom/tencent/StubShell/TxAppEntry;->a(Ljava/lang/String;)V [access_flags=private] @ 0x1d4c8
+Lcom/tencent/StubShell/TxAppEntry;->d()Ljava/lang/String; [access_flags=private] @ 0x1e2cc
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
+Ljava/lang/String;->length()I
+Lcom/tencent/StubShell/ZipUtil;->extract(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)I [access_flags=public static] @ 0x1f854
+Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
+Ljava/lang/String;->toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
+Lcom/tencent/StubShell/ZipUtil;->exist(Ljava/lang/String; Ljava/lang/String;)I [access_flags=public static] @ 0x1f804
+Ljava/io/IOException;->printStackTrace()V
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Lcom/tencent/StubShell/TxAppEntry;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Lcom/tencent/StubShell/TxAppEntry;->b(Landroid/content/Context;)Z [access_flags=private] @ 0x1e04c
+Lcom/tencent/StubShell/TxAppEntry;->getBaseContext()Landroid/content/Context;
+Lcom/tencent/StubShell/TxAppEntry;->g()Ljava/lang/String; [access_flags=private static] @ 0x1f2f0
+Landroid/os/Bundle;->getString(Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Context;->getApplicationInfo()Landroid/content/pm/ApplicationInfo;
+Landroid/content/Context;->getPackageManager()Landroid/content/pm/PackageManager;
+Ljava/io/File;->mkdir()Z
+Landroid/content/Context;->getPackageName()Ljava/lang/String;
+Landroid/content/pm/PackageManager;->getApplicationInfo(Ljava/lang/String; I)Landroid/content/pm/ApplicationInfo;
+Landroid/content/pm/PackageManager;->getPackageInfo(Ljava/lang/String; I)Landroid/content/pm/PackageInfo;
+Lcom/tencent/StubShell/TxAppEntry;->c(Landroid/content/Context;)V [access_flags=private] @ 0x1e274
+Lcom/tencent/bugly/legu/crashreport/CrashReport$UserStrategy;->setAppVersion(Ljava/lang/String;)Lcom/tencent/bugly/legu/BuglyStrategy;
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setSdkExtraData(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static synchronized] @ 0x22534
+Lcom/tencent/bugly/legu/crashreport/CrashReport$UserStrategy;->setEnableUserInfo(Z)Lcom/tencent/bugly/legu/BuglyStrategy;
+Lcom/tencent/bugly/legu/crashreport/CrashReport$UserStrategy;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x215a4
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->initCrashReport(Landroid/content/Context; Ljava/lang/String; Z Lcom/tencent/bugly/legu/crashreport/CrashReport$UserStrategy;)V [access_flags=public static synchronized] @ 0x21ca0
+Lcom/tencent/bugly/legu/crashreport/CrashReport$UserStrategy;->setRecordUserInfoOnceADay(Z)Lcom/tencent/bugly/legu/BuglyStrategy;
+Lcom/tencent/StubShell/TxAppEntry;->d(Landroid/content/Context;)V [access_flags=private] @ 0x1e2e4
+Lcom/tencent/StubShell/TxAppEntry;->fixUnityResource(Landroid/content/res/AssetManager; Ljava/lang/String;)V [access_flags=private static native] @ 0x0
+Landroid/content/Context;->getAssets()Landroid/content/res/AssetManager;
+Lcom/tencent/StubShell/TxAppEntry;->fixNativeResource(Landroid/content/res/AssetManager; Ljava/lang/String;)V [access_flags=private static native] @ 0x0
+Lcom/tencent/StubShell/TxAppEntry;->e()V [access_flags=private] @ 0x1e390
+Lcom/tencent/StubShell/TxAppEntry;->c()Ljava/lang/String; [access_flags=private] @ 0x1e25c
+Ljava/lang/String;->compareTo(Ljava/lang/String;)I
+Lcom/tencent/StubShell/TxAppEntry;->f()Ljava/lang/String; [access_flags=private static] @ 0x1f2ac
+Lcom/tencent/StubShell/TxAppEntry;->a(Landroid/content/Context;)V [access_flags=public] @ 0x1f35c
+Lcom/tencent/StubShell/TxAppEntry;->load(Landroid/content/Context;)V [access_flags=private static native] @ 0x0
+Lcom/tencent/StubShell/TxAppEntry;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x1f380
+Lcom/tencent/StubShell/TxAppEntry;->getMainLooper()Landroid/os/Looper;
+Ljava/lang/Thread;->start()V
+Lcom/tencent/StubShell/d;-><init>(Lcom/tencent/StubShell/TxAppEntry;)V [access_flags=constructor] @ 0x20094
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;)V
+Landroid/os/Handler;-><init>(Landroid/os/Looper;)V
+Lcom/tencent/StubShell/TxAppEntry;->getPackageName()Ljava/lang/String; [access_flags=public] @ 0x1f410
+Landroid/util/Log;->d(Ljava/lang/String; Ljava/lang/String;)I
+Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
+Lcom/tencent/StubShell/TxAppEntry;->changeEnv(Landroid/content/Context;)V [access_flags=private static native] @ 0x0
+Ljava/lang/Exception;-><init>()V
+Ljava/lang/StackTraceElement;->getClassName()Ljava/lang/String;
+Ljava/lang/StackTraceElement;->getMethodName()Ljava/lang/String;
+Ljava/lang/Exception;->getStackTrace()[Ljava/lang/StackTraceElement;
+Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
+Lcom/tencent/StubShell/TxAppEntry;->onCreate()V [access_flags=public] @ 0x1f5b0
+Lcom/tencent/StubShell/TxAppEntry;->runCreate(Landroid/content/Context;)V [access_flags=private static native] @ 0x0
+Lcom/tencent/StubShell/TxAppEntry;->a()Ljava/lang/String; [access_flags=static synthetic] @ 0x1d498
+Lcom/tencent/StubShell/TxAppEntry;->b()Ljava/lang/String; [access_flags=static synthetic] @ 0x1e034
+Lcom/tencent/StubShell/TxReceiver;-><init>()V [access_flags=public constructor] @ 0x1f5f0
+Landroid/content/BroadcastReceiver;-><init>()V
+Lcom/tencent/StubShell/TxReceiver;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public] @ 0x1f608
+Lcom/tencent/StubShell/XposedCheck;-><init>()V [access_flags=public constructor] @ 0x1f620
+Lcom/tencent/StubShell/XposedCheck;->isXposedExistByThrow()Z [access_flags=private static] @ 0x1f638
+Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
+Lcom/tencent/StubShell/XposedCheck;->isXposedExists()Z [access_flags=private static] @ 0x1f6a4
+Ljava/lang/InstantiationException;->printStackTrace()V
+Ljava/lang/Class;->newInstance()Ljava/lang/Object;
+Ljava/lang/ClassNotFoundException;->printStackTrace()V
+Ljava/lang/ClassLoader;->loadClass(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/ClassLoader;->getSystemClassLoader()Ljava/lang/ClassLoader;
+Lcom/tencent/StubShell/XposedCheck;->tryShutdownXposed()Z [access_flags=public static] @ 0x1f758
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/util/zip/ZipFile;->close()V
+Ljava/util/zip/ZipFile;->getEntry(Ljava/lang/String;)Ljava/util/zip/ZipEntry;
+Ljava/util/zip/ZipFile;-><init>(Ljava/io/File;)V
+Ljava/lang/Exception;->getMessage()Ljava/lang/String;
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/util/zip/ZipFile;->getInputStream(Ljava/util/zip/ZipEntry;)Ljava/io/InputStream;
+Ljava/io/InputStream;->read([B)I
+Ljava/io/InputStream;->close()V
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+Ljava/io/File;->delete()Z
+Lcom/tencent/StubShell/ZipUtil;-><init>()V [access_flags=public constructor] @ 0x1f7ec
+Lcom/tencent/StubShell/a;->a(Ljava/lang/String; Ljava/lang/ClassLoader; Landroid/app/Application;)Ljava/lang/ClassLoader; [access_flags=private static] @ 0x1f9e4
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)I
+Lcom/tencent/StubShell/a;->a(Landroid/app/Application; Ljava/lang/ClassLoader;)V [access_flags=private static] @ 0x1fc98
+Lcom/tencent/StubShell/a;-><init>(Ljava/lang/String; Ljava/lang/ClassLoader; Landroid/app/Application;)V [access_flags=private constructor] @ 0x1f934
+Landroid/app/Application;->getPackageCodePath()Ljava/lang/String;
+Ldalvik/system/PathClassLoader;-><init>(Ljava/lang/String; Ljava/lang/ClassLoader;)V
+Lcom/tencent/StubShell/a;->a(Ljava/lang/Object; Ljava/lang/ClassLoader; Z)Ljava/lang/Object; [access_flags=private static] @ 0x1fa60
+Lcom/tencent/StubShell/c;->a(Ljava/lang/Object; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0x1fff0
+Ljava/util/Iterator;->next()Ljava/lang/Object;
+Ljava/util/List;->iterator()Ljava/util/Iterator;
+Lcom/tencent/StubShell/c;->a(Ljava/lang/Class; Ljava/lang/String;)Ljava/lang/reflect/Field; [access_flags=public static] @ 0x1ff58
+Ldalvik/system/DexFile;->getName()Ljava/lang/String;
+Lcom/tencent/StubShell/c;->a(Ljava/lang/Object; [Ljava/lang/Class;)Ljava/lang/reflect/Constructor; [access_flags=public static varargs] @ 0x1feac
+Ljava/util/Iterator;->hasNext()Z
+Ljava/lang/Exception;->printStackTrace()V
+Ljava/io/FileInputStream;-><init>(Ljava/lang/String;)V
+Lcom/tencent/StubShell/b;->a(Ljava/io/InputStream;)Ljava/lang/String; [access_flags=public static] @ 0x1fd58
+Ljava/security/MessageDigest;->update([B I I)V
+Ljava/security/MessageDigest;->digest()[B
+Lcom/tencent/StubShell/b;->a([B)Ljava/lang/String; [access_flags=public static] @ 0x1fe44
+Ljava/security/MessageDigest;->getInstance(Ljava/lang/String;)Ljava/security/MessageDigest;
+Ljava/lang/StringBuilder;-><init>(I)V
+Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+Ljava/lang/NoSuchFieldException;-><init>(Ljava/lang/String;)V
+Ljava/lang/Class;->getSuperclass()Ljava/lang/Class;
+Ljava/lang/reflect/Field;->isAccessible()Z
+Ljava/lang/reflect/Constructor;->setAccessible(Z)V
+Ljava/lang/Class;->getDeclaredConstructor([Ljava/lang/Class;)Ljava/lang/reflect/Constructor;
+Ljava/lang/reflect/Constructor;->isAccessible()Z
+Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+Ljava/lang/NoSuchMethodException;-><init>(Ljava/lang/String;)V
+Lcom/tencent/StubShell/d;->run()V [access_flags=public] @ 0x200b0
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->postCatchedException(Ljava/lang/Throwable;)V [access_flags=public static synchronized] @ 0x21d70
+Lcom/tencent/bugly/legu/Bugly;-><init>()V [access_flags=public constructor] @ 0x20148
+Lcom/tencent/bugly/legu/Bugly;->getAppChannel()Ljava/lang/String; [access_flags=public static synchronized] @ 0x20160
+Ljava/lang/String;-><init>([B)V
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->a()Lcom/tencent/bugly/legu/crashreport/common/info/a; [access_flags=public static synchronized] @ 0x24c98
+Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/tencent/bugly/legu/proguard/o;->a()Lcom/tencent/bugly/legu/proguard/o; [access_flags=public static synchronized] @ 0x3a628
+Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+Lcom/tencent/bugly/legu/proguard/o;->a(I Lcom/tencent/bugly/legu/proguard/n; Z)Ljava/util/Map; [access_flags=public final] @ 0x3b94c
+Lcom/tencent/bugly/legu/Bugly;->init(Landroid/content/Context; Ljava/lang/String; Z)V [access_flags=public static] @ 0x20200
+Lcom/tencent/bugly/legu/Bugly;->init(Landroid/content/Context; Ljava/lang/String; Z Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=public static synchronized] @ 0x2021c
+Lcom/tencent/bugly/legu/b;->a(Landroid/content/Context; Ljava/lang/String; Z Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=public static synchronized] @ 0x20e20
+Lcom/tencent/bugly/legu/CrashModule;->getInstance()Lcom/tencent/bugly/legu/CrashModule; [access_flags=public static] @ 0x20a2c
+Landroid/content/Context;->getApplicationContext()Landroid/content/Context;
+Lcom/tencent/bugly/legu/proguard/w;->b(Ljava/lang/Throwable;)Z [access_flags=public static] @ 0x3fc60
+Lcom/tencent/bugly/legu/Bugly;->isDev()Z [access_flags=public static] @ 0x2033c
+Lcom/tencent/bugly/legu/b;->a(Lcom/tencent/bugly/legu/a;)V [access_flags=public static] @ 0x21358
+Ljava/lang/Boolean;->booleanValue()Z
+Ljava/lang/String;->replace(Ljava/lang/CharSequence; Ljava/lang/CharSequence;)Ljava/lang/String;
+Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
+Lcom/tencent/bugly/legu/BuglyStrategy$a;-><init>()V [access_flags=public constructor] @ 0x2038c
+Lcom/tencent/bugly/legu/BuglyStrategy$a;->onCrashHandleStart(I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Ljava/util/Map; [access_flags=public synchronized] @ 0x203a4
+Lcom/tencent/bugly/legu/BuglyStrategy$a;->onCrashHandleStart2GetExtraDatas(I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)[B [access_flags=public synchronized] @ 0x203bc
+Lcom/tencent/bugly/legu/BuglyStrategy;-><init>()V [access_flags=public constructor] @ 0x203d4
+Lcom/tencent/bugly/legu/BuglyStrategy;->getAppChannel()Ljava/lang/String; [access_flags=public synchronized] @ 0x20410
+Lcom/tencent/bugly/legu/BuglyStrategy;->getAppPackageName()Ljava/lang/String; [access_flags=public synchronized] @ 0x2045c
+Lcom/tencent/bugly/legu/BuglyStrategy;->getAppVersion()Ljava/lang/String; [access_flags=public synchronized] @ 0x204d4
+Lcom/tencent/bugly/legu/BuglyStrategy;->getLibBuglySOFilePath()Ljava/lang/String; [access_flags=public synchronized] @ 0x20578
+Lcom/tencent/bugly/legu/BuglyStrategy;->getCrashHandleCallback()Lcom/tencent/bugly/legu/BuglyStrategy$a; [access_flags=public synchronized] @ 0x20520
+Lcom/tencent/bugly/legu/BuglyStrategy;->getAppReportDelay()J [access_flags=public synchronized] @ 0x204a8
+Lcom/tencent/bugly/legu/BuglyStrategy;->isEnableNativeCrashMonitor()Z [access_flags=public synchronized] @ 0x20628
+Lcom/tencent/bugly/legu/BuglyStrategy;->isEnableANRCrashMonitor()Z [access_flags=public synchronized] @ 0x205fc
+Lcom/tencent/bugly/legu/BuglyStrategy;->isReplaceOldChannel()Z [access_flags=public] @ 0x20680
+Lcom/tencent/bugly/legu/BuglyStrategy;->getDeviceID()Ljava/lang/String; [access_flags=public synchronized] @ 0x2054c
+Lcom/tencent/bugly/legu/BuglyStrategy;->isBuglyLogUpload()Z [access_flags=public synchronized] @ 0x205d0
+Lcom/tencent/bugly/legu/BuglyStrategy;->getUserInfoActivity()Ljava/lang/Class; [access_flags=public synchronized] @ 0x205a4
+Lcom/tencent/bugly/legu/BuglyStrategy;->recordUserInfoOnceADay()Z [access_flags=public synchronized] @ 0x20698
+Lcom/tencent/bugly/legu/BuglyStrategy;->isEnableUserInfo()Z [access_flags=public synchronized] @ 0x20654
+Lcom/tencent/bugly/legu/a;-><init>()V [access_flags=public constructor] @ 0x20bbc
+Lcom/tencent/bugly/legu/a;->onDbDowngrade(Landroid/database/sqlite/SQLiteDatabase; I I)V [access_flags=public] @ 0x20be8
+Lcom/tencent/bugly/legu/a;->getTables()[Ljava/lang/String; [access_flags=public abstract] @ 0x0
+Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/a;->onDbCreate(Landroid/database/sqlite/SQLiteDatabase;)V [access_flags=public] @ 0x20bd4
+Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/a;->onDbUpgrade(Landroid/database/sqlite/SQLiteDatabase; I I)V [access_flags=public] @ 0x20c74
+Lcom/tencent/bugly/legu/a;->init(Landroid/content/Context; Z Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/a;->onServerStrategyChanged(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=public] @ 0x20d00
+Lcom/tencent/bugly/legu/CrashModule;-><clinit>()V [access_flags=static constructor] @ 0x20918
+Lcom/tencent/bugly/legu/CrashModule;-><init>()V [access_flags=public constructor] @ 0x20944
+Lcom/tencent/bugly/legu/CrashModule;->a(Landroid/content/Context; Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=private synchronized] @ 0x2095c
+Ljava/lang/Long;->valueOf(J)Ljava/lang/Long;
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->a(Landroid/content/Context;)Lcom/tencent/bugly/legu/crashreport/common/info/a; [access_flags=public static synchronized] @ 0x24cc8
+Lcom/tencent/bugly/legu/proguard/w;->a(Ljava/lang/String; [Ljava/lang/Object;)Z [access_flags=public static varargs] @ 0x3fbf4
+Lcom/tencent/bugly/legu/CrashModule;->init(Landroid/content/Context; Z Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=public] @ 0x20a8c
+Lcom/tencent/bugly/legu/proguard/m;->a(I I)Z [access_flags=public final synchronized] @ 0x3a0bc
+Lcom/tencent/bugly/legu/proguard/m;->a()Lcom/tencent/bugly/legu/proguard/m; [access_flags=public static synchronized] @ 0x39d54
+Lcom/tencent/bugly/legu/crashreport/crash/c;->i()V [access_flags=public final] @ 0x2c57c
+Lcom/tencent/bugly/legu/crashreport/crash/c;->e()V [access_flags=public final] @ 0x2c500
+Lcom/tencent/bugly/legu/crashreport/crash/c;->g()V [access_flags=public final] @ 0x2c53c
+Lcom/tencent/bugly/legu/crashreport/crash/c;->a(J)V [access_flags=public final] @ 0x2c2f0
+Lcom/tencent/bugly/legu/crashreport/crash/c;->f()V [access_flags=public final] @ 0x2c51c
+Lcom/tencent/bugly/legu/crashreport/crash/c;->a()Lcom/tencent/bugly/legu/crashreport/crash/c; [access_flags=public static] @ 0x2c250
+Lcom/tencent/bugly/legu/crashreport/crash/d;->a(Landroid/content/Context;)V [access_flags=public static] @ 0x2ca54
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setContext(Landroid/content/Context;)V [access_flags=public static synchronized] @ 0x22298
+Lcom/tencent/bugly/legu/crashreport/crash/c;->h()V [access_flags=public final] @ 0x2c55c
+Lcom/tencent/bugly/legu/crashreport/crash/c;->a(I Landroid/content/Context; Z Lcom/tencent/bugly/legu/BuglyStrategy$a; Lcom/tencent/bugly/legu/proguard/n; Ljava/lang/String;)V [access_flags=public static synchronized] @ 0x2c280
+Lcom/tencent/bugly/legu/CrashModule;->onServerStrategyChanged(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=public] @ 0x20b8c
+Lcom/tencent/bugly/legu/crashreport/crash/c;->a(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=public final] @ 0x2c31c
+Lcom/tencent/bugly/legu/crashreport/crash/d;->a(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=public static] @ 0x2cb04
+Lcom/tencent/bugly/legu/CrashModule;->hasInitialized()Z [access_flags=public static] @ 0x20a50
+Ljava/util/List;->contains(Ljava/lang/Object;)Z
+Ljava/util/List;->add(Ljava/lang/Object;)Z
+Ljava/lang/String;->substring(I I)Ljava/lang/String;
+Ljava/util/List;->get(I)Ljava/lang/Object;
+Lcom/tencent/bugly/legu/proguard/w;->e(Ljava/lang/String; [Ljava/lang/Object;)Z [access_flags=public static varargs] @ 0x3fccc
+Lcom/tencent/bugly/legu/b;->a(Lcom/tencent/bugly/legu/crashreport/common/info/a;)Z [access_flags=private static] @ 0x21384
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->a(Landroid/content/Context; Ljava/util/List;)Lcom/tencent/bugly/legu/crashreport/common/strategy/a; [access_flags=public static synchronized] @ 0x264c4
+Lcom/tencent/bugly/legu/proguard/w;->b(Ljava/lang/String; [Ljava/lang/Object;)Z [access_flags=public static varargs] @ 0x3fc44
+Lcom/tencent/bugly/legu/proguard/w;->d(Ljava/lang/String; [Ljava/lang/Object;)Z [access_flags=public static varargs] @ 0x3fcb0
+Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->a(Ljava/lang/String;)V [access_flags=public final] @ 0x24eb4
+Ljava/lang/String;->getBytes()[B
+Lcom/tencent/bugly/legu/proguard/w;->a(Ljava/lang/Throwable;)Z [access_flags=public static] @ 0x3fc10
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->c(Ljava/lang/String;)V [access_flags=public final synchronized] @ 0x25104
+Lcom/tencent/bugly/legu/crashreport/biz/b;->a(Landroid/content/Context; Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=public static] @ 0x23d3c
+Ljava/util/List;->size()I
+Lcom/tencent/bugly/legu/proguard/m;->a(I)Z [access_flags=public final synchronized] @ 0x3a028
+Landroid/util/Log;->w(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/tencent/bugly/legu/proguard/m;->b()I [access_flags=public final synchronized] @ 0x3a178
+Lcom/tencent/bugly/legu/proguard/o;->a(I Ljava/lang/String; [B Lcom/tencent/bugly/legu/proguard/n; Z)Z [access_flags=public final] @ 0x3b988
+Lcom/tencent/bugly/legu/proguard/x;->a(Landroid/content/Context;)V [access_flags=public static synchronized] @ 0x40158
+Lcom/tencent/bugly/legu/proguard/t;->a(Landroid/content/Context;)Lcom/tencent/bugly/legu/proguard/t; [access_flags=public static synchronized] @ 0x3d3fc
+Lcom/tencent/bugly/legu/proguard/o;->a(Landroid/content/Context; Ljava/util/List;)Lcom/tencent/bugly/legu/proguard/o; [access_flags=public static synchronized] @ 0x3a658
+Lcom/tencent/bugly/legu/proguard/m;->a(Landroid/content/Context;)Lcom/tencent/bugly/legu/proguard/m; [access_flags=public static synchronized] @ 0x39d84
+Lcom/tencent/bugly/legu/b;-><clinit>()V [access_flags=static constructor] @ 0x20d14
+Ljava/util/ArrayList;-><init>()V
+Lcom/tencent/bugly/legu/b;->a(Landroid/content/Context;)V [access_flags=public static synchronized] @ 0x20d40
+Lcom/tencent/bugly/legu/b;->a(Landroid/content/Context; Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=public static synchronized] @ 0x20d74
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->e()Ljava/lang/String; [access_flags=public final] @ 0x251cc
+Lcom/tencent/bugly/legu/crashreport/BuglyHintException;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0x213dc
+Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+Landroid/util/Log;->i(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/tencent/bugly/legu/proguard/x;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static synchronized] @ 0x40274
+Lcom/tencent/bugly/legu/crashreport/BuglyLog;-><init>()V [access_flags=public constructor] @ 0x213f4
+Lcom/tencent/bugly/legu/crashreport/BuglyLog;->d(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x2140c
+Lcom/tencent/bugly/legu/crashreport/BuglyLog;->e(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x21448
+Lcom/tencent/bugly/legu/crashreport/BuglyLog;->e(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)V [access_flags=public static] @ 0x21484
+Lcom/tencent/bugly/legu/proguard/x;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Throwable;)V [access_flags=public static] @ 0x40418
+Lcom/tencent/bugly/legu/crashreport/BuglyLog;->setCache(I)V [access_flags=public static] @ 0x214fc
+Lcom/tencent/bugly/legu/proguard/x;->a(I)V [access_flags=public static] @ 0x4010c
+Lcom/tencent/bugly/legu/crashreport/BuglyLog;->v(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x21514
+Landroid/util/Log;->v(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/tencent/bugly/legu/crashreport/BuglyLog;->w(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x21550
+Lcom/tencent/bugly/legu/crashreport/CrashReport$CrashHandleCallback;-><init>()V [access_flags=public constructor] @ 0x2158c
+Lcom/tencent/bugly/legu/crashreport/CrashReport$UserStrategy;->getCrashHandleCallback()Lcom/tencent/bugly/legu/BuglyStrategy$a; [access_flags=public bridge synthetic] @ 0x215bc
+Lcom/tencent/bugly/legu/crashreport/CrashReport$UserStrategy;->getCrashHandleCallback()Lcom/tencent/bugly/legu/crashreport/CrashReport$CrashHandleCallback; [access_flags=public synchronized] @ 0x215d8
+Ljava/util/Map$Entry;->getKey()Ljava/lang/Object;
+Ljava/util/Map;->size()I
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->putSdkData(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V [access_flags=private static] @ 0x21e70
+Ljava/util/Set;->iterator()Ljava/util/Iterator;
+Ljava/util/Map;->entrySet()Ljava/util/Set;
+Ljava/util/Map$Entry;->getValue()Ljava/lang/Object;
+Ljava/util/HashMap;-><init>()V
+Ljava/util/Map;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/lang/String;->trim()Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->postCatchedException(Ljava/lang/Throwable; Z)V [access_flags=public static synchronized] @ 0x21da4
+Lcom/tencent/bugly/legu/crashreport/CrashReport;-><init>()V [access_flags=public constructor] @ 0x21630
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->closeBugly()V [access_flags=public static] @ 0x21648
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->closeCrashReport()V [access_flags=public static synchronized] @ 0x216d0
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;->unregist(Landroid/content/Context;)V [access_flags=public synchronized] @ 0x26d78
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;->getInstance()Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier; [access_flags=public static synchronized] @ 0x26c10
+Lcom/tencent/bugly/legu/crashreport/biz/b;->a(Landroid/content/Context;)V [access_flags=public static] @ 0x23cc0
+Lcom/tencent/bugly/legu/proguard/v;->b()V [access_flags=public final synchronized] @ 0x3f8f4
+Lcom/tencent/bugly/legu/proguard/v;->a()Lcom/tencent/bugly/legu/proguard/v; [access_flags=public static synchronized] @ 0x3f6a4
+Lcom/tencent/bugly/legu/crashreport/crash/c;->d()V [access_flags=public final synchronized] @ 0x2c4b4
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->closeNativeReport()V [access_flags=public static synchronized] @ 0x21750
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getAllUserDataKeys(Landroid/content/Context;)Ljava/util/Set; [access_flags=public static] @ 0x217e8
+Ljava/util/HashSet;-><init>()V
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->z()Ljava/util/Set; [access_flags=public final synchronized] @ 0x25e40
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getAppChannel()Ljava/lang/String; [access_flags=public static synchronized] @ 0x2184c
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getAppID()Ljava/lang/String; [access_flags=public static synchronized] @ 0x218cc
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getAppVer()Ljava/lang/String; [access_flags=public static synchronized] @ 0x21950
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getBuglyVersion(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x219d0
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->b()Ljava/lang/String; [access_flags=public static] @ 0x24d10
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getSdkExtraData()Ljava/util/Map; [access_flags=public static] @ 0x21a0c
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getUserData(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x21a44
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->g(Ljava/lang/String;)Ljava/lang/String; [access_flags=public final synchronized] @ 0x253b4
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getUserDatasSize(Landroid/content/Context;)I [access_flags=public static] @ 0x21ac0
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->y()I [access_flags=public final synchronized] @ 0x25e0c
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getUserId()Ljava/lang/String; [access_flags=public static synchronized] @ 0x21b10
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->f()Ljava/lang/String; [access_flags=public final synchronized] @ 0x25250
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->getUserSceneTagId(Landroid/content/Context;)I [access_flags=public static] @ 0x21b94
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->B()I [access_flags=public final synchronized] @ 0x24d7c
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->initCrashReport(Landroid/content/Context;)V [access_flags=public static synchronized] @ 0x21be4
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->initCrashReport(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/CrashReport$UserStrategy;)V [access_flags=public static synchronized] @ 0x21c28
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->initCrashReport(Landroid/content/Context; Ljava/lang/String; Z)V [access_flags=public static synchronized] @ 0x21c6c
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->isLastSessionCrash()Z [access_flags=public static synchronized] @ 0x21cec
+Lcom/tencent/bugly/legu/crashreport/crash/c;->b()Z [access_flags=public final] @ 0x2c39c
+Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->x()V [access_flags=public final synchronized] @ 0x25dd8
+Lcom/tencent/bugly/legu/crashreport/crash/c;->a(Ljava/lang/Thread; Ljava/lang/Throwable; Z Ljava/lang/String; [B)V [access_flags=public final] @ 0x2c368
+Ljava/lang/String;->format(Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->b(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public final synchronized] @ 0x24ff0
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->putUserData(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x21f98
+Lcom/tencent/bugly/legu/proguard/w;->c(Ljava/lang/String; [Ljava/lang/Object;)Z [access_flags=public static varargs] @ 0x3fc94
+Ljava/lang/String;->matches(Ljava/lang/String;)Z
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->putKeyValueToNative(Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public] @ 0x2f628
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->a(Ljava/lang/String; Ljava/lang/String;)V [access_flags=public final synchronized] @ 0x24ecc
+Ljava/util/Set;->contains(Ljava/lang/Object;)Z
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->getInstance()Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler; [access_flags=public static synchronized] @ 0x2f310
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->removeUserData(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x221a4
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->f(Ljava/lang/String;)Ljava/lang/String; [access_flags=public final synchronized] @ 0x2527c
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setAppVersion(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x22238
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setIsAppForeground(Landroid/content/Context; Z)V [access_flags=public static] @ 0x222c8
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setIsDevelopmentDevice(Landroid/content/Context; Z)V [access_flags=public static] @ 0x22338
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setJavascriptMonitor(Landroid/webkit/WebView; Z)Z [access_flags=public static] @ 0x223a8
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setJavascriptMonitor(Landroid/webkit/WebView; Z Z)Z [access_flags=public static] @ 0x223c4
+Lcom/tencent/bugly/legu/crashreport/crash/h5/c;->b()Ljava/lang/String; [access_flags=public static] @ 0x2ea64
+Landroid/webkit/WebView;->loadUrl(Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/crashreport/crash/h5/H5JavaScriptInterface;->getInstance(Landroid/webkit/WebView;)Lcom/tencent/bugly/legu/crashreport/crash/h5/H5JavaScriptInterface; [access_flags=public static] @ 0x2e1d0
+Landroid/webkit/WebSettings;->getJavaScriptEnabled()Z
+Landroid/webkit/WebView;->getUrl()Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/crash/h5/c;->a()Ljava/lang/String; [access_flags=public static] @ 0x2ea10
+Landroid/webkit/WebView;->addJavascriptInterface(Ljava/lang/Object; Ljava/lang/String;)V
+Landroid/webkit/WebSettings;->setJavaScriptEnabled(Z)V
+Landroid/webkit/WebView;->getSettings()Landroid/webkit/WebSettings;
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setSessionIntervalMills(J)V [access_flags=public static] @ 0x2269c
+Lcom/tencent/bugly/legu/crashreport/biz/b;->a(J)V [access_flags=public static] @ 0x23c88
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setUserId(Landroid/content/Context; Ljava/lang/String;)V [access_flags=public static] @ 0x226cc
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->b(Ljava/lang/String;)V [access_flags=public final synchronized] @ 0x24fa0
+Lcom/tencent/bugly/legu/crashreport/biz/b;->a()V [access_flags=public static] @ 0x23c5c
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setUserId(Ljava/lang/String;)V [access_flags=public static] @ 0x227b0
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->setUserSceneTag(Landroid/content/Context; I)V [access_flags=public static] @ 0x22800
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->a(I)V [access_flags=public final synchronized] @ 0x24e50
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->startCrashReport()V [access_flags=public static synchronized] @ 0x2287c
+Lcom/tencent/bugly/legu/crashreport/crash/c;->c()V [access_flags=public final synchronized] @ 0x2c468
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->testANRCrash()V [access_flags=public static synchronized] @ 0x228fc
+Lcom/tencent/bugly/legu/crashreport/crash/c;->k()V [access_flags=public final synchronized] @ 0x2c5d0
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->testJavaCrash()V [access_flags=public static synchronized] @ 0x2298c
+Lcom/tencent/bugly/legu/crashreport/CrashReport;->testNativeCrash()V [access_flags=public static synchronized] @ 0x22a0c
+Lcom/tencent/bugly/legu/crashreport/crash/c;->j()V [access_flags=public final synchronized] @ 0x2c59c
+Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean$1;-><init>()V [access_flags=constructor] @ 0x22a9c
+Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; [access_flags=public final synthetic] @ 0x22ab4
+Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean;-><init>(Landroid/os/Parcel;)V [access_flags=public constructor] @ 0x22b4c
+Landroid/os/Parcel;->readString()Ljava/lang/String;
+Landroid/os/Parcel;->readLong()J
+Lcom/tencent/bugly/legu/proguard/a;->b(Landroid/os/Parcel;)Ljava/util/Map; [access_flags=public static] @ 0x341a4
+Landroid/os/Parcel;->readInt()I
+Landroid/os/Parcel;->readByte()B
+Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean;-><clinit>()V [access_flags=static constructor] @ 0x22ae8
+Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean;-><init>()V [access_flags=public constructor] @ 0x22b08
+Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean;->writeToParcel(Landroid/os/Parcel; I)V [access_flags=public] @ 0x22c84
+Landroid/os/Parcel;->writeLong(J)V
+Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+Landroid/os/Parcel;->writeInt(I)V
+Lcom/tencent/bugly/legu/proguard/a;->b(Landroid/os/Parcel; Ljava/util/Map;)V [access_flags=public static] @ 0x3424c
+Landroid/os/Parcel;->writeByte(B)V
+Lcom/tencent/bugly/legu/proguard/s;->a(Z)V [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/biz/a$1;-><init>(Lcom/tencent/bugly/legu/crashreport/biz/a; Ljava/util/List;)V [access_flags=constructor] @ 0x22d58
+Lcom/tencent/bugly/legu/crashreport/biz/a$1;->a(Z)V [access_flags=public final] @ 0x22d78
+Lcom/tencent/bugly/legu/crashreport/biz/a;->a(Lcom/tencent/bugly/legu/crashreport/biz/a; Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean;)V [access_flags=static synthetic] @ 0x230e0
+Ljava/lang/System;->currentTimeMillis()J
+Lcom/tencent/bugly/legu/crashreport/biz/a$a;-><init>(Lcom/tencent/bugly/legu/crashreport/biz/a; Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean; Z)V [access_flags=public constructor] @ 0x22ddc
+Lcom/tencent/bugly/legu/crashreport/biz/a$a;->run()V [access_flags=public final] @ 0x22e00
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->d()Ljava/lang/String; [access_flags=public final] @ 0x25130
+Lcom/tencent/bugly/legu/crashreport/biz/a;->b()V [access_flags=public final synchronized] @ 0x23634
+Lcom/tencent/bugly/legu/crashreport/biz/a$b;-><init>(Lcom/tencent/bugly/legu/crashreport/biz/a;)V [access_flags=constructor] @ 0x22e90
+Lcom/tencent/bugly/legu/crashreport/biz/a$b;->run()V [access_flags=public final] @ 0x22eac
+Lcom/tencent/bugly/legu/proguard/v;->a(Ljava/lang/Runnable; J)Z [access_flags=public final synchronized] @ 0x3f808
+Lcom/tencent/bugly/legu/crashreport/biz/a;->a()V [access_flags=public final] @ 0x234b0
+Lcom/tencent/bugly/legu/crashreport/biz/a;->b(Lcom/tencent/bugly/legu/crashreport/biz/a;)I [access_flags=static synthetic] @ 0x2324c
+Lcom/tencent/bugly/legu/crashreport/biz/a;->a(Lcom/tencent/bugly/legu/crashreport/biz/a;)J [access_flags=static synthetic] @ 0x22f50
+Lcom/tencent/bugly/legu/crashreport/biz/a;->a(I Z J)V [access_flags=public final] @ 0x23504
+Lcom/tencent/bugly/legu/proguard/o;->a(Ljava/lang/String; Landroid/content/ContentValues; Lcom/tencent/bugly/legu/proguard/n; Z)J [access_flags=public final] @ 0x3b3c4
+Lcom/tencent/bugly/legu/crashreport/biz/a;->a(Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean;)Landroid/content/ContentValues; [access_flags=private static] @ 0x22f68
+Ljava/util/Iterator;->remove()V
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/util/List; I)Lcom/tencent/bugly/legu/proguard/ar; [access_flags=public static] @ 0x31f40
+Lcom/tencent/bugly/legu/proguard/t;->a(I Lcom/tencent/bugly/legu/proguard/am; Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/s;)V [access_flags=public final] @ 0x3e008
+Ljava/util/List;->set(I Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/tencent/bugly/legu/crashreport/biz/a;->a(Ljava/util/List;)V [access_flags=private static] @ 0x2314c
+Lcom/tencent/bugly/legu/crashreport/biz/a;->a(Ljava/lang/String;)Ljava/util/List; [access_flags=public final] @ 0x2326c
+Lcom/tencent/bugly/legu/proguard/a;->a(Lcom/tencent/bugly/legu/proguard/j;)[B [access_flags=public static] @ 0x33b94
+Lcom/tencent/bugly/legu/proguard/a;->a(Landroid/content/Context; I [B)Lcom/tencent/bugly/legu/proguard/am; [access_flags=public static] @ 0x317fc
+Lcom/tencent/bugly/legu/proguard/a;->o()J [access_flags=public static] @ 0x35160
+Lcom/tencent/bugly/legu/proguard/t;->a()Lcom/tencent/bugly/legu/proguard/t; [access_flags=public static synchronized] @ 0x3d3cc
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->a()Lcom/tencent/bugly/legu/crashreport/common/strategy/a; [access_flags=public static synchronized] @ 0x26494
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->c()Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean; [access_flags=public final] @ 0x2699c
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->C()I [access_flags=public final synchronized] @ 0x24da8
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->w()Ljava/util/Map; [access_flags=public final synchronized] @ 0x25d84
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->A()Ljava/util/Map; [access_flags=public final synchronized] @ 0x24d28
+Lcom/tencent/bugly/legu/crashreport/biz/a;-><init>(Landroid/content/Context;)V [access_flags=public constructor] @ 0x22f34
+Landroid/content/ContentValues;->put(Ljava/lang/String; Ljava/lang/Integer;)V
+Landroid/content/ContentValues;->put(Ljava/lang/String; Ljava/lang/Long;)V
+Landroid/content/ContentValues;-><init>()V
+Landroid/os/Parcel;->obtain()Landroid/os/Parcel;
+Landroid/os/Parcelable;->writeToParcel(Landroid/os/Parcel; I)V
+Landroid/os/Parcel;->marshall()[B
+Landroid/content/ContentValues;->put(Ljava/lang/String; [B)V
+Landroid/os/Parcel;->recycle()V
+Landroid/content/ContentValues;->put(Ljava/lang/String; Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/crashreport/biz/a;->a(Landroid/database/Cursor;)Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean; [access_flags=private static] @ 0x23054
+Landroid/database/Cursor;->getBlob(I)[B
+Lcom/tencent/bugly/legu/proguard/a;->a([B Landroid/os/Parcelable$Creator;)Ljava/lang/Object; [access_flags=public static] @ 0x32364
+Landroid/database/Cursor;->getColumnIndex(Ljava/lang/String;)I
+Landroid/database/Cursor;->getLong(I)J
+Ljava/lang/StringBuilder;->setLength(I)V
+Ljava/lang/String;->substring(I)Ljava/lang/String;
+Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+Lcom/tencent/bugly/legu/proguard/o;->a(Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/n; Z)I [access_flags=public final] @ 0x3b3a8
+Landroid/database/Cursor;->moveToNext()Z
+Landroid/database/Cursor;->close()V
+Lcom/tencent/bugly/legu/proguard/o;->a(Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/n; Z)Landroid/database/Cursor; [access_flags=public final] @ 0x3b3e0
+Landroid/database/Cursor;->isClosed()Z
+Lcom/tencent/bugly/legu/crashreport/biz/b$1;-><init>(Landroid/content/Context; Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=constructor] @ 0x238e4
+Lcom/tencent/bugly/legu/crashreport/biz/b$1;->run()V [access_flags=public final] @ 0x23904
+Lcom/tencent/bugly/legu/crashreport/biz/b;->b(Landroid/content/Context; Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=static synthetic] @ 0x23e68
+Lcom/tencent/bugly/legu/crashreport/biz/b$2;-><init>()V [access_flags=constructor] @ 0x23924
+Lcom/tencent/bugly/legu/crashreport/biz/b$2;->onActivityPaused(Landroid/app/Activity;)V [access_flags=public final] @ 0x23964
+Ljava/lang/Class;->getName()Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/biz/b;->b()Ljava/lang/Class; [access_flags=static synthetic] @ 0x23e50
+Lcom/tencent/bugly/legu/crashreport/biz/b;->c(J)J [access_flags=static synthetic] @ 0x23e98
+Lcom/tencent/bugly/legu/crashreport/biz/b$2;->onActivityResumed(Landroid/app/Activity;)V [access_flags=public final] @ 0x23a2c
+Lcom/tencent/bugly/legu/crashreport/biz/b;->f()J [access_flags=static synthetic] @ 0x24134
+Lcom/tencent/bugly/legu/crashreport/biz/b;->i()I [access_flags=static synthetic] @ 0x24184
+Lcom/tencent/bugly/legu/crashreport/biz/b;->e()J [access_flags=static synthetic] @ 0x2411c
+Lcom/tencent/bugly/legu/crashreport/biz/b;->j()J [access_flags=static synthetic] @ 0x2419c
+Lcom/tencent/bugly/legu/crashreport/biz/b;->h()I [access_flags=static synthetic] @ 0x2416c
+Lcom/tencent/bugly/legu/crashreport/biz/b;->b(J)J [access_flags=static synthetic] @ 0x23e38
+Lcom/tencent/bugly/legu/crashreport/biz/b;->g()I [access_flags=static synthetic] @ 0x2414c
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->c()V [access_flags=public final] @ 0x250c4
+Lcom/tencent/bugly/legu/crashreport/biz/b;->c()J [access_flags=static synthetic] @ 0x23e80
+Lcom/tencent/bugly/legu/crashreport/biz/b;->d()J [access_flags=static synthetic] @ 0x24104
+Lcom/tencent/bugly/legu/crashreport/biz/b;->k()J [access_flags=static synthetic] @ 0x241b4
+Lcom/tencent/bugly/legu/crashreport/biz/b;->c(Landroid/content/Context; Lcom/tencent/bugly/legu/BuglyStrategy;)V [access_flags=private static] @ 0x23eb0
+Landroid/app/Application;->unregisterActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+Landroid/app/Application;->registerActivityLifecycleCallbacks(Landroid/app/Application$ActivityLifecycleCallbacks;)V
+Lcom/tencent/bugly/legu/proguard/t;->a(I J)V [access_flags=public final synchronized] @ 0x3df6c
+Ljava/lang/Thread;->getStackTrace()[Ljava/lang/StackTraceElement;
+Lcom/tencent/bugly/legu/crashreport/biz/b;->a(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=public static] @ 0x23de4
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;-><clinit>()V [access_flags=static constructor] @ 0x241cc
+Ljava/lang/String;->split(Ljava/lang/String;)[Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;-><init>()V [access_flags=public constructor] @ 0x241fc
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->a(I)Ljava/lang/String; [access_flags=public static] @ 0x24214
+Ljava/lang/String;->valueOf(I)Ljava/lang/String;
+Ljava/io/FileReader;->close()V
+Ljava/io/FileReader;-><init>(Ljava/lang/String;)V
+Ljava/lang/String;-><init>([C)V
+Ljava/io/FileReader;->read([C)I
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->a(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x24334
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->a(Landroid/content/pm/PackageInfo;)Ljava/lang/String; [access_flags=public static] @ 0x24380
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->a(Ljava/util/Map;)Ljava/util/List; [access_flags=public static] @ 0x243c8
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->a(Landroid/content/Context; Ljava/lang/String;)Z [access_flags=public static] @ 0x24464
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->b(Landroid/content/Context;)Landroid/content/pm/PackageInfo; [access_flags=public static] @ 0x24500
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->b(Landroid/content/pm/PackageInfo;)Ljava/lang/String; [access_flags=public static] @ 0x24554
+Ljava/lang/Integer;->toString(I)Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->c(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x245a4
+Landroid/os/Process;->myPid()I
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->d(Landroid/content/Context;)Ljava/util/Map; [access_flags=public static] @ 0x245e4
+Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+Ljava/lang/Object;->toString()Ljava/lang/String;
+Ljava/util/HashMap;->put(Ljava/lang/Object; Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/tencent/bugly/legu/crashreport/common/info/AppInfo;->e(Landroid/content/Context;)Z [access_flags=public static] @ 0x24740
+Landroid/app/ActivityManager;->getMemoryInfo(Landroid/app/ActivityManager$MemoryInfo;)V
+Landroid/app/ActivityManager$MemoryInfo;-><init>()V
+Landroid/content/Context;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+Lcom/tencent/bugly/legu/crashreport/common/info/PlugInBean$1;-><init>()V [access_flags=constructor] @ 0x247d4
+Lcom/tencent/bugly/legu/crashreport/common/info/PlugInBean$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; [access_flags=public final synthetic] @ 0x247ec
+Lcom/tencent/bugly/legu/crashreport/common/info/PlugInBean;-><init>(Landroid/os/Parcel;)V [access_flags=public constructor] @ 0x24840
+Lcom/tencent/bugly/legu/crashreport/common/info/PlugInBean;-><clinit>()V [access_flags=static constructor] @ 0x24820
+Lcom/tencent/bugly/legu/crashreport/common/info/PlugInBean;-><init>(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public constructor] @ 0x2487c
+Lcom/tencent/bugly/legu/crashreport/common/info/PlugInBean;->toString()Ljava/lang/String; [access_flags=public] @ 0x248b4
+Lcom/tencent/bugly/legu/crashreport/common/info/PlugInBean;->writeToParcel(Landroid/os/Parcel; I)V [access_flags=public] @ 0x24918
+Lcom/tencent/bugly/legu/crashreport/common/info/a;-><init>(Landroid/content/Context;)V [access_flags=private constructor] @ 0x24960
+Ljava/util/Map;->keySet()Ljava/util/Set;
+Ljava/util/Map;->clear()V
+Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/UUID;->toString()Ljava/lang/String;
+Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+Ljava/util/HashMap;-><init>(Ljava/util/Map;)V
+Ljava/lang/String;->toLowerCase()Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/a;->b()Ljava/lang/String; [access_flags=public static] @ 0x34004
+Lcom/tencent/bugly/legu/proguard/a;->m()Ljava/lang/String; [access_flags=public static] @ 0x350c4
+Lcom/tencent/bugly/legu/proguard/a;->c()Ljava/lang/String; [access_flags=public static] @ 0x34564
+Lcom/tencent/bugly/legu/proguard/a;->d()I [access_flags=public static] @ 0x3462c
+Landroid/content/Context;->getDatabasePath(Ljava/lang/String;)Ljava/io/File;
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->D()Z [access_flags=public final synchronized] @ 0x24dd4
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->F()I [access_flags=public final synchronized] @ 0x24e20
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->d(Ljava/lang/String;)V [access_flags=public final synchronized] @ 0x25184
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->e(Ljava/lang/String;)V [access_flags=public final synchronized] @ 0x25208
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->g()Ljava/lang/String; [access_flags=public final synchronized] @ 0x25314
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->m()Ljava/lang/String; [access_flags=public final synchronized] @ 0x255b8
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->j()Ljava/lang/String; [access_flags=public final synchronized] @ 0x254a4
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->l()Ljava/lang/String; [access_flags=public final synchronized] @ 0x2555c
+Lcom/tencent/bugly/legu/proguard/a;->a(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x323dc
+Lcom/tencent/bugly/legu/proguard/a;->b(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x34044
+Lcom/tencent/bugly/legu/proguard/a;->c(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x345a4
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->k()Ljava/lang/String; [access_flags=public final synchronized] @ 0x25500
+Lcom/tencent/bugly/legu/proguard/a;->d(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x3466c
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->n()J [access_flags=public final synchronized] @ 0x25614
+Lcom/tencent/bugly/legu/proguard/a;->f()J [access_flags=public static] @ 0x348c4
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->o()J [access_flags=public final synchronized] @ 0x2565c
+Lcom/tencent/bugly/legu/proguard/a;->h()J [access_flags=public static] @ 0x34ac0
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->p()J [access_flags=public final synchronized] @ 0x256a4
+Lcom/tencent/bugly/legu/proguard/a;->j()J [access_flags=public static] @ 0x34f50
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->q()Ljava/lang/String; [access_flags=public final synchronized] @ 0x256ec
+Lcom/tencent/bugly/legu/proguard/a;->e()Ljava/lang/String; [access_flags=public static] @ 0x346e8
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->r()Ljava/lang/String; [access_flags=public final] @ 0x2572c
+Lcom/tencent/bugly/legu/proguard/a;->a(Landroid/content/Context; Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x32798
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->t()Ljava/lang/String; [access_flags=public final] @ 0x25798
+Lcom/tencent/bugly/legu/proguard/a;->l()Ljava/lang/String; [access_flags=public static] @ 0x35078
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->u()Ljava/lang/Boolean; [access_flags=public final synchronized] @ 0x257c4
+Lcom/tencent/bugly/legu/proguard/a;->f(Landroid/content/Context;)Z [access_flags=public static] @ 0x34930
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->v()Ljava/lang/String; [access_flags=public final synchronized] @ 0x25810
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->s()Ljava/util/Map; [access_flags=public final synchronized] @ 0x25780
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->E()Ljava/util/Map; [access_flags=public final synchronized] @ 0x24e08
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->h()Ljava/lang/String; [access_flags=public final synchronized] @ 0x2544c
+Lcom/tencent/bugly/legu/crashreport/common/info/a;->i()Ljava/lang/String; [access_flags=public final synchronized] @ 0x25478
+Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean$1;-><init>()V [access_flags=constructor] @ 0x25e74
+Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; [access_flags=public final synthetic] @ 0x25e8c
+Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;-><init>(Landroid/os/Parcel;)V [access_flags=public constructor] @ 0x25fd4
+Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;-><clinit>()V [access_flags=static constructor] @ 0x25ec0
+Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;-><init>()V [access_flags=public constructor] @ 0x25ef8
+Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;->writeToParcel(Landroid/os/Parcel; I)V [access_flags=public] @ 0x261c4
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a$1;-><init>(Lcom/tencent/bugly/legu/crashreport/common/strategy/a;)V [access_flags=constructor] @ 0x262e4
+Ljava/lang/Thread;-><init>()V
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a$1;->run()V [access_flags=public final] @ 0x26300
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->a(Lcom/tencent/bugly/legu/crashreport/common/strategy/a;)Landroid/content/Context; [access_flags=static synthetic] @ 0x26464
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->a(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=protected final] @ 0x26588
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->a(Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean; [access_flags=static synthetic] @ 0x2647c
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->d()Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean; [access_flags=public static] @ 0x26524
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->b(Lcom/tencent/bugly/legu/crashreport/common/strategy/a;)Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean; [access_flags=static synthetic] @ 0x2650c
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;-><init>(Landroid/content/Context; Ljava/util/List;)V [access_flags=private constructor] @ 0x26410
+Lcom/tencent/bugly/legu/proguard/o;->a(I)Ljava/util/List; [access_flags=public final] @ 0x3b56c
+Lcom/tencent/bugly/legu/proguard/v;->b(Ljava/lang/Runnable;)Z [access_flags=public final synchronized] @ 0x3f9b4
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->a(Lcom/tencent/bugly/legu/proguard/ap;)V [access_flags=public final] @ 0x26618
+Lcom/tencent/bugly/legu/proguard/q;-><init>()V [access_flags=public constructor] @ 0x3c740
+Ljava/lang/Integer;->parseInt(Ljava/lang/String;)I
+Lcom/tencent/bugly/legu/proguard/o;->b(I)V [access_flags=public static] @ 0x3acf8
+Lcom/tencent/bugly/legu/proguard/o;->a(Lcom/tencent/bugly/legu/proguard/q;)Z [access_flags=public final] @ 0x3ba74
+Lcom/tencent/bugly/legu/crashreport/common/strategy/a;->b()Z [access_flags=public final synchronized] @ 0x26964
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier$1;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;)V [access_flags=constructor] @ 0x269c0
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier$1;->run()V [access_flags=public final] @ 0x269d8
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;-><init>()V [access_flags=public constructor] @ 0x26a1c
+Landroid/content/Context;->unregisterReceiver(Landroid/content/BroadcastReceiver;)V
+Landroid/content/IntentFilter;-><init>()V
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;->a(Landroid/content/Context; Landroid/content/Intent;)Z [access_flags=private synchronized] @ 0x26a44
+Lcom/tencent/bugly/legu/proguard/t;->a(I)J [access_flags=public final synchronized] @ 0x3de58
+Landroid/content/Intent;->getAction()Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/a;->e(Landroid/content/Context;)Ljava/lang/String; [access_flags=public static] @ 0x34758
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;->addFilter(Ljava/lang/String;)V [access_flags=public synchronized] @ 0x26c58
+Landroid/content/IntentFilter;->addAction(Ljava/lang/String;)V
+Landroid/content/IntentFilter;->hasAction(Ljava/lang/String;)Z
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;->finalize()V [access_flags=protected] @ 0x26cb0
+Ljava/lang/Object;->finalize()V
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;->onReceive(Landroid/content/Context; Landroid/content/Intent;)V [access_flags=public final] @ 0x26cdc
+Lcom/tencent/bugly/legu/crashreport/crash/BuglyBroadcastRecevier;->regist(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/crash/b;)V [access_flags=public synchronized] @ 0x26d1c
+Landroid/content/Context;->registerReceiver(Landroid/content/BroadcastReceiver; Landroid/content/IntentFilter;)Landroid/content/Intent;
+Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean$1;-><init>()V [access_flags=constructor] @ 0x26ddc
+Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object; [access_flags=public final synthetic] @ 0x26df4
+Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;-><init>(Landroid/os/Parcel;)V [access_flags=public constructor] @ 0x26f78
+Landroid/os/Parcel;->createByteArray()[B
+Lcom/tencent/bugly/legu/proguard/a;->a(Landroid/os/Parcel;)Ljava/util/Map; [access_flags=public static] @ 0x33024
+Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;-><clinit>()V [access_flags=static constructor] @ 0x26e28
+Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;-><init>()V [access_flags=public constructor] @ 0x26e48
+Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;->writeToParcel(Landroid/os/Parcel; I)V [access_flags=public] @ 0x27348
+Lcom/tencent/bugly/legu/proguard/a;->a(Landroid/os/Parcel; Ljava/util/Map;)V [access_flags=public static] @ 0x331d4
+Landroid/os/Parcel;->writeByteArray([B)V
+Lcom/tencent/bugly/legu/crashreport/crash/a;-><init>()V [access_flags=public constructor] @ 0x27554
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$b;->a(J J Ljava/lang/String;)Z [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$b;->a(Ljava/lang/String; I Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$b;->a(J)Z [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$1;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$a; Z)V [access_flags=constructor] @ 0x275d0
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$1;->a(J)Z [access_flags=public final] @ 0x275f0
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$1;->a(J J Ljava/lang/String;)Z [access_flags=public final] @ 0x27654
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$1;->a(Ljava/lang/String; I Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public final] @ 0x276ac
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$2;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$a; Z)V [access_flags=constructor] @ 0x27760
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$2;->a(J)Z [access_flags=public final] @ 0x27780
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$2;->a(J J Ljava/lang/String;)Z [access_flags=public final] @ 0x277b0
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$2;->a(Ljava/lang/String; I Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public final] @ 0x277fc
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$a;-><init>()V [access_flags=public constructor] @ 0x27880
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper;-><init>()V [access_flags=public constructor] @ 0x27898
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper;->a(Ljava/io/BufferedReader;)Ljava/lang/String; [access_flags=private static] @ 0x278b0
+Ljava/lang/StringBuffer;-><init>()V
+Ljava/lang/StringBuffer;->toString()Ljava/lang/String;
+Ljava/io/BufferedReader;->readLine()Ljava/lang/String;
+Ljava/lang/StringBuffer;->append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper;->a(Ljava/io/BufferedReader; [Ljava/util/regex/Pattern;)[Ljava/lang/Object; [access_flags=private static varargs] @ 0x27920
+Ljava/util/regex/Matcher;->matches()Z
+Ljava/util/regex/Pattern;->matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper;->b(Ljava/io/BufferedReader;)Ljava/lang/String; [access_flags=private static] @ 0x27984
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper;->readFirstDumpInfo(Ljava/lang/String; Z)Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$a; [access_flags=public static] @ 0x279f8
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper;->readTraceFile(Ljava/lang/String; Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$b;)V [access_flags=public static] @ 0x27b2c
+Ljava/text/SimpleDateFormat;->parse(Ljava/lang/String;)Ljava/util/Date;
+Ljava/util/regex/Pattern;->compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+Ljava/io/BufferedReader;->close()V
+Ljava/util/regex/Matcher;->find()Z
+Ljava/util/Date;->getTime()J
+Ljava/util/regex/Matcher;->group(I)Ljava/lang/String;
+Ljava/lang/String;->indexOf(Ljava/lang/String;)I
+Ljava/io/File;->lastModified()J
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader;)V
+Ljava/util/regex/Matcher;->group()Ljava/lang/String;
+Ljava/lang/Long;->parseLong(Ljava/lang/String;)J
+Ljava/io/File;->length()J
+Ljava/io/FileReader;-><init>(Ljava/io/File;)V
+Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String; Ljava/util/Locale;)V
+Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper;->readTargetDumpInfo(Ljava/lang/String; Ljava/lang/String; Z)Lcom/tencent/bugly/legu/crashreport/crash/anr/TraceFileHelper$a; [access_flags=public static] @ 0x27acc
+Lcom/tencent/bugly/legu/crashreport/crash/anr/a;-><init>()V [access_flags=public constructor] @ 0x27f6c
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b$1;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/anr/b; Ljava/lang/String; I)V [access_flags=constructor] @ 0x27fa8
+Landroid/os/FileObserver;-><init>(Ljava/lang/String; I)V
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b$1;->onEvent(I Ljava/lang/String;)V [access_flags=public final] @ 0x27fc8
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->a(Ljava/lang/String;)V [access_flags=public final] @ 0x28e84
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b$2;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/anr/b;)V [access_flags=constructor] @ 0x28030
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b$2;->run()V [access_flags=public final] @ 0x2804c
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->b()V [access_flags=protected final] @ 0x291c4
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->a(Landroid/content/Context; Ljava/lang/String; Landroid/app/ActivityManager$ProcessErrorStateInfo; J Ljava/util/Map;)Z [access_flags=private] @ 0x28404
+Ljava/util/concurrent/atomic/AtomicInteger;->set(I)V
+Lcom/tencent/bugly/legu/proguard/a;->a(I Z)Ljava/util/Map; [access_flags=public static] @ 0x32e9c
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->a(Landroid/content/Context; J)Landroid/app/ActivityManager$ProcessErrorStateInfo; [access_flags=private static] @ 0x280e0
+Ljava/lang/Math;->abs(J)J
+Ljava/lang/Class;->toString()Ljava/lang/String;
+Ljava/util/concurrent/atomic/AtomicInteger;->get()I
+Ljava/io/File;->isDirectory()Z
+Ljava/lang/String;->startsWith(Ljava/lang/String;)Z
+Ljava/io/File;->listFiles()[Ljava/io/File;
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;-><init>(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Lcom/tencent/bugly/legu/crashreport/common/info/a; Lcom/tencent/bugly/legu/proguard/v; Lcom/tencent/bugly/legu/crashreport/crash/b;)V [access_flags=public constructor] @ 0x28068
+Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+Landroid/app/ActivityManager;->getProcessesInErrorState()Ljava/util/List;
+Ljava/lang/InterruptedException;->printStackTrace()V
+Ljava/lang/Thread;->sleep(J)V
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->a(Lcom/tencent/bugly/legu/crashreport/crash/anr/a;)Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; [access_flags=private] @ 0x281cc
+Lcom/tencent/bugly/legu/proguard/a;->k()J [access_flags=public static] @ 0x34fe4
+Lcom/tencent/bugly/legu/proguard/a;->a(Landroid/content/Context; I Ljava/lang/String;)Ljava/lang/String; [access_flags=public static] @ 0x32478
+Lcom/tencent/bugly/legu/proguard/a;->g()J [access_flags=public static] @ 0x34a54
+Lcom/tencent/bugly/legu/proguard/x;->a(Z)[B [access_flags=public static] @ 0x404a8
+Lcom/tencent/bugly/legu/proguard/a;->b([B)Ljava/lang/String; [access_flags=public static] @ 0x340e0
+Lcom/tencent/bugly/legu/proguard/a;->i()J [access_flags=public static] @ 0x34cbc
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/Thread; Ljava/lang/String; Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;)V [access_flags=public static] @ 0x2a874
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; J Z)V [access_flags=public final] @ 0x2b708
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=private static] @ 0x28720
+Lcom/tencent/bugly/legu/crashreport/crash/c;->a(Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;)V [access_flags=public final] @ 0x2c34c
+Lcom/tencent/bugly/legu/crashreport/crash/b;->b(Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;)V [access_flags=public final] @ 0x2bb14
+Ljava/io/File;-><init>(Ljava/io/File; Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/proguard/a;->n()Ljava/lang/String; [access_flags=public static] @ 0x35104
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;)Z [access_flags=public final] @ 0x2b928
+Ljava/io/BufferedWriter;->write(Ljava/lang/String;)V
+Ljava/io/BufferedWriter;->close()V
+Ljava/io/File;->mkdirs()Z
+Ljava/io/File;->createNewFile()Z
+Ljava/io/FileWriter;-><init>(Ljava/io/File; Z)V
+Ljava/io/File;->getParentFile()Ljava/io/File;
+Ljava/io/File;->canWrite()Z
+Ljava/io/BufferedWriter;->flush()V
+Ljava/io/BufferedWriter;-><init>(Ljava/io/Writer;)V
+Ljava/io/IOException;->getMessage()Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->b(Z)V [access_flags=private synchronized] @ 0x28b68
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->d()V [access_flags=private synchronized] @ 0x28cd4
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->c()V [access_flags=private synchronized] @ 0x28bac
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->e()Z [access_flags=private synchronized] @ 0x28d74
+Landroid/os/FileObserver;->startWatching()V
+Landroid/os/FileObserver;->stopWatching()V
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->c(Z)V [access_flags=private synchronized] @ 0x28c80
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->a(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=public final synchronized] @ 0x28dd8
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->f()Z [access_flags=private synchronized] @ 0x28dac
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->a(Z)V [access_flags=public final] @ 0x29128
+Lcom/tencent/bugly/legu/crashreport/crash/anr/b;->a()Z [access_flags=public final] @ 0x2919c
+Lcom/tencent/bugly/legu/crashreport/crash/b$1;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/b; Ljava/util/List;)V [access_flags=constructor] @ 0x292d0
+Lcom/tencent/bugly/legu/crashreport/crash/b$1;->a(Z)V [access_flags=public final] @ 0x292f0
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Z Ljava/util/List;)V [access_flags=public static] @ 0x2ab20
+Ljava/lang/Thread;->getName()Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/util/Date;)Ljava/lang/String; [access_flags=public static] @ 0x32c4c
+Ljava/util/Date;-><init>(J)V
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; I)Z [access_flags=public final] @ 0x2b948
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Ljava/util/List; J Z)V [access_flags=public final] @ 0x2b754
+Lcom/tencent/bugly/legu/proguard/n;->a()[B [access_flags=public abstract] @ 0x0
+Ljava/util/HashMap;-><init>(I)V
+Lcom/tencent/bugly/legu/proguard/n;->b()Ljava/lang/String; [access_flags=public abstract] @ 0x0
+Ljava/util/LinkedHashMap;-><init>(I)V
+Lcom/tencent/bugly/legu/crashreport/crash/b;-><init>(I Landroid/content/Context; Lcom/tencent/bugly/legu/proguard/t; Lcom/tencent/bugly/legu/proguard/o; Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Lcom/tencent/bugly/legu/BuglyStrategy$a; Lcom/tencent/bugly/legu/proguard/n;)V [access_flags=public constructor] @ 0x29328
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Landroid/database/Cursor;)Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; [access_flags=private static] @ 0x29358
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Ljava/util/List; Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;)Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; [access_flags=private] @ 0x293e4
+Ljava/util/Collections;->sort(Ljava/util/List;)V
+Lcom/tencent/bugly/legu/crashreport/crash/b;->b(Ljava/util/List;)Ljava/util/List; [access_flags=private] @ 0x2afa8
+Ljava/util/ArrayList;-><init>(I)V
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Ljava/lang/String; Landroid/content/Context; Ljava/lang/String;)Lcom/tencent/bugly/legu/proguard/aj; [access_flags=private static] @ 0x29690
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Landroid/content/Context;->getCacheDir()Ljava/io/File;
+Lcom/tencent/bugly/legu/proguard/aj;-><init>(B Ljava/lang/String; [B)V [access_flags=public constructor] @ 0x35bd8
+Ljava/io/ByteArrayOutputStream;->toByteArray()[B
+Ljava/io/ByteArrayOutputStream;->flush()V
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/io/File; Ljava/io/File; I)Z [access_flags=public static] @ 0x33668
+Ljava/io/ByteArrayOutputStream;-><init>()V
+Ljava/io/FileInputStream;->close()V
+Ljava/io/FileInputStream;->read([B)I
+Ljava/io/ByteArrayOutputStream;->write([B I I)V
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; Lcom/tencent/bugly/legu/crashreport/common/info/a;)Lcom/tencent/bugly/legu/proguard/ak; [access_flags=private static] @ 0x298c4
+Ljava/util/Map;->containsKey(Ljava/lang/Object;)Z
+Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
+Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+Lcom/tencent/bugly/legu/proguard/ak;-><init>()V [access_flags=public constructor] @ 0x35dbc
+Lcom/tencent/bugly/legu/proguard/ah;-><init>()V [access_flags=public constructor] @ 0x359c4
+Ljava/io/UnsupportedEncodingException;->printStackTrace()V
+Ljava/net/URLEncoder;->encode(Ljava/lang/String; Ljava/lang/String;)Ljava/lang/String;
+Ljava/util/ArrayList;->size()I
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a(Ljava/util/List;)Ljava/util/List; [access_flags=private static] @ 0x2a7f4
+Lcom/tencent/bugly/legu/crashreport/crash/b;->b(Landroid/database/Cursor;)Lcom/tencent/bugly/legu/crashreport/crash/a; [access_flags=private static] @ 0x2ac88
+Landroid/database/Cursor;->getInt(I)I
+Landroid/database/Cursor;->getString(I)Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/crash/b;->b()Ljava/util/List; [access_flags=private] @ 0x2ad7c
+Lcom/tencent/bugly/legu/crashreport/crash/b;->c(Ljava/util/List;)V [access_flags=private static] @ 0x2b214
+Lcom/tencent/bugly/legu/crashreport/crash/b;->d(Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;)Landroid/content/ContentValues; [access_flags=private static] @ 0x2b314
+Lcom/tencent/bugly/legu/crashreport/crash/b;->d(Ljava/util/List;)V [access_flags=private static] @ 0x2b42c
+Lcom/tencent/bugly/legu/crashreport/crash/b;->a()Ljava/util/List; [access_flags=public final] @ 0x2b534
+Ljava/lang/Throwable;->toString()Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/t;->a(I Lcom/tencent/bugly/legu/proguard/am; Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/s; Z J)V [access_flags=public final] @ 0x3e030
+Lcom/tencent/bugly/legu/proguard/al;-><init>()V [access_flags=public constructor] @ 0x361a4
+Lcom/tencent/bugly/legu/crashreport/crash/b;->c(Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean;)V [access_flags=public final] @ 0x2befc
+Ljava/util/List;->removeAll(Ljava/util/Collection;)Z
+Ljava/util/List;->addAll(Ljava/util/Collection;)Z
+Lcom/tencent/bugly/legu/proguard/n;->c()Z [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/c$1;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/c; Z Ljava/lang/Thread; Ljava/lang/Throwable; Ljava/lang/String; [B)V [access_flags=constructor] @ 0x2bf60
+Lcom/tencent/bugly/legu/crashreport/crash/c$1;->run()V [access_flags=public final] @ 0x2bf90
+Lcom/tencent/bugly/legu/crashreport/crash/e;->a(Ljava/lang/Thread; Ljava/lang/Throwable; Z Ljava/lang/String; [B)V [access_flags=public final] @ 0x2d598
+Lcom/tencent/bugly/legu/crashreport/crash/c;->a(Lcom/tencent/bugly/legu/crashreport/crash/c;)Lcom/tencent/bugly/legu/crashreport/crash/e; [access_flags=static synthetic] @ 0x2c268
+Lcom/tencent/bugly/legu/crashreport/crash/c$2;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/c;)V [access_flags=constructor] @ 0x2c030
+Lcom/tencent/bugly/legu/crashreport/crash/c$2;->run()V [access_flags=public final] @ 0x2c04c
+Lcom/tencent/bugly/legu/proguard/a;->b(Landroid/content/Context; Ljava/lang/String;)Z [access_flags=public static] @ 0x34304
+Lcom/tencent/bugly/legu/crashreport/crash/c;->b(Lcom/tencent/bugly/legu/crashreport/crash/c;)Landroid/content/Context; [access_flags=static synthetic] @ 0x2c2d8
+Lcom/tencent/bugly/legu/proguard/a;->a(Landroid/content/Context; Ljava/lang/String; J)Z [access_flags=public static] @ 0x33524
+Lcom/tencent/bugly/legu/crashreport/crash/c;-><init>(I Landroid/content/Context; Lcom/tencent/bugly/legu/proguard/v; Z Lcom/tencent/bugly/legu/BuglyStrategy$a; Lcom/tencent/bugly/legu/proguard/n; Ljava/lang/String;)V [access_flags=private constructor] @ 0x2c168
+Lcom/tencent/bugly/legu/crashreport/crash/e;->a()V [access_flags=public final synchronized] @ 0x2d3d8
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->setUserOpened(Z)V [access_flags=public] @ 0x2f6b8
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->onStrategyChanged(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=public synchronized] @ 0x2f578
+Lcom/tencent/bugly/legu/crashreport/crash/e;->a(Lcom/tencent/bugly/legu/crashreport/common/strategy/StrategyBean;)V [access_flags=public final synchronized] @ 0x2d520
+Lcom/tencent/bugly/legu/crashreport/crash/e;->b()V [access_flags=public final synchronized] @ 0x2dcdc
+Lcom/tencent/bugly/legu/proguard/o;->a(Ljava/util/List;)V [access_flags=public static] @ 0x3a850
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->testNativeCrash()V [access_flags=public] @ 0x2f858
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->getInstance(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/common/info/a; Lcom/tencent/bugly/legu/crashreport/crash/b; Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Lcom/tencent/bugly/legu/proguard/v; Z Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler; [access_flags=public static synchronized] @ 0x2f340
+Lcom/tencent/bugly/legu/crashreport/crash/e;-><init>(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/crash/b; Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Lcom/tencent/bugly/legu/crashreport/common/info/a;)V [access_flags=public constructor] @ 0x2cc44
+Lcom/tencent/bugly/legu/crashreport/crash/c;->l()Z [access_flags=public final] @ 0x2c684
+Lcom/tencent/bugly/legu/crashreport/crash/d$1;-><init>()V [access_flags=constructor] @ 0x2c6a4
+Lcom/tencent/bugly/legu/crashreport/crash/d$1;->run()V [access_flags=public final] @ 0x2c6bc
+Lcom/tencent/bugly/legu/crashreport/crash/d;->a()V [access_flags=static synthetic] @ 0x2c8e8
+Lcom/tencent/bugly/legu/crashreport/crash/d$2;-><init>(Ljava/lang/Thread; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=constructor] @ 0x2c6d4
+Lcom/tencent/bugly/legu/crashreport/crash/d$2;->run()V [access_flags=public final] @ 0x2c6fc
+Lcom/tencent/bugly/legu/proguard/z;->a(Ljava/lang/Thread; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public final] @ 0x40ba8
+Lcom/tencent/bugly/legu/crashreport/crash/d;->b()Lcom/tencent/bugly/legu/proguard/z; [access_flags=static synthetic] @ 0x2cbdc
+Lcom/tencent/bugly/legu/crashreport/crash/d$3;-><init>(Ljava/lang/Thread; I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=constructor] @ 0x2c780
+Lcom/tencent/bugly/legu/crashreport/crash/d$3;->run()V [access_flags=public final] @ 0x2c7ac
+Lcom/tencent/bugly/legu/crashreport/crash/d;->c()Lcom/tencent/bugly/legu/proguard/y; [access_flags=static synthetic] @ 0x2cbf4
+Lcom/tencent/bugly/legu/proguard/y;->a(Ljava/lang/Thread; I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public final] @ 0x40688
+Lcom/tencent/bugly/legu/crashreport/crash/d$4;-><init>(Ljava/lang/Thread; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V [access_flags=constructor] @ 0x2c834
+Lcom/tencent/bugly/legu/crashreport/crash/d$4;->run()V [access_flags=public final] @ 0x2c860
+Lcom/tencent/bugly/legu/crashreport/crash/h5/b;->a(Ljava/lang/Thread; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V [access_flags=public final] @ 0x2e508
+Lcom/tencent/bugly/legu/crashreport/crash/d;->d()Lcom/tencent/bugly/legu/crashreport/crash/h5/b; [access_flags=static synthetic] @ 0x2cc0c
+Lcom/tencent/bugly/legu/proguard/y;-><init>(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/crash/b; Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Lcom/tencent/bugly/legu/crashreport/common/info/a; Lcom/tencent/bugly/legu/BuglyStrategy$a;)V [access_flags=public constructor] @ 0x40660
+Lcom/tencent/bugly/legu/proguard/z;-><init>(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/crash/b; Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Lcom/tencent/bugly/legu/crashreport/common/info/a; Lcom/tencent/bugly/legu/BuglyStrategy$a;)V [access_flags=public constructor] @ 0x40b80
+Lcom/tencent/bugly/legu/crashreport/crash/h5/b;-><init>(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/crash/b; Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Lcom/tencent/bugly/legu/crashreport/common/info/a; Lcom/tencent/bugly/legu/BuglyStrategy$a;)V [access_flags=public constructor] @ 0x2e4e0
+Lcom/tencent/bugly/legu/crashreport/crash/d;->a(Ljava/lang/Thread; I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x2cb28
+Lcom/tencent/bugly/legu/crashreport/crash/d;->a(Ljava/lang/Thread; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x2cb68
+Lcom/tencent/bugly/legu/crashreport/crash/d;->a(Ljava/lang/Thread; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V [access_flags=public static] @ 0x2cb9c
+Landroid/os/Process;->killProcess(I)V
+Ljava/lang/Thread$UncaughtExceptionHandler;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V
+Lcom/tencent/bugly/legu/crashreport/crash/e;->c()Z [access_flags=private static] @ 0x2d3a0
+Ljava/lang/System;->exit(I)V
+Lcom/tencent/bugly/legu/crashreport/crash/e;->b(Ljava/lang/Thread$UncaughtExceptionHandler;)Z [access_flags=private static] @ 0x2d324
+Lcom/tencent/bugly/legu/crashreport/crash/e;->b(Ljava/lang/Thread; Ljava/lang/Throwable; Z Ljava/lang/String; [B)Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; [access_flags=private] @ 0x2cd88
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/lang/Throwable;)Ljava/lang/String; [access_flags=public static] @ 0x32834
+Ljava/lang/Thread;->getId()J
+Lcom/tencent/bugly/legu/crashreport/crash/e;->a(Ljava/lang/Thread$UncaughtExceptionHandler;)V [access_flags=private synchronized] @ 0x2cd5c
+Ljava/lang/Thread;->getDefaultUncaughtExceptionHandler()Ljava/lang/Thread$UncaughtExceptionHandler;
+Ljava/lang/Thread;->setDefaultUncaughtExceptionHandler(Ljava/lang/Thread$UncaughtExceptionHandler;)V
+Lcom/tencent/bugly/legu/crashreport/crash/e;-><clinit>()V [access_flags=static constructor] @ 0x2cc24
+Lcom/tencent/bugly/legu/crashreport/crash/e;->a(Ljava/lang/Throwable; I)Ljava/lang/String; [access_flags=private static] @ 0x2cc74
+Ljava/lang/StringBuilder;->length()I
+Ljava/lang/Throwable;->getStackTrace()[Ljava/lang/StackTraceElement;
+Ljava/lang/StackTraceElement;->toString()Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/crash/e;->b(Ljava/lang/Throwable; I)Ljava/lang/String; [access_flags=private static] @ 0x2d298
+Ljava/lang/Throwable;->getCause()Ljava/lang/Throwable;
+Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/crash/e;->uncaughtException(Ljava/lang/Thread; Ljava/lang/Throwable;)V [access_flags=public final] @ 0x2dd78
+Landroid/webkit/WebView;->getContentDescription()Ljava/lang/CharSequence;
+Ljava/lang/Object;->hashCode()I
+Ljava/util/HashMap;->values()Ljava/util/Collection;
+Lcom/tencent/bugly/legu/crashreport/crash/h5/H5JavaScriptInterface;-><init>()V [access_flags=private constructor] @ 0x2ddbc
+Ljava/util/Collection;->contains(Ljava/lang/Object;)Z
+Lcom/tencent/bugly/legu/crashreport/crash/h5/H5JavaScriptInterface;-><clinit>()V [access_flags=static constructor] @ 0x2dd9c
+Lcom/tencent/bugly/legu/crashreport/crash/h5/H5JavaScriptInterface;->a(Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/h5/a; [access_flags=private static] @ 0x2dde8
+Lorg/json/JSONObject;->getString(Ljava/lang/String;)Ljava/lang/String;
+Lcom/tencent/bugly/legu/crashreport/crash/h5/a;-><init>()V [access_flags=public constructor] @ 0x2e494
+Lorg/json/JSONObject;->getLong(Ljava/lang/String;)J
+Lorg/json/JSONObject;-><init>(Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/crashreport/crash/h5/H5JavaScriptInterface;->printLog(Ljava/lang/String;)V [access_flags=public] @ 0x2e2fc
+Lcom/tencent/bugly/legu/crashreport/crash/h5/H5JavaScriptInterface;->reportJSException(Ljava/lang/String;)V [access_flags=public] @ 0x2e324
+Ljava/util/LinkedHashMap;-><init>()V
+Ljava/util/Map;->putAll(Ljava/util/Map;)V
+Lcom/tencent/bugly/legu/crashreport/inner/InnerAPI;->postH5CrashAsync(Ljava/lang/Thread; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/util/Map;)V [access_flags=public static] @ 0x315dc
+Ljava/lang/Long;->toString(J)Ljava/lang/String;
+Landroid/util/Base64;->decode(Ljava/lang/String; I)[B
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler$1;-><init>(Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;)V [access_flags=constructor] @ 0x2ea7c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler$1;->run()V [access_flags=public final] @ 0x2ea98
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->d(Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;)Lcom/tencent/bugly/legu/crashreport/crash/b; [access_flags=static synthetic] @ 0x2f2f8
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->c(Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;)Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeExceptionHandler; [access_flags=static synthetic] @ 0x2f28c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->b(Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;)Ljava/lang/String; [access_flags=static synthetic] @ 0x2f104
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->b(Ljava/lang/String;)V [access_flags=public static] @ 0x309f4
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->a()V [access_flags=protected final] @ 0x2f394
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->a(Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;)Landroid/content/Context; [access_flags=static synthetic] @ 0x2ec78
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Landroid/content/Context; Ljava/lang/String; Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeExceptionHandler;)Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; [access_flags=public static] @ 0x301fc
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->putNativeKeyValue(Ljava/lang/String; Ljava/lang/String;)Z [access_flags=protected native] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;-><init>(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/common/info/a; Lcom/tencent/bugly/legu/crashreport/crash/b; Lcom/tencent/bugly/legu/proguard/v; Z Ljava/lang/String;)V [access_flags=private constructor] @ 0x2eb94
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->b(Z)V [access_flags=private synchronized] @ 0x2f248
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->c(Z)V [access_flags=private synchronized] @ 0x2f2a4
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->isUserOpened()Z [access_flags=public synchronized] @ 0x2f54c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->testCrash()V [access_flags=protected native] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->a(Z)V [access_flags=private synchronized] @ 0x2ec90
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/lang/String; Ljava/lang/String; Ljava/lang/Object; [Ljava/lang/Class; [Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public static] @ 0x32318
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->regist(Ljava/lang/String; Z I)Ljava/lang/String; [access_flags=protected native] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/a;-><init>(Landroid/content/Context; Lcom/tencent/bugly/legu/crashreport/common/info/a; Lcom/tencent/bugly/legu/crashreport/crash/b; Lcom/tencent/bugly/legu/crashreport/common/strategy/a; Ljava/lang/String;)V [access_flags=public constructor] @ 0x2f88c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->a(Ljava/lang/String; Z)Z [access_flags=private static] @ 0x2f054
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->b()V [access_flags=private synchronized] @ 0x2f11c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->unregist()Ljava/lang/String; [access_flags=protected native] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->startNativeMonitor()V [access_flags=public synchronized] @ 0x2f728
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->appendLogToNative(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public] @ 0x2f4a0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeCrashHandler;->appendNativeLog(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=protected native] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeExceptionHandler;->packageCrashDatas(Ljava/lang/String; Ljava/lang/String; J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; [B Ljava/util/Map; Z)Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/a;->handleNativeException(I I J J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String; I I I Ljava/lang/String; Ljava/lang/String;)V [access_flags=public final] @ 0x2f8b8
+Lcom/tencent/bugly/legu/crashreport/crash/jni/a;->handleNativeException2(I I J J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; I Ljava/lang/String; I I I Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String;)V [access_flags=public final] @ 0x2f924
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Ljava/lang/String;)Ljava/lang/String; [access_flags=protected static] @ 0x3097c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/a;->packageCrashDatas(Ljava/lang/String; Ljava/lang/String; J Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; [B Ljava/util/Map; Z)Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; [access_flags=public final] @ 0x2fe7c
+Ljava/lang/Thread;->getAllStackTraces()Ljava/util/Map;
+Ljava/io/File;->isFile()Z
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Ljava/io/InputStream;)Ljava/lang/String; [access_flags=private static] @ 0x30934
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Landroid/content/Context; Ljava/util/Map; Lcom/tencent/bugly/legu/crashreport/crash/jni/NativeExceptionHandler;)Lcom/tencent/bugly/legu/crashreport/crash/CrashDetailBean; [access_flags=private static] @ 0x303d0
+Ljava/io/File;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/io/File;->canRead()Z
+Ljava/io/File;->getAbsoluteFile()Ljava/io/File;
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;-><init>(Ljava/lang/StringBuilder; I)V [access_flags=public constructor] @ 0x301d4
+Ljava/io/InputStream;->read()I
+Ljava/lang/Integer;->intValue()I
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/io/File; Ljava/lang/String;)[B [access_flags=public static] @ 0x33bf0
+Ljava/lang/String;->isEmpty()Z
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->c(Ljava/lang/String;)Ljava/util/Map; [access_flags=private static] @ 0x30a54
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->d(Ljava/lang/String;)V [access_flags=private] @ 0x30b20
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(B Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30b6c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(C Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30b9c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(D Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30bcc
+Ljava/lang/StringBuilder;->append(D)Ljava/lang/StringBuilder;
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(F Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30bfc
+Ljava/lang/StringBuilder;->append(F)Ljava/lang/StringBuilder;
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(I Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30c2c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(J Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30c5c
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Lcom/tencent/bugly/legu/proguard/j; Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30c8c
+Lcom/tencent/bugly/legu/proguard/j;->a(Ljava/lang/StringBuilder; I)V [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Ljava/lang/Object; Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30ce8
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a([I Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x312c4
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a([F Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x31224
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Ljava/util/Collection; Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30f34
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a([D Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x31184
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a([S Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x314a4
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Ljava/util/Map; Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30f70
+Ljava/lang/Short;->shortValue()S
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Z Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x310a8
+Lcom/tencent/bugly/legu/proguard/b;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0x37168
+Ljava/lang/Double;->doubleValue()D
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(Ljava/lang/String; Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x30ef0
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a([J Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x31364
+Ljava/lang/Byte;->byteValue()B
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a([Ljava/lang/Object; Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x31404
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a(S Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x31078
+Ljava/lang/Float;->floatValue()F
+Lcom/tencent/bugly/legu/crashreport/crash/jni/b;->a([B Ljava/lang/String;)Lcom/tencent/bugly/legu/crashreport/crash/jni/b; [access_flags=public] @ 0x310e4
+Ljava/lang/Long;->longValue()J
+Ljava/lang/Class;->isArray()Z
+Ljava/util/Map;->isEmpty()Z
+Ljava/util/Collection;->toArray()[Ljava/lang/Object;
+Lcom/tencent/bugly/legu/crashreport/inner/InnerAPI;-><init>()V [access_flags=public constructor] @ 0x31544
+Lcom/tencent/bugly/legu/crashreport/inner/InnerAPI;->postCocos2dxCrashAsync(I Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x3155c
+Lcom/tencent/bugly/legu/crashreport/inner/InnerAPI;->postU3dCrashAsync(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x3162c
+Lcom/tencent/bugly/legu/crashreport/inner/InnerAPI;->setOuterSdkVersion(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String;)V [access_flags=public static] @ 0x31684
+Landroid/os/Bundle;->getStringArrayList(Ljava/lang/String;)Ljava/util/ArrayList;
+Landroid/os/Parcel;->readBundle()Landroid/os/Bundle;
+Landroid/os/Parcel;->writeBundle(Landroid/os/Bundle;)V
+Landroid/os/Bundle;->putStringArrayList(Ljava/lang/String; Ljava/util/ArrayList;)V
+Landroid/os/Bundle;-><init>()V
+Landroid/os/Parcelable$Creator;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;
+Landroid/os/Parcel;->unmarshall([B I I)V
+Landroid/os/Parcel;->setDataPosition(I)V
+Ljava/text/SimpleDateFormat;->format(Ljava/util/Date;)Ljava/lang/String;
+Ljava/util/Date;-><init>()V
+Lcom/tencent/bugly/legu/proguard/ar;-><init>()V [access_flags=public constructor] @ 0x36fd4
+Lcom/tencent/bugly/legu/proguard/a;->a(Lcom/tencent/bugly/legu/crashreport/biz/UserInfoBean;)Lcom/tencent/bugly/legu/proguard/aq; [access_flags=public static] @ 0x31b4c
+Lcom/tencent/bugly/legu/proguard/i;->b()[B [access_flags=public final] @ 0x39b6c
+Lcom/tencent/bugly/legu/proguard/i;->a(Ljava/lang/String;)I [access_flags=public final] @ 0x39448
+Lcom/tencent/bugly/legu/proguard/i;-><init>()V [access_flags=public constructor] @ 0x39324
+Lcom/tencent/bugly/legu/proguard/j;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/proguard/am;-><init>()V [access_flags=public constructor] @ 0x36298
+Landroid/telephony/TelephonyManager;->getDeviceId()Ljava/lang/String;
+Landroid/net/wifi/WifiInfo;->getMacAddress()Ljava/lang/String;
+Landroid/net/wifi/WifiManager;->getConnectionInfo()Landroid/net/wifi/WifiInfo;
+Landroid/telephony/TelephonyManager;->getSubscriberId()Ljava/lang/String;
+Landroid/provider/Settings$Secure;->getString(Landroid/content/ContentResolver; Ljava/lang/String;)Ljava/lang/String;
+Landroid/content/Context;->getContentResolver()Landroid/content/ContentResolver;
+Landroid/os/StatFs;-><init>(Ljava/lang/String;)V
+Ljava/io/File;->getPath()Ljava/lang/String;
+Landroid/os/StatFs;->getBlockSize()I
+Landroid/os/StatFs;->getBlockCount()I
+Landroid/os/Environment;->getDataDirectory()Ljava/io/File;
+Ljava/io/BufferedReader;-><init>(Ljava/io/Reader; I)V
+Ljava/lang/String;->split(Ljava/lang/String; I)[Ljava/lang/String;
+Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
+Landroid/os/Environment;->getExternalStorageState()Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/a;->p()Ljava/lang/String; [access_flags=private static] @ 0x351d0
+Ljava/lang/System;->getProperty(Ljava/lang/String;)Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/a;->a(Landroid/content/Context; [Ljava/lang/String;)Ljava/util/ArrayList; [access_flags=public static] @ 0x32ca8
+Ljava/util/Locale;->getDefault()Ljava/util/Locale;
+Ljava/util/Locale;->getCountry()Ljava/lang/String;
+Ljava/util/ArrayList;->iterator()Ljava/util/Iterator;
+Landroid/net/NetworkInfo;->getType()I
+Landroid/telephony/TelephonyManager;->getNetworkType()I
+Landroid/net/ConnectivityManager;->getActiveNetworkInfo()Landroid/net/NetworkInfo;
+Ljava/lang/Class;->cast(Ljava/lang/Object;)Ljava/lang/Object;
+Landroid/os/Bundle;->putString(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
+Landroid/os/Bundle;->putInt(Ljava/lang/String; I)V
+Landroid/os/StatFs;->getAvailableBlocks()I
+Ljava/io/OutputStream;->close()V
+Ljava/lang/Process;->getOutputStream()Ljava/io/OutputStream;
+Ljava/lang/StringBuilder;->delete(I I)Ljava/lang/StringBuilder;
+Ljava/io/InputStreamReader;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/Process;->getErrorStream()Ljava/io/InputStream;
+Ljava/lang/Process;->getInputStream()Ljava/io/InputStream;
+Ljava/lang/Runtime;->exec([Ljava/lang/String;)Ljava/lang/Process;
+Ljava/lang/String;->toUpperCase()Ljava/lang/String;
+Ljava/lang/Integer;->toHexString(I)Ljava/lang/String;
+Ljava/security/MessageDigest;->update([B)V
+Ljava/util/Date;->toString()Ljava/lang/String;
+Ljava/util/zip/ZipOutputStream;->flush()V
+Ljava/util/zip/ZipOutputStream;->close()V
+Ljava/util/zip/ZipOutputStream;->write([B I I)V
+Ljava/util/zip/ZipOutputStream;-><init>(Ljava/io/OutputStream;)V
+Ljava/util/zip/ZipEntry;-><init>(Ljava/lang/String;)V
+Ljava/util/zip/ZipOutputStream;->closeEntry()V
+Ljava/util/zip/ZipOutputStream;->setMethod(I)V
+Ljava/util/zip/ZipOutputStream;->putNextEntry(Ljava/util/zip/ZipEntry;)V
+Ljava/io/File;->equals(Ljava/lang/Object;)Z
+Landroid/os/Process;->myTid()I
+Ljava/io/PrintWriter;-><init>(Ljava/io/Writer;)V
+Ljava/io/StringWriter;-><init>()V
+Ljava/io/StringWriter;->getBuffer()Ljava/lang/StringBuffer;
+Ljava/lang/Throwable;->printStackTrace(Ljava/io/PrintWriter;)V
+Ljava/lang/reflect/Method;->setAccessible(Z)V
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/io/ByteArrayInputStream;->read([B)I
+Ljava/io/ByteArrayInputStream;-><init>([B)V
+Ljava/util/zip/ZipOutputStream;->finish()V
+Lcom/tencent/bugly/legu/proguard/a;-><init>()V [access_flags=constructor] @ 0x317a8
+Lcom/tencent/bugly/legu/proguard/h;-><init>()V [access_flags=public constructor] @ 0x37de8
+Lcom/tencent/bugly/legu/proguard/a;->a([B Z)Lcom/tencent/bugly/legu/proguard/an; [access_flags=public static] @ 0x31a40
+Ljava/lang/Class;->isInstance(Ljava/lang/Object;)Z
+Lcom/tencent/bugly/legu/proguard/d;->a(Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/proguard/d;-><init>()V [access_flags=public constructor] @ 0x374f0
+Lcom/tencent/bugly/legu/proguard/an;-><init>()V [access_flags=public constructor] @ 0x3671c
+Lcom/tencent/bugly/legu/proguard/d;->p()V [access_flags=public final] @ 0x37860
+Lcom/tencent/bugly/legu/proguard/d;->a([B)V [access_flags=public final] @ 0x37574
+Lcom/tencent/bugly/legu/proguard/a;->a([B I I Ljava/lang/String;)[B [access_flags=public static] @ 0x33f04
+Lcom/tencent/bugly/legu/proguard/d;->b(Ljava/lang/String; Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/tencent/bugly/legu/proguard/a;->b([B I)[B [access_flags=public static] @ 0x34488
+Lcom/tencent/bugly/legu/proguard/a;->a([B I Ljava/lang/String;)[B [access_flags=public static] @ 0x33f54
+Lcom/tencent/bugly/legu/proguard/aq;-><init>()V [access_flags=public constructor] @ 0x36e4c
+Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+Lcom/tencent/bugly/legu/proguard/a;->a([B Ljava/lang/Class;)Lcom/tencent/bugly/legu/proguard/j; [access_flags=public static] @ 0x322a8
+Lcom/tencent/bugly/legu/proguard/j;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/proguard/h;-><init>([B)V [access_flags=public constructor] @ 0x37e08
+Lcom/tencent/bugly/legu/proguard/h;->a(Ljava/lang/String;)I [access_flags=public final] @ 0x38b0c
+Ljava/lang/String;-><init>(Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/util/ArrayList;)Ljava/lang/String; [access_flags=public static] @ 0x328a4
+Ljava/util/ArrayList;->set(I Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/Collections;->reverse(Ljava/util/List;)V
+Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/util/ArrayList; Ljava/lang/Object;)V [access_flags=private] @ 0x333a4
+Lcom/tencent/bugly/legu/proguard/a;->a(I)[B [access_flags=public static synchronized] @ 0x3392c
+Ljava/io/DataInputStream;->readFully([B)V
+Ljavax/crypto/KeyGenerator;->getInstance(Ljava/lang/String;)Ljavax/crypto/KeyGenerator;
+Ljavax/crypto/KeyGenerator;->init(I Ljava/security/SecureRandom;)V
+Ljava/io/DataInputStream;->close()V
+Ljavax/crypto/KeyGenerator;->generateKey()Ljavax/crypto/SecretKey;
+Ljava/security/SecureRandom;-><init>()V
+Ljavax/crypto/SecretKey;->getEncoded()[B
+Ljava/io/DataInputStream;-><init>(Ljava/io/InputStream;)V
+Lcom/tencent/bugly/legu/proguard/a;->a(I [B [B)[B [access_flags=public static] @ 0x33a50
+Ljavax/crypto/spec/IvParameterSpec;-><init>([B)V
+Ljavax/crypto/spec/SecretKeySpec;-><init>([B Ljava/lang/String;)V
+Ljavax/crypto/Cipher;->init(I Ljava/security/Key; Ljava/security/spec/AlgorithmParameterSpec;)V
+Ljavax/crypto/Cipher;->getInstance(Ljava/lang/String;)Ljavax/crypto/Cipher;
+Ljavax/crypto/Cipher;->doFinal([B)[B
+Lcom/tencent/bugly/legu/proguard/a;->a(J)[B [access_flags=public static] @ 0x33abc
+Lcom/tencent/bugly/legu/proguard/a;->a(Lcom/tencent/bugly/legu/proguard/am;)[B [access_flags=public static] @ 0x33b10
+Lcom/tencent/bugly/legu/proguard/d;->a()[B [access_flags=public final] @ 0x376bc
+Lcom/tencent/bugly/legu/proguard/d;->c(Ljava/lang/String;)V [access_flags=public final] @ 0x37844
+Lcom/tencent/bugly/legu/proguard/d;->b(Ljava/lang/String;)V [access_flags=public final] @ 0x37828
+Lcom/tencent/bugly/legu/proguard/d;->a(Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public final] @ 0x37520
+Lcom/tencent/bugly/legu/proguard/d;->b(I)V [access_flags=public final] @ 0x3780c
+Lcom/tencent/bugly/legu/proguard/a;->a([B I)[B [access_flags=public static] @ 0x33e78
+Lcom/tencent/bugly/legu/proguard/ab;->a([B)[B [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/proguard/aa;->a(I)Lcom/tencent/bugly/legu/proguard/ab; [access_flags=public static] @ 0x35578
+Lcom/tencent/bugly/legu/proguard/ae;-><init>()V [access_flags=public constructor] @ 0x35784
+Lcom/tencent/bugly/legu/proguard/ag;->a(Ljava/lang/String;)V [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/proguard/af;-><init>()V [access_flags=public constructor] @ 0x35900
+Lcom/tencent/bugly/legu/proguard/ag;->a([B)[B [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/proguard/ab;->b([B)[B [access_flags=public abstract] @ 0x0
+Lcom/tencent/bugly/legu/proguard/a;->b(I [B [B)[B [access_flags=public static] @ 0x34414
+Ljava/security/KeyFactory;->generatePublic(Ljava/security/spec/KeySpec;)Ljava/security/PublicKey;
+Ljava/security/KeyFactory;->getInstance(Ljava/lang/String;)Ljava/security/KeyFactory;
+Ljavax/crypto/Cipher;->init(I Ljava/security/Key;)V
+Ljava/security/spec/X509EncodedKeySpec;-><init>([B)V
+Lcom/tencent/bugly/legu/proguard/a;->c([B)J [access_flags=public static] @ 0x34518
+Ljava/lang/String;-><init>([B Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public] @ 0x3540c
+Ljava/util/HashMap;->remove(Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/tencent/bugly/legu/proguard/i;->a()Ljava/nio/ByteBuffer; [access_flags=public final] @ 0x39460
+Lcom/tencent/bugly/legu/proguard/k;->a(Ljava/nio/ByteBuffer;)[B [access_flags=public static] @ 0x39cd0
+Lcom/tencent/bugly/legu/proguard/i;->a(Ljava/lang/Object; I)V [access_flags=public final] @ 0x3958c
+Lcom/tencent/bugly/legu/proguard/a;->a([B)V [access_flags=public] @ 0x354c8
+Lcom/tencent/bugly/legu/proguard/h;->a([B)V [access_flags=public final] @ 0x38fc4
+Lcom/tencent/bugly/legu/proguard/h;->a(Ljava/util/Map; I Z)Ljava/util/HashMap; [access_flags=public final] @ 0x38f00
+Lcom/tencent/bugly/legu/proguard/a;->a()[B [access_flags=public] @ 0x35534
+Lcom/tencent/bugly/legu/proguard/i;->a(Ljava/util/Map; I)V [access_flags=public final] @ 0x39a34
+Lcom/tencent/bugly/legu/proguard/i;-><init>(I)V [access_flags=public constructor] @ 0x39340
+Lcom/tencent/bugly/legu/proguard/a;->a(Ljava/lang/String;)V [access_flags=public] @ 0x353f4
+Lcom/tencent/bugly/legu/proguard/ad;-><init>()V [access_flags=public constructor] @ 0x35684
+Lcom/tencent/bugly/legu/proguard/ac;-><init>()V [access_flags=public constructor] @ 0x355b0
+Lcom/tencent/bugly/legu/proguard/ac;->a([B)[B [access_flags=public final] @ 0x355c8
+Ljava/util/zip/GZIPOutputStream;->write([B)V
+Ljava/io/ByteArrayOutputStream;->close()V
+Ljava/util/zip/GZIPOutputStream;->finish()V
+Ljava/util/zip/GZIPOutputStream;->close()V
+Ljava/util/zip/GZIPOutputStream;-><init>(Ljava/io/OutputStream;)V
+Lcom/tencent/bugly/legu/proguard/ac;->b([B)[B [access_flags=public final] @ 0x35610
+Ljava/util/zip/GZIPInputStream;->close()V
+Ljava/util/zip/GZIPInputStream;->read([B I I)I
+Ljava/util/zip/GZIPInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/io/ByteArrayInputStream;->close()V
+Lcom/tencent/bugly/legu/proguard/ad;->a([B)[B [access_flags=public final] @ 0x3569c
+Ljava/util/zip/ZipEntry;->setSize(J)V
+Ljava/util/zip/ZipOutputStream;->write([B)V
+Lcom/tencent/bugly/legu/proguard/ad;->b([B)[B [access_flags=public final] @ 0x35700
+Ljava/util/zip/ZipInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/util/zip/ZipInputStream;->getNextEntry()Ljava/util/zip/ZipEntry;
+Ljava/util/zip/ZipInputStream;->close()V
+Ljava/util/zip/ZipInputStream;->read([B I I)I
+Lcom/tencent/bugly/legu/proguard/ae;->a(Ljava/lang/String;)V [access_flags=public final] @ 0x357a4
+Lcom/tencent/bugly/legu/proguard/ae;->a([B)[B [access_flags=public final] @ 0x35804
+Lcom/tencent/bugly/legu/proguard/af;->a([B)[B [access_flags=public final] @ 0x3593c
+Ljavax/crypto/SecretKeyFactory;->generateSecret(Ljava/security/spec/KeySpec;)Ljavax/crypto/SecretKey;
+Ljavax/crypto/SecretKeyFactory;->getInstance(Ljava/lang/String;)Ljavax/crypto/SecretKeyFactory;
+Ljavax/crypto/spec/DESKeySpec;-><init>([B)V
+Lcom/tencent/bugly/legu/proguard/j;-><init>()V [access_flags=public constructor] @ 0x39bb0
+Lcom/tencent/bugly/legu/proguard/j;->toString()Ljava/lang/String; [access_flags=public] @ 0x39bc8
+Lcom/tencent/bugly/legu/proguard/ah;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x35a04
+Lcom/tencent/bugly/legu/proguard/h;->b(I Z)Ljava/lang/String; [access_flags=public final] @ 0x39018
+Lcom/tencent/bugly/legu/proguard/ah;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x35a5c
+Lcom/tencent/bugly/legu/proguard/i;->a(Ljava/lang/String; I)V [access_flags=public final] @ 0x3993c
+Lcom/tencent/bugly/legu/proguard/ai;-><init>()V [access_flags=public constructor] @ 0x35ae0
+Lcom/tencent/bugly/legu/proguard/ai;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x35b08
+Lcom/tencent/bugly/legu/proguard/h;->a(Ljava/lang/Object; I Z)Ljava/lang/Object; [access_flags=public final] @ 0x38ca0
+Lcom/tencent/bugly/legu/proguard/ai;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x35b64
+Lcom/tencent/bugly/legu/proguard/i;->a(Ljava/util/Collection; I)V [access_flags=public final] @ 0x399cc
+Lcom/tencent/bugly/legu/proguard/aj;-><init>()V [access_flags=public constructor] @ 0x35bac
+Lcom/tencent/bugly/legu/proguard/aj;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x35c10
+Lcom/tencent/bugly/legu/proguard/h;->a(B I Z)B [access_flags=public final] @ 0x389d8
+Lcom/tencent/bugly/legu/proguard/h;->c(I Z)[B [access_flags=public final] @ 0x39154
+Lcom/tencent/bugly/legu/proguard/aj;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x35c74
+Lcom/tencent/bugly/legu/proguard/i;->a(B I)V [access_flags=public final] @ 0x39478
+Lcom/tencent/bugly/legu/proguard/i;->a([B I)V [access_flags=public final] @ 0x39b28
+Lcom/tencent/bugly/legu/proguard/ak;-><clinit>()V [access_flags=static constructor] @ 0x35cc8
+Lcom/tencent/bugly/legu/proguard/ak;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x35e5c
+Lcom/tencent/bugly/legu/proguard/h;->a(I I Z)I [access_flags=public final] @ 0x38a5c
+Lcom/tencent/bugly/legu/proguard/h;->a(I Z)Z [access_flags=public final] @ 0x38ff4
+Lcom/tencent/bugly/legu/proguard/h;->a(J I Z)J [access_flags=public final] @ 0x38b24
+Lcom/tencent/bugly/legu/proguard/h;->a(Lcom/tencent/bugly/legu/proguard/j; I Z)Lcom/tencent/bugly/legu/proguard/j; [access_flags=public final] @ 0x38bf4
+Lcom/tencent/bugly/legu/proguard/ak;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x35ffc
+Lcom/tencent/bugly/legu/proguard/i;->a(J I)V [access_flags=public final] @ 0x394fc
+Lcom/tencent/bugly/legu/proguard/i;->a(Lcom/tencent/bugly/legu/proguard/j; I)V [access_flags=public final] @ 0x39550
+Lcom/tencent/bugly/legu/proguard/i;->a(Z I)V [access_flags=public final] @ 0x39b04
+Lcom/tencent/bugly/legu/proguard/i;->a(I I)V [access_flags=public final] @ 0x394b4
+Lcom/tencent/bugly/legu/proguard/al;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x361c4
+Lcom/tencent/bugly/legu/proguard/al;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x36218
+Lcom/tencent/bugly/legu/proguard/am;-><clinit>()V [access_flags=static constructor] @ 0x3624c
+Lcom/tencent/bugly/legu/proguard/am;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x36360
+Lcom/tencent/bugly/legu/proguard/am;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x36504
+Lcom/tencent/bugly/legu/proguard/an;-><clinit>()V [access_flags=static constructor] @ 0x366d0
+Lcom/tencent/bugly/legu/proguard/an;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x36768
+Lcom/tencent/bugly/legu/proguard/an;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x36808
+Lcom/tencent/bugly/legu/proguard/ao;-><init>()V [access_flags=public constructor] @ 0x368a4
+Lcom/tencent/bugly/legu/proguard/ao;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x368cc
+Lcom/tencent/bugly/legu/proguard/ao;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x368fc
+Lcom/tencent/bugly/legu/proguard/ap;-><clinit>()V [access_flags=static constructor] @ 0x3693c
+Ljava/lang/Class;->desiredAssertionStatus()Z
+Lcom/tencent/bugly/legu/proguard/ap;-><init>()V [access_flags=public constructor] @ 0x36998
+Lcom/tencent/bugly/legu/proguard/ap;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x369fc
+Lcom/tencent/bugly/legu/proguard/ap;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x36ae8
+Lcom/tencent/bugly/legu/proguard/ap;->a(Ljava/lang/StringBuilder; I)V [access_flags=public final] @ 0x36bc4
+Lcom/tencent/bugly/legu/proguard/ap;->clone()Ljava/lang/Object; [access_flags=public final] @ 0x36c88
+Ljava/lang/Object;->clone()Ljava/lang/Object;
+Ljava/lang/AssertionError;-><init>()V
+Lcom/tencent/bugly/legu/proguard/ap;->equals(Ljava/lang/Object;)Z [access_flags=public final] @ 0x36ccc
+Lcom/tencent/bugly/legu/proguard/k;->a(Ljava/lang/Object; Ljava/lang/Object;)Z [access_flags=public static] @ 0x39c98
+Lcom/tencent/bugly/legu/proguard/k;->a(Z Z)Z [access_flags=public static] @ 0x39cb4
+Lcom/tencent/bugly/legu/proguard/k;->a(I I)Z [access_flags=public static] @ 0x39c5c
+Lcom/tencent/bugly/legu/proguard/k;->a(J J)Z [access_flags=public static] @ 0x39c78
+Lcom/tencent/bugly/legu/proguard/ap;->hashCode()I [access_flags=public final] @ 0x36ddc
+Lcom/tencent/bugly/legu/proguard/aq;-><clinit>()V [access_flags=static constructor] @ 0x36e18
+Lcom/tencent/bugly/legu/proguard/aq;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x36ea0
+Lcom/tencent/bugly/legu/proguard/aq;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x36f38
+Lcom/tencent/bugly/legu/proguard/ar;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x3700c
+Lcom/tencent/bugly/legu/proguard/ar;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x370cc
+Lcom/tencent/bugly/legu/proguard/b;-><init>(Ljava/lang/Exception;)V [access_flags=public constructor] @ 0x37150
+Ljava/lang/RuntimeException;-><init>(Ljava/lang/Throwable;)V
+Lcom/tencent/bugly/legu/proguard/c;-><init>()V [access_flags=public constructor] @ 0x37180
+Lcom/tencent/bugly/legu/proguard/c;->a(Ljava/lang/String;)V [access_flags=public final bridge synthetic] @ 0x371bc
+Lcom/tencent/bugly/legu/proguard/c;->a(Ljava/lang/String; Ljava/lang/Object;)V [access_flags=public] @ 0x371d4
+Lcom/tencent/bugly/legu/proguard/c;->a([B)V [access_flags=public] @ 0x3726c
+Lcom/tencent/bugly/legu/proguard/c;->a()[B [access_flags=public] @ 0x372dc
+Lcom/tencent/bugly/legu/proguard/c;->b(Ljava/lang/String; Ljava/lang/Object;)Ljava/lang/Object; [access_flags=public final] @ 0x37330
+Ljava/util/HashMap;->entrySet()Ljava/util/Set;
+Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+Ljava/util/HashMap;->containsKey(Ljava/lang/Object;)Z
+Lcom/tencent/bugly/legu/proguard/c;->p()V [access_flags=public] @ 0x374b4
+Lcom/tencent/bugly/legu/proguard/f;-><init>()V [access_flags=public constructor] @ 0x37980
+Lcom/tencent/bugly/legu/proguard/f;->a(Lcom/tencent/bugly/legu/proguard/h;)V [access_flags=public final] @ 0x379b8
+Lcom/tencent/bugly/legu/proguard/h;-><init>([B I)V [access_flags=public constructor] @ 0x37e34
+Ljava/nio/ByteBuffer;->allocate(I)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->array()[B
+Lcom/tencent/bugly/legu/proguard/f;->a(Lcom/tencent/bugly/legu/proguard/i;)V [access_flags=public final] @ 0x37b58
+Ljava/nio/ByteBuffer;->flip()Ljava/nio/Buffer;
+Ljava/nio/ByteBuffer;->putInt(I)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->put([B)Ljava/nio/ByteBuffer;
+Lcom/tencent/bugly/legu/proguard/e;->a([B)Ljava/lang/String; [access_flags=public static] @ 0x378d0
+Ljava/io/PrintStream;->println(Ljava/lang/String;)V
+Lcom/tencent/bugly/legu/proguard/h;->a(S I Z)S [access_flags=public final] @ 0x38f28
+Lcom/tencent/bugly/legu/proguard/i;->a(S I)V [access_flags=public final] @ 0x39abc
+Lcom/tencent/bugly/legu/proguard/f;-><clinit>()V [access_flags=static constructor] @ 0x37948
+Lcom/tencent/bugly/legu/proguard/f;->a(Ljava/lang/StringBuilder; I)V [access_flags=public final] @ 0x37be8
+Lcom/tencent/bugly/legu/proguard/f;->clone()Ljava/lang/Object; [access_flags=public final] @ 0x37c90
+Lcom/tencent/bugly/legu/proguard/f;->equals(Ljava/lang/Object;)Z [access_flags=public final] @ 0x37cd4
+Lcom/tencent/bugly/legu/proguard/g;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0x37db8
+Lcom/tencent/bugly/legu/proguard/h$a;-><init>()V [access_flags=public constructor] @ 0x37dd0
+Ljava/nio/ByteBuffer;->wrap([B)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->clear()Ljava/nio/Buffer;
+Lcom/tencent/bugly/legu/proguard/h;->a(Ljava/util/Map; Ljava/util/Map; I Z)Ljava/util/Map; [access_flags=private] @ 0x37fe0
+Lcom/tencent/bugly/legu/proguard/h;->a(Lcom/tencent/bugly/legu/proguard/h$a; Ljava/nio/ByteBuffer;)I [access_flags=private static] @ 0x37f90
+Ljava/nio/ByteBuffer;->getInt()I
+Ljava/nio/ByteBuffer;->get([B)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->get()B
+Lcom/tencent/bugly/legu/proguard/h;->a(I)Z [access_flags=private] @ 0x38380
+Lcom/tencent/bugly/legu/proguard/h;->e(I Z)[S [access_flags=private] @ 0x385f0
+Lcom/tencent/bugly/legu/proguard/h;->a(D I Z)D [access_flags=private] @ 0x37e6c
+Lcom/tencent/bugly/legu/proguard/h;->f(I Z)[I [access_flags=private] @ 0x386b8
+Lcom/tencent/bugly/legu/proguard/h;->b(Ljava/lang/Object; I Z)[Ljava/lang/Object; [access_flags=private] @ 0x38448
+Lcom/tencent/bugly/legu/proguard/h;->a([Ljava/lang/Object; I Z)[Ljava/lang/Object; [access_flags=private] @ 0x3840c
+Lcom/tencent/bugly/legu/proguard/h;->h(I Z)[F [access_flags=private] @ 0x38848
+Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/h;->a(F I Z)F [access_flags=private] @ 0x37f0c
+Ljava/util/List;->isEmpty()Z
+Ljava/lang/Short;->valueOf(S)Ljava/lang/Short;
+Lcom/tencent/bugly/legu/proguard/h;->i(I Z)[D [access_flags=private] @ 0x38910
+Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+Lcom/tencent/bugly/legu/proguard/h;->d(I Z)[Z [access_flags=private] @ 0x3851c
+Ljava/lang/Double;->valueOf(D)Ljava/lang/Double;
+Lcom/tencent/bugly/legu/proguard/h;->g(I Z)[J [access_flags=private] @ 0x38780
+Ljava/nio/ByteBuffer;->getShort()S
+Ljava/nio/ByteBuffer;->getLong()J
+Lcom/tencent/bugly/legu/proguard/h;->a()V [access_flags=private] @ 0x380f0
+Ljava/nio/ByteBuffer;->position(I)Ljava/nio/Buffer;
+Ljava/nio/ByteBuffer;->getFloat()F
+Ljava/nio/ByteBuffer;->getDouble()D
+Ljava/nio/ByteBuffer;->position()I
+Lcom/tencent/bugly/legu/proguard/h;->a(B)V [access_flags=private] @ 0x3812c
+Ljava/nio/ByteBuffer;->duplicate()Ljava/nio/ByteBuffer;
+Ljava/lang/System;->arraycopy(Ljava/lang/Object; I Ljava/lang/Object; I I)V
+Lcom/tencent/bugly/legu/proguard/i;->a(I)V [access_flags=private] @ 0x3936c
+Lcom/tencent/bugly/legu/proguard/i;->b(B I)V [access_flags=private] @ 0x393cc
+Ljava/nio/ByteBuffer;->putFloat(F)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->putDouble(D)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->put(B)Ljava/nio/ByteBuffer;
+Ljava/util/Collection;->iterator()Ljava/util/Iterator;
+Ljava/util/Collection;->size()I
+Ljava/nio/ByteBuffer;->putLong(J)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->putShort(S)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->put([B I I)Ljava/nio/ByteBuffer;
+Ljava/nio/ByteBuffer;->remaining()I
+Ljava/nio/ByteBuffer;->capacity()I
+Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+Lcom/tencent/bugly/legu/proguard/l;-><init>()V [access_flags=public constructor] @ 0x39d00
+Lcom/tencent/bugly/legu/proguard/o;->a(Lcom/tencent/bugly/legu/proguard/l;)Z [access_flags=public final] @ 0x3b9cc
+Lcom/tencent/bugly/legu/proguard/m;-><init>(Landroid/content/Context;)V [access_flags=private constructor] @ 0x39d3c
+Lcom/tencent/bugly/legu/proguard/o;->b()I [access_flags=public final] @ 0x3bb1c
+Lcom/tencent/bugly/legu/proguard/m;->c(I)Lcom/tencent/bugly/legu/proguard/l; [access_flags=private synchronized] @ 0x39f50
+Lcom/tencent/bugly/legu/proguard/m;->b(I I)I [access_flags=private synchronized] @ 0x39dcc
+Lcom/tencent/bugly/legu/proguard/m;->b(I)Z [access_flags=private synchronized] @ 0x39e3c
+Lcom/tencent/bugly/legu/proguard/m;-><clinit>()V [access_flags=static constructor] @ 0x39d18
+Lcom/tencent/bugly/legu/proguard/m;->d(I)J [access_flags=private synchronized] @ 0x39fd4
+Lcom/tencent/bugly/legu/proguard/o;->a(I Ljava/lang/String; J)I [access_flags=public final] @ 0x3b304
+Lcom/tencent/bugly/legu/proguard/o;->a(I Ljava/lang/String; J Ljava/lang/String;)Ljava/util/List; [access_flags=public final] @ 0x3b77c
+Lcom/tencent/bugly/legu/proguard/o;->a(I Ljava/lang/String;)Lcom/tencent/bugly/legu/proguard/l; [access_flags=public final] @ 0x3b410
+Lcom/tencent/bugly/legu/proguard/o$a;-><init>(Lcom/tencent/bugly/legu/proguard/o; I Lcom/tencent/bugly/legu/proguard/n;)V [access_flags=public constructor] @ 0x3a1e0
+Lcom/tencent/bugly/legu/proguard/o$a;->run()V [access_flags=public final] @ 0x3a25c
+Lcom/tencent/bugly/legu/proguard/o;->a(I Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/n;)Z [access_flags=public static] @ 0x3a960
+Lcom/tencent/bugly/legu/proguard/o;->a(Lcom/tencent/bugly/legu/proguard/o; Ljava/lang/String; Landroid/content/ContentValues; Lcom/tencent/bugly/legu/proguard/n;)J [access_flags=static synthetic] @ 0x3a458
+Lcom/tencent/bugly/legu/proguard/o;->a(Lcom/tencent/bugly/legu/proguard/o; Z Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/n;)Landroid/database/Cursor; [access_flags=static synthetic] @ 0x3a568
+Lcom/tencent/bugly/legu/proguard/o;->a(Lcom/tencent/bugly/legu/proguard/o; I Ljava/lang/String; [B Lcom/tencent/bugly/legu/proguard/n;)Z [access_flags=static synthetic] @ 0x3ab40
+Lcom/tencent/bugly/legu/proguard/o;->a(Lcom/tencent/bugly/legu/proguard/o; I Lcom/tencent/bugly/legu/proguard/n;)Ljava/util/Map; [access_flags=static synthetic] @ 0x3a834
+Lcom/tencent/bugly/legu/proguard/o;->a(Lcom/tencent/bugly/legu/proguard/o; Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/n;)I [access_flags=static synthetic] @ 0x3a394
+Lcom/tencent/bugly/legu/proguard/o$a;->a(I Ljava/lang/String; [B)V [access_flags=public final] @ 0x3a204
+Lcom/tencent/bugly/legu/proguard/o;->a(I Lcom/tencent/bugly/legu/proguard/n;)Ljava/util/Map; [access_flags=private] @ 0x3a77c
+Lcom/tencent/bugly/legu/proguard/o;-><init>(Landroid/content/Context; Ljava/util/List;)V [access_flags=private constructor] @ 0x3a36c
+Lcom/tencent/bugly/legu/proguard/o;->a(I Ljava/lang/String; [B Lcom/tencent/bugly/legu/proguard/n;)Z [access_flags=private] @ 0x3aab0
+Lcom/tencent/bugly/legu/proguard/o;->a(Ljava/lang/String; Landroid/content/ContentValues; Lcom/tencent/bugly/legu/proguard/n;)J [access_flags=private synchronized] @ 0x3a474
+Lcom/tencent/bugly/legu/proguard/o;->a(Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/n;)I [access_flags=private synchronized] @ 0x3a3b0
+Lcom/tencent/bugly/legu/proguard/o;->a(Z Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/n;)Landroid/database/Cursor; [access_flags=private synchronized] @ 0x3a584
+Lcom/tencent/bugly/legu/proguard/o;->a(Landroid/database/Cursor;)Lcom/tencent/bugly/legu/proguard/q; [access_flags=private static] @ 0x3a6a0
+Lcom/tencent/bugly/legu/proguard/p;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase; [access_flags=public final synchronized] @ 0x3bd48
+Landroid/database/sqlite/SQLiteDatabase;->delete(Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String;)I
+Landroid/database/sqlite/SQLiteDatabase;->query(Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor;
+Lcom/tencent/bugly/legu/proguard/o;->c(Lcom/tencent/bugly/legu/proguard/q;)Landroid/content/ContentValues; [access_flags=private static] @ 0x3ae50
+Landroid/database/sqlite/SQLiteDatabase;->replace(Ljava/lang/String; Ljava/lang/String; Landroid/content/ContentValues;)J
+Lcom/tencent/bugly/legu/proguard/o;->c(Landroid/database/Cursor;)Lcom/tencent/bugly/legu/proguard/l; [access_flags=private static] @ 0x3af20
+Landroid/database/Cursor;->moveToFirst()Z
+Lcom/tencent/bugly/legu/proguard/o;->b(Lcom/tencent/bugly/legu/proguard/l;)Landroid/content/ContentValues; [access_flags=private static] @ 0x3ab5c
+Lcom/tencent/bugly/legu/proguard/p;-><init>(Landroid/content/Context; Ljava/util/List;)V [access_flags=public constructor] @ 0x3bb88
+Landroid/database/sqlite/SQLiteDatabase;->query(Z Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; [Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Landroid/database/Cursor;
+Lcom/tencent/bugly/legu/proguard/o;->c(I)Ljava/util/List; [access_flags=private] @ 0x3b014
+Lcom/tencent/bugly/legu/proguard/o;->b(Landroid/database/Cursor;)Lcom/tencent/bugly/legu/proguard/q; [access_flags=private static] @ 0x3ac4c
+Lcom/tencent/bugly/legu/proguard/o;->b(Lcom/tencent/bugly/legu/proguard/q;)Z [access_flags=private] @ 0x3ada8
+Lcom/tencent/bugly/legu/proguard/o;->d(Lcom/tencent/bugly/legu/proguard/q;)Landroid/content/ContentValues; [access_flags=private static] @ 0x3b230
+Lcom/tencent/bugly/legu/proguard/o;->a(I Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/n; Z)Z [access_flags=public final] @ 0x3b968
+Landroid/database/sqlite/SQLiteOpenHelper;-><init>(Landroid/content/Context; Ljava/lang/String; Landroid/database/sqlite/SQLiteDatabase$CursorFactory; I)V
+Landroid/database/sqlite/SQLiteOpenHelper;->getWritableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+Lcom/tencent/bugly/legu/proguard/p;->a(Landroid/database/sqlite/SQLiteDatabase;)Z [access_flags=private synchronized] @ 0x3bbe0
+Lcom/tencent/bugly/legu/proguard/p;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase; [access_flags=public final synchronized] @ 0x3bc94
+Landroid/database/sqlite/SQLiteOpenHelper;->getReadableDatabase()Landroid/database/sqlite/SQLiteDatabase;
+Lcom/tencent/bugly/legu/proguard/p;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V [access_flags=public final synchronized] @ 0x3be18
+Lcom/tencent/bugly/legu/proguard/p;->onDowngrade(Landroid/database/sqlite/SQLiteDatabase; I I)V [access_flags=public final synchronized] @ 0x3c518
+Lcom/tencent/bugly/legu/proguard/p;->onUpgrade(Landroid/database/sqlite/SQLiteDatabase; I I)V [access_flags=public final synchronized] @ 0x3c634
+Lcom/tencent/bugly/legu/proguard/r;-><init>(Landroid/content/Context;)V [access_flags=private constructor] @ 0x3c758
+Lcom/tencent/bugly/legu/proguard/r;->a(Landroid/content/Context;)Lcom/tencent/bugly/legu/proguard/r; [access_flags=public static] @ 0x3c77c
+Lcom/tencent/bugly/legu/proguard/r;->a(Ljava/lang/String; Ljava/lang/String;)Ljava/net/HttpURLConnection; [access_flags=private static] @ 0x3c7a8
+Ljava/net/HttpURLConnection;->setInstanceFollowRedirects(Z)V
+Ljava/net/HttpURLConnection;->setRequestMethod(Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->setUseCaches(Z)V
+Ljava/net/URL;-><init>(Ljava/lang/String;)V
+Ljava/net/URL;->openConnection()Ljava/net/URLConnection;
+Ljava/net/HttpURLConnection;->setConnectTimeout(I)V
+Ljava/net/HttpURLConnection;->setReadTimeout(I)V
+Ljava/net/HttpURLConnection;->setDoInput(Z)V
+Ljava/net/Proxy;-><init>(Ljava/net/Proxy$Type; Ljava/net/SocketAddress;)V
+Ljava/net/InetSocketAddress;-><init>(Ljava/lang/String; I)V
+Ljava/net/HttpURLConnection;->setDoOutput(Z)V
+Ljava/net/URL;->openConnection(Ljava/net/Proxy;)Ljava/net/URLConnection;
+Lcom/tencent/bugly/legu/proguard/r;->a(Ljava/lang/String; [B Ljava/lang/String; Ljava/util/Map;)Ljava/net/HttpURLConnection; [access_flags=private] @ 0x3c89c
+Ljava/io/OutputStream;->write([B)V
+Ljava/net/HttpURLConnection;->setRequestProperty(Ljava/lang/String; Ljava/lang/String;)V
+Ljava/net/HttpURLConnection;->getOutputStream()Ljava/io/OutputStream;
+Ljava/io/OutputStream;->write(I)V
+Ljava/net/HttpURLConnection;->connect()V
+Lcom/tencent/bugly/legu/proguard/r;->a(Ljava/net/HttpURLConnection;)Ljava/util/Map; [access_flags=private static] @ 0x3c9f4
+Ljava/net/HttpURLConnection;->getHeaderFields()Ljava/util/Map;
+Lcom/tencent/bugly/legu/proguard/r;->b(Ljava/net/HttpURLConnection;)[B [access_flags=private static] @ 0x3ca80
+Ljava/io/BufferedInputStream;->close()V
+Ljava/io/BufferedInputStream;->read([B)I
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/net/HttpURLConnection;->getInputStream()Ljava/io/InputStream;
+Lcom/tencent/bugly/legu/proguard/r;->a(Ljava/lang/String; [B Lcom/tencent/bugly/legu/proguard/u; Ljava/util/Map;)[B [access_flags=public final] @ 0x3cb98
+Ljava/net/HttpURLConnection;->disconnect()V
+Ljava/net/HttpURLConnection;->getContentLength()I
+Ljava/net/HttpURLConnection;->getResponseCode()I
+Lcom/tencent/bugly/legu/proguard/u;->b(J)V [access_flags=public final] @ 0x3ed24
+Ljava/net/HttpURLConnection;->getHeaderField(Ljava/lang/String;)Ljava/lang/String;
+Landroid/os/SystemClock;->sleep(J)V
+Lcom/tencent/bugly/legu/proguard/u;->a(J)V [access_flags=public final] @ 0x3ecfc
+Lcom/tencent/bugly/legu/proguard/t$a;-><init>(Lcom/tencent/bugly/legu/proguard/t; Landroid/content/Context;)V [access_flags=public constructor] @ 0x3cf6c
+Lcom/tencent/bugly/legu/proguard/t$a;-><init>(Lcom/tencent/bugly/legu/proguard/t; Landroid/content/Context; Ljava/lang/Runnable; J)V [access_flags=public constructor] @ 0x3cf90
+Lcom/tencent/bugly/legu/proguard/t$a;->run()V [access_flags=public final] @ 0x3cfb8
+Lcom/tencent/bugly/legu/proguard/t;->c()Z [access_flags=protected final] @ 0x3e7a8
+Lcom/tencent/bugly/legu/proguard/t;->b(Lcom/tencent/bugly/legu/proguard/t;)Z [access_flags=static synthetic] @ 0x3d974
+Lcom/tencent/bugly/legu/proguard/t;->a(Z)V [access_flags=protected final] @ 0x3e448
+Lcom/tencent/bugly/legu/proguard/t;->a(Lcom/tencent/bugly/legu/proguard/t; Z)Z [access_flags=static synthetic] @ 0x3d708
+Lcom/tencent/bugly/legu/proguard/t;->a(Lcom/tencent/bugly/legu/proguard/t; Ljava/lang/Runnable; J)V [access_flags=static synthetic] @ 0x3d444
+Lcom/tencent/bugly/legu/proguard/t;->d(Lcom/tencent/bugly/legu/proguard/t;)Ljava/lang/Object; [access_flags=static synthetic] @ 0x3d9a8
+Lcom/tencent/bugly/legu/proguard/t;->a(Lcom/tencent/bugly/legu/proguard/t; [B)[B [access_flags=static synthetic] @ 0x3d7e0
+Lcom/tencent/bugly/legu/proguard/t;->c(Lcom/tencent/bugly/legu/proguard/t;)Ljava/lang/String; [access_flags=static synthetic] @ 0x3d990
+Lcom/tencent/bugly/legu/proguard/t;->a(Lcom/tencent/bugly/legu/proguard/t; I)Z [access_flags=static synthetic] @ 0x3d6ec
+Lcom/tencent/bugly/legu/proguard/t;->a(Lcom/tencent/bugly/legu/proguard/t;)Landroid/content/Context; [access_flags=static synthetic] @ 0x3d3b4
+Lcom/tencent/bugly/legu/proguard/v;->c(Ljava/lang/Runnable;)Z [access_flags=public final synchronized] @ 0x3fa7c
+Lcom/tencent/bugly/legu/proguard/t;-><init>(Landroid/content/Context;)V [access_flags=private constructor] @ 0x3d2b4
+Lcom/tencent/bugly/legu/proguard/t;->a(Ljava/lang/Runnable; J)V [access_flags=private] @ 0x3d45c
+Lcom/tencent/bugly/legu/proguard/u;-><init>(Landroid/content/Context; I Lcom/tencent/bugly/legu/proguard/am; Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/s; Z)V [access_flags=public constructor] @ 0x3e96c
+Lcom/tencent/bugly/legu/proguard/t;->a(Ljava/lang/Runnable; Z J)V [access_flags=private] @ 0x3d514
+Lcom/tencent/bugly/legu/proguard/t;->f()Z [access_flags=private] @ 0x3dbe8
+Lcom/tencent/bugly/legu/proguard/t;->d()Z [access_flags=private static] @ 0x3d9c0
+Lcom/tencent/bugly/legu/proguard/t;->b(I)Z [access_flags=private] @ 0x3d7f8
+Ljava/util/concurrent/LinkedBlockingQueue;-><init>()V
+Lcom/tencent/bugly/legu/proguard/t;->a(Ljava/lang/Runnable;)Z [access_flags=private] @ 0x3d720
+Ljava/lang/Thread;->setName(Ljava/lang/String;)V
+Ljava/lang/Thread;->join(J)V
+Ljava/util/concurrent/LinkedBlockingQueue;->put(Ljava/lang/Object;)V
+Ljava/util/concurrent/LinkedBlockingQueue;->size()I
+Ljava/util/concurrent/LinkedBlockingQueue;->poll()Ljava/lang/Object;
+Ljava/util/concurrent/LinkedBlockingQueue;->isEmpty()Z
+Lcom/tencent/bugly/legu/proguard/t;->e()Z [access_flags=private] @ 0x3da5c
+Landroid/util/Base64;->encodeToString([B I)Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/t;->a(I I [B Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/s;)V [access_flags=public final] @ 0x3dedc
+Lcom/tencent/bugly/legu/proguard/u;-><init>(Landroid/content/Context; I I [B Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/s; Z)V [access_flags=public constructor] @ 0x3e858
+Lcom/tencent/bugly/legu/proguard/t;->a(I Lcom/tencent/bugly/legu/proguard/an;)V [access_flags=public final] @ 0x3e0cc
+Lcom/tencent/bugly/legu/proguard/t;->a(J)V [access_flags=protected final synchronized] @ 0x3e3b4
+Lcom/tencent/bugly/legu/proguard/t;->a(Ljava/util/Map;)Z [access_flags=public final] @ 0x3e4d0
+Lcom/tencent/bugly/legu/proguard/t;->a([B)[B [access_flags=public final] @ 0x3e5e4
+Lcom/tencent/bugly/legu/proguard/t;->b()J [access_flags=public final] @ 0x3e65c
+Ljava/util/List;->remove(Ljava/lang/Object;)Z
+Lcom/tencent/bugly/legu/proguard/t;->b([B)[B [access_flags=public final] @ 0x3e730
+Lcom/tencent/bugly/legu/proguard/u;-><init>(Landroid/content/Context; I I [B Ljava/lang/String; Lcom/tencent/bugly/legu/proguard/s; Z I I)V [access_flags=private constructor] @ 0x3e88c
+Lcom/tencent/bugly/legu/proguard/u;->a(Lcom/tencent/bugly/legu/proguard/an; Z I Ljava/lang/String; I)V [access_flags=private] @ 0x3e99c
+Lcom/tencent/bugly/legu/proguard/u;->a(Lcom/tencent/bugly/legu/proguard/an; Lcom/tencent/bugly/legu/crashreport/common/info/a; Lcom/tencent/bugly/legu/crashreport/common/strategy/a;)Z [access_flags=private static] @ 0x3eac0
+Lcom/tencent/bugly/legu/proguard/u;->run()V [access_flags=public final] @ 0x3ed40
+Ljava/lang/Byte;->toString(B)Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/v$1;-><init>(Lcom/tencent/bugly/legu/proguard/v;)V [access_flags=constructor] @ 0x3f560
+Lcom/tencent/bugly/legu/proguard/v$1;->newThread(Ljava/lang/Runnable;)Ljava/lang/Thread; [access_flags=public final] @ 0x3f578
+Lcom/tencent/bugly/legu/proguard/v;-><init>()V [access_flags=protected constructor] @ 0x3f5a0
+Ljava/util/concurrent/ThreadPoolExecutor;->shutdownNow()Ljava/util/List;
+Ljava/util/concurrent/ThreadPoolExecutor;->isShutdown()Z
+Ljava/util/concurrent/ScheduledExecutorService;->isShutdown()Z
+Ljava/util/concurrent/ScheduledExecutorService;->shutdownNow()Ljava/util/List;
+Lcom/tencent/bugly/legu/proguard/v;->c()Z [access_flags=private synchronized] @ 0x3f6ec
+Ljava/util/concurrent/ScheduledExecutorService;->schedule(Ljava/lang/Runnable; J Ljava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+Ljava/util/concurrent/ScheduledExecutorService;->execute(Ljava/lang/Runnable;)V
+Ljava/util/concurrent/ThreadPoolExecutor;->submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+Ljava/util/concurrent/LinkedBlockingQueue;-><init>(I)V
+Ljava/util/concurrent/ThreadPoolExecutor;-><init>(I I J Ljava/util/concurrent/TimeUnit; Ljava/util/concurrent/BlockingQueue; Ljava/util/concurrent/ThreadFactory;)V
+Ljava/util/concurrent/Executors;->newScheduledThreadPool(I Ljava/util/concurrent/ThreadFactory;)Ljava/util/concurrent/ScheduledExecutorService;
+Lcom/tencent/bugly/legu/proguard/v;->a(Ljava/lang/Runnable;)Z [access_flags=public final synchronized] @ 0x3f764
+Lcom/tencent/bugly/legu/proguard/w;->a(I Ljava/lang/String; [Ljava/lang/Object;)Z [access_flags=private static varargs] @ 0x3fb48
+Ljava/lang/String;->format(Ljava/util/Locale; Ljava/lang/String; [Ljava/lang/Object;)Ljava/lang/String;
+Lcom/tencent/bugly/legu/proguard/x$1;-><init>(Ljava/lang/String;)V [access_flags=constructor] @ 0x3fce8
+Lcom/tencent/bugly/legu/proguard/x$1;->run()V [access_flags=public final] @ 0x3fd04
+Lcom/tencent/bugly/legu/proguard/x$a;->a(Ljava/lang/String;)Z [access_flags=public final synchronized] @ 0x3ffa4
+Lcom/tencent/bugly/legu/proguard/x;->d()Lcom/tencent/bugly/legu/proguard/x$a; [access_flags=static synthetic] @ 0x40630
+Lcom/tencent/bugly/legu/proguard/x;->b()Ljava/lang/StringBuilder; [access_flags=static synthetic] @ 0x4055c
+Lcom/tencent/bugly/legu/proguard/x$a;->c(Lcom/tencent/bugly/legu/proguard/x$a;)Z [access_flags=static synthetic] @ 0x3ff70
+Lcom/tencent/bugly/legu/proguard/x;->a()Ljava/lang/Object; [access_flags=static synthetic] @ 0x400f4
+Lcom/tencent/bugly/legu/proguard/x$a;->b(Lcom/tencent/bugly/legu/proguard/x$a;)J [access_flags=static synthetic] @ 0x3ff58
+Lcom/tencent/bugly/legu/proguard/x$a;->a(Lcom/tencent/bugly/legu/proguard/x$a;)Ljava/io/File; [access_flags=static synthetic] @ 0x3fea4
+Lcom/tencent/bugly/legu/proguard/x$a;-><init>(Ljava/lang/String;)V [access_flags=public constructor] @ 0x3fe5c
+Lcom/tencent/bugly/legu/proguard/x;->e()Ljava/lang/String; [access_flags=static synthetic] @ 0x40648
+Lcom/tencent/bugly/legu/proguard/x$a;->d(Lcom/tencent/bugly/legu/proguard/x$a;)Z [access_flags=static synthetic] @ 0x3ff8c
+Lcom/tencent/bugly/legu/proguard/x;->c()I [access_flags=static synthetic] @ 0x40618
+Lcom/tencent/bugly/legu/proguard/x;->a(Lcom/tencent/bugly/legu/proguard/x$a;)Lcom/tencent/bugly/legu/proguard/x$a; [access_flags=static synthetic] @ 0x400dc
+Lcom/tencent/bugly/legu/proguard/x$a;->a()Z [access_flags=private synchronized] @ 0x3febc
+Ljava/io/FileOutputStream;->write([B)V
+Ljava/io/FileOutputStream;->flush()V
+Ljava/io/FileOutputStream;-><init>(Ljava/io/File; Z)V
+Lcom/tencent/bugly/legu/proguard/x;->b(Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=private static] @ 0x40574
+Ljava/io/StringWriter;->toString()Ljava/lang/String;
+Ljava/io/PrintWriter;->flush()V
+Lcom/tencent/bugly/legu/proguard/x;-><clinit>()V [access_flags=static constructor] @ 0x40038
+Ljava/text/SimpleDateFormat;-><init>(Ljava/lang/String;)V

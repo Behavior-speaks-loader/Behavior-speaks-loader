@@ -1,0 +1,40 @@
+35f323ab721d3c6329bf3bd791e7c11d507b93d74f131250324ab52edf926c41:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.HARDWARE_TEST
+android.permission.ACCESS_NETWORK_STATE
+android.permission.FLASHLIGHT
+android.permission.GET_TASKS
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.ACCESS_DOWNLOAD_MANAGER
+android.permission.INTERACT_ACROSS_USERS_FULL
+android.permission.INTERNET
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.ACCESS_WIFI_STATE
+android.permission.BROADCAST_STICKY
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/35f323ab721d3c6329bf3bd791e7c11d507b93d74f131250324ab52edf926c41/api.txt
+------------------------------
+Intent:
+com.xueersi.parentsmeeting.download.restart
+android.intent.category.HOME
+------------------------------
+Function call graph:
+gml path: ./res/35f323ab721d3c6329bf3bd791e7c11d507b93d74f131250324ab52edf926c41/35f323ab721d3c6329bf3bd791e7c11d507b93d74f131250324ab52edf926c41.gml

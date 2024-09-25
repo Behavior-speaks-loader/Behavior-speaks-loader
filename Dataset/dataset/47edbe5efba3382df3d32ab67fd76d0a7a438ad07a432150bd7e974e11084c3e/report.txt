@@ -1,0 +1,41 @@
+47edbe5efba3382df3d32ab67fd76d0a7a438ad07a432150bd7e974e11084c3e:['File', 'Location', 'Network', 'Phone']
+------------------------------
+Permissions:
+getui.permission.GetuiService.com.xike.funhot
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+com.xike.funhot.permission.MIPUSH_RECEIVE
+android.permission.RESTART_PACKAGES
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/47edbe5efba3382df3d32ab67fd76d0a7a438ad07a432150bd7e974e11084c3e/api.txt
+------------------------------
+Intent:
+com.xike.funhot.intent.action.COMMAND
+android.intent.action.PACKAGE_REMOVED
+com.xike.funhot
+------------------------------
+Function call graph:
+gml path: ./res/47edbe5efba3382df3d32ab67fd76d0a7a438ad07a432150bd7e974e11084c3e/47edbe5efba3382df3d32ab67fd76d0a7a438ad07a432150bd7e974e11084c3e.gml

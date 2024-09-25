@@ -1,0 +1,35 @@
+3e539613928863c56096085f482875da516ea2a1771c7aca349add293bfaee72:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.READ_LOGS
+android.permission.INTERNET
+android.permission.RECEIVE_USER_PRESENT
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+android.permission.WRITE_EXTERNAL_STORAGE
+getui.permission.GetuiService.qintao.maoxianxiezhibianzhituan.app
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/3e539613928863c56096085f482875da516ea2a1771c7aca349add293bfaee72/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+qintao.maoxianxiezhibianzhituan.app.__CREATE_NOTIFICATION
+qintao.maoxianxiezhibianzhituan.app.__REMOVE_NOTIFICATION
+qintao.maoxianxiezhibianzhituan.app.__CLEAR_NOTIFICATION
+qintao.maoxianxiezhibianzhituan.app.__CLILK_NOTIFICATION
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/3e539613928863c56096085f482875da516ea2a1771c7aca349add293bfaee72/3e539613928863c56096085f482875da516ea2a1771c7aca349add293bfaee72.gml

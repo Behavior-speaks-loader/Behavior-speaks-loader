@@ -1,0 +1,24 @@
+61f4ae4dcffc8622fa7cce6c744ea62ad645b011c662042792d5931b9f11eb19:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.WAKE_LOCK
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/61f4ae4dcffc8622fa7cce6c744ea62ad645b011c662042792d5931b9f11eb19/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/61f4ae4dcffc8622fa7cce6c744ea62ad645b011c662042792d5931b9f11eb19/61f4ae4dcffc8622fa7cce6c744ea62ad645b011c662042792d5931b9f11eb19.gml

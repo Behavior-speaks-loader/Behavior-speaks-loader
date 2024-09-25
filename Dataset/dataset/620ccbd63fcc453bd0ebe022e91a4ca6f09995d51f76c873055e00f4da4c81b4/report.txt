@@ -1,0 +1,31 @@
+620ccbd63fcc453bd0ebe022e91a4ca6f09995d51f76c873055e00f4da4c81b4:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.SYSTEM_OVERLAY_WINDOW
+android.permission.CHANGE_WIFI_STATE
+android.permission.CAMERA
+android.permission.INTERNET
+android.permission.RECORD_AUDIO
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+android.permission.MANAGE_ACCOUNTS
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.GET_ACCOUNTS
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+------------------------------
+API:
+./res/620ccbd63fcc453bd0ebe022e91a4ca6f09995d51f76c873055e00f4da4c81b4/api.txt
+------------------------------
+Intent:
+com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+android.intent.category.BROWSABLE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/620ccbd63fcc453bd0ebe022e91a4ca6f09995d51f76c873055e00f4da4c81b4/620ccbd63fcc453bd0ebe022e91a4ca6f09995d51f76c873055e00f4da4c81b4.gml

@@ -1,0 +1,46 @@
+674b83324256e2d5beb244aaf3b9d312014a24c96edba10346833313453d419b:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.SEND_SMS
+android.permission.GET_TASKS
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.READ_SMS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+com.oplay.android.permission.JPUSH_MESSAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.PLUGIN
+com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.android.launcher.permission.READ_SETTINGS
+android.permission.RECORD_VIDEO
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.WRITE_SMS
+android.permission.CAMERA
+android.permission.CHANGE_NETWORK_STATE
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECORD_AUDIO
+android.hardware.camera.autofocus
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/674b83324256e2d5beb244aaf3b9d312014a24c96edba10346833313453d419b/api.txt
+------------------------------
+Intent:
+net.ouwan.umipay.android.poll.push
+android.net.conn.CONNECTIVITY_CHANGE
+com.oplay.android
+------------------------------
+Function call graph:
+gml path: ./res/674b83324256e2d5beb244aaf3b9d312014a24c96edba10346833313453d419b/674b83324256e2d5beb244aaf3b9d312014a24c96edba10346833313453d419b.gml

@@ -1,0 +1,29 @@
+53c83f137f1144fe2cc96535923069347e8aced678e3b4ebc2c97184190f69e5:['File', 'Network', 'Phone']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.RECEIVE_SMS
+android.permission.READ_LOGS
+rockchip.permission.FULL_SCREEN
+android.permission.INTERNET
+android.permission.SEND_SMS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_SMS
+------------------------------
+API:
+./res/53c83f137f1144fe2cc96535923069347e8aced678e3b4ebc2c97184190f69e5/api.txt
+------------------------------
+Intent:
+android.intent.action.USER_PRESENT
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/53c83f137f1144fe2cc96535923069347e8aced678e3b4ebc2c97184190f69e5/53c83f137f1144fe2cc96535923069347e8aced678e3b4ebc2c97184190f69e5.gml

@@ -1,0 +1,1626 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+69cb089863541a5ec06a4dfaf2aab0f39709cb080c9d13311d1fb918180e7ba6
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.androidemu.teamworkcbb
+
+
+
+
+Minimum system version:
+Android 1.5
+
+
+
+
+Copyright:
+Android
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80
+
+
+host:/**.133.40.** port:7070
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+
+
+
+Behaviour:
+Send network data
+
+
+
+
+
+Detail info:
+
+operation:send host:/**.133.40.** port:80 data:data:POST /appscore4/active.bin HTTP/1.1
+Content-Length: 361
+Content-Type: application/x-www-form-urlencoded
+Host: test.adpooh.com:80
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/UNAVAILABLE (java 1.4)
+
+
+
+
+operation:send host:/**.133.40.** port:80 data:data:model=Lenovo+A360t&imei=35712****123456&imsi=46000****123456&versoft=android_v10.2.2&sysVer=19&appPackageName=com.androidemu.teamworkcbb&productId=7384&testMode=false&channelId=0&netChannel=0&token=61ce1c9d4da8cb7f0b7164e062d0a0e2&deviceManufacturer=Lenovo&deviceOS=Android+4.4.4&deviceModel=Lenovo+A360t&net=46000&screenWidth=480&screenHeight=764&colorDepth=24
+
+
+operation:send host:/**.133.40.** port:7070 data:data:POST /bkitUpdate.jsp HTTP/1.1
+Content-Length: 51
+Content-Type: application/x-www-form-urlencoded
+Host: ad.downshu.net:7070
+Connection: Keep-Alive
+
+kv=B201208281.1.0&qid=111006109&mid=35712****123456
+
+
+
+
+
+Behaviour:
+Initialize URL
+
+
+
+
+
+Detail info:
+
+u'file', u'', u'-1', u'/data/app/com.androidemu.teamworkcbb-1.apk', u'null'
+
+
+u'jar:file:/data/app/com.androidemu.teamworkcbb-1.apk!/lib/c.dat'
+
+
+u'jar:file:/data/app/com.androidemu.teamworkcbb-1.apk!/lib/b.dat'
+
+
+
+
+
+Behaviour:
+Initialize URI
+
+
+
+
+
+Detail info:
+
+http://te****om:80/appscore4/active.bin
+
+
+http://ww****om/cooguogw/list.action
+
+
+http://te****om:80
+
+
+/appscore4/active.bin
+
+
+http://ww****om
+
+
+http://ad****et:7070/bkitUpdate.jsp
+
+
+http://ad****et:7070
+
+
+/bkitUpdate.jsp
+
+
+http://ww****om/cooguogw/iris.action
+
+
+
+
+
+Behaviour:
+Read URL data
+
+
+
+
+
+Detail info:
+
+N/A
+
+
+
+
+
+Behaviour:
+Receive network data
+
+
+
+
+
+Detail info:
+
+host:/**.133.40.** port:80 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+host:/**.133.40.** port:7070 data:data:HTTP/1.1 403 Forbidden
+Date: Tue, 5 Apr 2016 06:48:08 GMT
+Connection: close
+Content-Type: text; charset=plain
+Content-Length: 0
+
+
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/storage/emulated/0/download/ads/rt.dat
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/app/com.androidemu.teamworkcbb-1.apk length:9
+
+
+path:/data/app/com.androidemu.teamworkcbb-1.apk length:23
+
+
+path:/data/app/com.androidemu.teamworkcbb-1.apk length:69
+
+
+path:/data/app/com.androidemu.teamworkcbb-1.apk length:68
+
+
+path:/data/app/com.androidemu.teamworkcbb-1.apk length:7
+
+
+path:/data/app/com.androidemu.teamworkcbb-1.apk length:65
+
+
+path:/data/app/com.androidemu.teamworkcbb-1.apk length:61
+
+
+path:/data/app/com.androidemu.teamworkcbb-1.apk length:66
+
+
+path:/data/misc/keychain/pins length:69
+
+
+path:/storage/emulated/0/.android_/b length:69
+
+
+path:/storage/emulated/0/.android_/b length:5
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/ls.xml length:203
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/coo_id.xml length:142
+
+
+
+
+
+Behaviour:
+Read external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/.android_/b
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.androidemu.teamworkcbb/shared_prefs/ls.xml.bak
+
+
+/data/data/com.androidemu.teamworkcbb/shared_prefs/crazymedia_cp_app_data.xml.bak
+
+
+/data/data/com.androidemu.teamworkcbb/shared_prefs/coo_id.xml.bak
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.androidemu.teamworkcbb/app_jc/c.jar length:68
+
+
+path:/data/data/com.androidemu.teamworkcbb/app_jc/c.jar length:65
+
+
+path:/data/data/com.androidemu.teamworkcbb/app_jc/c.jar length:61
+
+
+path:/data/data/com.androidemu.teamworkcbb/app_jc/c.jar length:66
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/ls.xml length:116
+
+
+path:/data/data/com.androidemu.teamworkcbb/app_jc/b.jar length:68
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/ls.xml length:157
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/ls.xml length:203
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/crazymedia_cp_app_data.xml length:118
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/crazymedia_cp_app_data.xml length:173
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/crazymedia_cp_app_data.xml length:222
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/coo_id.xml length:142
+
+
+path:/storage/emulated/0/.android_/b length:69
+
+
+path:/data/data/com.androidemu.teamworkcbb/shared_prefs/ls.xml length:256
+
+
+path:/storage/emulated/0/download/ads/rt.dat length:20
+
+
+
+
+
+Behaviour:
+Write external storage
+
+
+
+
+
+Detail info:
+
+path:/storage/emulated/0/.android_/b
+
+
+path:/storage/emulated/0/download/ads/rt.dat
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+android/app/NotificationManager;->notify
+Send notification
+
+
+
+
+
+HttpClient;->execute
+Query for a remote server
+
+
+
+
+
+TelephonyManager;->getDeviceId
+Get info like IMEI, phone number or OS version
+
+
+
+
+
+java/net/URL;->openConnection
+Connect to URL
+
+
+
+
+
+DefaultHttpClient;->execute
+Send HTTP request
+
+
+
+
+
+java/net/URLConnection;->connect
+Connect to URL
+
+
+
+
+
+java/net/HttpURLConnection;->connect
+Connect to URL
+
+
+
+
+
+ContentResolver;->query
+Read database like contact or sms
+
+
+
+
+
+TelephonyManager;->getSimSerialNumber
+Get SIM serial number
+
+
+
+
+
+LocationManager;->getLastKnownLocation
+Get last known location
+
+
+
+
+
+TelephonyManager;->getLine1Number
+Get phone number
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Get phone number
+
+
+
+
+
+Detail info:
+
+138****5678
+
+
+
+
+
+Behaviour:
+Get user id
+
+
+
+
+
+Detail info:
+
+46000****123456
+
+
+
+
+
+Behaviour:
+Get last location
+
+
+
+
+
+Detail info:
+
+u'gps'
+
+
+
+
+
+Behaviour:
+Get running task
+
+
+
+
+
+Detail info:
+
+u'2147483647'
+
+
+
+
+
+Behaviour:
+Access location
+
+
+
+
+
+Detail info:
+
+null
+
+
+
+
+
+Behaviour:
+Get device id
+
+
+
+
+
+Detail info:
+
+35712****123456
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Start service
+
+
+
+
+
+Detail info:
+
+{"ACTION":"com.iadpush.adp.BS","FLAG":0}
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.kuguo.ad.d@2187c090', u'{"action":"android.intent.action.PACKAGE_ADDED"}'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Send extra information
+
+
+
+
+
+Detail info:
+
+ct:0
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'lastGame', u'null'
+
+
+u'creditTitle', u'\u79ef\u5206'
+
+
+u'appVer', u''
+
+
+u'appDownUrl', u''
+
+
+u'date', u'19000000'
+
+
+u'cooId', u'null'
+
+
+u'adsState', u'null'
+
+
+u'longitude', u'-500'
+
+
+u'latitude', u'-500'
+
+
+u'address', u''
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+file:///android_asset/faq.html
+
+
+
+
+
+Behaviour:
+Run-time error
+
+
+
+
+
+Detail info:
+
+E/AndroidRuntime(15528): FATAL EXCEPTION: main
+
+
+
+E/AndroidRuntime(15528): Process: com.androidemu.teamworkcbb, PID: 15528
+
+
+
+E/AndroidRuntime(15528): java.lang.RuntimeException: Unable to start activity ComponentInfo{com.androidemu.teamworkcbb/com.androidemu.teamworkcbb.MainActivity}: java.lang.NullPointerException
+
+
+
+E/AndroidRuntime(15528): 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2184)
+
+
+
+E/AndroidRuntime(15528): 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2233)
+
+
+
+E/AndroidRuntime(15528): 	at android.app.ActivityThread.access$800(ActivityThread.java:135)
+
+
+
+E/AndroidRuntime(15528): 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1196)
+
+
+
+E/AndroidRuntime(15528): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+
+
+
+E/AndroidRuntime(15528): 	at android.os.Looper.loop(Looper.java:136)
+
+
+
+E/AndroidRuntime(15528): 	at android.app.ActivityThread.main(ActivityThread.java:5001)
+
+
+
+E/AndroidRuntime(15528): 	at java.lang.reflect.Method.invokeNative(Native Method)
+
+
+
+E/AndroidRuntime(15528): 	at java.lang.reflect.Method.invoke(Method.java:515)
+
+
+
+E/AndroidRuntime(15528): 	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:785)
+
+
+
+E/AndroidRuntime(15528): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:601)
+
+
+
+E/AndroidRuntime(15528): 	at com.tencent.music.v_d20a.core.XposedBridge.main(XposedBridge.java:135)
+
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.androidemu.teamworkcbb/app_jc/c.jar
+
+
+path:/data/data/com.androidemu.teamworkcbb/app_jc/b.jar
+
+
+
+
+
+Behaviour:
+设置SharedPreferences
+
+
+
+
+Detail info:
+
+u'appProdId', u'7384'
+
+
+u'appSecret', u'xt70e7cquw340y6d'
+
+
+u'cooId', u'5d27fc2021ed47d19bd5f2e9791e1c5e'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.iadpush.adp.NS'
+
+
+u'com.iadpush.adp.BS'
+
+
+u'android.os.Parcel@2184f5b8'
+
+
+u'com.androidemu.teamworkcbb.MainActivity@218d5b10', u'class com.kuguo.ad.MainReceiver'
+
+
+u'com.iadpush.adp.BS@218a7758', u'class com.iadpush.adp.RLA'
+
+
+u'android.os.Parcel@2184fe58'
+
+
+u'android.os.Parcel@2184fe68'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.androidemu.teamworkcbb\/com.iadpush.adp.RLA}"}
+
+
+
+
+
+Behaviour:
+Set timed task
+
+
+
+
+
+Detail info:
+
+u'0', u'1451534595755', u'{"ACTION":"com.iadpush.adp.NS","FLAG":0,"EXTRAS":{"ct":"0"}}'
+
+
+u'0', u'1451531025807', u'{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.androidemu.teamworkcbb\\/com.kuguo.ad.MainReceiver}"}'
+
+
+
+
+
+Behaviour:
+Access database
+
+
+
+
+
+Detail info:
+
+u'downloads', u'null', u'null', u'null', u'null', u'null', u'null'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0xd075cb00
+
+
+
+
+META-INF/CERT.SF
+0x5317dabe
+
+
+
+
+META-INF/CERT.RSA
+0x1fd3a894
+
+
+
+
+res/drawable/sdcard.png
+0x36d785bb
+
+
+
+
+res/xml/preferences.xml
+0xd1e8e837
+
+
+
+
+res/layout/device_list.xml
+0xe8895997
+
+
+
+
+res/drawable/buttons.png
+0x61f58cae
+
+
+
+
+res/drawable/ic_menu_open.png
+0x4d5bc4e
+
+
+
+
+res/menu/emulator.xml
+0x9f1c3010
+
+
+
+
+res/layout/device_name.xml
+0x6e1463ec
+
+
+
+
+assets/kuguo_res/rating_half.png
+0x61868acc
+
+
+
+
+res/drawable/dpad.png
+0x31b7fd8a
+
+
+
+
+assets/kuguo_res/spot_light.png
+0x1de762a
+
+
+
+
+res/menu/key_profiles.xml
+0xa2f8cbd7
+
+
+
+
+assets/about.html
+0xe06f4241
+
+
+
+
+res/layout/shortcut.xml
+0xb57ef830
+
+
+
+
+res/layout/seekbar_dialog.xml
+0x346e4aba
+
+
+
+
+res/menu/file_chooser.xml
+0x19960dcd
+
+
+
+
+res/drawable/up_dir.png
+0x834352e0
+
+
+
+
+res/layout/new_profile.xml
+0xa8f551ca
+
+
+
+
+assets/ads/spot_light.png
+0xb4f1a5b6
+
+
+
+
+res/drawable/ic_menu_netplay.png
+0x68629b69
+
+
+
+
+assets/ads/push_cancel_btn_pressed.png
+0xa3ccc464
+
+
+
+
+lib/armeabi/libInitData.so
+0x1aaa4f63
+
+
+
+
+res/drawable/ic_menu_refresh.png
+0xd8e13f97
+
+
+
+
+assets/kuguo_res/confirm_btn_pressed.png
+0x2e2ea8c5
+
+
+
+
+res/layout/emulator.xml
+0x73b7d700
+
+
+
+
+assets/ads/download_btn2_pressed.png
+0xad22e038
+
+
+
+
+assets/ads/push_cancel_btn.png
+0x8e52ede5
+
+
+
+
+assets/kuguo_res/kuguo_top_pressed.png
+0x75f20b1d
+
+
+
+
+lib/armeabi/libnes.so
+0x548d3510
+
+
+
+
+assets/kuguo_res/rating_full.png
+0xa61a20fa
+
+
+
+
+assets/kuguo_res/kuguo_side.png
+0xec81ca96
+
+
+
+
+lib/b.dat
+0x84573778
+
+
+
+
+assets/kuguo_res/snapshot_empty.png
+0x91657ddb
+
+
+
+
+res/drawable/ic_menu_fast_forward.png
+0x499fe96a
+
+
+
+
+assets/ads/snapshot_empty.png
+0x91657ddb
+
+
+
+
+assets/ads/spot_default.png
+0xcbde51c0
+
+
+
+
+assets/ads/fold_arrow.png
+0xba46027e
+
+
+
+
+assets/ads/visitweb_btn.png
+0x9dddf14e
+
+
+
+
+resources.arsc
+0x8ef75a52
+
+
+
+
+res/layout/file_chooser.xml
+0x4536d9f3
+
+
+
+
+res/drawable/ic_menu_disconnect.png
+0xd778d9f4
+
+
+
+
+assets/ads/visitweb_btn_pressed.png
+0xf0405df8
+
+
+
+
+assets/faq.html
+0x59696286
+
+
+
+
+AndroidManifest.xml
+0x39c15a7
+
+
+
+
+assets/copying.html
+0xf1e3f517
+
+
+
+
+assets/harvehundouluo30.nes
+0x49261f9c
+
+
+
+
+res/drawable/game_gripper.png
+0x4a1d84a8
+
+
+
+
+res/layout/state_slot_item.xml
+0x9601848c
+
+
+
+
+assets/ads/download_btn2.png
+0xe1e48b9f
+
+
+
+
+assets/kuguo_res/kuguo.png
+0x134150b2
+
+
+
+
+res/layout/wifi_connect.xml
+0xbbb710a0
+
+
+
+
+assets/kuguo_res/push_cancel_btn_pressed.png
+0xc022d38
+
+
+
+
+assets/kuguo_res/kuguo_side2.png
+0x2406c9bd
+
+
+
+
+res/drawable/extra_buttons.png
+0x14424528
+
+
+
+
+assets/kuguo_res/confirm_btn.png
+0xa5d25c54
+
+
+
+
+res/layout/game_gripper.xml
+0xd3028936
+
+
+
+
+assets/kuguo_res/download_btn2.png
+0x34d283c5
+
+
+
+
+classes.dex
+0x9742ca24
+
+
+
+
+assets/kuguo_res/spot_default.png
+0x53d68e62
+
+
+
+
+assets/kuguo_res/push_cancel_btn.png
+0x98427951
+
+
+
+
+lib/armeabi/libemumedia.so
+0xef48633c
+
+
+
+
+lib/c.dat
+0x398737c5
+
+
+
+
+res/menu/main.xml
+0xd24f6412
+
+
+
+
+res/drawable/select_start_buttons.png
+0x20817a5b
+
+
+
+
+res/drawable/app_icon.png
+0x918a303b
+
+
+
+
+assets/kuguo_res/icon.png
+0x10527061
+
+
+
+
+assets/legal.html
+0xdc17cb6c
+
+
+
+
+lib/armeabi/libemu.so
+0x9afd1fbb
+
+
+
+
+assets/kuguo_res/fold_arrow.png
+0xba46027e
+
+
+
+
+assets/kuguo_res/download_btn2_pressed.png
+0x3745e8f9
+
+
+
+
+assets/kuguo_res/installed.png
+0xdf2a54b5
+
+
+
+
+assets/kuguo_res/360.png
+0x87324b10
+
+
+
+
+assets/kuguo_res/kuguo_top.png
+0x37971981
+
+
+
+
+assets/kuguo_res/rating_empty.png
+0x23ca4b88
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+MainActivity
+android.intent.action.MAIN
+
+
+
+
+MainActivity
+android.intent.category.DEFAULT
+
+
+
+
+MainActivity
+android.intent.category.LAUNCHER
+
+
+
+
+EmulatorActivity
+android.intent.action.VIEW
+
+
+
+
+EmulatorActivity
+android.intent.category.DEFAULT
+
+
+
+
+CreateShortcuts
+android.intent.action.CREATE_SHORTCUT
+
+
+
+
+CreateShortcuts
+android.intent.category.DEFAULT
+
+
+
+
+
+
+
+
+
+Name
+Detail info
+
+
+
+
+net.iusys828.AdPushReceiver
+Start after package added
+
+
+
+
+
+net.iusys828.AdPushReceiver
+Start after network changed
+
+
+
+
+
+net.iusys828.AdPushReceiver
+Start after boot completed
+
+
+
+
+
+com.kuguo.ad.MainReceiver
+Start after package added
+
+
+
+
+
+com.kuguo.ad.MainReceiver
+Start after network changed
+
+
+
+
+
+com.iadpush.adp.Re
+Start after package added
+
+
+
+
+
+com.iadpush.adp.Re
+Start after package removed
+
+
+
+
+
+com.iadpush.adp.Re
+Start after network changed
+
+
+
+
+
+com.iadpush.adp.Re
+N/A
+
+
+
+
+com.iadpush.adp.Re
+N/A
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.BLUETOOTH
+
+
+
+
+android.permission.BLUETOOTH_ADMIN
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.VIBRATE
+
+
+
+
+android.permission.RECEIVE_BOOT_COMPLETED
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.READ_PHONE_STATE
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.WAKE_LOCK
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.SYSTEM_ALERT_WINDOW
+
+
+
+
+
+
+
+
+
+Name
+
+
+
+
+com.androidemu.teamworkcbb.EmulatorService
+
+
+
+
+net.iusys828.AdPushService
+
+
+
+
+com.kuguo.ad.MainService
+
+
+
+
+com.iadpush.adp.NS
+
+
+
+
+com.iadpush.adp.BS
+
+
+

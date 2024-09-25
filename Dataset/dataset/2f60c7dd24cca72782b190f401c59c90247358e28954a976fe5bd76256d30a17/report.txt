@@ -1,0 +1,34 @@
+2f60c7dd24cca72782b190f401c59c90247358e28954a976fe5bd76256d30a17:['Network', 'File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.SEND_SMS
+android.permission.CHANGE_CONFIGURATION
+android.permission.GET_TASKS
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.INTERNET
+android.permission.PROCESS_OUTGOING_CALLS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.android.launcher.permission.READ_SETTINGS
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/2f60c7dd24cca72782b190f401c59c90247358e28954a976fe5bd76256d30a17/api.txt
+------------------------------
+Intent:
+com.changdu.home.SignNotificationReceiver
+umeng
+------------------------------
+Function call graph:
+gml path: ./res/2f60c7dd24cca72782b190f401c59c90247358e28954a976fe5bd76256d30a17/2f60c7dd24cca72782b190f401c59c90247358e28954a976fe5bd76256d30a17.gml

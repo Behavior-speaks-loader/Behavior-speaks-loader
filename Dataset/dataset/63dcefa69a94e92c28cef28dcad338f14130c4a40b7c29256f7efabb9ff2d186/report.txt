@@ -1,0 +1,42 @@
+63dcefa69a94e92c28cef28dcad338f14130c4a40b7c29256f7efabb9ff2d186:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.DEVICE_POWER
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.CHANGE_CONFIGURATION
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.INTERNET
+android.permission.WRITE_APN_SETTINGS
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.hexun.mobile.licaike.permission.JPUSH_MESSAGE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/63dcefa69a94e92c28cef28dcad338f14130c4a40b7c29256f7efabb9ff2d186/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.REGISTRATION
+cn.jpush.android.intent.UNREGISTRATION
+cn.jpush.android.intent.MESSAGE_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_OPENED
+cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+com.hexun.mobile.licaike
+------------------------------
+Function call graph:
+gml path: ./res/63dcefa69a94e92c28cef28dcad338f14130c4a40b7c29256f7efabb9ff2d186/63dcefa69a94e92c28cef28dcad338f14130c4a40b7c29256f7efabb9ff2d186.gml

@@ -1,0 +1,47 @@
+1994c169ed1be4c474a63df2d81600bc42511f8a29e688158a0fea197c360d54:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+com.wants.permission.MIPUSH_RECEIVE
+android.permission.CHANGE_CONFIGURATION
+android.permission.GET_TASKS
+com.android.launcher.permission.UNINSTALL_SHORTCUT
+com.android.launcher.permission.INSTALL_SHORTCUT
+android.permission.BLUETOOTH
+android.permission.INTERACT_ACROSS_USERS_FULL
+android.permission.INTERNET
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.REORDER_TASKS
+android.permission.ACCESS_WIFI_STATE
+com.wants.permission.C2D_MESSAGE
+android.permission.RESTART_PACKAGES
+com.google.android.c2dm.permission.RECEIVE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.android.launcher.permission.READ_SETTINGS
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/1994c169ed1be4c474a63df2d81600bc42511f8a29e688158a0fea197c360d54/api.txt
+------------------------------
+Intent:
+com.huawei.android.push.intent.REGISTRATION
+com.huawei.android.push.intent.RECEIVE
+com.huawei.intent.action.PUSH
+com.huawei.intent.action.PUSH_STATE
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/1994c169ed1be4c474a63df2d81600bc42511f8a29e688158a0fea197c360d54/1994c169ed1be4c474a63df2d81600bc42511f8a29e688158a0fea197c360d54.gml

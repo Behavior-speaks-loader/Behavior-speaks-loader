@@ -1,0 +1,43 @@
+49e57b14a40d47235a984f3b5fc19397ee21d385ef91a31903535e805e9c8fa4:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.USE_CREDENTIALS
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.INTERNET
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.ACCESS_WIFI_STATE
+android.permission.BROADCAST_STICKY
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.pipi.permission.UPGRADE_BROADCAST_PERMISSION
+com.android.launcher.permission.READ_SETTINGS
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.AUTHENTICATE_ACCOUNTS
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/49e57b14a40d47235a984f3b5fc19397ee21d385ef91a31903535e805e9c8fa4/api.txt
+------------------------------
+Intent:
+com.pipipifa.pilaipiwang.status.connect
+com.pipipifa.pilaipiwang.status.login
+com.pipipifa.pilaipiwang.status.logout
+com.pipipifa.pilaipiwang.status.elsewgere.login
+com.pipipifa.pilaipiwang.status.login.error
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/49e57b14a40d47235a984f3b5fc19397ee21d385ef91a31903535e805e9c8fa4/49e57b14a40d47235a984f3b5fc19397ee21d385ef91a31903535e805e9c8fa4.gml

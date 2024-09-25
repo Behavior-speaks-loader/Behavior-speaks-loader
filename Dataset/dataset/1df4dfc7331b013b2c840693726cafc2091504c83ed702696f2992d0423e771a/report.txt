@@ -1,0 +1,26 @@
+1df4dfc7331b013b2c840693726cafc2091504c83ed702696f2992d0423e771a:['File']
+------------------------------
+Permissions:
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.READ_LOGS
+android.permission.INTERNET
+android.permission.RESTART_PACKAGES
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/1df4dfc7331b013b2c840693726cafc2091504c83ed702696f2992d0423e771a/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+com.opda.startup.action.SHUTDOWN_AUTOKILL_SERVICE
+com.opda.startup.action.START_AUTOKILL_SERVICE
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/1df4dfc7331b013b2c840693726cafc2091504c83ed702696f2992d0423e771a/1df4dfc7331b013b2c840693726cafc2091504c83ed702696f2992d0423e771a.gml

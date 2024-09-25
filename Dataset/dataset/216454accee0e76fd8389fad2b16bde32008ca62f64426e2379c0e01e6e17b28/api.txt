@@ -1,0 +1,51 @@
+Lcom/qihoo/util/Configuration;-><init>()V [access_flags=public constructor] @ 0x1138
+Ljava/lang/Object;-><init>()V
+Lcom/qihoo/util/StubApplication;-><init>()V [access_flags=public constructor] @ 0x116c
+Landroid/app/Application;-><init>()V
+Lcom/qihoo/util/StubApplication;->copy(Landroid/content/Context; Ljava/lang/String; Ljava/lang/String; Ljava/lang/String;)Z [access_flags=public static] @ 0x1184
+Landroid/content/res/AssetManager;->open(Ljava/lang/String;)Ljava/io/InputStream;
+Landroid/content/res/Resources;->getAssets()Landroid/content/res/AssetManager;
+Ljava/io/FileInputStream;-><init>(Ljava/io/File;)V
+Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+Ljava/io/File;->mkdir()Z
+Ljava/io/File;->exists()Z
+Ljava/io/BufferedInputStream;-><init>(Ljava/io/InputStream;)V
+Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+Ljava/io/FileOutputStream;->close()V
+Ljava/io/BufferedInputStream;->close()V
+Ljava/lang/Exception;->printStackTrace()V
+Ljava/io/File;->delete()Z
+Ljava/io/InputStream;->close()V
+Ljava/io/File;-><init>(Ljava/lang/String;)V
+Landroid/content/Context;->getResources()Landroid/content/res/Resources;
+Lcom/qihoo/util/StubApplication;->isSameFile(Ljava/io/BufferedInputStream; Ljava/io/BufferedInputStream;)Z [access_flags=public static] @ 0x13b8
+Ljava/io/FileOutputStream;-><init>(Ljava/lang/String;)V
+Ljava/io/FileOutputStream;->write([B I I)V
+Ljava/lang/StringBuilder;-><init>()V
+Ljava/io/InputStream;->read([B)I
+Ljava/io/BufferedInputStream;->read([B)I
+Ljava/io/FileNotFoundException;->printStackTrace()V
+Ljava/io/BufferedInputStream;->available()I
+Ljava/io/IOException;->printStackTrace()V
+Lcom/qihoo/util/StubApplication;->initAssetForNative()V [access_flags=private] @ 0x12e4
+Ljava/lang/Class;->getMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Ljava/lang/Class;->forName(Ljava/lang/String;)Ljava/lang/Class;
+Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object; [Ljava/lang/Object;)Ljava/lang/Object;
+Lcom/qihoo/util/StubApplication;->initCrashReport()V [access_flags=private] @ 0x1344
+Lcom/qihoo/util/StubApplication;->getApplicationContext()Landroid/content/Context;
+Ljava/lang/Class;->getDeclaredMethod(Ljava/lang/String; [Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Landroid/util/Log;->e(Ljava/lang/String; Ljava/lang/String;)I
+Lcom/qihoo/util/StubApplication;->isX86Arch()Ljava/lang/Boolean; [access_flags=public static] @ 0x1434
+Ljava/lang/String;->contains(Ljava/lang/CharSequence;)Z
+Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+Ljava/io/RandomAccessFile;->readLine()Ljava/lang/String;
+Ljava/io/RandomAccessFile;-><init>(Ljava/lang/String; Ljava/lang/String;)V
+Lcom/qihoo/util/StubApplication;->attachBaseContext(Landroid/content/Context;)V [access_flags=protected] @ 0x153c
+Ljava/lang/System;->load(Ljava/lang/String;)V
+Ljava/lang/Boolean;->booleanValue()Z
+Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+Landroid/app/Application;->attachBaseContext(Landroid/content/Context;)V
+Landroid/content/Context;->getFilesDir()Ljava/io/File;
+Lcom/qihoo/util/StubApplication;->onCreate()V [access_flags=public] @ 0x1768
+Lcom/qihoo/util/StubApplication;->interface5(Landroid/app/Application;)V [access_flags=public static native] @ 0x0
+Landroid/app/Application;->onCreate()V

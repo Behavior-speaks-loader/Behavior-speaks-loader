@@ -1,0 +1,22 @@
+50f5f8a6d9a23e262fa01506e1bd8cb6b407a07a2528ce0c2f809e4fae31f47c:['File', 'Network', 'Phone']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.SET_WALLPAPER
+android.permission.READ_PHONE_STATE
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.android.launcher.permission.INSTALL_SHORTCUT
+------------------------------
+API:
+./res/50f5f8a6d9a23e262fa01506e1bd8cb6b407a07a2528ce0c2f809e4fae31f47c/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/50f5f8a6d9a23e262fa01506e1bd8cb6b407a07a2528ce0c2f809e4fae31f47c/50f5f8a6d9a23e262fa01506e1bd8cb6b407a07a2528ce0c2f809e4fae31f47c.gml

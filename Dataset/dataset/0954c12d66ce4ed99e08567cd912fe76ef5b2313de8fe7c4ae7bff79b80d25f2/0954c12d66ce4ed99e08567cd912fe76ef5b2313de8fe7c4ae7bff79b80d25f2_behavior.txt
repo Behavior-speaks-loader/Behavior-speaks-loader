@@ -1,0 +1,943 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+SHA256:
+0954c12d66ce4ed99e08567cd912fe76ef5b2313de8fe7c4ae7bff79b80d25f2
+
+
+
+
+File type:
+APK
+
+
+
+
+Package name:
+com.audiomix
+
+
+
+
+Minimum system version:
+Android 4.0, 4.0.1, 4.0.2
+
+
+
+
+Copyright:
+china
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Access network state
+
+
+
+
+
+Detail info:
+
+NetworkInfo: type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: freewifi, roaming: false, failover: false, isAvailable: true, isConnectedToProvisioningNetwork: false
+
+
+false
+
+
+
+
+
+Behaviour:
+Load website in webview
+
+
+
+
+
+Detail info:
+
+https://go****et/mads/static/mad/sdk/native/sdk-core-v40-loader.html
+
+
+about:blank
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Create file
+
+
+
+
+
+Detail info:
+
+/data/data/com.audiomix/cache/1505450608132.jar
+
+
+/data/data/com.audiomix/cache/1505450608132.tmp
+
+
+
+
+
+Behaviour:
+Read one line from buffer
+
+
+
+
+
+Detail info:
+
+MemTotal:        1030096 kB
+
+
+
+
+
+Behaviour:
+File read
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.google.android.gms/shared_prefs/google_ads_flags.xml length:261
+
+
+path:/data/data/com.audiomix/cache/1505450608132.dex length:67
+
+
+path:/data/app/com.audiomix-1.apk length:69
+
+
+path:/data/app/com.audiomix-1.apk length:64
+
+
+path:/data/app/com.audiomix-1.apk length:65
+
+
+path:/data/app/com.audiomix-1.apk length:63
+
+
+path:/data/app/com.audiomix-1.apk length:62
+
+
+path:/data/app/com.audiomix-1.apk length:68
+
+
+path:/data/app/com.audiomix-1.apk length:66
+
+
+path:/data/app/com.audiomix-1.apk length:60
+
+
+path:/data/app/com.audiomix-1.apk length:67
+
+
+path:/data/app/com.audiomix-1.apk length:61
+
+
+path:/data/app/com.audiomix-1.apk length:58
+
+
+path:/data/app/com.audiomix-1.apk length:31
+
+
+path:/data/app/com.audiomix-1.apk length:5
+
+
+
+
+
+Behaviour:
+Load dynamic library
+
+
+
+
+
+Detail info:
+
+/data/data/com.audiomix/.jiagu/libjiagu.so
+
+
+
+
+
+Behaviour:
+File remove
+
+
+
+
+
+Detail info:
+
+/data/data/com.audiomix/shared_prefs/jg_so_upgrade_setting.xml.bak
+
+
+/data/data/com.audiomix/shared_prefs/admob.xml.bak
+
+
+/data/data/com.audiomix/cache/1505450608132.jar
+
+
+/data/data/com.audiomix/cache/1505450608132.dex
+
+
+
+
+
+Behaviour:
+Write file
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:69
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:68
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:66
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:67
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:64
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:59
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:60
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:65
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:62
+
+
+path:/data/data/com.audiomix/.jiagu/libjiagu.so length:63
+
+
+path:/data/data/com.audiomix/shared_prefs/jg_so_upgrade_setting.xml length:123
+
+
+path:/data/data/com.audiomix/shared_prefs/jg_so_upgrade_setting.xml length:166
+
+
+path:/data/data/com.audiomix/shared_prefs/jg_so_upgrade_setting.xml length:209
+
+
+path:/data/data/com.audiomix/shared_prefs/admob.xml length:138
+
+
+path:/data/data/com.audiomix/cache/1505450608132.jar length:69
+
+
+
+
+
+
+
+
+
+
+Function name
+Detail info
+
+
+
+
+getRuntime
+Get runtime environment
+
+
+
+
+
+java/lang/Runtime;->exec
+Execute system command
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+Register receiver
+
+
+
+
+
+Detail info:
+
+u'com.android.org.chromium.media.AudioManagerAndroid$1@218da010', u'{"action":"android.intent.action.HEADSET_PLUG"}'
+
+
+u'com.android.org.chromium.net.ProxyChangeListener$ProxyReceiver@21885708', u'{"action":"android.intent.action.PROXY_CHANGE"}'
+
+
+u'null', u'{"action":"android.intent.action.BATTERY_CHANGED"}'
+
+
+u'com.google.android.gms.internal.zzahs@219b02c8', u'{"action":"android.intent.action.USER_PRESENT|android.intent.action.SCREEN_OFF"}'
+
+
+u'com.google.android.gms.internal.zzahr@219b1760', u'{"action":"com.google.android.ads.intent.DEBUG_LOGGING_ENABLEMENT_CHANGED"}'
+
+
+u'com.google.android.gms.internal.zzajo@2195f030', u'{"action":"android.intent.action.SCREEN_ON|android.intent.action.SCREEN_OFF|android.intent.action.USER_PRESENT"}'
+
+
+u'null', u'{"action":"android.hardware.usb.action.USB_STATE"}'
+
+
+
+
+
+Behaviour:
+Call setAction of intent
+
+
+
+
+
+Detail info:
+
+u'android.support.customtabs.action.CustomTabsService'
+
+
+
+
+
+
+
+
+
+
+Behaviour:
+读取SharedPreferences
+
+
+
+
+Detail info:
+
+u'content_url_hashes', u''
+
+
+u'native_advanced_settings', u'{}'
+
+
+u'app_settings_json', u''
+
+
+u'user_agent', u''
+
+
+u'gads:sdk_core_location', u'https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40.html'
+
+
+u'gads:sdk_csi_server', u'https://csi.gstatic.com/csi'
+
+
+u'gads:sdk_core_experiment_id', u'null'
+
+
+u'gads:request_builder:singleton_webview_experiment_id', u'null'
+
+
+u'gads:sdk_use_dynamic_module_experiment_id', u'null'
+
+
+u'gads:block_autoclicks_experiment_id', u'null'
+
+
+u'gads:spam_app_context:experiment_id', u'null'
+
+
+u'gads:video_stream_cache:experiment_id', u'null'
+
+
+u'gads:ad_id_app_context:experiment_id', u'null'
+
+
+u'gads:ad_id_use_shared_preference:experiment_id', u'null'
+
+
+u'gads:app_index:experiment_id', u'null'
+
+
+
+
+
+Behaviour:
+Make toast
+
+
+
+
+
+Detail info:
+
+text:请选择MP3文件 duration:0
+
+
+
+
+
+Behaviour:
+Parse URI
+
+
+
+
+
+Detail info:
+
+content://com.google.android.gms.chimera/api/com.google.android.gms.ads.dynamite
+
+
+geo:0,0?q=donuts
+
+
+http://www.google.com
+
+
+market://details?id=com.google.android.gms.ads
+
+
+http://www.example.com
+
+
+https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html
+
+
+
+
+
+Behaviour:
+Read system settings
+
+
+
+
+
+Detail info:
+
+u'android.app.ContextImpl$ApplicationContentResolver@218b4fb0', u'show_password', u'0'
+
+
+u'android.app.ContextImpl$ApplicationContentResolver@21874370', u'sound_effects_enabled', u'0'
+
+
+
+
+
+Behaviour:
+Load class
+
+
+
+
+
+Detail info:
+
+path:/data/data/com.audiomix/cache/1505450608132.jar
+
+
+
+
+
+Behaviour:
+Execute system command
+
+
+
+
+
+Detail info:
+
+u'chmod 755 /data/data/com.audiomix/.jiagu/libjiagu.so'
+
+
+
+
+
+Behaviour:
+Add view
+
+
+
+
+
+Detail info:
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{2185a0c0 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 wanim=0x10302f5}'
+
+
+u'com.android.internal.policy.impl.PhoneWindow$DecorView{21865298 I.E..... R.....ID 0,0-0,0}', u'WM.LayoutParams{(0,0)(fillxfill) sim=#100 ty=1 fl=#1810100 pfl=0x8 wanim=0x10302f5}'
+
+
+u'android.widget.LinearLayout{21866b90 V.E..... ......I. 0,0-0,0}', u'WM.LayoutParams{(0,48)(wrapxwrap) gr=#51 ty=2005 fl=#98 fmt=-3 wanim=0x1030004}'
+
+
+
+
+
+Behaviour:
+Initialize intent
+
+
+
+
+
+Detail info:
+
+u'com.audiomix.SplashActivity@21867c98', u'class com.audiomix.AudioMixActivity'
+
+
+u'android.os.Parcel@2184f518'
+
+
+u'android.intent.action.VIEW', u'geo:0,0?q=donuts'
+
+
+u'android.intent.action.VIEW', u'http://www.google.com'
+
+
+u'android.intent.action.VIEW', u'market://details?id=com.google.android.gms.ads'
+
+
+N/A
+
+
+u'com.google.android.gms.ads.identifier.service.START'
+
+
+u'android.intent.action.VIEW', u'http://www.example.com'
+
+
+
+
+
+Behaviour:
+Active Activity
+
+
+
+
+
+Detail info:
+
+{"FLAG":0,"COMPONENT_NAME":"ComponentInfo{com.audiomix\/com.audiomix.AudioMixActivity}"}
+
+
+
+
+
+Behaviour:
+Window information
+
+
+
+
+
+Detail info:
+
+{"text": "请选择mp3文件1", "class": "android.widget.EditText"}
+
+
+
+{"text": "选择歌曲", "class": "android.widget.Button"}
+
+
+
+{"text": "请选择mp3文件2", "class": "android.widget.EditText"}
+
+
+
+{"text": "自动生成合成歌曲地址", "class": "android.widget.EditText"}
+
+
+
+{"text": "音效选择", "class": "android.widget.TextView"}
+
+
+
+{"text": "无", "class": "android.widget.RadioButton"}
+
+
+
+{"text": "ktv", "class": "android.widget.RadioButton"}
+
+
+
+{"text": "演唱会", "class": "android.widget.RadioButton"}
+
+
+
+{"text": "录音棚", "class": "android.widget.RadioButton"}
+
+
+
+{"text": "音量调节", "class": "android.widget.TextView"}
+
+
+
+{"text": "歌曲1", "class": "android.widget.TextView"}
+
+
+
+{"text": "100%", "class": "android.widget.TextView"}
+
+
+
+{"text": "歌曲2", "class": "android.widget.TextView"}
+
+
+
+{"text": "开始合成", "class": "android.widget.Button"}
+
+
+
+{"text": "合成并剪辑", "class": "android.widget.Button"}
+
+
+
+
+
+
+Behaviour:
+Access shared app data
+
+
+
+
+
+Detail info:
+
+u'content://com.google.android.gms.chimera/api/com.google.android.gms.ads.dynamite', u'null', u'null', u'null', u'null'
+
+
+
+
+
+
+
+
+
+
+File name
+CRC
+
+
+
+
+META-INF/MANIFEST.MF
+0x6780421a
+
+
+
+
+META-INF/AUDIOMIX.SF
+0x7998791a
+
+
+
+
+META-INF/AUDIOMIX.RSA
+0x7d1f9693
+
+
+
+
+AndroidManifest.xml
+0xb5c0a8d2
+
+
+
+
+assets/.appkey
+0x74b5a55
+
+
+
+
+assets/libjiagu.so
+0x1615c26e
+
+
+
+
+build-data.properties
+0x67650867
+
+
+
+
+classes.dex
+0xc74d0db6
+
+
+
+
+error_prone/Annotations.gwt.xml
+0xc98b56d2
+
+
+
+
+jsr305_annotations/Jsr305_annotations.gwt.xml
+0xda2c535b
+
+
+
+
+lib/armeabi/libAACEncd.so
+0xe7f0ac4
+
+
+
+
+lib/armeabi/libAdoDecode.so
+0xcbc975e0
+
+
+
+
+lib/armeabi/libAudioEffec.so
+0x3fe1c38d
+
+
+
+
+lib/armeabi/libMA.so
+0xcaf71bbf
+
+
+
+
+protobuf.meta
+0xd3012844
+
+
+
+
+res/drawable-hdpi-v4/icon.png
+0xcc3d2034
+
+
+
+
+res/drawable-hdpi-v4/splash.jpg
+0x145250b3
+
+
+
+
+res/drawable/marker_left.xml
+0x24c20283
+
+
+
+
+res/drawable/marker_left_focused.png
+0xfccb1373
+
+
+
+
+res/drawable/marker_left_normal.png
+0xf1862a4a
+
+
+
+
+res/drawable/marker_left_pressed.png
+0x7d4d769c
+
+
+
+
+res/drawable/marker_right.xml
+0xcbb398fe
+
+
+
+
+res/drawable/marker_right_focused.png
+0xbc10453e
+
+
+
+
+res/drawable/marker_right_normal.png
+0x90231a61
+
+
+
+
+res/drawable/marker_right_pressed.png
+0xfecdfc6a
+
+
+
+
+res/layout/activity_ring_edit.xml
+0x7556f041
+
+
+
+
+res/layout/audio_mix_activity.xml
+0xe3d070a9
+
+
+
+
+res/layout/dialog_after_save_action_dialog.xml
+0x62bb3d49
+
+
+
+
+res/layout/dialog_file_save.xml
+0x79b8e06b
+
+
+
+
+res/layout/splash_activity.xml
+0x7d763f1f
+
+
+
+
+resources.arsc
+0x59d53785
+
+
+
+
+third_party/java_src/error_prone/project/annotations/Annotations.gwt.xml
+0x3ddeaac0
+
+
+
+
+third_party/java_src/error_prone/project/annotations/Google_internal.gwt.xml
+0xb127680a
+
+
+
+
+
+
+
+
+
+Activity name
+Type
+
+
+
+
+com.audiomix.SplashActivity
+android.intent.action.MAIN
+
+
+
+
+com.audiomix.SplashActivity
+android.intent.category.LAUNCHER
+
+
+
+
+
+
+
+
+
+Permission name
+
+
+
+
+android.permission.WRITE_EXTERNAL_STORAGE
+
+
+
+
+android.permission.INTERNET
+
+
+
+
+android.permission.ACCESS_NETWORK_STATE
+
+
+
+
+android.permission.ACCESS_WIFI_STATE
+
+
+
+
+android.permission.GET_TASKS
+
+
+
+
+android.permission.ACCESS_FINE_LOCATION
+
+
+
+
+android.permission.ACCESS_COARSE_LOCATION
+
+
+

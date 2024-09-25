@@ -1,0 +1,31 @@
+69cb089863541a5ec06a4dfaf2aab0f39709cb080c9d13311d1fb918180e7ba6:['File', 'Network', 'Location']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.VIBRATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.BLUETOOTH
+android.permission.BLUETOOTH_ADMIN
+------------------------------
+API:
+./res/69cb089863541a5ec06a4dfaf2aab0f39709cb080c9d13311d1fb918180e7ba6/api.txt
+------------------------------
+Intent:
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+android.net.conn.CONNECTIVITY_CHANGE
+com.lseiei.downloadManager
+com.cdib.b
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/69cb089863541a5ec06a4dfaf2aab0f39709cb080c9d13311d1fb918180e7ba6/69cb089863541a5ec06a4dfaf2aab0f39709cb080c9d13311d1fb918180e7ba6.gml

@@ -1,0 +1,37 @@
+126be629d9ec61323f92db2ff0e618af2f079382ac030663ea7507a0826e824a:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.SYSTEM_OVERLAY_WINDOW
+android.permission.CHANGE_CONFIGURATION
+android.permission.FLASHLIGHT
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.PROCESS_OUTGOING_CALLS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RECORD_VIDEO
+com.dy.sport.brand.permission.JPUSH_MESSAGE
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECORD_AUDIO
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.CALL_PHONE
+------------------------------
+API:
+./res/126be629d9ec61323f92db2ff0e618af2f079382ac030663ea7507a0826e824a/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+com.dy.sport.brand
+------------------------------
+Function call graph:
+gml path: ./res/126be629d9ec61323f92db2ff0e618af2f079382ac030663ea7507a0826e824a/126be629d9ec61323f92db2ff0e618af2f079382ac030663ea7507a0826e824a.gml

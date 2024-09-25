@@ -1,0 +1,34 @@
+4f4bbbe5cd72d69c88ec58d8f7800ef3e9c9bf5e847014342061dc0dd820acfb:['network']
+------------------------------
+Permissions:
+android.permission.MANAGE_ACCOUNTS
+android.permission.PROCESS_OUTGOING_CALLS
+android.permission.CALL_PHONE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+www.zsye.com.permission.JPUSH_MESSAGE
+android.permission.GET_ACCOUNTS
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WAKE_LOCK
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.RECEIVE_USER_PRESENT
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.WRITE_SETTINGS
+android.permission.RESTART_PACKAGES
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_WIFI_STATE
+android.permission.READ_PHONE_STATE
+android.permission.GET_TASKS
+android.permission.CHANGE_WIFI_STATE
+------------------------------
+API:
+./res/4f4bbbe5cd72d69c88ec58d8f7800ef3e9c9bf5e847014342061dc0dd820acfb/api.txt
+------------------------------
+Intent:
+android.intent.action.PHONE_STATE
+android.intent.action.NEW_OUTGOING_CALL
+www.zsye.com
+------------------------------
+Function call graph:
+gml path: ./res/4f4bbbe5cd72d69c88ec58d8f7800ef3e9c9bf5e847014342061dc0dd820acfb/4f4bbbe5cd72d69c88ec58d8f7800ef3e9c9bf5e847014342061dc0dd820acfb.gml

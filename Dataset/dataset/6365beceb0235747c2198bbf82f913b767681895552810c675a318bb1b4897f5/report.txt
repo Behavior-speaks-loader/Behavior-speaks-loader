@@ -1,0 +1,41 @@
+6365beceb0235747c2198bbf82f913b767681895552810c675a318bb1b4897f5:['Location', 'File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.BLUETOOTH
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.MANAGE_ACCOUNTS
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.GET_ACCOUNTS
+android.permission.REORDER_TASKS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+com.p1.mobile.putong.permission.JPUSH_MESSAGE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECORD_AUDIO
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/6365beceb0235747c2198bbf82f913b767681895552810c675a318bb1b4897f5/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+android.intent.action.USER_PRESENT
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.PACKAGE_ADDED
+android.intent.action.PACKAGE_REMOVED
+com.p1.mobile.putong
+------------------------------
+Function call graph:
+gml path: ./res/6365beceb0235747c2198bbf82f913b767681895552810c675a318bb1b4897f5/6365beceb0235747c2198bbf82f913b767681895552810c675a318bb1b4897f5.gml

@@ -1,0 +1,21 @@
+20022a1361d2d78d5aac67ed7a7c3dd370bf96ab7d441b3b4a6ac3b87d477027:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_PHONE_STATE
+android.permission.READ_LOGS
+android.permission.INTERNET
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/20022a1361d2d78d5aac67ed7a7c3dd370bf96ab7d441b3b4a6ac3b87d477027/api.txt
+------------------------------
+Intent:
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/20022a1361d2d78d5aac67ed7a7c3dd370bf96ab7d441b3b4a6ac3b87d477027/20022a1361d2d78d5aac67ed7a7c3dd370bf96ab7d441b3b4a6ac3b87d477027.gml

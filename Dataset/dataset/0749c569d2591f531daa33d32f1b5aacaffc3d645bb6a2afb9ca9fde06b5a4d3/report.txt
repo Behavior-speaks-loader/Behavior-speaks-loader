@@ -1,0 +1,36 @@
+0749c569d2591f531daa33d32f1b5aacaffc3d645bb6a2afb9ca9fde06b5a4d3:['File']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.READ_LOGS
+android.permission.CAMERA
+android.permission.INTERNET
+android.permission.FLASHLIGHT
+getui.permission.GetuiService.com.tjpay.yjt
+android.permission.GET_TASKS
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/0749c569d2591f531daa33d32f1b5aacaffc3d645bb6a2afb9ca9fde06b5a4d3/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.USER_PRESENT
+com.igexin.sdk.action.refreshls
+android.intent.action.MEDIA_MOUNTED
+android.intent.action.ACTION_POWER_CONNECTED
+android.intent.action.ACTION_POWER_DISCONNECTED
+android.intent.category.DEFAULT
+------------------------------
+Function call graph:
+gml path: ./res/0749c569d2591f531daa33d32f1b5aacaffc3d645bb6a2afb9ca9fde06b5a4d3/0749c569d2591f531daa33d32f1b5aacaffc3d645bb6a2afb9ca9fde06b5a4d3.gml

@@ -1,0 +1,47 @@
+6325c9590d2f7d0e16c0c139f4bf166a38ff0bf9e6852cb58f5d039430d6c01c:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.READ_LOGS
+android.permission.FLASHLIGHT
+android.permission.GET_TASKS
+android.permission.BLUETOOTH
+android.permission.ACCESS_FINE_LOCATION
+android.permission.BATTERY_STATS
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.BROADCAST_STICKY
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.KILL_BACKGROUND_PROCESSES
+android.permission.VIBRATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/6325c9590d2f7d0e16c0c139f4bf166a38ff0bf9e6852cb58f5d039430d6c01c/api.txt
+------------------------------
+Intent:
+com.tencent.android.tpush.action.SDK
+com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE
+android.net.conn.CONNECTIVITY_CHANGE
+android.intent.action.USER_PRESENT
+android.bluetooth.adapter.action.STATE_CHANGED
+android.intent.action.ACTION_POWER_CONNECTED
+android.intent.action.ACTION_POWER_DISCONNECTED
+android.intent.action.MEDIA_UNMOUNTED
+android.intent.action.MEDIA_REMOVED
+android.intent.action.MEDIA_CHECKING
+android.intent.action.MEDIA_EJECT
+android.intent.category.LAUNCHER
+------------------------------
+Function call graph:
+gml path: ./res/6325c9590d2f7d0e16c0c139f4bf166a38ff0bf9e6852cb58f5d039430d6c01c/6325c9590d2f7d0e16c0c139f4bf166a38ff0bf9e6852cb58f5d039430d6c01c.gml

@@ -1,0 +1,36 @@
+3be4c692b642c99506fe2344906e091206547576801280d130129c9b709d79c9:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.SEND_SMS
+android.permission.GET_TASKS
+android.permission.BROADCAST_PACKAGE_CHANGED
+android.permission.READ_SMS
+android.permission.INTERNET
+android.permission.BROADCAST_PACKAGE_ADDED
+android.permission.GET_ACCOUNTS
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.RESTART_PACKAGES
+android.permission.BROADCAST_PACKAGE_INSTALL
+android.permission.BROADCAST_PACKAGE_REPLACED
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.CHANGE_NETWORK_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CAMERA
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/3be4c692b642c99506fe2344906e091206547576801280d130129c9b709d79c9/api.txt
+------------------------------
+Intent:
+android.intent.action.BOOT_COMPLETED
+umeng
+------------------------------
+Function call graph:
+gml path: ./res/3be4c692b642c99506fe2344906e091206547576801280d130129c9b709d79c9/3be4c692b642c99506fe2344906e091206547576801280d130129c9b709d79c9.gml

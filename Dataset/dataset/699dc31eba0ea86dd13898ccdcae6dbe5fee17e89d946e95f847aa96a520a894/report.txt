@@ -1,0 +1,32 @@
+699dc31eba0ea86dd13898ccdcae6dbe5fee17e89d946e95f847aa96a520a894:['File']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.NFC
+android.permission.CHANGE_NETWORK_STATE
+android.permission.INTERNET
+android.permission.READ_CONTACTS
+android.permission.RECORD_AUDIO
+android.permission.GET_TASKS
+org.simalliance.openmobileapi.SMARTCARD
+android.permission.RECEIVE_SMS
+android.permission.WRITE_EXTERNAL_STORAGE
+android.permission.MODIFY_AUDIO_SETTINGS
+android.permission.DISABLE_KEYGUARD
+------------------------------
+API:
+./res/699dc31eba0ea86dd13898ccdcae6dbe5fee17e89d946e95f847aa96a520a894/api.txt
+------------------------------
+Intent:
+com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/699dc31eba0ea86dd13898ccdcae6dbe5fee17e89d946e95f847aa96a520a894/699dc31eba0ea86dd13898ccdcae6dbe5fee17e89d946e95f847aa96a520a894.gml

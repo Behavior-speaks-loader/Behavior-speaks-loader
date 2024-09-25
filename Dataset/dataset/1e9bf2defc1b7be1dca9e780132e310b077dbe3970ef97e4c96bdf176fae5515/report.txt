@@ -1,0 +1,43 @@
+1e9bf2defc1b7be1dca9e780132e310b077dbe3970ef97e4c96bdf176fae5515:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_NETWORK_STATE
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.RUN_INSTRUMENTATION
+android.permission.READ_SETTINGS
+android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+android.permission.INTERNET
+android.permission.MANAGE_ACCOUNTS
+android.permission.GET_ACCOUNTS
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.CHANGE_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.CHANGE_NETWORK_STATE
+android.permission.CAMERA
+android.permission.RECEIVE_USER_PRESENT
+android.permission.RECEIVE_BOOT_COMPLETED
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.juanbei.tbk.permission.JPUSH_MESSAGE
+------------------------------
+API:
+./res/1e9bf2defc1b7be1dca9e780132e310b077dbe3970ef97e4c96bdf176fae5515/api.txt
+------------------------------
+Intent:
+cn.jpush.android.intent.REGISTRATION
+cn.jpush.android.intent.UNREGISTRATION
+cn.jpush.android.intent.MESSAGE_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_RECEIVED
+cn.jpush.android.intent.NOTIFICATION_OPENED
+cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+cn.jpush.android.intent.CONNECTION
+com.juanbei.tbk
+------------------------------
+Function call graph:
+gml path: ./res/1e9bf2defc1b7be1dca9e780132e310b077dbe3970ef97e4c96bdf176fae5515/1e9bf2defc1b7be1dca9e780132e310b077dbe3970ef97e4c96bdf176fae5515.gml

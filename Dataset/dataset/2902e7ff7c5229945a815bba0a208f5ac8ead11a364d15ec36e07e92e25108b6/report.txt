@@ -1,0 +1,29 @@
+2902e7ff7c5229945a815bba0a208f5ac8ead11a364d15ec36e07e92e25108b6:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_FINE_LOCATION
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.ACCESS_WIFI_STATE
+android.permission.ACCESS_NETWORK_STATE
+android.permission.VIBRATE
+android.permission.READ_PHONE_STATE
+android.permission.INSTALL_SHORTCUT
+android.permission.INTERNET
+com.google.android.c2dm.permission.RECEIVE
+android.permission.FOREGROUND_SERVICE
+android.permission.WAKE_LOCK
+android.permission.WRITE_EXTERNAL_STORAGE
+com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+com.android.vending.BILLING
+android.permission.READ_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/2902e7ff7c5229945a815bba0a208f5ac8ead11a364d15ec36e07e92e25108b6/api.txt
+------------------------------
+Intent:
+com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+android.intent.category.DEFAULT
+android.intent.category.PREFERENCE
+------------------------------
+Function call graph:
+gml path: ./res/2902e7ff7c5229945a815bba0a208f5ac8ead11a364d15ec36e07e92e25108b6/2902e7ff7c5229945a815bba0a208f5ac8ead11a364d15ec36e07e92e25108b6.gml

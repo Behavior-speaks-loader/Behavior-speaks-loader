@@ -1,0 +1,33 @@
+6a871bede2533c30e596aa5f11e7dd1100f954dae9569383dc65ebcff736428a:['File', 'Network']
+------------------------------
+Permissions:
+android.permission.ACCESS_NETWORK_STATE
+android.permission.RECEIVE_SMS
+android.permission.READ_LOGS
+android.permission.GET_TASKS
+android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+android.permission.RUN_INSTRUMENTATION
+android.permission.BLUETOOTH
+android.permission.READ_SMS
+android.permission.ACCESS_FINE_LOCATION
+android.permission.READ_SETTINGS
+android.permission.READ_CONTACTS
+android.permission.INTERNET
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.ACCESS_WIFI_STATE
+android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+android.permission.ACCESS_COARSE_LOCATION
+android.permission.READ_PHONE_STATE
+android.permission.WRITE_SETTINGS
+android.permission.WRITE_EXTERNAL_STORAGE
+------------------------------
+API:
+./res/6a871bede2533c30e596aa5f11e7dd1100f954dae9569383dc65ebcff736428a/api.txt
+------------------------------
+Intent:
+mtopsdk.xstate.aidl.IXState
+android.intent.category.DEFAULT
+android.intent.category.BROWSABLE
+------------------------------
+Function call graph:
+gml path: ./res/6a871bede2533c30e596aa5f11e7dd1100f954dae9569383dc65ebcff736428a/6a871bede2533c30e596aa5f11e7dd1100f954dae9569383dc65ebcff736428a.gml
